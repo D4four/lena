@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<palette resid="ccd36f59-da44-4a3a-9ed6-7be0c5ed873f" guid="cae73537-5d42-4b03-931c-e04012d0b9e9">
+<colors>
+<page>
+<color cs="RGB" tints="0,0,0"></color>
+<color cs="RGB" tints="0,0,0.2"></color>
+<color cs="RGB" tints="0,0,0.4"></color>
+<color cs="RGB" tints="0,0,0.6"></color>
+<color cs="RGB" tints="0,0,0.8"></color>
+<color cs="RGB" tints="0,0,1"></color>
+<color cs="RGB" tints="0,0.2,0"></color>
+<color cs="RGB" tints="0,0.2,0.2"></color>
+<color cs="RGB" tints="0,0.2,0.4"></color>
+<color cs="RGB" tints="0,0.2,0.6"></color>
+<color cs="RGB" tints="0,0.2,0.8"></color>
+<color cs="RGB" tints="0,0.2,1"></color>
+<color cs="RGB" tints="0,0.4,0"></color>
+<color cs="RGB" tints="0,0.4,0.2"></color>
+<color cs="RGB" tints="0,0.4,0.4"></color>
+<color cs="RGB" tints="0,0.4,0.6"></color>
+<color cs="RGB" tints="0,0.4,0.8"></color>
+<color cs="RGB" tints="0,0.4,1"></color>
+<color cs="RGB" tints="0,0.6,0"></color>
+<color cs="RGB" tints="0,0.6,0.2"></color>
+<color cs="RGB" tints="0,0.6,0.4"></color>
+<color cs="RGB" tints="0,0.6,0.6"></color>
+<color cs="RGB" tints="0,0.6,0.8"></color>
+<color cs="RGB" tints="0,0.6,1"></color>
+<color cs="RGB" tints="0,0.8,0"></color>
+<color cs="RGB" tints="0,0.8,0.2"></color>
+<color cs="RGB" tints="0,0.8,0.4"></color>
+<color cs="RGB" tints="0,0.8,0.6"></color>
+<color cs="RGB" tints="0,0.8,0.8"></color>
+<color cs="RGB" tints="0,0.8,1"></color>
+<color cs="RGB" tints="0,1,0"></color>
+<color cs="RGB" tints="0,1,0.2"></color>
+<color cs="RGB" tints="0,1,0.4"></color>
+<color cs="RGB" tints="0,1,0.6"></color>
+<color cs="RGB" tints="0,1,0.8"></color>
+<color cs="RGB" tints="0,1,1"></color>
+<color cs="RGB" tints="0.2,0,0"></color>
+<color cs="RGB" tints="0.2,0,0.2"></color>
+<color cs="RGB" tints="0.2,0,0.4"></color>
+<color cs="RGB" tints="0.2,0,0.6"></color>
+<color cs="RGB" tints="0.2,0,0.8"></color>
+<color cs="RGB" tints="0.2,0,1"></color>
+<color cs="RGB" tints="0.2,0.2,0"></color>
+<color cs="RGB" tints="0.2,0.2,0.2"></color>
+<color cs="RGB" tints="0.2,0.2,0.4"></color>
+<color cs="RGB" tints="0.2,0.2,0.6"></color>
+<color cs="RGB" tints="0.2,0.2,0.8"></color>
+<color cs="RGB" tints="0.2,0.2,1"></color>
+<color cs="RGB" tints="0.2,0.4,0"></color>
+<color cs="RGB" tints="0.2,0.4,0.2"></color>
+<color cs="RGB" tints="0.2,0.4,0.4"></color>
+<color cs="RGB" tints="0.2,0.4,0.6"></color>
+<color cs="RGB" tints="0.2,0.4,0.8"></color>
+<color cs="RGB" tints="0.2,0.4,1"></color>
+<color cs="RGB" tints="0.2,0.6,0"></color>
+<color cs="RGB" tints="0.2,0.6,0.2"></color>
+<color cs="RGB" tints="0.2,0.6,0.4"></color>
+<color cs="RGB" tints="0.2,0.6,0.6"></color>
+<color cs="RGB" tints="0.2,0.6,0.8"></color>
+<color cs="RGB" tints="0.2,0.6,1"></color>
+<color cs="RGB" tints="0.2,0.8,0"></color>
+<color cs="RGB" tints="0.2,0.8,0.2"></color>
+<color cs="RGB" tints="0.2,0.8,0.4"></color>
+<color cs="RGB" tints="0.2,0.8,0.6"></color>
+<color cs="RGB" tints="0.2,0.8,0.8"></color>
+<color cs="RGB" tints="0.2,0.8,1"></color>
+<color cs="RGB" tints="0.2,1,0"></color>
+<color cs="RGB" tints="0.2,1,0.2"></color>
+<color cs="RGB" tints="0.2,1,0.4"></color>
+<color cs="RGB" tints="0.2,1,0.6"></color>
+<color cs="RGB" tints="0.2,1,0.8"></color>
+<color cs="RGB" tints="0.2,1,1"></color>
+<color cs="RGB" tints="0.4,0,0"></color>
+<color cs="RGB" tints="0.4,0,0.2"></color>
+<color cs="RGB" tints="0.4,0,0.4"></color>
+<color cs="RGB" tints="0.4,0,0.6"></color>
+<color cs="RGB" tints="0.4,0,0.8"></color>
+<color cs="RGB" tints="0.4,0,1"></color>
+<color cs="RGB" tints="0.4,0.2,0"></color>
+<color cs="RGB" tints="0.4,0.2,0.2"></color>
+<color cs="RGB" tints="0.4,0.2,0.4"></color>
+<color cs="RGB" tints="0.4,0.2,0.6"></color>
+<color cs="RGB" tints="0.4,0.2,0.8"></color>
+<color cs="RGB" tints="0.4,0.2,1"></color>
+<color cs="RGB" tints="0.4,0.4,0"></color>
+<color cs="RGB" tints="0.4,0.4,0.2"></color>
+<color cs="RGB" tints="0.4,0.4,0.4"></color>
+<color cs="RGB" tints="0.4,0.4,0.6"></color>
+<color cs="RGB" tints="0.4,0.4,0.8"></color>
+<color cs="RGB" tints="0.4,0.4,1"></color>
+<color cs="RGB" tints="0.4,0.6,0"></color>
+<color cs="RGB" tints="0.4,0.6,0.2"></color>
+<color cs="RGB" tints="0.4,0.6,0.4"></color>
+<color cs="RGB" tints="0.4,0.6,0.6"></color>
+<color cs="RGB" tints="0.4,0.6,0.8"></color>
+<color cs="RGB" tints="0.4,0.6,1"></color>
+<color cs="RGB" tints="0.4,0.8,0"></color>
+<color cs="RGB" tints="0.4,0.8,0.2"></color>
+<color cs="RGB" tints="0.4,0.8,0.4"></color>
+<color cs="RGB" tints="0.4,0.8,0.6"></color>
+<color cs="RGB" tints="0.4,0.8,0.8"></color>
+<color cs="RGB" tints="0.4,0.8,1"></color>
+<color cs="RGB" tints="0.4,1,0"></color>
+<color cs="RGB" tints="0.4,1,0.2"></color>
+<color cs="RGB" tints="0.4,1,0.4"></color>
+<color cs="RGB" tints="0.4,1,0.6"></color>
+<color cs="RGB" tints="0.4,1,0.8"></color>
+<color cs="RGB" tints="0.4,1,1"></color>
+<color cs="RGB" tints="0.6,0,0"></color>
+<color cs="RGB" tints="0.6,0,0.2"></color>
+<color cs="RGB" tints="0.6,0,0.4"></color>
+<color cs="RGB" tints="0.6,0,0.6"></color>
+<color cs="RGB" tints="0.6,0,0.8"></color>
+<color cs="RGB" tints="0.6,0,1"></color>
+<color cs="RGB" tints="0.6,0.2,0"></color>
+<color cs="RGB" tints="0.6,0.2,0.2"></color>
+<color cs="RGB" tints="0.6,0.2,0.4"></color>
+<color cs="RGB" tints="0.6,0.2,0.6"></color>
+<color cs="RGB" tints="0.6,0.2,0.8"></color>
+<color cs="RGB" tints="0.6,0.2,1"></color>
+<color cs="RGB" tints="0.6,0.4,0"></color>
+<color cs="RGB" tints="0.6,0.4,0.2"></color>
+<color cs="RGB" tints="0.6,0.4,0.4"></color>
+<color cs="RGB" tints="0.6,0.4,0.6"></color>
+<color cs="RGB" tints="0.6,0.4,0.8"></color>
+<color cs="RGB" tints="0.6,0.4,1"></color>
+<color cs="RGB" tints="0.6,0.6,0"></color>
+<color cs="RGB" tints="0.6,0.6,0.2"></color>
+<color cs="RGB" tints="0.6,0.6,0.4"></color>
+<color cs="RGB" tints="0.6,0.6,0.6"></color>
+<color cs="RGB" tints="0.6,0.6,0.8"></color>
+<color cs="RGB" tints="0.6,0.6,1"></color>
+<color cs="RGB" tints="0.6,0.8,0"></color>
+<color cs="RGB" tints="0.6,0.8,0.2"></color>
+<color cs="RGB" tints="0.6,0.8,0.4"></color>
+<color cs="RGB" tints="0.6,0.8,0.6"></color>
+<color cs="RGB" tints="0.6,0.8,0.8"></color>
+<color cs="RGB" tints="0.6,0.8,1"></color>
+<color cs="RGB" tints="0.6,1,0"></color>
+<color cs="RGB" tints="0.6,1,0.2"></color>
+<color cs="RGB" tints="0.6,1,0.4"></color>
+<color cs="RGB" tints="0.6,1,0.6"></color>
+<color cs="RGB" tints="0.6,1,0.8"></color>
+<color cs="RGB" tints="0.6,1,1"></color>
+<color cs="RGB" tints="0.8,0,0"></color>
+<color cs="RGB" tints="0.8,0,0.2"></color>
+<color cs="RGB" tints="0.8,0,0.4"></color>
+<color cs="RGB" tints="0.8,0,0.6"></color>
+<color cs="RGB" tints="0.8,0,0.8"></color>
+<color cs="RGB" tints="0.8,0,1"></color>
+<color cs="RGB" tints="0.8,0.2,0"></color>
+<color cs="RGB" tints="0.8,0.2,0.2"></color>
+<color cs="RGB" tints="0.8,0.2,0.4"></color>
+<color cs="RGB" tints="0.8,0.2,0.6"></color>
+<color cs="RGB" tints="0.8,0.2,0.8"></color>
+<color cs="RGB" tints="0.8,0.2,1"></color>
+<color cs="RGB" tints="0.8,0.4,0"></color>
+<color cs="RGB" tints="0.8,0.4,0.2"></color>
+<color cs="RGB" tints="0.8,0.4,0.4"></color>
+<color cs="RGB" tints="0.8,0.4,0.6"></color>
+<color cs="RGB" tints="0.8,0.4,0.8"></color>
+<color cs="RGB" tints="0.8,0.4,1"></color>
+<color cs="RGB" tints="0.8,0.6,0"></color>
+<color cs="RGB" tints="0.8,0.6,0.2"></color>
+<color cs="RGB" tints="0.8,0.6,0.4"></color>
+<color cs="RGB" tints="0.8,0.6,0.6"></color>
+<color cs="RGB" tints="0.8,0.6,0.8"></color>
+<color cs="RGB" tints="0.8,0.6,1"></color>
+<color cs="RGB" tints="0.8,0.8,0"></color>
+<color cs="RGB" tints="0.8,0.8,0.2"></color>
+<color cs="RGB" tints="0.8,0.8,0.4"></color>
+<color cs="RGB" tints="0.8,0.8,0.6"></color>
+<color cs="RGB" tints="0.8,0.8,0.8"></color>
+<color cs="RGB" tints="0.8,0.8,1"></color>
+<color cs="RGB" tints="0.8,1,0"></color>
+<color cs="RGB" tints="0.8,1,0.2"></color>
+<color cs="RGB" tints="0.8,1,0.4"></color>
+<color cs="RGB" tints="0.8,1,0.6"></color>
+<color cs="RGB" tints="0.8,1,0.8"></color>
+<color cs="RGB" tints="0.8,1,1"></color>
+<color cs="RGB" tints="1,0,0"></color>
+<color cs="RGB" tints="1,0,0.2"></color>
+<color cs="RGB" tints="1,0,0.4"></color>
+<color cs="RGB" tints="1,0,0.6"></color>
+<color cs="RGB" tints="1,0,0.8"></color>
+<color cs="RGB" tints="1,0,1"></color>
+<color cs="RGB" tints="1,0.2,0"></color>
+<color cs="RGB" tints="1,0.2,0.2"></color>
+<color cs="RGB" tints="1,0.2,0.4"></color>
+<color cs="RGB" tints="1,0.2,0.6"></color>
+<color cs="RGB" tints="1,0.2,0.8"></color>
+<color cs="RGB" tints="1,0.2,1"></color>
+<color cs="RGB" tints="1,0.4,0"></color>
+<color cs="RGB" tints="1,0.4,0.2"></color>
+<color cs="RGB" tints="1,0.4,0.4"></color>
+<color cs="RGB" tints="1,0.4,0.6"></color>
+<color cs="RGB" tints="1,0.4,0.8"></color>
+<color cs="RGB" tints="1,0.4,1"></color>
+<color cs="RGB" tints="1,0.6,0"></color>
+<color cs="RGB" tints="1,0.6,0.2"></color>
+<color cs="RGB" tints="1,0.6,0.4"></color>
+<color cs="RGB" tints="1,0.6,0.6"></color>
+<color cs="RGB" tints="1,0.6,0.8"></color>
+<color cs="RGB" tints="1,0.6,1"></color>
+<color cs="RGB" tints="1,0.8,0"></color>
+<color cs="RGB" tints="1,0.8,0.2"></color>
+<color cs="RGB" tints="1,0.8,0.4"></color>
+<color cs="RGB" tints="1,0.8,0.6"></color>
+<color cs="RGB" tints="1,0.8,0.8"></color>
+<color cs="RGB" tints="1,0.8,1"></color>
+<color cs="RGB" tints="1,1,0"></color>
+<color cs="RGB" tints="1,1,0.2"></color>
+<color cs="RGB" tints="1,1,0.4"></color>
+<color cs="RGB" tints="1,1,0.6"></color>
+<color cs="RGB" tints="1,1,0.8"></color>
+<color cs="RGB" tints="1,1,1"></color>
+<color cs="RGB" tints="0,0,0"></color>
+<color cs="RGB" tints="0.05098,0.05098,0.05098"></color>
+<color cs="RGB" tints="0.101961,0.101961,0.101961"></color>
+<color cs="RGB" tints="0.156863,0.156863,0.156863"></color>
+<color cs="RGB" tints="0.207843,0.207843,0.207843"></color>
+<color cs="RGB" tints="0.262745,0.262745,0.262745"></color>
+<color cs="RGB" tints="0.313725,0.313725,0.313725"></color>
+<color cs="RGB" tints="0.364706,0.364706,0.364706"></color>
+<color cs="RGB" tints="0.419608,0.419608,0.419608"></color>
+<color cs="RGB" tints="0.470588,0.470588,0.470588"></color>
+<color cs="RGB" tints="0.52549,0.52549,0.52549"></color>
+<color cs="RGB" tints="0.576471,0.576471,0.576471"></color>
+<color cs="RGB" tints="0.631373,0.631373,0.631373"></color>
+<color cs="RGB" tints="0.682353,0.682353,0.682353"></color>
+<color cs="RGB" tints="0.733333,0.733333,0.733333"></color>
+<color cs="RGB" tints="0.788235,0.788235,0.788235"></color>
+<color cs="RGB" tints="0.839216,0.839216,0.839216"></color>
+<color cs="RGB" tints="0.894118,0.894118,0.894118"></color>
+<color cs="RGB" tints="0.945098,0.945098,0.945098"></color>
+<color cs="RGB" tints="1,1,1"></color>
+</page>
+</colors>
+<localization>
+<resource id="ccd36f59-da44-4a3a-9ed6-7be0c5ed873f">
+<EN>System</EN>
+<BR>Sistema</BR>
+<CS>SYSTEM.cpl</CS>
+<CZ>Systémový</CZ>
+<ES>Sistema</ES>
+<FR>Système</FR>
+<IT>Sistema</IT>
+<JP>システム</JP>
+<MA>Rendszer</MA>
+<NL>Systeem</NL>
+<PL>Systemowy</PL>
+<RU>Система</RU>
+<SU>Järjestelmä</SU>
+<TR>Sistem</TR>
+</resource>
+</localization>
+</palette>
+

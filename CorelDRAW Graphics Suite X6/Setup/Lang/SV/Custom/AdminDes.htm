@@ -1,0 +1,186 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"  
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"
+    />
+    
+    <script type="text/jscript" language="jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script type="text/jscript" language="jscript">
+
+        var Setup = window.external;
+        
+        /*  function On_idInstallClick()    **************************
+        *
+        *   - verifies [TARGETDIR] is not blank before installing
+        **************************************************************/
+        function On_idInstallClick()
+        {
+            var str = Setup.GetProperty("TARGETDIR");
+            
+            if ("" == str)
+            {
+                idFolderErr.style.display = "block";
+                return false;
+            }
+            if (!Setup.ValidateInstallFolder())
+            {
+                return false;
+            }
+
+            idFolderErr.style.display = "none";
+            Setup.EndModalLoop(0);
+            
+        
+        } //function On_idInstallClick()
+        
+                
+        function OnBodyLoad()
+        {
+            if (g_bShowContent) //display the Content Location block
+            {
+                idContent.style.display = "block";
+                idUpdates.style.top = "280px";
+                idImage.style.top = "0px";
+            }
+            else
+            {
+                idContent.style.display = "none";
+                
+                idImageDesc.style.top = "46px";
+                idImagePath.style.top = "80px";
+                idUpdates.style.top = "180px";
+            }
+        }
+        
+    </script>
+    
+</head>
+   
+<body onload="OnBodyLoad();">
+
+<!-- background -->
+<div id="idBackGrd"></div>
+
+<img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+
+<!-- page content panel -->
+<div id="idPanel"  >
+    <div id="idImage" class="DlgBlock" style="width: 225px;">
+        <div class="DlgHeader" id="idImageHeader" style="width: 225px;" >
+            Plats för avbildning:
+        </div><!-- idImageHeader -->
+
+        <div class="DlgBlock" id="idImageDesc" style="top: 36px;" >
+            Du kan installera serveravbildningen på en specifik nätverksplats.
+        </div><!-- idImageDesc -->
+        
+        <div class="DlgBlock" id="idImagePath" style="top: 60px;">
+            <div class="DlgBlock" style="top: 2px; width: 45px;">
+                <img src="../../_XX/Custom/Images/Folder.png" alt="" />
+            </div>
+            <div class="DlgBlock" style="top: 0px; width: 565px; left: 50px;">
+                <label ><u>S</u>kriv in bildvägen eller klicka på <b>Ändra</b> för att bläddra till önskad plats:</label>
+            </div>
+            <div class="DlgBlock" style="top: 20px; width: 565px; left: 50px;">
+                <input type="text" maxlength="89" size="70" name="TARGETDIR" ICA:Function="ICAPathInput" accesskey="S" ID="idTARGETDIR" style="width: 550px;" />
+                <br />
+                <span id="idFolderErr" style="color: Red; display: none;">
+                    <label >Markera eller ange en nätverksplats där du vill skapa din serveravbildning.</label>
+                </span>
+            </div>
+            <div class="DlgBlock change" style="top: 18px; width: 140px; left: 595px; text-align: right;">
+                <button name="TARGETDIR" onmouseover="HighLightButton('idChange');" onmouseout="UnHighLightButton('idChange');" accesskey="N" ICA:Function="ICABrowse" id="idChange" >Ä<u>n</u>dra...</button>
+            </div>
+        </div><!-- idImagePath -->
+    </div><!-- idImage -->
+    
+    <div id="idContent" class="DlgBlock" style="top: 130px; display: none;">
+        <div class="DlgHeader" id="idContentHeader" style="top: 10px; width: 225px;" >
+            Innehållsplats:
+        </div>   <!-- idContentHeader -->
+
+        <div class="DlgBlock" id="idContentDesc" style="top: 36px;" >
+            Om du har ställt in övrigt innehåll på en nätverksresurs kan du peka arbetsstationen till denna plats.
+        </div>  <!-- idContentDesc -->
+        
+        <div class="DlgBlock" id="idContentPath" style="top: 60px;">
+            <div class="DlgBlock" style="top: 2px; width: 45px;">
+                <img src="../../_XX/Custom/Images/Folder.png" alt="" />
+            </div>
+            <div class="DlgBlock" style="top: 0px; width: 565px; left: 50px;">
+                <label >Skriv in sökvägen till innehållet eller klicka på <b>Ändra</b> för att bläddra till den installerade platsen:</label>
+            </div>
+            <div class="DlgBlock" style="top: 20px; width: 565px; left: 50px;">
+                <input type="text" maxlength="89" size="70" name="NETWORKINSTALLDIR" ICA:Function="ICAPathInput" accesskey="F" ID="idNETWORKINSTALLDIR" style="width: 550px;" />
+                <br />
+            </div>
+            <div class="DlgBlock change" style="top: 18px; width: 140px; left: 595px; text-align: right;">
+                <button name="NETWORKINSTALLDIR" onmouseover="HighLightButton('idChangeContent');" onmouseout="UnHighLightButton('idChangeContent');" accesskey="N" ICA:Function="ICABrowse" id="idChangeContent" >Ä<u>n</u>dra...</button>
+            </div>
+        </div><!-- idContentPath -->
+    </div><!-- idContent -->
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Product Updates controls - START -->
+    <div id="idUpdates" class="DlgBlock" style="top: 180px;">
+        <div class="DlgHeader" style="top: 10px; width: 225px;" >
+            Produktuppdateringar:
+        </div>
+        
+        <div class="DlgBlock" style="top: 40px; width: 45px; z-index: 1;">
+            <img src="../../_XX/Custom/Images/Updates.png" alt="" style="vertical-align:middle;"/>
+        </div>
+        <div class="DlgBlock" style="top: 45px; left: 40px; width: 600px; z-index: 2;">
+            <input id="idChkProductUpdates" type="checkbox" accesskey="L" name="ALLOW_PRODUCTUPDATES" />
+            <div class="DlgBlock" style="top: 2px; width: 575px; left: 22px; z-index: 2;">
+                <label for="idChkProductUpdates" >
+		        Ti<u>l</u>låt att arbetsstationen underrättas och ladda ner kostnadsfria produktuppdateringar.<br />
+                </label>
+            </div>
+        </div>  <!-- <div class="DlgBlock"> Product Updates controls - END -->
+    </div>
+    <!-- ---------------------------------------------------------- -->
+    
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Disk Space Requirements - START -->
+    <div class="DlgBlock" style="top: 360px; z-index: 2; background-color: transparent; text-align: right;">
+        &nbsp;<label ICA:AlwaysResolveStrings="1" ICA:Property="Str.DiskSpace.Formatted.1" style="font-size: 7pt; font-weight: bold;">XXX MB av XXX MB som krävs på enhet C:\</label><br /> 
+	<label ICA:AlwaysResolveStrings="1" ICA:Property="Str.DiskSpace.Formatted.0" style="font-size: 7pt; font-weight: bold;">XXX MB av XXX MB som krävs på enhet D:\</label>
+    </div>  <!-- <div class="DlgBlock"> Disk Space Requirements - END -->
+    
+</div> <!-- div id="idTabPanel" END -->
+
+
+<!-- ------------------------------------------------------------ -->
+<!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+<div class="DlgWizardBtns">
+    <table border="0" width="100%">
+        <tr>
+            <td align="right">
+                <button type="button" onmouseover="HighLightButton('idBack');" onmouseout="UnHighLightButton('idBack');" onclick="window.history.back();" ID="idBack" accesskey="T" ><u>T</u>illbaka</button>
+            </td>
+            <td width="120px" align="left">
+                <button type="button" ID="idInstall" onmouseover="HighLightButton('idInstall');" onmouseout="UnHighLightButton('idInstall');" onclick="On_idInstallClick()" accesskey="I"><u>I</u>nstallera nu</button>
+            </td>
+            <td width="120px" align="right">
+                <button type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" ICA:Function="ICACancelSetup" ID="idCancel" accesskey="A"><u>A</u>vbryt</button>
+            </td>
+        </tr>
+    </table>
+    
+</div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+
+</body>
+</html>

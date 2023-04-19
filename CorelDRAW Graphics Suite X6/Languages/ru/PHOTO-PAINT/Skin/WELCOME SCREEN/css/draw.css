@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* This is the CSS to enable/disable elements for Draw */
+
+#cover_wordmark {
+	background: left no-repeat url(../images/content/cover_headerDraw.png)
+}
+#bullet_newclipboard, #bullet_acquire {
+	display: none;
+}
+div#body_right3_01 ul.thumbs li.thumb2 {
+	visibility: hidden;
+}

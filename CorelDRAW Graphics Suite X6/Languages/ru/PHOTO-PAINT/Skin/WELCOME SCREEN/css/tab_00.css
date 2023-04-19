@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* These are for the cover page. */
+
+#container_spread			{display: none;}
+#container_pagecover	{display: block;}
+
+#tab_readyright_2			{display: none;}
+#tab_readyright_3			{display: none;}
+#tab_readyright_4			{display: none;}
+#tab_readyright_5			{display: none;}
+
+#tab_readyleft_1			{display: none;}
+#tab_readyleft_2			{display: none;}
+#tab_readyleft_3			{display: none;}
+#tab_readyleft_4			{display: none;}
+
+#tab_offleft_1				{display: none;}
+#tab_offleft_2				{display: none;}
+#tab_offleft_3				{display: none;}
+#tab_offleft_4				{display: none;}
+#tab_offleft_5				{display: none;}
+
+#tab_offright_1				{display: none;}
+#tab_offright_2				{display: none;}
+#tab_offright_3				{display: none;}
+#tab_offright_4				{display: none;}
+
+#tab_focus_1					{display: none;}
+#tab_focus_2					{display: none;}
+#tab_focus_3					{display: none;}
+#tab_focus_4					{display: none;}
+#tab_focus_5					{display: none;}
+
+#container_page_1			{display: none;}
+#container_page_2			{display: none;}
+#container_page_3			{display: none;}
+#container_page_4			{display: none;}
+#container_page_5			{display: none;}
+
+#tab_cover_1					{display: block;}
+#tab_cover_2					{display: block;}
+#tab_cover_3					{display: block;}
+#tab_cover_4					{display: block;}
+#tab_cover_5					{display: block;}
+
+

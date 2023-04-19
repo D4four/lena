@@ -1,0 +1,17 @@
+<PUBLIC:COMPONENT ID="SetupUIControls">
+    
+<PUBLIC:ATTACH EVENT="onmouseover" ONEVENT="BodyOnMouseOver()" />
+
+<SCRIPT LANGUAGE="JScript">
+    
+    function BodyOnMouseOver()
+    {
+        window.document.body.style.backgroundColor = "black";
+        window.document.body.style.backgroundColor = "#333435";
+
+    } //function BodyOnMouseOver()
+    
+
+   </SCRIPT>
+</PUBLIC:COMPONENT>
+

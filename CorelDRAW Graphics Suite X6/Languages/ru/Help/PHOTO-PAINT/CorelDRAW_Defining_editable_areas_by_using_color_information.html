@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="GENERATOR" content="Quadralay WebWorks Publisher Professional Edition 7.0.2.1206" />
+  <meta name="TEMPLATEBASE" content="Paint" />
+  <meta name="LASTUPDATED" content="02/17/12 10:18:45" />
+  <title>Определение редактируемых областей с помощью данных о цвете</title>
+  <link rel="StyleSheet" href="document.css" type="text/css" />
+  <link rel="StyleSheet" href="Mycatalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+ </head>
+
+ <body onLoad="WWHUpdate();">
+<a name="wppagetop"></a>
+<p class="pBody"></p>
+<p class="pBody">ыстрые ссылки на процедуры, описанные на этой странице:</p>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Defining_editable_areas_by_using_color_information.html#wp924167">Определение редактируемой области однородного цвета</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Defining_editable_areas_by_using_color_information.html#wp924213">Определение редактируемой области, окруженной однородным цветом</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Defining_editable_areas_by_using_color_information.html#wp924262">Определение редактируемых областей по всему изображению</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Defining_editable_areas_by_using_color_information.html#wp924343">Определение редактируемых областей в определенных цветовых каналах</a></div></td></tr></table>
+
+<br/>
+<a name="wp924106"> </a><h3 class="pHeading2">
+Определение редактируемых областей с помощью данных о цвете
+</h3>
+
+<a name="wp924118"> </a><p class="pBody">
+<a  href="CorelDRAW_Glossary.html#wp1685430">Редактируемые</a> и <a  href="CorelDRAW_Glossary.html#wp1683876">защищенные</a> области <a  href="CorelDRAW_Glossary.html#wp1684276">маски</a> можно определить с помощью данных о цвете в изображении. При использовании данных о цвете необходимо определить <a  href="CorelDRAW_Glossary.html#wp1683963">исходные цвета</a> и значение <a  href="CorelDRAW_Glossary.html#wp1684738">отклонени&#1103; цвета</a>. Исходный цвет &#8212; это базовый цвет, который используетс&#1103; дл&#1103; определени&#1103; защищенных или редактируемых областей. Значение отклонени&#1103; цвета определ&#1103;ет процент допустимого отклонени&#1103; цвета от исходного. Чем выше значение отклонени&#1103; цвета, тем больше цветов добавл&#1103;етс&#1103; в защищенные или редактируемые области маски. В основе отклонени&#1103; цвета лежит подобие цвета.
+</p>
+<a name="wp924122"> </a><h5 class="pSubHeading">
+Редактируемые области с однородными цветами
+</h5>
+<a name="wp924124"> </a><p class="pBody">
+Можно определить редактируемую область однородного цвета или редактируемую область, окруженную однородными цветами. Если область окружают однородные цвета, можно сделать примерный абрис, который сузит редактируемую область, или вз&#1103;ть в качестве основы дл&#1103; редактируемой области границу между однородными цветами.
+</p>
+<a name="wp924128"> </a><h5 class="pSubHeading">
+Редактируемые области по всему изображению
+</h5>
+<a name="wp924130"> </a><p class="pBody">
+С помощью цветовой маски можно определить редактируемые области по всему изображению. Цветова&#1103; маска позвол&#1103;ет выбирать исходные цвета по всему изображению, а не только в определенной области.
+</p>
+<a name="wp924140"> </a><p class="pBody">
+Цветовой <a  href="CorelDRAW_Glossary.html#wp1666730">порог</a> позвол&#1103;ет еще точнее задать диапазон цветов, включаемых в редактируемую область. В соответствии со значением цветового порога оцениваетс&#1103; <a  href="CorelDRAW_Glossary.html#wp1667956">&#1103;ркость</a> каждого исходного цвета и определ&#1103;етс&#1103;, какие <a  href="CorelDRAW_Glossary.html#wp1666578">пиксели</a> включаютс&#1103; в редактируемую область. Настройка цветового порога позвол&#1103;ет снижать и повышать резкость пикселей по кра&#1103;м редактируемой области. Чтобы настроить пороговые уровни цветовой маски, можно использовать предварительное изображение в <a  href="CorelDRAW_Glossary.html#wp1666419">оттенках серого</a> дл&#1103; отображени&#1103; маскируемых областей черным цветом, а редактируемых &#8212; белым.
+</p>
+<a name="wp924143"> </a><p class="pBody">
+</p><div align="left"><img align="absmiddle" src="images/mask_sel_color.jpg" height="250" width="546" border="0" hspace="0" vspace="0"/></div><p class="pBody">
+</p>
+<a name="wp924145"> </a><p class="pCaption">
+Синие, зеленые и сиреневые пиксели в исходном изображении (слева) выбраны с помощью цветовой маски (справа).
+</p>
+<a name="wp924149"> </a><h5 class="pSubHeading">
+Редактируемые области в определенном цветовом канале
+</h5>
+<a name="wp924157"> </a><p class="pBody">
+Можно задать редактируемую область в определенном <a  href="CorelDRAW_Glossary.html#wp1667711">цветовом канале</a>. Каждое цветное изображение имеет множество цветовых каналов, каждый из которых представл&#1103;ет один компонент <a  href="CorelDRAW_Glossary.html#wp1667982">цветовой модели</a> изображени&#1103;. Например, изображение в режиме <a  href="CorelDRAW_Glossary.html#wp1664860">RGB</a> определ&#1103;етс&#1103; значени&#1103;ми красного, зеленого и синего каналов. При отображении изображени&#1103; в режиме отдельных цветовых каналов отображаетс&#1103; только часть данных о цвете. Отображение только определенных цветовых каналов позвол&#1103;ет более точно определ&#1103;ть редактируемую область.
+</p>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp924167"> </a>Определение редактируемой области однородного цвета</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В наборе инструментов выберите инструмент <b class="cBold">Маска волшебной 
+палочкой</b> <img align="absmiddle" src="images/pgx_magic_wand_mask.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">На панели свойств нажмите кнопку <b class="cBold">Обычный</b> <img align="absmiddle" src="images/pgx_normal_mode.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Введите значение допуска в поле <b class="cBold">Допуск</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните цвет на изображении.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Чтобы изменить изображение сложной формы, представленное на 
+простом фоне, можно определить фон в качестве <a  href="CorelDRAW_Glossary.html#wp1685430">редактируемой 
+области</a> однородного цвета, а затем инвертировать <a  href="CorelDRAW_Glossary.html#wp1684276">маску</a>, чтобы 
+сделать форму редактируемой. Дл&#1103; получени&#1103; дополнительных 
+сведений об инвертировании масок см. раздел <a  href="CorelDRAW_Inverting_and_removing_masks.html#wp924496">Инвертирование и 
+удаление масок.</a>
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">При выборе цвета первого <a  href="CorelDRAW_Glossary.html#wp1666578">пиксел&#1103;</a> задаетс&#1103; <a  href="CorelDRAW_Glossary.html#wp1683963">исходный цвет</a>. Все 
+смежные пиксели с цветами, вход&#1103;щими в указанный диапазон 
+<a  href="CorelDRAW_Glossary.html#wp1684738">отклонени&#1103; цвета</a>, включаютс&#1103; в редактируемую область. 
+Редактируема&#1103; область расшир&#1103;етс&#1103; до пикселей с цветами, которые 
+превышают указанное отклонение.
+</div></td>
+</tr></table>
+<a name="wp924201"> </a><p class="pBody">
+</p><div align="left"><img align="absmiddle" src="images/mask_sel_adj_color.jpg" height="250" width="546" border="0" hspace="0" vspace="0"/></div><p class="pBody">
+</p>
+<a name="wp924203"> </a><p class="pCaption">
+Область определена путем выбора оранжевого пиксел&#1103; с помощью инструмента <b class="cBold">Маска волшебной палочкой</b>.
+</p>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp924213"> </a>Определение редактируемой области, окруженной однородным цветом</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В наборе инструментов выберите один из следующих инструментов.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">С помощью инструмента <b class="cBold">Маска лассо</b> <img align="absmiddle" src="images/pgx_lasso_mask_tool.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/> можно создать 
+приблизительный абрис области изображени&#1103;, а затем сузить <a  href="CorelDRAW_Glossary.html#wp1684276">рамку</a> 
+<a  href="CorelDRAW_Glossary.html#wp1685337">маски</a> вокруг указанного диапазона цветов в этой области 
+(используетс&#1103; первоначальный<a  href="CorelDRAW_Glossary.html#wp1683963">исходный цвет</a>)
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">С помощью инструмента <b style="font-weight: bold" class="cBold">Магнитна&#1103; маска</b><span style="font-weight: bold"> </span><img align="absmiddle" src="images/pgx_magnetic_mask_tool.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/> можно создать рамку 
+маски вдоль границы между цветами в изображении (используетс&#1103; 
+несколько исходных цветов).
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">На панели свойств нажмите кнопку <b class="cBold">Обычный</b> <img align="absmiddle" src="images/pgx_normal_mode.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Введите значение <a  href="CorelDRAW_Glossary.html#wp1684738">допуска</a> в поле <b class="cBold">Допуск</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В окне изображени&#1103; щелкните цвет, который требуетс&#1103; защитить от 
+изменений, а затем щелкните в разных точках дл&#1103; создани&#1103; абриса 
+<a  href="CorelDRAW_Glossary.html#wp1685430">редактируемой области</a>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Дважды щелкните, чтобы завершить создание абриса.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Можно задать, чтобы в качестве исходного цвета выбиралс&#1103; только 
+цвет первого выбранного <a  href="CorelDRAW_Glossary.html#wp1666578">пиксел&#1103;</a> или цвет каждого выбранного 
+пиксел&#1103;. Диапазон отклонени&#1103; цвета определ&#1103;ет диапазон цветов, 
+защищенных от изменений. Когда первый выбранный пиксель 
+задаетс&#1103; в качестве исходного цвета, <a  href="CorelDRAW_Glossary.html#wp1683876">защищенна&#1103; область</a> 
+расшир&#1103;етс&#1103; до указанного отклонени&#1103; цвета. При использовании 
+инструмента <b class="cBold">Маска лассо</b> замкнутый абрис редактируемой области 
+сужаетс&#1103; по отношению к первоначальному абрису и заключает 
+неправильную форму, сформированную путем исключени&#1103; всех 
+пикселей из исходного абриса, которые вход&#1103;т в указанный диапазон 
+отклонени&#1103; цвета. При использовании инструмента <b style="font-weight: bold" class="cBold">Магнитна&#1103; 
+маска</b><span style="font-weight: bold"> </span>каждый выбранный пиксель задаетс&#1103; в качестве исходного 
+цвета, поэтому при каждом щелчке защищенна&#1103; область 
+расшир&#1103;етс&#1103; до указанного отклонени&#1103; цвета. Отклонение цвета 
+измен&#1103;етс&#1103; по отношению к текущему исходному цвету в рамках 
+определенной области вокруг указател&#1103;.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Кроме того, можно перетащить курсор в окне изображени&#1103;, чтобы 
+создать абрис в режиме свободной формы. С помощью инструмента 
+<b style="font-weight: bold" class="cBold">Магнитна&#1103; маска</b><span style="font-weight: bold"> </span> можно щелкать многократно дл&#1103; задани&#1103; 
+нескольких исходных цветов или опорных точек.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp924262"> </a>Определение редактируемых областей по всему изображению</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Маска</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Цветова&#1103; маска</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">обычного режима</b> <img align="absmiddle" src="images/pgx_normal_mode.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Цвета по образцу</b> в верхнем всплывающем меню.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите инструмент <b class="cBold">Пипетка</b> <img align="absmiddle" src="images/pgx_eyedropper_tool.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/> и щелкните все <a  href="CorelDRAW_Glossary.html#wp1683963">исходные цвета</a> в окне 
+изображени&#1103;.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b style="font-weight: bold" class="cBold">Просмотр</b><span style="font-weight: bold"> </span><img align="absmiddle" src="images/pgx_preview.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+6.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В списке р&#1103;дом с кнопкой <b class="cBold">Просмотр</b> выберите один из следующих 
+пунктов.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Наложение</b>: наложение красноватого прозрачного сло&#1103; на <a  href="CorelDRAW_Glossary.html#wp1683876">защищенные 
+области</a>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Оттенки серого</b>: защищенные области отображаютс&#1103; черным цветом, а 
+редактируемые &#8211; белым.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Черный матовый</b>: наложение черного прозрачного сло&#1103; на 
+защищенные области.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Белый матовый</b>: наложение белого прозрачного сло&#1103; на защищенные 
+области.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Рамка</b>: отображение пунктирной линии вокруг <a  href="CorelDRAW_Glossary.html#wp1685430">редактируемой области</a>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+7.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Больше</b> и выберите один из следующих параметров.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Стандарт</b>: определение отклонени&#1103; цвета по цветовой разнице между 
+<a  href="CorelDRAW_Glossary.html#wp1666578">пиксел&#1103;ми</a>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Режим HSB</b><b class="cBold"> </b>: определение отклонени&#1103; цвета по разнице между 
+уровн&#1103;ми <a  href="CorelDRAW_Glossary.html#wp1666428">оттенка</a>, <a  href="CorelDRAW_Glossary.html#wp1666115">насыщенности</a> и <a  href="CorelDRAW_Glossary.html#wp1667956">&#1103;ркости</a> <a  href="CorelDRAW_Glossary.html#wp1666578">пикселей</a>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+8.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В поле р&#1103;дом с каждым исходным цветом укажите процент отклонени&#1103; 
+цвета, допустимый между пиксел&#1103;ми этого цвета и оставшимис&#1103; 
+пиксел&#1103;ми.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+9.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В области <b class="cBold">Порог</b> переместите регул&#1103;тор <b class="cBold">Порог</b> и выберите один из 
+следующих параметров.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">В черный</b>: добавление в защищенную область всех пикселей со 
+значением &#1103;ркости выше <a  href="CorelDRAW_Glossary.html#wp1666730">порогового</a> значени&#1103;.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">В белый</b>: добавление в редактируемую область всех пикселей со 
+значением &#1103;ркости выше порогового значени&#1103;.
+</div></td>
+</tr></table><table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Если в диалоговом окне <b class="cBold">Цветова&#1103; маска</b> отображаютс&#1103; цвета из 
+предыдущего сеанса, нажмите кнопку <b class="cBold">Сброс</b> перед созданием новой 
+цветовой <a  href="CorelDRAW_Glossary.html#wp1684276">маски</a>.
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Стиль отображени&#1103; <b class="cBold">Рамка</b> недоступен в том случае, если команда 
+<b class="cBold">Показывать рамку</b> отключена в меню <b class="cBold">Маска</b>.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Дл&#1103; цветовой маски можно задать <a  href="CorelDRAW_Glossary.html#wp1684738">отклонение цвета</a> по умолчанию. 
+Дл&#1103; этого нажмите кнопку выпадающего меню и выберите 
+<b class="cBold">Установить допуск по умолчанию</b>.
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Кроме того, можно задать предварительно определенные исходные 
+цвета, выбрав заготовку цвета, например <b class="cBold">Зеленые</b>, в списке р&#1103;дом с 
+инструментом <b class="cBold">Пипетка</b>.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp924343"> </a>Определение редактируемых областей в определенных цветовых каналах</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В окне настройки <b class="cBold">Каналы</b> щелкните значок с изображением <b class="cBold">глаза</b> <img align="absmiddle" src="images/pgx_eye_icon.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/> 
+р&#1103;дом с <a  href="CorelDRAW_Glossary.html#wp1667711">цветовым каналом</a>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если окно настройки <b class="cBold">Каналы</b> закрыто, выберите пункт <b class="cBold">Окно</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Окна настройки</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Каналы</b>.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В наборе инструментов выберите один из следующих инструментов.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Маска лассо</b> <img align="absmiddle" src="images/pgx_lasso_mask_tool.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/>
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Маска волшебной палочкой</b> <img align="absmiddle" src="images/pgx_magic_wand_mask.jpg" height="18" width="18" border="0" hspace="0" vspace="0"/>
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Определите область на изображении.
+</div></td>
+</tr></table>
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag());
+   // -->
+  </script>
+<p></p>
+<p class="pBody">Copyright 2012 Corel Corporation. Все права защищены.</p>
+    <iframe id="setcookiefrm" style="display:none;"></iframe>
+ </body>
+</html>

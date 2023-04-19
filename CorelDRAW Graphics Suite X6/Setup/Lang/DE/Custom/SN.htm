@@ -1,0 +1,217 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+    />
+    
+    <script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script language="jscript" type="text/jscript">
+
+        /*  Globals *******************************************************/
+        var g_ICA   = window.external;
+
+        
+        /*  function ValidateSN()   ***************************************
+        *
+        *   Returns: true/false
+        *
+        *   -   checks the serial number, if it is valid then
+        *       we move to the next page
+        *   -   page is only displayed for ACTION=INSTALL
+        *******************************************************************/
+        function ValidateSN()
+        {
+
+            var iResult = g_Setup.ExecuteFN('JS_ValidateUSN');
+            if (0 == iResult)
+            {
+                return false;
+            }
+            
+            try
+            {
+                if (iResult == 2)
+                {
+                    idUpgrade.style.display = "Block"; //can't find previous version installed so prompt for it
+                    idSerialHint.style.display = "None";
+                    idValidate.style.display = "None";
+                    idValidateUpgrade.style.display = "Block";
+                }
+                else
+                {
+                    if ("ADMIN" == g_ICA.GetProperty("ACTION"))
+                    {
+                        window.location = "AdminDes.htm";
+                    }
+                    else
+                    {
+                        window.location = "InstallChoose.htm";
+                    }
+                }
+            }
+            catch (err) {}
+            
+            return true;
+            
+        } //function ValidateSN()
+        function ValidateUpgradeSN()
+        {
+            var iResult = g_Setup.ExecuteFN('JS_ValidateSN_Upgrade');
+            if (0 != iResult)
+            {
+                return false;
+            }
+
+            else
+            { 
+                window.location = "InstallChoose.htm";
+            }
+            return true;
+        }
+
+
+        /*  OnBodyLoad  ********************************************
+        *
+        *   -   check to see if we already have a serial number
+        ************************************************************/
+        function OnBodyLoad()
+        {
+            idUpgrade.style.display = "None";
+           idSerialHint.style.display = "Block";
+           idValidate.style.display = "Block";
+
+	        if ("1" == g_Setup.GetProperty("IsAdminPackage"))
+	        {
+		        idSerialHint.style.display = "None";
+	        }            
+
+            var iResult = g_ICA.ValidateSN2(false);
+            if (0 == iResult)
+            {
+                //is good
+                idSNLabel.style.color = "Gray";
+                idSNInput.disabled = true;
+            }
+            else
+            {
+                idSerialHint.style.display = "Block";
+            }
+            
+        } //function OnBodyLoad()
+ 
+    </script>
+    <style type="text/css">
+    
+        a
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: default;
+        }
+        
+        a:hover
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+        
+        a:active
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+        
+        a:visited
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+
+
+    </style>
+    
+</head>
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+    
+    <!-- page content panel -->
+    <div id="idPanel">
+
+        <div class="DlgHeader" >
+            Bitte tragen Sie Ihre Daten ein.
+        </div>
+    
+        <div class="DlgBlock" style="top: 50px;">
+            <label >Benutzername:</label><br/> <input size="30 " maxlength="255" type="text" ID="idTextbox0" NAME="USERNAME" accesskey="U" />
+        </div>
+    
+        <div class="DlgBlock" style="top: 110px;">
+            <label id="idSNLabel" >Seriennummer:</label><br/> <input size="70" maxlength="45" type="text" ID="idSNInput" NAME="SERIALNUMBER" style="TEXT-TRANSFORM: uppercase; ime-mode:disabled;" accesskey="S" />
+        </div>
+    	<div class="DlgBlock" id="idSerialHint" style="top: 330px;">
+            <img src="Images/Tip.gif" alt="" height="32" width="37" />
+            <div class="DlgBlock" style="top: 0px; left: 50px; width: 680px;" >
+                Wenn Sie Ihr Produkt von <a href="http://www.corel.com" target="_blank">www.corel.com</a> heruntergerladen haben oder es online registriert haben, finden Sie Ihre Seriennummer in Ihrem Kontobereich bei Corel. Wenn Sie eine Box-Version der Software gekauft haben, finden Sie die Seriennummer auf der Verpackung des Datentr&auml;gers. Weitere Unterst&uuml;tzung beim Auffinden Ihrer Seriennummer erhalten Sie unter <a href="http://www.corel.com/installcenter" target="_blank">www.corel.com/installcenter</a>.
+            </div>
+        </div> <!-- <div id="idSerialHint" -->
+        
+        <div class="DlgBlock" id="idUpgrade" style="top: 160px; ">
+            <div class="DlgHeader" >
+                Bitte best&auml;tigen Sie Ihr Upgrade.
+            </div>
+            <div class="DlgBlock" id="idUpgradeText" style="top: 50px;" >
+                Sie m&ouml;chten eine Upgrade-Version von CorelDRAW Graphics Suite X6.1 installieren. Es wurde jedoch keine passende vorhandene
+				Installation der CorelDRAW Graphics Suite gefunden.
+				<br/><br/>
+				Wenn Sie mit diesem Upgrade fortfahren m&ouml;chten, geben Sie bitte Ihre Seriennummer f&uuml;r CorelDRAW Graphics Suite X4 oder X5 ein.
+            </div>
+            <div class="DlgBlock" style="top: 140px;" >
+                <input size="70" maxlength="45" type="text" ID="idUpgradeSNInput" NAME="UPGRADEABLE_SERIALNUMBER" style="TEXT-TRANSFORM: uppercase; ime-mode:disabled;" accesskey="S" />
+            </div>
+            <div class="DlgBlock" style="top: 180px;" >
+            Wenn Sie eine frühere Seriennummer nicht mehr auffinden können, überprüfen Sie <a href="http://www.corel.com/account" target="_blank"> Ihr Corel-Konto</a>. 
+            Wenn Sie Hilfe bei der Installation benötigen, besuchen Sie das <a href="http://www.corel.com/installcenter" target="_blank">Corel Installations-Center</a>.
+            </div>
+            
+        </div>
+    </div> <!-- div id="idTabPanel" END -->
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    <button type="button" onmouseover="HighLightButton('idBack');" onmouseout="UnHighLightButton('idBack');" onclick="window.location='License.htm';" ID="idBack" accesskey="Z"><u>Z</u>ur&uuml;ck</button>
+                </td>
+                <td width="120px" align="left">
+                    <button type="submit" id="idValidate" onmouseover="HighLightButton('idValidate');" onmouseout="UnHighLightButton('idValidate');" onclick="ValidateSN()" style="display: none;" accesskey="W"><u>W</u>eiter</button>
+                    <button type="submit" id="idValidateUpgrade" onmouseover="HighLightButton('idValidateUpgrade');" onmouseout="UnHighLightButton('idValidateUpgrade');" onclick="ValidateUpgradeSN()" style="display: none;" accesskey="W"><u>W</u>eiter</button>
+                </td>
+                <td width="120px" align="right">
+                    <button type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');"  ICA:Function="ICACancelSetup" ID="idCancel" accesskey="A" ><u>A</u>bbrechen</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

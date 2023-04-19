@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ICA lang="CT">
+	<Properties>
+    <Property name="Str.ProductDisplayName" value="CorelDRAW Graphics Suite X6.1"/>
+    <Property name="Str.SetupAlreadyRunning" value="Setup.exe 已在執行中。"/> 
+		<Property name="Str.CancelSetupPrompt" value="您確定要取消安裝 %s 嗎？" comment="if %s is used in the string, it will be replaced with [Str.ProductDisplayName]"/>
+    <Property name="Str.CouldNotOpenCore" value="試圖設定軟體時，安裝發生問題。無法存取檔案: %s 您要繼續嗎？" comment="string displayed to the user if the core .msi could not be opened during initalization -- %s MUST be in the string, it is replaced with the reason for failure"/>
+    <Property name="Str.NoFolderAccess" value="無法存取資料夾: %s" comment="%s is replaced with the folder name"/>
+    <Property name="Str.PathTooLong" value="%s 的安裝目錄路徑限制最多 %s 個字元。請選取其他目的地。" comment="first %s is replaced with [Str.ProductDisplayName] -- second %s is replaced with [MAX_PATH]"/>
+    <Property name="Str.Initializing.Text" value="請稍候..."/>
+    <Property name="Str.Initializing.Text.Cancelling" value="正在放棄操作 ..."/>
+		<Property name="Str.Feature.MainApp" value="CorelDRAW Graphics Suite X6.1"/> 
+		<Property name="Str.Feature.MainApp.Desc" value="CorelDRAW Graphics Suite X6.1 這款軟體具備圖形設計、頁面版面和相片編輯等強大功能。"/> 
+    
+    <Property name="Str.Feature.Utilities.VSTA.Desc.WithVS9" value="此功能將安裝對於 Visual Studio Tools for Applications 的支援 (若已安裝 Visual Studio 2008 SP1)。"/>
+		<Property name="Str.Feature.WT" value="書寫工具"/>
+		<Property name="Str.Feature.WT.Desc" value="安裝多種語言的拼字檢查器、同義字辭典和文法檢查，方便您校對文件"/>
+		<Property name="Str.Feature.WT.Afrikaans" value="南非荷蘭文"/>
+		<Property name="Str.Feature.WT.Afrikaans.Desc" value="此語言包含拼字檢查器和連字號。"/>
+		<Property name="Str.Feature.WT.Catalan" value="卡達隆尼亞文"/>
+		<Property name="Str.Feature.WT.Catalan.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Czech" value="捷克文"/>
+		<Property name="Str.Feature.WT.Czech.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Danish" value="丹麥文"/>
+		<Property name="Str.Feature.WT.Danish.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Dutch" value="荷蘭文"/>
+		<Property name="Str.Feature.WT.Dutch.Desc" value="此語言包含拼字檢查器、連字號和文法檢查。"/>
+		<Property name="Str.Feature.WT.English" value="英文"/>
+		<Property name="Str.Feature.WT.English.Desc" value="此語言包含拼字檢查器、連字號和文法檢查."/>
+		<Property name="Str.Feature.WT.Finnish" value="芬蘭文"/>
+		<Property name="Str.Feature.WT.Finnish.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.French" value="法文"/>
+		<Property name="Str.Feature.WT.French.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Galician" value="加里斯亞文"/>
+		<Property name="Str.Feature.WT.Galician.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.German" value="德文"/>
+		<Property name="Str.Feature.WT.German.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Greek" value="希臘文"/>
+		<Property name="Str.Feature.WT.Greek.Desc" value="此語言包含拼字檢查器、連字號和文法檢查."/>
+		<Property name="Str.Feature.WT.Icelandic" value="冰島文"/>
+		<Property name="Str.Feature.WT.Icelandic.Desc" value="此語言包含拼字檢查器、連字號和文法檢查."/>
+		<Property name="Str.Feature.WT.Italian" value="義大利文"/>
+		<Property name="Str.Feature.WT.Italian.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Norwegian" value="挪威文"/>
+		<Property name="Str.Feature.WT.Norwegian.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Polish" value="波蘭文"/>
+		<Property name="Str.Feature.WT.Polish.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Portuguese" value="葡萄牙文"/>
+		<Property name="Str.Feature.WT.Portuguese.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Russian" value="俄文"/>
+		<Property name="Str.Feature.WT.Russian.Desc" value="此語言包含拼字檢查器、連字號和文法檢查."/>
+		<Property name="Str.Feature.WT.Slovak" value="斯洛伐克文"/>
+		<Property name="Str.Feature.WT.Slovak.Desc" value="此語言包含拼字檢查器、連字號和文法檢查."/>
+		<Property name="Str.Feature.WT.Sotho" value="索托文"/>
+		<Property name="Str.Feature.WT.Sotho.Desc" value="此語言包含拼字檢查器、連字號和文法檢查."/>
+		<Property name="Str.Feature.WT.Spanish" value="西班牙文"/>
+		<Property name="Str.Feature.WT.Spanish.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Swedish" value="瑞典文"/>
+		<Property name="Str.Feature.WT.Swedish.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Tswana" value="札那文"/>
+		<Property name="Str.Feature.WT.Tswana.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Turkish" value="土耳其文"/>
+		<Property name="Str.Feature.WT.Turkish.Desc" value="此語言包含拼字檢查器和連字號."/>
+		<Property name="Str.Feature.WT.Xhosa" value="科薩文"/>
+		<Property name="Str.Feature.WT.Xhosa.Desc" value="此語言包含拼字檢查器、連字號和文法檢查."/>
+    <Property name="Str.Feature.WT.Zulu" value="祖魯文"/>
+    <Property name="Str.Feature.WT.Zulu.Desc" value="此語言包含拼字檢查器、連字號和文法檢查."/>
+
+
+		
+    <Property name="Str.Feature.Programs64" value="64 位元程式檔案"/>
+    <Property name="Str.Feature.Programs64.Desc" value="64 位元程式檔案"/>
+    <Property name="Str.DestinationFolder" value="請選取您要安裝的資料夾位置。"/>
+    <Property name="Str.SerialNotValid" value="序號無效。"/>
+    <Property name="Str.UpgradeSerialBlacklisted" value="您無法使用此序號升級產品。"/>
+  <Property name="Str.UpgradeSerialNotEligible" value="此序號不符合產品升級資格。"/>
+  <Property name="Str.UpgradeSerialNotValid" value="系統無法識別此序號，請確認您輸入的序號是否正確。"/>
+
+    <Property name="Str.ProgressText.Default" value="%d%% 完成" comment="this is the default progress text, you can override it using 'progresstext' attribute on the msi or dbm node -- optional %d%% is populated with the percent complete"/>
+    <Property name="Str.Running.VBA.exe.text" value="請稍候，我們正在設定 Visual Basic for Applications"/>
+    <Property name="Str.CacheSetupSource.Progress.text" value="請稍候，我們正在準備您的安裝程式檔案"/>
+
+    <Property name="Str.Text.RequiredFeature" value="(必要)"/>
+
+    <Property name="Str.ProgressText.Common" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1"/>
+    <Property name="Str.ProgressText.Capture" value="%d%% 完成 - 正在設定 Corel CAPTURE"/>
+    <Property name="Str.ProgressText.Draw" value="%d%% 完成 - 正在設定 CorelDRAW"/>
+    <Property name="Str.ProgressText.Paint" value="%d%% 完成 - 正在設定 Corel PHOTO-PAINT"/>
+    <Property name="Str.ProgressText.CS" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 簡體中文語言套件"/>
+    <Property name="Str.ProgressText.CT" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 繁體中文語言套件"/>
+    <Property name="Str.ProgressText.CZ" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 捷克文語言套件"/>
+    <Property name="Str.ProgressText.NL" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 荷蘭文語言套件"/>
+    <Property name="Str.ProgressText.EN" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 英文語言套件"/>
+    <Property name="Str.ProgressText.SU" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 芬蘭文語言套件"/>
+    <Property name="Str.ProgressText.FR" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 法文語言套件"/>
+    <Property name="Str.ProgressText.DE" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 德文語言套件"/>
+    <Property name="Str.ProgressText.MA" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 匈牙利文語言套件"/>
+    <Property name="Str.ProgressText.IT" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 義大利文語言套件"/>
+    <Property name="Str.ProgressText.JP" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 日文語言套件"/>
+    <Property name="Str.ProgressText.KR" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 韓文語言套件"/>
+    <Property name="Str.ProgressText.PL" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 波蘭文語言套件"/>
+    <Property name="Str.ProgressText.BR" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 葡萄牙文 (巴西) 語言套件"/>
+    <Property name="Str.ProgressText.RU" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 俄文語言套件"/>
+    <Property name="Str.ProgressText.ES" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 西班牙文語言套件"/>
+    <Property name="Str.ProgressText.SV" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 瑞典文語言套件"/>
+    <Property name="Str.ProgressText.TR" value="%d%% 完成 - 正在設定 CorelDRAW Graphics Suite X6.1 土耳其文語言套件"/>
+    <Property name="Str.ProgressText.Extras" value="正在安裝額外的範本、字型和剪輯圖片"/>    
+    <Property name="Str.ProgressText.FontNav" value="%d%% 完成 - 正在設定 Bitstream Font Navigator"/>
+    <Property name="Str.ProgressText.VBA" value="%d%% 完成 - 正在設定 Microsoft Visual Basic for Applications"/>
+    <Property name="Str.ProgressText.VSTA" value="%d%% 完成 - Visual Studio Tools for Applications"/>
+    <Property name="Str.ProgressText.VSTA.exe" value="請稍候，安裝程式正在設定 Visual Studio Tools for Applications"/>
+    <Property name="Str.ProgressText.XML" value="%d%% 完成 - 正在設定 Microsoft XML"/>
+    <Property name="Str.ProgressText.ShellExt" value="%d%% 完成 - 正在設定 Corel Windows 殼層延伸"/>
+    <Property name="Str.ProgressText.IntelCompiler" value="正在設定 CorelDRAW Graphics Suite X6.1" />
+    <Property name="Str.Feature.Lang" value="產品語言 "/>
+    <Property name="Str.Feature.Lang.CS" value="中文 (簡體)"/>
+    <Property name="Str.Feature.Lang.CT" value="中文 (繁體)"/>
+    <Property name="Str.Feature.Lang.CZ" value="捷克文"/>
+    <Property name="Str.Feature.Lang.NL" value="荷蘭文"/>
+    <Property name="Str.Feature.Lang.EN" value="英文"/>
+    <Property name="Str.Feature.Lang.SU" value="芬蘭文"/>
+    <Property name="Str.Feature.Lang.FR" value="法文"/>
+    <Property name="Str.Feature.Lang.DE" value="德文"/>
+    <Property name="Str.Feature.Lang.MA" value="匈牙利文"/>
+    <Property name="Str.Feature.Lang.IT" value="義大利文"/>
+    <Property name="Str.Feature.Lang.JP" value="日文"/>
+    <Property name="Str.Feature.Lang.KR" value="韓文"/>
+    <Property name="Str.Feature.Lang.PL" value="波蘭文"/>
+    <Property name="Str.Feature.Lang.BR" value="葡萄牙文 (巴西)"/>
+    <Property name="Str.Feature.Lang.RU" value="俄文"/>
+    <Property name="Str.Feature.Lang.ES" value="西班牙文"/>
+    <Property name="Str.Feature.Lang.SV" value="瑞典文"/>
+    <Property name="Str.Feature.Lang.TR" value="土耳其文"/>
+    <Property name="SETUP_LANG" value="CT"/>
+    <Property name="ICA.Lang.Transform" value="1028.mst"/>
+
+    <Property name="Str.Feature.Extras" value="CorelDRAW Graphics Suite X6.1 - Content"/>
+    <Property name="Str.Feature.Extras.Desc" value="安裝 CorelDRAW Graphics Suite X6.1 - Content"/>
+    <Property name="Str.InstallContent" value="是否要安裝 CorelDRAW Graphics Suite X6.1 包含的內容和額外項目?"/>
+
+
+    <Property name="Str.Error.20000" value="序號無效."/>
+    <Property name="Str.Error.30000" value="重要: 您必須先安裝 Microsoft .NET Framework 4.0，才能安裝 CorelDRAW Graphics Suite X6.1。如需 Microsoft .NET Framework 的相關資訊，請造訪 Microsoft 網站。&lt;br /&gt;&lt;a href='http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7' target='_blank' onclick='window.external.EndModalLoop(0);'&gt;http://www.microsoft.com/NET/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;"/>
+    <Property name="Str.Error.30001" value="您電腦的運算器不符合軟體的最低系統要求，無法完成安裝。"/>
+    <Property name="Str.Error.30002" value="CorelDRAW Graphics Suite X6.1 只能安裝於 Windows XP 和 Windows Vista 作業系統。 安裝程式將立即終止。"/>
+    <Property name="Str.Error.30003" value="您的權限不足，無法完成此安裝程序。執行此安裝需要管理權限或更高的權限。請與您的管理員聯絡，然後再安裝一次。"/>
+    <Property name="Str.Error.30004" value="重要: 您必須先安裝 Microsoft .NET Framework 4.0，才能安裝 CorelDRAW Graphics Suite X6.1。如需 Microsoft .NET Framework 的相關資訊，請造訪 Microsoft 網站。 'http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7' - http://www.microsoft.com/NET/"/>
+    <Property name="Str.Error.30005" value="CorelDRAW Graphics Suite X6.1 的 64 位元版本無法安裝於 32 位元的系統。"/>
+    <Property name="Str.UpgradeNotSupported" value="無法在命令列使用升級序號進行安裝。請在安裝程式介面輸入此序號，或在命令列中輸入其他序號。"/>
+<!--Coexistence Scenarios -->
+    <Property name="Str.Error.30500" value="此電腦上已安裝有該應用程式的新版。如果您要安裝這一版本，請先解除安裝新版程式。" />
+    <Property name="Str.Error.30501" value="您已安裝 CorelDRAW Graphics Suite X6.1，無法安裝此試用板。若要安裝試用板，您必須先解除安裝現有產品。" comment="Yellow" />
+    <Property name="Str.Error.1638" value="您無法安裝本產品，因為已安裝其他版本。若要安裝本產品，您必須先解除安裝現有版本。請按一下 [結束] 退出安裝程式。" comment="Pink" />
+    <Property name="Str.CDTS.Prompt" value="系統已在您的電腦上偵測到 CorelDRAW Graphics Suite X6.1。Corel DESIGNER Technical Suite X6 除了提供 CorelDRAW Graphics Suite X6.1 的所有功能，還有更多功能等您探索！\n\n若您不想升級至 Corel DESIGNER Technical Suite X6，請按一下「取消」。" comment="Blue" />
+  <Property name="Str.CDTSTrial.Prompt" value="系統已在您的電腦上偵測到 Corel DESIGNER Technical Suite X6 試用版。除非按一下「取消」，否則將解除安裝此試用版，另行安裝 CorelDRAW Graphics Suite X6.1。" comment="Purple" />
+  <Property name="Str.Error.30502" value="已安裝此產品的其他版本，您無法進行安裝。" comment="Orange" />
+  <Property name="Str.Error.30503" value="您必須先安裝 CorelDRAW Graphics Suite X6.1，然後重新執行安裝程式，才能安裝此產品。請造訪 www.corel.com/draw 網站下載 CorelDRAW Graphics Suite X6.1。" comment="Brown" />
+  <Property name="Str.Error.30504" value="CorelDRAW Essentials 和 CorelDRAW Home and Student Edition 無法安裝於同一台電腦。您的系統尚未修改。 欲安裝本產品，您必須先移除目前安裝的 CorelDRAW 產品。" comment="Rust" />
+  <Property name="Str.Error.30505" value="此產品與 CorelDRAW Graphics Suite X6.1 32 位元版本或 64 位元版本不符。如要安裝產品，請選擇符合的版本，然後重新執行安裝程式。" comment="Green" />
+  <Property name="Str.Error.30506" value="您必須先購買 CorelDRAW Graphics Suite X6.1，然後重新執行安裝程式，才能安裝此產品。" coment="Grey" />
+    <Property name="Str.Error.35001" value="&lt;b&gt;Details:&lt;/b&gt;&lt;br /&gt;Unable to validate the serial number. An Internet connection is required to complete the installation.&lt;br /&gt;&lt;br /&gt;" />
+    <Property name="Str.Error.30510" value="你必須有網路連接。請連接到網際網路，然後再重試。" />
+	<Property name="Str.Error.30511" value="Error: An unexpected error occurred on the server. Please check your Internet connection and try again later." />
+    
+        
+    <Property name="Str.DiskSpace.Bytes" value="位元組"/>
+    <Property name="Str.DiskSpace.Kb" value="KB"/>
+    <Property name="Str.DiskSpace.MB" value="MB"/>
+    <Property name="Str.DiskSpace.GB" value="GB"/>
+    <Property name="Str.DiskSpace.TB" value="TB"/>
+    <Property name="Str.DiskSpace.RequiredString" value="%s 所需的磁碟機 %s 空間: %s"/>
+    <Property name="Str.UpgradeProgressText" value="移除應用程式: "/>
+
+    <Property name="Str.Feature.Filters.GhostscriptGPL" value="GPL Ghostscript"/>
+    <Property name="Str.Feature.Filters.GhostscriptGPL.Installed.Text" value="&lt;b&gt;GPL Ghostscript (已安裝)&lt;/b&gt;"/>
+
+    <Property name="Str.PrerequisiteReboot.Prompt" value="您必須重新啟動系統才能繼續進行安裝。\n\n請按一下「是」 立即重新啟動，或若您打算稍後手動重新啟動，請按「否」。"/>
+    
+
+    <Property name="Str.Required.Dlg.InstallComplete" value="安裝完成"/>
+
+    <Property name="Setup_Billboard_1.png" value="Katarzyna Kobylkiewicz"/>
+    <Property name="Setup_Billboard_10.png" value="Владимр Соломатин"/>
+    <Property name="Setup_Billboard_11.png" value="Fabio  Selani - www.fabiosellani.blogspot.com"/>
+    <Property name="Setup_Billboard_12.png" value="Роман Полищук"/>
+    <Property name="Setup_Billboard_13.png" value="André Luiz dos Santo  - www.logomarca3d.com"/>
+    <Property name="Setup_Billboard_14.png" value="John Fernandez"/>
+    <Property name="Setup_Billboard_15.png" value="Riteshsingh Seeboruth"/>
+    <Property name="Setup_Billboard_16.png" value="Francisco Javier Hurtado Zarate"/>   
+    <Property name="Setup_Billboard_17.png" value="Muaviath Ali - www.muart-a.com"/>
+    <Property name="Setup_Billboard_18.png" value="Federico Nicolas Arroyuelo"/>   
+    <Property name="Setup_Billboard_19.png" value="Franziskus Pfleghart"/>
+    <Property name="Setup_Billboard_2.png" value="Rodolfo Biglie - www.creatorica.com"/>
+    <Property name="Setup_Billboard_20.png" value="Kanimozhi S N - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_21.png" value="Dhananjay Garg - www.dhananjaydgarg.blogspot.com"/>
+    <Property name="Setup_Billboard_22.png" value="Jaime Andres Grimaldos Pimiento - www.graficon.com"/>
+    <Property name="Setup_Billboard_23.png" value="Prem Kumar V - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_24.png" value="Tania Macias"/>
+    <Property name="Setup_Billboard_25.png" value="Deborah McIntyre"/>
+    <Property name="Setup_Billboard_26.png" value="Ramm ND"/>
+    <Property name="Setup_Billboard_27.png" value="Fayiza Kulsoom - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_28.png" value="Leva Griskaite"/>
+    <Property name="Setup_Billboard_29.png" value="Yogita  Butala"/>
+    <Property name="Setup_Billboard_3.png" value="Nanda Dixit"/>
+    <Property name="Setup_Billboard_30.png" value="Giulia Marchetti Hennings"/>
+    <Property name="Setup_Billboard_31.png" value="Adnan Nan - www.anabawang.blogspot.com"/>
+    <Property name="Setup_Billboard_32.png" value="Dmitri Demidenko"/>
+    <Property name="Setup_Billboard_33.png" value="Firman Hatibu"/>
+    <Property name="Setup_Billboard_34.png" value="Jairo Cataia"/>
+    <Property name="Setup_Billboard_35.png" value="Suhasini R - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_36.png" value="Алексей Оглушевич"/>
+    <Property name="Setup_Billboard_37.png" value="Дамир Галлямов"/>     
+    <Property name="Setup_Billboard_38.png" value="Michal Milkowski - www.tonic-art.com"/>
+    <Property name="Setup_Billboard_39.png" value="Pumesh Kumar"/>
+    <Property name="Setup_Billboard_4.png" value="Anastasios Pappas"/>   
+    <Property name="Setup_Billboard_40.png" value="Mariusz Grzyb"/> 
+    <Property name="Setup_Billboard_41.png" value="Marcin Chamala"/>
+    <Property name="Setup_Billboard_42.png" value="Panagiotis Intakidis"/>
+    <Property name="Setup_Billboard_43.png" value="Hao Lun Jhang"/>
+    <Property name="Setup_Billboard_44.png" value="Hiroshi Kurozumi - www.ne.jp/asahi/h-kurozumi/cdr/"/>
+    <Property name="Setup_Billboard_45.png" value="Adhi Noegroho"/>
+    <Property name="Setup_Billboard_46.png" value="Gentil  Jimenez - www.akermos.com"/>
+    <Property name="Setup_Billboard_47.png" value="Bennes Patio - www.ben2ty.co.nr"/>
+    <Property name="Setup_Billboard_48.png" value="Елена Олина"/>
+    <Property name="Setup_Billboard_49.png" value="Olga Pavlova - www.pavlova.us"/>
+    <Property name="Setup_Billboard_5.png" value="Divya  Priya  - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_50.png" value="Tatiana Prokofieva"/>
+    <Property name="Setup_Billboard_6.png" value="Artsiom Aleksandrovich"/> 
+    <Property name="Setup_Billboard_7.png" value="Aditya Sawant"/>
+    <Property name="Setup_Billboard_8.png" value="Time Garvanliev"/> 
+    <Property name="Setup_Billboard_9.png" value="Noel Patrick Nesaraj Daniel"/>
+
+
+    <Property name="Str.OutOfDiskSpace.Warning" value="安裝所需的磁碟空間超過可用的磁碟空間。" lang="English"/>
+    
+</Properties>
+</ICA>

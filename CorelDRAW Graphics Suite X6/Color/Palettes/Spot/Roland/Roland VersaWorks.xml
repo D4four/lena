@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<palette name="Roland VersaWorks" guid="13ed2790-c966-11de-8a39-0800200c9a66" prefix="RDG" locked="true">
+	<colorspaces>
+		<cs name="CutContour" fixedID="1" version="1500">
+			<color cs="CMYK" tints="0,0.99,0,0"/>
+		</cs>
+		<cs name="RDG_WHITE" fixedID="3" version="1500">
+			<color cs="CMYK" tints="0.25,0.25,0.25,0.25"/>
+		</cs>
+		<cs name="RDG_GLOSS" fixedID="4" version="1500">
+			<color cs="CMYK" tints="0.5,0.25,0.25,0"/>
+		</cs>
+		<cs name="RDG_MetallicSilver" fixedID="5" version="1500">
+			<color cs="CMYK" tints="0.3,0.1,0.1,0.5"/>
+		</cs>
+	</colorspaces>
+	<colors>
+		<page>
+			<color name="CutContour" cs="CutContour" tints="1"/>
+			<color name="RDG_WHITE" cs="RDG_WHITE" tints="1"/>
+			<color name="RDG_GLOSS" cs="RDG_GLOSS" tints="1"/>
+			<color name="RDG_MetallicSilver" cs="RDG_MetallicSilver" tints="1"/>
+		</page>
+	</colors>
+</palette>

@@ -1,0 +1,1334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="GENERATOR" content="Quadralay WebWorks Publisher Professional Edition 7.0.2.1206" />
+  <meta name="TEMPLATEBASE" content="Draw" />
+  <meta name="LASTUPDATED" content="02/17/12 09:10:25" />
+  <title>Работа с макросами</title>
+  <link rel="StyleSheet" href="document.css" type="text/css" />
+  <link rel="StyleSheet" href="Mycatalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+ </head>
+
+ <body onLoad="WWHUpdate();">
+<a name="wppagetop"></a>
+<p class="pBody"></p>
+<p class="pBody">Быстрые ссылки на процедуры, описанные на этой странице:</p>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp137557">Установка функций макросов вручную</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp137592">Настройка параметров VBA</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp137628">Доступ к инструментам макроса</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp137643">Создание проекта макроса</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp137669">Создание макроса</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp1047126">Запись макроса</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp1047188">Запись временного макроса</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp137800">Воспроизведение макроса</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp1047250">Воспроизведение временного макроса</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_macros.html#wp137859">Получение доступа к файлу справки по макросам из редактора макросов</a></div></td></tr></table>
+
+<br/>
+<a name="wp137310"> </a><h3 class="pHeading2">
+Работа с макросами
+</h3>
+
+<a name="wp137312"> </a><p class="pBody">
+Можно сэкономить врем&#1103;, использу&#1103; макрос дл&#1103; автоматизации набора повтор&#1103;ющихс&#1103; задач. Макрос позвол&#1103;ет задать последовательность действий, что впоследствии дает возможность быстро повтор&#1103;ть эти действи&#1103;.
+</p>
+<a name="wp137314"> </a><p class="pBody">
+Дл&#1103; создани&#1103; макросов не требуетс&#1103; иметь опыт программировани&#1103;. На самом деле основные средства дл&#1103; работы с макросами доступны в главном окне приложени&#1103;. Чтобы повысить эффективность управлени&#1103; макросами, можно использовать следующие встроенные среды программировани&#1103;:
+</p>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Microsoft Visual Basic for Applications (VBA) версии &#8212; это поднабор 
+среды программировани&#1103; Microsoft Visual Basic (VB) и отличный выбор 
+дл&#1103; новичков. VBA можно использовать дл&#1103; создани&#1103; основных 
+макросов, предназначенных дл&#1103; личного использовани&#1103;. Кроме того, с 
+помощью VBA можно создавать более сложные макросы.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Microsoft Visual Studio Tools for Applications (VSTA) версии &#8212; наследник 
+VBA и отличный выбор дл&#1103; разработчиков и прочих специалистов в 
+области программировани&#1103;. VSTA предоставл&#1103;ет доступ к инструментам 
+и возможност&#1103;м, необходимым дл&#1103; создани&#1103; самых сложных макросов.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Дл&#1103; получени&#1103; подробных сведений о различи&#1103;х между VBA и VSTA 
+см. файл справки по макросам CorelDRAW (<b class="cBold">draw_om.chm</b>, 
+расположенный в папке <b class="cBold">Data</b> каталога установки программного 
+обеспечени&#1103;).
+</div></td>
+</tr></table>
+<a name="wp137367"> </a><h5 class="pSubHeading">
+Начало работы с макросами
+</h5>
+<a name="wp137369"> </a><p class="pBody">
+Функции VBA и VSTA, относ&#1103;щиес&#1103; к макросам, устанавливаютс&#1103; вместе с программным обеспечением по умолчанию, но при необходимости эти функции можно установить и вручную. Можно задать параметры, относ&#1103;щиес&#1103; к VBA.
+</p>
+<a name="wp137371"> </a><p class="pBody">
+Функции, относ&#1103;щиес&#1103; к макросам, предоставл&#1103;ют доступ к р&#1103;ду инструментов дл&#1103; работы с макросами в главном окне приложени&#1103;:
+</p>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">панель инструментов «Макросы» облегчает доступ к распространенным 
+функци&#1103;м макросов;
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">окно настройки «Диспетчер макросов» облегчает доступ ко всем 
+существующим проектам макросов дл&#1103; VBA и к основным функци&#1103;м дл&#1103; 
+работы с этими проектами;
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">«Редактор макросов» (предыдущее название &#8212; «Редактор Visual Basic») 
+предоставл&#1103;ет доступ к расширенным функци&#1103;м дл&#1103; создани&#1103; проектов 
+макросов на основе VBA;
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">«Редактор VSTA» предоставл&#1103;ет доступ к расширенным функци&#1103;м дл&#1103; 
+создани&#1103; проектов макросов на основе VSTA.
+</div></td>
+</tr></table>
+<a name="wp137405"> </a><h5 class="pSubHeading">
+Создание макросов
+</h5>
+<a name="wp137407"> </a><p class="pBody">
+Макросы хран&#1103;тс&#1103; в модул&#1103;х (также называемых модул&#1103;ми кода), которые хран&#1103;тс&#1103; в проектах макросов. Окно настройки «Диспетчер макросов» позвол&#1103;ет просматривать все доступные проекты макросов, модули и макросы, а также управл&#1103;ть ими.
+</p>
+<a name="wp137409"> </a><p class="pBody">
+Окно настройки «Диспетчер макросов» можно использовать дл&#1103; создани&#1103; проектов макросов в виде файлов банка глобальных макросов (Global Macro Storage, GMS). С помощью файла GMS можно эффективно создать пакет компонентов проекта макроса и организовать общий доступ к нему дл&#1103; других пользователей. С помощью окна настройки «Диспетчер макросов» можно открыть (или загрузить) ранее созданные проекты макросов, установленные вместе с программным обеспечением или полученные иным образом. Окно настройки «Диспетчер макросов» можно также использовать дл&#1103; переименовани&#1103; проектов макросов, дл&#1103; копировани&#1103; и закрыти&#1103; (или выгрузки) проектов макросов на основе файлов GMS.
+</p>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Некоторые проекты макросов заблокированы и недоступны дл&#1103; 
+редактировани&#1103;.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">При создании документа проект макроса дл&#1103; этого документа 
+автоматически добавл&#1103;етс&#1103; в окно настройки «Диспетчер макросов». 
+Несмотр&#1103; на то что макросы можно хранить в проекте макроса дл&#1103; 
+документа (например, чтобы создать многофункциональный 
+шаблон), рекомендуетс&#1103; хранить проекты макросов в файлах GMS.
+</div></td>
+</tr></table>
+<a name="wp137421"> </a><p class="pBody">
+Каждый проект макроса содержит по меньшей мере один модуль. Окно настройки «Диспетчер макросов» можно использовать дл&#1103; добавлени&#1103; модул&#1103; в проект макроса на основе VBA или дл&#1103; открыти&#1103; существующих модулей VBA дл&#1103; редактировани&#1103;. Окно настройки «Диспетчер макросов» можно также использовать дл&#1103; переименовани&#1103; или удалени&#1103; модулей VBA.
+</p>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Некоторые модули защищены от редактировани&#1103;.
+</div></td>
+</tr></table>
+<a name="wp137428"> </a><p class="pBody">
+Наконец, окно настройки «Диспетчер макросов» можно использовать дл&#1103; создани&#1103; макросов в доступных модул&#1103;х. Дл&#1103; создани&#1103; макросов не требуетс&#1103; иметь опыт программировани&#1103;. Тем не менее при наличии опыта программировани&#1103; макросы VBA можно отредактировать с помощью редактора макросов. Окно настройки «Диспетчер макросов» можно также использовать дл&#1103; переименовани&#1103; и удалени&#1103; модулей VBA.
+</p>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">CorelDRAW содержит образцы макросов, которые обладают 
+дополнительными функци&#1103;ми, демонстрируют возможности 
+автоматизации в программном обеспечении и предоставл&#1103;ют доступ 
+к образцам кода. Дл&#1103; получени&#1103; подробных сведений об образцах 
+макросов см. файл справки по макросам CorelDRAW (<b class="cBold">draw_om.chm</b>, 
+расположенный в папке <b class="cBold">Data</b> каталога установки программного 
+обеспечени&#1103;).
+</div></td>
+</tr></table>
+<a name="wp1047016"> </a><h5 class="pSubHeading">
+Запись макросов
+</h5>
+<a name="wp1047017"> </a><p class="pBody">
+Макросы можно записывать и сохран&#1103;ть дл&#1103; дальнейшего использовани&#1103;.
+</p>
+<a name="wp1047018"> </a><p class="pBody">
+Можно также записать временные макросы дл&#1103; действий, которые требуетс&#1103; повторить всего несколько раз. Временный макрос доступен до тех пор, пока не будет записан новый временный макрос.
+</p>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">В некоторых проектах макросов функци&#1103; записи недоступна.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Прежде чем записывать макрос, убедитесь, что дл&#1103; записи выбраны 
+необходимые действи&#1103;, которые расположены в правильном 
+пор&#1103;дке. После начала записи средство дл&#1103; записи макросов 
+учитывает все изменени&#1103;, внесенные в рисунок. Например, при 
+создании формы, изменении ее размера, а затем изменении ее цвета 
+все эти изменени&#1103; будут записаны в макросе. Когда все изменени&#1103; 
+будут внесены, необходимо остановить запись макроса.
+</div></td>
+</tr></table>
+<a name="wp137497"> </a><h5 class="pSubHeading">
+Воспроизведение макросов
+</h5>
+<a name="wp137499"> </a><p class="pBody">
+Чтобы выполнить действи&#1103;, св&#1103;занные с макросом, воспроизведите макрос.
+</p>
+<a name="wp1047059"> </a><p class="pBody">
+Можно также воспроизвести временный макрос.
+</p>
+<a name="wp137511"> </a><h5 class="pSubHeading">
+Дополнительные сведени&#1103; о макросах
+</h5>
+<a name="wp1047067"> </a><p class="pBody">
+CorelDRAW предоставл&#1103;ет доступ к дополнительным ресурсам, содержащим полезные сведени&#1103; о макросах. Эти дополнительные ресурсы, расположенные в папке <b class="cBold">Data</b> каталога установки программного обеспечени&#1103;, описаны в следующей таблице.
+</p>
+<a name="wp137530"> </a><p class="pBody">
+  </p><div align="left">
+<table cellpadding="6">
+  <caption></caption>
+  <tr align="left" valign="baseline">    <th><a name="wp136554"> </a><div class="pCellHeading">
+Ресурс
+</div>
+</th>
+    <th><a name="wp136556"> </a><div class="pCellHeading">
+Описание и им&#1103; файла
+</div>
+</th>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136562"> </a><div class="pCellBody">
+Файл справки по макросам
+</div>
+</td>
+    <td><a name="wp136568"> </a><div class="pCellBody">
+Содержит подробные сведени&#1103; о возможност&#1103;х по созданию проектов макросов в CorelDRAW и св&#1103;занных с ними функци&#1103;х
+</div>
+<a name="wp136570"> </a><div class="pCellBody">
+<b class="cBold">draw_om.chm</b>
+</div>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136604"> </a><div class="pCellBody">
+Руководство по программированию макросов
+</div>
+</td>
+    <td><a name="wp136610"> </a><div class="pCellBody">
+Содержит инструкции дл&#1103; создани&#1103; проектов макросов дл&#1103; CorelDRAW
+</div>
+<a name="wp136612"> </a><div class="pCellBody">
+<b class="cBold">Macro Programming Guide.pdf</b>
+</div>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136646"> </a><div class="pCellBody">
+Схема объектной модели
+</div>
+</td>
+    <td><a name="wp136652"> </a><div class="pCellBody">
+Содержит иерархическую структуру возможностей и функций, которые можно автоматизировать в CorelDRAW
+</div>
+<a name="wp136654"> </a><div class="pCellBody">
+<b class="cBold">CorelDRAW Object Model Diagram.pdf</b>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+</p>
+<a name="wp137532"> </a><p class="pBody">
+Файл справки по макросам содержит документацию дл&#1103; каждой возможности и функции, которую можно автоматизировать в приложении. Вместе эти возможности и функции называютс&#1103; объектной моделью. Доступ к файлу справки по макросам можно получить из редактора макросов.
+</p>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Дл&#1103; получени&#1103; более подробных сведений о VBA и его программной 
+среде см. раздел «Справка Microsoft Visual Basic» в меню «Справка» 
+редактора макросов.
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Дл&#1103; получени&#1103; более подробных сведений о VSTA и его 
+программной среде см. меню «Справка» редактора VSTA.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp137557"> </a>Установка функций макросов вручную</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Вставьте установочный диск в компьютер.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если мастер установки не запускаетс&#1103; автоматически, найдите и запустите файл <b class="cBold">Setup.exe</b> на установочном диске.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Следуйте инструкци&#1103;м на экране дл&#1103; изменени&#1103; пакета установки 
+программного обеспечени&#1103;.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">На странице <b class="cBold">Функции</b> мастера установки установите следующие 
+флажки в списке <b class="cBold">Утилиты</b>:
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Visual Basic for Applications
+</b></div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Visual Studio Tools for Applications
+</b></div></td>
+</tr></table><table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Функции макросов дл&#1103; VBA и VSTA по умолчанию устанавливаютс&#1103; 
+вместе с программным обеспечением.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp137592"> </a>Настройка параметров VBA</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Параметры</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В списке категорий <b class="cBold">Рабочее пространство</b> выберите вариант <b class="cBold">VBA</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В области <b class="cBold">Безопасность</b> нажмите кнопку <b class="cBold">Параметры безопасности</b> и 
+настройте параметры, позвол&#1103;ющие уменьшить риск выполнени&#1103; 
+злонамеренных макросов.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Чтобы обойти эту функцию безопасности, установите флажок <b class="cBold">Довер&#1103;ть всем модул&#1103;м GMS</b> и перейдите к шагу 6.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">На странице <b class="cBold">Уровень безопасности</b> диалогового окна <b class="cBold">Безопасность</b> 
+выберите один из следующих параметров.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Очень высокий</b>: разрешаетс&#1103; запуск только макросов из доверенных 
+источников. Все остальные подписанные и неподписанные макросы 
+отключаютс&#1103;.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Высокий</b>: разрешаетс&#1103; запуск только подписанных макросов из 
+доверенных источников. Неподписанные макросы автоматически 
+отключаютс&#1103;.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Средний</b>: пользователь решает сам, запускать или нет потенциально 
+небезопасные макросы.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Низкий (не рекомендуетс&#1103;)</b>: разрешаетс&#1103; запуск всех потенциально 
+небезопасных макросов. Выберите этот параметр, если на компьютере 
+установлено антивирусное программное обеспечение или если 
+провер&#1103;етс&#1103; безопасность всех открываемых документов.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">На странице <b class="cBold">Надежные издатели</b> диалогового окна <b class="cBold">Безопасность</b> 
+просмотрите список доверенных издателей макросов. Нажмите кнопку 
+<b class="cBold">Просмотр</b>, чтобы отобразить подробные сведени&#1103; о выбранном издателе 
+макроса, или нажмите кнопку <b class="cBold">Удалить</b>, чтобы удалить выбранного 
+издател&#1103; из списка.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если необходимо, дл&#1103; выбранного издател&#1103; макроса можно установить или сн&#1103;ть флажок <b class="cBold">Открыть доступ к проекту Visual Basic</b>.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+6.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Снимите флажок <b class="cBold">Задержка при загрузке VBA</b>, чтобы загружать VBA 
+при запуске.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp137628"> </a>Доступ к инструментам макроса</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<a name="wp137631"> </a><p class="pBody">
+</p><div align="left">
+<table cellpadding="6">
+  <caption></caption>
+  <tr align="left" valign="baseline">    <td><a name="wp136104"> </a><div class="pCellHeading">
+Цель
+</div>
+</td>
+    <td><a name="wp136106"> </a><div class="pCellHeading">
+Действие
+</div>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136118"> </a><div class="pCellBody">
+Отображение панели инструментов <b class="cBold">Макросы</b>
+</div>
+</td>
+    <td><a name="wp136122"> </a><div class="pCellBody">
+Выберите <b class="cBold">Окно</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Панели инструментов</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b>.
+</div>
+<a name="wp136124"> </a><div class="pCellBody">
+Галочка р&#1103;дом с командой указывает на то, что панель инструментов отображаетс&#1103;.
+</div>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136136"> </a><div class="pCellBody">
+Отображение окна настройки <b class="cBold">Диспетчер макросов</b>
+</div>
+</td>
+    <td><a name="wp136138"> </a><div class="pCellBody">
+Выполните одно из следующих действий.
+</div>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> 
+<img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Диспетчер макросов</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">На панели инструментов <b class="cBold">Макросы</b> 
+нажмите кнопку <b class="cBold">Диспетчер 
+макросов</b> <img align="absmiddle" src="images/pgx_MacroManager.jpg" height="21" width="20" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136155"> </a><div class="pCellBody">
+Отображение редактора макросов
+</div>
+</td>
+    <td><a name="wp136157"> </a><div class="pCellBody">
+Выполните одно из следующих действий.
+</div>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> 
+<img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Редактор макросов</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">На панели инструментов <b class="cBold">Макросы</b> 
+нажмите кнопку <b class="cBold">Редактор макросов</b> 
+<img align="absmiddle" src="images/pgx_MacroEditor.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В окне настройки <b class="cBold">Диспетчер 
+макросов</b> щелкните правой кнопкой 
+мыши вариант <b class="cBold">Visual Basic for 
+Applications</b>, а затем выберите 
+команду <b class="cBold">Показать IDE</b>.
+</div></td>
+</tr></table>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136176"> </a><div class="pCellBody">
+Отображение редактора VSTA
+</div>
+</td>
+    <td><a name="wp136178"> </a><div class="pCellBody">
+Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Редактор VSTA</b>.
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+</p>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp137643"> </a>Создание проекта макроса</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В окне настройки <b class="cBold">Диспетчер макросов</b> выполните одно из следующих 
+действий.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">В списке выберите вариант <b class="cBold">Visual Basic for Applications</b>, нажмите 
+кнопку <b class="cBold">Создать</b>, а затем выберите вариант <b class="cBold">Новый проект макроса</b>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">В списке щелкните правой кнопкой мыши вариант <b class="cBold">Visual Basic for 
+Applications</b> и выберите команду <b class="cBold">Новый проект макроса</b>.
+</div></td>
+</tr></table><a name="wp137652"> </a><p class="pBody">
+</p><div align="left">
+<table cellpadding="6">
+  <caption></caption>
+  <tr align="left" valign="baseline">    <th><a name="wp136230"> </a><div class="pCellHeading">
+Дополнительные возможности
+</div>
+</th>
+    <th><a name="wp136232"> </a><div class="pCellHeading">
+&#160;
+</div>
+</th>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136256"> </a><div class="pCellBody">
+Открытие (или загрузка) проекта макроса
+</div>
+</td>
+    <td><a name="wp136258"> </a><div class="pCellBody">
+Выполните одно из следующих действий.
+</div>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В списке выберите вариант <b class="cBold">Visual 
+Basic for Applications</b>, нажмите 
+кнопку <b class="cBold">Загрузить</b>, а затем выберите 
+проект.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В списке щелкните правой кнопкой 
+мыши вариант <b class="cBold">Visual Basic for 
+Applications</b>, выберите команду 
+<b class="cBold">Загрузить проект макроса</b>, а затем 
+выберите проект.
+</div></td>
+</tr></table>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136280"> </a><div class="pCellBody">
+Переименование проекта макроса
+</div>
+</td>
+    <td><a name="wp136282"> </a><div class="pCellBody">
+Щелкните правой кнопкой мыши проект в списке, а затем выберите команду <b class="cBold">Переименовать</b>.
+</div>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136300"> </a><div class="pCellBody">
+Копирование проекта макроса на основе файла GMS
+</div>
+</td>
+    <td><a name="wp136302"> </a><div class="pCellBody">
+Щелкните правой кнопкой мыши проект в списке, выберите команду <b class="cBold">Копировать в</b>, а затем выберите конечную папку дл&#1103; скопированного проекта.
+</div>
+<a name="wp136304"> </a><div class="pCellBody">
+<b class="cBold">ПРИМЕЧАНИЕ.</b> Проект макроса на основе документа скопировать нельз&#1103;. Такие проекты хран&#1103;тс&#1103; в документе, и управление этими проектами отдельно от документа невозможно.
+</div>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136322"> </a><div class="pCellBody">
+Отображение или скрытие всех модулей в списке
+</div>
+</td>
+    <td><a name="wp136325"> </a><div class="pCellBody">
+Нажмите кнопку <b class="cBold">Простой режим</b> <img align="absmiddle" src="images/pgx_MacroMgr_Simple_mode.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/>.
+</div>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136343"> </a><div class="pCellBody">
+Добавление модул&#1103; в проект макроса
+</div>
+</td>
+    <td><a name="wp136345"> </a><div class="pCellBody">
+Выполните одно из следующих действий.
+</div>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните проект в списке, нажмите 
+кнопку <b class="cBold">Создать</b>, а затем выберите 
+вариант <b class="cBold">Новый модуль</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните правой кнопкой мыши 
+проект в списке, а затем выберите 
+команду <b class="cBold">Новый модуль</b>.
+</div></td>
+</tr></table>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136367"> </a><div class="pCellBody">
+Редактирование модул&#1103; в проекте макроса
+</div>
+</td>
+    <td><a name="wp136369"> </a><div class="pCellBody">
+Выполните одно из следующих действий.
+</div>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните модуль в списке, а затем 
+нажмите кнопку <b class="cBold">Изменить</b> <img align="absmiddle" src="images/pgx_edit_module.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните правой кнопкой мыши 
+модуль в списке, а затем выберите 
+команду <b class="cBold">Изменить</b>.
+</div></td>
+</tr></table>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136398"> </a><div class="pCellBody">
+Переименование модул&#1103; в проекте макроса
+</div>
+</td>
+    <td><a name="wp136400"> </a><div class="pCellBody">
+Щелкните правой кнопкой модуль в списке, а затем выберите команду <b class="cBold">Переименовать</b>.
+</div>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136418"> </a><div class="pCellBody">
+Удаление модул&#1103; из проекта макроса
+</div>
+</td>
+    <td><a name="wp136420"> </a><div class="pCellBody">
+Выполните одно из следующих действий.
+</div>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните модуль в списке, а затем 
+нажмите кнопку <b class="cBold">Удалить</b> <img align="absmiddle" src="images/pgx_delete_module.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните правой кнопкой мыши 
+модуль в списке, а затем выберите 
+команду <b class="cBold">Удалить</b>.
+</div></td>
+</tr></table>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136449"> </a><div class="pCellBody">
+Закрытие (или выгрузка) проекта макроса на основе файла GMS
+</div>
+</td>
+    <td><a name="wp136451"> </a><div class="pCellBody">
+Щелкните правой кнопкой мыши проект макроса в списке, а затем выберите команду <b class="cBold">Выгрузить проект макроса</b>.
+</div>
+<a name="wp136453"> </a><div class="pCellBody">
+<b class="cBold">ПРИМЕЧАНИЕ.</b> Чтобы закрыть проект макроса на основе документа, необходимо закрыть документ, в котором хранитс&#1103; этот проект.
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+</p>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Некоторые проекты макросов заблокированы и недоступны дл&#1103; 
+редактировани&#1103;.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp137669"> </a>Создание макроса</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В окне настройки <b class="cBold">Диспетчер макросов</b> выполните одно из следующих 
+действий.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Щелкните нужный модуль контейнера, нажмите кнопку <b class="cBold">Создать</b>, а 
+затем выберите вариант <b class="cBold">Новый макрос</b>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Щелкните правой кнопкой мыши нужный модуль контейнера, а затем 
+выберите команду <b class="cBold">Новый макрос</b>.
+</div></td>
+</tr></table><a name="wp137678"> </a><p class="pBody">
+</p><div align="left">
+<table cellpadding="6">
+  <caption></caption>
+  <tr align="left" valign="baseline">    <th><a name="wp136184"> </a><div class="pCellHeading">
+Дополнительные возможности
+</div>
+</th>
+    <th><a name="wp136186"> </a><div class="pCellHeading">
+&#160;
+</div>
+</th>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136198"> </a><div class="pCellBody">
+Редактирование макроса
+</div>
+</td>
+    <td><a name="wp136200"> </a><div class="pCellBody">
+Выполните одно из следующих действий.
+</div>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните макрос в списке, а затем 
+нажмите кнопку <b class="cBold">Изменить</b> <img align="absmiddle" src="images/pgx_edit_module.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните правой кнопкой мыши 
+макрос в списке, а затем выберите 
+команду <b class="cBold">Изменить</b>.
+</div></td>
+</tr></table>
+</td>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp136217"> </a><div class="pCellBody">
+Удаление макроса
+</div>
+</td>
+    <td><a name="wp136219"> </a><div class="pCellBody">
+Выполните одно из следующих действий.
+</div>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните макрос в списке, а затем 
+нажмите кнопку <b class="cBold">Удалить</b> <img align="absmiddle" src="images/pgx_delete_module.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Щелкните правой кнопкой мыши 
+макрос в списке, а затем выберите 
+команду <b class="cBold">Удалить</b>.
+</div></td>
+</tr></table>
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+</p>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Некоторые проекты макросов заблокированы и недоступны дл&#1103; 
+редактировани&#1103;.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1047126"> </a>Запись макроса</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выполните одно из следующих действий.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Чтобы сохранить макрос в стандартном проекте макросов дл&#1103; записи, 
+выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Начать запись</b> или нажмите 
+кнопку <b class="cBold">Начать запись</b> <img align="absmiddle" src="images/pgx_record_macro.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/> на панели инструментов <b class="cBold">Макросы</b>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">В окне настройки <b class="cBold">Диспетчер макросов</b> щелкните проект, в котором 
+требуетс&#1103; сохранить макрос, а затем нажмите кнопку <b class="cBold">Запись</b> <img align="absmiddle" src="images/pgx_record_macro.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Откроетс&#1103; диалоговое окно <b class="cBold">Записать макрос</b>.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В поле <b class="cBold">Им&#1103; макроса</b> введите им&#1103; макроса.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Имена макросов могут содержать числа, но должны начинатьс&#1103; с буквы. Имена макросов не могут содержать пробелы или символы, отличные от буквенно-цифровых, за исключением подчеркиваний (&#160;_&#160;).</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Введите описание макроса в поле <b class="cBold">Описание</b>, а затем нажмите кнопку 
+<b class="cBold">OK</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выполните действи&#1103;, которые требуетс&#1103; записать.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Приложение начнет запись выполн&#1103;емых действий. Чтобы приостановить запись, выполните одно из следующих действий.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Пауза записи</b>. Повторите эти 
+действи&#1103;, чтобы возобновить запись.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Пауза записи</b> <img align="absmiddle" src="images/pgx_pause_macro_record.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/> на панели инструментов <b class="cBold">Макросы</b> 
+или в окне настройки <b class="cBold">Диспетчер макросов</b>. Повторите эти действи&#1103;, 
+чтобы возобновить запись.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Чтобы остановить запись, выполните одно из следующих действий.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Остановить запись</b>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Остановить запись</b> <img align="absmiddle" src="images/pgx_stop_macro_record.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/> на панели инструментов 
+<b class="cBold">Макросы</b> или в окне настройки <b class="cBold">Диспетчер макросов</b>.
+</div></td>
+</tr></table><table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Нельз&#1103; записать макрос, если все доступные проекты макросов 
+заблокированы.
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Не все действи&#1103; можно записать &#8212; некоторые из-за сложной 
+последовательности. Несмотр&#1103; на это, большинство подобных 
+действий можно записать вручную в редакторе макросов. Когда 
+действие не может быть записано, в код макроса записываетс&#1103; 
+комментарий <code class="cCode">«Запись этой команды не поддерживаетс&#1103;»</code>, но 
+процесс записи продолжаетс&#1103; до тех пор, пока пользователь не 
+остановит его. Чтобы просмотреть любые комментарии, имеющиес&#1103; 
+в коде, откройте макрос в редакторе макросов.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Чтобы задать стандартный проект макросов дл&#1103; записи, щелкните 
+правой кнопкой мыши проект в окне настройки <b class="cBold">Диспетчер 
+макросов</b>, а затем выберите команду <b class="cBold">Установить как проект 
+записи</b>. Тем не менее заблокированный проект макроса выбрать 
+нельз&#1103;.
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Чтобы отменить запись макроса и удалить все команды, записанные 
+до момента отмены, выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> 
+<b class="cBold">Отменить запись</b>.
+</div></td>
+</tr></table>
+<a name="wp1047181"> </a><p class="pBody">
+</p><div align="left">
+<table cellpadding="6">
+  <caption></caption>
+  <tr align="left" valign="baseline">    <th><a name="wp1047167"> </a><div class="pCellHeading">
+Дополнительные возможности
+</div>
+</th>
+    <th><a name="wp1047169"> </a><div class="pCellHeading">
+&#160;
+</div>
+</th>
+</tr>
+  <tr align="left" valign="baseline">    <td><a name="wp1047171"> </a><div class="pCellBody">
+Сохранение действий из списка <b class="cBold">Отмена</b> в виде макроса VBA
+</div>
+</td>
+    <td><a name="wp1047177"> </a><div class="pCellBody">
+Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Отменить</b>, выполните действи&#1103;, которые необходимо записать, а затем нажмите кнопку <b class="cBold">Сохранить список в макросе VBA</b> <img align="absmiddle" src="images/pgx_save_undo_list.jpg" height="21" width="20" border="0" hspace="0" vspace="0"/> в окне настройки <b class="cBold">Отмена</b>.
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="pBody">
+</p>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1047188"> </a>Запись временного макроса</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Записать временный макрос</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выполните действи&#1103;, которые требуетс&#1103; записать.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Приложение начнет запись выполн&#1103;емых действий. Чтобы приостановить запись, выполните одно из следующих действий.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Пауза записи</b>. Повторите эти 
+действи&#1103;, чтобы возобновить запись.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Пауза записи</b> <img align="absmiddle" src="images/pgx_pause_macro_record.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/> на панели инструментов <b class="cBold">Макросы</b> 
+или в окне настройки <b class="cBold">Диспетчер макросов</b>. Повторите эти действи&#1103;, 
+чтобы возобновить запись.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Чтобы остановить запись, выполните одно из следующих действий.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Остановить запись</b>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Остановить запись</b> <img align="absmiddle" src="images/pgx_stop_macro_record.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/> на панели инструментов 
+<b class="cBold">Макросы</b> или в окне настройки <b class="cBold">Диспетчер макросов</b>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Макрос временно сохран&#1103;етс&#1103; в проект записи, заданный по умолчанию. После завершени&#1103; текущего сеанса макрос удал&#1103;етс&#1103; из проекта.</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Нельз&#1103; записать временный макрос, если все доступные проекты 
+макросов заблокированы.
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Не все действи&#1103; можно записать.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Чтобы задать проект записи по умолчанию, щелкните правой 
+кнопкой мыши проект в окне настройки <b class="cBold">Диспетчер макросов</b>, а 
+затем выберите команду <b class="cBold">Установить как проект записи</b>. 
+(Заблокированный проект макроса выбрать нельз&#1103;.) Если 
+необходимо, можно создать несколько временных записей, назначив 
+дл&#1103; каждой свой собственный проект макроса.
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Чтобы отменить запись макроса и удалить все команды, записанные 
+до момента отмены, выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> 
+<b class="cBold">Отменить запись</b>.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp137800"> </a>Воспроизведение макроса</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выполните одно из следующих действий.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Запустить макрос</b> или нажмите 
+кнопку <b class="cBold">Запустить макрос</b> <img align="absmiddle" src="images/pgx_run_macro.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/> на панели инструментов <b class="cBold">Макросы</b>. В 
+списке <b class="cBold">Макрос в</b> выберите проект или файл, в котором сохранен 
+макрос. В списке <b class="cBold">Им&#1103; макроса</b> выберите макрос. Нажмите кнопку 
+<b class="cBold">Запустить</b>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">В окне настройки <b class="cBold">Диспетчер макросов</b> дважды щелкните макрос в 
+списке.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">В окне настройки <b class="cBold">Диспетчер макросов</b> щелкните макрос в списке, а 
+затем нажмите кнопку <b class="cBold">Запустить</b> <img align="absmiddle" src="images/pgx_run_macro.jpg" height="21" width="21" border="0" hspace="0" vspace="0"/>.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">В окне настройки <b class="cBold">Диспетчер макросов</b> щелкните правой кнопкой 
+мыши макрос в списке, а затем выберите команду <b class="cBold">Запустить</b>.
+</div></td>
+</tr></table><table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1047250"> </a>Воспроизведение временного макроса</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Макросы</b><b class="cBold"> </b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b style="font-weight: bold" class="cBold"> </b><b class="cBold">Запуск временного макроса</b>.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Этот параметр включен только после записи временного макроса.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Если создано несколько временных макросов, необходимо указать, 
+какой проект содержит макрос, который нужно запустить. В окне 
+настройки <b class="cBold">Диспетчер макросов</b> щелкните правой кнопкой мыши 
+проект, а затем выберите команду <b class="cBold">Установить как проект записи</b>.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp137859"> </a>Получение доступа к файлу справки по макросам из редактора макросов</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">При активном окне приложени&#1103; Microsoft Visual Basic for Applications 
+нажмите клавишу <b class="cBold">F2</b>, чтобы отобразить средство просмотра объектов.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Средство просмотра объектов отображает все возможности и функции, которые можно автоматизировать в редакторе макросов.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите вариант <b class="cBold">CorelDRAW</b> в списке <b class="cBold">Библиотека</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Средство просмотра объектов отображает все возможности и функции CorelDRAW, которые можно автоматизировать в редакторе макросов. Вместе эти возможности и функции называютс&#1103; объектной моделью.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выполните одно из следующих действий.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Нажмите клавишу <b class="cBold">F1</b>, чтобы отобразить домашнюю страницу файла 
+справки по макросам. Чтобы просмотреть документацию по объектной 
+модели приложени&#1103;, откройте раздел «Информаци&#1103; об объектной 
+модели» файла справки.
+</div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable">Чтобы отобразить раздел справки дл&#1103; конкретного элемента, 
+отображающегос&#1103; в средстве просмотра объектов, выберите этот 
+элемент и нажмите клавишу <b class="cBold">F1</b>.
+</div></td>
+</tr></table><table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/tip.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Можно также отобразить раздел справки дл&#1103; любого элемента в окне 
+<b class="cBold">Код</b> редактора макросов, выбрав этот элемент и нажав клавишу <b class="cBold">F1</b>.
+</div></td>
+</tr></table>
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag());
+   // -->
+  </script>
+<p></p>
+<p class="pBody">Copyright 2012 Corel Corporation. Все права защищены.</p>
+    <iframe id="setcookiefrm" style="display:none;"></iframe>
+ </body>
+</html>

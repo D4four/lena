@@ -1,0 +1,227 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+    />
+    
+    <script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script language="jscript" type="text/jscript">
+    
+        var Setup = window.external;
+    
+        function HighLightIt(id)
+        {
+            var pEl = document.getElementById(id);
+            if (null == pEl)
+            {
+                return;
+            }
+            
+            idHighlight.style.display = "block";
+            idHighlight.style.top     = pEl.style.top;
+            idHighlight.style.height  = pEl.style.height;
+                                   
+            pEl = document.getElementById(id + "Link");
+            if (null != pEl)
+            {
+                pEl.style.color = "white";
+                pEl.focus();
+            }
+            
+            pEl = document.getElementById(id + "Desc");
+            if (null != pEl) {
+                pEl.style.color = "white";
+            }
+
+            
+        } //function HighLightIt(pEl)
+            
+        function UnHighLightIt(id)
+        {
+            var pEl = document.getElementById(id);
+            if (null == pEl)
+            {
+                return;
+            }
+            
+            idHighlight.style.display = "none";
+            
+            
+            pEl = document.getElementById(id + "Link");
+            if (null != pEl)
+            {
+                pEl.style.color = "white";
+            }
+
+            pEl = document.getElementById(id + "Desc");
+            if (null != pEl) {
+                pEl.style.color = "#c0c0c0";
+            }
+
+            
+        } //function UnHighLightIt(pEl)
+        
+        
+        function Install()
+        {
+            try
+            {
+                if (Setup.ValidateDiskSpace(true))
+                    Setup.EndModalLoop(0);
+            }
+            catch(err) { window.alert("Install();"); }
+            
+            return false;
+            
+        } //function Cancel()
+        
+        function Custom()
+        {
+            try
+            {
+                window.location = "Install.htm";
+            }
+            catch(err) { window.alert("Custom();"); }
+            
+            return false;
+            
+        } //function Cancel()
+        
+        function OnBodyLoad()
+        {
+            
+            if (g_bIsAdminPackage)
+                idCustomDescAdmin.style.display = "block";
+            else
+                idCustomDesc.style.display = "block";
+
+        }
+        
+    </script>
+    
+    <style type="text/css">
+    
+        .Image
+        {
+	        width: 64px;
+	        height: 64px;
+        }
+       
+        #idHighlight
+        {
+            position: absolute;
+            width: 740px;
+            left: 95px;
+            width: 600px;
+            display: none;
+            background-color: #a0a0a0;
+	        FILTER: progid:DXImageTransform.Microsoft.Alpha(style=2,opacity=17,finishOpacity=0);
+        }
+        
+        a
+        {
+            color: white;
+            text-decoration: none;
+            cursor: default;
+        }
+        
+        a:hover
+        {
+            color: white;
+            text-decoration: none;
+            cursor: default;
+        }
+        
+        a:active
+        {
+            color: white;
+            text-decoration: none;
+            cursor: default;
+            border: none;
+        }
+        
+        a:visited
+        {
+            color: white;
+            text-decoration: none;
+            cursor: default;
+        }
+
+
+    </style>
+        
+</head>
+<body onload="OnBodyLoad();">
+
+                
+                
+    <!-- background -->
+    <div id="idBackGrd2"></div>
+              
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+    
+    <!-- page content panel -->
+    <div id="idPanel">
+
+        <div class="DlgHeader">
+            Kiitos, että valitsit CorelDRAW Graphics Suite.  Valitse haluamasi asennusvaihtoehto:
+        </div>
+    
+        <div id="idHighlight"></div>
+        
+        <div id="idInstall" class="DlgBlock" style="top: 65px; left: 30px; height: 100px; padding: 5px 5px 5px 5px;" onclick="Install();" onmouseover="HighLightDesc('idInstallDesc');" onmouseout="UnHighLightDesc('idInstallDesc');">
+            <img id="idInstallImg" class="Image" src="../../_XX/Custom/Images/Typical.png" alt="" />
+            <div class="DlgBlock" style="left: 80px; top: 7px;">
+                <a accesskey="T" class="Header" id="idInstallLink" href="InstallChoose.htm" style="color: White;" onclick="return false;" >
+				<u>N</u>ormaali asennus</a> 
+                <br />
+                <div style="width: 625px;" class="Desc" id="idInstallDesc">
+                    Tämä vaihtoehto asentaa ohjelmiston oletussijaintiin ja ottaa mukaan useimmat ohjelmat ja toiminnot.<br /> 
+                    Asennuksen vaatima tila: <label ICA:Property="ICA.DiskSpace.Drive.Required.Formatted.0">[ICA.DiskSpace.Drive.Required.Formatted.0]</label> (<label ICA:Property="ICA.DiskSpace.Drive.Size.Formatted.0">[ICA.DiskSpace.Drive.Size.Formatted.0]</label> käytettävissä)
+                </div>
+            </div>
+        </div>
+       
+        
+        <div id="idCustom" class="DlgBlock" style="top: 175px; height: 100px; left: 30px; padding: 5px 5px 5px 5px;" onclick="Custom();" onmouseover="HighLightDesc('idCustomDesc');" onmouseout="UnHighLightDesc('idCustomDesc');">
+            <img id="idCustomImg" class="Image" src="../../_XX/Custom/Images/Custom.png" alt="" />
+            <div class="DlgBlock" style="left: 80px; top: 7px;">
+                <a accesskey="M" class="Header" id="idCustomLink" href="InstallChoose.htm" style="color: White;" onclick="return false;" onfocus="HighLightIt('idCustom');" onblur="UnHighLightIt('idCustom');">
+				<u>M</u>ukautettu asennus...</a> 
+                <br />
+                <div style="display: none; width: 625px;" id="idCustomDesc" class="Desc" >
+                    Jos valitset tämän vaihtoehdon, voit valita, miten ohjelmisto asennetaan.
+                </div>
+                <div style="display: none; width: 625px;" id="idCustomDescAdmin" class="Desc">
+					Voit valita asennettavat ohjelmiston osat ja määrittää, suoritetaanko ohjelmisto verkosta vai omasta tietokoneestasi.
+                </div>
+            </div>
+        </div>
+    
+    </div> <!-- div id="idPanel" END -->
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    <button onclick="window.external.OnCancel();" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" ID="idCancel" accesskey="P"><u>P</u>eruuta</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

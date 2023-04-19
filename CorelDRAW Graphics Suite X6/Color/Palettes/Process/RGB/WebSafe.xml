@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<palette resid="5fb0682a-5081-45b5-82ee-0def5a3b4306" guid="78268394-2ebf-41aa-975d-233b5ec99f4f" locked="true">
+<colors>
+<page>
+<color name="FFFFFF" cs="RGB" tints="1,1,1"></color>
+<color name="FFFFCC" cs="RGB" tints="1,1,0.8"></color>
+<color name="FFFF99" cs="RGB" tints="1,1,0.6"></color>
+<color name="FFFF66" cs="RGB" tints="1,1,0.4"></color>
+<color name="FFFF33" cs="RGB" tints="1,1,0.2"></color>
+<color name="FFFF00" cs="RGB" tints="1,1,0"></color>
+<color name="FFCCFF" cs="RGB" tints="1,0.8,1"></color>
+<color name="FFCCCC" cs="RGB" tints="1,0.8,0.8"></color>
+<color name="FFCC99" cs="RGB" tints="1,0.8,0.6"></color>
+<color name="FFCC66" cs="RGB" tints="1,0.8,0.4"></color>
+<color name="FFCC33" cs="RGB" tints="1,0.8,0.2"></color>
+<color name="FFCC00" cs="RGB" tints="1,0.8,0"></color>
+<color name="FF99FF" cs="RGB" tints="1,0.6,1"></color>
+<color name="FF99CC" cs="RGB" tints="1,0.6,0.8"></color>
+<color name="FF9999" cs="RGB" tints="1,0.6,0.6"></color>
+<color name="FF9966" cs="RGB" tints="1,0.6,0.4"></color>
+<color name="FF9933" cs="RGB" tints="1,0.6,0.2"></color>
+<color name="FF9900" cs="RGB" tints="1,0.6,0"></color>
+<color name="FF66FF" cs="RGB" tints="1,0.4,1"></color>
+<color name="FF66CC" cs="RGB" tints="1,0.4,0.8"></color>
+<color name="FF6699" cs="RGB" tints="1,0.4,0.6"></color>
+<color name="FF6666" cs="RGB" tints="1,0.4,0.4"></color>
+<color name="FF6633" cs="RGB" tints="1,0.4,0.2"></color>
+<color name="FF6600" cs="RGB" tints="1,0.4,0"></color>
+<color name="FF33FF" cs="RGB" tints="1,0.2,1"></color>
+<color name="FF33CC" cs="RGB" tints="1,0.2,0.8"></color>
+<color name="FF3399" cs="RGB" tints="1,0.2,0.6"></color>
+<color name="FF3366" cs="RGB" tints="1,0.2,0.4"></color>
+<color name="FF3333" cs="RGB" tints="1,0.2,0.2"></color>
+<color name="FF3300" cs="RGB" tints="1,0.2,0"></color>
+<color name="FF00FF" cs="RGB" tints="1,0,1"></color>
+<color name="FF00CC" cs="RGB" tints="1,0,0.8"></color>
+<color name="FF0099" cs="RGB" tints="1,0,0.6"></color>
+<color name="FF0066" cs="RGB" tints="1,0,0.4"></color>
+<color name="FF0033" cs="RGB" tints="1,0,0.2"></color>
+<color name="FF0000" cs="RGB" tints="1,0,0"></color>
+<color name="CCFFFF" cs="RGB" tints="0.8,1,1"></color>
+<color name="CCFFCC" cs="RGB" tints="0.8,1,0.8"></color>
+<color name="CCFF99" cs="RGB" tints="0.8,1,0.6"></color>
+<color name="CCFF66" cs="RGB" tints="0.8,1,0.4"></color>
+<color name="CCFF33" cs="RGB" tints="0.8,1,0.2"></color>
+<color name="CCFF00" cs="RGB" tints="0.8,1,0"></color>
+<color name="CCCCFF" cs="RGB" tints="0.8,0.8,1"></color>
+<color name="CCCCCC" cs="RGB" tints="0.8,0.8,0.8"></color>
+<color name="CCCC99" cs="RGB" tints="0.8,0.8,0.6"></color>
+<color name="CCCC66" cs="RGB" tints="0.8,0.8,0.4"></color>
+<color name="CCCC33" cs="RGB" tints="0.8,0.8,0.2"></color>
+<color name="CCCC00" cs="RGB" tints="0.8,0.8,0"></color>
+<color name="CC99FF" cs="RGB" tints="0.8,0.6,1"></color>
+<color name="CC99CC" cs="RGB" tints="0.8,0.6,0.8"></color>
+<color name="CC9999" cs="RGB" tints="0.8,0.6,0.6"></color>
+<color name="CC9966" cs="RGB" tints="0.8,0.6,0.4"></color>
+<color name="CC9933" cs="RGB" tints="0.8,0.6,0.2"></color>
+<color name="CC9900" cs="RGB" tints="0.8,0.6,0"></color>
+<color name="CC66FF" cs="RGB" tints="0.8,0.4,1"></color>
+<color name="CC66CC" cs="RGB" tints="0.8,0.4,0.8"></color>
+<color name="CC6699" cs="RGB" tints="0.8,0.4,0.6"></color>
+<color name="CC6666" cs="RGB" tints="0.8,0.4,0.4"></color>
+<color name="CC6633" cs="RGB" tints="0.8,0.4,0.2"></color>
+<color name="CC6600" cs="RGB" tints="0.8,0.4,0"></color>
+<color name="CC33FF" cs="RGB" tints="0.8,0.2,1"></color>
+<color name="CC33CC" cs="RGB" tints="0.8,0.2,0.8"></color>
+<color name="CC3399" cs="RGB" tints="0.8,0.2,0.6"></color>
+<color name="CC3366" cs="RGB" tints="0.8,0.2,0.4"></color>
+<color name="CC3333" cs="RGB" tints="0.8,0.2,0.2"></color>
+<color name="CC3300" cs="RGB" tints="0.8,0.2,0"></color>
+<color name="CC00FF" cs="RGB" tints="0.8,0,1"></color>
+<color name="CC00CC" cs="RGB" tints="0.8,0,0.8"></color>
+<color name="CC0099" cs="RGB" tints="0.8,0,0.6"></color>
+<color name="CC0066" cs="RGB" tints="0.8,0,0.4"></color>
+<color name="CC0033" cs="RGB" tints="0.8,0,0.2"></color>
+<color name="CC0000" cs="RGB" tints="0.8,0,0"></color>
+<color name="99FFFF" cs="RGB" tints="0.6,1,1"></color>
+<color name="99FFCC" cs="RGB" tints="0.6,1,0.8"></color>
+<color name="99FF99" cs="RGB" tints="0.6,1,0.6"></color>
+<color name="99FF66" cs="RGB" tints="0.6,1,0.4"></color>
+<color name="99FF33" cs="RGB" tints="0.6,1,0.2"></color>
+<color name="99FF00" cs="RGB" tints="0.6,1,0"></color>
+<color name="99CCFF" cs="RGB" tints="0.6,0.8,1"></color>
+<color name="99CCCC" cs="RGB" tints="0.6,0.8,0.8"></color>
+<color name="99CC99" cs="RGB" tints="0.6,0.8,0.6"></color>
+<color name="99CC66" cs="RGB" tints="0.6,0.8,0.4"></color>
+<color name="99CC33" cs="RGB" tints="0.6,0.8,0.2"></color>
+<color name="99CC00" cs="RGB" tints="0.6,0.8,0"></color>
+<color name="9999FF" cs="RGB" tints="0.6,0.6,1"></color>
+<color name="9999CC" cs="RGB" tints="0.6,0.6,0.8"></color>
+<color name="999999" cs="RGB" tints="0.6,0.6,0.6"></color>
+<color name="999966" cs="RGB" tints="0.6,0.6,0.4"></color>
+<color name="999933" cs="RGB" tints="0.6,0.6,0.2"></color>
+<color name="999900" cs="RGB" tints="0.6,0.6,0"></color>
+<color name="9966FF" cs="RGB" tints="0.6,0.4,1"></color>
+<color name="9966CC" cs="RGB" tints="0.6,0.4,0.8"></color>
+<color name="996699" cs="RGB" tints="0.6,0.4,0.6"></color>
+<color name="996666" cs="RGB" tints="0.6,0.4,0.4"></color>
+<color name="996633" cs="RGB" tints="0.6,0.4,0.2"></color>
+<color name="996600" cs="RGB" tints="0.6,0.4,0"></color>
+<color name="9933FF" cs="RGB" tints="0.6,0.2,1"></color>
+<color name="9933CC" cs="RGB" tints="0.6,0.2,0.8"></color>
+<color name="993399" cs="RGB" tints="0.6,0.2,0.6"></color>
+<color name="993366" cs="RGB" tints="0.6,0.2,0.4"></color>
+<color name="993333" cs="RGB" tints="0.6,0.2,0.2"></color>
+<color name="993300" cs="RGB" tints="0.6,0.2,0"></color>
+<color name="9900FF" cs="RGB" tints="0.6,0,1"></color>
+<color name="9900CC" cs="RGB" tints="0.6,0,0.8"></color>
+<color name="990099" cs="RGB" tints="0.6,0,0.6"></color>
+<color name="990066" cs="RGB" tints="0.6,0,0.4"></color>
+<color name="990033" cs="RGB" tints="0.6,0,0.2"></color>
+<color name="990000" cs="RGB" tints="0.6,0,0"></color>
+<color name="66FFFF" cs="RGB" tints="0.4,1,1"></color>
+<color name="66FFCC" cs="RGB" tints="0.4,1,0.8"></color>
+<color name="66FF99" cs="RGB" tints="0.4,1,0.6"></color>
+<color name="66FF66" cs="RGB" tints="0.4,1,0.4"></color>
+<color name="66FF33" cs="RGB" tints="0.4,1,0.2"></color>
+<color name="66FF00" cs="RGB" tints="0.4,1,0"></color>
+<color name="66CCFF" cs="RGB" tints="0.4,0.8,1"></color>
+<color name="66CCCC" cs="RGB" tints="0.4,0.8,0.8"></color>
+<color name="66CC99" cs="RGB" tints="0.4,0.8,0.6"></color>
+<color name="66CC66" cs="RGB" tints="0.4,0.8,0.4"></color>
+<color name="66CC33" cs="RGB" tints="0.4,0.8,0.2"></color>
+<color name="66CC00" cs="RGB" tints="0.4,0.8,0"></color>
+<color name="6699FF" cs="RGB" tints="0.4,0.6,1"></color>
+<color name="6699CC" cs="RGB" tints="0.4,0.6,0.8"></color>
+<color name="669999" cs="RGB" tints="0.4,0.6,0.6"></color>
+<color name="669966" cs="RGB" tints="0.4,0.6,0.4"></color>
+<color name="669933" cs="RGB" tints="0.4,0.6,0.2"></color>
+<color name="669900" cs="RGB" tints="0.4,0.6,0"></color>
+<color name="6666FF" cs="RGB" tints="0.4,0.4,1"></color>
+<color name="6666CC" cs="RGB" tints="0.4,0.4,0.8"></color>
+<color name="666699" cs="RGB" tints="0.4,0.4,0.6"></color>
+<color name="666666" cs="RGB" tints="0.4,0.4,0.4"></color>
+<color name="666633" cs="RGB" tints="0.4,0.4,0.2"></color>
+<color name="666600" cs="RGB" tints="0.4,0.4,0"></color>
+<color name="6633FF" cs="RGB" tints="0.4,0.2,1"></color>
+<color name="6633CC" cs="RGB" tints="0.4,0.2,0.8"></color>
+<color name="663399" cs="RGB" tints="0.4,0.2,0.6"></color>
+<color name="663366" cs="RGB" tints="0.4,0.2,0.4"></color>
+<color name="663333" cs="RGB" tints="0.4,0.2,0.2"></color>
+<color name="663300" cs="RGB" tints="0.4,0.2,0"></color>
+<color name="6600FF" cs="RGB" tints="0.4,0,1"></color>
+<color name="6600CC" cs="RGB" tints="0.4,0,0.8"></color>
+<color name="660099" cs="RGB" tints="0.4,0,0.6"></color>
+<color name="660066" cs="RGB" tints="0.4,0,0.4"></color>
+<color name="660033" cs="RGB" tints="0.4,0,0.2"></color>
+<color name="660000" cs="RGB" tints="0.4,0,0"></color>
+<color name="33FFFF" cs="RGB" tints="0.2,1,1"></color>
+<color name="33FFCC" cs="RGB" tints="0.2,1,0.8"></color>
+<color name="33FF99" cs="RGB" tints="0.2,1,0.6"></color>
+<color name="33FF66" cs="RGB" tints="0.2,1,0.4"></color>
+<color name="33FF33" cs="RGB" tints="0.2,1,0.2"></color>
+<color name="33FF00" cs="RGB" tints="0.2,1,0"></color>
+<color name="33CCFF" cs="RGB" tints="0.2,0.8,1"></color>
+<color name="33CCCC" cs="RGB" tints="0.2,0.8,0.8"></color>
+<color name="33CC99" cs="RGB" tints="0.2,0.8,0.6"></color>
+<color name="33CC66" cs="RGB" tints="0.2,0.8,0.4"></color>
+<color name="33CC33" cs="RGB" tints="0.2,0.8,0.2"></color>
+<color name="33CC00" cs="RGB" tints="0.2,0.8,0"></color>
+<color name="3399FF" cs="RGB" tints="0.2,0.6,1"></color>
+<color name="3399CC" cs="RGB" tints="0.2,0.6,0.8"></color>
+<color name="339999" cs="RGB" tints="0.2,0.6,0.6"></color>
+<color name="339966" cs="RGB" tints="0.2,0.6,0.4"></color>
+<color name="339933" cs="RGB" tints="0.2,0.6,0.2"></color>
+<color name="339900" cs="RGB" tints="0.2,0.6,0"></color>
+<color name="3366FF" cs="RGB" tints="0.2,0.4,1"></color>
+<color name="3366CC" cs="RGB" tints="0.2,0.4,0.8"></color>
+<color name="336699" cs="RGB" tints="0.2,0.4,0.6"></color>
+<color name="336666" cs="RGB" tints="0.2,0.4,0.4"></color>
+<color name="336633" cs="RGB" tints="0.2,0.4,0.2"></color>
+<color name="336600" cs="RGB" tints="0.2,0.4,0"></color>
+<color name="3333FF" cs="RGB" tints="0.2,0.2,1"></color>
+<color name="3333CC" cs="RGB" tints="0.2,0.2,0.8"></color>
+<color name="333399" cs="RGB" tints="0.2,0.2,0.6"></color>
+<color name="333366" cs="RGB" tints="0.2,0.2,0.4"></color>
+<color name="333333" cs="RGB" tints="0.2,0.2,0.2"></color>
+<color name="333300" cs="RGB" tints="0.2,0.2,0"></color>
+<color name="3300FF" cs="RGB" tints="0.2,0,1"></color>
+<color name="3300CC" cs="RGB" tints="0.2,0,0.8"></color>
+<color name="330099" cs="RGB" tints="0.2,0,0.6"></color>
+<color name="330066" cs="RGB" tints="0.2,0,0.4"></color>
+<color name="330033" cs="RGB" tints="0.2,0,0.2"></color>
+<color name="330000" cs="RGB" tints="0.2,0,0"></color>
+<color name="00FFFF" cs="RGB" tints="0,1,1"></color>
+<color name="00FFCC" cs="RGB" tints="0,1,0.8"></color>
+<color name="00FF99" cs="RGB" tints="0,1,0.6"></color>
+<color name="00FF66" cs="RGB" tints="0,1,0.4"></color>
+<color name="00FF33" cs="RGB" tints="0,1,0.2"></color>
+<color name="00FF00" cs="RGB" tints="0,1,0"></color>
+<color name="00CCFF" cs="RGB" tints="0,0.8,1"></color>
+<color name="00CCCC" cs="RGB" tints="0,0.8,0.8"></color>
+<color name="00CC99" cs="RGB" tints="0,0.8,0.6"></color>
+<color name="00CC66" cs="RGB" tints="0,0.8,0.4"></color>
+<color name="00CC33" cs="RGB" tints="0,0.8,0.2"></color>
+<color name="00CC00" cs="RGB" tints="0,0.8,0"></color>
+<color name="0099FF" cs="RGB" tints="0,0.6,1"></color>
+<color name="0099CC" cs="RGB" tints="0,0.6,0.8"></color>
+<color name="009999" cs="RGB" tints="0,0.6,0.6"></color>
+<color name="009966" cs="RGB" tints="0,0.6,0.4"></color>
+<color name="009933" cs="RGB" tints="0,0.6,0.2"></color>
+<color name="009900" cs="RGB" tints="0,0.6,0"></color>
+<color name="0066FF" cs="RGB" tints="0,0.4,1"></color>
+<color name="0066CC" cs="RGB" tints="0,0.4,0.8"></color>
+<color name="006699" cs="RGB" tints="0,0.4,0.6"></color>
+<color name="006666" cs="RGB" tints="0,0.4,0.4"></color>
+<color name="006633" cs="RGB" tints="0,0.4,0.2"></color>
+<color name="006600" cs="RGB" tints="0,0.4,0"></color>
+<color name="0033FF" cs="RGB" tints="0,0.2,1"></color>
+<color name="0033CC" cs="RGB" tints="0,0.2,0.8"></color>
+<color name="003399" cs="RGB" tints="0,0.2,0.6"></color>
+<color name="003366" cs="RGB" tints="0,0.2,0.4"></color>
+<color name="003333" cs="RGB" tints="0,0.2,0.2"></color>
+<color name="003300" cs="RGB" tints="0,0.2,0"></color>
+<color name="0000FF" cs="RGB" tints="0,0,1"></color>
+<color name="0000CC" cs="RGB" tints="0,0,0.8"></color>
+<color name="000099" cs="RGB" tints="0,0,0.6"></color>
+<color name="000066" cs="RGB" tints="0,0,0.4"></color>
+<color name="000033" cs="RGB" tints="0,0,0.2"></color>
+<color name="000000" cs="RGB" tints="0,0,0"></color>
+</page>
+</colors>
+<localization>
+<resource id="5fb0682a-5081-45b5-82ee-0def5a3b4306">
+<EN>Web-safe Colors</EN>
+<BR>Cores para Web</BR>
+<CS>Web 安全颜色</CS>
+<CZ>Barvy bezpečné pro síť WWW</CZ>
+<DE>Web-sichere Farben</DE>
+<ES>Colores para la Web</ES>
+<FR>Couleurs compatibles Web</FR>
+<IT>Colori Web-safe</IT>
+<JP>Web-safe カラー</JP>
+<KR>Web_safe 색상</KR>
+<MA>Webes színek</MA>
+<NL>Webveilige kleuren</NL>
+<PL>Kolory do publikacji w Internecie</PL>
+<RU>Безопасные цвета</RU>
+<SU>Websafe värit</SU>
+<SV>Webbsäkra färger</SV>
+<TR>Web-safe Renkleri</TR>
+</resource>
+</localization>
+</palette>
+

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VideoHints>
+  <Video Path="..\Draw\VideoTips\Basic shapes.wmv" Title="Основные фигуры"/>
+  <Video Path="..\Draw\VideoTips\Basic Object Transformations.wmv" Title="Базовые преобразования"/>
+  <Video Path="..\Draw\VideoTips\Filling Outlining Objects.wmv" Title="Заливки и абрисы"/>
+  <Video Path="..\Draw\VideoTips\Adding Text.wmv" Title="Добавление текста"/>
+  <Video Path="..\Draw\VideoTips\Linking Paragraph Text Frames.wmv" Title="Связь с текстовыми фреймами"/>
+  <Video Path="..\Draw\VideoTips\Drawing Curves.wmv" Title="Рисование кривых"/>
+  <Video Path="..\Draw\VideoTips\Shaping Curves.wmv" Title="Формирование кривых"/>
+  <Video Path="..\Draw\VideoTips\Filling Objects Using Smart Fill.wmv" Title="Интеллектуальная заливка"/>
+  <Video Path="..\Draw\VideoTips\Interactive Contour.wmv" Title="Интерактивный контур"/>
+  <Video Path="..\Draw\VideoTips\Interactive Transparency.wmv" Title="Интерактивная прозрачность"/>
+  <Video Path="..\Draw\VideoTips\Interactive Drop Shadow.wmv" Title="Интерактивная тень"/>
+  <Video Path="..\Draw\VideoTips\Interactive Fill Draw.wmv" Title="Интерактивная заливка"/>
+  <Video Path="..\Draw\VideoTips\Interactive Envelope.wmv" Title="Интерактивная оболочка"/>
+  <Video Path="..\Draw\VideoTips\Eyedropper.wmv" Title="Взятие образцов цвета"/>
+  <Video Path="..\Draw\VideoTips\Node Edit.wmv" Title="Редактирование узлов"/>
+  <Video Path="..\Draw\VideoTips\Virtual Segment Delete.wmv" Title="Удаление виртуального сегмента"/>
+  <Video Path="..\Draw\VideoTips\Blend.wmv" Title="Интерактивное перетекание"/>
+</VideoHints>

@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ICA lang="CZ">
+	<Properties>
+    <Property name="Str.ProductDisplayName" value="CorelDRAW Graphics Suite X6.1"/>
+    <Property name="Str.SetupAlreadyRunning" value="Soubor Setup.exe je již spuštěn."/> 
+		<Property name="Str.CancelSetupPrompt" value="Opravdu chcete zrušit instalaci aplikace %s?" comment="if %s is used in the string, it will be replaced with [Str.ProductDisplayName]"/>
+    <Property name="Str.CouldNotOpenCore" value="Instalační program zjistil při pokusu o konfiguraci softwaru problém. Nelze získat přístup k souboru: %s. Chcete pokračovat?" comment="string displayed to the user if the core .msi could not be opened during initalization -- %s MUST be in the string, it is replaced with the reason for failure"/>
+    <Property name="Str.NoFolderAccess" value="Následující složka není přístupná: %s" comment="%s is replaced with the folder name"/>
+    <Property name="Str.PathTooLong" value="Cesta k instalačnímu adresáři pro %s může obsahovat maximálně %s znaků. Vyberte jiný cíl." comment="first %s is replaced with [Str.ProductDisplayName] -- second %s is replaced with [MAX_PATH]"/>
+    <Property name="Str.Initializing.Text" value="Počkejte prosím..."/>
+    <Property name="Str.Initializing.Text.Cancelling" value="Probíhá zrušení operace..."/>
+		<Property name="Str.Feature.MainApp" value="CorelDRAW Graphics Suite X6.1"/> 
+		<Property name="Str.Feature.MainApp.Desc" value="Sada CorelDRAW Graphics Suite X6.1 přináší výkonný software pro zpracování grafického designu, rozvržení stránek a úpravu fotografií."/> 
+    
+    <Property name="Str.Feature.Utilities.VSTA.Desc.WithVS9" value="Tato funkce nainstaluje podporu jazyka Visual Studio for Applications (je-li nainstalována aplikace Visual Studio 2008 SP1)."/>
+		<Property name="Str.Feature.WT" value="Jazykové nástroje"/>
+		<Property name="Str.Feature.WT.Desc" value="Nainstaluje nástroje Pravopis, Tezaurus a Gramatika v různých jazycích, které vám pomohou při kontrole pravopisu dokumentu."/>
+		<Property name="Str.Feature.WT.Afrikaans" value="Afrikánština"/>
+		<Property name="Str.Feature.WT.Afrikaans.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Catalan" value="Katalánština"/>
+		<Property name="Str.Feature.WT.Catalan.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Czech" value="Čeština"/>
+		<Property name="Str.Feature.WT.Czech.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Danish" value="Dánština"/>
+		<Property name="Str.Feature.WT.Danish.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Dutch" value="Holandština"/>
+		<Property name="Str.Feature.WT.Dutch.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+		<Property name="Str.Feature.WT.English" value="Angličtina"/>
+		<Property name="Str.Feature.WT.English.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+		<Property name="Str.Feature.WT.Finnish" value="Finština"/>
+		<Property name="Str.Feature.WT.Finnish.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.French" value="Francouzština"/>
+		<Property name="Str.Feature.WT.French.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Galician" value="Galicijština"/>
+		<Property name="Str.Feature.WT.Galician.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.German" value="Němčina"/>
+		<Property name="Str.Feature.WT.German.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Greek" value="Řečtina"/>
+		<Property name="Str.Feature.WT.Greek.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+		<Property name="Str.Feature.WT.Icelandic" value="Islandština"/>
+		<Property name="Str.Feature.WT.Icelandic.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+		<Property name="Str.Feature.WT.Italian" value="Italština"/>
+		<Property name="Str.Feature.WT.Italian.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Norwegian" value="Norština"/>
+		<Property name="Str.Feature.WT.Norwegian.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Polish" value="Polština"/>
+		<Property name="Str.Feature.WT.Polish.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Portuguese" value="Portugalština"/>
+		<Property name="Str.Feature.WT.Portuguese.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Russian" value="Ruština"/>
+		<Property name="Str.Feature.WT.Russian.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+		<Property name="Str.Feature.WT.Slovak" value="Slovenština"/>
+		<Property name="Str.Feature.WT.Slovak.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+		<Property name="Str.Feature.WT.Sotho" value="Sotho"/>
+		<Property name="Str.Feature.WT.Sotho.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+		<Property name="Str.Feature.WT.Spanish" value="Španělština"/>
+		<Property name="Str.Feature.WT.Spanish.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Swedish" value="Švédština"/>
+		<Property name="Str.Feature.WT.Swedish.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Tswana" value="Tswana"/>
+		<Property name="Str.Feature.WT.Tswana.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Turkish" value="Turečtina"/>
+		<Property name="Str.Feature.WT.Turkish.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu a Dělení slov."/>
+		<Property name="Str.Feature.WT.Xhosa" value="Xhoština"/>
+		<Property name="Str.Feature.WT.Xhosa.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+    <Property name="Str.Feature.WT.Zulu" value="Zulština"/>
+    <Property name="Str.Feature.WT.Zulu.Desc" value="Tento jazyk obsahuje nástroje Kontrola pravopisu, Dělení slov a Gramatika."/>
+
+
+		
+    <Property name="Str.Feature.Programs64" value="Programové soubory pro 64bitovou verzi"/>
+    <Property name="Str.Feature.Programs64.Desc" value="Programové soubory pro 64bitovou verzi"/>
+    <Property name="Str.DestinationFolder" value="Vyberte požadovanou složku pro instalaci."/>
+    <Property name="Str.SerialNotValid" value="Sériové číslo je neplatné."/>
+    <Property name="Str.UpgradeSerialBlacklisted" value="Toto sériové číslo nelze použít pro upgrade produktu."/>
+  <Property name="Str.UpgradeSerialNotEligible" value="Toto sériové číslo vás neopravňuje k upgradu produktu."/>
+  <Property name="Str.UpgradeSerialNotValid" value="Toto sériové číslo nebylo rozpoznáno. Přesvědčte se, že jste jej zadali správně."/>
+
+    <Property name="Str.ProgressText.Default" value="Dokončeno %d %%" comment="this is the default progress text, you can override it using 'progresstext' attribute on the msi or dbm node -- optional %d%% is populated with the percent complete"/>
+    <Property name="Str.Running.VBA.exe.text" value="Probíhá konfigurace jazyka Visual Basic for Applications. Počkejte prosím."/>
+    <Property name="Str.CacheSetupSource.Progress.text" value="Připravují se instalační soubory. Počkejte prosím."/>
+
+    <Property name="Str.Text.RequiredFeature" value="(povinné)"/>
+
+    <Property name="Str.ProgressText.Common" value="Dokončeno %d %%  – konfigurace sady CorelDRAW Graphics Suite X6.1"/>
+    <Property name="Str.ProgressText.Capture" value="Dokončeno %d %% – konfigurace aplikace Corel CAPTURE"/>
+    <Property name="Str.ProgressText.Draw" value="Dokončeno %d %% – konfigurace aplikace CorelDRAW"/>
+    <Property name="Str.ProgressText.Paint" value="Dokončeno %d %% – konfigurace aplikace Corel PHOTO-PAINT"/>
+    <Property name="Str.ProgressText.CS" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro zjednodušenou čínštinu"/>
+    <Property name="Str.ProgressText.CT" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro tradiční čínštinu"/>
+    <Property name="Str.ProgressText.CZ" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro češtinu"/>
+    <Property name="Str.ProgressText.NL" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro holandštinu"/>
+    <Property name="Str.ProgressText.EN" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro angličtinu"/>
+    <Property name="Str.ProgressText.SU" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro finštinu"/>
+    <Property name="Str.ProgressText.FR" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro francouzštinu"/>
+    <Property name="Str.ProgressText.DE" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro němčinu"/>
+    <Property name="Str.ProgressText.MA" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro maďarštinu"/>
+    <Property name="Str.ProgressText.IT" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro italštinu"/>
+    <Property name="Str.ProgressText.JP" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro japonštinu"/>
+    <Property name="Str.ProgressText.KR" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro korejštinu"/>
+    <Property name="Str.ProgressText.PL" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro polštinu"/>
+    <Property name="Str.ProgressText.BR" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro portugalštinu"/>
+    <Property name="Str.ProgressText.RU" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro ruštinu"/>
+    <Property name="Str.ProgressText.ES" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro španělštinu"/>
+    <Property name="Str.ProgressText.SV" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro švédštinu"/>
+    <Property name="Str.ProgressText.TR" value="Dokončeno %d %% – konfigurace jazykového balíčku sady CorelDRAW Graphics Suite X6.1 pro turečtinu"/>
+    <Property name="Str.ProgressText.Extras" value="Instalace dodatečných šablon, písem a klipartů"/>    
+    <Property name="Str.ProgressText.FontNav" value="Dokončeno %d %% – konfigurace programu Bitstream Font Navigator"/>
+    <Property name="Str.ProgressText.VBA" value="Dokončeno %d %% – konfigurace jazyka Microsoft Visual Basic for Applications"/>
+    <Property name="Str.ProgressText.VSTA" value="Dokončeno %d %% – Visual Studio Tools for Applications"/>
+    <Property name="Str.ProgressText.VSTA.exe" value="Konfiguruje se sada Visual Studio Tools for Applications. Počkejte prosím."/>
+    <Property name="Str.ProgressText.XML" value="Dokončeno %d %% – konfigurace služby Microsoft XML"/>
+    <Property name="Str.ProgressText.ShellExt" value="Dokončeno %d %% – konfigurace rozšíření Corel Windows Shell Extension"/>
+    <Property name="Str.ProgressText.IntelCompiler" value="Konfigurace sady CorelDRAW Graphics Suite X6.1" />
+    <Property name="Str.Feature.Lang" value="Jazyky produktu "/>
+    <Property name="Str.Feature.Lang.CS" value="Čínština (zjednodušená)"/>
+    <Property name="Str.Feature.Lang.CT" value="Čínština (tradiční)"/>
+    <Property name="Str.Feature.Lang.CZ" value="Čeština"/>
+    <Property name="Str.Feature.Lang.NL" value="Holandština"/>
+    <Property name="Str.Feature.Lang.EN" value="Angličtina"/>
+    <Property name="Str.Feature.Lang.SU" value="Finština"/>
+    <Property name="Str.Feature.Lang.FR" value="Francouzština"/>
+    <Property name="Str.Feature.Lang.DE" value="Němčina"/>
+    <Property name="Str.Feature.Lang.MA" value="Maďarština"/>
+    <Property name="Str.Feature.Lang.IT" value="Italština"/>
+    <Property name="Str.Feature.Lang.JP" value="Japonština"/>
+    <Property name="Str.Feature.Lang.KR" value="Korejština"/>
+    <Property name="Str.Feature.Lang.PL" value="Polština"/>
+    <Property name="Str.Feature.Lang.BR" value="Portugalština (brazilská)"/>
+    <Property name="Str.Feature.Lang.RU" value="Ruština"/>
+    <Property name="Str.Feature.Lang.ES" value="Španělština"/>
+    <Property name="Str.Feature.Lang.SV" value="Švédština"/>
+    <Property name="Str.Feature.Lang.TR" value="Turečtina"/>
+    <Property name="SETUP_LANG" value="CZ"/>
+    <Property name="ICA.Lang.Transform" value="1029.mst"/>
+
+    <Property name="Str.Feature.Extras" value="CorelDRAW Graphics Suite X6.1 - Obsah"/>
+    <Property name="Str.Feature.Extras.Desc" value="Instalovat sadu CorelDRAW Graphics Suite X6.1 - Obsah"/>
+    <Property name="Str.InstallContent" value="Chcete nainstalovat obsah a doplňky, které jsou součástí sady CorelDRAW Graphics Suite X6.1?"/>
+
+
+    <Property name="Str.Error.20000" value="Sériové číslo je neplatné."/>
+    <Property name="Str.Error.30000" value="DŮLEŽITÉ: Sadu CorelDRAW Graphics Suite X6.1 nelze nainstalovat bez instalace rozhraní Microsoft .NET Framework 4.0. Informace o rozhraní Microsoft .NET Framework najdete na webových stránkách společnosti Microsoft.&lt;br&gt;&lt;a href=&quot;http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7&quot; target=&quot;_blank&quot; onclick=&quot;window.external.EndModalLoop(0);&quot;&gt;http://www.microsoft.com/NET/&lt;/a&gt;&lt;br&gt;&lt;br&gt;"/>
+    <Property name="Str.Error.30001" value="Procesor ve vašem počítači nesplňuje minimální požadavky softwaru na systém. Instalaci nelze dokončit."/>
+    <Property name="Str.Error.30002" value="Sadu CorelDRAW Graphics Suite X6.1 lze instalovat pouze v počítačích s operačním systémem Windows XP a Windows Vista. Instalace bude ukončena."/>
+    <Property name="Str.Error.30003" value="Nemáte dostatečná oprávnění pro dokončení instalace. Instalace vyžaduje oprávnění správce nebo zvýšená oprávnění. Obraťte se na správce a poté instalaci opakujte."/>
+    <Property name="Str.Error.30004" value="DŮLEŽITÉ: Sadu CorelDRAW Graphics Suite X6.1 nelze nainstalovat bez instalace rozhraní Microsoft .NET Framework 4.0. Informace o rozhraní Microsoft .NET Framework najdete na webových stránkách společnosti Microsoft. &apos;http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7&apos; - http://www.microsoft.com/NET/"/>
+    <Property name="Str.Error.30005" value="64bitovou verzi sady CorelDRAW Graphics Suite X6.1 nelze instalovat v 32bitových systémech."/>
+    <Property name="Str.UpgradeNotSupported" value="Sériová čísla určená pro upgrade nelze použít při instalaci prostřednictvím příkazového řádku. Zadejte sériové číslo prostřednictvím instalačního rozhraní nebo zadejte do příkazového řádku jiné sériové číslo."/>
+<!--Coexistence Scenarios -->
+    <Property name="Str.Error.30500" value="V tomto počítači je již instalována novější verze této aplikace. Přejete-li si instalovat tuto verzi, odinstalujte nejdříve novější verzi aplikace." />
+    <Property name="Str.Error.30501" value="Tuto zkušební verzi nelze nainstalovat, protože sada CorelDRAW Graphics Suite X6.1 je již nainstalována. Chcete-li tuto zkušební verzi nainstalovat, je nutné nejprve odinstalovat stávající produkt." comment="Yellow" />
+    <Property name="Str.Error.1638" value="Tento produkt nelze instalovat, protože je již instalována jiná verze. Chcete-li tento produkt instalovat, je nutné nejdříve odinstalovat existující verzi. Kliknutím na tlačítko Dokončit ukončíte instalaci." comment="Pink"/>
+    <Property name="Str.CDTS.Prompt" value="V počítači byla zjištěna sada CorelDRAW Graphics Suite X6.1. Sada Corel DESIGNER Technical Suite X6 nabízí všechny funkce sady CorelDRAW Graphics Suite X6.1 – a ještě mnohem víc!\n\nPokud nechcete provést aktualizaci na sadu Corel DESIGNER Technical Suite X6, klikněte na tlačítko Storno." comment="Blue" />
+  <Property name="Str.CDTSTrial.Prompt" value="V počítači byla zjištěna zkušební verze sady Corel DESIGNER Technical Suite X6. Pokud nekliknete na tlačítko Storno, dojde k odinstalování této zkušební verze a k jejímu nahrazení sadou CorelDRAW Graphics Suite X6.1." comment="Purple" />
+  <Property name="Str.Error.30502" value="Tento produkt nelze nainstalovat, protože je již nainstalována jiná verze." comment="Orange" />
+  <Property name="Str.Error.30503" value="Chcete-li nainstalovat tento produkt, je nejprve nutné nainstalovat sadu CorelDRAW Graphics Suite X6.1 a pak znovu spustit instalační program. Chcete-li stáhnout sadu CorelDRAW Graphics Suite X6.1, navštivte stránku www.corel.com/draw." comment="Brown" />
+  <Property name="Str.Error.30504" value="Aplikaci CorelDRAW Essentials a CorelDRAW Home and Student Edition nelze nainstalovat do stejného počítače. Váš systém nebyl upraven.  Chcete-li produkt nainstalovat, musíte nejprve odinstalovat stávající produkt CorelDRAW." comment="Rust" />
+  <Property name="Str.Error.30505" value="Tento produkt se neshoduje s 32bitovou nebo 64bitovou verzí sady CorelDRAW Graphics Suite X6.1. Chcete-li produkt nainstalovat, vyberte odpovídající verzi a pak znovu spusťte instalační program." comment="Green" />
+  <Property name="Str.Error.30505" value="Chcete-li tento produkt nainstalovat, je nutné nejprve zakoupit sadu CorelDRAW Graphics Suite X6.1 a pak znovu spustit instalační program." coment="Grey" />
+    <Property name="Str.Error.35001" value="&lt;b&gt;Details:&lt;/b&gt;&lt;br /&gt;Unable to validate the serial number. An Internet connection is required to complete the installation.&lt;br /&gt;&lt;br /&gt;" />
+<Property name="Str.Error.30511" value="Error: An unexpected error occurred on the server. Please check your Internet connection and try again later." />
+    <Property name="Str.Error.30510" value="Je vyžadováno připojení k Internetu.  Připojte se k Internetu a akci opakujte." />    
+        
+    <Property name="Str.DiskSpace.Bytes" value="b"/>
+    <Property name="Str.DiskSpace.Kb" value="kb"/>
+    <Property name="Str.DiskSpace.MB" value="MB"/>
+    <Property name="Str.DiskSpace.GB" value="GB"/>
+    <Property name="Str.DiskSpace.TB" value="TB"/>
+    <Property name="Str.DiskSpace.RequiredString" value="Je vyžadováno %s z %s dostupných na disku %s"/>
+    <Property name="Str.UpgradeProgressText" value="Odstraňování aplikací: "/>
+
+    <Property name="Str.Feature.Filters.GhostscriptGPL" value="GPL Ghostscript"/>
+    <Property name="Str.Feature.Filters.GhostscriptGPL.Installed.Text" value="&lt;b&gt;GPL Ghostscript (již nainstalován)&lt;/b&gt;"/>
+
+    <Property name="Str.PrerequisiteReboot.Prompt" value="Abyste mohli pokračovat v instalaci, musíte restartovat počítač.\n\nChcete-li počítač restartovat nyní, klikněte na tlačítko Ano, chcete-li jej restartovat později ručně, klikněte na tlačítko Ne."/>
+    
+
+    <Property name="Str.Required.Dlg.InstallComplete" value="Instalace dokončena"/>
+
+    <Property name="Setup_Billboard_1.png" value="Katarzyna Kobylkiewicz"/>
+    <Property name="Setup_Billboard_10.png" value="Владимр Соломатин"/>
+    <Property name="Setup_Billboard_11.png" value="Fabio  Selani - www.fabiosellani.blogspot.com"/>
+    <Property name="Setup_Billboard_12.png" value="Роман Полищук"/>
+    <Property name="Setup_Billboard_13.png" value="André Luiz dos Santo  - www.logomarca3d.com"/>
+    <Property name="Setup_Billboard_14.png" value="John Fernandez"/>
+    <Property name="Setup_Billboard_15.png" value="Riteshsingh Seeboruth"/>
+    <Property name="Setup_Billboard_16.png" value="Francisco Javier Hurtado Zarate"/>   
+    <Property name="Setup_Billboard_17.png" value="Muaviath Ali - www.muart-a.com"/>
+    <Property name="Setup_Billboard_18.png" value="Federico Nicolas Arroyuelo"/>   
+    <Property name="Setup_Billboard_19.png" value="Franziskus Pfleghart"/>
+    <Property name="Setup_Billboard_2.png" value="Rodolfo Biglie - www.creatorica.com"/>
+    <Property name="Setup_Billboard_20.png" value="Kanimozhi S N - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_21.png" value="Dhananjay Garg - www.dhananjaydgarg.blogspot.com"/>
+    <Property name="Setup_Billboard_22.png" value="Jaime Andres Grimaldos Pimiento - www.graficon.com"/>
+    <Property name="Setup_Billboard_23.png" value="Prem Kumar V - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_24.png" value="Tania Macias"/>
+    <Property name="Setup_Billboard_25.png" value="Deborah McIntyre"/>
+    <Property name="Setup_Billboard_26.png" value="Ramm ND"/>
+    <Property name="Setup_Billboard_27.png" value="Fayiza Kulsoom - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_28.png" value="Leva Griskaite"/>
+    <Property name="Setup_Billboard_29.png" value="Yogita  Butala"/>
+    <Property name="Setup_Billboard_3.png" value="Nanda Dixit"/>
+    <Property name="Setup_Billboard_30.png" value="Giulia Marchetti Hennings"/>
+    <Property name="Setup_Billboard_31.png" value="Adnan Nan - www.anabawang.blogspot.com"/>
+    <Property name="Setup_Billboard_32.png" value="Dmitri Demidenko"/>
+    <Property name="Setup_Billboard_33.png" value="Firman Hatibu"/>
+    <Property name="Setup_Billboard_34.png" value="Jairo Cataia"/>
+    <Property name="Setup_Billboard_35.png" value="Suhasini R - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_36.png" value="Алексей Оглушевич"/>
+    <Property name="Setup_Billboard_37.png" value="Дамир Галлямов"/>     
+    <Property name="Setup_Billboard_38.png" value="Michal Milkowski - www.tonic-art.com"/>
+    <Property name="Setup_Billboard_39.png" value="Pumesh Kumar"/>
+    <Property name="Setup_Billboard_4.png" value="Anastasios Pappas"/>   
+    <Property name="Setup_Billboard_40.png" value="Mariusz Grzyb"/> 
+    <Property name="Setup_Billboard_41.png" value="Marcin Chamala"/>
+    <Property name="Setup_Billboard_42.png" value="Panagiotis Intakidis"/>
+    <Property name="Setup_Billboard_43.png" value="Hao Lun Jhang"/>
+    <Property name="Setup_Billboard_44.png" value="Hiroshi Kurozumi - www.ne.jp/asahi/h-kurozumi/cdr/"/>
+    <Property name="Setup_Billboard_45.png" value="Adhi Noegroho"/>
+    <Property name="Setup_Billboard_46.png" value="Gentil  Jimenez - www.akermos.com"/>
+    <Property name="Setup_Billboard_47.png" value="Bennes Patio - www.ben2ty.co.nr"/>
+    <Property name="Setup_Billboard_48.png" value="Елена Олина"/>
+    <Property name="Setup_Billboard_49.png" value="Olga Pavlova - www.pavlova.us"/>
+    <Property name="Setup_Billboard_5.png" value="Divya  Priya  - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_50.png" value="Tatiana Prokofieva"/>
+    <Property name="Setup_Billboard_6.png" value="Artsiom Aleksandrovich"/> 
+    <Property name="Setup_Billboard_7.png" value="Aditya Sawant"/>
+    <Property name="Setup_Billboard_8.png" value="Time Garvanliev"/> 
+    <Property name="Setup_Billboard_9.png" value="Noel Patrick Nesaraj Daniel"/>
+
+
+    <Property name="Str.OutOfDiskSpace.Warning" value="Na disku není dostatek místa pro instalaci." lang="English"/>
+    
+</Properties>
+</ICA>

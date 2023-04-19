@@ -1,0 +1,38 @@
+%----------------------------------------------------------------------------
+%	Level3 Shaded Fills
+/output_mesh{10 dict begin/ShadingType 6 def/ColorSpace ShadingColorSpace
+set_shading_colorspace def/DataSource ShadingDataSource def currentdict end
+shfill}bd/set_shading_colorspace{SeparationMode/OnHost eq{pop SeparateInColor{
+DocCmykSpace}{DocGrayScaleSpace}ifelse}if}bd/set_shading_color{SeparationMode
+/OnHost eq{/separate_color dexec{begin color aload pop end}{pop SeparateInColor
+{0 0 0 0}{1}ifelse}ifelse}{begin color aload pop end}ifelse}bd
+/set_linear_gradient_parameters{flattenpath pathbbox 2 index add 2 div/$y1 xd
+/$x1 xd $y1/$y0 xd pop/$x0 xd $x1 $x0 sub $pad mul/$pdw xd $x1 $pdw sub/$x1 xd
+$x0 $pdw add/$x0 xd $x0 $x1 add 2 div/$xmid xd $y0/$ymid xd $xmid $x1 sub/$x1
+xd $x1 neg/$x0 xd 0/$y0 xd 0/$y1 xd $xmid $ymid translate/Coords[$x1 $y1 $x0
+$y0]}def/set_radial_square_gradient_parameters{flattenpath pathbbox/$y1 xd/$x1
+xd/$y0 xd/$x0 xd $x1 $x0 sub/$width xd $y1 $y0 sub/$height xd $rox $width mul
+/$row xd $roy $height mul/$roh xd $x0 $width 2 div add/$x0 xd $y0 $height 2 div
+add/$y0 xd $x0 $row add/$x0 xd $y0 $roh add/$y0 xd $x0/$x1 xd $y0/$y1 xd $width
+dup mul $height dup mul add sqrt 2 div $row dup mul $roh dup mul add sqrt add 1
+$pad 2 mul sub mul/$rad0 xd 0/$rad1 xd}def/set_radial_gradient_parameters{
+set_radial_square_gradient_parameters/Coords[$x0 $y0 $rad0 $x1 $y1 $rad1]}def
+/set_square_gradient_parameters{set_radial_square_gradient_parameters $x0 $y0
+translate $rad0/$x1 xd $x1 neg/$x0 xd $rad0/$y1 xd $y1 neg/$y0 xd/DataSource[0
+0 0 1 0 $x1 $y1 0 0 $x0 $y1 0 2 $x0 $y0 0 2 $x1 $y0 0 2 $x1 $y1 0]}def
+/create_gradient_shading_dict{<</ShadingType $fty 2 add/ColorSpace
+GradientColorSpace set_shading_colorspace/Domain[0 1]$fty 0 eq{
+set_linear_gradient_parameters}{$fty 1 eq{set_radial_gradient_parameters}{$fty
+3 eq{set_square_gradient_parameters}if}ifelse}ifelse/Function <</FunctionType 3
+/Domain[0 1]/Functions[/dMidPointPS 0.5 log $fmp 100 div log div def 1 1 $fsc 1
+sub{/nColor exch def <</FunctionType 2/Domain[0 1]/N dMidPointPS/C0[$fsa nColor
+1 sub 2 mul get set_shading_color]/C1[$fsa nColor 2 mul get set_shading_color]
+>>}for]/Encode[$fsc 1 sub{0 1}repeat]/Bounds[$fsc 2 gt{1 1 $fsc 2 sub{/nColor
+exch def/nBandPos 0 def 0 1 nColor{dup nColor le{$fsa exch 2 mul 1 add get
+nBandPos add/nBandPos exch def}if}for nBandPos $fst div}for}if]>> $pad 0 gt{
+/Extend[true true]}{/Extend[false false]}ifelse >>}bd/output_shading_gradient{
+@gs currentdict/$vectpat known{$vectpat not}{true}ifelse{$ctm setmatrix}if
+wclip @gs $fty 3 eq $pad 0 gt and{set_solid_fill F}if @gr Bbllx Bblly Bburx
+Bbury 1 index 3 index m 2 copy l 3 index 1 index l 3 index 3 index l @cp pop
+pop pop pop $fan rotate FillOverprint safe_setoverprint
+create_gradient_shading_dict shfill @gr @np}bd

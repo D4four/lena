@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<palette resid="a362465d-ced6-40f4-b4e9-83305d433dba" guid="693c6214-8f42-4212-8128-646f2feab80c">
+<colors>
+<page>
+<color cs="RGB" tints="0,0,0"></color>
+<color cs="RGB" tints="0.501961,0,0"></color>
+<color cs="RGB" tints="0,0.501961,0"></color>
+<color cs="RGB" tints="0.501961,0.501961,0"></color>
+<color cs="RGB" tints="0,0,0.501961"></color>
+<color cs="RGB" tints="0.501961,0,0.501961"></color>
+<color cs="RGB" tints="0,0.501961,0.501961"></color>
+<color cs="RGB" tints="0.501961,0.501961,0.501961"></color>
+<color cs="RGB" tints="0.752941,0.752941,0.752941"></color>
+<color cs="RGB" tints="1,0,0"></color>
+<color cs="RGB" tints="0,1,0"></color>
+<color cs="RGB" tints="1,1,0"></color>
+<color cs="RGB" tints="0,0,1"></color>
+<color cs="RGB" tints="1,0,1"></color>
+<color cs="RGB" tints="0,1,1"></color>
+<color cs="RGB" tints="1,1,1"></color>
+</page>
+</colors>
+<localization>
+<resource id="a362465d-ced6-40f4-b4e9-83305d433dba">
+<EN>Standard VGA</EN>
+<BR>VGA padrão</BR>
+<CS>标准 VGA</CS>
+<CZ>Standardní VGA</CZ>
+<DE>Standard-VGA</DE>
+<ES>Estándar VGA</ES>
+<FR>VGA Standard</FR>
+<IT>VGA Standard</IT>
+<JP>標準VGA</JP>
+<MA>Szabványos VGA</MA>
+<NL>Standaard VGA</NL>
+<RU>Стандартная VGA</RU>
+<SU>VGA (16 vakioväriä)</SU>
+<SV>Standard-VGA</SV>
+<TR>Standart VGA</TR>
+</resource>
+</localization>
+</palette>
+

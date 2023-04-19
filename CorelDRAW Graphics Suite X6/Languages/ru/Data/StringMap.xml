@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringMap>
+  <context name="ArtisticMedia">
+    <string nonTranslatableString="Custom" locId="9ED4B349-9B80-42ae-912A-609071C70A99" locString="Настройка"></string>
+    <string nonTranslatableString="Artistic" locId="9ED4B349-9B80-42ae-912A-609071C70A9A" locString="Художественный"></string>
+    <string nonTranslatableString="Calligraphy Brush" locId="9ED4B349-9B80-42ae-912A-609071C70A9B" locString="Каллиграфическое"></string>
+    <string nonTranslatableString="Scroll" locId="9ED4B349-9B80-42ae-912A-609071C70A9C" locString="Прокрутка"></string>
+    <string nonTranslatableString="Sensual" locId="9ED4B349-9B80-42ae-912A-609071C70A9D" locString="Физический"></string>
+    <string nonTranslatableString="Splash_Splatter" locId="9ED4B349-9B80-42ae-912A-609071C70A9E" locString="Разбрызгивание"></string>
+    <string nonTranslatableString="Symbols" locId="9ED4B349-9B80-42ae-912A-609071C70A9F" locString="Символ"></string>
+    <string nonTranslatableString="Texture Brush_Paint" locId="9ED4B349-9B80-42ae-912A-609071C70AA0" locString="Текстура"></string>
+    <string nonTranslatableString="Food" locId="9ED4B349-9B80-42ae-912A-609071C70AA1" locString="Еда"></string>
+    <string nonTranslatableString="Footprint" locId="9ED4B349-9B80-42ae-912A-609071C70AA2" locString="Отпечаток"></string>
+    <string nonTranslatableString="Misc" locId="9ED4B349-9B80-42ae-912A-609071C70AA3" locString="Разное"></string>
+    <string nonTranslatableString="Objects" locId="9ED4B349-9B80-42ae-912A-609071C70AA4" locString="Объекты"></string>
+    <string nonTranslatableString="Plants" locId="9ED4B349-9B80-42ae-912A-609071C70AA5" locString="Растения"></string>
+    <string nonTranslatableString="Brush Strokes" locId="9ED4B349-9B80-42ae-912A-609071C70AA6" locString="Мазки кисти"></string>
+    <string nonTranslatableString="Mosaic" locId="9ED4B349-9B80-42ae-912A-609071C70AA7" locString="Мозаика"></string>
+    <string nonTranslatableString="Music" locId="9ED4B349-9B80-42ae-912A-609071C70AA8" locString="Музыка"></string>
+    <string nonTranslatableString="Stars" locId="9ED4B349-9B80-42ae-912A-609071C70AA9" locString="Звезды"></string>
+    <string nonTranslatableString="Sweep Arrows" locId="9ED4B349-9B80-42ae-912A-609071C70AAA" locString="Загнутые стрелки"></string>
+    <string nonTranslatableString="Texture" locId="9ED4B349-9B80-42ae-912A-609071C70AAB" locString="Текстура"></string>
+    <string nonTranslatableString="Chain" locId="9ED4B349-9B80-42ae-912A-609071C70AAC" locString="Цепь"></string>
+    <string nonTranslatableString="Pipe" locId="9ED4B349-9B80-42ae-912A-609071C70AAD" locString="Труба"></string>
+    <string nonTranslatableString="Rope" locId="9ED4B349-9B80-42ae-912A-609071C70AAE" locString="Канат"></string>
+    <string nonTranslatableString="Other" locId="9ED4B349-9B80-42ae-912A-609071C70AAF" locString="Другой"></string>
+  </context>
+  <context name="Preset">
+    <!--Blend Presets-->
+    <string nonTranslatableString="Blend1" locId="7255016A-E907-4f58-92CB-B2898E69C7C3" locString="Прямо на 8 шагов"></string>
+    <string nonTranslatableString="Blend2" locId="7255016A-E907-4f58-92CB-B2898E69C7C4" locString="Прямо на 10 шагов"></string>
+    <string nonTranslatableString="Blend3" locId="7255016A-E907-4f58-92CB-B2898E69C7C5" locString="Прямо с замедлением 20"></string>
+    <string nonTranslatableString="Blend4" locId="7255016A-E907-4f58-92CB-B2898E69C7C6" locString="Поворот на 90 градусов"></string>
+    <string nonTranslatableString="Blend5" locId="7255016A-E907-4f58-92CB-B2898E69C7C7" locString="Петля"></string>
+    <!--Contour Presets-->
+    <string nonTranslatableString="Contour1" locId="7255016A-E907-4f58-92CB-B2898E69C7CB" locString="Поток внутрь"></string>
+    <string nonTranslatableString="Contour2" locId="7255016A-E907-4f58-92CB-B2898E69C7CC" locString="Поток наружу"></string>
+    <!--Distortion Presets-->
+    <string nonTranslatableString="Distortion1" locId="7255016A-E907-4f58-92CB-B2898E69C7D2" locString="Потянуть углы"></string>
+    <string nonTranslatableString="Distortion2" locId="7255016A-E907-4f58-92CB-B2898E69C7D3" locString="Сжать углы"></string>
+    <string nonTranslatableString="Distortion3" locId="7255016A-E907-4f58-92CB-B2898E69C7D4" locString="Кручение"></string>
+    <string nonTranslatableString="Distortion4" locId="7255016A-E907-4f58-92CB-B2898E69C7D5" locString="Штамп"></string>
+    <string nonTranslatableString="Distortion5" locId="7255016A-E907-4f58-92CB-B2898E69C7D6" locString="Застежка-молния"></string>
+    <!--DropShadow Presets-->
+    <string nonTranslatableString="DropShadow1" locId="7255016A-E907-4f58-92CB-B2898E69C7DF" locString="Плоский вверху справа"></string>
+    <string nonTranslatableString="DropShadow2" locId="7255016A-E907-4f58-92CB-B2898E69C7E0" locString="Плоский вверху слева"></string>
+    <string nonTranslatableString="DropShadow3" locId="7255016A-E907-4f58-92CB-B2898E69C7E1" locString="Перспектива вверху справа"></string>
+    <string nonTranslatableString="DropShadow4" locId="7255016A-E907-4f58-92CB-B2898E69C7E2" locString="Перспектива внизу справа"></string>
+    <string nonTranslatableString="DropShadow5" locId="7255016A-E907-4f58-92CB-B2898E69C7E3" locString="Перспектива внизу слева"></string>
+    <string nonTranslatableString="DropShadow6" locId="7255016A-E907-4f58-92CB-B2898E69C7E4" locString="Перспектива вверху слева"></string>
+    <string nonTranslatableString="DropShadow7" locId="7255016A-E907-4f58-92CB-B2898E69C7E5" locString="Небольшое свечение"></string>
+    <string nonTranslatableString="DropShadow8" locId="7255016A-E907-4f58-92CB-B2898E69C7E6" locString="Среднее свечение"></string>
+    <string nonTranslatableString="DropShadow9" locId="7255016A-E907-4f58-92CB-B2898E69C7E7" locString="Большое свечение"></string>
+    <string nonTranslatableString="DropShadow10" locId="7255016A-E907-4f58-92CB-B2898E69C7E8" locString="Плоский внизу справа"></string>
+    <string nonTranslatableString="DropShadow11" locId="7255016A-E907-4f58-92CB-B2898E69C7E9" locString="Плоский внизу слева"></string>
+    <!--Envelope Presets-->
+    <string nonTranslatableString="Envelope1" locId="7255016A-E907-4f58-92CB-B2898E69C7EA" locString="Круговая"></string>
+    <string nonTranslatableString="Envelope2" locId="7255016A-E907-4f58-92CB-B2898E69C7EB" locString="Прямолинейный"></string>
+    <string nonTranslatableString="Envelope3" locId="7255016A-E907-4f58-92CB-B2898E69C7EC" locString="Прямолинейный наклон"></string>
+    <string nonTranslatableString="Envelope4" locId="7255016A-E907-4f58-92CB-B2898E69C7ED" locString="Вдавливание"></string>
+    <string nonTranslatableString="Envelope5" locId="7255016A-E907-4f58-92CB-B2898E69C7EE" locString="Нажатие"></string>
+    <string nonTranslatableString="Envelope6" locId="7255016A-E907-4f58-92CB-B2898E69C7EF" locString="Выдавливание"></string>
+    <!--VectorExtrude Presets-->
+    <string nonTranslatableString="Extrude1" locId="7255016A-E907-4f58-92CB-B2898E69C7F0" locString="Вытягивание вверх влево"></string>
+    <string nonTranslatableString="Extrude2" locId="7255016A-E907-4f58-92CB-B2898E69C7F1" locString="Вытягивание вверх"></string>
+    <string nonTranslatableString="Extrude3" locId="7255016A-E907-4f58-92CB-B2898E69C7F2" locString="Вытягивание вверх вправо"></string>
+    <string nonTranslatableString="Extrude4" locId="7255016A-E907-4f58-92CB-B2898E69C7F3" locString="Вытягивание вниз вправо"></string>
+    <string nonTranslatableString="Extrude5" locId="7255016A-E907-4f58-92CB-B2898E69C7F4" locString="Вытягивание вниз"></string>
+    <string nonTranslatableString="Extrude6" locId="7255016A-E907-4f58-92CB-B2898E69C7F5" locString="Вытягивание вниз влево"></string>
+    <!--DropShadow Presets - nonTranslatableString equal preset file name without the extension-->
+    <string nonTranslatableString="Hard Close Top Right" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E0" locString="Жесткое замыкание вверху справа"></string>
+    <string nonTranslatableString="Hard Offset Top Right" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E1" locString="Жесткое смещение вверху справа"></string>
+    <string nonTranslatableString="Hard pers LT Fade" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E2" locString="Жесткая перспектива влево вверх"></string>
+    <string nonTranslatableString="Hard Pers RT" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E3" locString="Жесткая перспектива вправо вверх"></string>
+    <string nonTranslatableString="HPRT Blue" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E4" locString="Синяя жесткая перспектива вправо вверх"></string>
+    <string nonTranslatableString="SOBR Blue" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E5" locString="Синее мягкое смещение внизу слева"></string>
+    <string nonTranslatableString="Soft Close Bottom Right" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E6" locString="Мягкое замыкание внизу справа"></string>
+    <string nonTranslatableString="Soft Offset Bottom Left" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E7" locString="Мягкое смещение внизу слева"></string>
+    <string nonTranslatableString="Soft Pers LB" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E8" locString="Мягкая перспектива влево вниз"></string>
+    <string nonTranslatableString="Soft Pers LB Fade" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8E9" locString="Расплывание с мягкой перспективой влево вниз"></string>
+    <string nonTranslatableString="Large Glow" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8EA" locString="Большое свечение"></string>
+    <string nonTranslatableString="Medium Glow" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8EB" locString="Среднее свечение"></string>
+    <string nonTranslatableString="Small Glow" locId="43DE1065-F812-4a0d-87B7-832ECFA2D8EC" locString="Небольшое свечение"></string>
+    <!--Callout Presets-->
+    <string nonTranslatableString="Callout1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34800" locString="S1000D (0,18 мм)"></string>
+    <string nonTranslatableString="Callout2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34801" locString="S1000D (0,18 мм с наконечником)"></string>
+    <string nonTranslatableString="Callout3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34802" locString="S1000D (0,25 мм)"></string>
+    <string nonTranslatableString="Callout4" locId="1ECA24FB-E642-44af-9E6A-E793A2A34803" locString="S1000D (0,25 мм с наконечником)"></string>
+    <string nonTranslatableString="Callout5" locId="1ECA24FB-E642-44af-9E6A-E793A2A34804" locString="Символ с ореолом"></string>
+    <string nonTranslatableString="Callout6" locId="1ECA24FB-E642-44af-9E6A-E793A2A34805" locString="Символ без ореола"></string>
+    <!--Dimension Presets-->
+    <string nonTranslatableString="Dimension1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34810" locString="Текст по верху без наконечника"></string>
+    <string nonTranslatableString="Dimension2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34811" locString="Текст по линии без наконечника"></string>
+    <string nonTranslatableString="Dimension3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34812" locString="Текст по низу без наконечника"></string>
+    <string nonTranslatableString="Dimension4" locId="1ECA24FB-E642-44af-9E6A-E793A2A34813" locString="Текст по верху с наконечником"></string>
+    <string nonTranslatableString="Dimension5" locId="1ECA24FB-E642-44af-9E6A-E793A2A34814" locString="Текст по линии с наконечником"></string>
+    <string nonTranslatableString="Dimension6" locId="1ECA24FB-E642-44af-9E6A-E793A2A34815" locString="Текст по низу с наконечником"></string>
+    <!--Radial Dimension Presets-->
+    <string nonTranslatableString="DiametricDimension1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34820" locString="Снаружи без прямоугольника"></string>
+    <string nonTranslatableString="DiametricDimension2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34821" locString="Снаружи с прямоугольником"></string>
+    <string nonTranslatableString="DiametricDimension3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34822" locString="Внутри без прямоугольника"></string>
+    <string nonTranslatableString="DiametricDimension4" locId="1ECA24FB-E642-44af-9E6A-E793A2A34823" locString="Внутри с обратной выноской"></string>
+    <string nonTranslatableString="RadialDimension1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34824" locString="Снаружи без прямоугольника"></string>
+    <string nonTranslatableString="RadialDimension2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34825" locString="Снаружи с прямоугольником"></string>
+    <string nonTranslatableString="RadialDimension3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34826" locString="Внутри без прямоугольника"></string>
+    <string nonTranslatableString="RadialDimension4" locId="1ECA24FB-E642-44af-9E6A-E793A2A34827" locString="Внутри с прямоугольником"></string>
+    <!--Drawing Profile Presets-->
+    <string nonTranslatableString="Cabinet Oblique" locId="1ECA24FB-E642-44af-9E6A-E793A2A34830" locString="Удвоенный масштаб глубины"></string>
+    <string nonTranslatableString="Cavalier Oblique" locId="1ECA24FB-E642-44af-9E6A-E793A2A34831" locString="Нормальный масштаб глубины"></string>
+    <string nonTranslatableString="Dimetric1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34832" locString="Диметрический"></string>
+    <string nonTranslatableString="Dimetric2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34833" locString="Диметрический"></string>
+    <string nonTranslatableString="Dimetric3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34834" locString="Диметрический"></string>
+    <string nonTranslatableString="Dimetric4" locId="1ECA24FB-E642-44af-9E6A-E793A2A34835" locString="Диметрический"></string>
+    <string nonTranslatableString="Isometric" locId="1ECA24FB-E642-44af-9E6A-E793A2A34836" locString="Изометрический"></string>
+    <string nonTranslatableString="Trimetric1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34837" locString="Триметрический"></string>
+    <string nonTranslatableString="Trimetric2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34838" locString="Триметрический"></string>
+    <string nonTranslatableString="Trimetric3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34839" locString="Триметрический"></string>
+    <string nonTranslatableString="Trimetric4" locId="1ECA24FB-E642-44af-9E6A-E793A2A3483A" locString="Триметрический"></string>
+    <!--Fill and Outline Presets-->
+    <string nonTranslatableString="FillOutline1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34840" locString="S1000D (линия 0,18 мм)"></string>
+    <string nonTranslatableString="FillOutline2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34841" locString="S1000D (линия 0,25 мм)"></string>
+    <string nonTranslatableString="FillOutline3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34842" locString="S1000D (линия 0,35 мм)"></string>
+    <string nonTranslatableString="FillOutline4" locId="1ECA24FB-E642-44af-9E6A-E793A2A34843" locString="S1000D (пунктирная линия 0,18 мм)"></string>
+    <string nonTranslatableString="FillOutline5" locId="1ECA24FB-E642-44af-9E6A-E793A2A34844" locString="S1000D (пунктирная линия 0,25 мм)"></string>
+    <string nonTranslatableString="FillOutline6" locId="1ECA24FB-E642-44af-9E6A-E793A2A34845" locString="S1000D (подсвеченная линия 0,50 мм)"></string>
+    <!--Text Presets-->
+    <string nonTranslatableString="Text1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34850" locString="S1000D (текст 8 пт)"></string>
+    <string nonTranslatableString="Text2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34851" locString="S1000D (текст 10 пт)"></string>
+    <string nonTranslatableString="Text3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34852" locString="S1000D (числа 10 пт)"></string>
+    <!--Text on Path Presets-->
+    <string nonTranslatableString="TextOnPath1" locId="1ECA24FB-E642-44af-9E6A-E793A2A34860" locString="Текст по контуру"></string>
+    <string nonTranslatableString="TextOnPath2" locId="1ECA24FB-E642-44af-9E6A-E793A2A34861" locString="Текст вдали от контура"></string>
+    <string nonTranslatableString="TextOnPath3" locId="1ECA24FB-E642-44af-9E6A-E793A2A34862" locString="Применено смещение текста"></string>
+    <!--Print dialog Layout presets-->
+    <string nonTranslatableString="1 x 2 (2-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34870" locString="1 x 2 (2 варианта)"></string>
+    <string nonTranslatableString="2 x 1 (2-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34871" locString="2 x 1 (2 варианта)"></string>
+    <string nonTranslatableString="2 x 2 (4-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34872" locString="2 x 2 (4 варианта)"></string>
+    <string nonTranslatableString="2 x 3 (6-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34873" locString="2 x 3 (6 вариантов)"></string>
+    <string nonTranslatableString="3 x 2 (6-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34874" locString="3 x 2 (6 вариантов)"></string>
+    <string nonTranslatableString="3 x 3 (9-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34875" locString="3 x 3 (9 вариантов)"></string>
+    <string nonTranslatableString="3 x 4 (12-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34876" locString="3 x 4 (12 вариантов)"></string>
+    <string nonTranslatableString="4 x 3 (12-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34877" locString="4 x 3 (12 вариантов)"></string>
+    <string nonTranslatableString="4 x 4 (16-up)" locId="1ECA24FB-E642-44af-9E6A-E793A2A34878" locString="4 x 4 (16 вариантов)"></string>
+    <string nonTranslatableString="8-up Perfect Bound - Sheetwise" locId="1ECA24FB-E642-44af-9E6A-E793A2A34879" locString="Мягкий переплет (8 на странице) - С чужим оборотом"></string>
+    <string nonTranslatableString="8-up Perfect Bound - Work&amp;Tumble" locId="1ECA24FB-E642-44af-9E6A-E793A2A34880" locString="Мягкий переплет (8 на странице) - Со своим оборотом (Work&amp;Tumble)"></string>
+    <string nonTranslatableString="8-up Perfect Bound - Work&amp;Turn" locId="1ECA24FB-E642-44af-9E6A-E793A2A34881" locString="Мягкий переплет (8 на странице) - Со своим оборотом (Work&amp;Turn)"></string>
+    <string nonTranslatableString="8-up Saddle-Stitch - Sheetwise" locId="1ECA24FB-E642-44af-9E6A-E793A2A34882" locString="Сшивание внакидку (8 на странице) - С чужим оборотом"></string>
+    <string nonTranslatableString="8-up Saddle-Stitch - Work&amp;Tumble" locId="1ECA24FB-E642-44af-9E6A-E793A2A34883" locString="Сшивание внакидку (8 на странице) - Со своим оборотом (Work&amp;Tumble)"></string>
+    <string nonTranslatableString="8-up Saddle-Stitch - Work&amp;Turn" locId="1ECA24FB-E642-44af-9E6A-E793A2A34884" locString="Сшивание внакидку (8 на странице) - Со своим оборотом (Work&amp;Turn)"></string>
+    <string nonTranslatableString="Readers Spread" locId="1ECA24FB-E642-44af-9E6A-E793A2A34885" locString="Развороты в программе Reader"></string>
+  </context>
+  <context name="Palette">
+    <string nonTranslatableString="Misc" locId="C8851A24-0FA7-424c-815F-CC9ED22A2B99" locString="Разное"></string>
+    <string nonTranslatableString="Nature" locId="C8851A24-0FA7-424c-815F-CC9ED22A2B9A" locString="Природа"></string>
+    <string nonTranslatableString="People" locId="C8851A24-0FA7-424c-815F-CC9ED22A2B9B" locString="Люди"></string>
+    <string nonTranslatableString="Things" locId="C8851A24-0FA7-424c-815F-CC9ED22A2B9C" locString="Вещи"></string>
+    <string nonTranslatableString="Spot" locId="9C66C816-3BBA-45c9-9086-BC0B9AFA58D2" locString="Плашечные"></string>
+    <string nonTranslatableString="Previous Version" locId="7D7BBC58-F7DD-42f6-8B26-E436F1D0C53B" locString="Предыдущая версия"></string>
+    <string nonTranslatableString="Process" locId="9DF0BE2D-0E6E-4733-A067-CAF0273D1B54" locString="Обработка"></string>
+    <string nonTranslatableString="256 Colors" locId="436ABD16-62AA-4844-A06E-86E241A51D5E" locString="256 цветов"></string>
+  </context>
+  <context name="VideoHints">
+    <string nonTranslatableString="MediaPlayerRequired" locId="F75E5CD9-C1B0-4F6F-B9F2-1D3FC65A0725" locString="Для воспроизведения этих видеоподсказок необходим проигрыватель Windows Media Player 10 или более поздней версии."/>
+    <string nonTranslatableString="MediaPlayerWarningNoDownload" locId="CF8C4A80-FC23-4716-BBA0-34B54CD0C56E" locString="Для воспроизведения этих видеоподсказок необходим проигрыватель Windows Media Player 10 или более поздней версии. Обратитесь к администратору своей сети."/>
+    <string nonTranslatableString="Download" locId="B72E388F-800E-4CB0-95EF-4F940CA12DF7" locString="Загрузить"/>
+  </context>
+</stringMap>

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WelcomeScreen>
+
+	<StringList>
+		<String ID="URLCommunity">http://product.corel.com/query.htm?box=CorelDRAW&amp;prod=CGS&amp;lang=*&amp;topic=Community&amp;ver=16</String>
+		<String ID="URLResources">http://apps.corel.com/redirect?_redirect=command&amp;app=cdgs&amp;version=x6&amp;function=welcome&amp;lang=ru</String>
+	
+<!--Cover-->
+		<String ID="Welcome">Приветствие</String>
+		<String ID="DrawWorkspaceTour">Знакомство с рабочим пространством CorelDRAW X6</String>
+		<String ID="PPWorkspaceTour">Знакомство с рабочим пространством Corel PHOTO-PAINT X6</String>
+		<String ID="DrawWelcomeMessage">Добро пожаловать в CorelDRAW X6!&lt;br//&gt;В новом выпуске виртуального журнала "Добро пожаловать" описаны принципы использования основных инструментов и функций, а также приводятся мнения профессиональных дизайнеров и многое другое. Приятного просмотра!</String>
+		<String ID="PPWelcomeMessage">Добро пожаловать в Corel PHOTO-PAINT X6!&lt;br//&gt;В новом выпуске виртуального журнала "Добро пожаловать" описаны принципы использования основных инструментов и функций, а также приводятся мнения профессиональных дизайнеров и многое другое. Приятного просмотра!</String>
+		<String ID="CoverFooter">Добро пожаловать • Выпуск 3 / 2012</String>
+
+		<String ID="DrawTab1Description">Получите возможность быстро выполнять основные задачи, такие как открытие готового документа, создание нового документа с чистой страницы или с помощью предварительно созданного макета.</String>
+		<String ID="DrawTab2Description">Узнайте о новых возможностях CorelDRAW X6 и ознакомьтесь с примерами использования новых функций.</String>
+		<String ID="DrawTab3Description">Получите доступ к обучающим инструментам, таким как видеоруководства, руководство, советы и мнения графических дизайнеров.</String>
+		<String ID="DrawTab4Description">Ознакомьтесь с творческими проектами, созданными с помощью пакета CorelDRAW Graphics Suite.</String>
+		<String ID="DrawTab5Description">Получайте сообщения об обновлениях продукта, новых учебных пособиях и других материалах.</String>
+
+		<String ID="PPTab1Description">Получите возможность быстро выполнять основные задачи, такие как открытие готового документа, создание нового документа с чистой страницы, из содержимого буфера или сканированного изображения.</String>
+		<String ID="PPTab2Description">Узнайте о новых возможностях Corel PHOTO-PAINT X6 и ознакомьтесь с примерами использования новых функций.</String>
+		<String ID="PPTab3Description">Получите доступ к обучающим инструментам, таким как видеоруководства, руководство, советы и мнения графических дизайнеров.</String>
+		<String ID="PPTab4Description">Ознакомьтесь с творческими проектами, созданными с помощью пакета CorelDRAW Graphics Suite.</String>
+		<String ID="PPTab5Description">Получайте сообщения об обновлениях продукта, новых учебных пособиях и других материалах.</String>
+
+<!--General & Common labels-->		
+		<String ID="Tab1">Быстрый запуск</String>
+		<String ID="Tab1Inline">Быстрый запуск</String>
+		<String ID="Tab2">Новые воз-
+можности</String>
+		<String ID="Tab2Inline">Новые воз-
+можности</String>
+		<String ID="Tab3">Средства&lt;br//&gt;обучения</String>
+		<String ID="Tab3Inline">Средства обучения</String>
+		<String ID="Tab4">Галерея</String>
+		<String ID="Tab4Inline">Галерея</String>
+		<String ID="Tab5">Обновления</String>
+		<String ID="Tab5Inline">Обновления</String>
+
+		<String ID="AlwaysShow">Всегда отображать экран приветствия при запуске.</String>
+		<String ID="MakeDefaultPage">Использовать этот экран приветствия по умолчанию.</String>
+		<String ID="LoadingVideoPlayer">"Загрузка компонентов проигрывателя Microsoft Windows Media..."</String>
+
+<!--1. Quickstart-->
+		<String ID="HeadingOpenRecent">Открыть последний</String>
+		<String ID="HeadingStartNew">Начать новый</String>
+		
+		<String ID="NoThumbnail">Просмотр недавно использованных документов</String>
+		<String ID="PPNoMRU">При открытии нескольких изображений в Corel PHOTO-PAINT здесь будет показан список недавно открывавшихся документов.</String>
+		<String ID="DrawNoMRU">Сразу после открытия в CorelDRAW одного или нескольких документов здесь отобразится список последних использовавшихся документов.</String>
+		<String ID="NoInfo">Сведения о документе</String>
+
+		<String ID="OpenOther">Открыть другой…...</String>		
+		<String ID="NewBlank">Новый пустой документ</String>
+		<String ID="NewBlankDesc">Создание нового пустого документа с настройками приложения по умолчанию.</String>
+		<String ID="NewTemplate">Создать из шаблона</String>
+		<String ID="NewTemplateDesc">Открытие диалогового окна Создать из шаблона, которое обеспечивает доступ к творческим макетам, созданным профессиональными художниками. Создание нового документа на основе одного из этих макетов или просто использование их в качестве источника вдохновения для новых проектов.</String>
+		<String ID="NewClipboard">Создать из буфера</String>
+		<String ID="NewClipboardDesc">Создание нового документа с использованием данных, скопированных в буфер.</String>
+		<String ID="AcquireImage">Запрос изображения</String>
+		<String ID="AcquireImageDesc">Открытие диалогового окна, позволяющего сканировать изображение с использованием указанного источника Twain. Для использования этой функции требуется подключение к сканеру.</String>
+		<String ID="Bytes">байт</String>
+		<String ID="Kilobytes">КБ</String>
+		<String ID="Megabytes">МБ</String>
+		<String ID="Gigabytes">ГБ</String>
+
+<!--2. What's New-->
+		<String ID="DrawInfoPopup">Чтобы узнать о новых возможностях, которые отсутствовали в предыдущих версиях CorelDRAW, щелкните &lt;strong&gt;Справка &gt; Выделить новые возможности&lt;/strong&gt; и выберите интересующую версию продукта. Новые функции будут выделены в интерфейсе оранжевым цветом.</String>
+		<String ID="PPInfoPopup">Чтобы узнать о новых возможностях, которые отсутствовали в предыдущих версиях Corel PHOTO-PAINT, щелкните &lt;strong&gt;Справка &gt; Выделить новые возможности&lt;/strong&gt; и выберите интересующую версию продукта. Новые функции будут выделены в интерфейсе оранжевым цветом.</String>
+		<String ID="DrawVideoDesc">Знакомство с новыми возможностями CorelDRAW</String>
+		<String ID="PPVideoDesc">Знакомство с новыми возможностями Corel PHOTO </String>
+
+		<String ID="DrawWhatsNew01">Более быстрая и эффективная работа</String>
+		<String ID="DrawWhatsNew01Desc"/>
+		<String ID="DrawWhatsNew01a">Новые возможности поиска с Corel CONNECT</String>
+		<String ID="DrawWhatsNew01aDesc">Новая панель инструментов поиска Corel CONNECT позволяет мгновенно извлекать изображения с веб-сайта клиента.</String>
+		<String ID="DrawWhatsNew01b">Контент в Интернете</String>
+		<String ID="DrawWhatsNew01bDesc">Обновленная программа Corel CONNECT обеспечивает пользователям с членством в CorelDRAW быстрый и легкий доступ ко всему контенту CorelDRAW Graphics Suite X6, включая картинки, фотографии, рамки и многое другое, одновременно позволяя получать дополнительный контент у сетевых продавцов.</String>
+		<String ID="DrawWhatsNew01c">Поддержка новейших процессоров</String>
+		<String ID="DrawWhatsNew01cDesc">Расширенная поддержка новейших многоядерных процессоров обеспечивает быстродействие и чувствительность, уменьшая время ожидания при экспорте файлов, печати нескольких документов или копировании и вставке больших объектов.</String>
+		<String ID="DrawWhatsNew01d">Поддержка форматов файлов Adobe CS5 и Microsoft Publisher 2010</String>
+		<String ID="DrawWhatsNew01dDesc">Расширенная поддержка импорта и экспорта для Adobe Illustrator CS5, Adobe Photoshop CS5 и Microsoft Publisher 2010, а также поддержка импорта для Adobe Acrobat X, обеспечивающая возможность обмена файлами с коллегами и клиентами.</String>
+		<String ID="DrawWhatsNew01e">Новое контекстное окно настройки «Свойства объекта»</String>
+		<String ID="DrawWhatsNew01eDesc">Усовершенствованное окно настройки «Свойства объекта» теперь содержит только зависимые от объекта параметры и свойства форматирования, что обеспечивает большую, чем ранее, скорость настройки дизайна.  </String>
+
+		<String ID="DrawWhatsNew02">Простое создание макетов</String>
+		<String ID="DrawWhatsNew02Desc"/>
+		<String ID="DrawWhatsNew02a">Поддержка OpenType</String>
+		<String ID="DrawWhatsNew02aDesc">Обновленный текстовой модуль позволяет эффективнее использовать расширенные типографские функции OpenType, такие как контекстные и стилистические варианты, дроби, лигатуры, порядковые числительные, орнаменты, капительные буквы, росчерки и многое другое.</String>
+		<String ID="DrawWhatsNew02b">Правильный типографский набор для азиатских и ближневосточных языков</String>
+		<String ID="DrawWhatsNew02bDesc">Поддержка новых сложных сценариев, встроенных в измененный текстовой модуль, обеспечивает правильный набор символов, используемых в азиатских и ближневосточных языках.</String>
+		<String ID="DrawWhatsNew02c">Усовершенствованные слои-шаблоны</String>
+		<String ID="DrawWhatsNew02cDesc">Новые и улучшенные слои-шаблоны для нечетных, четных или всех страниц облегчают создание дизайна конкретных страниц многостраничных документов.</String>
+		<String ID="DrawWhatsNew02d">Номера страниц</String>
+		<String ID="DrawWhatsNew02dDesc">Новая команда «Вставить номер страницы» позволяет мгновенно добавлять номера страниц — буквенные, числовые или в виде римских цифр — на все страницы документа, начиная с указанной страницы или конкретного номера.</String>
+		<String ID="DrawWhatsNew02e">Новые направляющие для выравнивания</String>
+		<String ID="DrawWhatsNew02eDesc">Новые направляющие позволяют быстрее располагать объекты, отображаясь в процессе работы вместе с предлагаемыми вариантами выравнивания относительно имеющегося на странице изображения.</String>
+		<String ID="DrawWhatsNew02f">Интерактивные рамки</String>
+		<String ID="DrawWhatsNew02fDesc">Новая функция пустых объектов PowerClip и рамки текста позволяет заполнять объекты PowerClip заготовками изображений и рамками текста, которые облегчают предварительный просмотр дизайна перед завершением отдельных компонентов контента.</String>
+		<String ID="DrawWhatsNew02g">Шаблонный текст</String>
+		<String ID="DrawWhatsNew02gDesc">Новая команда «Вставить шаблонный текст» позволяет щелкнуть правой кнопкой мыши любую рамку текста и мгновенно заполнить ее шаблонным текстом, что облегчает оценку внешнего вида документа перед завершением подготовки его содержимого.</String>
+		
+		<String ID="DrawWhatsNew03">Стильный и творческий дизайн</String>
+		<String ID="DrawWhatsNew03Desc"/>
+		<String ID="DrawWhatsNew03a">Несколько лотков в Corel CONNECT</String>
+		<String ID="DrawWhatsNew03aDesc">Теперь Corel CONNECT позволяет работать с несколькими лотками одновременно, что позволяет более гибко распределять ресурсы для нескольких проектов.</String>
+		<String ID="DrawWhatsNew03b">Новый модуль и окно настройки «Стили»</String>
+		<String ID="DrawWhatsNew03bDesc">Новое окно настройки «Стили» упрощает создание стилей абриса, заливки, символов и абзацев и содержит наборы стилей — группы стилей, которые можно впоследствии изменять, сразу применяя изменения в масштабах проекта.</String>
+		<String ID="DrawWhatsNew03c">Новые ресурсы цветов</String>
+		<String ID="DrawWhatsNew03cDesc">Новое окно настройки «Цветовые стили» позволяет добавлять цвета, использованные в документе в качестве ресурсов, что значительно упрощает реализацию изменения цветов в масштабах проекта.</String>
+		<String ID="DrawWhatsNew03d">Новые гармонии цветов</String>
+		<String ID="DrawWhatsNew03dDesc">Новая функция «Гармония цветов» позволяет группировать цветовые ресурсы документа таким образом, чтобы можно было легко и быстро создавать повторяющиеся элементы дизайна с различными цветовыми схемами.</String>
+		<String ID="DrawWhatsNew03e">Готовые рамки теперь поддерживают контент</String>
+		<String ID="DrawWhatsNew03eDesc">Коллекция рамок, входящая в библиотеку контента пакета, была расширена и теперь поддерживает новые функциональные возможности PowerClip, позволяющие создавать объекты PowerClip с заготовками изображений и рамками текста.</String>
+		<String ID="DrawWhatsNew03f">Новые инструменты рисования</String>
+		<String ID="DrawWhatsNew03fDesc">Новые инструменты «Размазывание», «Завихрение», «Притягивание» и «Отталкивание» обеспечивают новые творческие возможности для доработки векторных объектов.</String>		
+						
+		<String ID="PPWhatsNew01">Более быстрая и эффективная работа</String>
+		<String ID="PPWhatsNew01Desc"/>
+		<String ID="PPWhatsNew01a">Новые возможности поиска с Corel CONNECT</String>
+		<String ID="PPWhatsNew01aDesc">Новая панель инструментов поиска Corel CONNECT позволяет мгновенно извлекать изображения с веб-сайта клиента.</String>
+		<String ID="PPWhatsNew01b">Контент в Интернете</String>
+		<String ID="PPWhatsNew01bDesc">Обновленная программа Corel CONNECT обеспечивает пользователям с членством в CorelDRAW быстрый и легкий доступ ко всему контенту CorelDRAW Graphics Suite X6, включая картинки, фотографии, рамки и многое другое, одновременно позволяя получать дополнительный контент у сетевых продавцов.</String>
+		<String ID="PPWhatsNew01c">Поддержка новейших процессоров</String>
+		<String ID="PPWhatsNew01cDesc">Расширенная поддержка новейших многоядерных процессоров обеспечивает быстродействие и чувствительность, уменьшая время ожидания при экспорте файлов, печати нескольких документов или копировании и вставке больших объектов.</String>
+		<String ID="PPWhatsNew01d">Поддержка форматов файлов Adobe CS5 и Microsoft Publisher 2010</String>
+		<String ID="PPWhatsNew01dDesc">Расширенная поддержка импорта и экспорта для Adobe Illustrator CS5, Adobe Photoshop CS5 и Microsoft Publisher 2010, а также поддержка импорта для Adobe Acrobat X, обеспечивающая возможность обмена файлами с коллегами и клиентами.</String>
+		<String ID="PPWhatsNew01e">Интеллектуальная обработка</String>
+		<String ID="PPWhatsNew01eDesc">Новый инструмент интеллектуальной обработки облегчает удаление ненужных областей на фотографиях и одновременно настраивает пропорции изображения на снимке.</String>
+		<String ID="PPWhatsNew01f">Сквозной режим слияния</String>
+		<String ID="PPWhatsNew01fDesc">Новый сквозной режим слияния дает больше возможностей управления во время применения линзы или эффекта к группе объектов.</String>
+		<String ID="PPWhatsNew01g">Создание маски обрезки </String>
+		<String ID="PPWhatsNew01gDesc">Новый параметр «Создать маску обрезки» позволяет применять маску обрезки к группе объектов без изменения отдельных объектов в ней.</String>
+
+		<String ID="PPWhatsNew02">Простое создание макетов</String>
+		<String ID="PPWhatsNew02Desc"/>
+		<String ID="PPWhatsNew02a">Поддержка OpenType</String>
+		<String ID="PPWhatsNew02aDesc">Обновленный текстовый модуль позволяет эффективнее использовать расширенные типографские функции OpenType, такие как контекстные и стилистические варианты, дроби, лигатуры, порядковые числительные, орнаменты, капительные буквы, росчерки и многое другое.</String>
+		<String ID="PPWhatsNew02b">Правильный типографский набор для азиатских и ближневосточных языков</String>
+		<String ID="PPWhatsNew02bDesc">Поддержка новых сложных сценариев, встроенных в измененный текстовый модуль, обеспечивает правильный набор символов, используемых в азиатских и ближневосточных языках.</String>
+
+		<String ID="PPWhatsNew03">Стильный и творческий дизайн</String>
+		<String ID="PPWhatsNew03Desc"/>
+		<String ID="PPWhatsNew03a">Несколько лотков в Corel CONNECT</String>
+		<String ID="PPWhatsNew03aDesc">Теперь Corel CONNECT позволяет работать с несколькими лотками одновременно, что позволяет более гибко распределять ресурсы для нескольких проектов.</String>
+						
+<!--3. Learning Tools-->
+		<String ID="VideoTutorials">Учебные видеопособия</String>
+		<String ID="VideoTutorialsLocation"/><!--Turned off-->
+		<String ID="DrawVideoTutorialsDesc">Посмотрите видеоролики, в которых представлены основные функции, приводятся пошаговые описания работы с проектами и показан профессиональный рабочий процесс.</String>
+		<String ID="PPVideoTutorialsDesc">Посмотрите видеоролики, в которых представлены основные функции, приводятся пошаговые описания работы с проектами и показан профессиональный рабочий процесс.</String>
+		<String ID="Guidebook">Руководство</String>
+		<String ID="DrawGuidebookDesc">Этот файл PDF поможет приступить к работе с пакетом CorelDRAW Graphics Suite. В нем содержатся общие сведения о приложении, советы, методики, учебники и набор изображений.</String>
+		<String ID="PPGuidebookDesc">Этот файл PDF поможет приступить к работе с пакетом CorelDRAW Graphics Suite. В нем содержатся общие сведения о приложении, советы, методики, учебники и набор изображений.</String>
+		<String ID="CorelTutor">Учебник CorelTUTOR</String>
+		<String ID="DrawCorelTutorDesc">Познакомьтесь с рабочим пространством и выполните упражнения из учебных пособий, демонстрирующих работу с макетом, трассировку изображений, использование функции слияния при печати, создание логотипа и многое другое.</String>
+		<String ID="PPCorelTutorDesc">Познакомьтесь с рабочим пространством и выполните упражнения из учебных пособий, демонстрирующих ретуширование фотографий, создание маски областей изображения для редактирования, работу с файлами RAW камеры, использование эффектов линзы и многое другое.</String>
+		<String ID="InsightsExperts">Советы экспертов</String>
+		<String ID="DrawInsightsExpertsDesc">Узнайте о том, как профессионалы в области графического дизайна используют инструменты в CorelDRAW для воплощения своих творческих идей.</String>
+		<String ID="PPInsightsExpertsDesc">Узнайте о том, как профессионалы в области графического дизайна используют инструменты в Corel PHOTO-PAINT для воплощения своих творческих идей.</String>
+		<String ID="TipsTricks">Советы и рекомендации</String>
+		<String ID="DrawTipsTricksDesc">Получите оперативные полезные советы по использованию различных функций и инструментов, доступных в CorelDRAW.</String>
+		<String ID="PPTipsTricksDesc">Получите оперативные полезные советы по использованию различных функций и инструментов, доступных в Corel PHOTO-PAINT.</String>
+		<String ID="TipsTricksHistory">Список советов и рекомендаций</String>
+		<String ID="History">Список</String>
+		
+		<String ID="VideoTutsIntro">Доступны следующие типы видеозаписей, помогающие использовать все преимущества CorelDRAW Graphics Suite X6.*</String>
+		<String ID="VideoTutsInternetConnection">*Для просмотра некоторых видеозаписей может потребоваться подключение к Интернету.</String>
+
+		<String ID="DrawVideoTuts01Title">Учебные видеопособия</String>
+		<String ID="DrawVideoTuts01Desc">Посмотрите видеоролики, в которых представлены основные функции, приводятся пошаговые описания работы с проектами и показан профессиональный рабочий процесс: от стадии разработки до вывода на различные носители. Используйте средство просмотра видео.</String>
+		<String ID="DrawVideoTuts02Title">Видеосоветы</String>
+		<String ID="DrawVideoTuts02Desc">Посмотрите короткие видеоклипы, рассказывающие о широко используемых на практике инструментах и функциях. Доступ к этим видеозаписям можно получить на вкладке «Видео» окна настройки советов.</String>
+		<String ID="DrawVideoTuts03Title"/><!--Turned off-->
+		<String ID="DrawVideoTuts03Desc"/><!--Turned off-->
+		<String ID="DrawVideoTuts04Title"/><!--Turned off-->
+		<String ID="DrawVideoTuts04Desc"/><!--Turned off-->
+		
+		<String ID="PPVideoTuts01Title">Учебные видеопособия</String>
+		<String ID="PPVideoTuts01Desc">Посмотрите видеоролики, в которых представлены основные функции, приводятся пошаговые описания работы с проектами и показан профессиональный рабочий процесс: от стадии разработки до вывода на различные носители. Используйте средство просмотра видео.</String>
+		<String ID="PPVideoTuts02Title">Видеосоветы</String>
+		<String ID="PPVideoTuts02Desc">Посмотрите короткие видеоклипы, рассказывающие о широко используемых на практике инструментах и функциях. Доступ к этим видеозаписям можно получить на вкладке «Видео» окна настройки советов.</String>
+		<String ID="PPVideoTuts03Title"/><!--Turned off-->
+		<String ID="PPVideoTuts03Desc"/><!--Turned off-->
+		<String ID="PPVideoTuts04Title"/><!--Turned off-->
+		<String ID="PPVideoTuts04Desc"/><!--Turned off-->
+		
+		<String ID="OpenVideos">Запустите видеоруководства.</String>
+
+		<String ID="GuidebookIntro">В программном обеспечении содержится руководство в формате PDF, включающее такие темы, как</String>
+		
+		<String ID="DrawGuidebook01Title">Начало работы</String>
+		<String ID="DrawGuidebook01Desc">Ознакомьтесь с рабочей областью и узнайте об инструментах и функциях CorelDRAW и Corel PHOTO-PAINT.</String>
+		<String ID="DrawGuidebook02Title">Работа с цветом, типами и стилями</String>
+		<String ID="DrawGuidebook02Desc">Узнайте о том, как работать с цветами и текстом, и форматировать объекты с помощью стилей и наборов стилей.</String>
+		<String ID="DrawGuidebook03Title">Советы и техники</String>
+		<String ID="DrawGuidebook03Desc">Получите советы с описанием рабочего процесса создания маркировки, иллюстрации и верстки.</String>
+		<String ID="DrawGuidebook04Title">Руководство по цифровому содержимому</String>
+		<String ID="DrawGuidebook04Desc">Узнайте о приложении Corel CONNECT и цифровом содержимом, доступном на DVD-диске CorelDRAW Graphics Suite X6.</String>
+
+		<String ID="PPGuidebook01Title">Начало работы</String>
+		<String ID="PPGuidebook01Desc">Ознакомьтесь с рабочей областью и узнайте об инструментах и функциях CorelDRAW и Corel PHOTO-PAINT.</String>
+		<String ID="PPGuidebook02Title">Работа с цветом</String>
+		<String ID="PPGuidebook02Desc">Узнайте о цветовых моделях, цветовых палитрах и начните работать с управлением цветом в CorelDRAW Graphics Suite X6.</String>
+		<String ID="PPGuidebook03Title">Советы и техники</String>
+		<String ID="PPGuidebook03Desc">Получите советы с описанием рабочего процесса создания маркировки, иллюстрации и верстки.</String>
+		<String ID="PPGuidebook04Title">Руководство по цифровому содержимому</String>
+		<String ID="PPGuidebook04Desc">Узнайте о приложении Corel CONNECT и цифровом содержимом, доступном на DVD-диске CorelDRAW Graphics Suite X6.</String>
+		
+		<String ID="OpenGuidebook">Запустите руководство.</String>
+
+		<String ID="MoreAvailable">Дополнительные доступные ресурсы.</String>
+		<String ID="UpdatedPeriodically">периодически обновляемые</String>
+
+		<String ID="NeedReader">Для просмотра этих руководств на компьютере должно быть установлено приложение Adobe Reader.</String>
+				
+		<String ID="DrawCorelTutor01Title">Знакомство с рабочим пространством</String>
+		<String ID="DrawCorelTutor01Desc">Содержит описание основных инструментов CorelDRAW X6</String>
+		<String ID="DrawCorelTutor02Title"/><!--Turned off-->
+		<String ID="DrawCorelTutor02Desc"/><!--Turned off-->
+		<String ID="DrawCorelTutor03Title">Работа с макетом</String>
+		<String ID="DrawCorelTutor03Desc">Посмотрите принципы создания макета многократно сложенной брошюры</String>
+		<String ID="DrawCorelTutor04Title">Векторизация изображений</String>
+		<String ID="DrawCorelTutor04Desc">Демонстрация преобразования растрового изображения в векторное</String>
+		<String ID="DrawCorelTutor05Title">Иллюстрирование и оформление книжной обложки</String>
+		<String ID="DrawCorelTutor05Desc">Демонстрация выполнения слияния при печати для быстрого создания индивидуальных визитных карточек</String>
+		<String ID="DrawCorelTutor06Title">Создание логотипа</String>
+		<String ID="DrawCorelTutor06Desc">Демонстрация создания логотипа</String>
+
+		<String ID="PPCorelTutor01Title">Знакомство с рабочим пространством</String>
+		<String ID="PPCorelTutor01Desc">Знакомит с основными инструментами Corel PHOTO-PAINT X6</String>
+		<String ID="PPCorelTutor02Title"/><!--Turned off-->
+		<String ID="PPCorelTutor02Desc"/><!--Turned off-->
+		<String ID="PPCorelTutor03Title">Ретуширование изображений</String>
+		<String ID="PPCorelTutor03Desc">Демонстрация устранения типичных для сканированных фотографий недостатков, таких как красные глаза, дефекты кожи и рваные края</String>
+		<String ID="PPCorelTutor04Title">Создание масок изображений</String>
+		<String ID="PPCorelTutor04Desc">Демонстрация создания маски для вырезания части изображения из окружающего его фона и замены фона</String>
+		<String ID="PPCorelTutor05Title">Настройка изображений</String>
+		<String ID="PPCorelTutor05Desc">Демонстрация настройки цвета и оттенка фотографии для увеличения контрастности и детализации</String>
+		<String ID="PPCorelTutor06Title">Использование эффектов линзы</String>
+		<String ID="PPCorelTutor06Desc">Демонстрация использования эффектов линзы для преобразования цветного изображения в черно-белое</String>
+		
+		<String ID="DrawInsights01Title"/><!--Turned off-->
+		<String ID="DrawInsights01Artist"/><!--Turned off-->
+		<String ID="DrawInsights01Desc"/><!--Turned off-->
+		<String ID="DrawInsights02Title"/><!--Turned off-->
+		<String ID="DrawInsights02Artist"/><!--Turned off-->
+		<String ID="DrawInsights02Desc"/><!--Turned off-->
+		<String ID="DrawInsights03Title"/><!--Turned off-->
+		<String ID="DrawInsights03Artist"/><!--Turned off-->
+		<String ID="DrawInsights03Desc"/><!--Turned off-->
+		<String ID="DrawInsights04Title"/><!--Turned off-->
+		<String ID="DrawInsights04Artist"/><!--Turned off-->
+		<String ID="DrawInsights04Desc"/><!--Turned off-->
+		<String ID="DrawInsights05Title">Создание эмблемы футбольного клуба</String>
+		<String ID="DrawInsights05Artist">Даниэлем Пайзом</String>
+		<String ID="DrawInsights05Desc">Узнайте о том, как создать эффективную спортивную эмблему, содержащую исторические и культурологические элементы оформления.</String>
+		<String ID="DrawInsights06Title">История создания кресла читателя</String>
+		<String ID="DrawInsights06Artist">Михаил Полак</String>
+		<String ID="DrawInsights06Desc">Проследите создание уникального кресла от первоначальной идеи до производства и маркетинговых материалов.</String>
+		
+		<String ID="PPInsights01Title"/><!--Turned off-->
+		<String ID="PPInsights01Artist"/><!--Turned off-->
+		<String ID="PPInsights01Desc"/><!--Turned off-->
+		<String ID="PPInsights02Title"/><!--Turned off-->
+		<String ID="PPInsights02Artist"/><!--Turned off-->
+		<String ID="PPInsights02Desc"/><!--Turned off-->
+		<String ID="PPInsights03Title"/><!--Turned off-->
+		<String ID="PPInsights03Artist"/><!--Turned off-->
+		<String ID="PPInsights03Desc"/><!--Turned off-->
+		<String ID="PPInsights04Title"/><!--Turned off-->
+		<String ID="PPInsights04Artist"/><!--Turned off-->
+		<String ID="PPInsights04Desc"/><!--Turned off-->
+		<String ID="PPInsights05Title">Наброски</String>
+		<String ID="PPInsights05Artist">Автор - Морис Бемер (Maurice Beumers (Mo))</String>
+		<String ID="PPInsights05Desc">Погрузитесь в мир художника, создающего наброски, во время знакомства с настраиваемыми кистями и текстурами.</String>
+		<String ID="PPInsights06Title"/><!--Turned off-->
+		<String ID="PPInsights06Artist"/><!--Turned off-->
+		<String ID="PPInsights06Desc"/><!--Turned off-->
+
+<!--4. Gallery-->
+		<!-- Gallery artist strings & data are held as an array in //js/gallery.js-->
+		<String ID="VisitCommunity">Посетите сообщество CorelDRAW.com</String>
+
+<!--5. Updates-->
+		<String ID="HeadingUpdateDetails">Обновить данные</String>
+		<String ID="Settings">Настройка</String>
+		<String ID="UpdateSettings">Обновить настройки</String>
+		<String ID="ShowMessages">Уведомлять меня об имеющихся обновлениях, новостях и учебных пособиях.</String>
+		<String ID="AutoDownload">Автоматически загружать обновления для продуктов и запрашивать перед установкой.</String>
+		<String ID="Updates">Доступны обновления для CorelDRAW Graphics Suite.</String>
+		<String ID="UpdatesAvailable">Обновления продуктов</String>
+		<String ID="TutorialsAvailable">Пособия</String>
+		<String ID="CorelOffersAvailable">Специальные предложения</String>
+		<String ID="NewsAvailable">Новости</String>
+
+
+	</StringList>
+
+</WelcomeScreen>

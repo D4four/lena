@@ -1,0 +1,102 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+    />
+    
+
+    <script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script language="jscript" type="text/jscript">
+        
+        function OnBodyLoad()
+        {
+         
+        }
+
+    </script>
+
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+    
+    <!-- page content panel -->
+    <div id="idPanel">
+    
+        <div class="DlgHeader" style="top: 20px;" >
+            Järjestelmässä on käynnissä seuraavat sovellukset
+        </div>        
+        
+        <div class="DlgBlock" style="top: 55px;" >
+            Jotta tietokonetta ei tarvitse käynnistää turhaan uudelleen, on erittäin suositeltavaa, että suljet nämä sovellukset ennen kuin jatkat.<br /><br /> 
+            Sulje nämä sovellukset ja jatka valitsemalla <b>OK</b>.
+        </div>
+        
+        <div class="DlgBlock" style="top: 130px;
+                                     BORDER-LEFT-COLOR: silver; BORDER-BOTTOM-COLOR: silver; 
+                                     BORDER-TOP-COLOR: silver; BORDER-RIGHT-COLOR: silver;
+                                     BORDER-TOP-STYLE: double; BORDER-RIGHT-STYLE: double;
+                                     BORDER-LEFT-STYLE: double; BORDER-BOTTOM-STYLE: double;
+                                     background-color: #f1f1f1;
+                                     height: 180px;
+                                     width: 725px;">
+                                     
+            <div style="margin: 10px;">
+                <label ICA:Property="Files.In.Use.DisplayName.0">[Files.In.Use.DisplayName.0]</label><br>
+	    		<label ICA:Property="Files.In.Use.DisplayName.1">[Files.In.Use.DisplayName.1]</label><br>
+		    	<label ICA:Property="Files.In.Use.DisplayName.2">[Files.In.Use.DisplayName.2]</label><br>
+			    <label ICA:Property="Files.In.Use.DisplayName.3">[Files.In.Use.DisplayName.3]</label><br>
+    			<label ICA:Property="Files.In.Use.DisplayName.4">[Files.In.Use.DisplayName.4]</label><br>
+	    		<label ICA:Property="Files.In.Use.DisplayName.5">[Files.In.Use.DisplayName.5]</label><br>
+		    	<label ICA:Property="Files.In.Use.DisplayName.6">[Files.In.Use.DisplayName.6]</label><br>
+			    <label ICA:Property="Files.In.Use.DisplayName.7">[Files.In.Use.DisplayName.7]</label><br>
+    			<label ICA:Property="Files.In.Use.DisplayName.8">[Files.In.Use.DisplayName.8]</label><br>
+                <label ICA:Property="Files.In.Use.DisplayName.9">[Files.In.Use.DisplayName.9]</label>
+            </div>
+        </div>
+        
+        <div class="DlgBlock" style="top: 345px;">
+            <input id="idRadio1" type="radio" name="RestartManagerOption" value="CloseRestart" checked /> 
+		<label for="idRadio1" accesskey="A" >Sulje sovellukset ja yritä käynnistää ne automaattisesti uudelleen.</label> 
+            <br>
+            <input id="idRadio2" type="radio" name="RestartManagerOption" value="Reboot" />
+		<label for="idRadio2" accesskey="D" >Älä sulje sovelluksia. (Tietokone on käynnistettävä uudelleen.)</label>
+        </div>
+    
+    </div> <!-- div id="idTabPanel" END -->
+
+<!-- ------------------------------------------------------------ -->
+<!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+<div class="DlgWizardBtns">
+    <table border="0" width="100%">
+        <tr>
+            <td align="right">
+                
+            </td>
+            <td width="120px" align="left">
+                <button type="button" onmouseover="HighLightButton('idOk');" onmouseout="UnHighLightButton('idOk');" onclick="window.external.EndModalLoop(0);" ID="idOk" accesskey="O"><u>O</u>K</button>
+            </td>
+            <td width="120px" align="right">
+                <button type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" onclick="window.external.OnCancel();" ID="idCancel" accesskey="P"><u>P</u>eruuta</button>
+            </td>
+        </tr>
+    </table>
+</div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

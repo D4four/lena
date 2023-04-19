@@ -1,0 +1,107 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+           ICA:DlgHW="610,800" 
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:PromptForCancel="no"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"
+          ICA:ProgressState="TBPF_ERROR"
+    />
+
+    <script type="text/jscript" language="jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script type="text/jscript" language="jscript">
+    
+        var Setup = window.external;
+        function OnBodyLoad()
+        {
+
+        }
+        function LaunchAutorun()
+        {
+            Setup.ExecuteFN('JS_LaunchAutorun');
+            Setup.EndModalLoop(0);
+        }//function LaunchAurotun()        
+
+        
+    </script>
+    <style type="text/css">
+    
+        a
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: default;
+        }
+        
+        a:hover
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+        
+        a:active
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+        
+        a:visited
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+
+
+    </style>    
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+   
+    <!-- ------------------------------------------------------------ --> <!-- page content panel -->
+    <div id="idPanel">
+
+        <div class="DlgHeader" style="top: 20px;">
+            A instala&ccedil;&atilde;o n&atilde;o foi conclu&iacute;da
+        </div>
+
+        <div class="DlgBlock" style="top: 55px;">
+            <div>
+                O sistema n&atilde;o foi modificado. Para concluir a instala&ccedil;&atilde;o em outro momento, execute a instala&ccedil;&atilde;o novamente
+            </div>            
+            
+            <br /> <label ICA:Property="ICA.Installation.Result.Text">[Motivo da falha]</label> <label>Clique em <b>Concluir</b> para sair da instala&ccedil;&atilde;o.</label>
+        </div>
+        
+    </div> <!-- div id="idTabPanel" END -->
+
+
+    <!-- ------------------------------------------------------------ --> <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    <button type="button" onmouseover="HighLightButton('idFinish');" onmouseout="UnHighLightButton('idFinish');" onclick="LaunchAutorun();" ID="idFinish" accesskey="C" ><u>C</u>oncluir</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgWizardBtns"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

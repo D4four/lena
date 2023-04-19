@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<palette resid="8c90b198-d318-3199-4bd8-ebb370991aa1" guid="e9f069a3-b423-139d-4bed-4757f1b8668a" locked="true">
+<colors>
+<page>
+</page>
+</colors>
+<localization>
+<resource id="8c90b198-d318-3199-4bd8-ebb370991aa1">
+<EN>Default palette</EN>
+<BR>Paleta padrão</BR>
+<CS>默认 调色板</CS>
+<CT>預設 色盤</CT>
+<CZ>Výchozí paleta</CZ>
+<DE>Standard-Palette</DE>
+<ES>Paleta predeterminada</ES>
+<FR>Palette par défaut</FR>
+<IT>Tavolozza predefinita</IT>
+<JP>デフォルト パレット</JP>
+<KR>기본 팔레트</KR>
+<MA>Alapértelmezett paletta</MA>
+<NL>Standaard-palet</NL>
+<PL>Domyślna paleta</PL>
+<RU>Палитра по умолчанию</RU>
+<SU>Oletuspaletti</SU>
+<SV>Förvald Palett</SV>
+<TR>Varsayılan Paleti</TR>
+</resource>
+</localization>
+</palette>

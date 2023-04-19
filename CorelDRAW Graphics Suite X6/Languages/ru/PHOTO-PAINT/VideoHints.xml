@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VideoHints>
+  <Video Path="..\PHOTO-PAINT\VideoTips\Masking.wmv" Title="Маскирование"/>
+  <Video Path="..\PHOTO-PAINT\VideoTips\Interactive Fill PP.wmv" Title="Интерактивная заливка"/>
+  <Video Path="..\PHOTO-PAINT\VideoTips\Image Sprayer.wmv" Title="Распылитель"/>
+  <Video Path="..\PHOTO-PAINT\VideoTips\Cropping.wmv" Title="Обрезка"/>
+  <Video Path="..\PHOTO-PAINT\VideoTips\Image Correction.wmv" Title="Коррекция изображений"/>
+  <Video Path="..\PHOTO-PAINT\VideoTips\Transparency.wmv" Title="Прозрачность"/>
+  <Video Path="..\PHOTO-PAINT\VideoTips\Color Control.wmv" Title="Управление цветом"/>
+</VideoHints>

@@ -1,0 +1,640 @@
+<?xml version="1.0"?>
+<palette name="PANTONE Pastel Colors Uncoated - Corel 10" fixedID="22" guid="d46e968f-6ecd-4863-8f82-8965ff677384" prefix="PANTONE " locked="true">
+	<colorspaces>
+		<cs name="PANTONE Yellow 0131 CVU" fixedID="1" version="1300">
+			<color cs="CMYK" tints="0.04,0.04,0.36,0"></color>
+			<color cs="LAB" tints="0.945098,0.478431,0.654902"/>
+		</cs>
+		<cs name="PANTONE Red 0331 CVU" fixedID="2" version="1300">
+			<color cs="CMYK" tints="0.02,0.34,0.15,0"></color>
+			<color cs="LAB" tints="0.796078,0.631373,0.533333"/>
+		</cs>
+		<cs name="PANTONE Magenta 0521 CVU" fixedID="3" version="1300">
+			<color cs="CMYK" tints="0.08,0.34,0.02,0"></color>
+			<color cs="LAB" tints="0.796078,0.615686,0.466667"/>
+		</cs>
+		<cs name="PANTONE Violet 0631 CVU" fixedID="4" version="1300">
+			<color cs="CMYK" tints="0.24,0.34,0,0"></color>
+			<color cs="LAB" tints="0.709804,0.580392,0.407843"/>
+		</cs>
+		<cs name="PANTONE Blue 0821 CVU" fixedID="5" version="1300">
+			<color cs="CMYK" tints="0.49,0.04,0.06,0"></color>
+			<color cs="LAB" tints="0.772549,0.4,0.415686"/>
+		</cs>
+		<cs name="PANTONE Green 0921 CVU" fixedID="6" version="1300">
+			<color cs="CMYK" tints="0.42,0,0.25,0"></color>
+			<color cs="LAB" tints="0.847059,0.372549,0.505882"/>
+		</cs>
+		<cs name="PANTONE Black 0961 CVU" fixedID="7" version="1300">
+			<color cs="CMYK" tints="0.37,0.33,0.35,0.03"></color>
+			<color cs="LAB" tints="0.639216,0.505882,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9140 CVU" fixedID="32" version="1300">
+			<color cs="CMYK" tints="0.05,0.04,0.12,0"></color>
+			<color cs="LAB" tints="0.94902,0.498039,0.564706"/>
+		</cs>
+		<cs name="PANTONE 9020 CVU" fixedID="8" version="1300">
+			<color cs="CMYK" tints="0.05,0.05,0.16,0"></color>
+			<color cs="LAB" tints="0.945098,0.490196,0.572549"/>
+		</cs>
+		<cs name="PANTONE 9021 CVU" fixedID="9" version="1300">
+			<color cs="CMYK" tints="0.04,0.07,0.07,0"></color>
+			<color cs="LAB" tints="0.929412,0.517647,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9022 CVU" fixedID="10" version="1300">
+			<color cs="CMYK" tints="0.05,0.07,0.06,0"></color>
+			<color cs="LAB" tints="0.929412,0.513725,0.517647"/>
+		</cs>
+		<cs name="PANTONE 9023 CVU" fixedID="11" version="1300">
+			<color cs="CMYK" tints="0.05,0.07,0.04,0"></color>
+			<color cs="LAB" tints="0.92549,0.513725,0.505882"/>
+		</cs>
+		<cs name="PANTONE 9040 CVU" fixedID="12" version="1300">
+			<color cs="CMYK" tints="0.07,0.05,0.05,0"></color>
+			<color cs="LAB" tints="0.937255,0.490196,0.509804"/>
+		</cs>
+		<cs name="PANTONE 9041 CVU" fixedID="13" version="1300">
+			<color cs="CMYK" tints="0.07,0.05,0.06,0"></color>
+			<color cs="LAB" tints="0.941176,0.490196,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9042 CVU" fixedID="14" version="1300">
+			<color cs="CMYK" tints="0.06,0.05,0.06,0"></color>
+			<color cs="LAB" tints="0.937255,0.498039,0.517647"/>
+		</cs>
+		<cs name="PANTONE 9043 CVU" fixedID="15" version="1300">
+			<color cs="CMYK" tints="0.05,0.06,0.07,0"></color>
+			<color cs="LAB" tints="0.937255,0.501961,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9060 CVU" fixedID="16" version="1300">
+			<color cs="CMYK" tints="0.05,0.04,0.07,0"></color>
+			<color cs="LAB" tints="0.952941,0.498039,0.533333"/>
+		</cs>
+		<cs name="PANTONE 9061 CVU" fixedID="17" version="1300">
+			<color cs="CMYK" tints="0.05,0.04,0.06,0"></color>
+			<color cs="LAB" tints="0.94902,0.501961,0.529412"/>
+		</cs>
+		<cs name="PANTONE 9062 CVU" fixedID="18" version="1300">
+			<color cs="CMYK" tints="0.06,0.04,0.06,0"></color>
+			<color cs="LAB" tints="0.94902,0.498039,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9063 CVU" fixedID="19" version="1300">
+			<color cs="CMYK" tints="0.06,0.04,0.06,0"></color>
+			<color cs="LAB" tints="0.94902,0.494118,0.533333"/>
+		</cs>
+		<cs name="PANTONE 9080 CVU" fixedID="20" version="1300">
+			<color cs="CMYK" tints="0.07,0.06,0.1,0"></color>
+			<color cs="LAB" tints="0.913725,0.501961,0.529412"/>
+		</cs>
+		<cs name="PANTONE 9100 CVU" fixedID="24" version="1300">
+			<color cs="CMYK" tints="0.07,0.06,0.09,0"></color>
+			<color cs="LAB" tints="0.92549,0.498039,0.529412"/>
+		</cs>
+		<cs name="PANTONE 9101 CVU" fixedID="25" version="1300">
+			<color cs="CMYK" tints="0.09,0.07,0.11,0"></color>
+			<color cs="LAB" tints="0.898039,0.498039,0.529412"/>
+		</cs>
+		<cs name="PANTONE 9081 CVU" fixedID="21" version="1300">
+			<color cs="CMYK" tints="0.09,0.08,0.12,0"></color>
+			<color cs="LAB" tints="0.890196,0.501961,0.529412"/>
+		</cs>
+		<cs name="PANTONE 9102 CVU" fixedID="26" version="1300">
+			<color cs="CMYK" tints="0.11,0.09,0.13,0"></color>
+			<color cs="LAB" tints="0.854902,0.498039,0.52549"/>
+		</cs>
+		<cs name="PANTONE 9103 CVU" fixedID="27" version="1300">
+			<color cs="CMYK" tints="0.15,0.11,0.16,0"></color>
+			<color cs="LAB" tints="0.831373,0.498039,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9082 CVU" fixedID="22" version="1300">
+			<color cs="CMYK" tints="0.11,0.1,0.15,0"></color>
+			<color cs="LAB" tints="0.854902,0.505882,0.533333"/>
+		</cs>
+		<cs name="PANTONE 9083 CVU" fixedID="23" version="1300">
+			<color cs="CMYK" tints="0.12,0.12,0.16,0"></color>
+			<color cs="LAB" tints="0.835294,0.505882,0.529412"/>
+		</cs>
+		<cs name="PANTONE 9141 CVU" fixedID="33" version="1300">
+			<color cs="CMYK" tints="0.05,0.05,0.15,0"></color>
+			<color cs="LAB" tints="0.94902,0.494118,0.576471"/>
+		</cs>
+		<cs name="PANTONE 9142 CVU" fixedID="34" version="1300">
+			<color cs="CMYK" tints="0.08,0.07,0.21,0"></color>
+			<color cs="LAB" tints="0.909804,0.498039,0.580392"/>
+		</cs>
+		<cs name="PANTONE 9143 CVU" fixedID="35" version="1300">
+			<color cs="CMYK" tints="0.09,0.09,0.2,0"></color>
+			<color cs="LAB" tints="0.882353,0.501961,0.564706"/>
+		</cs>
+		<cs name="PANTONE 9120 CVU" fixedID="28" version="1300">
+			<color cs="CMYK" tints="0.05,0.04,0.16,0"></color>
+			<color cs="LAB" tints="0.952941,0.490196,0.584314"/>
+		</cs>
+		<cs name="PANTONE 9121 CVU" fixedID="29" version="1300">
+			<color cs="CMYK" tints="0.05,0.04,0.23,0"></color>
+			<color cs="LAB" tints="0.94902,0.486275,0.6"/>
+		</cs>
+		<cs name="PANTONE 9122 CVU" fixedID="30" version="1300">
+			<color cs="CMYK" tints="0.09,0.06,0.24,0"></color>
+			<color cs="LAB" tints="0.905882,0.490196,0.588235"/>
+		</cs>
+		<cs name="PANTONE 9123 CVU" fixedID="31" version="1300">
+			<color cs="CMYK" tints="0.11,0.09,0.25,0"></color>
+			<color cs="LAB" tints="0.858824,0.494118,0.572549"/>
+		</cs>
+		<cs name="PANTONE 9180 CVU" fixedID="40" version="1300">
+			<color cs="CMYK" tints="0.04,0.07,0.12,0"></color>
+			<color cs="LAB" tints="0.933333,0.513725,0.552941"/>
+		</cs>
+		<cs name="PANTONE 9181 CVU" fixedID="41" version="1300">
+			<color cs="CMYK" tints="0.04,0.07,0.13,0"></color>
+			<color cs="LAB" tints="0.929412,0.517647,0.560784"/>
+		</cs>
+		<cs name="PANTONE 9182 CVU" fixedID="42" version="1300">
+			<color cs="CMYK" tints="0.06,0.08,0.15,0"></color>
+			<color cs="LAB" tints="0.898039,0.513725,0.560784"/>
+		</cs>
+		<cs name="PANTONE 9160 CVU" fixedID="36" version="1300">
+			<color cs="CMYK" tints="0.05,0.06,0.17,0"></color>
+			<color cs="LAB" tints="0.933333,0.505882,0.576471"/>
+		</cs>
+		<cs name="PANTONE 9161 CVU" fixedID="37" version="1300">
+			<color cs="CMYK" tints="0.07,0.08,0.19,0"></color>
+			<color cs="LAB" tints="0.894118,0.505882,0.572549"/>
+		</cs>
+		<cs name="PANTONE 9162 CVU" fixedID="38" version="1300">
+			<color cs="CMYK" tints="0.09,0.09,0.19,0"></color>
+			<color cs="LAB" tints="0.878431,0.505882,0.556863"/>
+		</cs>
+		<cs name="PANTONE 9163 CVU" fixedID="39" version="1300">
+			<color cs="CMYK" tints="0.1,0.11,0.2,0"></color>
+			<color cs="LAB" tints="0.858824,0.505882,0.54902"/>
+		</cs>
+		<cs name="PANTONE 9200 CVU" fixedID="44" version="1300">
+			<color cs="CMYK" tints="0.04,0.08,0.15,0"></color>
+			<color cs="LAB" tints="0.921569,0.521569,0.564706"/>
+		</cs>
+		<cs name="PANTONE 9201 CVU" fixedID="45" version="1300">
+			<color cs="CMYK" tints="0.04,0.09,0.19,0"></color>
+			<color cs="LAB" tints="0.913725,0.52549,0.568627"/>
+		</cs>
+		<cs name="PANTONE 9220 CVU" fixedID="48" version="1300">
+			<color cs="CMYK" tints="0.04,0.07,0.12,0"></color>
+			<color cs="LAB" tints="0.92549,0.517647,0.545098"/>
+		</cs>
+		<cs name="PANTONE 9221 CVU" fixedID="49" version="1300">
+			<color cs="CMYK" tints="0.05,0.1,0.14,0"></color>
+			<color cs="LAB" tints="0.898039,0.521569,0.545098"/>
+		</cs>
+		<cs name="PANTONE 9183 CVU" fixedID="43" version="1300">
+			<color cs="CMYK" tints="0.07,0.09,0.15,0"></color>
+			<color cs="LAB" tints="0.886275,0.513725,0.54902"/>
+		</cs>
+		<cs name="PANTONE 9202 CVU" fixedID="46" version="1300">
+			<color cs="CMYK" tints="0.06,0.11,0.2,0"></color>
+			<color cs="LAB" tints="0.890196,0.517647,0.556863"/>
+		</cs>
+		<cs name="PANTONE 9203 CVU" fixedID="47" version="1300">
+			<color cs="CMYK" tints="0.09,0.14,0.22,0"></color>
+			<color cs="LAB" tints="0.843137,0.517647,0.556863"/>
+		</cs>
+		<cs name="PANTONE 9240 CVU" fixedID="52" version="1300">
+			<color cs="CMYK" tints="0.04,0.07,0.09,0"></color>
+			<color cs="LAB" tints="0.92549,0.521569,0.533333"/>
+		</cs>
+		<cs name="PANTONE 9241 CVU" fixedID="53" version="1300">
+			<color cs="CMYK" tints="0.05,0.09,0.12,0"></color>
+			<color cs="LAB" tints="0.905882,0.52549,0.537255"/>
+		</cs>
+		<cs name="PANTONE 9260 CVU" fixedID="56" version="1300">
+			<color cs="CMYK" tints="0.04,0.09,0.1,0"></color>
+			<color cs="LAB" tints="0.905882,0.541176,0.533333"/>
+		</cs>
+		<cs name="PANTONE 9242 CVU" fixedID="54" version="1300">
+			<color cs="CMYK" tints="0.07,0.11,0.15,0"></color>
+			<color cs="LAB" tints="0.87451,0.52549,0.537255"/>
+		</cs>
+		<cs name="PANTONE 9222 CVU" fixedID="50" version="1300">
+			<color cs="CMYK" tints="0.07,0.12,0.18,0"></color>
+			<color cs="LAB" tints="0.866667,0.521569,0.545098"/>
+		</cs>
+		<cs name="PANTONE 9223 CVU" fixedID="51" version="1300">
+			<color cs="CMYK" tints="0.1,0.13,0.2,0"></color>
+			<color cs="LAB" tints="0.85098,0.517647,0.541176"/>
+		</cs>
+		<cs name="PANTONE 9243 CVU" fixedID="55" version="1300">
+			<color cs="CMYK" tints="0.09,0.13,0.17,0"></color>
+			<color cs="LAB" tints="0.85098,0.52549,0.537255"/>
+		</cs>
+		<cs name="PANTONE 9280 CVU" fixedID="60" version="1300">
+			<color cs="CMYK" tints="0.04,0.07,0.07,0"></color>
+			<color cs="LAB" tints="0.929412,0.52549,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9281 CVU" fixedID="61" version="1300">
+			<color cs="CMYK" tints="0.05,0.1,0.09,0"></color>
+			<color cs="LAB" tints="0.901961,0.533333,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9282 CVU" fixedID="62" version="1300">
+			<color cs="CMYK" tints="0.06,0.11,0.1,0"></color>
+			<color cs="LAB" tints="0.886275,0.533333,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9283 CVU" fixedID="63" version="1300">
+			<color cs="CMYK" tints="0.07,0.12,0.11,0"></color>
+			<color cs="LAB" tints="0.870588,0.529412,0.521569"/>
+		</cs>
+		<cs name="PANTONE 9261 CVU" fixedID="57" version="1300">
+			<color cs="CMYK" tints="0.05,0.13,0.13,0"></color>
+			<color cs="LAB" tints="0.866667,0.545098,0.537255"/>
+		</cs>
+		<cs name="PANTONE 9262 CVU" fixedID="58" version="1300">
+			<color cs="CMYK" tints="0.07,0.14,0.15,0"></color>
+			<color cs="LAB" tints="0.854902,0.537255,0.533333"/>
+		</cs>
+		<cs name="PANTONE 9263 CVU" fixedID="59" version="1300">
+			<color cs="CMYK" tints="0.09,0.15,0.16,0"></color>
+			<color cs="LAB" tints="0.831373,0.533333,0.529412"/>
+		</cs>
+		<cs name="PANTONE 9300 CVU" fixedID="64" version="1300">
+			<color cs="CMYK" tints="0.04,0.09,0.07,0"></color>
+			<color cs="LAB" tints="0.913725,0.537255,0.513725"/>
+		</cs>
+		<cs name="PANTONE 9301 CVU" fixedID="65" version="1300">
+			<color cs="CMYK" tints="0.05,0.12,0.07,0"></color>
+			<color cs="LAB" tints="0.882353,0.541176,0.513725"/>
+		</cs>
+		<cs name="PANTONE 9320 CVU" fixedID="68" version="1300">
+			<color cs="CMYK" tints="0.04,0.07,0.05,0"></color>
+			<color cs="LAB" tints="0.921569,0.52549,0.509804"/>
+		</cs>
+		<cs name="PANTONE 9302 CVU" fixedID="66" version="1300">
+			<color cs="CMYK" tints="0.07,0.14,0.09,0"></color>
+			<color cs="LAB" tints="0.847059,0.545098,0.513725"/>
+		</cs>
+		<cs name="PANTONE 9303 CVU" fixedID="67" version="1300">
+			<color cs="CMYK" tints="0.08,0.13,0.12,0"></color>
+			<color cs="LAB" tints="0.831373,0.537255,0.517647"/>
+		</cs>
+		<cs name="PANTONE 9321 CVU" fixedID="69" version="1300">
+			<color cs="CMYK" tints="0.05,0.08,0.06,0"></color>
+			<color cs="LAB" tints="0.901961,0.529412,0.509804"/>
+		</cs>
+		<cs name="PANTONE 9322 CVU" fixedID="70" version="1300">
+			<color cs="CMYK" tints="0.07,0.11,0.09,0"></color>
+			<color cs="LAB" tints="0.878431,0.529412,0.509804"/>
+		</cs>
+		<cs name="PANTONE 9340 CVU" fixedID="72" version="1300">
+			<color cs="CMYK" tints="0.05,0.07,0.04,0"></color>
+			<color cs="LAB" tints="0.909804,0.517647,0.501961"/>
+		</cs>
+		<cs name="PANTONE 9341 CVU" fixedID="73" version="1300">
+			<color cs="CMYK" tints="0.07,0.09,0.06,0"></color>
+			<color cs="LAB" tints="0.894118,0.521569,0.501961"/>
+		</cs>
+		<cs name="PANTONE 9342 CVU" fixedID="74" version="1300">
+			<color cs="CMYK" tints="0.08,0.11,0.07,0"></color>
+			<color cs="LAB" tints="0.870588,0.521569,0.498039"/>
+		</cs>
+		<cs name="PANTONE 9343 CVU" fixedID="75" version="1300">
+			<color cs="CMYK" tints="0.09,0.11,0.07,0"></color>
+			<color cs="LAB" tints="0.854902,0.52549,0.498039"/>
+		</cs>
+		<cs name="PANTONE 9360 CVU" fixedID="76" version="1300">
+			<color cs="CMYK" tints="0.08,0.1,0.04,0"></color>
+			<color cs="LAB" tints="0.870588,0.52549,0.478431"/>
+		</cs>
+		<cs name="PANTONE 9361 CVU" fixedID="77" version="1300">
+			<color cs="CMYK" tints="0.12,0.13,0.05,0"></color>
+			<color cs="LAB" tints="0.835294,0.529412,0.47451"/>
+		</cs>
+		<cs name="PANTONE 9323 CVU" fixedID="71" version="1300">
+			<color cs="CMYK" tints="0.09,0.14,0.11,0"></color>
+			<color cs="LAB" tints="0.843137,0.529412,0.513725"/>
+		</cs>
+		<cs name="PANTONE 9400 CVU" fixedID="84" version="1300">
+			<color cs="CMYK" tints="0.14,0.07,0.07,0"></color>
+			<color cs="LAB" tints="0.878431,0.482353,0.482353"/>
+		</cs>
+		<cs name="PANTONE 9380 CVU" fixedID="80" version="1300">
+			<color cs="CMYK" tints="0.12,0.09,0.05,0"></color>
+			<color cs="LAB" tints="0.886275,0.501961,0.486275"/>
+		</cs>
+		<cs name="PANTONE 9381 CVU" fixedID="81" version="1300">
+			<color cs="CMYK" tints="0.17,0.11,0.07,0"></color>
+			<color cs="LAB" tints="0.831373,0.505882,0.47451"/>
+		</cs>
+		<cs name="PANTONE 9382 CVU" fixedID="82" version="1300">
+			<color cs="CMYK" tints="0.19,0.13,0.05,0"></color>
+			<color cs="LAB" tints="0.815686,0.505882,0.466667"/>
+		</cs>
+		<cs name="PANTONE 9383 CVU" fixedID="83" version="1300">
+			<color cs="CMYK" tints="0.21,0.14,0.07,0"></color>
+			<color cs="LAB" tints="0.792157,0.505882,0.47451"/>
+		</cs>
+		<cs name="PANTONE 9362 CVU" fixedID="78" version="1300">
+			<color cs="CMYK" tints="0.15,0.16,0.06,0"></color>
+			<color cs="LAB" tints="0.807843,0.52549,0.478431"/>
+		</cs>
+		<cs name="PANTONE 9363 CVU" fixedID="79" version="1300">
+			<color cs="CMYK" tints="0.16,0.16,0.09,0"></color>
+			<color cs="LAB" tints="0.792157,0.52549,0.482353"/>
+		</cs>
+		<cs name="PANTONE 9401 CVU" fixedID="85" version="1300">
+			<color cs="CMYK" tints="0.18,0.07,0.06,0"></color>
+			<color cs="LAB" tints="0.854902,0.478431,0.470588"/>
+		</cs>
+		<cs name="PANTONE 9402 CVU" fixedID="86" version="1300">
+			<color cs="CMYK" tints="0.23,0.09,0.07,0"></color>
+			<color cs="LAB" tints="0.831373,0.482353,0.470588"/>
+		</cs>
+		<cs name="PANTONE 9403 CVU" fixedID="87" version="1300">
+			<color cs="CMYK" tints="0.22,0.11,0.09,0"></color>
+			<color cs="LAB" tints="0.815686,0.482353,0.478431"/>
+		</cs>
+		<cs name="PANTONE 9420 CVU" fixedID="88" version="1300">
+			<color cs="CMYK" tints="0.24,0.07,0.08,0"></color>
+			<color cs="LAB" tints="0.835294,0.462745,0.462745"/>
+		</cs>
+		<cs name="PANTONE 9421 CVU" fixedID="89" version="1300">
+			<color cs="CMYK" tints="0.24,0.09,0.08,0"></color>
+			<color cs="LAB" tints="0.827451,0.470588,0.470588"/>
+		</cs>
+		<cs name="PANTONE 9422 CVU" fixedID="90" version="1300">
+			<color cs="CMYK" tints="0.23,0.11,0.1,0"></color>
+			<color cs="LAB" tints="0.811765,0.47451,0.478431"/>
+		</cs>
+		<cs name="PANTONE 9423 CVU" fixedID="91" version="1300">
+			<color cs="CMYK" tints="0.29,0.14,0.15,0"></color>
+			<color cs="LAB" tints="0.776471,0.478431,0.482353"/>
+		</cs>
+		<cs name="PANTONE 9460 CVU" fixedID="96" version="1300">
+			<color cs="CMYK" tints="0.16,0.04,0.09,0"></color>
+			<color cs="LAB" tints="0.913725,0.466667,0.494118"/>
+		</cs>
+		<cs name="PANTONE 9440 CVU" fixedID="92" version="1300">
+			<color cs="CMYK" tints="0.22,0.04,0.09,0"></color>
+			<color cs="LAB" tints="0.870588,0.458824,0.47451"/>
+		</cs>
+		<cs name="PANTONE 9461 CVU" fixedID="97" version="1300">
+			<color cs="CMYK" tints="0.23,0.04,0.11,0"></color>
+			<color cs="LAB" tints="0.862745,0.45098,0.482353"/>
+		</cs>
+		<cs name="PANTONE 9441 CVU" fixedID="93" version="1300">
+			<color cs="CMYK" tints="0.27,0.05,0.08,0"></color>
+			<color cs="LAB" tints="0.854902,0.45098,0.462745"/>
+		</cs>
+		<cs name="PANTONE 9442 CVU" fixedID="94" version="1300">
+			<color cs="CMYK" tints="0.29,0.08,0.09,0"></color>
+			<color cs="LAB" tints="0.823529,0.458824,0.466667"/>
+		</cs>
+		<cs name="PANTONE 9443 CVU" fixedID="95" version="1300">
+			<color cs="CMYK" tints="0.28,0.09,0.12,0"></color>
+			<color cs="LAB" tints="0.803922,0.462745,0.478431"/>
+		</cs>
+		<cs name="PANTONE 9462 CVU" fixedID="98" version="1300">
+			<color cs="CMYK" tints="0.25,0.07,0.12,0"></color>
+			<color cs="LAB" tints="0.827451,0.45098,0.482353"/>
+		</cs>
+		<cs name="PANTONE 9480 CVU" fixedID="100" version="1300">
+			<color cs="CMYK" tints="0.19,0.04,0.11,0"></color>
+			<color cs="LAB" tints="0.898039,0.447059,0.498039"/>
+		</cs>
+		<cs name="PANTONE 9481 CVU" fixedID="101" version="1300">
+			<color cs="CMYK" tints="0.21,0.02,0.11,0"></color>
+			<color cs="LAB" tints="0.894118,0.447059,0.490196"/>
+		</cs>
+		<cs name="PANTONE 9482 CVU" fixedID="102" version="1300">
+			<color cs="CMYK" tints="0.24,0.03,0.15,0"></color>
+			<color cs="LAB" tints="0.866667,0.447059,0.494118"/>
+		</cs>
+		<cs name="PANTONE 9500 CVU" fixedID="104" version="1300">
+			<color cs="CMYK" tints="0.22,0.02,0.13,0"></color>
+			<color cs="LAB" tints="0.894118,0.431373,0.498039"/>
+		</cs>
+		<cs name="PANTONE 9501 CVU" fixedID="105" version="1300">
+			<color cs="CMYK" tints="0.26,0.04,0.16,0"></color>
+			<color cs="LAB" tints="0.854902,0.439216,0.498039"/>
+		</cs>
+		<cs name="PANTONE 9483 CVU" fixedID="103" version="1300">
+			<color cs="CMYK" tints="0.21,0.07,0.16,0"></color>
+			<color cs="LAB" tints="0.835294,0.466667,0.501961"/>
+		</cs>
+		<cs name="PANTONE 9463 CVU" fixedID="99" version="1300">
+			<color cs="CMYK" tints="0.25,0.08,0.14,0"></color>
+			<color cs="LAB" tints="0.831373,0.462745,0.490196"/>
+		</cs>
+		<cs name="PANTONE 9541 CVU" fixedID="113" version="1300">
+			<color cs="CMYK" tints="0.11,0.04,0.11,0"></color>
+			<color cs="LAB" tints="0.913725,0.470588,0.52549"/>
+		</cs>
+		<cs name="PANTONE 9520 CVU" fixedID="108" version="1300">
+			<color cs="CMYK" tints="0.1,0.04,0.08,0"></color>
+			<color cs="LAB" tints="0.937255,0.470588,0.517647"/>
+		</cs>
+		<cs name="PANTONE 9521 CVU" fixedID="109" version="1300">
+			<color cs="CMYK" tints="0.12,0.04,0.1,0"></color>
+			<color cs="LAB" tints="0.917647,0.466667,0.517647"/>
+		</cs>
+		<cs name="PANTONE 9522 CVU" fixedID="110" version="1300">
+			<color cs="CMYK" tints="0.13,0.05,0.12,0"></color>
+			<color cs="LAB" tints="0.898039,0.470588,0.517647"/>
+		</cs>
+		<cs name="PANTONE 9523 CVU" fixedID="111" version="1300">
+			<color cs="CMYK" tints="0.16,0.07,0.14,0"></color>
+			<color cs="LAB" tints="0.870588,0.47451,0.517647"/>
+		</cs>
+		<cs name="PANTONE 9502 CVU" fixedID="106" version="1300">
+			<color cs="CMYK" tints="0.26,0.07,0.18,0"></color>
+			<color cs="LAB" tints="0.831373,0.45098,0.501961"/>
+		</cs>
+		<cs name="PANTONE 9503 CVU" fixedID="107" version="1300">
+			<color cs="CMYK" tints="0.25,0.09,0.2,0"></color>
+			<color cs="LAB" tints="0.815686,0.462745,0.509804"/>
+		</cs>
+		<cs name="PANTONE 9540 CVU" fixedID="112" version="1300">
+			<color cs="CMYK" tints="0.09,0.04,0.09,0"></color>
+			<color cs="LAB" tints="0.933333,0.470588,0.529412"/>
+		</cs>
+		<cs name="PANTONE 9560 CVU" fixedID="116" version="1300">
+			<color cs="CMYK" tints="0.11,0.03,0.15,0"></color>
+			<color cs="LAB" tints="0.92549,0.470588,0.537255"/>
+		</cs>
+		<cs name="PANTONE 9561 CVU" fixedID="117" version="1300">
+			<color cs="CMYK" tints="0.15,0.05,0.19,0"></color>
+			<color cs="LAB" tints="0.898039,0.462745,0.545098"/>
+		</cs>
+		<cs name="PANTONE 9562 CVU" fixedID="118" version="1300">
+			<color cs="CMYK" tints="0.18,0.07,0.23,0"></color>
+			<color cs="LAB" tints="0.878431,0.466667,0.541176"/>
+		</cs>
+		<cs name="PANTONE 9563 CVU" fixedID="119" version="1300">
+			<color cs="CMYK" tints="0.19,0.11,0.23,0"></color>
+			<color cs="LAB" tints="0.835294,0.478431,0.537255"/>
+		</cs>
+		<cs name="PANTONE 9542 CVU" fixedID="114" version="1300">
+			<color cs="CMYK" tints="0.12,0.07,0.13,0"></color>
+			<color cs="LAB" tints="0.886275,0.482353,0.52549"/>
+		</cs>
+		<cs name="PANTONE 9543 CVU" fixedID="115" version="1300">
+			<color cs="CMYK" tints="0.17,0.07,0.18,0"></color>
+			<color cs="LAB" tints="0.854902,0.47451,0.52549"/>
+		</cs>
+		<cs name="PANTONE 9600 CVU" fixedID="124" version="1300">
+			<color cs="CMYK" tints="0.06,0.05,0.15,0"></color>
+			<color cs="LAB" tints="0.941176,0.486275,0.564706"/>
+		</cs>
+		<cs name="PANTONE 9580 CVU" fixedID="120" version="1300">
+			<color cs="CMYK" tints="0.06,0.04,0.09,0"></color>
+			<color cs="LAB" tints="0.941176,0.486275,0.537255"/>
+		</cs>
+		<cs name="PANTONE 9581 CVU" fixedID="121" version="1300">
+			<color cs="CMYK" tints="0.08,0.05,0.13,0"></color>
+			<color cs="LAB" tints="0.929412,0.486275,0.541176"/>
+		</cs>
+		<cs name="PANTONE 9582 CVU" fixedID="122" version="1300">
+			<color cs="CMYK" tints="0.1,0.09,0.16,0"></color>
+			<color cs="LAB" tints="0.882353,0.490196,0.541176"/>
+		</cs>
+		<cs name="PANTONE 9602 CVU" fixedID="126" version="1300">
+			<color cs="CMYK" tints="0.12,0.08,0.24,0"></color>
+			<color cs="LAB" tints="0.870588,0.486275,0.564706"/>
+		</cs>
+		<cs name="PANTONE 9603 CVU" fixedID="127" version="1300">
+			<color cs="CMYK" tints="0.15,0.12,0.26,0"></color>
+			<color cs="LAB" tints="0.831373,0.490196,0.556863"/>
+		</cs>
+		<cs name="PANTONE 9583 CVU" fixedID="123" version="1300">
+			<color cs="CMYK" tints="0.14,0.09,0.22,0"></color>
+			<color cs="LAB" tints="0.854902,0.490196,0.545098"/>
+		</cs>
+	</colorspaces>
+	<colors>
+		<page width="7">
+			<color name="PANTONE Yellow 0131 CVU" cs="PANTONE Yellow 0131 CVU" tints="1"></color>
+			<color name="PANTONE Red 0331 CVU" cs="PANTONE Red 0331 CVU" tints="1"></color>
+			<color name="PANTONE Magenta 0521 CVU" cs="PANTONE Magenta 0521 CVU" tints="1"></color>
+			<color name="PANTONE Violet 0631 CVU" cs="PANTONE Violet 0631 CVU" tints="1"></color>
+			<color name="PANTONE Blue 0821 CVU" cs="PANTONE Blue 0821 CVU" tints="1"></color>
+			<color name="PANTONE Green 0921 CVU" cs="PANTONE Green 0921 CVU" tints="1"></color>
+			<color name="PANTONE Black 0961 CVU" cs="PANTONE Black 0961 CVU" tints="1"></color>
+			<color name="PANTONE 9140 CVU" cs="PANTONE 9140 CVU" tints="1"></color>
+			<color name="PANTONE 9020 CVU" cs="PANTONE 9020 CVU" tints="1"></color>
+			<color name="PANTONE 9021 CVU" cs="PANTONE 9021 CVU" tints="1"></color>
+			<color name="PANTONE 9022 CVU" cs="PANTONE 9022 CVU" tints="1"></color>
+			<color name="PANTONE 9023 CVU" cs="PANTONE 9023 CVU" tints="1"></color>
+			<color name="PANTONE 9040 CVU" cs="PANTONE 9040 CVU" tints="1"></color>
+			<color name="PANTONE 9041 CVU" cs="PANTONE 9041 CVU" tints="1"></color>
+			<color name="PANTONE 9042 CVU" cs="PANTONE 9042 CVU" tints="1"></color>
+			<color name="PANTONE 9043 CVU" cs="PANTONE 9043 CVU" tints="1"></color>
+			<color name="PANTONE 9060 CVU" cs="PANTONE 9060 CVU" tints="1"></color>
+			<color name="PANTONE 9061 CVU" cs="PANTONE 9061 CVU" tints="1"></color>
+			<color name="PANTONE 9062 CVU" cs="PANTONE 9062 CVU" tints="1"></color>
+			<color name="PANTONE 9063 CVU" cs="PANTONE 9063 CVU" tints="1"></color>
+			<color name="PANTONE 9080 CVU" cs="PANTONE 9080 CVU" tints="1"></color>
+			<color name="PANTONE 9100 CVU" cs="PANTONE 9100 CVU" tints="1"></color>
+			<color name="PANTONE 9101 CVU" cs="PANTONE 9101 CVU" tints="1"></color>
+			<color name="PANTONE 9081 CVU" cs="PANTONE 9081 CVU" tints="1"></color>
+			<color name="PANTONE 9102 CVU" cs="PANTONE 9102 CVU" tints="1"></color>
+			<color name="PANTONE 9103 CVU" cs="PANTONE 9103 CVU" tints="1"></color>
+			<color name="PANTONE 9082 CVU" cs="PANTONE 9082 CVU" tints="1"></color>
+			<color name="PANTONE 9083 CVU" cs="PANTONE 9083 CVU" tints="1"></color>
+			<color name="PANTONE 9141 CVU" cs="PANTONE 9141 CVU" tints="1"></color>
+			<color name="PANTONE 9142 CVU" cs="PANTONE 9142 CVU" tints="1"></color>
+			<color name="PANTONE 9143 CVU" cs="PANTONE 9143 CVU" tints="1"></color>
+			<color name="PANTONE 9120 CVU" cs="PANTONE 9120 CVU" tints="1"></color>
+			<color name="PANTONE 9121 CVU" cs="PANTONE 9121 CVU" tints="1"></color>
+			<color name="PANTONE 9122 CVU" cs="PANTONE 9122 CVU" tints="1"></color>
+			<color name="PANTONE 9123 CVU" cs="PANTONE 9123 CVU" tints="1"></color>
+			<color name="PANTONE 9180 CVU" cs="PANTONE 9180 CVU" tints="1"></color>
+			<color name="PANTONE 9181 CVU" cs="PANTONE 9181 CVU" tints="1"></color>
+			<color name="PANTONE 9182 CVU" cs="PANTONE 9182 CVU" tints="1"></color>
+			<color name="PANTONE 9160 CVU" cs="PANTONE 9160 CVU" tints="1"></color>
+			<color name="PANTONE 9161 CVU" cs="PANTONE 9161 CVU" tints="1"></color>
+			<color name="PANTONE 9162 CVU" cs="PANTONE 9162 CVU" tints="1"></color>
+			<color name="PANTONE 9163 CVU" cs="PANTONE 9163 CVU" tints="1"></color>
+			<color name="PANTONE 9200 CVU" cs="PANTONE 9200 CVU" tints="1"></color>
+			<color name="PANTONE 9201 CVU" cs="PANTONE 9201 CVU" tints="1"></color>
+			<color name="PANTONE 9220 CVU" cs="PANTONE 9220 CVU" tints="1"></color>
+			<color name="PANTONE 9221 CVU" cs="PANTONE 9221 CVU" tints="1"></color>
+			<color name="PANTONE 9183 CVU" cs="PANTONE 9183 CVU" tints="1"></color>
+			<color name="PANTONE 9202 CVU" cs="PANTONE 9202 CVU" tints="1"></color>
+			<color name="PANTONE 9203 CVU" cs="PANTONE 9203 CVU" tints="1"></color>
+			<color name="PANTONE 9240 CVU" cs="PANTONE 9240 CVU" tints="1"></color>
+			<color name="PANTONE 9241 CVU" cs="PANTONE 9241 CVU" tints="1"></color>
+			<color name="PANTONE 9260 CVU" cs="PANTONE 9260 CVU" tints="1"></color>
+			<color name="PANTONE 9242 CVU" cs="PANTONE 9242 CVU" tints="1"></color>
+			<color name="PANTONE 9222 CVU" cs="PANTONE 9222 CVU" tints="1"></color>
+			<color name="PANTONE 9223 CVU" cs="PANTONE 9223 CVU" tints="1"></color>
+			<color name="PANTONE 9243 CVU" cs="PANTONE 9243 CVU" tints="1"></color>
+			<color name="PANTONE 9280 CVU" cs="PANTONE 9280 CVU" tints="1"></color>
+			<color name="PANTONE 9281 CVU" cs="PANTONE 9281 CVU" tints="1"></color>
+			<color name="PANTONE 9282 CVU" cs="PANTONE 9282 CVU" tints="1"></color>
+			<color name="PANTONE 9283 CVU" cs="PANTONE 9283 CVU" tints="1"></color>
+			<color name="PANTONE 9261 CVU" cs="PANTONE 9261 CVU" tints="1"></color>
+			<color name="PANTONE 9262 CVU" cs="PANTONE 9262 CVU" tints="1"></color>
+			<color name="PANTONE 9263 CVU" cs="PANTONE 9263 CVU" tints="1"></color>
+			<color name="PANTONE 9300 CVU" cs="PANTONE 9300 CVU" tints="1"></color>
+			<color name="PANTONE 9301 CVU" cs="PANTONE 9301 CVU" tints="1"></color>
+			<color name="PANTONE 9320 CVU" cs="PANTONE 9320 CVU" tints="1"></color>
+			<color name="PANTONE 9302 CVU" cs="PANTONE 9302 CVU" tints="1"></color>
+			<color name="PANTONE 9303 CVU" cs="PANTONE 9303 CVU" tints="1"></color>
+			<color name="PANTONE 9321 CVU" cs="PANTONE 9321 CVU" tints="1"></color>
+			<color name="PANTONE 9322 CVU" cs="PANTONE 9322 CVU" tints="1"></color>
+			<color name="PANTONE 9340 CVU" cs="PANTONE 9340 CVU" tints="1"></color>
+			<color name="PANTONE 9341 CVU" cs="PANTONE 9341 CVU" tints="1"></color>
+			<color name="PANTONE 9342 CVU" cs="PANTONE 9342 CVU" tints="1"></color>
+			<color name="PANTONE 9343 CVU" cs="PANTONE 9343 CVU" tints="1"></color>
+			<color name="PANTONE 9360 CVU" cs="PANTONE 9360 CVU" tints="1"></color>
+			<color name="PANTONE 9361 CVU" cs="PANTONE 9361 CVU" tints="1"></color>
+			<color name="PANTONE 9323 CVU" cs="PANTONE 9323 CVU" tints="1"></color>
+			<color name="PANTONE 9400 CVU" cs="PANTONE 9400 CVU" tints="1"></color>
+			<color name="PANTONE 9380 CVU" cs="PANTONE 9380 CVU" tints="1"></color>
+			<color name="PANTONE 9381 CVU" cs="PANTONE 9381 CVU" tints="1"></color>
+			<color name="PANTONE 9382 CVU" cs="PANTONE 9382 CVU" tints="1"></color>
+			<color name="PANTONE 9383 CVU" cs="PANTONE 9383 CVU" tints="1"></color>
+			<color name="PANTONE 9362 CVU" cs="PANTONE 9362 CVU" tints="1"></color>
+			<color name="PANTONE 9363 CVU" cs="PANTONE 9363 CVU" tints="1"></color>
+			<color name="PANTONE 9401 CVU" cs="PANTONE 9401 CVU" tints="1"></color>
+			<color name="PANTONE 9402 CVU" cs="PANTONE 9402 CVU" tints="1"></color>
+			<color name="PANTONE 9403 CVU" cs="PANTONE 9403 CVU" tints="1"></color>
+			<color name="PANTONE 9420 CVU" cs="PANTONE 9420 CVU" tints="1"></color>
+			<color name="PANTONE 9421 CVU" cs="PANTONE 9421 CVU" tints="1"></color>
+			<color name="PANTONE 9422 CVU" cs="PANTONE 9422 CVU" tints="1"></color>
+			<color name="PANTONE 9423 CVU" cs="PANTONE 9423 CVU" tints="1"></color>
+			<color name="PANTONE 9460 CVU" cs="PANTONE 9460 CVU" tints="1"></color>
+			<color name="PANTONE 9440 CVU" cs="PANTONE 9440 CVU" tints="1"></color>
+			<color name="PANTONE 9461 CVU" cs="PANTONE 9461 CVU" tints="1"></color>
+			<color name="PANTONE 9441 CVU" cs="PANTONE 9441 CVU" tints="1"></color>
+			<color name="PANTONE 9442 CVU" cs="PANTONE 9442 CVU" tints="1"></color>
+			<color name="PANTONE 9443 CVU" cs="PANTONE 9443 CVU" tints="1"></color>
+			<color name="PANTONE 9462 CVU" cs="PANTONE 9462 CVU" tints="1"></color>
+			<color name="PANTONE 9480 CVU" cs="PANTONE 9480 CVU" tints="1"></color>
+			<color name="PANTONE 9481 CVU" cs="PANTONE 9481 CVU" tints="1"></color>
+			<color name="PANTONE 9482 CVU" cs="PANTONE 9482 CVU" tints="1"></color>
+			<color name="PANTONE 9500 CVU" cs="PANTONE 9500 CVU" tints="1"></color>
+			<color name="PANTONE 9501 CVU" cs="PANTONE 9501 CVU" tints="1"></color>
+			<color name="PANTONE 9483 CVU" cs="PANTONE 9483 CVU" tints="1"></color>
+			<color name="PANTONE 9463 CVU" cs="PANTONE 9463 CVU" tints="1"></color>
+			<color name="PANTONE 9541 CVU" cs="PANTONE 9541 CVU" tints="1"></color>
+			<color name="PANTONE 9520 CVU" cs="PANTONE 9520 CVU" tints="1"></color>
+			<color name="PANTONE 9521 CVU" cs="PANTONE 9521 CVU" tints="1"></color>
+			<color name="PANTONE 9522 CVU" cs="PANTONE 9522 CVU" tints="1"></color>
+			<color name="PANTONE 9523 CVU" cs="PANTONE 9523 CVU" tints="1"></color>
+			<color name="PANTONE 9502 CVU" cs="PANTONE 9502 CVU" tints="1"></color>
+			<color name="PANTONE 9503 CVU" cs="PANTONE 9503 CVU" tints="1"></color>
+			<color name="PANTONE 9540 CVU" cs="PANTONE 9540 CVU" tints="1"></color>
+			<color name="PANTONE 9560 CVU" cs="PANTONE 9560 CVU" tints="1"></color>
+			<color name="PANTONE 9561 CVU" cs="PANTONE 9561 CVU" tints="1"></color>
+			<color name="PANTONE 9562 CVU" cs="PANTONE 9562 CVU" tints="1"></color>
+			<color name="PANTONE 9563 CVU" cs="PANTONE 9563 CVU" tints="1"></color>
+			<color name="PANTONE 9542 CVU" cs="PANTONE 9542 CVU" tints="1"></color>
+			<color name="PANTONE 9543 CVU" cs="PANTONE 9543 CVU" tints="1"></color>
+			<color name="PANTONE 9600 CVU" cs="PANTONE 9600 CVU" tints="1"></color>
+			<color name="PANTONE 9580 CVU" cs="PANTONE 9580 CVU" tints="1"></color>
+			<color name="PANTONE 9581 CVU" cs="PANTONE 9581 CVU" tints="1"></color>
+			<color name="PANTONE 9582 CVU" cs="PANTONE 9582 CVU" tints="1"></color>
+			<color name="PANTONE 9602 CVU" cs="PANTONE 9602 CVU" tints="1"></color>
+			<color name="PANTONE 9603 CVU" cs="PANTONE 9603 CVU" tints="1"></color>
+			<color name="PANTONE 9583 CVU" cs="PANTONE 9583 CVU" tints="1"></color>
+		</page>
+	</colors>
+	<localization></localization>
+</palette>

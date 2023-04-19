@@ -1,0 +1,74 @@
+%---------------------------------------------------------------------------
+% Fountain fill support
+/$fst 128 def/$pad 0 def/$rox 0 def/$roy 0 def/$fmp 50 def/is_rainbow_fill{
+$frb dup 1 eq exch 2 eq or}bd/calc_color_deltas{$fse $fss sub dup/nff xd $fmp
+mul $fmp add 100 div round cvi dup 0 le{pop 1}if/$fco xd/$fi 0 def $fco nff ge
+{/$fco nff 1 sub def}if is_rainbow_fill{calc_hsb_deltas}{grad_color_from/num
+get/numInks xd numInks array/deltas0 xd numInks array/deltas1 xd $fmp 50 eq{0 1
+numInks 1 sub{/inkIndex xd grad_color_to/color get inkIndex get grad_color_from
+/color get inkIndex get sub nff div deltas0 inkIndex 3 -1 roll put}for/deltas1
+deltas0 def}{0 1 numInks 1 sub{/inkIndex xd grad_color_to/color get inkIndex
+get grad_color_from/color get inkIndex get sub 2 div dup $fco div deltas0
+inkIndex 3 -1 roll put nff $fco sub div deltas1 inkIndex 3 -1 roll put}for
+}ifelse}ifelse}bd/convert_colorspec_to_hsb{/GradientColorSpace DocRgbSpace eq{
+/color get aload pop}{/convert_to_cmyk dexec/color get aload pop cmyk2rgb
+}ifelse rgb2hsb}bd/calc_hsb_deltas{grad_color_from convert_colorspec_to_hsb 3
+copy/myb xd/mys xd/myh xd grad_color_to convert_colorspec_to_hsb 3 1 roll 4 1
+roll 5 1 roll sub neg 2 div dup $fco div/kdb xd nff $fco sub div/kdb2 xd sub
+neg 2 div dup $fco div/kds xd nff $fco sub div/kds2 xd sub neg dup 0 eq{pop
+$frb 2 eq{0.99}{-0.99}ifelse}if dup $frb 2 eq exch 0 lt and{1 add}if dup $frb 1
+eq exch 0 gt and{1 sub}if 2 div dup $fco div/kdh xd nff $fco sub div/kdh2 xd
+/deltas0[kdh kds kdb]def/deltas1[kdh2 kds2 kdb2]def}bd/calc_next_strip_color{
+/$fi $fi 1 add def is_rainbow_fill{pop myh mys myb $fi $fco lt{deltas0 2 get
+add 3 1 roll deltas0 1 get add 3 1 roll deltas0 0 get add 3 1 roll}{deltas1 2
+get add 3 1 roll deltas1 1 get add 3 1 roll deltas1 0 get add 3 1 roll}ifelse 3
+copy/myb xd/mys xd/myh xd hsb2rgb create_rgb_color/GradientColorSpace
+DocCmykSpace eq{/convert_to_cmyk dexec}if}{/prevColor xd 0 1 prevColor/num get
+1 sub{/inkIndex xd $fi $fco lt $fmp 50 eq or{deltas0 inkIndex get}{deltas1
+inkIndex get}ifelse prevColor/color get inkIndex get add prevColor begin color
+inkIndex 3 -1 roll put end}for prevColor}ifelse}bd/init_strip_color{/$fil 0 def
+grad_color_from is_rainbow_fill{GradientDevicen{/convert_to_cmyk dexec}if}if
+/strip_color xd}bd/fill_linear{1 index 4 index sub dup $pad mul dup/$pdw xd 2
+mul sub $fst div/$wid xd 2 index sub/$hei xd pop Tl calc_color_deltas
+init_strip_color strip_color set_solid_fill $fss 0 eq{n 0 0 m 0 $hei l $pdw
+$hei l $pdw 0 l @cp F}if $fss $wid mul $pdw add 0 Tl nff{n 0 0 m 0 $hei l $wid
+$hei l $wid 0 l @cp strip_color set_solid_fill F $wid 0 Tl strip_color
+calc_next_strip_color/strip_color exch def}repeat n 0 0 m 0 $hei l $pdw $hei l
+$pdw 0 l @cp strip_color set_solid_fill F}bd/fill_radial_square{1 index 4 index
+sub dup $rox mul/$row xd 2 div 1 index 4 index sub dup $roy mul/$roh xd 2 div 2
+copy dup mul exch dup mul add sqrt $row dup mul $roh dup mul add sqrt add dup
+/$hei xd $fst div/$wid xd 4 index add $roh add exch 5 index add $row add exch
+Tl $fan rotate pop pop pop pop calc_color_deltas init_strip_color strip_color
+set_solid_fill $fss 0 eq{$fty 3 eq{$hei dup neg dup m 2 mul @sqr}{0 0 m 0 0
+$hei 0 360 arc}ifelse F}if 1.0 $pad 2 mul sub dup scale $hei $fss $wid mul sub
+/$hei xd nff{$fty 3 eq{n $hei dup neg dup m 2 mul @sqr}{n 0 0 m 0 0 $hei 0 360
+arc}ifelse strip_color set_solid_fill F/$hei $hei $wid sub def strip_color
+calc_next_strip_color/strip_color exch def}repeat}bd/fill_conical{1 index 4
+index sub dup $rox mul/$row xd 2 div 1 index 4 index sub dup $roy mul/$roh xd 2
+div 2 copy dup mul exch dup mul add sqrt $row dup mul $roh dup mul add sqrt add
+dup/$hei xd $fst div/$wid xd 4 index add $roh add exch 5 index add $row add
+exch Tl pop pop pop pop calc_color_deltas init_strip_color strip_color
+set_solid_fill $fss 0 eq{F}{n}ifelse/$dang 180 $fst 1 sub div def/$sang $dang
+-2 div 180 add def/$eang $dang 2 div 180 add def/$sang $sang $dang $fss mul add
+def/$eang $eang $dang $fss mul add def/$sang $eang $dang sub def nff{n 0 0 m 0
+0 $hei $sang $fan add $eang $fan add arc strip_color set_solid_fill F 0 0 m 0 0
+$hei $eang neg $fan add $sang neg $fan add arc F/$sang $eang def/$eang $eang
+$dang add def strip_color calc_next_strip_color/strip_color exch def}repeat}bd
+/adjust_gradient_steps{72 0 matrix defaultmatrix dtransform exch dup mul exch
+dup mul add sqrt currentscreen pop pop div dup mul 1 add cvi 2 256 in_range
+$fsc 1 sub dup 0 le{pop 1}if mul/opt$fst xd AutoSteps dup 1 eq exch 3 eq or{
+opt$fst dup dup $fst dup 3 1 roll div exch 3 -1 roll gt{/$adj xd/$fst xd}{pop
+pop}ifelse}if AutoSteps dup 2 eq exch 3 eq or{opt$fst dup dup $fst dup 3 1 roll
+div exch 3 -1 roll lt{/$adj xd/$fst xd}{pop pop}ifelse}if}bd/gradient_fill{
+/old$fst $fst def/$adj 1 def/$fss 0 def FillOverprint safe_setoverprint
+get_gradient_use_shading{output_shading_gradient}{AutoSteps 0 gt
+{adjust_gradient_steps}if 1 1 $fsc 1 sub{dup 1 sub $fsa exch 2 mul get
+/grad_color_from exch def dup $fsa exch 2 mul get/grad_color_to exch def $fsa
+exch 2 mul 1 add get $adj mul cvi $fss add/$fse xd @sv $ctm setmatrix wclip
+Bbllx Bblly Bburx Bbury $fty 2 eq{fill_conical}{1 index 3 index m 2 copy l 3
+index 1 index l 3 index 3 index l @cp $fty dup 1 eq exch 3 eq or{
+fill_radial_square}{pop pop pop pop $fan rotate pathbbox fill_linear}ifelse}
+ifelse @rs/$fss $fse def}for @np}ifelse/$fst old$fst def}bd/set_gradient{/$fil
+2 def/$fmp xd/$roy xd/$rox xd/$pad xd/$fty xd/$fan xd $fty 1 eq{/$fan 0 def}if
+/$frb xd/$fst xd/$fsc xd/$fsa xd}bd/get_gradient_use_shading{$fty 0 eq $fty 1
+eq or Level3 and is_rainbow_fill not and FillOverprint 0 eq and}bd

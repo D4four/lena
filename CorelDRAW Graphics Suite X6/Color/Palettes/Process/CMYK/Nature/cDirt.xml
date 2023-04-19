@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<palette resid="c5082fd5-d9aa-41c1-8c5d-2f0062313bab" guid="3f0a7ad3-9b75-4edc-adbb-624f8eca15b6">
+<colors>
+<page>
+<color name="C22 M32 Y38 K5" cs="CMYK" tints="0.55,0.82,0.97,0.14"></color>
+<color name="C33 M29 Y29 K36" cs="CMYK" tints="0.84,0.73,0.73,0.91"></color>
+<color name="C13 M21 Y36 K0" cs="CMYK" tints="0.32,0.54,0.93,0.01"></color>
+<color name="C8 M22 Y38 K0" cs="CMYK" tints="0.21,0.56,0.97,0"></color>
+<color name="C16 M29 Y39 K2" cs="CMYK" tints="0.41,0.73,0.99,0.04"></color>
+<color name="C10 M24 Y38 K0" cs="CMYK" tints="0.25,0.6,0.98,0"></color>
+<color name="C11 M25 Y38 K0" cs="CMYK" tints="0.29,0.64,0.98,0.01"></color>
+<color name="C13 M26 Y39 K0" cs="CMYK" tints="0.34,0.67,0.99,0.01"></color>
+<color name="C15 M28 Y39 K1" cs="CMYK" tints="0.39,0.71,0.99,0.03"></color>
+<color name="C17 M29 Y39 K2" cs="CMYK" tints="0.43,0.73,0.99,0.05"></color>
+<color name="C18 M30 Y38 K3" cs="CMYK" tints="0.47,0.77,0.98,0.07"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.51,0.8,0.98,0.09"></color>
+<color name="C12 M25 Y38 K0" cs="CMYK" tints="0.3,0.64,0.98,0.01"></color>
+<color name="C13 M25 Y38 K0" cs="CMYK" tints="0.33,0.65,0.98,0.01"></color>
+<color name="C14 M27 Y39 K1" cs="CMYK" tints="0.36,0.68,0.99,0.02"></color>
+<color name="C15 M27 Y39 K1" cs="CMYK" tints="0.39,0.7,0.99,0.03"></color>
+<color name="C16 M29 Y38 K2" cs="CMYK" tints="0.42,0.73,0.98,0.04"></color>
+<color name="C18 M29 Y38 K2" cs="CMYK" tints="0.45,0.75,0.98,0.06"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.48,0.78,0.98,0.07"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.51,0.8,0.98,0.09"></color>
+<color name="C21 M32 Y38 K5" cs="CMYK" tints="0.53,0.81,0.98,0.12"></color>
+<color name="C15 M27 Y38 K1" cs="CMYK" tints="0.39,0.7,0.98,0.03"></color>
+<color name="C16 M28 Y38 K2" cs="CMYK" tints="0.41,0.71,0.98,0.04"></color>
+<color name="C16 M29 Y38 K2" cs="CMYK" tints="0.42,0.73,0.98,0.05"></color>
+<color name="C17 M29 Y38 K2" cs="CMYK" tints="0.44,0.74,0.98,0.05"></color>
+<color name="C18 M30 Y38 K2" cs="CMYK" tints="0.46,0.76,0.98,0.06"></color>
+<color name="C18 M30 Y38 K3" cs="CMYK" tints="0.47,0.76,0.98,0.07"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.78,0.98,0.08"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.5,0.8,0.98,0.09"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.52,0.8,0.98,0.11"></color>
+<color name="C19 M30 Y38 K3" cs="CMYK" tints="0.49,0.76,0.98,0.07"></color>
+<color name="C19 M30 Y38 K3" cs="CMYK" tints="0.49,0.76,0.98,0.07"></color>
+<color name="C19 M30 Y38 K3" cs="CMYK" tints="0.49,0.77,0.98,0.08"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.78,0.98,0.08"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.78,0.98,0.08"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.78,0.98,0.08"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.79,0.98,0.08"></color>
+<color name="C20 M31 Y38 K3" cs="CMYK" tints="0.5,0.79,0.98,0.08"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.5,0.8,0.98,0.09"></color>
+<color name="C22 M31 Y38 K6" cs="CMYK" tints="0.56,0.8,0.96,0.16"></color>
+<color name="C22 M31 Y38 K6" cs="CMYK" tints="0.56,0.79,0.96,0.15"></color>
+<color name="C22 M31 Y38 K5" cs="CMYK" tints="0.55,0.8,0.97,0.13"></color>
+<color name="C21 M31 Y38 K5" cs="CMYK" tints="0.53,0.79,0.97,0.12"></color>
+<color name="C21 M31 Y38 K4" cs="CMYK" tints="0.53,0.8,0.98,0.11"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.51,0.79,0.98,0.1"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.5,0.8,0.98,0.09"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.79,0.98,0.08"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.79,0.98,0.07"></color>
+<color name="C25 M32 Y37 K10" cs="CMYK" tints="0.64,0.82,0.94,0.26"></color>
+<color name="C24 M32 Y37 K9" cs="CMYK" tints="0.62,0.82,0.95,0.23"></color>
+<color name="C24 M32 Y38 K8" cs="CMYK" tints="0.6,0.81,0.96,0.2"></color>
+<color name="C23 M31 Y38 K7" cs="CMYK" tints="0.58,0.8,0.96,0.17"></color>
+<color name="C22 M32 Y38 K6" cs="CMYK" tints="0.56,0.81,0.97,0.15"></color>
+<color name="C21 M31 Y38 K5" cs="CMYK" tints="0.53,0.79,0.97,0.12"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.51,0.8,0.98,0.09"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.79,0.98,0.08"></color>
+<color name="C18 M30 Y38 K3" cs="CMYK" tints="0.47,0.77,0.98,0.07"></color>
+<color name="C28 M32 Y35 K16" cs="CMYK" tints="0.71,0.81,0.89,0.4"></color>
+<color name="C27 M33 Y36 K14" cs="CMYK" tints="0.68,0.83,0.91,0.35"></color>
+<color name="C25 M33 Y36 K11" cs="CMYK" tints="0.65,0.83,0.93,0.29"></color>
+<color name="C24 M32 Y37 K9" cs="CMYK" tints="0.62,0.82,0.95,0.23"></color>
+<color name="C23 M32 Y38 K7" cs="CMYK" tints="0.59,0.82,0.96,0.18"></color>
+<color name="C22 M31 Y38 K6" cs="CMYK" tints="0.55,0.8,0.97,0.15"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.52,0.8,0.98,0.1"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.49,0.79,0.98,0.08"></color>
+<color name="C18 M30 Y39 K2" cs="CMYK" tints="0.45,0.76,0.99,0.06"></color>
+<color name="C31 M30 Y31 K26" cs="CMYK" tints="0.78,0.76,0.79,0.67"></color>
+<color name="C29 M31 Y34 K18" cs="CMYK" tints="0.73,0.8,0.86,0.47"></color>
+<color name="C27 M32 Y35 K15" cs="CMYK" tints="0.7,0.82,0.9,0.38"></color>
+<color name="C26 M33 Y36 K12" cs="CMYK" tints="0.66,0.83,0.93,0.31"></color>
+<color name="C24 M33 Y37 K9" cs="CMYK" tints="0.62,0.83,0.95,0.22"></color>
+<color name="C22 M32 Y38 K7" cs="CMYK" tints="0.57,0.81,0.96,0.17"></color>
+<color name="C21 M31 Y38 K4" cs="CMYK" tints="0.53,0.8,0.98,0.11"></color>
+<color name="C19 M31 Y38 K3" cs="CMYK" tints="0.48,0.78,0.98,0.07"></color>
+<color name="C17 M29 Y39 K2" cs="CMYK" tints="0.43,0.75,0.99,0.05"></color>
+<color name="C32 M29 Y30 K30" cs="CMYK" tints="0.81,0.75,0.77,0.76"></color>
+<color name="C29 M31 Y33 K20" cs="CMYK" tints="0.75,0.79,0.85,0.52"></color>
+<color name="C27 M32 Y35 K15" cs="CMYK" tints="0.69,0.82,0.9,0.38"></color>
+<color name="C25 M33 Y37 K11" cs="CMYK" tints="0.65,0.84,0.94,0.28"></color>
+<color name="C23 M32 Y38 K8" cs="CMYK" tints="0.59,0.82,0.96,0.2"></color>
+<color name="C21 M32 Y38 K5" cs="CMYK" tints="0.54,0.81,0.97,0.12"></color>
+<color name="C10 M24 Y38 K0" cs="CMYK" tints="0.25,0.6,0.98,0"></color>
+<color name="C10 M23 Y38 K0" cs="CMYK" tints="0.25,0.59,0.97,0"></color>
+<color name="C9 M23 Y38 K0" cs="CMYK" tints="0.24,0.59,0.97,0"></color>
+<color name="C9 M23 Y38 K0" cs="CMYK" tints="0.24,0.59,0.97,0"></color>
+<color name="C9 M23 Y38 K0" cs="CMYK" tints="0.24,0.58,0.97,0"></color>
+<color name="C9 M23 Y38 K0" cs="CMYK" tints="0.23,0.58,0.97,0"></color>
+<color name="C11 M25 Y38 K0" cs="CMYK" tints="0.29,0.63,0.98,0.01"></color>
+<color name="C11 M25 Y38 K0" cs="CMYK" tints="0.29,0.63,0.98,0.01"></color>
+<color name="C11 M24 Y38 K0" cs="CMYK" tints="0.28,0.62,0.98,0.01"></color>
+<color name="C11 M24 Y38 K0" cs="CMYK" tints="0.28,0.62,0.98,0.01"></color>
+<color name="C11 M24 Y38 K0" cs="CMYK" tints="0.27,0.62,0.98,0.01"></color>
+<color name="C11 M24 Y38 K0" cs="CMYK" tints="0.27,0.61,0.98,0.01"></color>
+<color name="C10 M24 Y38 K0" cs="CMYK" tints="0.26,0.61,0.98,0.01"></color>
+<color name="C10 M24 Y38 K0" cs="CMYK" tints="0.25,0.6,0.98,0"></color>
+<color name="C13 M26 Y39 K0" cs="CMYK" tints="0.33,0.67,0.99,0.01"></color>
+<color name="C13 M26 Y38 K0" cs="CMYK" tints="0.33,0.66,0.98,0.01"></color>
+<color name="C13 M26 Y38 K0" cs="CMYK" tints="0.32,0.66,0.98,0.01"></color>
+<color name="C12 M25 Y38 K0" cs="CMYK" tints="0.31,0.65,0.98,0.01"></color>
+<color name="C12 M25 Y38 K0" cs="CMYK" tints="0.3,0.64,0.98,0.01"></color>
+<color name="C12 M25 Y38 K0" cs="CMYK" tints="0.3,0.64,0.98,0.01"></color>
+<color name="C11 M25 Y38 K0" cs="CMYK" tints="0.28,0.63,0.98,0.01"></color>
+<color name="C15 M27 Y39 K1" cs="CMYK" tints="0.38,0.69,0.99,0.02"></color>
+<color name="C15 M27 Y39 K1" cs="CMYK" tints="0.37,0.69,0.99,0.02"></color>
+<color name="C14 M27 Y39 K1" cs="CMYK" tints="0.36,0.68,0.99,0.02"></color>
+<color name="C14 M27 Y39 K0" cs="CMYK" tints="0.35,0.68,0.99,0.01"></color>
+<color name="C13 M26 Y38 K0" cs="CMYK" tints="0.33,0.67,0.98,0.01"></color>
+<color name="C13 M26 Y38 K0" cs="CMYK" tints="0.32,0.66,0.98,0.01"></color>
+<color name="C12 M25 Y38 K0" cs="CMYK" tints="0.31,0.65,0.98,0.01"></color>
+<color name="C16 M29 Y39 K2" cs="CMYK" tints="0.42,0.73,0.99,0.04"></color>
+<color name="C16 M28 Y39 K2" cs="CMYK" tints="0.41,0.72,0.99,0.04"></color>
+<color name="C16 M28 Y39 K1" cs="CMYK" tints="0.4,0.71,0.99,0.03"></color>
+<color name="C15 M28 Y39 K1" cs="CMYK" tints="0.38,0.71,0.99,0.03"></color>
+<color name="C15 M27 Y39 K1" cs="CMYK" tints="0.37,0.7,0.99,0.02"></color>
+<color name="C14 M27 Y39 K1" cs="CMYK" tints="0.36,0.69,0.99,0.02"></color>
+<color name="C18 M30 Y38 K2" cs="CMYK" tints="0.45,0.76,0.98,0.06"></color>
+<color name="C17 M29 Y38 K2" cs="CMYK" tints="0.44,0.75,0.98,0.05"></color>
+<color name="C17 M29 Y39 K2" cs="CMYK" tints="0.43,0.74,0.99,0.05"></color>
+<color name="C16 M29 Y39 K2" cs="CMYK" tints="0.42,0.73,0.99,0.04"></color>
+<color name="C16 M28 Y39 K2" cs="CMYK" tints="0.4,0.72,0.99,0.04"></color>
+<color name="C15 M28 Y39 K1" cs="CMYK" tints="0.39,0.71,0.99,0.03"></color>
+<color name="C15 M27 Y39 K1" cs="CMYK" tints="0.38,0.7,0.99,0.02"></color>
+<color name="C20 M31 Y38 K3" cs="CMYK" tints="0.5,0.78,0.98,0.08"></color>
+<color name="C18 M30 Y38 K3" cs="CMYK" tints="0.46,0.77,0.98,0.07"></color>
+<color name="C18 M30 Y39 K2" cs="CMYK" tints="0.45,0.76,0.99,0.06"></color>
+<color name="C17 M29 Y39 K2" cs="CMYK" tints="0.44,0.75,0.99,0.05"></color>
+<color name="C16 M29 Y39 K2" cs="CMYK" tints="0.42,0.73,0.99,0.04"></color>
+<color name="C16 M29 Y39 K2" cs="CMYK" tints="0.4,0.73,0.99,0.04"></color>
+<color name="C15 M28 Y39 K1" cs="CMYK" tints="0.39,0.71,0.99,0.03"></color>
+<color name="C32 M29 Y30 K32" cs="CMYK" tints="0.82,0.74,0.76,0.81"></color>
+<color name="C31 M30 Y31 K26" cs="CMYK" tints="0.78,0.76,0.8,0.67"></color>
+<color name="C29 M31 Y34 K19" cs="CMYK" tints="0.73,0.8,0.87,0.48"></color>
+<color name="C27 M32 Y35 K15" cs="CMYK" tints="0.7,0.82,0.9,0.39"></color>
+<color name="C26 M33 Y36 K13" cs="CMYK" tints="0.67,0.84,0.93,0.33"></color>
+<color name="C25 M33 Y37 K10" cs="CMYK" tints="0.63,0.84,0.95,0.25"></color>
+<color name="C23 M33 Y38 K7" cs="CMYK" tints="0.59,0.83,0.96,0.19"></color>
+<color name="C31 M30 Y31 K27" cs="CMYK" tints="0.79,0.76,0.79,0.69"></color>
+<color name="C30 M31 Y33 K22" cs="CMYK" tints="0.76,0.78,0.84,0.56"></color>
+<color name="C29 M31 Y34 K18" cs="CMYK" tints="0.73,0.8,0.87,0.45"></color>
+<color name="C28 M32 Y35 K16" cs="CMYK" tints="0.71,0.82,0.89,0.4"></color>
+<color name="C27 M33 Y36 K14" cs="CMYK" tints="0.69,0.83,0.91,0.36"></color>
+<color name="C26 M33 Y36 K13" cs="CMYK" tints="0.66,0.84,0.93,0.32"></color>
+<color name="C25 M33 Y37 K10" cs="CMYK" tints="0.64,0.83,0.95,0.26"></color>
+<color name="C24 M33 Y37 K9" cs="CMYK" tints="0.61,0.84,0.95,0.22"></color>
+<color name="C23 M32 Y38 K7" cs="CMYK" tints="0.59,0.82,0.96,0.19"></color>
+<color name="C28 M31 Y35 K16" cs="CMYK" tints="0.71,0.8,0.89,0.41"></color>
+<color name="C27 M32 Y35 K15" cs="CMYK" tints="0.7,0.82,0.9,0.39"></color>
+<color name="C27 M32 Y35 K15" cs="CMYK" tints="0.69,0.82,0.9,0.37"></color>
+<color name="C27 M33 Y36 K14" cs="CMYK" tints="0.68,0.83,0.91,0.35"></color>
+<color name="C26 M33 Y36 K13" cs="CMYK" tints="0.67,0.84,0.92,0.33"></color>
+<color name="C26 M33 Y36 K12" cs="CMYK" tints="0.66,0.84,0.93,0.31"></color>
+<color name="C25 M33 Y37 K11" cs="CMYK" tints="0.65,0.83,0.94,0.28"></color>
+<color name="C25 M33 Y37 K10" cs="CMYK" tints="0.64,0.84,0.95,0.26"></color>
+<color name="C25 M33 Y37 K9" cs="CMYK" tints="0.63,0.84,0.95,0.24"></color>
+<color name="C25 M32 Y37 K11" cs="CMYK" tints="0.64,0.82,0.94,0.27"></color>
+<color name="C25 M33 Y37 K11" cs="CMYK" tints="0.64,0.83,0.94,0.27"></color>
+<color name="C25 M33 Y37 K11" cs="CMYK" tints="0.65,0.83,0.94,0.28"></color>
+<color name="C25 M33 Y36 K11" cs="CMYK" tints="0.65,0.84,0.93,0.29"></color>
+<color name="C25 M33 Y36 K12" cs="CMYK" tints="0.65,0.83,0.93,0.3"></color>
+<color name="C26 M33 Y36 K12" cs="CMYK" tints="0.66,0.83,0.93,0.31"></color>
+<color name="C26 M33 Y36 K12" cs="CMYK" tints="0.66,0.83,0.93,0.31"></color>
+<color name="C26 M33 Y36 K13" cs="CMYK" tints="0.67,0.84,0.93,0.32"></color>
+<color name="C22 M31 Y38 K6" cs="CMYK" tints="0.57,0.79,0.96,0.16"></color>
+<color name="C23 M31 Y38 K7" cs="CMYK" tints="0.58,0.8,0.96,0.18"></color>
+<color name="C24 M32 Y37 K8" cs="CMYK" tints="0.6,0.81,0.95,0.2"></color>
+<color name="C25 M33 Y37 K10" cs="CMYK" tints="0.64,0.83,0.94,0.25"></color>
+<color name="C25 M33 Y36 K11" cs="CMYK" tints="0.65,0.84,0.93,0.29"></color>
+<color name="C26 M33 Y36 K13" cs="CMYK" tints="0.67,0.83,0.92,0.33"></color>
+<color name="C27 M33 Y36 K14" cs="CMYK" tints="0.68,0.83,0.91,0.36"></color>
+<color name="C27 M33 Y35 K15" cs="CMYK" tints="0.7,0.83,0.9,0.38"></color>
+<color name="C19 M30 Y38 K3" cs="CMYK" tints="0.49,0.76,0.98,0.08"></color>
+<color name="C21 M31 Y38 K4" cs="CMYK" tints="0.53,0.78,0.98,0.11"></color>
+<color name="C22 M31 Y38 K6" cs="CMYK" tints="0.56,0.8,0.96,0.15"></color>
+<color name="C23 M32 Y38 K7" cs="CMYK" tints="0.59,0.81,0.96,0.19"></color>
+<color name="C27 M33 Y36 K14" cs="CMYK" tints="0.68,0.83,0.91,0.35"></color>
+<color name="C27 M32 Y35 K16" cs="CMYK" tints="0.7,0.82,0.89,0.4"></color>
+<color name="C29 M31 Y34 K18" cs="CMYK" tints="0.73,0.8,0.87,0.47"></color>
+<color name="C16 M27 Y38 K1" cs="CMYK" tints="0.4,0.7,0.98,0.03"></color>
+<color name="C18 M29 Y38 K2" cs="CMYK" tints="0.45,0.75,0.98,0.06"></color>
+<color name="C20 M31 Y38 K4" cs="CMYK" tints="0.51,0.78,0.98,0.09"></color>
+<color name="C25 M33 Y37 K11" cs="CMYK" tints="0.65,0.83,0.94,0.28"></color>
+<color name="C27 M32 Y36 K14" cs="CMYK" tints="0.69,0.82,0.91,0.36"></color>
+<color name="C29 M31 Y34 K17" cs="CMYK" tints="0.73,0.8,0.87,0.44"></color>
+<color name="C31 M30 Y31 K25" cs="CMYK" tints="0.78,0.77,0.8,0.65"></color>
+<color name="C12 M25 Y38 K0" cs="CMYK" tints="0.3,0.64,0.98,0.01"></color>
+<color name="C15 M27 Y39 K1" cs="CMYK" tints="0.38,0.69,0.99,0.02"></color>
+<color name="C25 M32 Y37 K11" cs="CMYK" tints="0.64,0.82,0.94,0.27"></color>
+<color name="C27 M32 Y35 K15" cs="CMYK" tints="0.7,0.82,0.9,0.38"></color>
+<color name="C29 M31 Y33 K22" cs="CMYK" tints="0.75,0.78,0.84,0.55"></color>
+<color name="C32 M29 Y30 K31" cs="CMYK" tints="0.82,0.74,0.76,0.8"></color>
+</page>
+</colors>
+<localization>
+<resource id="c5082fd5-d9aa-41c1-8c5d-2f0062313bab">
+<EN>Soil</EN>
+<BR>Solo</BR>
+<CS>土壤</CS>
+<CT>沙土</CT>
+<CZ>Pùda</CZ>
+<DE>Erde</DE>
+<ES>Tierra</ES>
+<FR>Terre</FR>
+<IT>Terreno</IT>
+<JP>土壌</JP>
+<KR>흙</KR>
+<MA>Talaj</MA>
+<NL>Bodem</NL>
+<PL>Gleba</PL>
+<RU>Почва</RU>
+<SU>Maa</SU>
+<SV>Jord</SV>
+<TR>Toprak</TR>
+</resource>
+</localization>
+</palette>
+

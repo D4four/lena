@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CorelDRAW 12 - Object Data -->
+
+<objectDataDoc>
+
+	<objectDataField name="Name" type="String" target="General" sortOrder="0"
+									 documentDefault="true" summarizeGroups="false" showTotals="false"
+									 showHeirarchy="true" columnWidth="0">
+		<value></value>
+		<constraint></constraint>
+		<formatting type="1">General</formatting>
+	</objectDataField>	
+	
+	<objectDataField name="Cost" type="Number" target="General" sortOrder="1"
+									 documentDefault="true" summarizeGroups="true" showTotals="true"
+									  showHeirarchy="false" columnWidth="0">
+		<value></value>
+		<constraint></constraint>
+		<formatting type="4">$"$"#,##0.00</formatting>
+	</objectDataField>	
+	
+	<objectDataField name="Comments" type="String" target="General" sortOrder="2"
+									 documentDefault="true" summarizeGroups="false" showTotals="false"
+									 showHeirarchy="false" columnWidth="0">
+		<value></value>
+		<constraint></constraint>
+		<formatting type="1">General</formatting>
+	</objectDataField>
+
+</objectDataDoc>

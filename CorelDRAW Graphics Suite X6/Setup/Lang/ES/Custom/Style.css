@@ -1,0 +1,459 @@
+﻿
+body
+{
+	background-color: #333435;
+	behavior: url(js\Refresh.htc);
+	
+}
+
+div
+{
+	cursor: auto;
+	font-family: 'Segoe UI' , Tahoma;
+	font-size: 13px;
+	color: #C0C0C0;
+}
+
+button
+{
+	cursor: auto;
+	width: 120px;
+	font-family: 'Segoe UI' , Tahoma;
+	font-size: 13px;
+	color: #c0c0c0;
+	border: solid 1px #505050; 
+	background: #505050;
+/*	behavior: url(..\..\_XX\Custom\js\Buttons.htc);*/
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#505050');
+}
+
+button:hover
+{
+    	color: #ffffff;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e2e2e', endColorstr='#4F4F4F');
+	
+}
+
+input
+{
+	vertical-align: middle;
+}
+
+
+/*	Close Button	************************************************
+*
+*	.CloseBtn		- normal close button
+*	.CloseBtnOver	- mouse over close button
+*
+*	-	Styles are swapped in CloseBtn.htc
+********************************************************************/
+.CloseBtn
+{
+	z-index: 1;
+	left: 770px;
+	width: 16px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 16px;
+	height: 16px;
+	behavior: url(..\..\_XX\Custom\js\CloseBtn.htc);
+	background-color: transparent;
+	border: none;
+}
+
+.CloseBtnOver
+{
+	z-index: 1;
+	left: 770px;
+	width: 16px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 16px;
+	height: 16px;
+	behavior: url(..\..\_XX\Custom\js\CloseBtn.htc);
+	border: none;
+}
+
+
+
+/*	Background	*****************************************************
+*
+*	#idBackGrd	-	Area behind main tab panel <Size of dialog>
+* 0, 128, 128
+********************************************************************/
+#idBackGrd
+{
+	width: 808px;
+	height: 618px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: 0;
+	background-image: url(Images/BackGrd1.png);
+}
+
+#idBackGrd2
+{
+	width: 808px;
+	height: 618px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: 0;
+	background-image: url(Images/BackGrd2.png);
+}
+#idBackGrdTabbed
+{
+	width: 808px;
+	height: 618px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: 0;
+	background-image: url(Images/BackGrd1.png);
+}
+
+
+
+/*	Tabs and Content Panel	****************************************
+*
+*	#idTab(n)	-	id for each tab, used to set background .gif
+*
+*	#idTabPanel	-	Conatiner that spcifies the dialog's content, including margins
+*	.TabPanel<Effect>	-	Transition effect avaliable for idTabPanel
+*						-	Include Tabs.js and call <body onload="OnTabPanelEffect()">
+*
+*	.TabsPosition	- Positions the tabs along the top of .TabPanel
+*
+*	.TabsPosition .TabSeparator		- Space between tabs
+*	.TabsPosition .TabOn			- Style for tab being ON
+*	.TabsPosition .TabOff			- Style for tab being OFF
+*	.TabsPosition a.TabOff			- OFF <Link>
+*	.TabsPosition a.TabOff:hover	- hover over effect
+*
+********************************************************************/
+
+/**
+*	\remarks	Pannel for tabbed pages
+*/
+#idPanelTabbed
+{
+	background-color: Transparent;
+	left: 27px;
+	width: 747px;
+	position: absolute;
+	top: 160px;
+	height: 385px;
+	/*border: dotted 1px green;*/
+}
+
+
+/**
+*	\remarks	Pannel for non-tabbed pages
+*/
+#idPanel
+{
+	background-color: Transparent;
+	left: 27px;
+	width: 747px;
+	position: absolute;
+	top: 150px;
+	height: 385px;
+	/*border: dotted 1px green;*/
+}
+
+#idTab1
+{
+	background-image: url(Images/TabGreen.gif);
+	background-repeat: repeat-x;
+	font-family: 'Segoe UI' , Tahoma;
+	display: none;
+}
+
+#idTab2
+{
+	background-image: url(Images/TabRed.gif);
+	background-repeat: repeat-x;
+	font-family: 'Segoe UI' , Tahoma;
+	display: none;
+}
+
+#idTab3
+{
+	background-image: url(Images/TabYellow.gif);
+	background-repeat: repeat-x;
+	font-family: 'Segoe UI' , Tahoma;
+	display: none;
+}
+
+#idTab4
+{
+	background-image: url(Images/TabBlue.gif);
+	background-repeat: repeat-x;
+	font-family: 'Segoe UI' , Tahoma;
+	display: none;
+}
+
+.TabsPosition
+{
+	left: 38px;
+	position: absolute;
+	top: 112px;
+	height: 35px;
+	width: 680px;
+	clear: none;
+	z-index: 2;
+	/*border: solid 1px green;*/
+}
+
+.TabsPosition .TabSeparator
+{
+	float: left;
+	width: 3px;
+	background-color: transparent;
+}
+
+.TabsPosition .TabOn
+{
+	height: 50px;
+	width: 120px;
+	float: left;
+	background-color: #e6e6e6 ; /*#e6e6e6*/
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	color: black; /*color of text */
+	FILTER: progid:DXImageTransform.Microsoft.Alpha( style=1,opacity=5,finishOpacity=90,startX=100,finishX=100,startY=90,finishY=40); 
+	border-left: darkgray 1px solid;
+	border-right: darkgray 2px solid;
+}
+
+.TabsPosition .TabOff
+{
+	height: 30px;
+	width: 120px;
+	background-color: #e6e6e6;
+	text-align: center;
+	padding-top: 10px;
+	float: left;
+	margin-top: 1px;
+	color: black;
+	border-left: lightgrey 1px solid;
+	border-right: darkgray 2px solid;
+	FILTER: progid:DXImageTransform.Microsoft.GradientWipe(GradientSize=0.25,wipestyle=1,motion=reverse)
+			progid:DXImageTransform.Microsoft.Alpha( style=1,opacity=60,finishOpacity=100,startX=100,finishX=100,startY=0,finishY=50);
+	font-weight: bold;
+	cursor: hand;
+}
+
+
+.TabsPosition a.TabOff
+{
+	text-decoration: none;
+	color: black;
+}
+
+.TabsPosition a.TabOff:hover
+{ 
+	text-decoration: none;
+	color: black;
+	border-left: darkgray 1px solid;
+	border-right: darkgray 2px solid;
+	FILTER: progid:DXImageTransform.Microsoft.Alpha( style=1,opacity=100,finishOpacity=100,startX=100,finishX=100,startY=100,finishY=100);
+	font-weight: bold;
+}
+
+
+/*	Positioning Containers	****************************************
+*
+*	.DlgWizardBtns	-	Positions the 'wizard' buttons at the bottom
+*						of the screen (left and width should match .TabPanel)
+*
+*	.DlgBlock		-	A block on the dialog
+*
+*	.DlgHeader		-	Header block (coloured background)
+*
+*	.DlgCheckboxLabel	-	Used for <Labels> on checkboxes
+*							It aligns the text with the label, instead
+*							of the checkbox (it looks better if the
+*							text wrapps)
+	left: 22px;
+	width: 747px;
+	position: absolute;
+	top: 149px;
+	height: 386px;
+********************************************************************/
+.DlgWizardBtns
+{
+	top: 565px;
+	z-index: 2;
+	position: absolute;
+	height: 35px;
+	left: 17px;
+	width: 771px;
+	z-index: 1;
+	/* border: black 1 dotted;*/
+
+}
+
+.DlgBlock
+{ 
+	width: 740px;
+	left: 0px;
+	position: absolute;
+	background-color: Transparent;
+	z-index: 1;
+	/*border: solid 1px gray;*/
+}
+
+.DlgHeader
+{
+	top: 10px;
+	width: 600px;
+	left: 0px;
+	position: absolute;
+	z-index: 1;
+	padding-left: 5px;
+	padding-bottom: 2px; /*padding-top: 3px;*/
+	border-left: #eeeeee 1px solid;
+	border-bottom: #b4b4b4 1px solid;
+}
+
+
+/*	.MenuBtn	*****************************************************
+*
+*	.Menu		-	Main selector (Includes text)
+*	.MenuOn		-	Main selector (Includes text -- for mouse over)
+*	.MenuBtn	-	Button used to activate menu when tabbing
+*	.MenuPopUp	-	'Fly-out' part of menu
+/********************************************************************/
+.Menu
+{
+	position: absolute;
+	width: 200px;
+	left: 250px;
+	vertical-align: middle;
+	background-image: url(Images\MenuOn.gif);
+	text-align: left;
+	border: silver 1px solid;
+	background-color: white;
+	padding-right: 2px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	color: Black;
+}
+
+.MenuOn
+{
+	position: absolute;
+	width: 200px;
+	left: 250px;
+	vertical-align: middle;
+	background-image: url(Images\MenuOn.gif);
+	text-align: left;
+	border: silver 1px solid;
+	background-color: #efefef;
+	padding-right: 2px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	color: Black;
+}
+
+.MenuBtn
+{
+	width: 0px;
+	height: 1px;
+	border: none;
+	background-color: white;
+}
+
+
+.MenuPopUp
+{
+	border: silver 1px solid;
+	position: absolute;
+	overflow: auto;
+	width: 200px;
+	left: 8px;	/* 0px in X4 */
+	top: 19px;	/* 17 in X4 */
+	background-color: white;
+	FILTER: progid:DXImageTransform.Microsoft.Shadow(direction=135,color=dimgray,strength=3);
+	display: none;
+	color: Black;
+}
+
+
+
+.Header
+{
+	font-family: 'Segoe UI' , Tahoma;
+    font-size: 14px;
+    color: White;
+}
+
+.Desc
+{
+	font-family: 'Segoe UI' , Tahoma;
+    font-size: 13px;
+    color: #C0C0C0;    
+}
+        
+.change button
+{
+    border: solid 1px black;             
+}
+
+/*	Application Launcher on Finish Page ****************************
+*
+*	-	Used for the launch Draw or Photo-PAINT links on the
+*		finish page
+*
+********************************************************************/
+.idLaunchDraw
+{
+	width: 288px;
+	height: 90px;
+	background-image: url(../../_XX/Custom/Images/DRL.png);
+	background-repeat: no-repeat;
+}
+
+a.idLaunchDraw:hover
+{
+	background-image: url(../../_XX/Custom/Images/DRLOver.png);
+	background-repeat: no-repeat;
+}
+
+.idLaunchPaint
+{
+	width: 288px;
+	height: 90px;
+	background-image: url(../../_XX/Custom/Images/PPL.png);
+	background-repeat: no-repeat;
+}
+
+a.idLaunchPaint:hover
+{
+	background-image: url(../../_XX/Custom/Images/PPLOver.png);
+	background-repeat: no-repeat;
+	
+}
+.idLaunchConnect
+{
+	width: 288px;
+	height: 90px;
+	background-image: url(../../_XX/Custom/Images/COL.png);
+	background-repeat: no-repeat;
+}
+
+a.idLaunchConnect:hover
+{
+	background-image: url(../../_XX/Custom/Images/COLOver.png);
+	background-repeat: no-repeat;
+	
+}

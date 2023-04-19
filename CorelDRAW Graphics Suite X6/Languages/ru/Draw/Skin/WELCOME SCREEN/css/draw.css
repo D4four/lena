@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* This is the CSS to enable/disable elements for Draw */
+
+#cover_wordmark {
+	background: left no-repeat url(../images/content/cover_headerDraw.png)
+}
+#bullet_newclipboard, #bullet_acquire, #bullet_whatsnew04, #bullet_whatsnew05, #bullet_whatsnew06 {
+	display: none;
+}
+div#body_right3_01 ul.thumbs li.thumb2 {
+	visibility: hidden;
+}
+div#body_right3_02 ul.thumbs li.thumb1,
+div#body_right3_02 ul.thumbs li.thumb2,
+div#body_right3_02 ul.thumbs li.thumb3,
+div#body_right3_02 ul.thumbs li.thumb4 {
+	visibility: hidden;
+}
+div#body_left2_05,
+div#body_left2_06 {
+	visibility: hidden;
+}
+div#body_left2_04 ul.actions li#whatsnew04b,
+div#body_left2_04 ul.actions li#whatsnew04c,
+div#body_left2_04 ul.actions li#whatsnew04d {
+	display: none;
+}
+div#body_right2_03 div.forward {
+	display: none;
+}
+div#body_right3_00 ul.simplelist li#video03,
+div#body_right3_00 ul.simplelist li#video04 {
+	display: none;
+}
+#bullet_coreltutor {
+	display: none;
+}

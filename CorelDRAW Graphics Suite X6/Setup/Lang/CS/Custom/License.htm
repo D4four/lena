@@ -1,0 +1,207 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+         ICA:DlgHW="610,800" 
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:DisableBackspace="1"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+          ICA:ProgressState="TBPF_NOPROGRESS"
+    />
+
+<script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+<script language="jscript" type="text/jscript">
+    
+    var Setup = window.external;
+    var g_iTimer = 0;
+    var g_iInterval = 500;
+      
+    function OnBodyLoad()
+    {
+        
+        var sLang, pEl, sEula;
+        
+        try
+        {
+            sLang       = Setup.GetProperty("SETUP_LANG").toUpperCase();
+            sEula       = sLang + ".htm";
+            
+            document.frames['idEula'].location.href = sEula;
+
+        } 
+        catch(err) { }
+        if (true == Setup.GetProperty("AcceptLicense"))
+        {
+			DisableAccept(false);
+        }
+        else
+        {
+			g_iTimer = window.setTimeout(enableAcceptBtn, g_iInterval);
+	   }
+
+    }
+    function enableAcceptBtn() {
+
+        var iFrame = document.getElementById('idEula');
+        
+        if (iFrame) {
+            var iFrameWnd = iFrame.contentWindow;
+            if (iFrameWnd) {
+                var iCloseEnough = 50;
+                
+                var scrollHeight = iFrameWnd.document.body.scrollHeight;
+                var offsetHeight = iFrameWnd.document.documentElement.offsetHeight;
+                var scrollTop = iFrameWnd.document.body.scrollTop;
+                var iBottom = scrollHeight - offsetHeight;
+                var iPos = scrollTop;
+                var iDiff = iBottom - iPos;
+
+                if (iDiff <= iCloseEnough) {
+                    DisableAccept(false);
+                    window.clearTimeout(g_iTimer);
+                    g_iTimer = 0;
+
+                    return;
+                }
+            }
+
+            g_iTimer = window.setTimeout(enableAcceptBtn, g_iInterval);
+        }
+
+    } //function enableAcceptBtn()
+    
+    function DisableAccept(bDisabled)
+    {
+        if (bDisabled) {
+            idAcceptDisabled.style.display = "block";
+            idAcceptEnabled.style.display = "none";
+            //idAcceptBtn.disabled = true;
+        }
+        else {
+            idAcceptDisabled.style.display = "none";
+            idAcceptEnabled.style.display = "block";
+            //idAcceptBtn.disabled = false;
+        }    
+    
+    }
+    function OnClickNext()
+    {
+	   g_Setup.ExecuteFN('JS_AcceptEULA');
+		
+        var location = "SN.htm";
+
+        if (g_bCoExists)
+        {
+            var sPage = "InstallChoose.htm";
+            location = sPage;
+        }
+        else if (g_bIsTrial && !g_bIsAdmin)
+        {
+
+            var sPage    = "SNT.htm";          
+            location = sPage;
+        }
+     
+        window.location = location;		
+		
+	}
+    
+    function HighLightClose()
+    {
+        idClose.className = "CloseBtnOver";
+        idClose.src = "../../_XX/Custom/Images/closeovr.gif"
+    } //function HighLightClose()
+    
+    function UnHighLightClose()
+    {
+        idClose.className = "CloseBtn";
+        idClose.src = "../../_XX/Custom/Images/close.gif"        
+    } //function UnHighLightClose()
+
+    
+</script>
+
+<style type="text/css">
+    
+    iframe
+    {
+        WIDTH: 99%; 
+        HEIGHT: 305px;
+        border: double 3px dimgray;
+        background: white;
+        /*display: none;*/
+    }
+    .disabledButton
+    {
+	    cursor: auto;
+	    width: 120px;
+	    height: 26px;
+	    font-family: 'Segoe UI' , Tahoma;
+	    font-size: 13px;
+
+        color: gray;
+        text-align: center;
+        background:transparent url(../../_XX/Custom/Images/button.png) no-repeat 0 0;
+        padding: 3px 0px 0px 0px;
+        float:left;
+    }
+    .enabledButton
+    {
+        color: white;  
+        font-size: 13px; 
+    }    
+</style>
+
+</head>
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img id="idClose" alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" onmouseover="HighLightClose();" onmouseout="UnHighLightClose();" ICA:Function="ICACancelSetup" />
+    
+    <!-- page content panel -->
+    <div id="idPanel">
+    
+        <div class="DlgHeader" >
+            您必须向下滚动页面并完整阅读本文档，然后才能接受最终用户许可协议。
+        </div>
+        
+        <div class="DlgBlock" style="top: 35px; width: 750px;">
+            <iframe id="idEula" frameborder="0" src="CS.htm" ></iframe>
+        </div>
+        
+        <div class="DlgBlock" style="top: 355px;">
+
+            <span class="disabledButton" id="idAcceptDisabled" title="您必须向下滚动页面并完整阅读本文档，然后才能接受最终用户许可协议(EULA)。">我接受</span>
+            <button type="button" class="enabledButton" style="display: none;" id="idAcceptEnabled" name="AcceptLicense" onclick="OnClickNext();" accesskey="A">我接受 (<u>A</u>)</button>
+        </div>
+    
+    </div> <!-- div id="idTabPanel" END -->
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                </td>
+                <td width="120px" align="left">
+                </td>
+                <td width="120px" align="right">
+                    <button type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" ICA:Function="ICACancelSetup" id="idCancel" accesskey="C"><Loc>取消(<u>C</u>)</Loc></button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

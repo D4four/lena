@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<palette resid="4785e286-0412-4173-8f21-c2559920d53c" guid="1c2b7122-f9a1-4ada-9127-43602363c6c5">
+<colors>
+<page>
+<color resid="fbeda834-e9e1-4099-a7c9-c0d8347bbb9f" cs="Gray" tints="0"></color>
+<color name="1:255  Gray" cs="Gray" tints="0.003922"></color>
+<color name="2:255  Gray" cs="Gray" tints="0.007843"></color>
+<color name="3:255  Gray" cs="Gray" tints="0.011765"></color>
+<color name="4:255  Gray" cs="Gray" tints="0.015686"></color>
+<color name="5:255  Gray" cs="Gray" tints="0.019608"></color>
+<color name="6:255  Gray" cs="Gray" tints="0.023529"></color>
+<color name="7:255  Gray" cs="Gray" tints="0.027451"></color>
+<color name="8:255  Gray" cs="Gray" tints="0.031373"></color>
+<color name="9:255  Gray" cs="Gray" tints="0.035294"></color>
+<color name="10:255  Gray" cs="Gray" tints="0.039216"></color>
+<color name="11:255  Gray" cs="Gray" tints="0.043137"></color>
+<color name="12:255  Gray" cs="Gray" tints="0.047059"></color>
+<color name="13:255  Gray" cs="Gray" tints="0.05098"></color>
+<color name="14:255  Gray" cs="Gray" tints="0.054902"></color>
+<color name="15:255  Gray" cs="Gray" tints="0.058824"></color>
+<color name="16:255  Gray" cs="Gray" tints="0.062745"></color>
+<color name="17:255  Gray" cs="Gray" tints="0.066667"></color>
+<color name="18:255  Gray" cs="Gray" tints="0.070588"></color>
+<color name="19:255  Gray" cs="Gray" tints="0.07451"></color>
+<color name="20:255  Gray" cs="Gray" tints="0.078431"></color>
+<color name="21:255  Gray" cs="Gray" tints="0.082353"></color>
+<color name="22:255  Gray" cs="Gray" tints="0.086275"></color>
+<color name="23:255  Gray" cs="Gray" tints="0.090196"></color>
+<color name="24:255  Gray" cs="Gray" tints="0.094118"></color>
+<color name="25:255  Gray" cs="Gray" tints="0.098039"></color>
+<color name="26:255  Gray" cs="Gray" tints="0.101961"></color>
+<color name="27:255  Gray" cs="Gray" tints="0.105882"></color>
+<color name="28:255  Gray" cs="Gray" tints="0.109804"></color>
+<color name="29:255  Gray" cs="Gray" tints="0.113725"></color>
+<color name="30:255  Gray" cs="Gray" tints="0.117647"></color>
+<color name="31:255  Gray" cs="Gray" tints="0.121569"></color>
+<color name="32:255  Gray" cs="Gray" tints="0.12549"></color>
+<color name="33:255  Gray" cs="Gray" tints="0.129412"></color>
+<color name="34:255  Gray" cs="Gray" tints="0.133333"></color>
+<color name="35:255  Gray" cs="Gray" tints="0.137255"></color>
+<color name="36:255  Gray" cs="Gray" tints="0.141176"></color>
+<color name="37:255  Gray" cs="Gray" tints="0.145098"></color>
+<color name="38:255  Gray" cs="Gray" tints="0.14902"></color>
+<color name="39:255  Gray" cs="Gray" tints="0.152941"></color>
+<color name="40:255  Gray" cs="Gray" tints="0.156863"></color>
+<color name="41:255  Gray" cs="Gray" tints="0.160784"></color>
+<color name="42:255  Gray" cs="Gray" tints="0.164706"></color>
+<color name="43:255  Gray" cs="Gray" tints="0.168627"></color>
+<color name="44:255  Gray" cs="Gray" tints="0.172549"></color>
+<color name="45:255  Gray" cs="Gray" tints="0.176471"></color>
+<color name="46:255  Gray" cs="Gray" tints="0.180392"></color>
+<color name="47:255  Gray" cs="Gray" tints="0.184314"></color>
+<color name="48:255  Gray" cs="Gray" tints="0.188235"></color>
+<color name="49:255  Gray" cs="Gray" tints="0.192157"></color>
+<color name="50:255  Gray" cs="Gray" tints="0.196078"></color>
+<color name="51:255  Gray" cs="Gray" tints="0.2"></color>
+<color name="52:255  Gray" cs="Gray" tints="0.203922"></color>
+<color name="53:255  Gray" cs="Gray" tints="0.207843"></color>
+<color name="54:255  Gray" cs="Gray" tints="0.211765"></color>
+<color name="55:255  Gray" cs="Gray" tints="0.215686"></color>
+<color name="56:255  Gray" cs="Gray" tints="0.219608"></color>
+<color name="57:255  Gray" cs="Gray" tints="0.223529"></color>
+<color name="58:255  Gray" cs="Gray" tints="0.227451"></color>
+<color name="59:255  Gray" cs="Gray" tints="0.231373"></color>
+<color name="60:255  Gray" cs="Gray" tints="0.235294"></color>
+<color name="61:255  Gray" cs="Gray" tints="0.239216"></color>
+<color name="62:255  Gray" cs="Gray" tints="0.243137"></color>
+<color name="63:255  Gray" cs="Gray" tints="0.247059"></color>
+<color name="64:255  Gray" cs="Gray" tints="0.25098"></color>
+<color name="65:255  Gray" cs="Gray" tints="0.254902"></color>
+<color name="66:255  Gray" cs="Gray" tints="0.258824"></color>
+<color name="67:255  Gray" cs="Gray" tints="0.262745"></color>
+<color name="68:255  Gray" cs="Gray" tints="0.266667"></color>
+<color name="69:255  Gray" cs="Gray" tints="0.270588"></color>
+<color name="70:255  Gray" cs="Gray" tints="0.27451"></color>
+<color name="71:255  Gray" cs="Gray" tints="0.278431"></color>
+<color name="72:255  Gray" cs="Gray" tints="0.282353"></color>
+<color name="73:255  Gray" cs="Gray" tints="0.286275"></color>
+<color name="74:255  Gray" cs="Gray" tints="0.290196"></color>
+<color name="75:255  Gray" cs="Gray" tints="0.294118"></color>
+<color name="76:255  Gray" cs="Gray" tints="0.298039"></color>
+<color name="77:255  Gray" cs="Gray" tints="0.301961"></color>
+<color name="78:255  Gray" cs="Gray" tints="0.305882"></color>
+<color name="79:255  Gray" cs="Gray" tints="0.309804"></color>
+<color name="80:255  Gray" cs="Gray" tints="0.313725"></color>
+<color name="81:255  Gray" cs="Gray" tints="0.317647"></color>
+<color name="82:255  Gray" cs="Gray" tints="0.321569"></color>
+<color name="83:255  Gray" cs="Gray" tints="0.32549"></color>
+<color name="84:255  Gray" cs="Gray" tints="0.329412"></color>
+<color name="85:255  Gray" cs="Gray" tints="0.333333"></color>
+<color name="86:255  Gray" cs="Gray" tints="0.337255"></color>
+<color name="87:255  Gray" cs="Gray" tints="0.341176"></color>
+<color name="88:255  Gray" cs="Gray" tints="0.345098"></color>
+<color name="89:255  Gray" cs="Gray" tints="0.34902"></color>
+<color name="90:255  Gray" cs="Gray" tints="0.352941"></color>
+<color name="91:255  Gray" cs="Gray" tints="0.356863"></color>
+<color name="92:255  Gray" cs="Gray" tints="0.360784"></color>
+<color name="93:255  Gray" cs="Gray" tints="0.364706"></color>
+<color name="94:255  Gray" cs="Gray" tints="0.368627"></color>
+<color name="95:255  Gray" cs="Gray" tints="0.372549"></color>
+<color name="96:255  Gray" cs="Gray" tints="0.376471"></color>
+<color name="97:255  Gray" cs="Gray" tints="0.380392"></color>
+<color name="98:255  Gray" cs="Gray" tints="0.384314"></color>
+<color name="99:255  Gray" cs="Gray" tints="0.388235"></color>
+<color name="100:255  Gray" cs="Gray" tints="0.392157"></color>
+<color name="101:255  Gray" cs="Gray" tints="0.396078"></color>
+<color name="102:255  Gray" cs="Gray" tints="0.4"></color>
+<color name="103:255  Gray" cs="Gray" tints="0.403922"></color>
+<color name="104:255  Gray" cs="Gray" tints="0.407843"></color>
+<color name="105:255  Gray" cs="Gray" tints="0.411765"></color>
+<color name="106:255  Gray" cs="Gray" tints="0.415686"></color>
+<color name="107:255  Gray" cs="Gray" tints="0.419608"></color>
+<color name="108:255  Gray" cs="Gray" tints="0.423529"></color>
+<color name="109:255  Gray" cs="Gray" tints="0.427451"></color>
+<color name="110:255  Gray" cs="Gray" tints="0.431373"></color>
+<color name="111:255  Gray" cs="Gray" tints="0.435294"></color>
+<color name="112:255  Gray" cs="Gray" tints="0.439216"></color>
+<color name="113:255  Gray" cs="Gray" tints="0.443137"></color>
+<color name="114:255  Gray" cs="Gray" tints="0.447059"></color>
+<color name="115:255  Gray" cs="Gray" tints="0.45098"></color>
+<color name="116:255  Gray" cs="Gray" tints="0.454902"></color>
+<color name="117:255  Gray" cs="Gray" tints="0.458824"></color>
+<color name="118:255  Gray" cs="Gray" tints="0.462745"></color>
+<color name="119:255  Gray" cs="Gray" tints="0.466667"></color>
+<color name="120:255  Gray" cs="Gray" tints="0.470588"></color>
+<color name="121:255  Gray" cs="Gray" tints="0.47451"></color>
+<color name="122:255  Gray" cs="Gray" tints="0.478431"></color>
+<color name="123:255  Gray" cs="Gray" tints="0.482353"></color>
+<color name="124:255  Gray" cs="Gray" tints="0.486275"></color>
+<color name="125:255  Gray" cs="Gray" tints="0.490196"></color>
+<color name="126:255  Gray" cs="Gray" tints="0.494118"></color>
+<color name="127:255  Gray" cs="Gray" tints="0.498039"></color>
+<color name="128:255  Gray" cs="Gray" tints="0.501961"></color>
+<color name="129:255  Gray" cs="Gray" tints="0.505882"></color>
+<color name="130:255  Gray" cs="Gray" tints="0.509804"></color>
+<color name="131:255  Gray" cs="Gray" tints="0.513725"></color>
+<color name="132:255  Gray" cs="Gray" tints="0.517647"></color>
+<color name="133:255  Gray" cs="Gray" tints="0.521569"></color>
+<color name="134:255  Gray" cs="Gray" tints="0.52549"></color>
+<color name="135:255  Gray" cs="Gray" tints="0.529412"></color>
+<color name="136:255  Gray" cs="Gray" tints="0.533333"></color>
+<color name="137:255  Gray" cs="Gray" tints="0.537255"></color>
+<color name="138:255  Gray" cs="Gray" tints="0.541176"></color>
+<color name="139:255  Gray" cs="Gray" tints="0.545098"></color>
+<color name="140:255  Gray" cs="Gray" tints="0.54902"></color>
+<color name="141:255  Gray" cs="Gray" tints="0.552941"></color>
+<color name="142:255  Gray" cs="Gray" tints="0.556863"></color>
+<color name="143:255  Gray" cs="Gray" tints="0.560784"></color>
+<color name="144:255  Gray" cs="Gray" tints="0.564706"></color>
+<color name="145:255  Gray" cs="Gray" tints="0.568627"></color>
+<color name="146:255  Gray" cs="Gray" tints="0.572549"></color>
+<color name="147:255  Gray" cs="Gray" tints="0.576471"></color>
+<color name="148:255  Gray" cs="Gray" tints="0.580392"></color>
+<color name="149:255  Gray" cs="Gray" tints="0.584314"></color>
+<color name="150:255  Gray" cs="Gray" tints="0.588235"></color>
+<color name="151:255  Gray" cs="Gray" tints="0.592157"></color>
+<color name="152:255  Gray" cs="Gray" tints="0.596078"></color>
+<color name="153:255  Gray" cs="Gray" tints="0.6"></color>
+<color name="154:255  Gray" cs="Gray" tints="0.603922"></color>
+<color name="155:255  Gray" cs="Gray" tints="0.607843"></color>
+<color name="156:255  Gray" cs="Gray" tints="0.611765"></color>
+<color name="157:255  Gray" cs="Gray" tints="0.615686"></color>
+<color name="158:255  Gray" cs="Gray" tints="0.619608"></color>
+<color name="159:255  Gray" cs="Gray" tints="0.623529"></color>
+<color name="160:255  Gray" cs="Gray" tints="0.627451"></color>
+<color name="161:255  Gray" cs="Gray" tints="0.631373"></color>
+<color name="162:255  Gray" cs="Gray" tints="0.635294"></color>
+<color name="163:255  Gray" cs="Gray" tints="0.639216"></color>
+<color name="164:255  Gray" cs="Gray" tints="0.643137"></color>
+<color name="165:255  Gray" cs="Gray" tints="0.647059"></color>
+<color name="166:255  Gray" cs="Gray" tints="0.65098"></color>
+<color name="167:255  Gray" cs="Gray" tints="0.654902"></color>
+<color name="168:255  Gray" cs="Gray" tints="0.658824"></color>
+<color name="169:255  Gray" cs="Gray" tints="0.662745"></color>
+<color name="170:255  Gray" cs="Gray" tints="0.666667"></color>
+<color name="171:255  Gray" cs="Gray" tints="0.670588"></color>
+<color name="172:255  Gray" cs="Gray" tints="0.67451"></color>
+<color name="173:255  Gray" cs="Gray" tints="0.678431"></color>
+<color name="174:255  Gray" cs="Gray" tints="0.682353"></color>
+<color name="175:255  Gray" cs="Gray" tints="0.686275"></color>
+<color name="176:255  Gray" cs="Gray" tints="0.690196"></color>
+<color name="177:255  Gray" cs="Gray" tints="0.694118"></color>
+<color name="178:255  Gray" cs="Gray" tints="0.698039"></color>
+<color name="179:255  Gray" cs="Gray" tints="0.701961"></color>
+<color name="180:255  Gray" cs="Gray" tints="0.705882"></color>
+<color name="181:255  Gray" cs="Gray" tints="0.709804"></color>
+<color name="182:255  Gray" cs="Gray" tints="0.713725"></color>
+<color name="183:255  Gray" cs="Gray" tints="0.717647"></color>
+<color name="184:255  Gray" cs="Gray" tints="0.721569"></color>
+<color name="185:255  Gray" cs="Gray" tints="0.72549"></color>
+<color name="186:255  Gray" cs="Gray" tints="0.729412"></color>
+<color name="187:255  Gray" cs="Gray" tints="0.733333"></color>
+<color name="188:255  Gray" cs="Gray" tints="0.737255"></color>
+<color name="189:255  Gray" cs="Gray" tints="0.741176"></color>
+<color name="190:255  Gray" cs="Gray" tints="0.745098"></color>
+<color name="191:255  Gray" cs="Gray" tints="0.74902"></color>
+<color name="192:255  Gray" cs="Gray" tints="0.752941"></color>
+<color name="193:255  Gray" cs="Gray" tints="0.756863"></color>
+<color name="194:255  Gray" cs="Gray" tints="0.760784"></color>
+<color name="195:255  Gray" cs="Gray" tints="0.764706"></color>
+<color name="196:255  Gray" cs="Gray" tints="0.768627"></color>
+<color name="197:255  Gray" cs="Gray" tints="0.772549"></color>
+<color name="198:255  Gray" cs="Gray" tints="0.776471"></color>
+<color name="199:255  Gray" cs="Gray" tints="0.780392"></color>
+<color name="200:255  Gray" cs="Gray" tints="0.784314"></color>
+<color name="201:255  Gray" cs="Gray" tints="0.788235"></color>
+<color name="202:255  Gray" cs="Gray" tints="0.792157"></color>
+<color name="203:255  Gray" cs="Gray" tints="0.796078"></color>
+<color name="204:255  Gray" cs="Gray" tints="0.8"></color>
+<color name="205:255  Gray" cs="Gray" tints="0.803922"></color>
+<color name="206:255  Gray" cs="Gray" tints="0.807843"></color>
+<color name="207:255  Gray" cs="Gray" tints="0.811765"></color>
+<color name="208:255  Gray" cs="Gray" tints="0.815686"></color>
+<color name="209:255  Gray" cs="Gray" tints="0.819608"></color>
+<color name="210:255  Gray" cs="Gray" tints="0.823529"></color>
+<color name="211:255  Gray" cs="Gray" tints="0.827451"></color>
+<color name="212:255  Gray" cs="Gray" tints="0.831373"></color>
+<color name="213:255  Gray" cs="Gray" tints="0.835294"></color>
+<color name="214:255  Gray" cs="Gray" tints="0.839216"></color>
+<color name="215:255  Gray" cs="Gray" tints="0.843137"></color>
+<color name="216:255  Gray" cs="Gray" tints="0.847059"></color>
+<color name="217:255  Gray" cs="Gray" tints="0.85098"></color>
+<color name="218:255  Gray" cs="Gray" tints="0.854902"></color>
+<color name="219:255  Gray" cs="Gray" tints="0.858824"></color>
+<color name="220:255  Gray" cs="Gray" tints="0.862745"></color>
+<color name="221:255  Gray" cs="Gray" tints="0.866667"></color>
+<color name="222:255  Gray" cs="Gray" tints="0.870588"></color>
+<color name="223:255  Gray" cs="Gray" tints="0.87451"></color>
+<color name="224:255  Gray" cs="Gray" tints="0.878431"></color>
+<color name="225:255  Gray" cs="Gray" tints="0.882353"></color>
+<color name="226:255  Gray" cs="Gray" tints="0.886275"></color>
+<color name="227:255  Gray" cs="Gray" tints="0.890196"></color>
+<color name="228:255  Gray" cs="Gray" tints="0.894118"></color>
+<color name="229:255  Gray" cs="Gray" tints="0.898039"></color>
+<color name="230:255  Gray" cs="Gray" tints="0.901961"></color>
+<color name="231:255  Gray" cs="Gray" tints="0.905882"></color>
+<color name="232:255  Gray" cs="Gray" tints="0.909804"></color>
+<color name="233:255  Gray" cs="Gray" tints="0.913725"></color>
+<color name="234:255  Gray" cs="Gray" tints="0.917647"></color>
+<color name="235:255  Gray" cs="Gray" tints="0.921569"></color>
+<color name="236:255  Gray" cs="Gray" tints="0.92549"></color>
+<color name="237:255  Gray" cs="Gray" tints="0.929412"></color>
+<color name="238:255  Gray" cs="Gray" tints="0.933333"></color>
+<color name="239:255  Gray" cs="Gray" tints="0.937255"></color>
+<color name="240:255  Gray" cs="Gray" tints="0.941176"></color>
+<color name="241:255  Gray" cs="Gray" tints="0.945098"></color>
+<color name="242:255  Gray" cs="Gray" tints="0.94902"></color>
+<color name="243:255  Gray" cs="Gray" tints="0.952941"></color>
+<color name="244:255  Gray" cs="Gray" tints="0.956863"></color>
+<color name="245:255  Gray" cs="Gray" tints="0.960784"></color>
+<color name="246:255  Gray" cs="Gray" tints="0.964706"></color>
+<color name="247:255  Gray" cs="Gray" tints="0.968627"></color>
+<color name="248:255  Gray" cs="Gray" tints="0.972549"></color>
+<color name="249:255  Gray" cs="Gray" tints="0.976471"></color>
+<color name="250:255  Gray" cs="Gray" tints="0.980392"></color>
+<color name="251:255  Gray" cs="Gray" tints="0.984314"></color>
+<color name="252:255  Gray" cs="Gray" tints="0.988235"></color>
+<color name="253:255  Gray" cs="Gray" tints="0.992157"></color>
+<color name="254:255  Gray" cs="Gray" tints="0.996078"></color>
+<color resid="3f6252bf-3135-47eb-b3ef-d9c08996af26" cs="Gray" tints="1"></color>
+</page>
+</colors>
+<localization>
+<resource id="3f6252bf-3135-47eb-b3ef-d9c08996af26">
+<EN>White</EN>
+<BR>Branco</BR>
+<CS>白</CS>
+<CT>白色</CT>
+<CZ>Bílá</CZ>
+<DE>Weiß</DE>
+<ES>Blanco</ES>
+<FR>Blanc</FR>
+<IT>Bianco</IT>
+<JP>ホワイト</JP>
+<KR>흰색</KR>
+<MA>Fehér</MA>
+<NL>Wit</NL>
+<PL>Biały</PL>
+<RU>Белый</RU>
+<SU>Valkoinen</SU>
+<SV>Vitt</SV>
+<TR>Beyaz</TR>
+</resource>
+<resource id="4785e286-0412-4173-8f21-c2559920d53c">
+<EN>256 shades of Gray</EN>
+<BR>256 tons de cinza</BR>
+<CS>256级灰度梯度</CS>
+<CT>256 灰階</CT>
+<CZ>256 odstínù šedé</CZ>
+<DE>256 Graustufen</DE>
+<ES>256 matices de gris</ES>
+<FR>256 nuances de gris</FR>
+<IT>256 tonalità di grigio</IT>
+<JP>グレー(256階調)</JP>
+<KR>256개의 회색 음영</KR>
+<MA>256 szürke árnyalat</MA>
+<NL>256 grijstinten</NL>
+<PL>256 odcieni szarości</PL>
+<RU>256 оттенков серого</RU>
+<SU>256 harmaasävyä</SU>
+<SV>256 färgtoner av grått</SV>
+<TR>256 Gri Tonu</TR>
+</resource>
+<resource id="fbeda834-e9e1-4099-a7c9-c0d8347bbb9f">
+<EN>Black</EN>
+<BR>Preto</BR>
+<CS>黑</CS>
+<CT>黑色</CT>
+<CZ>Černá</CZ>
+<DE>Schwarz</DE>
+<ES>Negro</ES>
+<FR>Noir</FR>
+<IT>Nero</IT>
+<JP>ブラック</JP>
+<KR>검정</KR>
+<MA>Fekete</MA>
+<NL>Zwart</NL>
+<PL>Czarny</PL>
+<RU>Черный</RU>
+<SU>Musta</SU>
+<SV>Svart</SV>
+<TR>Siyah</TR>
+</resource>
+</localization>
+</palette>
+

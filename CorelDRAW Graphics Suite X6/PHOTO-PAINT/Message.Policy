@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<policylist version="1">
+	<policy type="auto_update" value="opt-in" when="" />
+</policylist>

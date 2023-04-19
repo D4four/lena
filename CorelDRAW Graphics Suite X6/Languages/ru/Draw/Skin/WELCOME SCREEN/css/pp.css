@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* This is the CSS to enable/disable elements for PP */
+
+#cover_wordmark {
+	background: left no-repeat url(../images/content/cover_headerPP.png)
+}
+#videotuts03, #bullet_newtemplate {
+	display: none;
+}
+div#body_right3_01 ul.thumbs li.thumb2,
+div#body_right3_02 ul.thumbs li.thumb1,
+div#body_right3_02 ul.thumbs li.thumb2,
+div#body_right3_02 ul.thumbs li.thumb3,
+div#body_right3_02 ul.thumbs li.thumb4 {
+	visibility: hidden;
+}

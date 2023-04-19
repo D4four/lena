@@ -1,0 +1,6 @@
+
+&Corel Home Page	http://product.corel.com/query.htm?topic=home
+Corel &Partners		http://product.corel.com/query.htm?topic=partners
+Corel &Support	http://product.corel.com/query.htm?topic=support
+Corel Co&mmunity	http://product.corel.com/query.htm?topic=community	
+My&Fonts.com		http://product.corel.com/query.htm?topic=myfonts

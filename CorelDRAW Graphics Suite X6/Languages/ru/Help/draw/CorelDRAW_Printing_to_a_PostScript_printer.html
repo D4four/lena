@@ -1,0 +1,505 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="GENERATOR" content="Quadralay WebWorks Publisher Professional Edition 7.0.2.1206" />
+  <meta name="TEMPLATEBASE" content="Draw" />
+  <meta name="LASTUPDATED" content="02/17/12 09:09:23" />
+  <title>Печать на принтере PostScript</title>
+  <link rel="StyleSheet" href="document.css" type="text/css" />
+  <link rel="StyleSheet" href="Mycatalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+ </head>
+
+ <body onLoad="WWHUpdate();">
+<a name="wppagetop"></a>
+<p class="pBody"></p>
+<p class="pBody">Быстрые ссылки на процедуры, описанные на этой странице:</p>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Printing_to_a_PostScript_printer.html#wp209972">Выбор файла описани&#1103; принтера PostScript (PPD)</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Printing_to_a_PostScript_printer.html#wp209992">Печать в устройстве PostScript</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Printing_to_a_PostScript_printer.html#wp210033">Проверка фонтанных заливок на наличие полос</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Printing_to_a_PostScript_printer.html#wp1892199">Автоувеличение числа шагов фонтанной заливки</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Printing_to_a_PostScript_printer.html#wp1892205">Уменьшение сложности кривых</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Printing_to_a_PostScript_printer.html#wp210113">Настройка параметров предупреждений о цветоделени&#1103;х и шрифтах</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Printing_to_a_PostScript_printer.html#wp1892245">Отключение загрузки шрифтов Type 1</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Printing_to_a_PostScript_printer.html#wp210176">Выбор максимального количества растровых шрифтов</a></div></td></tr></table>
+
+<br/>
+<a name="wp209948"> </a><h3 class="pHeading2">
+Печать на принтере PostScript
+</h3>
+
+<a name="wp209950"> </a><p class="pBody">
+PostScript &#1103;вл&#1103;етс&#1103; &#1103;зыком описани&#1103; страниц, на котором написаны инструкции, отправл&#1103;емые в устройство PostScript. Все элементы в задании на печать (например, кривые и текст) представлены в виде кода PostScript, который используетс&#1103; печатающим устройством дл&#1103; печати документа. Дл&#1103; лучшей совместимости можно выбрать аппаратно-независимый вариант печати PostScript. Можно также выбрать файл описани&#1103; принтера PostScript (PPD). В файле описани&#1103; принтера PostScript содержитс&#1103; описание возможностей и функций принтера PostScript. Файл описани&#1103; можно получить у производител&#1103; принтера.
+</p>
+<a name="wp1892153"> </a><p class="pBody">
+Можно включить автоматическое увеличение шагов <a  href="CorelDRAW_Glossary.html#wp1667630">фонтанной заливки</a>, чтобы предотвратить возникновение полос. Увеличение количества шагов, используемых дл&#1103; <a  href="CorelDRAW_Glossary.html#wp1666410">отображени&#1103;</a> фонтанных заливок, повышает плавность теней во врем&#1103; печати. Чтобы убедитьс&#1103; в правильности печати задани&#1103;, можно также понизить сложность кривых путем увеличени&#1103; степени спр&#1103;млени&#1103;. Параметр степени спр&#1103;млени&#1103; определ&#1103;ет, насколько сглаженной будет крива&#1103; при печати.
+</p>
+<a name="wp209962"> </a><p class="pBody">
+Если в задании на печать содержитс&#1103; слишком много <a  href="CorelDRAW_Glossary.html#wp1667864">шрифтов</a>, оно может неправильно распечататьс&#1103;, а если в задании слишком много <a  href="CorelDRAW_Glossary.html#wp1666605">плашечных цветов</a>, размер файла увеличиваетс&#1103;. В параметрах PostScript можно задать отображение соответствующего предупреждени&#1103;, если в задании на печать число шрифтов или плашечных цветов превышает заданное количество.
+</p>
+<a name="wp1892172"> </a><p class="pBody">
+По умолчанию драйвер печатающего устройства загружает в него шрифты Type 1. Параметр загрузки шрифтов Type 1 можно отключить, чтобы шрифты распечатывались как графика (кривые или растровые изображени&#1103;). Это может быть полезным, когда в файле содержитс&#1103; много шрифтов, загрузка которых была бы неприемлема из-за большой продолжительности загрузки или размера файлов. Растровые версии шрифтов TrueType выгл&#1103;д&#1103;т лучше при малотиражной печати и печатаютс&#1103; быстрее обычных шрифтов. Можно выбрать максимальное количество растровых шрифтов, которые могут содержатьс&#1103; в задании на печать.
+</p>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp209972"> </a>Выбор файла описани&#1103; принтера PostScript (PPD)</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">Общие</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В области <b class="cBold">Вывод</b> выберите принтер PostScript в списке <b class="cBold">Принтер</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Установите флажок <b class="cBold">Использовать PPD</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите папку, в которой хранитс&#1103; файл.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+6.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Дважды щелкните им&#1103; файла.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp209992"> </a>Печать в устройстве PostScript</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">Общие</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В области <b class="cBold">Вывод</b> выберите принтер PostScript в списке <b class="cBold">Принтер</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">PostScript</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В списке в области <b class="cBold">Совместимость</b> выберите версию PostScript, 
+поддерживаемую принтером.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если необходимо сжать растровые изображени&#1103; при печати, выберите параметр в списке <b class="cBold">Тип сжати&#1103;</b> в области <b class="cBold">Растровые изображени&#1103;</b>. Если выбрано сжатие JPEG, можно переместить регул&#1103;тор <b class="cBold">Качество JPEG</b> дл&#1103; настройки сжати&#1103;.</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Параметры сжати&#1103; растровых изображений можно сохран&#1103;ть в 
+файлах интерпретированных PostScript (PS или PRN) при печати в 
+файл с помощью драйвера PostScript. Дл&#1103; получени&#1103; сведений о 
+печати в файл см. раздел <a  href="CorelDRAW_Preparing_a_print_job_for_a_print_service_provider.html#wp792910">Печать в файл.</a>
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp210033"> </a>Проверка фонтанных заливок на наличие полос</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">Подготовка</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если проблемы с заданием на печать отсутствуют, с именем вкладки отображаетс&#1103; сообщение <b class="cBold">Нет проблем</b>.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Настройка</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Дважды щелкните <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Установите флажок <b class="cBold">Фонтанна&#1103; заливка с полосами</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если требуетс&#1103; оптимизировать <a  href="CorelDRAW_Glossary.html#wp1667630">фонтанные заливки</a> дл&#1103; снижени&#1103; сложности, установите флажок <b class="cBold">Оптимизаци&#1103; фонтанной заливки</b> на вкладке <b class="cBold">PostScript</b>.</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Проверка <a  href="CorelDRAW_Glossary.html#wp1667630">фонтанных заливок</a> на наличие полос примен&#1103;етс&#1103; только 
+дл&#1103; линейных фонтанных заливок.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1892199"> </a>Автоувеличение числа шагов фонтанной заливки</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">PostScript</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Установите флажок <b class="cBold">Автоувеличение числа шагов фонтанной заливки</b>.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1892205"> </a>Уменьшение сложности кривых</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">PostScript</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Установите флажок <b class="cBold">Автоматическое спр&#1103;мление</b>.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Уменьшение сложности кривых позвол&#1103;ет устранить часть проблем 
+при печати кривых со слишком большим количеством узлов, но 
+врем&#1103; печати при этом увеличиваетс&#1103;.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp210113"> </a>Настройка параметров предупреждений о цветоделени&#1103;х и шрифтах</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Параметры</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В списке категорий дважды щелкните пункт <b class="cBold">Общие</b>, затем выберите 
+параметр <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Предупреждение о цветоделени&#1103;х плашечных цветов</b> 
+в списке <b class="cBold">Дополнительна&#1103; настройка</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В списке <b class="cBold">Настройка</b> выберите одно из следующих значений.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Если используютс&#1103; плашечные цвета
+</b></div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Если используетс&#1103; более одного плашечного цвета
+</b></div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Если используетс&#1103; более двух плашечных цветов
+</b></div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline"><td width="20"></td>
+<td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td width="5"></td>
+<td><div class="pListItemInTable"><b class="cBold">Если используетс&#1103; более трех плашечных цветов
+</b></div></td>
+</tr></table><table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Множество шрифтов (подготовка)</b> в списке 
+<b class="cBold">Дополнительна&#1103; настройка</b>, а затем выберите число в по&#1103;вившемс&#1103; 
+списке <b class="cBold">Настройка</b>.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1892245"> </a>Отключение загрузки шрифтов Type 1</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">PostScript</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Снимите флажок <b class="cBold">Загружать шрифты Type 1</b>.
+</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Шрифты Type 1 можно загружать только дл&#1103; устройств PostScript.
+</div></td>
+</tr></table>
+<table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">При установке флажка <b class="cBold">Загружать шрифты Type 1</b> флажок 
+<b class="cBold">Преобразовывать TrueType в Type 1</b> устанавливаетс&#1103; по 
+умолчанию. Это нужно дл&#1103; того, чтобы шрифты TrueType 
+преобразовывались в Type 1, обеспечива&#1103; возможность их загрузки. 
+Снимите флажок <b class="cBold">Преобразовывать TrueType в Type 1</b> только в том 
+случае, если устройству вывода не удаетс&#1103; интерпретировать 
+шрифты Type 1.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp210176"> </a>Выбор максимального количества растровых шрифтов</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите <b class="cBold">Инструменты</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Параметры</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В списке категорий дважды щелкните пункт <b class="cBold">Общие</b>, затем выберите 
+параметр <b class="cBold">Печать</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Ограничение шрифта растрового изображени&#1103; (PS)</b> в 
+списке <b class="cBold">Дополнительна&#1103; настройка</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите значение в списке <b class="cBold">Настройка</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если необходимо задать максимальный размер растрового шрифта, выберите его в списке <b class="cBold">Порог размера шрифта растрового изображени&#1103; (PS)</b>.</div></td>
+</tr></table>
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag());
+   // -->
+  </script>
+<p></p>
+<p class="pBody">Copyright 2012 Corel Corporation. Все права защищены.</p>
+    <iframe id="setcookiefrm" style="display:none;"></iframe>
+ </body>
+</html>

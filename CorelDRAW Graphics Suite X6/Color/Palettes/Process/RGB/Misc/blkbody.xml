@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<palette resid="3f2d9ee3-2d72-43c2-84ef-21f6df8346d9" guid="46128e86-d91b-4fdc-865f-54aae9dfabbe">
+<colors>
+<page>
+<color cs="RGB" tints="0,0,0"></color>
+<color cs="RGB" tints="0.011765,0,0"></color>
+<color cs="RGB" tints="0.023529,0,0"></color>
+<color cs="RGB" tints="0.035294,0,0"></color>
+<color cs="RGB" tints="0.047059,0,0"></color>
+<color cs="RGB" tints="0.058824,0,0"></color>
+<color cs="RGB" tints="0.070588,0,0"></color>
+<color cs="RGB" tints="0.082353,0,0"></color>
+<color cs="RGB" tints="0.094118,0,0"></color>
+<color cs="RGB" tints="0.105882,0,0"></color>
+<color cs="RGB" tints="0.117647,0,0"></color>
+<color cs="RGB" tints="0.129412,0,0"></color>
+<color cs="RGB" tints="0.141176,0,0"></color>
+<color cs="RGB" tints="0.152941,0,0"></color>
+<color cs="RGB" tints="0.164706,0,0"></color>
+<color cs="RGB" tints="0.176471,0,0"></color>
+<color cs="RGB" tints="0.188235,0,0"></color>
+<color cs="RGB" tints="0.2,0,0"></color>
+<color cs="RGB" tints="0.211765,0,0"></color>
+<color cs="RGB" tints="0.223529,0,0"></color>
+<color cs="RGB" tints="0.235294,0,0"></color>
+<color cs="RGB" tints="0.247059,0,0"></color>
+<color cs="RGB" tints="0.258824,0,0"></color>
+<color cs="RGB" tints="0.270588,0,0"></color>
+<color cs="RGB" tints="0.282353,0,0"></color>
+<color cs="RGB" tints="0.294118,0,0"></color>
+<color cs="RGB" tints="0.305882,0,0"></color>
+<color cs="RGB" tints="0.317647,0,0"></color>
+<color cs="RGB" tints="0.329412,0,0"></color>
+<color cs="RGB" tints="0.341176,0,0"></color>
+<color cs="RGB" tints="0.352941,0,0"></color>
+<color cs="RGB" tints="0.364706,0,0"></color>
+<color cs="RGB" tints="0.376471,0,0"></color>
+<color cs="RGB" tints="0.388235,0,0"></color>
+<color cs="RGB" tints="0.4,0,0"></color>
+<color cs="RGB" tints="0.411765,0,0"></color>
+<color cs="RGB" tints="0.423529,0,0"></color>
+<color cs="RGB" tints="0.435294,0,0"></color>
+<color cs="RGB" tints="0.447059,0,0"></color>
+<color cs="RGB" tints="0.458824,0,0"></color>
+<color cs="RGB" tints="0.470588,0,0"></color>
+<color cs="RGB" tints="0.482353,0,0"></color>
+<color cs="RGB" tints="0.494118,0,0"></color>
+<color cs="RGB" tints="0.505882,0,0"></color>
+<color cs="RGB" tints="0.517647,0,0"></color>
+<color cs="RGB" tints="0.529412,0,0"></color>
+<color cs="RGB" tints="0.541176,0,0"></color>
+<color cs="RGB" tints="0.552941,0,0"></color>
+<color cs="RGB" tints="0.564706,0,0"></color>
+<color cs="RGB" tints="0.576471,0,0"></color>
+<color cs="RGB" tints="0.588235,0,0"></color>
+<color cs="RGB" tints="0.6,0,0"></color>
+<color cs="RGB" tints="0.611765,0,0"></color>
+<color cs="RGB" tints="0.623529,0,0"></color>
+<color cs="RGB" tints="0.635294,0,0"></color>
+<color cs="RGB" tints="0.647059,0,0"></color>
+<color cs="RGB" tints="0.658824,0,0"></color>
+<color cs="RGB" tints="0.670588,0,0"></color>
+<color cs="RGB" tints="0.682353,0,0"></color>
+<color cs="RGB" tints="0.694118,0,0"></color>
+<color cs="RGB" tints="0.705882,0,0"></color>
+<color cs="RGB" tints="0.717647,0,0"></color>
+<color cs="RGB" tints="0.729412,0,0"></color>
+<color cs="RGB" tints="0.741176,0,0"></color>
+<color cs="RGB" tints="0.752941,0,0"></color>
+<color cs="RGB" tints="0.764706,0,0"></color>
+<color cs="RGB" tints="0.776471,0,0"></color>
+<color cs="RGB" tints="0.788235,0,0"></color>
+<color cs="RGB" tints="0.8,0,0"></color>
+<color cs="RGB" tints="0.811765,0,0"></color>
+<color cs="RGB" tints="0.823529,0,0"></color>
+<color cs="RGB" tints="0.835294,0,0"></color>
+<color cs="RGB" tints="0.847059,0,0"></color>
+<color cs="RGB" tints="0.858824,0,0"></color>
+<color cs="RGB" tints="0.870588,0,0"></color>
+<color cs="RGB" tints="0.882353,0,0"></color>
+<color cs="RGB" tints="0.894118,0,0"></color>
+<color cs="RGB" tints="0.905882,0,0"></color>
+<color cs="RGB" tints="0.917647,0,0"></color>
+<color cs="RGB" tints="0.929412,0,0"></color>
+<color cs="RGB" tints="0.941176,0,0"></color>
+<color cs="RGB" tints="0.952941,0,0"></color>
+<color cs="RGB" tints="0.964706,0,0"></color>
+<color cs="RGB" tints="0.976471,0,0"></color>
+<color cs="RGB" tints="0.988235,0,0"></color>
+<color cs="RGB" tints="1,0,0"></color>
+<color cs="RGB" tints="1,0.011765,0"></color>
+<color cs="RGB" tints="1,0.023529,0"></color>
+<color cs="RGB" tints="1,0.035294,0"></color>
+<color cs="RGB" tints="1,0.047059,0"></color>
+<color cs="RGB" tints="1,0.058824,0"></color>
+<color cs="RGB" tints="1,0.070588,0"></color>
+<color cs="RGB" tints="1,0.082353,0"></color>
+<color cs="RGB" tints="1,0.094118,0"></color>
+<color cs="RGB" tints="1,0.105882,0"></color>
+<color cs="RGB" tints="1,0.117647,0"></color>
+<color cs="RGB" tints="1,0.129412,0"></color>
+<color cs="RGB" tints="1,0.141176,0"></color>
+<color cs="RGB" tints="1,0.152941,0"></color>
+<color cs="RGB" tints="1,0.164706,0"></color>
+<color cs="RGB" tints="1,0.176471,0"></color>
+<color cs="RGB" tints="1,0.188235,0"></color>
+<color cs="RGB" tints="1,0.2,0"></color>
+<color cs="RGB" tints="1,0.211765,0"></color>
+<color cs="RGB" tints="1,0.223529,0"></color>
+<color cs="RGB" tints="1,0.235294,0"></color>
+<color cs="RGB" tints="1,0.247059,0"></color>
+<color cs="RGB" tints="1,0.258824,0"></color>
+<color cs="RGB" tints="1,0.270588,0"></color>
+<color cs="RGB" tints="1,0.282353,0"></color>
+<color cs="RGB" tints="1,0.294118,0"></color>
+<color cs="RGB" tints="1,0.305882,0"></color>
+<color cs="RGB" tints="1,0.317647,0"></color>
+<color cs="RGB" tints="1,0.329412,0"></color>
+<color cs="RGB" tints="1,0.341176,0"></color>
+<color cs="RGB" tints="1,0.352941,0"></color>
+<color cs="RGB" tints="1,0.364706,0"></color>
+<color cs="RGB" tints="1,0.376471,0"></color>
+<color cs="RGB" tints="1,0.388235,0"></color>
+<color cs="RGB" tints="1,0.4,0"></color>
+<color cs="RGB" tints="1,0.411765,0"></color>
+<color cs="RGB" tints="1,0.423529,0"></color>
+<color cs="RGB" tints="1,0.435294,0"></color>
+<color cs="RGB" tints="1,0.447059,0"></color>
+<color cs="RGB" tints="1,0.458824,0"></color>
+<color cs="RGB" tints="1,0.470588,0"></color>
+<color cs="RGB" tints="1,0.482353,0"></color>
+<color cs="RGB" tints="1,0.494118,0"></color>
+<color cs="RGB" tints="1,0.505882,0"></color>
+<color cs="RGB" tints="1,0.517647,0"></color>
+<color cs="RGB" tints="1,0.529412,0"></color>
+<color cs="RGB" tints="1,0.541176,0"></color>
+<color cs="RGB" tints="1,0.552941,0"></color>
+<color cs="RGB" tints="1,0.564706,0"></color>
+<color cs="RGB" tints="1,0.576471,0"></color>
+<color cs="RGB" tints="1,0.588235,0"></color>
+<color cs="RGB" tints="1,0.6,0"></color>
+<color cs="RGB" tints="1,0.611765,0"></color>
+<color cs="RGB" tints="1,0.623529,0"></color>
+<color cs="RGB" tints="1,0.635294,0"></color>
+<color cs="RGB" tints="1,0.647059,0"></color>
+<color cs="RGB" tints="1,0.658824,0"></color>
+<color cs="RGB" tints="1,0.670588,0"></color>
+<color cs="RGB" tints="1,0.682353,0"></color>
+<color cs="RGB" tints="1,0.694118,0"></color>
+<color cs="RGB" tints="1,0.705882,0"></color>
+<color cs="RGB" tints="1,0.717647,0"></color>
+<color cs="RGB" tints="1,0.729412,0"></color>
+<color cs="RGB" tints="1,0.741176,0"></color>
+<color cs="RGB" tints="1,0.752941,0"></color>
+<color cs="RGB" tints="1,0.764706,0"></color>
+<color cs="RGB" tints="1,0.776471,0"></color>
+<color cs="RGB" tints="1,0.788235,0"></color>
+<color cs="RGB" tints="1,0.8,0"></color>
+<color cs="RGB" tints="1,0.811765,0"></color>
+<color cs="RGB" tints="1,0.823529,0"></color>
+<color cs="RGB" tints="1,0.835294,0"></color>
+<color cs="RGB" tints="1,0.847059,0"></color>
+<color cs="RGB" tints="1,0.858824,0"></color>
+<color cs="RGB" tints="1,0.870588,0"></color>
+<color cs="RGB" tints="1,0.882353,0"></color>
+<color cs="RGB" tints="1,0.894118,0"></color>
+<color cs="RGB" tints="1,0.905882,0"></color>
+<color cs="RGB" tints="1,0.917647,0"></color>
+<color cs="RGB" tints="1,0.929412,0"></color>
+<color cs="RGB" tints="1,0.941176,0"></color>
+<color cs="RGB" tints="1,0.952941,0"></color>
+<color cs="RGB" tints="1,0.964706,0"></color>
+<color cs="RGB" tints="1,0.976471,0"></color>
+<color cs="RGB" tints="1,0.988235,0"></color>
+<color cs="RGB" tints="1,1,0"></color>
+<color cs="RGB" tints="1,1,0.011765"></color>
+<color cs="RGB" tints="1,1,0.023529"></color>
+<color cs="RGB" tints="1,1,0.035294"></color>
+<color cs="RGB" tints="1,1,0.047059"></color>
+<color cs="RGB" tints="1,1,0.058824"></color>
+<color cs="RGB" tints="1,1,0.070588"></color>
+<color cs="RGB" tints="1,1,0.082353"></color>
+<color cs="RGB" tints="1,1,0.094118"></color>
+<color cs="RGB" tints="1,1,0.105882"></color>
+<color cs="RGB" tints="1,1,0.117647"></color>
+<color cs="RGB" tints="1,1,0.129412"></color>
+<color cs="RGB" tints="1,1,0.141176"></color>
+<color cs="RGB" tints="1,1,0.152941"></color>
+<color cs="RGB" tints="1,1,0.164706"></color>
+<color cs="RGB" tints="1,1,0.176471"></color>
+<color cs="RGB" tints="1,1,0.188235"></color>
+<color cs="RGB" tints="1,1,0.2"></color>
+<color cs="RGB" tints="1,1,0.211765"></color>
+<color cs="RGB" tints="1,1,0.223529"></color>
+<color cs="RGB" tints="1,1,0.235294"></color>
+<color cs="RGB" tints="1,1,0.247059"></color>
+<color cs="RGB" tints="1,1,0.258824"></color>
+<color cs="RGB" tints="1,1,0.270588"></color>
+<color cs="RGB" tints="1,1,0.282353"></color>
+<color cs="RGB" tints="1,1,0.294118"></color>
+<color cs="RGB" tints="1,1,0.305882"></color>
+<color cs="RGB" tints="1,1,0.317647"></color>
+<color cs="RGB" tints="1,1,0.329412"></color>
+<color cs="RGB" tints="1,1,0.341176"></color>
+<color cs="RGB" tints="1,1,0.352941"></color>
+<color cs="RGB" tints="1,1,0.364706"></color>
+<color cs="RGB" tints="1,1,0.376471"></color>
+<color cs="RGB" tints="1,1,0.388235"></color>
+<color cs="RGB" tints="1,1,0.4"></color>
+<color cs="RGB" tints="1,1,0.411765"></color>
+<color cs="RGB" tints="1,1,0.423529"></color>
+<color cs="RGB" tints="1,1,0.435294"></color>
+<color cs="RGB" tints="1,1,0.447059"></color>
+<color cs="RGB" tints="1,1,0.458824"></color>
+<color cs="RGB" tints="1,1,0.470588"></color>
+<color cs="RGB" tints="1,1,0.482353"></color>
+<color cs="RGB" tints="1,1,0.494118"></color>
+<color cs="RGB" tints="1,1,0.505882"></color>
+<color cs="RGB" tints="1,1,0.517647"></color>
+<color cs="RGB" tints="1,1,0.529412"></color>
+<color cs="RGB" tints="1,1,0.541176"></color>
+<color cs="RGB" tints="1,1,0.552941"></color>
+<color cs="RGB" tints="1,1,0.564706"></color>
+<color cs="RGB" tints="1,1,0.576471"></color>
+<color cs="RGB" tints="1,1,0.588235"></color>
+<color cs="RGB" tints="1,1,0.6"></color>
+<color cs="RGB" tints="1,1,0.611765"></color>
+<color cs="RGB" tints="1,1,0.623529"></color>
+<color cs="RGB" tints="1,1,0.635294"></color>
+<color cs="RGB" tints="1,1,0.647059"></color>
+<color cs="RGB" tints="1,1,0.658824"></color>
+<color cs="RGB" tints="1,1,0.670588"></color>
+<color cs="RGB" tints="1,1,0.682353"></color>
+<color cs="RGB" tints="1,1,0.694118"></color>
+<color cs="RGB" tints="1,1,0.705882"></color>
+<color cs="RGB" tints="1,1,0.717647"></color>
+<color cs="RGB" tints="1,1,0.729412"></color>
+<color cs="RGB" tints="1,1,0.741176"></color>
+<color cs="RGB" tints="1,1,0.752941"></color>
+<color cs="RGB" tints="1,1,0.764706"></color>
+<color cs="RGB" tints="1,1,0.776471"></color>
+<color cs="RGB" tints="1,1,0.788235"></color>
+<color cs="RGB" tints="1,1,0.8"></color>
+<color cs="RGB" tints="1,1,0.811765"></color>
+<color cs="RGB" tints="1,1,0.823529"></color>
+<color cs="RGB" tints="1,1,0.835294"></color>
+<color cs="RGB" tints="1,1,0.847059"></color>
+<color cs="RGB" tints="1,1,0.858824"></color>
+<color cs="RGB" tints="1,1,0.870588"></color>
+<color cs="RGB" tints="1,1,0.882353"></color>
+<color cs="RGB" tints="1,1,0.894118"></color>
+<color cs="RGB" tints="1,1,0.905882"></color>
+<color cs="RGB" tints="1,1,0.917647"></color>
+<color cs="RGB" tints="1,1,0.929412"></color>
+<color cs="RGB" tints="1,1,0.941176"></color>
+<color cs="RGB" tints="1,1,0.952941"></color>
+<color cs="RGB" tints="1,1,0.964706"></color>
+<color cs="RGB" tints="1,1,0.976471"></color>
+<color cs="RGB" tints="1,1,0.988235"></color>
+<color cs="RGB" tints="1,1,1"></color>
+</page>
+</colors>
+<localization>
+<resource id="3f2d9ee3-2d72-43c2-84ef-21f6df8346d9">
+<EN>Black Body</EN>
+<BR>Corpo Preto</BR>
+<CS>黑体</CS>
+<CZ>Cerné jádro</CZ>
+<DE>Scwarzer Körper</DE>
+<ES>Cuerpo negro</ES>
+<FR>Corps noir</FR>
+<IT>Corpo nero</IT>
+<JP>黒のボディ</JP>
+<MA>Feketetest</MA>
+<NL>Zwart lichaam</NL>
+<PL>Ciało czarne</PL>
+<RU>Черное тело</RU>
+<SU>Musta kappale</SU>
+<SV>Svart</SV>
+<TR>Siyah Gövde</TR>
+</resource>
+</localization>
+</palette>
+

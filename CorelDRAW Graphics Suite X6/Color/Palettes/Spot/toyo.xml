@@ -1,0 +1,4211 @@
+<?xml version="1.0"?>
+<palette name="TOYO COLOR FINDER" fixedID="10" guid="e3dd9dda-1adf-4581-ab83-c3ee90f17177" prefix="TOYO " locked="true">
+<colorspaces>
+<cs name="TOYO 0001pc*" fixedID="1" version="1300">
+<color cs="CMYK" tints="0.33,0.9,0.03,0"></color>
+</cs>
+<cs name="TOYO 0002pc*" fixedID="2" version="1300">
+<color cs="CMYK" tints="0.2,1,0,0"></color>
+</cs>
+<cs name="TOYO 0003pc*" fixedID="3" version="1300">
+<color cs="CMYK" tints="0.08,1,0,0"></color>
+</cs>
+<cs name="TOYO 0004pc" fixedID="4" version="1300">
+<color cs="CMYK" tints="0.35,0.84,0.06,0"></color>
+</cs>
+<cs name="TOYO 0005pc*" fixedID="5" version="1300">
+<color cs="CMYK" tints="0.3,0.7,0.15,0"></color>
+</cs>
+<cs name="TOYO 0006pc*" fixedID="6" version="1300">
+<color cs="CMYK" tints="0.05,0.75,0,0"></color>
+</cs>
+<cs name="TOYO 0007pc*" fixedID="7" version="1300">
+<color cs="CMYK" tints="0.17,1,0.05,0.02"></color>
+</cs>
+<cs name="TOYO 0008pc*" fixedID="8" version="1300">
+<color cs="CMYK" tints="0.15,1,0.02,0"></color>
+</cs>
+<cs name="TOYO 0009pc*" fixedID="9" version="1300">
+<color cs="CMYK" tints="0.13,0.9,0.08,0"></color>
+</cs>
+<cs name="TOYO 0010pc*" fixedID="10" version="1300">
+<color cs="CMYK" tints="0,0.85,0.02,0"></color>
+</cs>
+<cs name="TOYO 0011pc*" fixedID="11" version="1300">
+<color cs="CMYK" tints="0.02,0.95,0.03,0"></color>
+</cs>
+<cs name="TOYO 0012pc*" fixedID="12" version="1300">
+<color cs="CMYK" tints="0,0.7,0,0"></color>
+</cs>
+<cs name="TOYO 0013pc*" fixedID="13" version="1300">
+<color cs="CMYK" tints="0,0.6,0.01,0"></color>
+</cs>
+<cs name="TOYO 0014pc*" fixedID="14" version="1300">
+<color cs="CMYK" tints="0.02,0.51,0.02,0"></color>
+</cs>
+<cs name="TOYO 0015pc*" fixedID="15" version="1300">
+<color cs="CMYK" tints="0.03,0.45,0,0"></color>
+</cs>
+<cs name="TOYO 0016pc*" fixedID="16" version="1300">
+<color cs="CMYK" tints="0,0.42,0,0"></color>
+</cs>
+<cs name="TOYO 0017pc*" fixedID="17" version="1300">
+<color cs="CMYK" tints="0,0.27,0,0"></color>
+</cs>
+<cs name="TOYO 0018pc*" fixedID="18" version="1300">
+<color cs="CMYK" tints="0,0.41,0,0"></color>
+</cs>
+<cs name="TOYO 0019pc*" fixedID="19" version="1300">
+<color cs="CMYK" tints="0,0.68,0,0"></color>
+</cs>
+<cs name="TOYO 0020pc" fixedID="20" version="1300">
+<color cs="CMYK" tints="0.25,0.96,0.07,0"></color>
+</cs>
+<cs name="TOYO 0021pc" fixedID="21" version="1300">
+<color cs="CMYK" tints="0.43,0.96,0.19,0"></color>
+</cs>
+<cs name="TOYO 0022pc*" fixedID="22" version="1300">
+<color cs="CMYK" tints="0.32,0.95,0.29,0.09"></color>
+</cs>
+<cs name="TOYO 0023pc*" fixedID="23" version="1300">
+<color cs="CMYK" tints="0.03,1,0.03,0.05"></color>
+</cs>
+<cs name="TOYO 0024pc*" fixedID="24" version="1300">
+<color cs="CMYK" tints="0.02,0.95,0.03,0.02"></color>
+</cs>
+<cs name="TOYO 0025pc*" fixedID="25" version="1300">
+<color cs="CMYK" tints="0.05,1,0.18,0.02"></color>
+</cs>
+<cs name="TOYO 0026pc*" fixedID="26" version="1300">
+<color cs="CMYK" tints="0.05,1,0.18,0.04"></color>
+</cs>
+<cs name="TOYO 0027pc*" fixedID="27" version="1300">
+<color cs="CMYK" tints="0.22,1,0.35,0.02"></color>
+</cs>
+<cs name="TOYO 0028pc*" fixedID="28" version="1300">
+<color cs="CMYK" tints="0.3,0.98,0.5,0.05"></color>
+</cs>
+<cs name="TOYO 0029pc" fixedID="29" version="1300">
+<color cs="CMYK" tints="0.1,0.95,0.15,0"></color>
+</cs>
+<cs name="TOYO 0030pc*" fixedID="30" version="1300">
+<color cs="CMYK" tints="0,1,0.03,0"></color>
+</cs>
+<cs name="TOYO 0031pc*" fixedID="31" version="1300">
+<color cs="CMYK" tints="0,0.85,0,0"></color>
+</cs>
+<cs name="TOYO 0032pc" fixedID="32" version="1300">
+<color cs="CMYK" tints="0.17,0.84,0.17,0"></color>
+</cs>
+<cs name="TOYO 0033pc" fixedID="33" version="1300">
+<color cs="CMYK" tints="0.42,0.93,0.49,0"></color>
+</cs>
+<cs name="TOYO 0034pc*" fixedID="34" version="1300">
+<color cs="CMYK" tints="0.02,1,0.28,0"></color>
+</cs>
+<cs name="TOYO 0035pc*" fixedID="35" version="1300">
+<color cs="CMYK" tints="0.1,1,0.5,0"></color>
+</cs>
+<cs name="TOYO 0036pc*" fixedID="36" version="1300">
+<color cs="CMYK" tints="0,1,0.38,0"></color>
+</cs>
+<cs name="TOYO 0037pc" fixedID="37" version="1300">
+<color cs="CMYK" tints="0.35,0.85,0.3,0"></color>
+</cs>
+<cs name="TOYO 0038pc*" fixedID="38" version="1300">
+<color cs="CMYK" tints="0,0.88,0.1,0"></color>
+</cs>
+<cs name="TOYO 0039pc*" fixedID="39" version="1300">
+<color cs="CMYK" tints="0,0.93,0.11,0"></color>
+</cs>
+<cs name="TOYO 0040pc*" fixedID="40" version="1300">
+<color cs="CMYK" tints="0,0.65,0.06,0"></color>
+</cs>
+<cs name="TOYO 0041pc*" fixedID="41" version="1300">
+<color cs="CMYK" tints="0,0.7,0.15,0"></color>
+</cs>
+<cs name="TOYO 0042pc" fixedID="42" version="1300">
+<color cs="CMYK" tints="0,0.73,0.04,0"></color>
+</cs>
+<cs name="TOYO 0043pc*" fixedID="43" version="1300">
+<color cs="CMYK" tints="0,0.75,0.28,0"></color>
+</cs>
+<cs name="TOYO 0044pc*" fixedID="44" version="1300">
+<color cs="CMYK" tints="0,0.9,0.45,0"></color>
+</cs>
+<cs name="TOYO 0045pc" fixedID="45" version="1300">
+<color cs="CMYK" tints="0.04,1,0.53,0"></color>
+</cs>
+<cs name="TOYO 0046pc*" fixedID="46" version="1300">
+<color cs="CMYK" tints="0,1,0.55,0"></color>
+</cs>
+<cs name="TOYO 0047pc" fixedID="47" version="1300">
+<color cs="CMYK" tints="0,0.6,0.1,0"></color>
+</cs>
+<cs name="TOYO 0048pc*" fixedID="48" version="1300">
+<color cs="CMYK" tints="0,0.4,0,0"></color>
+</cs>
+<cs name="TOYO 0049pc*" fixedID="49" version="1300">
+<color cs="CMYK" tints="0,0.37,0.12,0"></color>
+</cs>
+<cs name="TOYO 0050pc*" fixedID="50" version="1300">
+<color cs="CMYK" tints="0,0.32,0.07,0"></color>
+</cs>
+<cs name="TOYO 0051pc*" fixedID="51" version="1300">
+<color cs="CMYK" tints="0,0.38,0.15,0"></color>
+</cs>
+<cs name="TOYO 0052pc" fixedID="52" version="1300">
+<color cs="CMYK" tints="0.02,0.24,0.05,0"></color>
+</cs>
+<cs name="TOYO 0053pc*" fixedID="53" version="1300">
+<color cs="CMYK" tints="0.01,0.3,0.07,0"></color>
+</cs>
+<cs name="TOYO 0054pc*" fixedID="54" version="1300">
+<color cs="CMYK" tints="0.01,0.28,0.1,0"></color>
+</cs>
+<cs name="TOYO 0055pc*" fixedID="55" version="1300">
+<color cs="CMYK" tints="0,0.3,0.15,0"></color>
+</cs>
+<cs name="TOYO 0056pc*" fixedID="56" version="1300">
+<color cs="CMYK" tints="0,0.45,0.26,0"></color>
+</cs>
+<cs name="TOYO 0057pc*" fixedID="57" version="1300">
+<color cs="CMYK" tints="0,0.5,0.2,0"></color>
+</cs>
+<cs name="TOYO 0058pc" fixedID="58" version="1300">
+<color cs="CMYK" tints="0.05,0.7,0.1,0"></color>
+</cs>
+<cs name="TOYO 0059pc*" fixedID="59" version="1300">
+<color cs="CMYK" tints="0,0.55,0.27,0"></color>
+</cs>
+<cs name="TOYO 0060pc*" fixedID="60" version="1300">
+<color cs="CMYK" tints="0,0.6,0.27,0"></color>
+</cs>
+<cs name="TOYO 0061pc" fixedID="61" version="1300">
+<color cs="CMYK" tints="0,0.95,0.35,0"></color>
+</cs>
+<cs name="TOYO 0062pc" fixedID="62" version="1300">
+<color cs="CMYK" tints="0.05,0.85,0.25,0"></color>
+</cs>
+<cs name="TOYO 0063pc*" fixedID="63" version="1300">
+<color cs="CMYK" tints="0,1,0.6,0"></color>
+</cs>
+<cs name="TOYO 0064pc*" fixedID="64" version="1300">
+<color cs="CMYK" tints="0,1,0.65,0"></color>
+</cs>
+<cs name="TOYO 0065pc*" fixedID="65" version="1300">
+<color cs="CMYK" tints="0.05,0.95,0.58,0"></color>
+</cs>
+<cs name="TOYO 0066pc" fixedID="66" version="1300">
+<color cs="CMYK" tints="0.1,0.95,0.5,0"></color>
+</cs>
+<cs name="TOYO 0067pc" fixedID="67" version="1300">
+<color cs="CMYK" tints="0.15,1,0.6,0"></color>
+</cs>
+<cs name="TOYO 0068pc" fixedID="68" version="1300">
+<color cs="CMYK" tints="0.17,0.91,0.6,0"></color>
+</cs>
+<cs name="TOYO 0069pc*" fixedID="69" version="1300">
+<color cs="CMYK" tints="0,1,0.7,0.03"></color>
+</cs>
+<cs name="TOYO 0070pc*" fixedID="70" version="1300">
+<color cs="CMYK" tints="0,1,0.75,0"></color>
+</cs>
+<cs name="TOYO 0071pc*" fixedID="71" version="1300">
+<color cs="CMYK" tints="0,1,0.71,0"></color>
+</cs>
+<cs name="TOYO 0072pc*" fixedID="72" version="1300">
+<color cs="CMYK" tints="0,1,0.67,0"></color>
+</cs>
+<cs name="TOYO 0073pc*" fixedID="73" version="1300">
+<color cs="CMYK" tints="0,0.95,0.74,0"></color>
+</cs>
+<cs name="TOYO 0074pc*" fixedID="74" version="1300">
+<color cs="CMYK" tints="0,0.58,0.35,0"></color>
+</cs>
+<cs name="TOYO 0075pc*" fixedID="75" version="1300">
+<color cs="CMYK" tints="0,0.9,0.62,0"></color>
+</cs>
+<cs name="TOYO 0076pc*" fixedID="76" version="1300">
+<color cs="CMYK" tints="0,0.9,0.65,0"></color>
+</cs>
+<cs name="TOYO 0077pc*" fixedID="77" version="1300">
+<color cs="CMYK" tints="0,0.85,0.62,0"></color>
+</cs>
+<cs name="TOYO 0078pc*" fixedID="78" version="1300">
+<color cs="CMYK" tints="0,0.8,0.62,0"></color>
+</cs>
+<cs name="TOYO 0079pc*" fixedID="79" version="1300">
+<color cs="CMYK" tints="0,0.7,0.5,0"></color>
+</cs>
+<cs name="TOYO 0080pc*" fixedID="80" version="1300">
+<color cs="CMYK" tints="0,0.7,0.53,0"></color>
+</cs>
+<cs name="TOYO 0081pc*" fixedID="81" version="1300">
+<color cs="CMYK" tints="0,0.6,0.51,0"></color>
+</cs>
+<cs name="TOYO 0082pc*" fixedID="82" version="1300">
+<color cs="CMYK" tints="0,0.55,0.38,0"></color>
+</cs>
+<cs name="TOYO 0083pc*" fixedID="83" version="1300">
+<color cs="CMYK" tints="0,0.53,0.35,0"></color>
+</cs>
+<cs name="TOYO 0084pc*" fixedID="84" version="1300">
+<color cs="CMYK" tints="0,0.4,0.3,0"></color>
+</cs>
+<cs name="TOYO 0085pc*" fixedID="85" version="1300">
+<color cs="CMYK" tints="0,0.77,0.67,0"></color>
+</cs>
+<cs name="TOYO 0086pc*" fixedID="86" version="1300">
+<color cs="CMYK" tints="0,0.8,0.67,0"></color>
+</cs>
+<cs name="TOYO 0087pc*" fixedID="87" version="1300">
+<color cs="CMYK" tints="0,0.85,0.75,0"></color>
+</cs>
+<cs name="TOYO 0088pc*" fixedID="88" version="1300">
+<color cs="CMYK" tints="0,0.88,0.75,0"></color>
+</cs>
+<cs name="TOYO 0089pc" fixedID="89" version="1300">
+<color cs="CMYK" tints="0.1,1,0.7,0"></color>
+</cs>
+<cs name="TOYO 0090pc" fixedID="90" version="1300">
+<color cs="CMYK" tints="0.15,1,0.75,0"></color>
+</cs>
+<cs name="TOYO 0091pc" fixedID="91" version="1300">
+<color cs="CMYK" tints="0.1,1,0.75,0"></color>
+</cs>
+<cs name="TOYO 0092pc" fixedID="92" version="1300">
+<color cs="CMYK" tints="0.2,0.85,0.5,0"></color>
+</cs>
+<cs name="TOYO 0093pc" fixedID="93" version="1300">
+<color cs="CMYK" tints="0.15,0.91,0.65,0"></color>
+</cs>
+<cs name="TOYO 0094pc" fixedID="94" version="1300">
+<color cs="CMYK" tints="0.3,1,0.75,0"></color>
+</cs>
+<cs name="TOYO 0095pc" fixedID="95" version="1300">
+<color cs="CMYK" tints="0.25,0.95,0.7,0"></color>
+</cs>
+<cs name="TOYO 0096pc" fixedID="96" version="1300">
+<color cs="CMYK" tints="0.25,1,0.85,0"></color>
+</cs>
+<cs name="TOYO 0097pc" fixedID="97" version="1300">
+<color cs="CMYK" tints="0.05,0.95,0.7,0"></color>
+</cs>
+<cs name="TOYO 0098pc*" fixedID="98" version="1300">
+<color cs="CMYK" tints="0,1,0.87,0.05"></color>
+</cs>
+<cs name="TOYO 0099pc*" fixedID="99" version="1300">
+<color cs="CMYK" tints="0,1,0.87,0"></color>
+</cs>
+<cs name="TOYO 0100pc*" fixedID="100" version="1300">
+<color cs="CMYK" tints="0,0.95,0.82,0.02"></color>
+</cs>
+<cs name="TOYO 0101pc*" fixedID="101" version="1300">
+<color cs="CMYK" tints="0,0.95,0.9,0"></color>
+</cs>
+<cs name="TOYO 0102pc*" fixedID="102" version="1300">
+<color cs="CMYK" tints="0,0.9,0.85,0"></color>
+</cs>
+<cs name="TOYO 0103pc*" fixedID="103" version="1300">
+<color cs="CMYK" tints="0,0.88,0.9,0"></color>
+</cs>
+<cs name="TOYO 0104pc*" fixedID="104" version="1300">
+<color cs="CMYK" tints="0,0.59,0.55,0"></color>
+</cs>
+<cs name="TOYO 0105pc*" fixedID="105" version="1300">
+<color cs="CMYK" tints="0,0.57,0.53,0"></color>
+</cs>
+<cs name="TOYO 0106pc*" fixedID="106" version="1300">
+<color cs="CMYK" tints="0,0.65,0.65,0"></color>
+</cs>
+<cs name="TOYO 0107pc*" fixedID="107" version="1300">
+<color cs="CMYK" tints="0,0.62,0.65,0"></color>
+</cs>
+<cs name="TOYO 0108pc*" fixedID="108" version="1300">
+<color cs="CMYK" tints="0,0.49,0.4,0"></color>
+</cs>
+<cs name="TOYO 0109pc*" fixedID="109" version="1300">
+<color cs="CMYK" tints="0,0.52,0.55,0"></color>
+</cs>
+<cs name="TOYO 0110pc*" fixedID="110" version="1300">
+<color cs="CMYK" tints="0,0.7,0.87,0.02"></color>
+</cs>
+<cs name="TOYO 0111pc*" fixedID="111" version="1300">
+<color cs="CMYK" tints="0,0.73,0.87,0.01"></color>
+</cs>
+<cs name="TOYO 0112pc*" fixedID="112" version="1300">
+<color cs="CMYK" tints="0,0.7,0.85,0.04"></color>
+</cs>
+<cs name="TOYO 0113pc*" fixedID="113" version="1300">
+<color cs="CMYK" tints="0,0.8,0.96,0"></color>
+</cs>
+<cs name="TOYO 0114pc" fixedID="114" version="1300">
+<color cs="CMYK" tints="0.2,0.85,0.72,0"></color>
+</cs>
+<cs name="TOYO 0115pc" fixedID="115" version="1300">
+<color cs="CMYK" tints="0.2,0.95,0.7,0"></color>
+</cs>
+<cs name="TOYO 0116pc" fixedID="116" version="1300">
+<color cs="CMYK" tints="0.21,0.85,0.79,0"></color>
+</cs>
+<cs name="TOYO 0117pc" fixedID="117" version="1300">
+<color cs="CMYK" tints="0,0.9,0.7,0"></color>
+</cs>
+<cs name="TOYO 0118pc" fixedID="118" version="1300">
+<color cs="CMYK" tints="0.05,0.9,0.75,0"></color>
+</cs>
+<cs name="TOYO 0119pc*" fixedID="119" version="1300">
+<color cs="CMYK" tints="0.02,0.82,0.9,0"></color>
+</cs>
+<cs name="TOYO 0120pc*" fixedID="120" version="1300">
+<color cs="CMYK" tints="0,0.8,0.95,0"></color>
+</cs>
+<cs name="TOYO 0121pc" fixedID="121" version="1300">
+<color cs="CMYK" tints="0.05,0.85,0.85,0"></color>
+</cs>
+<cs name="TOYO 0122pc*" fixedID="122" version="1300">
+<color cs="CMYK" tints="0,0.8,1,0"></color>
+</cs>
+<cs name="TOYO 0123pc" fixedID="123" version="1300">
+<color cs="CMYK" tints="0.15,0.9,0.95,0"></color>
+</cs>
+<cs name="TOYO 0124pc" fixedID="124" version="1300">
+<color cs="CMYK" tints="0,0.75,0.7,0"></color>
+</cs>
+<cs name="TOYO 0125pc*" fixedID="125" version="1300">
+<color cs="CMYK" tints="0,0.7,1,0"></color>
+</cs>
+<cs name="TOYO 0126pc*" fixedID="126" version="1300">
+<color cs="CMYK" tints="0,0.6,0.9,0.04"></color>
+</cs>
+<cs name="TOYO 0127pc*" fixedID="127" version="1300">
+<color cs="CMYK" tints="0,0.58,0.9,0.04"></color>
+</cs>
+<cs name="TOYO 0128pc*" fixedID="128" version="1300">
+<color cs="CMYK" tints="0,0.69,1,0"></color>
+</cs>
+<cs name="TOYO 0129pc*" fixedID="129" version="1300">
+<color cs="CMYK" tints="0,0.58,0.75,0"></color>
+</cs>
+<cs name="TOYO 0130pc*" fixedID="130" version="1300">
+<color cs="CMYK" tints="0,0.55,0.75,0"></color>
+</cs>
+<cs name="TOYO 0131pc*" fixedID="131" version="1300">
+<color cs="CMYK" tints="0,0.49,0.62,0"></color>
+</cs>
+<cs name="TOYO 0132pc*" fixedID="132" version="1300">
+<color cs="CMYK" tints="0,0.51,0.65,0"></color>
+</cs>
+<cs name="TOYO 0133pc*" fixedID="133" version="1300">
+<color cs="CMYK" tints="0.03,0.27,0.27,0"></color>
+</cs>
+<cs name="TOYO 0134pc*" fixedID="134" version="1300">
+<color cs="CMYK" tints="0,0.33,0.3,0"></color>
+</cs>
+<cs name="TOYO 0135pc*" fixedID="135" version="1300">
+<color cs="CMYK" tints="0,0.22,0.33,0.02"></color>
+</cs>
+<cs name="TOYO 0136pc*" fixedID="136" version="1300">
+<color cs="CMYK" tints="0,0.41,0.43,0"></color>
+</cs>
+<cs name="TOYO 0137pc*" fixedID="137" version="1300">
+<color cs="CMYK" tints="0,0.35,0.46,0"></color>
+</cs>
+<cs name="TOYO 0138pc*" fixedID="138" version="1300">
+<color cs="CMYK" tints="0,0.32,0.39,0.01"></color>
+</cs>
+<cs name="TOYO 0139pc*" fixedID="139" version="1300">
+<color cs="CMYK" tints="0,0.55,0.71,0"></color>
+</cs>
+<cs name="TOYO 0140pc" fixedID="140" version="1300">
+<color cs="CMYK" tints="0.1,0.85,0.95,0"></color>
+</cs>
+<cs name="TOYO 0141pc" fixedID="141" version="1300">
+<color cs="CMYK" tints="0,0.55,0.6,0"></color>
+</cs>
+<cs name="TOYO 0142pc*" fixedID="142" version="1300">
+<color cs="CMYK" tints="0,0.63,0.8,0"></color>
+</cs>
+<cs name="TOYO 0143pc*" fixedID="143" version="1300">
+<color cs="CMYK" tints="0,0.62,0.88,0"></color>
+</cs>
+<cs name="TOYO 0144pc*" fixedID="144" version="1300">
+<color cs="CMYK" tints="0,0.63,0.95,0"></color>
+</cs>
+<cs name="TOYO 0145pc*" fixedID="145" version="1300">
+<color cs="CMYK" tints="0,0.51,0.95,0"></color>
+</cs>
+<cs name="TOYO 0146pc*" fixedID="146" version="1300">
+<color cs="CMYK" tints="0,0.53,0.9,0.02"></color>
+</cs>
+<cs name="TOYO 0147pc*" fixedID="147" version="1300">
+<color cs="CMYK" tints="0,0.53,0.98,0"></color>
+</cs>
+<cs name="TOYO 0148pc*" fixedID="148" version="1300">
+<color cs="CMYK" tints="0,0.52,1,0"></color>
+</cs>
+<cs name="TOYO 0149pc*" fixedID="149" version="1300">
+<color cs="CMYK" tints="0,0.3,0.7,0"></color>
+</cs>
+<cs name="TOYO 0150pc*" fixedID="150" version="1300">
+<color cs="CMYK" tints="0,0.38,0.65,0"></color>
+</cs>
+<cs name="TOYO 0151pc*" fixedID="151" version="1300">
+<color cs="CMYK" tints="0,0.3,0.62,0"></color>
+</cs>
+<cs name="TOYO 0152pc" fixedID="152" version="1300">
+<color cs="CMYK" tints="0,0.55,0.7,0"></color>
+</cs>
+<cs name="TOYO 0153pc*" fixedID="153" version="1300">
+<color cs="CMYK" tints="0,0.63,0.98,0"></color>
+</cs>
+<cs name="TOYO 0154pc*" fixedID="154" version="1300">
+<color cs="CMYK" tints="0,0.62,1,0"></color>
+</cs>
+<cs name="TOYO 0155pc*" fixedID="155" version="1300">
+<color cs="CMYK" tints="0,0.58,0.9,0"></color>
+</cs>
+<cs name="TOYO 0156pc" fixedID="156" version="1300">
+<color cs="CMYK" tints="0.05,0.7,0.9,0"></color>
+</cs>
+<cs name="TOYO 0157pc" fixedID="157" version="1300">
+<color cs="CMYK" tints="0.15,0.65,0.95,0"></color>
+</cs>
+<cs name="TOYO 0158pc" fixedID="158" version="1300">
+<color cs="CMYK" tints="0.05,0.65,0.8,0"></color>
+</cs>
+<cs name="TOYO 0159pc" fixedID="159" version="1300">
+<color cs="CMYK" tints="0.05,0.5,0.95,0"></color>
+</cs>
+<cs name="TOYO 0160pc" fixedID="160" version="1300">
+<color cs="CMYK" tints="0,0.5,0.85,0"></color>
+</cs>
+<cs name="TOYO 0161pc*" fixedID="161" version="1300">
+<color cs="CMYK" tints="0,0.46,0.96,0"></color>
+</cs>
+<cs name="TOYO 0162pc*" fixedID="162" version="1300">
+<color cs="CMYK" tints="0,0.33,1,0"></color>
+</cs>
+<cs name="TOYO 0163pc*" fixedID="163" version="1300">
+<color cs="CMYK" tints="0,0.35,1,0"></color>
+</cs>
+<cs name="TOYO 0164pc*" fixedID="164" version="1300">
+<color cs="CMYK" tints="0,0.3,1,0"></color>
+</cs>
+<cs name="TOYO 0165pc*" fixedID="165" version="1300">
+<color cs="CMYK" tints="0,0.45,1,0"></color>
+</cs>
+<cs name="TOYO 0166pc" fixedID="166" version="1300">
+<color cs="CMYK" tints="0.25,0.6,0.85,0"></color>
+</cs>
+<cs name="TOYO 0167pc" fixedID="167" version="1300">
+<color cs="CMYK" tints="0.25,0.65,0.85,0"></color>
+</cs>
+<cs name="TOYO 0168pc*" fixedID="168" version="1300">
+<color cs="CMYK" tints="0,0.37,0.58,0.02"></color>
+</cs>
+<cs name="TOYO 0169pc*" fixedID="169" version="1300">
+<color cs="CMYK" tints="0,0.3,0.58,0.02"></color>
+</cs>
+<cs name="TOYO 0170pc*" fixedID="170" version="1300">
+<color cs="CMYK" tints="0,0.28,0.65,0.02"></color>
+</cs>
+<cs name="TOYO 0171pc*" fixedID="171" version="1300">
+<color cs="CMYK" tints="0,0.3,0.6,0.02"></color>
+</cs>
+<cs name="TOYO 0172pc*" fixedID="172" version="1300">
+<color cs="CMYK" tints="0,0.28,0.55,0.02"></color>
+</cs>
+<cs name="TOYO 0173pc*" fixedID="173" version="1300">
+<color cs="CMYK" tints="0,0.28,0.55,0.06"></color>
+</cs>
+<cs name="TOYO 0174pc*" fixedID="174" version="1300">
+<color cs="CMYK" tints="0.01,0.31,0.65,0"></color>
+</cs>
+<cs name="TOYO 0175pc*" fixedID="175" version="1300">
+<color cs="CMYK" tints="0,0.25,0.7,0"></color>
+</cs>
+<cs name="TOYO 0176pc*" fixedID="176" version="1300">
+<color cs="CMYK" tints="0,0.18,0.58,0"></color>
+</cs>
+<cs name="TOYO 0177pc*" fixedID="177" version="1300">
+<color cs="CMYK" tints="0,0.36,1,0"></color>
+</cs>
+<cs name="TOYO 0178pc*" fixedID="178" version="1300">
+<color cs="CMYK" tints="0,0.34,1,0"></color>
+</cs>
+<cs name="TOYO 0179pc" fixedID="179" version="1300">
+<color cs="CMYK" tints="0,0.35,0.95,0"></color>
+</cs>
+<cs name="TOYO 0180pc*" fixedID="180" version="1300">
+<color cs="CMYK" tints="0,0.34,1,0.02"></color>
+</cs>
+<cs name="TOYO 0181pc" fixedID="181" version="1300">
+<color cs="CMYK" tints="0.15,0.45,1,0"></color>
+</cs>
+<cs name="TOYO 0182pc" fixedID="182" version="1300">
+<color cs="CMYK" tints="0.08,0.3,0.97,0"></color>
+</cs>
+<cs name="TOYO 0183pc*" fixedID="183" version="1300">
+<color cs="CMYK" tints="0,0.22,0.95,0"></color>
+</cs>
+<cs name="TOYO 0184pc*" fixedID="184" version="1300">
+<color cs="CMYK" tints="0.01,0.15,0.72,0"></color>
+</cs>
+<cs name="TOYO 0185pc" fixedID="185" version="1300">
+<color cs="CMYK" tints="0,0.04,0.4,0"></color>
+</cs>
+<cs name="TOYO 0186pc" fixedID="186" version="1300">
+<color cs="CMYK" tints="0,0.06,0.54,0"></color>
+</cs>
+<cs name="TOYO 0187pc*" fixedID="187" version="1300">
+<color cs="CMYK" tints="0,0.23,1,0"></color>
+</cs>
+<cs name="TOYO 0188pc*" fixedID="188" version="1300">
+<color cs="CMYK" tints="0,0.2,1,0"></color>
+</cs>
+<cs name="TOYO 0189pc*" fixedID="189" version="1300">
+<color cs="CMYK" tints="0,0.16,1,0"></color>
+</cs>
+<cs name="TOYO 0190pc*" fixedID="190" version="1300">
+<color cs="CMYK" tints="0,0.16,0.85,0"></color>
+</cs>
+<cs name="TOYO 0191pc*" fixedID="191" version="1300">
+<color cs="CMYK" tints="0,0.15,0.92,0"></color>
+</cs>
+<cs name="TOYO 0192pc*" fixedID="192" version="1300">
+<color cs="CMYK" tints="0,0.1,1,0"></color>
+</cs>
+<cs name="TOYO 0193pc" fixedID="193" version="1300">
+<color cs="CMYK" tints="0.11,0.21,0.95,0"></color>
+</cs>
+<cs name="TOYO 0194pc" fixedID="194" version="1300">
+<color cs="CMYK" tints="0.12,0.15,0.97,0"></color>
+</cs>
+<cs name="TOYO 0195pc" fixedID="195" version="1300">
+<color cs="CMYK" tints="0.2,0.45,0.9,0"></color>
+</cs>
+<cs name="TOYO 0196pc" fixedID="196" version="1300">
+<color cs="CMYK" tints="0.34,0.34,0.99,0"></color>
+</cs>
+<cs name="TOYO 0197pc" fixedID="197" version="1300">
+<color cs="CMYK" tints="0.42,0.42,0.99,0"></color>
+</cs>
+<cs name="TOYO 0198pc" fixedID="198" version="1300">
+<color cs="CMYK" tints="0.21,0.3,0.8,0"></color>
+</cs>
+<cs name="TOYO 0199pc" fixedID="199" version="1300">
+<color cs="CMYK" tints="0,0.06,0.71,0"></color>
+</cs>
+<cs name="TOYO 0200pc*" fixedID="200" version="1300">
+<color cs="CMYK" tints="0,0.04,1,0"></color>
+</cs>
+<cs name="TOYO 0201pc*" fixedID="201" version="1300">
+<color cs="CMYK" tints="0.01,0.01,1,0"></color>
+</cs>
+<cs name="TOYO 0202pc" fixedID="202" version="1300">
+<color cs="CMYK" tints="0,0.05,0.9,0"></color>
+</cs>
+<cs name="TOYO 0203pc*" fixedID="203" version="1300">
+<color cs="CMYK" tints="0.02,0,0.9,0"></color>
+</cs>
+<cs name="TOYO 0204pc" fixedID="204" version="1300">
+<color cs="CMYK" tints="0,0.01,0.67,0"></color>
+</cs>
+<cs name="TOYO 0205pc" fixedID="205" version="1300">
+<color cs="CMYK" tints="0,0.05,0.54,0"></color>
+</cs>
+<cs name="TOYO 0206pc" fixedID="206" version="1300">
+<color cs="CMYK" tints="0,0.03,0.76,0"></color>
+</cs>
+<cs name="TOYO 0207pc*" fixedID="207" version="1300">
+<color cs="CMYK" tints="0.02,0,0.71,0"></color>
+</cs>
+<cs name="TOYO 0208pc*" fixedID="208" version="1300">
+<color cs="CMYK" tints="0.02,0.04,0.78,0"></color>
+</cs>
+<cs name="TOYO 0209pc*" fixedID="209" version="1300">
+<color cs="CMYK" tints="0.04,0.02,0.62,0"></color>
+</cs>
+<cs name="TOYO 0210pc*" fixedID="210" version="1300">
+<color cs="CMYK" tints="0.02,0.02,0.3,0"></color>
+</cs>
+<cs name="TOYO 0211pc" fixedID="211" version="1300">
+<color cs="CMYK" tints="0,0,0.45,0"></color>
+</cs>
+<cs name="TOYO 0212pc*" fixedID="212" version="1300">
+<color cs="CMYK" tints="0.07,0,0.69,0"></color>
+</cs>
+<cs name="TOYO 0213pc" fixedID="213" version="1300">
+<color cs="CMYK" tints="0.06,0,0.6,0"></color>
+</cs>
+<cs name="TOYO 0214pc*" fixedID="214" version="1300">
+<color cs="CMYK" tints="0.05,0.01,0.99,0"></color>
+</cs>
+<cs name="TOYO 0215pc" fixedID="215" version="1300">
+<color cs="CMYK" tints="0.17,0.1,0.86,0"></color>
+</cs>
+<cs name="TOYO 0216pc*" fixedID="216" version="1300">
+<color cs="CMYK" tints="0.23,0.14,1,0"></color>
+</cs>
+<cs name="TOYO 0217pc" fixedID="217" version="1300">
+<color cs="CMYK" tints="0.4,0.27,1,0"></color>
+</cs>
+<cs name="TOYO 0218pc" fixedID="218" version="1300">
+<color cs="CMYK" tints="0.4,0.21,1,0"></color>
+</cs>
+<cs name="TOYO 0219pc" fixedID="219" version="1300">
+<color cs="CMYK" tints="0.54,0.32,1,0"></color>
+</cs>
+<cs name="TOYO 0220pc" fixedID="220" version="1300">
+<color cs="CMYK" tints="0.35,0.06,1,0"></color>
+</cs>
+<cs name="TOYO 0221pc*" fixedID="221" version="1300">
+<color cs="CMYK" tints="0.22,0,0.95,0"></color>
+</cs>
+<cs name="TOYO 0222pc*" fixedID="222" version="1300">
+<color cs="CMYK" tints="0.28,0,1,0"></color>
+</cs>
+<cs name="TOYO 0223pc*" fixedID="223" version="1300">
+<color cs="CMYK" tints="0.24,0,0.98,0"></color>
+</cs>
+<cs name="TOYO 0224pc*" fixedID="224" version="1300">
+<color cs="CMYK" tints="0.17,0,0.95,0"></color>
+</cs>
+<cs name="TOYO 0225pc*" fixedID="225" version="1300">
+<color cs="CMYK" tints="0.15,0,0.92,0"></color>
+</cs>
+<cs name="TOYO 0226pc*" fixedID="226" version="1300">
+<color cs="CMYK" tints="0.17,0.02,0.92,0"></color>
+</cs>
+<cs name="TOYO 0227pc*" fixedID="227" version="1300">
+<color cs="CMYK" tints="0.1,0.02,0.9,0"></color>
+</cs>
+<cs name="TOYO 0228pc*" fixedID="228" version="1300">
+<color cs="CMYK" tints="0.2,0,0.78,0"></color>
+</cs>
+<cs name="TOYO 0229pc*" fixedID="229" version="1300">
+<color cs="CMYK" tints="0.15,0.02,0.55,0"></color>
+</cs>
+<cs name="TOYO 0230pc*" fixedID="230" version="1300">
+<color cs="CMYK" tints="0.15,0,0.78,0"></color>
+</cs>
+<cs name="TOYO 0231pc*" fixedID="231" version="1300">
+<color cs="CMYK" tints="0.18,0,0.68,0"></color>
+</cs>
+<cs name="TOYO 0232pc*" fixedID="232" version="1300">
+<color cs="CMYK" tints="0.33,0,0.82,0"></color>
+</cs>
+<cs name="TOYO 0233pc" fixedID="233" version="1300">
+<color cs="CMYK" tints="0.44,0,0.91,0"></color>
+</cs>
+<cs name="TOYO 0234pc" fixedID="234" version="1300">
+<color cs="CMYK" tints="0.56,0.13,0.97,0"></color>
+</cs>
+<cs name="TOYO 0235pc" fixedID="235" version="1300">
+<color cs="CMYK" tints="0.47,0.03,0.75,0"></color>
+</cs>
+<cs name="TOYO 0236pc" fixedID="236" version="1300">
+<color cs="CMYK" tints="0.31,0.04,0.71,0"></color>
+</cs>
+<cs name="TOYO 0237pc*" fixedID="237" version="1300">
+<color cs="CMYK" tints="0.2,0.01,0.85,0"></color>
+</cs>
+<cs name="TOYO 0238pc*" fixedID="238" version="1300">
+<color cs="CMYK" tints="0.25,0,0.85,0"></color>
+</cs>
+<cs name="TOYO 0239pc*" fixedID="239" version="1300">
+<color cs="CMYK" tints="0.25,0,0.55,0"></color>
+</cs>
+<cs name="TOYO 0240pc*" fixedID="240" version="1300">
+<color cs="CMYK" tints="0.28,0,0.62,0"></color>
+</cs>
+<cs name="TOYO 0241pc*" fixedID="241" version="1300">
+<color cs="CMYK" tints="0.28,0,0.7,0"></color>
+</cs>
+<cs name="TOYO 0242pc*" fixedID="242" version="1300">
+<color cs="CMYK" tints="0.3,0,0.7,0"></color>
+</cs>
+<cs name="TOYO 0243pc*" fixedID="243" version="1300">
+<color cs="CMYK" tints="0.32,0,0.7,0"></color>
+</cs>
+<cs name="TOYO 0244pc*" fixedID="244" version="1300">
+<color cs="CMYK" tints="0.4,0,0.96,0"></color>
+</cs>
+<cs name="TOYO 0245pc*" fixedID="245" version="1300">
+<color cs="CMYK" tints="0.43,0,0.96,0"></color>
+</cs>
+<cs name="TOYO 0246pc*" fixedID="246" version="1300">
+<color cs="CMYK" tints="0.47,0,0.96,0.02"></color>
+</cs>
+<cs name="TOYO 0247pc" fixedID="247" version="1300">
+<color cs="CMYK" tints="0.64,0.06,0.86,0"></color>
+</cs>
+<cs name="TOYO 0248pc*" fixedID="248" version="1300">
+<color cs="CMYK" tints="0.38,0,0.85,0"></color>
+</cs>
+<cs name="TOYO 0249pc*" fixedID="249" version="1300">
+<color cs="CMYK" tints="0.41,0,0.65,0"></color>
+</cs>
+<cs name="TOYO 0250pc*" fixedID="250" version="1300">
+<color cs="CMYK" tints="0.38,0,0.6,0"></color>
+</cs>
+<cs name="TOYO 0251pc*" fixedID="251" version="1300">
+<color cs="CMYK" tints="0.32,0,0.65,0"></color>
+</cs>
+<cs name="TOYO 0252pc*" fixedID="252" version="1300">
+<color cs="CMYK" tints="0.4,0,0.6,0"></color>
+</cs>
+<cs name="TOYO 0253pc" fixedID="253" version="1300">
+<color cs="CMYK" tints="0.51,0,0.73,0"></color>
+</cs>
+<cs name="TOYO 0254pc" fixedID="254" version="1300">
+<color cs="CMYK" tints="0.7,0.18,0.81,0"></color>
+</cs>
+<cs name="TOYO 0255pc" fixedID="255" version="1300">
+<color cs="CMYK" tints="0.69,0.17,0.85,0"></color>
+</cs>
+<cs name="TOYO 0256pc" fixedID="256" version="1300">
+<color cs="CMYK" tints="0.73,0,0.98,0"></color>
+</cs>
+<cs name="TOYO 0257pc" fixedID="257" version="1300">
+<color cs="CMYK" tints="0.78,0,0.91,0"></color>
+</cs>
+<cs name="TOYO 0258pc*" fixedID="258" version="1300">
+<color cs="CMYK" tints="0.47,0,0.9,0"></color>
+</cs>
+<cs name="TOYO 0259pc*" fixedID="259" version="1300">
+<color cs="CMYK" tints="0.49,0,0.9,0"></color>
+</cs>
+<cs name="TOYO 0260pc*" fixedID="260" version="1300">
+<color cs="CMYK" tints="0.57,0,0.9,0"></color>
+</cs>
+<cs name="TOYO 0261pc*" fixedID="261" version="1300">
+<color cs="CMYK" tints="0.6,0,0.93,0"></color>
+</cs>
+<cs name="TOYO 0262pc" fixedID="262" version="1300">
+<color cs="CMYK" tints="0.84,0.21,0.86,0"></color>
+</cs>
+<cs name="TOYO 0263pc" fixedID="263" version="1300">
+<color cs="CMYK" tints="0.84,0.25,0.76,0"></color>
+</cs>
+<cs name="TOYO 0264pc" fixedID="264" version="1300">
+<color cs="CMYK" tints="0.9,0.15,0.88,0"></color>
+</cs>
+<cs name="TOYO 0265pc" fixedID="265" version="1300">
+<color cs="CMYK" tints="0.89,0.05,0.86,0"></color>
+</cs>
+<cs name="TOYO 0266pc*" fixedID="266" version="1300">
+<color cs="CMYK" tints="0.86,0,0.9,0"></color>
+</cs>
+<cs name="TOYO 0267pc" fixedID="267" version="1300">
+<color cs="CMYK" tints="0.75,0.06,0.71,0"></color>
+</cs>
+<cs name="TOYO 0268pc*" fixedID="268" version="1300">
+<color cs="CMYK" tints="0.58,0,0.7,0"></color>
+</cs>
+<cs name="TOYO 0269pc*" fixedID="269" version="1300">
+<color cs="CMYK" tints="0.48,0,0.5,0"></color>
+</cs>
+<cs name="TOYO 0270pc*" fixedID="270" version="1300">
+<color cs="CMYK" tints="0.5,0,0.55,0"></color>
+</cs>
+<cs name="TOYO 0271pc*" fixedID="271" version="1300">
+<color cs="CMYK" tints="0.5,0.01,0.55,0"></color>
+</cs>
+<cs name="TOYO 0272pc*" fixedID="272" version="1300">
+<color cs="CMYK" tints="0.73,0,0.82,0"></color>
+</cs>
+<cs name="TOYO 0273pc*" fixedID="273" version="1300">
+<color cs="CMYK" tints="0.8,0,0.83,0"></color>
+</cs>
+<cs name="TOYO 0274pc*" fixedID="274" version="1300">
+<color cs="CMYK" tints="0.84,0,0.85,0"></color>
+</cs>
+<cs name="TOYO 0275pc" fixedID="275" version="1300">
+<color cs="CMYK" tints="0.95,0.2,0.87,0"></color>
+</cs>
+<cs name="TOYO 0276pc" fixedID="276" version="1300">
+<color cs="CMYK" tints="0.75,0.15,0.63,0"></color>
+</cs>
+<cs name="TOYO 0277pc*" fixedID="277" version="1300">
+<color cs="CMYK" tints="0.7,0.02,0.73,0"></color>
+</cs>
+<cs name="TOYO 0278pc*" fixedID="278" version="1300">
+<color cs="CMYK" tints="0.51,0,0.52,0"></color>
+</cs>
+<cs name="TOYO 0279pc*" fixedID="279" version="1300">
+<color cs="CMYK" tints="0.33,0,0.38,0"></color>
+</cs>
+<cs name="TOYO 0280pc*" fixedID="280" version="1300">
+<color cs="CMYK" tints="0.8,0,0.88,0"></color>
+</cs>
+<cs name="TOYO 0281pc*" fixedID="281" version="1300">
+<color cs="CMYK" tints="0.88,0,0.9,0"></color>
+</cs>
+<cs name="TOYO 0282pc*" fixedID="282" version="1300">
+<color cs="CMYK" tints="0.92,0,0.95,0"></color>
+</cs>
+<cs name="TOYO 0283pc" fixedID="283" version="1300">
+<color cs="CMYK" tints="0.85,0.17,0.75,0"></color>
+</cs>
+<cs name="TOYO 0284pc" fixedID="284" version="1300">
+<color cs="CMYK" tints="1,0.02,0.84,0"></color>
+</cs>
+<cs name="TOYO 0285pc*" fixedID="285" version="1300">
+<color cs="CMYK" tints="0.95,0,0.85,0.15"></color>
+</cs>
+<cs name="TOYO 0286pc" fixedID="286" version="1300">
+<color cs="CMYK" tints="1,0.31,0.85,0"></color>
+</cs>
+<cs name="TOYO 0287pc" fixedID="287" version="1300">
+<color cs="CMYK" tints="1,0.32,0.79,0"></color>
+</cs>
+<cs name="TOYO 0288pc*" fixedID="288" version="1300">
+<color cs="CMYK" tints="0.63,0,0.7,0"></color>
+</cs>
+<cs name="TOYO 0289pc*" fixedID="289" version="1300">
+<color cs="CMYK" tints="0.6,0,0.5,0"></color>
+</cs>
+<cs name="TOYO 0290pc*" fixedID="290" version="1300">
+<color cs="CMYK" tints="0.7,0.03,0.5,0"></color>
+</cs>
+<cs name="TOYO 0291pc*" fixedID="291" version="1300">
+<color cs="CMYK" tints="0.71,0,0.68,0"></color>
+</cs>
+<cs name="TOYO 0292pc*" fixedID="292" version="1300">
+<color cs="CMYK" tints="0.73,0.03,0.7,0"></color>
+</cs>
+<cs name="TOYO 0293pc*" fixedID="293" version="1300">
+<color cs="CMYK" tints="0.75,0.03,0.7,0"></color>
+</cs>
+<cs name="TOYO 0294pc" fixedID="294" version="1300">
+<color cs="CMYK" tints="1,0.26,0.79,0"></color>
+</cs>
+<cs name="TOYO 0295pc*" fixedID="295" version="1300">
+<color cs="CMYK" tints="0.84,0.03,0.77,0"></color>
+</cs>
+<cs name="TOYO 0296pc" fixedID="296" version="1300">
+<color cs="CMYK" tints="0.96,0,0.67,0"></color>
+</cs>
+<cs name="TOYO 0297pc*" fixedID="297" version="1300">
+<color cs="CMYK" tints="0.9,0,0.64,0"></color>
+</cs>
+<cs name="TOYO 0298pc" fixedID="298" version="1300">
+<color cs="CMYK" tints="1,0.15,0.7,0"></color>
+</cs>
+<cs name="TOYO 0299pc" fixedID="299" version="1300">
+<color cs="CMYK" tints="1,0.3,0.7,0"></color>
+</cs>
+<cs name="TOYO 0300pc" fixedID="300" version="1300">
+<color cs="CMYK" tints="1,0,0.65,0"></color>
+</cs>
+<cs name="TOYO 0301pc*" fixedID="301" version="1300">
+<color cs="CMYK" tints="0.8,0.02,0.58,0"></color>
+</cs>
+<cs name="TOYO 0302pc*" fixedID="302" version="1300">
+<color cs="CMYK" tints="0.75,0.02,0.58,0"></color>
+</cs>
+<cs name="TOYO 0303pc*" fixedID="303" version="1300">
+<color cs="CMYK" tints="0.77,0.02,0.58,0"></color>
+</cs>
+<cs name="TOYO 0304pc*" fixedID="304" version="1300">
+<color cs="CMYK" tints="0.4,0,0.38,0"></color>
+</cs>
+<cs name="TOYO 0305pc*" fixedID="305" version="1300">
+<color cs="CMYK" tints="0.39,0,0.3,0"></color>
+</cs>
+<cs name="TOYO 0306pc*" fixedID="306" version="1300">
+<color cs="CMYK" tints="0.34,0,0.28,0"></color>
+</cs>
+<cs name="TOYO 0307pc*" fixedID="307" version="1300">
+<color cs="CMYK" tints="0.5,0,0.32,0"></color>
+</cs>
+<cs name="TOYO 0308pc*" fixedID="308" version="1300">
+<color cs="CMYK" tints="0.9,0.04,0.63,0"></color>
+</cs>
+<cs name="TOYO 0309pc*" fixedID="309" version="1300">
+<color cs="CMYK" tints="0.9,0.04,0.63,0"></color>
+</cs>
+<cs name="TOYO 0310pc*" fixedID="310" version="1300">
+<color cs="CMYK" tints="0.92,0.02,0.55,0"></color>
+</cs>
+<cs name="TOYO 0311pc" fixedID="311" version="1300">
+<color cs="CMYK" tints="0.87,0.05,0.53,0"></color>
+</cs>
+<cs name="TOYO 0312pc" fixedID="312" version="1300">
+<color cs="CMYK" tints="0.79,0.1,0.51,0"></color>
+</cs>
+<cs name="TOYO 0313pc*" fixedID="313" version="1300">
+<color cs="CMYK" tints="0.82,0,0.52,0"></color>
+</cs>
+<cs name="TOYO 0314pc*" fixedID="314" version="1300">
+<color cs="CMYK" tints="0.28,0,0.15,0"></color>
+</cs>
+<cs name="TOYO 0315pc*" fixedID="315" version="1300">
+<color cs="CMYK" tints="0.4,0,0.27,0"></color>
+</cs>
+<cs name="TOYO 0316pc*" fixedID="316" version="1300">
+<color cs="CMYK" tints="0.53,0,0.34,0"></color>
+</cs>
+<cs name="TOYO 0317pc*" fixedID="317" version="1300">
+<color cs="CMYK" tints="0.55,0,0.4,0"></color>
+</cs>
+<cs name="TOYO 0318pc*" fixedID="318" version="1300">
+<color cs="CMYK" tints="0.87,0,0.52,0"></color>
+</cs>
+<cs name="TOYO 0319pc" fixedID="319" version="1300">
+<color cs="CMYK" tints="0.95,0.15,0.55,0"></color>
+</cs>
+<cs name="TOYO 0320pc" fixedID="320" version="1300">
+<color cs="CMYK" tints="0.92,0.13,0.51,0"></color>
+</cs>
+<cs name="TOYO 0321pc" fixedID="321" version="1300">
+<color cs="CMYK" tints="1,0.35,0.69,0"></color>
+</cs>
+<cs name="TOYO 0322pc" fixedID="322" version="1300">
+<color cs="CMYK" tints="1,0.6,0.7,0"></color>
+</cs>
+<cs name="TOYO 0323pc*" fixedID="323" version="1300">
+<color cs="CMYK" tints="0.9,0.3,0.71,0.03"></color>
+</cs>
+<cs name="TOYO 0324pc" fixedID="324" version="1300">
+<color cs="CMYK" tints="1,0.02,0.6,0"></color>
+</cs>
+<cs name="TOYO 0325pc*" fixedID="325" version="1300">
+<color cs="CMYK" tints="0.8,0,0.56,0"></color>
+</cs>
+<cs name="TOYO 0326pc*" fixedID="326" version="1300">
+<color cs="CMYK" tints="0.9,0,0.5,0"></color>
+</cs>
+<cs name="TOYO 0327pc*" fixedID="327" version="1300">
+<color cs="CMYK" tints="0.68,0,0.32,0"></color>
+</cs>
+<cs name="TOYO 0328pc*" fixedID="328" version="1300">
+<color cs="CMYK" tints="0.73,0,0.35,0"></color>
+</cs>
+<cs name="TOYO 0329pc*" fixedID="329" version="1300">
+<color cs="CMYK" tints="0.95,0,0.51,0.03"></color>
+</cs>
+<cs name="TOYO 0330pc*" fixedID="330" version="1300">
+<color cs="CMYK" tints="0.98,0.2,0.68,0.05"></color>
+</cs>
+<cs name="TOYO 0331pc*" fixedID="331" version="1300">
+<color cs="CMYK" tints="0.98,0,0.5,0.03"></color>
+</cs>
+<cs name="TOYO 0332pc*" fixedID="332" version="1300">
+<color cs="CMYK" tints="1,0,0.53,0.03"></color>
+</cs>
+<cs name="TOYO 0333pc" fixedID="333" version="1300">
+<color cs="CMYK" tints="0.95,0.2,0.5,0"></color>
+</cs>
+<cs name="TOYO 0334pc*" fixedID="334" version="1300">
+<color cs="CMYK" tints="1,0,0.51,0"></color>
+</cs>
+<cs name="TOYO 0335pc" fixedID="335" version="1300">
+<color cs="CMYK" tints="1,0.2,0.52,0"></color>
+</cs>
+<cs name="TOYO 0336pc" fixedID="336" version="1300">
+<color cs="CMYK" tints="0.99,0.13,0.4,0"></color>
+</cs>
+<cs name="TOYO 0337pc*" fixedID="337" version="1300">
+<color cs="CMYK" tints="1,0,0.45,0"></color>
+</cs>
+<cs name="TOYO 0338pc*" fixedID="338" version="1300">
+<color cs="CMYK" tints="0.98,0,0.47,0"></color>
+</cs>
+<cs name="TOYO 0339pc*" fixedID="339" version="1300">
+<color cs="CMYK" tints="0.62,0,0.22,0"></color>
+</cs>
+<cs name="TOYO 0340pc*" fixedID="340" version="1300">
+<color cs="CMYK" tints="0.55,0,0.22,0"></color>
+</cs>
+<cs name="TOYO 0341pc*" fixedID="341" version="1300">
+<color cs="CMYK" tints="0.28,0.03,0.14,0"></color>
+</cs>
+<cs name="TOYO 0342pc*" fixedID="342" version="1300">
+<color cs="CMYK" tints="0.42,0,0.2,0"></color>
+</cs>
+<cs name="TOYO 0343pc*" fixedID="343" version="1300">
+<color cs="CMYK" tints="0.58,0,0.2,0"></color>
+</cs>
+<cs name="TOYO 0344pc*" fixedID="344" version="1300">
+<color cs="CMYK" tints="0.7,0,0.25,0"></color>
+</cs>
+<cs name="TOYO 0345pc*" fixedID="345" version="1300">
+<color cs="CMYK" tints="0.7,0,0.32,0"></color>
+</cs>
+<cs name="TOYO 0346pc*" fixedID="346" version="1300">
+<color cs="CMYK" tints="0.58,0,0.23,0"></color>
+</cs>
+<cs name="TOYO 0347pc*" fixedID="347" version="1300">
+<color cs="CMYK" tints="0.88,0,0.35,0"></color>
+</cs>
+<cs name="TOYO 0348pc*" fixedID="348" version="1300">
+<color cs="CMYK" tints="1,0,0.39,0"></color>
+</cs>
+<cs name="TOYO 0349pc*" fixedID="349" version="1300">
+<color cs="CMYK" tints="0.9,0,0.3,0"></color>
+</cs>
+<cs name="TOYO 0350pc*" fixedID="350" version="1300">
+<color cs="CMYK" tints="0.95,0,0.32,0.01"></color>
+</cs>
+<cs name="TOYO 0351pc" fixedID="351" version="1300">
+<color cs="CMYK" tints="1,0.35,0.4,0"></color>
+</cs>
+<cs name="TOYO 0352pc*" fixedID="352" version="1300">
+<color cs="CMYK" tints="1,0.2,0.45,0"></color>
+</cs>
+<cs name="TOYO 0353pc*" fixedID="353" version="1300">
+<color cs="CMYK" tints="1,0.07,0.37,0.04"></color>
+</cs>
+<cs name="TOYO 0354pc" fixedID="354" version="1300">
+<color cs="CMYK" tints="0.99,0.05,0.25,0"></color>
+</cs>
+<cs name="TOYO 0355pc" fixedID="355" version="1300">
+<color cs="CMYK" tints="0.99,0.33,0.4,0"></color>
+</cs>
+<cs name="TOYO 0356pc" fixedID="356" version="1300">
+<color cs="CMYK" tints="1,0.35,0.35,0"></color>
+</cs>
+<cs name="TOYO 0357pc*" fixedID="357" version="1300">
+<color cs="CMYK" tints="1,0.05,0.17,0"></color>
+</cs>
+<cs name="TOYO 0358pc" fixedID="358" version="1300">
+<color cs="CMYK" tints="0.95,0.15,0.3,0"></color>
+</cs>
+<cs name="TOYO 0359pc*" fixedID="359" version="1300">
+<color cs="CMYK" tints="0.8,0,0.18,0"></color>
+</cs>
+<cs name="TOYO 0360pc*" fixedID="360" version="1300">
+<color cs="CMYK" tints="0.58,0,0.14,0"></color>
+</cs>
+<cs name="TOYO 0361pc*" fixedID="361" version="1300">
+<color cs="CMYK" tints="0.54,0,0.07,0"></color>
+</cs>
+<cs name="TOYO 0362pc*" fixedID="362" version="1300">
+<color cs="CMYK" tints="0.97,0,0.1,0"></color>
+</cs>
+<cs name="TOYO 0363pc" fixedID="363" version="1300">
+<color cs="CMYK" tints="1,0,0.2,0"></color>
+</cs>
+<cs name="TOYO 0364pc*" fixedID="364" version="1300">
+<color cs="CMYK" tints="1,0,0.18,0.07"></color>
+</cs>
+<cs name="TOYO 0365pc*" fixedID="365" version="1300">
+<color cs="CMYK" tints="1,0.07,0.21,0.03"></color>
+</cs>
+<cs name="TOYO 0366pc*" fixedID="366" version="1300">
+<color cs="CMYK" tints="0.97,0.35,0.35,0"></color>
+</cs>
+<cs name="TOYO 0367pc*" fixedID="367" version="1300">
+<color cs="CMYK" tints="0.97,0,0.15,0"></color>
+</cs>
+<cs name="TOYO 0368pc*" fixedID="368" version="1300">
+<color cs="CMYK" tints="0.8,0,0.13,0"></color>
+</cs>
+<cs name="TOYO 0369pc*" fixedID="369" version="1300">
+<color cs="CMYK" tints="0.4,0.01,0.08,0"></color>
+</cs>
+<cs name="TOYO 0370pc*" fixedID="370" version="1300">
+<color cs="CMYK" tints="0.37,0.01,0.08,0"></color>
+</cs>
+<cs name="TOYO 0371pc" fixedID="371" version="1300">
+<color cs="CMYK" tints="0.8,0.05,0.15,0"></color>
+</cs>
+<cs name="TOYO 0372pc" fixedID="372" version="1300">
+<color cs="CMYK" tints="0.95,0.2,0.15,0"></color>
+</cs>
+<cs name="TOYO 0373pc" fixedID="373" version="1300">
+<color cs="CMYK" tints="0.96,0.2,0.2,0"></color>
+</cs>
+<cs name="TOYO 0374pc*" fixedID="374" version="1300">
+<color cs="CMYK" tints="1,0.02,0.14,0.04"></color>
+</cs>
+<cs name="TOYO 0375pc" fixedID="375" version="1300">
+<color cs="CMYK" tints="1,0.05,0.1,0"></color>
+</cs>
+<cs name="TOYO 0376pc" fixedID="376" version="1300">
+<color cs="CMYK" tints="0.99,0.05,0.05,0"></color>
+</cs>
+<cs name="TOYO 0377pc*" fixedID="377" version="1300">
+<color cs="CMYK" tints="1,0.16,0.15,0"></color>
+</cs>
+<cs name="TOYO 0378pc" fixedID="378" version="1300">
+<color cs="CMYK" tints="1,0.22,0.14,0"></color>
+</cs>
+<cs name="TOYO 0379pc*" fixedID="379" version="1300">
+<color cs="CMYK" tints="1,0.54,0.16,0.04"></color>
+</cs>
+<cs name="TOYO 0380pc*" fixedID="380" version="1300">
+<color cs="CMYK" tints="1,0.2,0.1,0"></color>
+</cs>
+<cs name="TOYO 0381pc*" fixedID="381" version="1300">
+<color cs="CMYK" tints="1,0.17,0.1,0.04"></color>
+</cs>
+<cs name="TOYO 0382pc*" fixedID="382" version="1300">
+<color cs="CMYK" tints="1,0.13,0.02,0"></color>
+</cs>
+<cs name="TOYO 0383pc*" fixedID="383" version="1300">
+<color cs="CMYK" tints="1,0.02,0.06,0"></color>
+</cs>
+<cs name="TOYO 0384pc*" fixedID="384" version="1300">
+<color cs="CMYK" tints="0.98,0.03,0.05,0"></color>
+</cs>
+<cs name="TOYO 0385pc*" fixedID="385" version="1300">
+<color cs="CMYK" tints="0.68,0,0.03,0"></color>
+</cs>
+<cs name="TOYO 0386pc" fixedID="386" version="1300">
+<color cs="CMYK" tints="0.6,0,0.1,0"></color>
+</cs>
+<cs name="TOYO 0387pc*" fixedID="387" version="1300">
+<color cs="CMYK" tints="0.31,0,0.08,0"></color>
+</cs>
+<cs name="TOYO 0388pc*" fixedID="388" version="1300">
+<color cs="CMYK" tints="0.45,0,0.08,0"></color>
+</cs>
+<cs name="TOYO 0389pc*" fixedID="389" version="1300">
+<color cs="CMYK" tints="0.8,0,0.08,0"></color>
+</cs>
+<cs name="TOYO 0390pc" fixedID="390" version="1300">
+<color cs="CMYK" tints="0.8,0,0,0"></color>
+</cs>
+<cs name="TOYO 0391pc" fixedID="391" version="1300">
+<color cs="CMYK" tints="0.9,0.2,0.1,0"></color>
+</cs>
+<cs name="TOYO 0392pc*" fixedID="392" version="1300">
+<color cs="CMYK" tints="0.65,0,0.05,0"></color>
+</cs>
+<cs name="TOYO 0393pc*" fixedID="393" version="1300">
+<color cs="CMYK" tints="0.58,0,0.04,0"></color>
+</cs>
+<cs name="TOYO 0394pc*" fixedID="394" version="1300">
+<color cs="CMYK" tints="0.37,0,0.05,0"></color>
+</cs>
+<cs name="TOYO 0395pc" fixedID="395" version="1300">
+<color cs="CMYK" tints="0.6,0,0,0"></color>
+</cs>
+<cs name="TOYO 0396pc" fixedID="396" version="1300">
+<color cs="CMYK" tints="0.6,0.05,0,0"></color>
+</cs>
+<cs name="TOYO 0397pc" fixedID="397" version="1300">
+<color cs="CMYK" tints="0.5,0.05,0.02,0"></color>
+</cs>
+<cs name="TOYO 0398pc" fixedID="398" version="1300">
+<color cs="CMYK" tints="0.3,0,0,0"></color>
+</cs>
+<cs name="TOYO 0399pc" fixedID="399" version="1300">
+<color cs="CMYK" tints="0.8,0.15,0,0"></color>
+</cs>
+<cs name="TOYO 0400pc" fixedID="400" version="1300">
+<color cs="CMYK" tints="0.99,0.17,0.02,0"></color>
+</cs>
+<cs name="TOYO 0401pc" fixedID="401" version="1300">
+<color cs="CMYK" tints="0.94,0.45,0.16,0"></color>
+</cs>
+<cs name="TOYO 0402pc" fixedID="402" version="1300">
+<color cs="CMYK" tints="0.9,0.51,0.21,0"></color>
+</cs>
+<cs name="TOYO 0403pc*" fixedID="403" version="1300">
+<color cs="CMYK" tints="0.95,0.26,0.01,0"></color>
+</cs>
+<cs name="TOYO 0404pc*" fixedID="404" version="1300">
+<color cs="CMYK" tints="1,0.25,0,0"></color>
+</cs>
+<cs name="TOYO 0405pc*" fixedID="405" version="1300">
+<color cs="CMYK" tints="0.95,0.42,0.05,0"></color>
+</cs>
+<cs name="TOYO 0406pc*" fixedID="406" version="1300">
+<color cs="CMYK" tints="1,0.5,0.05,0"></color>
+</cs>
+<cs name="TOYO 0407pc" fixedID="407" version="1300">
+<color cs="CMYK" tints="1,0.46,0.04,0"></color>
+</cs>
+<cs name="TOYO 0408pc" fixedID="408" version="1300">
+<color cs="CMYK" tints="1,0.57,0.05,0"></color>
+</cs>
+<cs name="TOYO 0409pc" fixedID="409" version="1300">
+<color cs="CMYK" tints="0.98,0.58,0.13,0"></color>
+</cs>
+<cs name="TOYO 0410pc" fixedID="410" version="1300">
+<color cs="CMYK" tints="0.9,0.3,0,0"></color>
+</cs>
+<cs name="TOYO 0411pc*" fixedID="411" version="1300">
+<color cs="CMYK" tints="0.88,0.13,0,0"></color>
+</cs>
+<cs name="TOYO 0412pc*" fixedID="412" version="1300">
+<color cs="CMYK" tints="0.95,0.43,0.02,0"></color>
+</cs>
+<cs name="TOYO 0413pc*" fixedID="413" version="1300">
+<color cs="CMYK" tints="0.95,0.62,0,0"></color>
+</cs>
+<cs name="TOYO 0414pc*" fixedID="414" version="1300">
+<color cs="CMYK" tints="1,0.53,0.05,0"></color>
+</cs>
+<cs name="TOYO 0415pc*" fixedID="415" version="1300">
+<color cs="CMYK" tints="0.9,0.3,0.01,0"></color>
+</cs>
+<cs name="TOYO 0416pc*" fixedID="416" version="1300">
+<color cs="CMYK" tints="0.9,0.54,0.02,0"></color>
+</cs>
+<cs name="TOYO 0417pc*" fixedID="417" version="1300">
+<color cs="CMYK" tints="0.9,0.58,0.05,0"></color>
+</cs>
+<cs name="TOYO 0418pc*" fixedID="418" version="1300">
+<color cs="CMYK" tints="1,0.57,0.05,0"></color>
+</cs>
+<cs name="TOYO 0419pc*" fixedID="419" version="1300">
+<color cs="CMYK" tints="0.8,0.36,0.05,0"></color>
+</cs>
+<cs name="TOYO 0420pc" fixedID="420" version="1300">
+<color cs="CMYK" tints="0.65,0.2,0,0"></color>
+</cs>
+<cs name="TOYO 0421pc" fixedID="421" version="1300">
+<color cs="CMYK" tints="0.58,0.1,0,0"></color>
+</cs>
+<cs name="TOYO 0422pc" fixedID="422" version="1300">
+<color cs="CMYK" tints="0.49,0.09,0,0"></color>
+</cs>
+<cs name="TOYO 0423pc" fixedID="423" version="1300">
+<color cs="CMYK" tints="0.38,0.05,0.01,0"></color>
+</cs>
+<cs name="TOYO 0424pc" fixedID="424" version="1300">
+<color cs="CMYK" tints="0.5,0.12,0,0"></color>
+</cs>
+<cs name="TOYO 0425pc" fixedID="425" version="1300">
+<color cs="CMYK" tints="0.49,0.12,0,0"></color>
+</cs>
+<cs name="TOYO 0426pc" fixedID="426" version="1300">
+<color cs="CMYK" tints="0.45,0.12,0.01,0"></color>
+</cs>
+<cs name="TOYO 0427pc*" fixedID="427" version="1300">
+<color cs="CMYK" tints="0.7,0.4,0.05,0"></color>
+</cs>
+<cs name="TOYO 0428pc*" fixedID="428" version="1300">
+<color cs="CMYK" tints="0.73,0.43,0.05,0"></color>
+</cs>
+<cs name="TOYO 0429pc" fixedID="429" version="1300">
+<color cs="CMYK" tints="0.89,0.55,0.09,0"></color>
+</cs>
+<cs name="TOYO 0430pc" fixedID="430" version="1300">
+<color cs="CMYK" tints="0.7,0.34,0.12,0"></color>
+</cs>
+<cs name="TOYO 0431pc" fixedID="431" version="1300">
+<color cs="CMYK" tints="0.95,0.5,0,0"></color>
+</cs>
+<cs name="TOYO 0432pc*" fixedID="432" version="1300">
+<color cs="CMYK" tints="1,0.64,0.07,0"></color>
+</cs>
+<cs name="TOYO 0433pc*" fixedID="433" version="1300">
+<color cs="CMYK" tints="0.95,0.6,0.05,0"></color>
+</cs>
+<cs name="TOYO 0434pc*" fixedID="434" version="1300">
+<color cs="CMYK" tints="0.95,0.58,0.02,0"></color>
+</cs>
+<cs name="TOYO 0435pc*" fixedID="435" version="1300">
+<color cs="CMYK" tints="0.95,0.62,0.02,0"></color>
+</cs>
+<cs name="TOYO 0436pc*" fixedID="436" version="1300">
+<color cs="CMYK" tints="0.8,0.33,0.02,0"></color>
+</cs>
+<cs name="TOYO 0437pc*" fixedID="437" version="1300">
+<color cs="CMYK" tints="0.65,0.23,0.01,0"></color>
+</cs>
+<cs name="TOYO 0438pc" fixedID="438" version="1300">
+<color cs="CMYK" tints="0.45,0.16,0,0"></color>
+</cs>
+<cs name="TOYO 0439pc*" fixedID="439" version="1300">
+<color cs="CMYK" tints="0.55,0.3,0.05,0"></color>
+</cs>
+<cs name="TOYO 0440pc*" fixedID="440" version="1300">
+<color cs="CMYK" tints="0.7,0.45,0.05,0"></color>
+</cs>
+<cs name="TOYO 0441pc*" fixedID="441" version="1300">
+<color cs="CMYK" tints="0.95,0.62,0.05,0"></color>
+</cs>
+<cs name="TOYO 0442pc*" fixedID="442" version="1300">
+<color cs="CMYK" tints="0.95,0.56,0.02,0"></color>
+</cs>
+<cs name="TOYO 0443pc*" fixedID="443" version="1300">
+<color cs="CMYK" tints="0.87,0.56,0.02,0"></color>
+</cs>
+<cs name="TOYO 0444pc*" fixedID="444" version="1300">
+<color cs="CMYK" tints="0.68,0.52,0.02,0"></color>
+</cs>
+<cs name="TOYO 0445pc*" fixedID="445" version="1300">
+<color cs="CMYK" tints="0.65,0.46,0.05,0"></color>
+</cs>
+<cs name="TOYO 0446pc*" fixedID="446" version="1300">
+<color cs="CMYK" tints="0.6,0.3,0.03,0.03"></color>
+</cs>
+<cs name="TOYO 0447pc*" fixedID="447" version="1300">
+<color cs="CMYK" tints="0.65,0.45,0.03,0"></color>
+</cs>
+<cs name="TOYO 0448pc*" fixedID="448" version="1300">
+<color cs="CMYK" tints="0.8,0.62,0.01,0"></color>
+</cs>
+<cs name="TOYO 0449pc*" fixedID="449" version="1300">
+<color cs="CMYK" tints="0.84,0.75,0.02,0"></color>
+</cs>
+<cs name="TOYO 0450pc*" fixedID="450" version="1300">
+<color cs="CMYK" tints="0.84,0.78,0.02,0"></color>
+</cs>
+<cs name="TOYO 0451pc" fixedID="451" version="1300">
+<color cs="CMYK" tints="0.84,0.62,0.01,0"></color>
+</cs>
+<cs name="TOYO 0452pc*" fixedID="452" version="1300">
+<color cs="CMYK" tints="0.6,0.45,0.03,0"></color>
+</cs>
+<cs name="TOYO 0453pc*" fixedID="453" version="1300">
+<color cs="CMYK" tints="0.58,0.5,0.03,0"></color>
+</cs>
+<cs name="TOYO 0454pc" fixedID="454" version="1300">
+<color cs="CMYK" tints="0.42,0.26,0.02,0"></color>
+</cs>
+<cs name="TOYO 0455pc" fixedID="455" version="1300">
+<color cs="CMYK" tints="0.35,0.22,0,0"></color>
+</cs>
+<cs name="TOYO 0456pc" fixedID="456" version="1300">
+<color cs="CMYK" tints="0.45,0.35,0,0"></color>
+</cs>
+<cs name="TOYO 0457pc*" fixedID="457" version="1300">
+<color cs="CMYK" tints="0.52,0.5,0.03,0"></color>
+</cs>
+<cs name="TOYO 0458pc*" fixedID="458" version="1300">
+<color cs="CMYK" tints="0.52,0.6,0.03,0"></color>
+</cs>
+<cs name="TOYO 0459pc*" fixedID="459" version="1300">
+<color cs="CMYK" tints="0.85,0.85,0.02,0"></color>
+</cs>
+<cs name="TOYO 0460pc*" fixedID="460" version="1300">
+<color cs="CMYK" tints="0.88,0.85,0.02,0"></color>
+</cs>
+<cs name="TOYO 0461pc" fixedID="461" version="1300">
+<color cs="CMYK" tints="0.94,0.95,0,0"></color>
+</cs>
+<cs name="TOYO 0462pc*" fixedID="462" version="1300">
+<color cs="CMYK" tints="0.87,0.87,0.05,0"></color>
+</cs>
+<cs name="TOYO 0463pc*" fixedID="463" version="1300">
+<color cs="CMYK" tints="0.85,0.87,0.02,0"></color>
+</cs>
+<cs name="TOYO 0464pc*" fixedID="464" version="1300">
+<color cs="CMYK" tints="0.48,0.57,0.03,0"></color>
+</cs>
+<cs name="TOYO 0465pc*" fixedID="465" version="1300">
+<color cs="CMYK" tints="0.37,0.39,0.05,0"></color>
+</cs>
+<cs name="TOYO 0466pc*" fixedID="466" version="1300">
+<color cs="CMYK" tints="0.3,0.35,0.1,0"></color>
+</cs>
+<cs name="TOYO 0467pc*" fixedID="467" version="1300">
+<color cs="CMYK" tints="0.43,0.53,0.1,0"></color>
+</cs>
+<cs name="TOYO 0468pc*" fixedID="468" version="1300">
+<color cs="CMYK" tints="0.45,0.56,0.1,0"></color>
+</cs>
+<cs name="TOYO 0469pc" fixedID="469" version="1300">
+<color cs="CMYK" tints="0.56,0.53,0,0"></color>
+</cs>
+<cs name="TOYO 0470pc" fixedID="470" version="1300">
+<color cs="CMYK" tints="0.7,0.67,0.09,0"></color>
+</cs>
+<cs name="TOYO 0471pc" fixedID="471" version="1300">
+<color cs="CMYK" tints="0.68,0.65,0.15,0"></color>
+</cs>
+<cs name="TOYO 0472pc*" fixedID="472" version="1300">
+<color cs="CMYK" tints="0.37,0.4,0.05,0"></color>
+</cs>
+<cs name="TOYO 0473pc*" fixedID="473" version="1300">
+<color cs="CMYK" tints="0.16,0.22,0.03,0"></color>
+</cs>
+<cs name="TOYO 0474pc*" fixedID="474" version="1300">
+<color cs="CMYK" tints="0.3,0.36,0.02,0"></color>
+</cs>
+<cs name="TOYO 0475pc*" fixedID="475" version="1300">
+<color cs="CMYK" tints="0.4,0.48,0.05,0"></color>
+</cs>
+<cs name="TOYO 0476pc*" fixedID="476" version="1300">
+<color cs="CMYK" tints="0.78,0.8,0.04,0"></color>
+</cs>
+<cs name="TOYO 0477pc*" fixedID="477" version="1300">
+<color cs="CMYK" tints="0.75,0.92,0.05,0"></color>
+</cs>
+<cs name="TOYO 0478pc" fixedID="478" version="1300">
+<color cs="CMYK" tints="0.8,0.85,0.12,0"></color>
+</cs>
+<cs name="TOYO 0479pc" fixedID="479" version="1300">
+<color cs="CMYK" tints="0.75,0.84,0.1,0"></color>
+</cs>
+<cs name="TOYO 0480pc*" fixedID="480" version="1300">
+<color cs="CMYK" tints="0.68,0.82,0.1,0"></color>
+</cs>
+<cs name="TOYO 0481pc*" fixedID="481" version="1300">
+<color cs="CMYK" tints="0.62,0.75,0.1,0"></color>
+</cs>
+<cs name="TOYO 0482pc*" fixedID="482" version="1300">
+<color cs="CMYK" tints="0.3,0.5,0.03,0"></color>
+</cs>
+<cs name="TOYO 0483pc*" fixedID="483" version="1300">
+<color cs="CMYK" tints="0.35,0.5,0.08,0"></color>
+</cs>
+<cs name="TOYO 0484pc*" fixedID="484" version="1300">
+<color cs="CMYK" tints="0.11,0.25,0.01,0"></color>
+</cs>
+<cs name="TOYO 0485pc*" fixedID="485" version="1300">
+<color cs="CMYK" tints="0.11,0.23,0.01,0"></color>
+</cs>
+<cs name="TOYO 0486pc*" fixedID="486" version="1300">
+<color cs="CMYK" tints="0.3,0.48,0.02,0"></color>
+</cs>
+<cs name="TOYO 0487pc*" fixedID="487" version="1300">
+<color cs="CMYK" tints="0.3,0.46,0.02,0"></color>
+</cs>
+<cs name="TOYO 0488pc" fixedID="488" version="1300">
+<color cs="CMYK" tints="0.45,0.52,0.03,0"></color>
+</cs>
+<cs name="TOYO 0489pc*" fixedID="489" version="1300">
+<color cs="CMYK" tints="0.4,0.55,0.08,0"></color>
+</cs>
+<cs name="TOYO 0490pc*" fixedID="490" version="1300">
+<color cs="CMYK" tints="0.63,0.86,0.05,0"></color>
+</cs>
+<cs name="TOYO 0491pc*" fixedID="491" version="1300">
+<color cs="CMYK" tints="0.68,0.85,0.1,0"></color>
+</cs>
+<cs name="TOYO 0492pc*" fixedID="492" version="1300">
+<color cs="CMYK" tints="0.62,0.95,0.03,0"></color>
+</cs>
+<cs name="TOYO 0493pc*" fixedID="493" version="1300">
+<color cs="CMYK" tints="0.58,0.75,0.05,0"></color>
+</cs>
+<cs name="TOYO 0494pc*" fixedID="494" version="1300">
+<color cs="CMYK" tints="0.65,0.99,0.05,0"></color>
+</cs>
+<cs name="TOYO 0495pc*" fixedID="495" version="1300">
+<color cs="CMYK" tints="0.6,1,0.07,0"></color>
+</cs>
+<cs name="TOYO 0496pc" fixedID="496" version="1300">
+<color cs="CMYK" tints="0.59,0.85,0,0"></color>
+</cs>
+<cs name="TOYO 0497pc*" fixedID="497" version="1300">
+<color cs="CMYK" tints="0.6,0.77,0.03,0"></color>
+</cs>
+<cs name="TOYO 0498pc" fixedID="498" version="1300">
+<color cs="CMYK" tints="0.44,0.62,0,0"></color>
+</cs>
+<cs name="TOYO 0499pc*" fixedID="499" version="1300">
+<color cs="CMYK" tints="0.3,0.53,0.02,0"></color>
+</cs>
+<cs name="TOYO 0500pc*" fixedID="500" version="1300">
+<color cs="CMYK" tints="0.38,0.62,0.17,0"></color>
+</cs>
+<cs name="TOYO 0501pc*" fixedID="501" version="1300">
+<color cs="CMYK" tints="0.05,0.5,0.02,0"></color>
+</cs>
+<cs name="TOYO 0502pc*" fixedID="502" version="1300">
+<color cs="CMYK" tints="0.05,0.45,0.01,0"></color>
+</cs>
+<cs name="TOYO 0503pc*" fixedID="503" version="1300">
+<color cs="CMYK" tints="0.05,0.37,0.01,0"></color>
+</cs>
+<cs name="TOYO 0504pc*" fixedID="504" version="1300">
+<color cs="CMYK" tints="0.09,0.3,0.01,0"></color>
+</cs>
+<cs name="TOYO 0505pc*" fixedID="505" version="1300">
+<color cs="CMYK" tints="0,0.37,0,0"></color>
+</cs>
+<cs name="TOYO 0506pc*" fixedID="506" version="1300">
+<color cs="CMYK" tints="0,0.43,0,0"></color>
+</cs>
+<cs name="TOYO 0507pc*" fixedID="507" version="1300">
+<color cs="CMYK" tints="0,0.55,0,0"></color>
+</cs>
+<cs name="TOYO 0508pc*" fixedID="508" version="1300">
+<color cs="CMYK" tints="0.3,0.82,0,0"></color>
+</cs>
+<cs name="TOYO 0509pc*" fixedID="509" version="1300">
+<color cs="CMYK" tints="0.26,1,0.03,0"></color>
+</cs>
+<cs name="TOYO 0510pc*" fixedID="510" version="1300">
+<color cs="CMYK" tints="0.24,1,0.03,0"></color>
+</cs>
+<cs name="TOYO 0511pc*" fixedID="511" version="1300">
+<color cs="CMYK" tints="0.55,0.9,0.05,0"></color>
+</cs>
+<cs name="TOYO 0512pc*" fixedID="512" version="1300">
+<color cs="CMYK" tints="0.38,0.83,0.03,0"></color>
+</cs>
+<cs name="TOYO 0513pc*" fixedID="513" version="1300">
+<color cs="CMYK" tints="0.22,1,0,0"></color>
+</cs>
+<cs name="TOYO 0514pc*" fixedID="514" version="1300">
+<color cs="CMYK" tints="0.35,1,0.03,0"></color>
+</cs>
+<cs name="TOYO 0515pc" fixedID="515" version="1300">
+<color cs="CMYK" tints="0.4,0.85,0,0"></color>
+</cs>
+<cs name="TOYO 0516pc" fixedID="516" version="1300">
+<color cs="CMYK" tints="0.32,0.81,0,0"></color>
+</cs>
+<cs name="TOYO 0517pc*" fixedID="517" version="1300">
+<color cs="CMYK" tints="0,0.8,0,0"></color>
+</cs>
+<cs name="TOYO 0518pc*" fixedID="518" version="1300">
+<color cs="CMYK" tints="0,0.7,0,0"></color>
+</cs>
+<cs name="TOYO 0519pc*" fixedID="519" version="1300">
+<color cs="CMYK" tints="0,0.7,0.02,0"></color>
+</cs>
+<cs name="TOYO 0520pc*" fixedID="520" version="1300">
+<color cs="CMYK" tints="0,0.7,0.3,0.02"></color>
+</cs>
+<cs name="TOYO 0521pc*" fixedID="521" version="1300">
+<color cs="CMYK" tints="0.02,0.48,0.57,0"></color>
+</cs>
+<cs name="TOYO 0522pc*" fixedID="522" version="1300">
+<color cs="CMYK" tints="0,0.42,0.65,0"></color>
+</cs>
+<cs name="TOYO 0523pc*" fixedID="523" version="1300">
+<color cs="CMYK" tints="0,0.27,0.65,0"></color>
+</cs>
+<cs name="TOYO 0524pc*" fixedID="524" version="1300">
+<color cs="CMYK" tints="0.12,0,0.77,0"></color>
+</cs>
+<cs name="TOYO 0525pc*" fixedID="525" version="1300">
+<color cs="CMYK" tints="0.55,0,0.85,0"></color>
+</cs>
+<cs name="TOYO 0526pc*" fixedID="526" version="1300">
+<color cs="CMYK" tints="0.97,0,0,0"></color>
+</cs>
+<cs name="TOYO 0527pc" fixedID="527" version="1300">
+<color cs="CMYK" tints="0.3,0.5,0.4,0"></color>
+</cs>
+<cs name="TOYO 0528pc" fixedID="528" version="1300">
+<color cs="CMYK" tints="0.1,0.35,0.2,0"></color>
+</cs>
+<cs name="TOYO 0529pc" fixedID="529" version="1300">
+<color cs="CMYK" tints="0.09,0.49,0.3,0"></color>
+</cs>
+<cs name="TOYO 0530pc" fixedID="530" version="1300">
+<color cs="CMYK" tints="0,0.55,0.3,0"></color>
+</cs>
+<cs name="TOYO 0531pc*" fixedID="531" version="1300">
+<color cs="CMYK" tints="0,0.58,0.61,0.01"></color>
+</cs>
+<cs name="TOYO 0532pc*" fixedID="532" version="1300">
+<color cs="CMYK" tints="0.02,0.51,0.57,0"></color>
+</cs>
+<cs name="TOYO 0533pc" fixedID="533" version="1300">
+<color cs="CMYK" tints="0,0.4,0.4,0"></color>
+</cs>
+<cs name="TOYO 0534pc*" fixedID="534" version="1300">
+<color cs="CMYK" tints="0.02,0.45,0.44,0"></color>
+</cs>
+<cs name="TOYO 0535pc" fixedID="535" version="1300">
+<color cs="CMYK" tints="0.17,0.48,0.51,0"></color>
+</cs>
+<cs name="TOYO 0536pc" fixedID="536" version="1300">
+<color cs="CMYK" tints="0.15,0.49,0.37,0"></color>
+</cs>
+<cs name="TOYO 0537pc" fixedID="537" version="1300">
+<color cs="CMYK" tints="0.1,0.23,0.1,0"></color>
+</cs>
+<cs name="TOYO 0538pc" fixedID="538" version="1300">
+<color cs="CMYK" tints="0.15,0.43,0.49,0"></color>
+</cs>
+<cs name="TOYO 0539pc" fixedID="539" version="1300">
+<color cs="CMYK" tints="0.03,0.37,0.5,0"></color>
+</cs>
+<cs name="TOYO 0540pc" fixedID="540" version="1300">
+<color cs="CMYK" tints="0.07,0.4,0.52,0"></color>
+</cs>
+<cs name="TOYO 0541pc" fixedID="541" version="1300">
+<color cs="CMYK" tints="0.01,0.32,0.35,0"></color>
+</cs>
+<cs name="TOYO 0542pc" fixedID="542" version="1300">
+<color cs="CMYK" tints="0.11,0.43,0.56,0"></color>
+</cs>
+<cs name="TOYO 0543pc" fixedID="543" version="1300">
+<color cs="CMYK" tints="0.17,0.34,0.51,0"></color>
+</cs>
+<cs name="TOYO 0544pc" fixedID="544" version="1300">
+<color cs="CMYK" tints="0.15,0.6,0.55,0"></color>
+</cs>
+<cs name="TOYO 0545pc" fixedID="545" version="1300">
+<color cs="CMYK" tints="0.58,0.61,0.54,0"></color>
+</cs>
+<cs name="TOYO 0546pc" fixedID="546" version="1300">
+<color cs="CMYK" tints="0.52,0.57,0.54,0"></color>
+</cs>
+<cs name="TOYO 0547pc" fixedID="547" version="1300">
+<color cs="CMYK" tints="0.4,0.5,0.49,0"></color>
+</cs>
+<cs name="TOYO 0548pc" fixedID="548" version="1300">
+<color cs="CMYK" tints="0.32,0.37,0.35,0"></color>
+</cs>
+<cs name="TOYO 0549pc" fixedID="549" version="1300">
+<color cs="CMYK" tints="0.3,0.27,0.26,0"></color>
+</cs>
+<cs name="TOYO 0550pc" fixedID="550" version="1300">
+<color cs="CMYK" tints="0.14,0.22,0.22,0"></color>
+</cs>
+<cs name="TOYO 0551pc" fixedID="551" version="1300">
+<color cs="CMYK" tints="0.22,0.21,0.26,0"></color>
+</cs>
+<cs name="TOYO 0552pc" fixedID="552" version="1300">
+<color cs="CMYK" tints="0.08,0.15,0.14,0"></color>
+</cs>
+<cs name="TOYO 0553pc" fixedID="553" version="1300">
+<color cs="CMYK" tints="0.07,0.13,0.11,0"></color>
+</cs>
+<cs name="TOYO 0554pc" fixedID="554" version="1300">
+<color cs="CMYK" tints="0.04,0.1,0.1,0"></color>
+</cs>
+<cs name="TOYO 0555pc" fixedID="555" version="1300">
+<color cs="CMYK" tints="0,0.15,0.05,0"></color>
+</cs>
+<cs name="TOYO 0556pc*" fixedID="556" version="1300">
+<color cs="CMYK" tints="0,0.18,0.11,0"></color>
+</cs>
+<cs name="TOYO 0557pc" fixedID="557" version="1300">
+<color cs="CMYK" tints="0,0.15,0.07,0"></color>
+</cs>
+<cs name="TOYO 0558pc" fixedID="558" version="1300">
+<color cs="CMYK" tints="0,0.13,0.07,0"></color>
+</cs>
+<cs name="TOYO 0559pc" fixedID="559" version="1300">
+<color cs="CMYK" tints="0,0.13,0.15,0"></color>
+</cs>
+<cs name="TOYO 0560pc" fixedID="560" version="1300">
+<color cs="CMYK" tints="0.05,0.18,0.17,0"></color>
+</cs>
+<cs name="TOYO 0561pc" fixedID="561" version="1300">
+<color cs="CMYK" tints="0.03,0.08,0.1,0"></color>
+</cs>
+<cs name="TOYO 0562pc" fixedID="562" version="1300">
+<color cs="CMYK" tints="0.01,0.08,0.1,0"></color>
+</cs>
+<cs name="TOYO 0563pc" fixedID="563" version="1300">
+<color cs="CMYK" tints="0,0.07,0.11,0"></color>
+</cs>
+<cs name="TOYO 0564pc" fixedID="564" version="1300">
+<color cs="CMYK" tints="0.03,0.15,0.2,0"></color>
+</cs>
+<cs name="TOYO 0565pc" fixedID="565" version="1300">
+<color cs="CMYK" tints="0,0.12,0.16,0"></color>
+</cs>
+<cs name="TOYO 0566pc" fixedID="566" version="1300">
+<color cs="CMYK" tints="0,0.12,0.21,0"></color>
+</cs>
+<cs name="TOYO 0567pc*" fixedID="567" version="1300">
+<color cs="CMYK" tints="0.03,0.11,0.26,0.01"></color>
+</cs>
+<cs name="TOYO 0568pc" fixedID="568" version="1300">
+<color cs="CMYK" tints="0,0.05,0.15,0"></color>
+</cs>
+<cs name="TOYO 0569pc" fixedID="569" version="1300">
+<color cs="CMYK" tints="0,0.19,0.29,0"></color>
+</cs>
+<cs name="TOYO 0570pc" fixedID="570" version="1300">
+<color cs="CMYK" tints="0,0.21,0.28,0"></color>
+</cs>
+<cs name="TOYO 0571pc" fixedID="571" version="1300">
+<color cs="CMYK" tints="0.02,0.25,0.29,0"></color>
+</cs>
+<cs name="TOYO 0572pc" fixedID="572" version="1300">
+<color cs="CMYK" tints="0.09,0.21,0.24,0"></color>
+</cs>
+<cs name="TOYO 0573pc" fixedID="573" version="1300">
+<color cs="CMYK" tints="0,0.15,0.3,0"></color>
+</cs>
+<cs name="TOYO 0574pc" fixedID="574" version="1300">
+<color cs="CMYK" tints="0,0.15,0.25,0"></color>
+</cs>
+<cs name="TOYO 0575pc" fixedID="575" version="1300">
+<color cs="CMYK" tints="0.11,0.23,0.4,0"></color>
+</cs>
+<cs name="TOYO 0576pc" fixedID="576" version="1300">
+<color cs="CMYK" tints="0.08,0.2,0.25,0"></color>
+</cs>
+<cs name="TOYO 0577pc" fixedID="577" version="1300">
+<color cs="CMYK" tints="0.05,0.15,0.21,0"></color>
+</cs>
+<cs name="TOYO 0578pc" fixedID="578" version="1300">
+<color cs="CMYK" tints="0.15,0.25,0.25,0"></color>
+</cs>
+<cs name="TOYO 0579pc" fixedID="579" version="1300">
+<color cs="CMYK" tints="0.1,0.23,0.28,0"></color>
+</cs>
+<cs name="TOYO 0580pc" fixedID="580" version="1300">
+<color cs="CMYK" tints="0.17,0.33,0.3,0"></color>
+</cs>
+<cs name="TOYO 0581pc" fixedID="581" version="1300">
+<color cs="CMYK" tints="0.05,0.35,0.55,0"></color>
+</cs>
+<cs name="TOYO 0582pc" fixedID="582" version="1300">
+<color cs="CMYK" tints="0.1,0.3,0.5,0"></color>
+</cs>
+<cs name="TOYO 0583pc" fixedID="583" version="1300">
+<color cs="CMYK" tints="0.15,0.4,0.55,0"></color>
+</cs>
+<cs name="TOYO 0584pc" fixedID="584" version="1300">
+<color cs="CMYK" tints="0.15,0.4,0.7,0"></color>
+</cs>
+<cs name="TOYO 0585pc" fixedID="585" version="1300">
+<color cs="CMYK" tints="0.2,0.33,0.5,0"></color>
+</cs>
+<cs name="TOYO 0586pc" fixedID="586" version="1300">
+<color cs="CMYK" tints="0.37,0.37,0.49,0"></color>
+</cs>
+<cs name="TOYO 0587pc" fixedID="587" version="1300">
+<color cs="CMYK" tints="0.42,0.45,0.61,0"></color>
+</cs>
+<cs name="TOYO 0588pc" fixedID="588" version="1300">
+<color cs="CMYK" tints="0.49,0.48,0.51,0"></color>
+</cs>
+<cs name="TOYO 0589pc" fixedID="589" version="1300">
+<color cs="CMYK" tints="0.3,0.26,0.35,0"></color>
+</cs>
+<cs name="TOYO 0590pc" fixedID="590" version="1300">
+<color cs="CMYK" tints="0.35,0.41,0.59,0"></color>
+</cs>
+<cs name="TOYO 0591pc" fixedID="591" version="1300">
+<color cs="CMYK" tints="0.3,0.2,0.25,0"></color>
+</cs>
+<cs name="TOYO 0592pc" fixedID="592" version="1300">
+<color cs="CMYK" tints="0.25,0.25,0.35,0"></color>
+</cs>
+<cs name="TOYO 0593pc" fixedID="593" version="1300">
+<color cs="CMYK" tints="0.12,0.25,0.51,0"></color>
+</cs>
+<cs name="TOYO 0594pc" fixedID="594" version="1300">
+<color cs="CMYK" tints="0.12,0.17,0.25,0"></color>
+</cs>
+<cs name="TOYO 0595pc" fixedID="595" version="1300">
+<color cs="CMYK" tints="0.22,0.2,0.25,0"></color>
+</cs>
+<cs name="TOYO 0596pc" fixedID="596" version="1300">
+<color cs="CMYK" tints="0.09,0.07,0.15,0"></color>
+</cs>
+<cs name="TOYO 0597pc" fixedID="597" version="1300">
+<color cs="CMYK" tints="0.1,0.09,0.2,0"></color>
+</cs>
+<cs name="TOYO 0598pc" fixedID="598" version="1300">
+<color cs="CMYK" tints="0.1,0.16,0.27,0"></color>
+</cs>
+<cs name="TOYO 0599pc" fixedID="599" version="1300">
+<color cs="CMYK" tints="0,0.03,0.24,0"></color>
+</cs>
+<cs name="TOYO 0600pc" fixedID="600" version="1300">
+<color cs="CMYK" tints="0,0.02,0.19,0"></color>
+</cs>
+<cs name="TOYO 0601pc" fixedID="601" version="1300">
+<color cs="CMYK" tints="0,0,0.19,0"></color>
+</cs>
+<cs name="TOYO 0602pc" fixedID="602" version="1300">
+<color cs="CMYK" tints="0,0,0.17,0"></color>
+</cs>
+<cs name="TOYO 0603pc" fixedID="603" version="1300">
+<color cs="CMYK" tints="0,0,0.16,0"></color>
+</cs>
+<cs name="TOYO 0604pc" fixedID="604" version="1300">
+<color cs="CMYK" tints="0.1,0.07,0.21,0"></color>
+</cs>
+<cs name="TOYO 0605pc" fixedID="605" version="1300">
+<color cs="CMYK" tints="0.03,0.04,0.35,0"></color>
+</cs>
+<cs name="TOYO 0606pc" fixedID="606" version="1300">
+<color cs="CMYK" tints="0.11,0.13,0.52,0"></color>
+</cs>
+<cs name="TOYO 0607pc" fixedID="607" version="1300">
+<color cs="CMYK" tints="0.14,0.07,0.5,0"></color>
+</cs>
+<cs name="TOYO 0608pc" fixedID="608" version="1300">
+<color cs="CMYK" tints="0.21,0.15,0.51,0"></color>
+</cs>
+<cs name="TOYO 0609pc" fixedID="609" version="1300">
+<color cs="CMYK" tints="0.47,0.3,0.63,0"></color>
+</cs>
+<cs name="TOYO 0610pc" fixedID="610" version="1300">
+<color cs="CMYK" tints="0.44,0.3,0.5,0"></color>
+</cs>
+<cs name="TOYO 0611pc" fixedID="611" version="1300">
+<color cs="CMYK" tints="0.35,0.24,0.35,0"></color>
+</cs>
+<cs name="TOYO 0612pc" fixedID="612" version="1300">
+<color cs="CMYK" tints="0.29,0.09,0.55,0"></color>
+</cs>
+<cs name="TOYO 0613pc" fixedID="613" version="1300">
+<color cs="CMYK" tints="0.25,0,0.55,0"></color>
+</cs>
+<cs name="TOYO 0614pc" fixedID="614" version="1300">
+<color cs="CMYK" tints="0.26,0,0.54,0"></color>
+</cs>
+<cs name="TOYO 0615pc" fixedID="615" version="1300">
+<color cs="CMYK" tints="0.39,0.08,0.54,0"></color>
+</cs>
+<cs name="TOYO 0616pc" fixedID="616" version="1300">
+<color cs="CMYK" tints="0.48,0.2,0.54,0"></color>
+</cs>
+<cs name="TOYO 0617pc" fixedID="617" version="1300">
+<color cs="CMYK" tints="0.25,0.08,0.37,0"></color>
+</cs>
+<cs name="TOYO 0618pc" fixedID="618" version="1300">
+<color cs="CMYK" tints="0.2,0.06,0.3,0"></color>
+</cs>
+<cs name="TOYO 0619pc" fixedID="619" version="1300">
+<color cs="CMYK" tints="0.17,0.1,0.18,0"></color>
+</cs>
+<cs name="TOYO 0620pc" fixedID="620" version="1300">
+<color cs="CMYK" tints="0.05,0,0.12,0"></color>
+</cs>
+<cs name="TOYO 0621pc" fixedID="621" version="1300">
+<color cs="CMYK" tints="0.05,0,0.2,0"></color>
+</cs>
+<cs name="TOYO 0622pc*" fixedID="622" version="1300">
+<color cs="CMYK" tints="0.11,0,0.25,0"></color>
+</cs>
+<cs name="TOYO 0623pc" fixedID="623" version="1300">
+<color cs="CMYK" tints="0.11,0,0.18,0"></color>
+</cs>
+<cs name="TOYO 0624pc*" fixedID="624" version="1300">
+<color cs="CMYK" tints="0.19,0,0.2,0"></color>
+</cs>
+<cs name="TOYO 0625pc*" fixedID="625" version="1300">
+<color cs="CMYK" tints="0.38,0,0.45,0"></color>
+</cs>
+<cs name="TOYO 0626pc*" fixedID="626" version="1300">
+<color cs="CMYK" tints="0.3,0,0.3,0"></color>
+</cs>
+<cs name="TOYO 0627pc" fixedID="627" version="1300">
+<color cs="CMYK" tints="0.08,0.02,0.09,0"></color>
+</cs>
+<cs name="TOYO 0628pc" fixedID="628" version="1300">
+<color cs="CMYK" tints="0.17,0.02,0.15,0"></color>
+</cs>
+<cs name="TOYO 0629pc" fixedID="629" version="1300">
+<color cs="CMYK" tints="0.22,0.06,0.16,0"></color>
+</cs>
+<cs name="TOYO 0630pc" fixedID="630" version="1300">
+<color cs="CMYK" tints="0.39,0.13,0.29,0"></color>
+</cs>
+<cs name="TOYO 0631pc" fixedID="631" version="1300">
+<color cs="CMYK" tints="0.45,0.12,0.3,0"></color>
+</cs>
+<cs name="TOYO 0632pc" fixedID="632" version="1300">
+<color cs="CMYK" tints="0.52,0.13,0.47,0"></color>
+</cs>
+<cs name="TOYO 0633pc" fixedID="633" version="1300">
+<color cs="CMYK" tints="0.63,0,0.55,0"></color>
+</cs>
+<cs name="TOYO 0634pc" fixedID="634" version="1300">
+<color cs="CMYK" tints="0.51,0.13,0.3,0"></color>
+</cs>
+<cs name="TOYO 0635pc" fixedID="635" version="1300">
+<color cs="CMYK" tints="0.6,0.1,0.51,0"></color>
+</cs>
+<cs name="TOYO 0636pc" fixedID="636" version="1300">
+<color cs="CMYK" tints="0.61,0.13,0.45,0"></color>
+</cs>
+<cs name="TOYO 0637pc" fixedID="637" version="1300">
+<color cs="CMYK" tints="0.68,0.1,0.38,0"></color>
+</cs>
+<cs name="TOYO 0638pc" fixedID="638" version="1300">
+<color cs="CMYK" tints="0.74,0.27,0.55,0"></color>
+</cs>
+<cs name="TOYO 0639pc" fixedID="639" version="1300">
+<color cs="CMYK" tints="0.8,0.17,0.55,0"></color>
+</cs>
+<cs name="TOYO 0640pc" fixedID="640" version="1300">
+<color cs="CMYK" tints="0.78,0.12,0.51,0"></color>
+</cs>
+<cs name="TOYO 0641pc" fixedID="641" version="1300">
+<color cs="CMYK" tints="0.8,0,0.5,0"></color>
+</cs>
+<cs name="TOYO 0642pc" fixedID="642" version="1300">
+<color cs="CMYK" tints="0.75,0.18,0.51,0"></color>
+</cs>
+<cs name="TOYO 0643pc" fixedID="643" version="1300">
+<color cs="CMYK" tints="0.75,0.1,0.45,0"></color>
+</cs>
+<cs name="TOYO 0644pc" fixedID="644" version="1300">
+<color cs="CMYK" tints="0.61,0.19,0.4,0"></color>
+</cs>
+<cs name="TOYO 0645pc" fixedID="645" version="1300">
+<color cs="CMYK" tints="0.63,0.02,0.45,0"></color>
+</cs>
+<cs name="TOYO 0646pc" fixedID="646" version="1300">
+<color cs="CMYK" tints="0.5,0,0.3,0"></color>
+</cs>
+<cs name="TOYO 0647pc" fixedID="647" version="1300">
+<color cs="CMYK" tints="0.58,0.03,0.26,0"></color>
+</cs>
+<cs name="TOYO 0648pc" fixedID="648" version="1300">
+<color cs="CMYK" tints="0.29,0.05,0.18,0"></color>
+</cs>
+<cs name="TOYO 0649pc" fixedID="649" version="1300">
+<color cs="CMYK" tints="0.4,0,0.2,0"></color>
+</cs>
+<cs name="TOYO 0650pc" fixedID="650" version="1300">
+<color cs="CMYK" tints="0.2,0,0.13,0"></color>
+</cs>
+<cs name="TOYO 0651pc" fixedID="651" version="1300">
+<color cs="CMYK" tints="0.15,0,0.1,0"></color>
+</cs>
+<cs name="TOYO 0652pc*" fixedID="652" version="1300">
+<color cs="CMYK" tints="0.25,0,0.16,0"></color>
+</cs>
+<cs name="TOYO 0653pc" fixedID="653" version="1300">
+<color cs="CMYK" tints="0.52,0.21,0.23,0"></color>
+</cs>
+<cs name="TOYO 0654pc" fixedID="654" version="1300">
+<color cs="CMYK" tints="0.4,0.21,0.21,0"></color>
+</cs>
+<cs name="TOYO 0655pc" fixedID="655" version="1300">
+<color cs="CMYK" tints="0.45,0,0.15,0"></color>
+</cs>
+<cs name="TOYO 0656pc" fixedID="656" version="1300">
+<color cs="CMYK" tints="0.75,0.03,0.35,0"></color>
+</cs>
+<cs name="TOYO 0657pc" fixedID="657" version="1300">
+<color cs="CMYK" tints="0.75,0.27,0.46,0"></color>
+</cs>
+<cs name="TOYO 0658pc" fixedID="658" version="1300">
+<color cs="CMYK" tints="0.8,0.2,0.39,0"></color>
+</cs>
+<cs name="TOYO 0659pc" fixedID="659" version="1300">
+<color cs="CMYK" tints="0.75,0.22,0.37,0"></color>
+</cs>
+<cs name="TOYO 0660pc" fixedID="660" version="1300">
+<color cs="CMYK" tints="0.75,0.38,0.3,0"></color>
+</cs>
+<cs name="TOYO 0661pc" fixedID="661" version="1300">
+<color cs="CMYK" tints="0.63,0.35,0.35,0"></color>
+</cs>
+<cs name="TOYO 0662pc" fixedID="662" version="1300">
+<color cs="CMYK" tints="0.44,0.07,0.19,0"></color>
+</cs>
+<cs name="TOYO 0663pc*" fixedID="663" version="1300">
+<color cs="CMYK" tints="0.28,0,0.1,0"></color>
+</cs>
+<cs name="TOYO 0664pc*" fixedID="664" version="1300">
+<color cs="CMYK" tints="0.42,0,0.15,0"></color>
+</cs>
+<cs name="TOYO 0665pc*" fixedID="665" version="1300">
+<color cs="CMYK" tints="0.45,0,0.15,0"></color>
+</cs>
+<cs name="TOYO 0666pc*" fixedID="666" version="1300">
+<color cs="CMYK" tints="0.6,0.03,0.17,0"></color>
+</cs>
+<cs name="TOYO 0667pc" fixedID="667" version="1300">
+<color cs="CMYK" tints="0.48,0.03,0.15,0"></color>
+</cs>
+<cs name="TOYO 0668pc" fixedID="668" version="1300">
+<color cs="CMYK" tints="0.64,0.1,0.21,0"></color>
+</cs>
+<cs name="TOYO 0669pc" fixedID="669" version="1300">
+<color cs="CMYK" tints="0.79,0.17,0.26,0"></color>
+</cs>
+<cs name="TOYO 0670pc" fixedID="670" version="1300">
+<color cs="CMYK" tints="0.9,0.35,0.4,0"></color>
+</cs>
+<cs name="TOYO 0671pc" fixedID="671" version="1300">
+<color cs="CMYK" tints="0.86,0.26,0.26,0"></color>
+</cs>
+<cs name="TOYO 0672pc" fixedID="672" version="1300">
+<color cs="CMYK" tints="0.75,0.25,0.2,0"></color>
+</cs>
+<cs name="TOYO 0673pc" fixedID="673" version="1300">
+<color cs="CMYK" tints="0.65,0.3,0.25,0"></color>
+</cs>
+<cs name="TOYO 0674pc" fixedID="674" version="1300">
+<color cs="CMYK" tints="0.49,0.07,0.15,0"></color>
+</cs>
+<cs name="TOYO 0675pc" fixedID="675" version="1300">
+<color cs="CMYK" tints="0.46,0.13,0.15,0"></color>
+</cs>
+<cs name="TOYO 0676pc" fixedID="676" version="1300">
+<color cs="CMYK" tints="0.24,0.05,0.12,0"></color>
+</cs>
+<cs name="TOYO 0677pc" fixedID="677" version="1300">
+<color cs="CMYK" tints="0.22,0.05,0.09,0"></color>
+</cs>
+<cs name="TOYO 0678pc" fixedID="678" version="1300">
+<color cs="CMYK" tints="0.41,0.15,0.15,0"></color>
+</cs>
+<cs name="TOYO 0679pc" fixedID="679" version="1300">
+<color cs="CMYK" tints="0.55,0.05,0.14,0"></color>
+</cs>
+<cs name="TOYO 0680pc" fixedID="680" version="1300">
+<color cs="CMYK" tints="0.7,0.25,0.2,0"></color>
+</cs>
+<cs name="TOYO 0681pc" fixedID="681" version="1300">
+<color cs="CMYK" tints="0.8,0.4,0.25,0"></color>
+</cs>
+<cs name="TOYO 0682pc" fixedID="682" version="1300">
+<color cs="CMYK" tints="0.75,0.25,0.2,0"></color>
+</cs>
+<cs name="TOYO 0683pc" fixedID="683" version="1300">
+<color cs="CMYK" tints="0.75,0.15,0.15,0"></color>
+</cs>
+<cs name="TOYO 0684pc" fixedID="684" version="1300">
+<color cs="CMYK" tints="0.83,0.25,0.19,0"></color>
+</cs>
+<cs name="TOYO 0685pc" fixedID="685" version="1300">
+<color cs="CMYK" tints="0.55,0.25,0.15,0"></color>
+</cs>
+<cs name="TOYO 0686pc" fixedID="686" version="1300">
+<color cs="CMYK" tints="0.59,0.19,0.14,0"></color>
+</cs>
+<cs name="TOYO 0687pc" fixedID="687" version="1300">
+<color cs="CMYK" tints="0.74,0.21,0.09,0"></color>
+</cs>
+<cs name="TOYO 0688pc" fixedID="688" version="1300">
+<color cs="CMYK" tints="0.7,0.37,0.22,0"></color>
+</cs>
+<cs name="TOYO 0689pc" fixedID="689" version="1300">
+<color cs="CMYK" tints="0.7,0.33,0.19,0"></color>
+</cs>
+<cs name="TOYO 0690pc" fixedID="690" version="1300">
+<color cs="CMYK" tints="0.59,0.2,0.1,0"></color>
+</cs>
+<cs name="TOYO 0691pc" fixedID="691" version="1300">
+<color cs="CMYK" tints="0.27,0,0.05,0"></color>
+</cs>
+<cs name="TOYO 0692pc" fixedID="692" version="1300">
+<color cs="CMYK" tints="0.25,0,0,0"></color>
+</cs>
+<cs name="TOYO 0693pc" fixedID="693" version="1300">
+<color cs="CMYK" tints="0.2,0.06,0.04,0"></color>
+</cs>
+<cs name="TOYO 0694pc" fixedID="694" version="1300">
+<color cs="CMYK" tints="0.15,0.07,0.05,0"></color>
+</cs>
+<cs name="TOYO 0695pc" fixedID="695" version="1300">
+<color cs="CMYK" tints="0.32,0.07,0.05,0"></color>
+</cs>
+<cs name="TOYO 0696pc" fixedID="696" version="1300">
+<color cs="CMYK" tints="0.3,0.09,0.05,0"></color>
+</cs>
+<cs name="TOYO 0697pc" fixedID="697" version="1300">
+<color cs="CMYK" tints="0.47,0.18,0.11,0"></color>
+</cs>
+<cs name="TOYO 0698pc" fixedID="698" version="1300">
+<color cs="CMYK" tints="0.54,0.2,0.1,0"></color>
+</cs>
+<cs name="TOYO 0699pc" fixedID="699" version="1300">
+<color cs="CMYK" tints="0.67,0.37,0.15,0"></color>
+</cs>
+<cs name="TOYO 0700pc" fixedID="700" version="1300">
+<color cs="CMYK" tints="0.81,0.5,0.22,0"></color>
+</cs>
+<cs name="TOYO 0701pc" fixedID="701" version="1300">
+<color cs="CMYK" tints="0.66,0.45,0.19,0"></color>
+</cs>
+<cs name="TOYO 0702pc" fixedID="702" version="1300">
+<color cs="CMYK" tints="0.7,0.51,0.25,0"></color>
+</cs>
+<cs name="TOYO 0703pc" fixedID="703" version="1300">
+<color cs="CMYK" tints="0.53,0.37,0.19,0"></color>
+</cs>
+<cs name="TOYO 0704pc" fixedID="704" version="1300">
+<color cs="CMYK" tints="0.27,0.15,0.06,0"></color>
+</cs>
+<cs name="TOYO 0705pc" fixedID="705" version="1300">
+<color cs="CMYK" tints="0.2,0.08,0.04,0"></color>
+</cs>
+<cs name="TOYO 0706pc" fixedID="706" version="1300">
+<color cs="CMYK" tints="0.15,0.06,0.02,0"></color>
+</cs>
+<cs name="TOYO 0707pc" fixedID="707" version="1300">
+<color cs="CMYK" tints="0.06,0.07,0.04,0"></color>
+</cs>
+<cs name="TOYO 0708pc" fixedID="708" version="1300">
+<color cs="CMYK" tints="0.09,0.09,0.06,0"></color>
+</cs>
+<cs name="TOYO 0709pc" fixedID="709" version="1300">
+<color cs="CMYK" tints="0.1,0.12,0.06,0"></color>
+</cs>
+<cs name="TOYO 0710pc" fixedID="710" version="1300">
+<color cs="CMYK" tints="0.11,0.12,0.01,0"></color>
+</cs>
+<cs name="TOYO 0711pc" fixedID="711" version="1300">
+<color cs="CMYK" tints="0.32,0.26,0.05,0"></color>
+</cs>
+<cs name="TOYO 0712pc" fixedID="712" version="1300">
+<color cs="CMYK" tints="0.66,0.57,0.12,0"></color>
+</cs>
+<cs name="TOYO 0713pc" fixedID="713" version="1300">
+<color cs="CMYK" tints="0.54,0.45,0.09,0"></color>
+</cs>
+<cs name="TOYO 0714pc" fixedID="714" version="1300">
+<color cs="CMYK" tints="0.53,0.53,0.16,0"></color>
+</cs>
+<cs name="TOYO 0715pc" fixedID="715" version="1300">
+<color cs="CMYK" tints="0.55,0.51,0.26,0"></color>
+</cs>
+<cs name="TOYO 0716pc" fixedID="716" version="1300">
+<color cs="CMYK" tints="0.6,0.6,0.35,0"></color>
+</cs>
+<cs name="TOYO 0717pc" fixedID="717" version="1300">
+<color cs="CMYK" tints="0.28,0.21,0.11,0"></color>
+</cs>
+<cs name="TOYO 0718pc" fixedID="718" version="1300">
+<color cs="CMYK" tints="0.25,0.25,0.03,0"></color>
+</cs>
+<cs name="TOYO 0719pc" fixedID="719" version="1300">
+<color cs="CMYK" tints="0.06,0.15,0.04,0"></color>
+</cs>
+<cs name="TOYO 0720pc" fixedID="720" version="1300">
+<color cs="CMYK" tints="0.05,0.13,0.01,0"></color>
+</cs>
+<cs name="TOYO 0721pc" fixedID="721" version="1300">
+<color cs="CMYK" tints="0,0.15,0.01,0"></color>
+</cs>
+<cs name="TOYO 0722pc" fixedID="722" version="1300">
+<color cs="CMYK" tints="0,0.1,0.02,0"></color>
+</cs>
+<cs name="TOYO 0723pc" fixedID="723" version="1300">
+<color cs="CMYK" tints="0,0.09,0.01,0"></color>
+</cs>
+<cs name="TOYO 0724pc*" fixedID="724" version="1300">
+<color cs="CMYK" tints="0.01,0.26,0.02,0"></color>
+</cs>
+<cs name="TOYO 0725pc" fixedID="725" version="1300">
+<color cs="CMYK" tints="0.33,0.33,0.08,0"></color>
+</cs>
+<cs name="TOYO 0726pc" fixedID="726" version="1300">
+<color cs="CMYK" tints="0.47,0.54,0.09,0"></color>
+</cs>
+<cs name="TOYO 0727pc" fixedID="727" version="1300">
+<color cs="CMYK" tints="0.35,0.64,0.02,0"></color>
+</cs>
+<cs name="TOYO 0728pc" fixedID="728" version="1300">
+<color cs="CMYK" tints="0.25,0.51,0.04,0"></color>
+</cs>
+<cs name="TOYO 0729pc" fixedID="729" version="1300">
+<color cs="CMYK" tints="0.1,0.58,0,0"></color>
+</cs>
+<cs name="TOYO 0730pc" fixedID="730" version="1300">
+<color cs="CMYK" tints="0.41,0.52,0.15,0"></color>
+</cs>
+<cs name="TOYO 0731pc" fixedID="731" version="1300">
+<color cs="CMYK" tints="0.35,0.57,0.2,0"></color>
+</cs>
+<cs name="TOYO 0732pc" fixedID="732" version="1300">
+<color cs="CMYK" tints="0.2,0.5,0.15,0"></color>
+</cs>
+<cs name="TOYO 0733pc" fixedID="733" version="1300">
+<color cs="CMYK" tints="0.22,0.19,0.11,0"></color>
+</cs>
+<cs name="TOYO 0734pc" fixedID="734" version="1300">
+<color cs="CMYK" tints="0.13,0.2,0.15,0"></color>
+</cs>
+<cs name="TOYO 0735pc" fixedID="735" version="1300">
+<color cs="CMYK" tints="0.08,0.13,0.09,0"></color>
+</cs>
+<cs name="TOYO 0736pc" fixedID="736" version="1300">
+<color cs="CMYK" tints="0.04,0.15,0.07,0"></color>
+</cs>
+<cs name="TOYO 0737pc" fixedID="737" version="1300">
+<color cs="CMYK" tints="0.02,0.4,0.04,0"></color>
+</cs>
+<cs name="TOYO 0738pc" fixedID="738" version="1300">
+<color cs="CMYK" tints="0.04,0.46,0.05,0"></color>
+</cs>
+<cs name="TOYO 0739pc" fixedID="739" version="1300">
+<color cs="CMYK" tints="0.11,0.43,0.09,0"></color>
+</cs>
+<cs name="TOYO 0740pc" fixedID="740" version="1300">
+<color cs="CMYK" tints="0.15,0.55,0.15,0"></color>
+</cs>
+<cs name="TOYO 0741pc" fixedID="741" version="1300">
+<color cs="CMYK" tints="0.11,0.5,0.2,0"></color>
+</cs>
+<cs name="TOYO 0742pc" fixedID="742" version="1300">
+<color cs="CMYK" tints="0.12,0.47,0.27,0"></color>
+</cs>
+<cs name="TOYO 0743pc" fixedID="743" version="1300">
+<color cs="CMYK" tints="0.1,0.3,0.15,0"></color>
+</cs>
+<cs name="TOYO 0744pc" fixedID="744" version="1300">
+<color cs="CMYK" tints="0.42,0.49,0.35,0"></color>
+</cs>
+<cs name="TOYO 0745pc" fixedID="745" version="1300">
+<color cs="CMYK" tints="0.5,0.55,0.4,0"></color>
+</cs>
+<cs name="TOYO 0746pc" fixedID="746" version="1300">
+<color cs="CMYK" tints="0.4,0.55,0.4,0"></color>
+</cs>
+<cs name="TOYO 0747pc" fixedID="747" version="1300">
+<color cs="CMYK" tints="0.42,0.41,0.26,0"></color>
+</cs>
+<cs name="TOYO 0748pc" fixedID="748" version="1300">
+<color cs="CMYK" tints="0,0.04,0.09,0"></color>
+</cs>
+<cs name="TOYO 0749pc" fixedID="749" version="1300">
+<color cs="CMYK" tints="0.02,0.05,0.1,0"></color>
+</cs>
+<cs name="TOYO 0750pc" fixedID="750" version="1300">
+<color cs="CMYK" tints="0.03,0.04,0.14,0"></color>
+</cs>
+<cs name="TOYO 0751pc" fixedID="751" version="1300">
+<color cs="CMYK" tints="0.07,0.03,0.05,0"></color>
+</cs>
+<cs name="TOYO 0752pc" fixedID="752" version="1300">
+<color cs="CMYK" tints="0.02,0.03,0.01,0"></color>
+</cs>
+<cs name="TOYO 0753pc" fixedID="753" version="1300">
+<color cs="CMYK" tints="0.1,0.06,0.09,0"></color>
+</cs>
+<cs name="TOYO 0754pc" fixedID="754" version="1300">
+<color cs="CMYK" tints="0.1,0.08,0.09,0"></color>
+</cs>
+<cs name="TOYO 0755pc" fixedID="755" version="1300">
+<color cs="CMYK" tints="0.11,0.13,0.08,0"></color>
+</cs>
+<cs name="TOYO 0756pc" fixedID="756" version="1300">
+<color cs="CMYK" tints="0.1,0.1,0.12,0"></color>
+</cs>
+<cs name="TOYO 0757pc" fixedID="757" version="1300">
+<color cs="CMYK" tints="0.11,0.06,0.12,0"></color>
+</cs>
+<cs name="TOYO 0758pc" fixedID="758" version="1300">
+<color cs="CMYK" tints="0.07,0,0.1,0"></color>
+</cs>
+<cs name="TOYO 0759pc" fixedID="759" version="1300">
+<color cs="CMYK" tints="0.12,0.06,0.16,0"></color>
+</cs>
+<cs name="TOYO 0760pc" fixedID="760" version="1300">
+<color cs="CMYK" tints="0.15,0.1,0.17,0"></color>
+</cs>
+<cs name="TOYO 0761pc" fixedID="761" version="1300">
+<color cs="CMYK" tints="0.14,0.08,0.13,0"></color>
+</cs>
+<cs name="TOYO 0762pc" fixedID="762" version="1300">
+<color cs="CMYK" tints="0.11,0.07,0.05,0"></color>
+</cs>
+<cs name="TOYO 0763pc" fixedID="763" version="1300">
+<color cs="CMYK" tints="0.13,0.1,0.12,0"></color>
+</cs>
+<cs name="TOYO 0764pc" fixedID="764" version="1300">
+<color cs="CMYK" tints="0.13,0.09,0.16,0"></color>
+</cs>
+<cs name="TOYO 0765pc" fixedID="765" version="1300">
+<color cs="CMYK" tints="0.24,0.12,0.16,0"></color>
+</cs>
+<cs name="TOYO 0766pc" fixedID="766" version="1300">
+<color cs="CMYK" tints="0.24,0.09,0.16,0"></color>
+</cs>
+<cs name="TOYO 0767pc" fixedID="767" version="1300">
+<color cs="CMYK" tints="0.15,0.18,0.17,0"></color>
+</cs>
+<cs name="TOYO 0768pc" fixedID="768" version="1300">
+<color cs="CMYK" tints="0.28,0.19,0.16,0"></color>
+</cs>
+<cs name="TOYO 0769pc" fixedID="769" version="1300">
+<color cs="CMYK" tints="0.23,0.12,0.14,0"></color>
+</cs>
+<cs name="TOYO 0770pc" fixedID="770" version="1300">
+<color cs="CMYK" tints="0.2,0.21,0.2,0"></color>
+</cs>
+<cs name="TOYO 0771pc" fixedID="771" version="1300">
+<color cs="CMYK" tints="0.25,0.18,0.14,0"></color>
+</cs>
+<cs name="TOYO 0772pc" fixedID="772" version="1300">
+<color cs="CMYK" tints="0.21,0.19,0.19,0"></color>
+</cs>
+<cs name="TOYO 0773pc" fixedID="773" version="1300">
+<color cs="CMYK" tints="0.26,0.2,0.19,0"></color>
+</cs>
+<cs name="TOYO 0774pc" fixedID="774" version="1300">
+<color cs="CMYK" tints="0.32,0.19,0.18,0"></color>
+</cs>
+<cs name="TOYO 0775pc" fixedID="775" version="1300">
+<color cs="CMYK" tints="0.36,0.2,0.19,0"></color>
+</cs>
+<cs name="TOYO 0776pc" fixedID="776" version="1300">
+<color cs="CMYK" tints="0.42,0.3,0.26,0"></color>
+</cs>
+<cs name="TOYO 0777pc" fixedID="777" version="1300">
+<color cs="CMYK" tints="0.38,0.25,0.15,0"></color>
+</cs>
+<cs name="TOYO 0778pc" fixedID="778" version="1300">
+<color cs="CMYK" tints="0.46,0.3,0.22,0"></color>
+</cs>
+<cs name="TOYO 0779pc" fixedID="779" version="1300">
+<color cs="CMYK" tints="0.37,0.29,0.25,0"></color>
+</cs>
+<cs name="TOYO 0780pc" fixedID="780" version="1300">
+<color cs="CMYK" tints="0.49,0.23,0.25,0"></color>
+</cs>
+<cs name="TOYO 0781pc" fixedID="781" version="1300">
+<color cs="CMYK" tints="0.47,0.25,0.22,0"></color>
+</cs>
+<cs name="TOYO 0782pc" fixedID="782" version="1300">
+<color cs="CMYK" tints="0.37,0.3,0.35,0"></color>
+</cs>
+<cs name="TOYO 0783pc" fixedID="783" version="1300">
+<color cs="CMYK" tints="0.38,0.35,0.3,0"></color>
+</cs>
+<cs name="TOYO 0784pc" fixedID="784" version="1300">
+<color cs="CMYK" tints="0.38,0.17,0.14,0"></color>
+</cs>
+<cs name="TOYO 0785pc" fixedID="785" version="1300">
+<color cs="CMYK" tints="0.39,0.26,0.19,0"></color>
+</cs>
+<cs name="TOYO 0786pc" fixedID="786" version="1300">
+<color cs="CMYK" tints="0.5,0.29,0.25,0"></color>
+</cs>
+<cs name="TOYO 0787pc" fixedID="787" version="1300">
+<color cs="CMYK" tints="0.49,0.35,0.26,0"></color>
+</cs>
+<cs name="TOYO 0788pc" fixedID="788" version="1300">
+<color cs="CMYK" tints="0.5,0.32,0.24,0"></color>
+</cs>
+<cs name="TOYO 0789pc" fixedID="789" version="1300">
+<color cs="CMYK" tints="0.5,0.45,0.4,0"></color>
+</cs>
+<cs name="TOYO 0790pc" fixedID="790" version="1300">
+<color cs="CMYK" tints="0.45,0.3,0.23,0"></color>
+</cs>
+<cs name="TOYO 0791pc" fixedID="791" version="1300">
+<color cs="CMYK" tints="0.55,0.3,0.28,0"></color>
+</cs>
+<cs name="TOYO 0792pc" fixedID="792" version="1300">
+<color cs="CMYK" tints="0.03,0,0.05,0.55"></color>
+</cs>
+<cs name="TOYO 0793pc" fixedID="793" version="1300">
+<color cs="CMYK" tints="0.1,0,0,0.58"></color>
+</cs>
+<cs name="TOYO 0794pc" fixedID="794" version="1300">
+<color cs="CMYK" tints="0.02,0.02,0.05,0.55"></color>
+</cs>
+<cs name="TOYO 0795pc" fixedID="795" version="1300">
+<color cs="CMYK" tints="0,0.11,0.22,0.63"></color>
+</cs>
+<cs name="TOYO 0796pc" fixedID="796" version="1300">
+<color cs="CMYK" tints="0,0,0.11,0.63"></color>
+</cs>
+<cs name="TOYO 0797pc" fixedID="797" version="1300">
+<color cs="CMYK" tints="0.6,0.54,0.53,0"></color>
+</cs>
+<cs name="TOYO 0798pc" fixedID="798" version="1300">
+<color cs="CMYK" tints="0.75,0.9,0.65,0"></color>
+</cs>
+<cs name="TOYO 0799pc" fixedID="799" version="1300">
+<color cs="CMYK" tints="0.86,1,0.71,0"></color>
+</cs>
+<cs name="TOYO 0800pc" fixedID="800" version="1300">
+<color cs="CMYK" tints="0,0.57,0.34,0.87"></color>
+</cs>
+<cs name="TOYO 0801pc" fixedID="801" version="1300">
+<color cs="CMYK" tints="0,0.66,0.34,0.87"></color>
+</cs>
+<cs name="TOYO 0802pc" fixedID="802" version="1300">
+<color cs="CMYK" tints="0.73,1,0.65,0"></color>
+</cs>
+<cs name="TOYO 0803pc" fixedID="803" version="1300">
+<color cs="CMYK" tints="0.58,1,0.6,0"></color>
+</cs>
+<cs name="TOYO 0804pc" fixedID="804" version="1300">
+<color cs="CMYK" tints="0.49,1,0.6,0"></color>
+</cs>
+<cs name="TOYO 0805pc" fixedID="805" version="1300">
+<color cs="CMYK" tints="0.35,0.9,0.55,0"></color>
+</cs>
+<cs name="TOYO 0806pc" fixedID="806" version="1300">
+<color cs="CMYK" tints="0.33,0.84,0.53,0"></color>
+</cs>
+<cs name="TOYO 0807pc" fixedID="807" version="1300">
+<color cs="CMYK" tints="0.61,1,0.65,0"></color>
+</cs>
+<cs name="TOYO 0808pc" fixedID="808" version="1300">
+<color cs="CMYK" tints="0.52,1,0.6,0"></color>
+</cs>
+<cs name="TOYO 0809pc" fixedID="809" version="1300">
+<color cs="CMYK" tints="0.23,1,0.75,0"></color>
+</cs>
+<cs name="TOYO 0810pc" fixedID="810" version="1300">
+<color cs="CMYK" tints="0.55,1,0.85,0"></color>
+</cs>
+<cs name="TOYO 0811pc" fixedID="811" version="1300">
+<color cs="CMYK" tints="0.35,0.95,0.75,0"></color>
+</cs>
+<cs name="TOYO 0812pc" fixedID="812" version="1300">
+<color cs="CMYK" tints="0.73,0.98,0.85,0"></color>
+</cs>
+<cs name="TOYO 0813pc" fixedID="813" version="1300">
+<color cs="CMYK" tints="0,0.41,0.47,0.78"></color>
+</cs>
+<cs name="TOYO 0814pc" fixedID="814" version="1300">
+<color cs="CMYK" tints="0,0.4,0.4,0.78"></color>
+</cs>
+<cs name="TOYO 0815pc" fixedID="815" version="1300">
+<color cs="CMYK" tints="0,0.51,0.52,0.83"></color>
+</cs>
+<cs name="TOYO 0816pc" fixedID="816" version="1300">
+<color cs="CMYK" tints="0,0.34,0.29,0.83"></color>
+</cs>
+<cs name="TOYO 0817pc" fixedID="817" version="1300">
+<color cs="CMYK" tints="0.55,0.6,0.5,0"></color>
+</cs>
+<cs name="TOYO 0818pc" fixedID="818" version="1300">
+<color cs="CMYK" tints="0,0.23,0.29,0.67"></color>
+</cs>
+<cs name="TOYO 0819pc" fixedID="819" version="1300">
+<color cs="CMYK" tints="0,0.23,0.23,0.83"></color>
+</cs>
+<cs name="TOYO 0820pc" fixedID="820" version="1300">
+<color cs="CMYK" tints="0,0.29,0.23,0.87"></color>
+</cs>
+<cs name="TOYO 0821pc" fixedID="821" version="1300">
+<color cs="CMYK" tints="0,0.5,0.5,0.77"></color>
+</cs>
+<cs name="TOYO 0822pc" fixedID="822" version="1300">
+<color cs="CMYK" tints="0.75,0.89,0.95,0"></color>
+</cs>
+<cs name="TOYO 0823pc" fixedID="823" version="1300">
+<color cs="CMYK" tints="0.6,0.71,0.62,0"></color>
+</cs>
+<cs name="TOYO 0824pc" fixedID="824" version="1300">
+<color cs="CMYK" tints="0.75,0.95,0.9,0"></color>
+</cs>
+<cs name="TOYO 0825pc" fixedID="825" version="1300">
+<color cs="CMYK" tints="0.75,0.95,0.8,0"></color>
+</cs>
+<cs name="TOYO 0826pc" fixedID="826" version="1300">
+<color cs="CMYK" tints="0.5,0.92,0.8,0"></color>
+</cs>
+<cs name="TOYO 0827pc" fixedID="827" version="1300">
+<color cs="CMYK" tints="0,0.57,0.67,0.85"></color>
+</cs>
+<cs name="TOYO 0828pc" fixedID="828" version="1300">
+<color cs="CMYK" tints="0.75,0.9,1,0"></color>
+</cs>
+<cs name="TOYO 0829pc" fixedID="829" version="1300">
+<color cs="CMYK" tints="0.6,0.72,0.73,0"></color>
+</cs>
+<cs name="TOYO 0830pc" fixedID="830" version="1300">
+<color cs="CMYK" tints="0.77,0.9,0.85,0"></color>
+</cs>
+<cs name="TOYO 0831pc" fixedID="831" version="1300">
+<color cs="CMYK" tints="0.38,0.95,0.88,0"></color>
+</cs>
+<cs name="TOYO 0832pc" fixedID="832" version="1300">
+<color cs="CMYK" tints="0.45,0.9,0.8,0"></color>
+</cs>
+<cs name="TOYO 0833pc" fixedID="833" version="1300">
+<color cs="CMYK" tints="0.47,0.9,0.82,0"></color>
+</cs>
+<cs name="TOYO 0834pc" fixedID="834" version="1300">
+<color cs="CMYK" tints="0.32,0.89,0.75,0"></color>
+</cs>
+<cs name="TOYO 0835pc" fixedID="835" version="1300">
+<color cs="CMYK" tints="0.39,0.68,0.61,0"></color>
+</cs>
+<cs name="TOYO 0836pc" fixedID="836" version="1300">
+<color cs="CMYK" tints="0.2,0.84,0.75,0"></color>
+</cs>
+<cs name="TOYO 0837pc" fixedID="837" version="1300">
+<color cs="CMYK" tints="0.5,0.9,0.95,0"></color>
+</cs>
+<cs name="TOYO 0838pc" fixedID="838" version="1300">
+<color cs="CMYK" tints="0.65,0.9,0.9,0"></color>
+</cs>
+<cs name="TOYO 0839pc" fixedID="839" version="1300">
+<color cs="CMYK" tints="0.5,0.9,1,0"></color>
+</cs>
+<cs name="TOYO 0840pc" fixedID="840" version="1300">
+<color cs="CMYK" tints="0.3,0.9,1,0"></color>
+</cs>
+<cs name="TOYO 0841pc" fixedID="841" version="1300">
+<color cs="CMYK" tints="0.3,0.8,0.9,0"></color>
+</cs>
+<cs name="TOYO 0842pc" fixedID="842" version="1300">
+<color cs="CMYK" tints="0.55,0.75,0.85,0"></color>
+</cs>
+<cs name="TOYO 0843pc" fixedID="843" version="1300">
+<color cs="CMYK" tints="0.55,0.77,1,0"></color>
+</cs>
+<cs name="TOYO 0844pc*" fixedID="844" version="1300">
+<color cs="CMYK" tints="0.5,0.67,0.88,0.02"></color>
+</cs>
+<cs name="TOYO 0845pc" fixedID="845" version="1300">
+<color cs="CMYK" tints="0.63,0.8,1,0"></color>
+</cs>
+<cs name="TOYO 0846pc" fixedID="846" version="1300">
+<color cs="CMYK" tints="0.5,0.7,1,0"></color>
+</cs>
+<cs name="TOYO 0847pc" fixedID="847" version="1300">
+<color cs="CMYK" tints="0.3,0.6,0.95,0"></color>
+</cs>
+<cs name="TOYO 0848pc" fixedID="848" version="1300">
+<color cs="CMYK" tints="0,0.2,0.6,0.75"></color>
+</cs>
+<cs name="TOYO 0849pc" fixedID="849" version="1300">
+<color cs="CMYK" tints="0,0.1,0.4,0.72"></color>
+</cs>
+<cs name="TOYO 0850pc" fixedID="850" version="1300">
+<color cs="CMYK" tints="0,0.15,0.38,0.73"></color>
+</cs>
+<cs name="TOYO 0851pc" fixedID="851" version="1300">
+<color cs="CMYK" tints="0.5,0.52,0.5,0"></color>
+</cs>
+<cs name="TOYO 0852pc" fixedID="852" version="1300">
+<color cs="CMYK" tints="0,0.25,0.4,0.87"></color>
+</cs>
+<cs name="TOYO 0853pc" fixedID="853" version="1300">
+<color cs="CMYK" tints="0.85,0.9,1,0"></color>
+</cs>
+<cs name="TOYO 0854pc" fixedID="854" version="1300">
+<color cs="CMYK" tints="0.8,0.85,1,0"></color>
+</cs>
+<cs name="TOYO 0855pc" fixedID="855" version="1300">
+<color cs="CMYK" tints="0.55,0.65,0.95,0"></color>
+</cs>
+<cs name="TOYO 0856pc" fixedID="856" version="1300">
+<color cs="CMYK" tints="0.57,0.57,1,0"></color>
+</cs>
+<cs name="TOYO 0857pc" fixedID="857" version="1300">
+<color cs="CMYK" tints="0.35,0.55,1,0"></color>
+</cs>
+<cs name="TOYO 0858pc" fixedID="858" version="1300">
+<color cs="CMYK" tints="0.3,0.45,1,0"></color>
+</cs>
+<cs name="TOYO 0859pc" fixedID="859" version="1300">
+<color cs="CMYK" tints="0.45,0.45,1,0"></color>
+</cs>
+<cs name="TOYO 0860pc" fixedID="860" version="1300">
+<color cs="CMYK" tints="0.48,0.46,0.74,0"></color>
+</cs>
+<cs name="TOYO 0861pc" fixedID="861" version="1300">
+<color cs="CMYK" tints="0.5,0.45,0.5,0"></color>
+</cs>
+<cs name="TOYO 0862pc" fixedID="862" version="1300">
+<color cs="CMYK" tints="0.55,0.5,0.55,0"></color>
+</cs>
+<cs name="TOYO 0863pc" fixedID="863" version="1300">
+<color cs="CMYK" tints="0.6,0.55,0.55,0"></color>
+</cs>
+<cs name="TOYO 0864pc" fixedID="864" version="1300">
+<color cs="CMYK" tints="0.6,0.6,0.8,0"></color>
+</cs>
+<cs name="TOYO 0865pc*" fixedID="865" version="1300">
+<color cs="CMYK" tints="0.63,0.58,1,0.07"></color>
+</cs>
+<cs name="TOYO 0866pc*" fixedID="866" version="1300">
+<color cs="CMYK" tints="0.6,0.58,1,0.03"></color>
+</cs>
+<cs name="TOYO 0867pc" fixedID="867" version="1300">
+<color cs="CMYK" tints="0.6,0.6,0.95,0"></color>
+</cs>
+<cs name="TOYO 0868pc" fixedID="868" version="1300">
+<color cs="CMYK" tints="0.65,0.65,0.75,0"></color>
+</cs>
+<cs name="TOYO 0869pc" fixedID="869" version="1300">
+<color cs="CMYK" tints="0.05,0.15,0.55,0.83"></color>
+</cs>
+<cs name="TOYO 0870pc" fixedID="870" version="1300">
+<color cs="CMYK" tints="0.75,0.65,0.8,0"></color>
+</cs>
+<cs name="TOYO 0871pc" fixedID="871" version="1300">
+<color cs="CMYK" tints="0.67,0.5,1,0"></color>
+</cs>
+<cs name="TOYO 0872pc" fixedID="872" version="1300">
+<color cs="CMYK" tints="0.67,0.37,1,0"></color>
+</cs>
+<cs name="TOYO 0873pc" fixedID="873" version="1300">
+<color cs="CMYK" tints="0.55,0.29,0.86,0"></color>
+</cs>
+<cs name="TOYO 0874pc" fixedID="874" version="1300">
+<color cs="CMYK" tints="0.59,0.4,0.57,0"></color>
+</cs>
+<cs name="TOYO 0875pc" fixedID="875" version="1300">
+<color cs="CMYK" tints="0.6,0.5,0.6,0"></color>
+</cs>
+<cs name="TOYO 0876pc" fixedID="876" version="1300">
+<color cs="CMYK" tints="0.75,0.45,0.95,0"></color>
+</cs>
+<cs name="TOYO 0877pc*" fixedID="877" version="1300">
+<color cs="CMYK" tints="0.72,0.45,1,0"></color>
+</cs>
+<cs name="TOYO 0878pc" fixedID="878" version="1300">
+<color cs="CMYK" tints="0.8,0.7,1,0"></color>
+</cs>
+<cs name="TOYO 0879pc" fixedID="879" version="1300">
+<color cs="CMYK" tints="0.85,0.7,0.95,0"></color>
+</cs>
+<cs name="TOYO 0880pc" fixedID="880" version="1300">
+<color cs="CMYK" tints="0.9,0.65,1,0"></color>
+</cs>
+<cs name="TOYO 0881pc" fixedID="881" version="1300">
+<color cs="CMYK" tints="0.87,0.48,0.97,0"></color>
+</cs>
+<cs name="TOYO 0882pc" fixedID="882" version="1300">
+<color cs="CMYK" tints="0.9,0.66,0.85,0"></color>
+</cs>
+<cs name="TOYO 0883pc" fixedID="883" version="1300">
+<color cs="CMYK" tints="0.95,0.58,0.81,0"></color>
+</cs>
+<cs name="TOYO 0884pc" fixedID="884" version="1300">
+<color cs="CMYK" tints="0.95,0.47,0.83,0"></color>
+</cs>
+<cs name="TOYO 0885pc" fixedID="885" version="1300">
+<color cs="CMYK" tints="0.5,0,0.45,0.68"></color>
+</cs>
+<cs name="TOYO 0886pc" fixedID="886" version="1300">
+<color cs="CMYK" tints="0.9,0.6,0.65,0"></color>
+</cs>
+<cs name="TOYO 0887pc" fixedID="887" version="1300">
+<color cs="CMYK" tints="0.86,0.4,0.54,0"></color>
+</cs>
+<cs name="TOYO 0888pc" fixedID="888" version="1300">
+<color cs="CMYK" tints="0.8,0.5,0.55,0"></color>
+</cs>
+<cs name="TOYO 0889pc" fixedID="889" version="1300">
+<color cs="CMYK" tints="0.4,0,0.3,0.7"></color>
+</cs>
+<cs name="TOYO 0890pc" fixedID="890" version="1300">
+<color cs="CMYK" tints="1,0.51,0.79,0"></color>
+</cs>
+<cs name="TOYO 0891pc" fixedID="891" version="1300">
+<color cs="CMYK" tints="1,0.54,0.84,0"></color>
+</cs>
+<cs name="TOYO 0892pc" fixedID="892" version="1300">
+<color cs="CMYK" tints="1,0.85,0.85,0"></color>
+</cs>
+<cs name="TOYO 0893pc" fixedID="893" version="1300">
+<color cs="CMYK" tints="0.9,0,0.6,0.8"></color>
+</cs>
+<cs name="TOYO 0894pc" fixedID="894" version="1300">
+<color cs="CMYK" tints="1,0.8,0.75,0"></color>
+</cs>
+<cs name="TOYO 0895pc" fixedID="895" version="1300">
+<color cs="CMYK" tints="1,0.4,0.7,0"></color>
+</cs>
+<cs name="TOYO 0896pc" fixedID="896" version="1300">
+<color cs="CMYK" tints="1,0.65,0.65,0"></color>
+</cs>
+<cs name="TOYO 0897pc" fixedID="897" version="1300">
+<color cs="CMYK" tints="1,0.35,0.6,0"></color>
+</cs>
+<cs name="TOYO 0898pc" fixedID="898" version="1300">
+<color cs="CMYK" tints="0.9,0.4,0.53,0"></color>
+</cs>
+<cs name="TOYO 0899pc" fixedID="899" version="1300">
+<color cs="CMYK" tints="0.9,0.45,0.54,0"></color>
+</cs>
+<cs name="TOYO 0900pc" fixedID="900" version="1300">
+<color cs="CMYK" tints="0.89,0.25,0.51,0"></color>
+</cs>
+<cs name="TOYO 0901pc" fixedID="901" version="1300">
+<color cs="CMYK" tints="0.9,0.65,0.55,0"></color>
+</cs>
+<cs name="TOYO 0902pc" fixedID="902" version="1300">
+<color cs="CMYK" tints="1,0.85,0.65,0"></color>
+</cs>
+<cs name="TOYO 0903pc" fixedID="903" version="1300">
+<color cs="CMYK" tints="1,0.95,0.75,0"></color>
+</cs>
+<cs name="TOYO 0904pc" fixedID="904" version="1300">
+<color cs="CMYK" tints="0.99,0.52,0.55,0"></color>
+</cs>
+<cs name="TOYO 0905pc" fixedID="905" version="1300">
+<color cs="CMYK" tints="0.95,0.55,0.5,0"></color>
+</cs>
+<cs name="TOYO 0906pc" fixedID="906" version="1300">
+<color cs="CMYK" tints="0.95,0.5,0.5,0"></color>
+</cs>
+<cs name="TOYO 0907pc" fixedID="907" version="1300">
+<color cs="CMYK" tints="0.95,0.47,0.5,0"></color>
+</cs>
+<cs name="TOYO 0908pc" fixedID="908" version="1300">
+<color cs="CMYK" tints="0.93,0.34,0.48,0"></color>
+</cs>
+<cs name="TOYO 0909pc" fixedID="909" version="1300">
+<color cs="CMYK" tints="0.9,0.6,0.5,0"></color>
+</cs>
+<cs name="TOYO 0910pc" fixedID="910" version="1300">
+<color cs="CMYK" tints="1,0.6,0.5,0"></color>
+</cs>
+<cs name="TOYO 0911pc" fixedID="911" version="1300">
+<color cs="CMYK" tints="1,0.9,0.65,0"></color>
+</cs>
+<cs name="TOYO 0912pc*" fixedID="912" version="1300">
+<color cs="CMYK" tints="1,0.65,0.38,0.07"></color>
+</cs>
+<cs name="TOYO 0913pc" fixedID="913" version="1300">
+<color cs="CMYK" tints="1,0.85,0.55,0"></color>
+</cs>
+<cs name="TOYO 0914pc*" fixedID="914" version="1300">
+<color cs="CMYK" tints="1,0.65,0.4,0"></color>
+</cs>
+<cs name="TOYO 0915pc*" fixedID="915" version="1300">
+<color cs="CMYK" tints="1,0.61,0.4,0"></color>
+</cs>
+<cs name="TOYO 0916pc" fixedID="916" version="1300">
+<color cs="CMYK" tints="1,0.7,0.4,0"></color>
+</cs>
+<cs name="TOYO 0917pc" fixedID="917" version="1300">
+<color cs="CMYK" tints="0.95,0.7,0.4,0"></color>
+</cs>
+<cs name="TOYO 0918pc" fixedID="918" version="1300">
+<color cs="CMYK" tints="1,0.75,0.4,0"></color>
+</cs>
+<cs name="TOYO 0919pc" fixedID="919" version="1300">
+<color cs="CMYK" tints="1,0.95,0.7,0"></color>
+</cs>
+<cs name="TOYO 0920pc" fixedID="920" version="1300">
+<color cs="CMYK" tints="0.86,0.45,0.38,0"></color>
+</cs>
+<cs name="TOYO 0921pc" fixedID="921" version="1300">
+<color cs="CMYK" tints="0.85,0.65,0.4,0"></color>
+</cs>
+<cs name="TOYO 0922pc" fixedID="922" version="1300">
+<color cs="CMYK" tints="0.9,0.75,0.45,0"></color>
+</cs>
+<cs name="TOYO 0923pc" fixedID="923" version="1300">
+<color cs="CMYK" tints="0.91,0.76,0.45,0"></color>
+</cs>
+<cs name="TOYO 0924pc" fixedID="924" version="1300">
+<color cs="CMYK" tints="0.77,0.05,0,0.91"></color>
+</cs>
+<cs name="TOYO 0925pc" fixedID="925" version="1300">
+<color cs="CMYK" tints="1,0.95,0.65,0"></color>
+</cs>
+<cs name="TOYO 0926pc" fixedID="926" version="1300">
+<color cs="CMYK" tints="1,0.8,0.35,0"></color>
+</cs>
+<cs name="TOYO 0927pc" fixedID="927" version="1300">
+<color cs="CMYK" tints="1,0.82,0.5,0"></color>
+</cs>
+<cs name="TOYO 0928pc" fixedID="928" version="1300">
+<color cs="CMYK" tints="1,0.77,0.4,0"></color>
+</cs>
+<cs name="TOYO 0929pc" fixedID="929" version="1300">
+<color cs="CMYK" tints="1,0.76,0.37,0"></color>
+</cs>
+<cs name="TOYO 0930pc*" fixedID="930" version="1300">
+<color cs="CMYK" tints="0.95,0.66,0.3,0.03"></color>
+</cs>
+<cs name="TOYO 0931pc" fixedID="931" version="1300">
+<color cs="CMYK" tints="0.99,0.8,0.18,0"></color>
+</cs>
+<cs name="TOYO 0932pc" fixedID="932" version="1300">
+<color cs="CMYK" tints="1,0.9,0.2,0"></color>
+</cs>
+<cs name="TOYO 0933pc" fixedID="933" version="1300">
+<color cs="CMYK" tints="1,0.88,0.11,0"></color>
+</cs>
+<cs name="TOYO 0934pc" fixedID="934" version="1300">
+<color cs="CMYK" tints="1,0.89,0.35,0"></color>
+</cs>
+<cs name="TOYO 0935pc" fixedID="935" version="1300">
+<color cs="CMYK" tints="0.94,0.73,0.28,0"></color>
+</cs>
+<cs name="TOYO 0936pc" fixedID="936" version="1300">
+<color cs="CMYK" tints="0.6,0.3,0,0.7"></color>
+</cs>
+<cs name="TOYO 0937pc" fixedID="937" version="1300">
+<color cs="CMYK" tints="0.9,0.35,0,0.82"></color>
+</cs>
+<cs name="TOYO 0938pc" fixedID="938" version="1300">
+<color cs="CMYK" tints="0.77,0.33,0,0.82"></color>
+</cs>
+<cs name="TOYO 0939pc" fixedID="939" version="1300">
+<color cs="CMYK" tints="0.77,0.41,0,0.77"></color>
+</cs>
+<cs name="TOYO 0940pc" fixedID="940" version="1300">
+<color cs="CMYK" tints="1,0.9,0.4,0"></color>
+</cs>
+<cs name="TOYO 0941pc" fixedID="941" version="1300">
+<color cs="CMYK" tints="0.95,0.9,0.35,0"></color>
+</cs>
+<cs name="TOYO 0942pc" fixedID="942" version="1300">
+<color cs="CMYK" tints="1,0.93,0.26,0"></color>
+</cs>
+<cs name="TOYO 0943pc" fixedID="943" version="1300">
+<color cs="CMYK" tints="0.95,0.95,0.5,0"></color>
+</cs>
+<cs name="TOYO 0944pc" fixedID="944" version="1300">
+<color cs="CMYK" tints="0.83,0.47,0,0.82"></color>
+</cs>
+<cs name="TOYO 0945pc" fixedID="945" version="1300">
+<color cs="CMYK" tints="0.8,0.43,0,0.87"></color>
+</cs>
+<cs name="TOYO 0946pc" fixedID="946" version="1300">
+<color cs="CMYK" tints="0.75,0.3,0,0.9"></color>
+</cs>
+<cs name="TOYO 0947pc" fixedID="947" version="1300">
+<color cs="CMYK" tints="0.73,0.57,0,0.83"></color>
+</cs>
+<cs name="TOYO 0948pc" fixedID="948" version="1300">
+<color cs="CMYK" tints="1,0.96,0.19,0"></color>
+</cs>
+<cs name="TOYO 0949pc" fixedID="949" version="1300">
+<color cs="CMYK" tints="0.89,0.81,0.29,0"></color>
+</cs>
+<cs name="TOYO 0950pc" fixedID="950" version="1300">
+<color cs="CMYK" tints="0.87,0.82,0.35,0"></color>
+</cs>
+<cs name="TOYO 0951pc" fixedID="951" version="1300">
+<color cs="CMYK" tints="0.47,0.47,0,0.87"></color>
+</cs>
+<cs name="TOYO 0952pc" fixedID="952" version="1300">
+<color cs="CMYK" tints="0.7,0.5,0,0.86"></color>
+</cs>
+<cs name="TOYO 0953pc" fixedID="953" version="1300">
+<color cs="CMYK" tints="0.91,0.94,0.26,0"></color>
+</cs>
+<cs name="TOYO 0954pc" fixedID="954" version="1300">
+<color cs="CMYK" tints="0.91,1,0.1,0"></color>
+</cs>
+<cs name="TOYO 0955pc" fixedID="955" version="1300">
+<color cs="CMYK" tints="0.4,0.3,0,0.73"></color>
+</cs>
+<cs name="TOYO 0956pc" fixedID="956" version="1300">
+<color cs="CMYK" tints="0.76,0.61,0.24,0"></color>
+</cs>
+<cs name="TOYO 0957pc" fixedID="957" version="1300">
+<color cs="CMYK" tints="0.78,0.64,0.21,0"></color>
+</cs>
+<cs name="TOYO 0958pc" fixedID="958" version="1300">
+<color cs="CMYK" tints="0.5,0.5,0,0.76"></color>
+</cs>
+<cs name="TOYO 0959pc" fixedID="959" version="1300">
+<color cs="CMYK" tints="0.9,0.97,0.3,0"></color>
+</cs>
+<cs name="TOYO 0960pc" fixedID="960" version="1300">
+<color cs="CMYK" tints="0.86,0.99,0.14,0"></color>
+</cs>
+<cs name="TOYO 0961pc" fixedID="961" version="1300">
+<color cs="CMYK" tints="0.86,0.94,0.35,0"></color>
+</cs>
+<cs name="TOYO 0962pc" fixedID="962" version="1300">
+<color cs="CMYK" tints="0.7,0.83,0,0.7"></color>
+</cs>
+<cs name="TOYO 0963pc" fixedID="963" version="1300">
+<color cs="CMYK" tints="0.4,0.5,0,0.76"></color>
+</cs>
+<cs name="TOYO 0964pc" fixedID="964" version="1300">
+<color cs="CMYK" tints="0.4,0.46,0,0.5"></color>
+</cs>
+<cs name="TOYO 0965pc" fixedID="965" version="1300">
+<color cs="CMYK" tints="0,0.4,0,0.5"></color>
+</cs>
+<cs name="TOYO 0966pc" fixedID="966" version="1300">
+<color cs="CMYK" tints="0.61,0.78,0.2,0"></color>
+</cs>
+<cs name="TOYO 0967pc" fixedID="967" version="1300">
+<color cs="CMYK" tints="0.69,0.86,0.19,0"></color>
+</cs>
+<cs name="TOYO 0968pc" fixedID="968" version="1300">
+<color cs="CMYK" tints="0.67,0.9,0.25,0"></color>
+</cs>
+<cs name="TOYO 0969pc" fixedID="969" version="1300">
+<color cs="CMYK" tints="0.4,0.8,0,0.74"></color>
+</cs>
+<cs name="TOYO 0970pc" fixedID="970" version="1300">
+<color cs="CMYK" tints="0.5,0.73,0,0.8"></color>
+</cs>
+<cs name="TOYO 0971pc" fixedID="971" version="1300">
+<color cs="CMYK" tints="0.76,0.94,0.23,0"></color>
+</cs>
+<cs name="TOYO 0972pc" fixedID="972" version="1300">
+<color cs="CMYK" tints="0.58,1,0.2,0"></color>
+</cs>
+<cs name="TOYO 0973pc" fixedID="973" version="1300">
+<color cs="CMYK" tints="0.48,1,0.16,0"></color>
+</cs>
+<cs name="TOYO 0974pc" fixedID="974" version="1300">
+<color cs="CMYK" tints="0.52,0.84,0.2,0"></color>
+</cs>
+<cs name="TOYO 0975pc" fixedID="975" version="1300">
+<color cs="CMYK" tints="0.64,0.86,0.45,0"></color>
+</cs>
+<cs name="TOYO 0976pc" fixedID="976" version="1300">
+<color cs="CMYK" tints="0.7,1,0.3,0"></color>
+</cs>
+<cs name="TOYO 0977pc" fixedID="977" version="1300">
+<color cs="CMYK" tints="0.13,0.73,0,0.87"></color>
+</cs>
+<cs name="TOYO 0978pc" fixedID="978" version="1300">
+<color cs="CMYK" tints="0.05,0.5,0,0.7"></color>
+</cs>
+<cs name="TOYO 0979pc" fixedID="979" version="1300">
+<color cs="CMYK" tints="0.42,0.68,0.19,0"></color>
+</cs>
+<cs name="TOYO 0980pc" fixedID="980" version="1300">
+<color cs="CMYK" tints="0.41,0.81,0.27,0"></color>
+</cs>
+<cs name="TOYO 0981pc*" fixedID="981" version="1300">
+<color cs="CMYK" tints="0.57,0.95,0.65,0.1"></color>
+</cs>
+<cs name="TOYO 0982pc*" fixedID="982" version="1300">
+<color cs="CMYK" tints="0.4,1,0.37,0.15"></color>
+</cs>
+<cs name="TOYO 0983pc*" fixedID="983" version="1300">
+<color cs="CMYK" tints="0.38,1,0.52,0.3"></color>
+</cs>
+<cs name="TOYO 0984pc" fixedID="984" version="1300">
+<color cs="CMYK" tints="0.4,0.74,0.46,0"></color>
+</cs>
+<cs name="TOYO 0985pc" fixedID="985" version="1300">
+<color cs="CMYK" tints="0.55,0.7,0.45,0"></color>
+</cs>
+<cs name="TOYO 0986pc" fixedID="986" version="1300">
+<color cs="CMYK" tints="0.65,0.8,0.55,0"></color>
+</cs>
+<cs name="TOYO 0987pc" fixedID="987" version="1300">
+<color cs="CMYK" tints="0.3,0.8,0.3,0"></color>
+</cs>
+<cs name="TOYO 0988pc" fixedID="988" version="1300">
+<color cs="CMYK" tints="0.6,0.45,0.4,0"></color>
+</cs>
+<cs name="TOYO 0989pc" fixedID="989" version="1300">
+<color cs="CMYK" tints="0.06,0.02,0.04,0.54"></color>
+</cs>
+<cs name="TOYO 0990pc" fixedID="990" version="1300">
+<color cs="CMYK" tints="0.2,0,0,0.54"></color>
+</cs>
+<cs name="TOYO 0991pc" fixedID="991" version="1300">
+<color cs="CMYK" tints="0.07,0,0.07,0.57"></color>
+</cs>
+<cs name="TOYO 0992pc" fixedID="992" version="1300">
+<color cs="CMYK" tints="0.7,0.65,0.7,0"></color>
+</cs>
+<cs name="TOYO 0993pc" fixedID="993" version="1300">
+<color cs="CMYK" tints="0.05,0.2,0.2,0.6"></color>
+</cs>
+<cs name="TOYO 0994pc" fixedID="994" version="1300">
+<color cs="CMYK" tints="0.1,0.07,0.07,0.6"></color>
+</cs>
+<cs name="TOYO 0995pc" fixedID="995" version="1300">
+<color cs="CMYK" tints="0.03,0.06,0.08,0.65"></color>
+</cs>
+<cs name="TOYO 0996pc" fixedID="996" version="1300">
+<color cs="CMYK" tints="0.05,0.05,0.08,0.65"></color>
+</cs>
+<cs name="TOYO 0997pc" fixedID="997" version="1300">
+<color cs="CMYK" tints="0.2,0,0.02,0.65"></color>
+</cs>
+<cs name="TOYO 0998pc" fixedID="998" version="1300">
+<color cs="CMYK" tints="0.23,0.06,0.04,0.72"></color>
+</cs>
+<cs name="TOYO 0999pc" fixedID="999" version="1300">
+<color cs="CMYK" tints="0.06,0,0.28,0.77"></color>
+</cs>
+<cs name="TOYO 1000pc" fixedID="1000" version="1300">
+<color cs="CMYK" tints="0.12,0.12,0,0.77"></color>
+</cs>
+<cs name="TOYO 1001pc" fixedID="1001" version="1300">
+<color cs="CMYK" tints="0.05,0.05,0.07,0.75"></color>
+</cs>
+<cs name="TOYO 1002pc" fixedID="1002" version="1300">
+<color cs="CMYK" tints="0,0.17,0.11,0.72"></color>
+</cs>
+<cs name="TOYO 1003pc" fixedID="1003" version="1300">
+<color cs="CMYK" tints="0,0.05,0.05,0.72"></color>
+</cs>
+<cs name="TOYO 1004pc" fixedID="1004" version="1300">
+<color cs="CMYK" tints="0,0.05,0.05,0.77"></color>
+</cs>
+<cs name="TOYO 1005pc" fixedID="1005" version="1300">
+<color cs="CMYK" tints="0.23,0.05,0,0.77"></color>
+</cs>
+<cs name="TOYO 1006pc" fixedID="1006" version="1300">
+<color cs="CMYK" tints="0,0.11,0.11,0.83"></color>
+</cs>
+<cs name="TOYO 1007pc" fixedID="1007" version="1300">
+<color cs="CMYK" tints="0,0.05,0.05,0.83"></color>
+</cs>
+<cs name="TOYO 1008pc" fixedID="1008" version="1300">
+<color cs="CMYK" tints="0.3,0.1,0,0.79"></color>
+</cs>
+<cs name="TOYO 1009pc" fixedID="1009" version="1300">
+<color cs="CMYK" tints="0,0.22,0.34,0.87"></color>
+</cs>
+<cs name="TOYO 1010pc" fixedID="1010" version="1300">
+<color cs="CMYK" tints="0.1,0,0.15,0.87"></color>
+</cs>
+<cs name="TOYO 1011pc" fixedID="1011" version="1300">
+<color cs="CMYK" tints="0.46,0,0.46,0.91"></color>
+</cs>
+<cs name="TOYO 1012pc" fixedID="1012" version="1300">
+<color cs="CMYK" tints="0.57,0,0.46,0.87"></color>
+</cs>
+<cs name="TOYO 1013pc" fixedID="1013" version="1300">
+<color cs="CMYK" tints="0,0.05,0.06,0.91"></color>
+</cs>
+<cs name="TOYO 1014pc" fixedID="1014" version="1300">
+<color cs="CMYK" tints="0,0.17,0.11,0.91"></color>
+</cs>
+<cs name="TOYO 1015pc" fixedID="1015" version="1300">
+<color cs="CMYK" tints="0.12,0.11,0,0.91"></color>
+</cs>
+<cs name="TOYO 1016pc" fixedID="1016" version="1300">
+<color cs="CMYK" tints="0.17,0.17,0,0.95"></color>
+</cs>
+<cs name="TOYO 1017pc" fixedID="1017" version="1300">
+<color cs="CMYK" tints="0.22,0,0.4,0.95"></color>
+</cs>
+<cs name="TOYO 1018pc" fixedID="1018" version="1300">
+<color cs="CMYK" tints="0,0.05,0.06,0.95"></color>
+</cs>
+<cs name="TOYO 1019pc" fixedID="1019" version="1300">
+<color cs="CMYK" tints="0,0.22,0.23,0.99"></color>
+</cs>
+<cs name="TOYO 1020pc" fixedID="1020" version="1300">
+<color cs="CMYK" tints="0,0,0.06,0.94"></color>
+</cs>
+<cs name="TOYO 1021pc*" fixedID="1021" version="1300">
+<color cs="CMYK" tints="0.97,0.92,0.91,0.35"></color>
+</cs>
+<cs name="TOYO 1022pc*" fixedID="1022" version="1300">
+<color cs="CMYK" tints="0.22,0.13,0.15,0"></color>
+</cs>
+<cs name="TOYO 1023pc*" fixedID="1023" version="1300">
+<color cs="CMYK" tints="0.22,0,0.16,0"></color>
+</cs>
+<cs name="TOYO 1024pc*" fixedID="1024" version="1300">
+<color cs="CMYK" tints="0,0.18,0.16,0"></color>
+</cs>
+<cs name="TOYO 1025pc*" fixedID="1025" version="1300">
+<color cs="CMYK" tints="0.05,0.1,0.21,0"></color>
+</cs>
+<cs name="TOYO 1026pc*" fixedID="1026" version="1300">
+<color cs="CMYK" tints="0.03,0.1,0.29,0.01"></color>
+</cs>
+<cs name="TOYO 1027pc*" fixedID="1027" version="1300">
+<color cs="CMYK" tints="0.32,0.38,0.32,0"></color>
+</cs>
+<cs name="TOYO 1028pc*" fixedID="1028" version="1300">
+<color cs="CMYK" tints="0.35,0.35,0.27,0"></color>
+</cs>
+<cs name="TOYO 1029pc*" fixedID="1029" version="1300">
+<color cs="CMYK" tints="0.3,0.2,0.48,0"></color>
+</cs>
+<cs name="TOYO 1030pc*" fixedID="1030" version="1300">
+<color cs="CMYK" tints="0.36,0.2,0.35,0"></color>
+</cs>
+<cs name="TOYO 1031pc*" fixedID="1031" version="1300">
+<color cs="CMYK" tints="0.45,0.25,0.35,0"></color>
+</cs>
+<cs name="TOYO 1032pc*" fixedID="1032" version="1300">
+<color cs="CMYK" tints="0.45,0.12,0.32,0"></color>
+</cs>
+<cs name="TOYO 1033pc*" fixedID="1033" version="1300">
+<color cs="CMYK" tints="0.46,0.28,0.28,0"></color>
+</cs>
+<cs name="TOYO 1034pc*" fixedID="1034" version="1300">
+<color cs="CMYK" tints="0.57,0.21,0.2,0"></color>
+</cs>
+<cs name="TOYO 1035pc*" fixedID="1035" version="1300">
+<color cs="CMYK" tints="0.52,0.21,0.2,0"></color>
+</cs>
+<cs name="TOYO 1036pc*" fixedID="1036" version="1300">
+<color cs="CMYK" tints="0.53,0.32,0.18,0"></color>
+</cs>
+<cs name="TOYO 1037pc*" fixedID="1037" version="1300">
+<color cs="CMYK" tints="0.46,0.25,0.1,0"></color>
+</cs>
+<cs name="TOYO 1038pc*" fixedID="1038" version="1300">
+<color cs="CMYK" tints="0.25,0.25,0.06,0"></color>
+</cs>
+<cs name="TOYO 1039pc*" fixedID="1039" version="1300">
+<color cs="CMYK" tints="0.3,0.45,0.15,0"></color>
+</cs>
+<cs name="TOYO 1040pc*" fixedID="1040" version="1300">
+<color cs="CMYK" tints="0.25,0.45,0.15,0"></color>
+</cs>
+<cs name="TOYO 1041pc*" fixedID="1041" version="1300">
+<color cs="CMYK" tints="0.1,0.55,0.06,0.12"></color>
+</cs>
+<cs name="TOYO 1042pc*" fixedID="1042" version="1300">
+<color cs="CMYK" tints="0.28,0.19,0.22,0"></color>
+</cs>
+<cs name="TOYO 1043pc*" fixedID="1043" version="1300">
+<color cs="CMYK" tints="0.28,0.15,0.11,0"></color>
+</cs>
+<cs name="TOYO 1044pc*" fixedID="1044" version="1300">
+<color cs="CMYK" tints="0.44,0.43,0.35,0"></color>
+</cs>
+<cs name="TOYO 1045pc*" fixedID="1045" version="1300">
+<color cs="CMYK" tints="0.44,0.43,0.35,0.02"></color>
+</cs>
+<cs name="TOYO 1046pc*" fixedID="1046" version="1300">
+<color cs="CMYK" tints="0.4,0.28,0.28,0"></color>
+</cs>
+<cs name="TOYO 1047pc*" fixedID="1047" version="1300">
+<color cs="CMYK" tints="0.42,0.35,0.3,0"></color>
+</cs>
+<cs name="TOYO 1048pc*" fixedID="1048" version="1300">
+<color cs="CMYK" tints="0.39,0.32,0.35,0"></color>
+</cs>
+<cs name="TOYO 1049pc*" fixedID="1049" version="1300">
+<color cs="CMYK" tints="0.3,0.36,0.55,0"></color>
+</cs>
+<cs name="TOYO 1050pc*" fixedID="1050" version="1300">
+<color cs="CMYK" tints="0.3,0.4,0.52,0"></color>
+</cs>
+</colorspaces>
+<colors>
+<page>
+<color name="TOYO 0001pc*" cs="TOYO 0001pc*"></color>
+<color name="TOYO 0002pc*" cs="TOYO 0002pc*"></color>
+<color name="TOYO 0003pc*" cs="TOYO 0003pc*"></color>
+<color name="TOYO 0004pc" cs="TOYO 0004pc"></color>
+<color name="TOYO 0005pc*" cs="TOYO 0005pc*"></color>
+<color name="TOYO 0006pc*" cs="TOYO 0006pc*"></color>
+<color name="TOYO 0007pc*" cs="TOYO 0007pc*"></color>
+<color name="TOYO 0008pc*" cs="TOYO 0008pc*"></color>
+<color name="TOYO 0009pc*" cs="TOYO 0009pc*"></color>
+<color name="TOYO 0010pc*" cs="TOYO 0010pc*"></color>
+<color name="TOYO 0011pc*" cs="TOYO 0011pc*"></color>
+<color name="TOYO 0012pc*" cs="TOYO 0012pc*"></color>
+<color name="TOYO 0013pc*" cs="TOYO 0013pc*"></color>
+<color name="TOYO 0014pc*" cs="TOYO 0014pc*"></color>
+<color name="TOYO 0015pc*" cs="TOYO 0015pc*"></color>
+<color name="TOYO 0016pc*" cs="TOYO 0016pc*"></color>
+<color name="TOYO 0017pc*" cs="TOYO 0017pc*"></color>
+<color name="TOYO 0018pc*" cs="TOYO 0018pc*"></color>
+<color name="TOYO 0019pc*" cs="TOYO 0019pc*"></color>
+<color name="TOYO 0020pc" cs="TOYO 0020pc"></color>
+<color name="TOYO 0021pc" cs="TOYO 0021pc"></color>
+<color name="TOYO 0022pc*" cs="TOYO 0022pc*"></color>
+<color name="TOYO 0023pc*" cs="TOYO 0023pc*"></color>
+<color name="TOYO 0024pc*" cs="TOYO 0024pc*"></color>
+<color name="TOYO 0025pc*" cs="TOYO 0025pc*"></color>
+<color name="TOYO 0026pc*" cs="TOYO 0026pc*"></color>
+<color name="TOYO 0027pc*" cs="TOYO 0027pc*"></color>
+<color name="TOYO 0028pc*" cs="TOYO 0028pc*"></color>
+<color name="TOYO 0029pc" cs="TOYO 0029pc"></color>
+<color name="TOYO 0030pc*" cs="TOYO 0030pc*"></color>
+<color name="TOYO 0031pc*" cs="TOYO 0031pc*"></color>
+<color name="TOYO 0032pc" cs="TOYO 0032pc"></color>
+<color name="TOYO 0033pc" cs="TOYO 0033pc"></color>
+<color name="TOYO 0034pc*" cs="TOYO 0034pc*"></color>
+<color name="TOYO 0035pc*" cs="TOYO 0035pc*"></color>
+<color name="TOYO 0036pc*" cs="TOYO 0036pc*"></color>
+<color name="TOYO 0037pc" cs="TOYO 0037pc"></color>
+<color name="TOYO 0038pc*" cs="TOYO 0038pc*"></color>
+<color name="TOYO 0039pc*" cs="TOYO 0039pc*"></color>
+<color name="TOYO 0040pc*" cs="TOYO 0040pc*"></color>
+<color name="TOYO 0041pc*" cs="TOYO 0041pc*"></color>
+<color name="TOYO 0042pc" cs="TOYO 0042pc"></color>
+<color name="TOYO 0043pc*" cs="TOYO 0043pc*"></color>
+<color name="TOYO 0044pc*" cs="TOYO 0044pc*"></color>
+<color name="TOYO 0045pc" cs="TOYO 0045pc"></color>
+<color name="TOYO 0046pc*" cs="TOYO 0046pc*"></color>
+<color name="TOYO 0047pc" cs="TOYO 0047pc"></color>
+<color name="TOYO 0048pc*" cs="TOYO 0048pc*"></color>
+<color name="TOYO 0049pc*" cs="TOYO 0049pc*"></color>
+<color name="TOYO 0050pc*" cs="TOYO 0050pc*"></color>
+<color name="TOYO 0051pc*" cs="TOYO 0051pc*"></color>
+<color name="TOYO 0052pc" cs="TOYO 0052pc"></color>
+<color name="TOYO 0053pc*" cs="TOYO 0053pc*"></color>
+<color name="TOYO 0054pc*" cs="TOYO 0054pc*"></color>
+<color name="TOYO 0055pc*" cs="TOYO 0055pc*"></color>
+<color name="TOYO 0056pc*" cs="TOYO 0056pc*"></color>
+<color name="TOYO 0057pc*" cs="TOYO 0057pc*"></color>
+<color name="TOYO 0058pc" cs="TOYO 0058pc"></color>
+<color name="TOYO 0059pc*" cs="TOYO 0059pc*"></color>
+<color name="TOYO 0060pc*" cs="TOYO 0060pc*"></color>
+<color name="TOYO 0061pc" cs="TOYO 0061pc"></color>
+<color name="TOYO 0062pc" cs="TOYO 0062pc"></color>
+<color name="TOYO 0063pc*" cs="TOYO 0063pc*"></color>
+<color name="TOYO 0064pc*" cs="TOYO 0064pc*"></color>
+<color name="TOYO 0065pc*" cs="TOYO 0065pc*"></color>
+<color name="TOYO 0066pc" cs="TOYO 0066pc"></color>
+<color name="TOYO 0067pc" cs="TOYO 0067pc"></color>
+<color name="TOYO 0068pc" cs="TOYO 0068pc"></color>
+<color name="TOYO 0069pc*" cs="TOYO 0069pc*"></color>
+<color name="TOYO 0070pc*" cs="TOYO 0070pc*"></color>
+<color name="TOYO 0071pc*" cs="TOYO 0071pc*"></color>
+<color name="TOYO 0072pc*" cs="TOYO 0072pc*"></color>
+<color name="TOYO 0073pc*" cs="TOYO 0073pc*"></color>
+<color name="TOYO 0074pc*" cs="TOYO 0074pc*"></color>
+<color name="TOYO 0075pc*" cs="TOYO 0075pc*"></color>
+<color name="TOYO 0076pc*" cs="TOYO 0076pc*"></color>
+<color name="TOYO 0077pc*" cs="TOYO 0077pc*"></color>
+<color name="TOYO 0078pc*" cs="TOYO 0078pc*"></color>
+<color name="TOYO 0079pc*" cs="TOYO 0079pc*"></color>
+<color name="TOYO 0080pc*" cs="TOYO 0080pc*"></color>
+<color name="TOYO 0081pc*" cs="TOYO 0081pc*"></color>
+<color name="TOYO 0082pc*" cs="TOYO 0082pc*"></color>
+<color name="TOYO 0083pc*" cs="TOYO 0083pc*"></color>
+<color name="TOYO 0084pc*" cs="TOYO 0084pc*"></color>
+<color name="TOYO 0085pc*" cs="TOYO 0085pc*"></color>
+<color name="TOYO 0086pc*" cs="TOYO 0086pc*"></color>
+<color name="TOYO 0087pc*" cs="TOYO 0087pc*"></color>
+<color name="TOYO 0088pc*" cs="TOYO 0088pc*"></color>
+<color name="TOYO 0089pc" cs="TOYO 0089pc"></color>
+<color name="TOYO 0090pc" cs="TOYO 0090pc"></color>
+<color name="TOYO 0091pc" cs="TOYO 0091pc"></color>
+<color name="TOYO 0092pc" cs="TOYO 0092pc"></color>
+<color name="TOYO 0093pc" cs="TOYO 0093pc"></color>
+<color name="TOYO 0094pc" cs="TOYO 0094pc"></color>
+<color name="TOYO 0095pc" cs="TOYO 0095pc"></color>
+<color name="TOYO 0096pc" cs="TOYO 0096pc"></color>
+<color name="TOYO 0097pc" cs="TOYO 0097pc"></color>
+<color name="TOYO 0098pc*" cs="TOYO 0098pc*"></color>
+<color name="TOYO 0099pc*" cs="TOYO 0099pc*"></color>
+<color name="TOYO 0100pc*" cs="TOYO 0100pc*"></color>
+<color name="TOYO 0101pc*" cs="TOYO 0101pc*"></color>
+<color name="TOYO 0102pc*" cs="TOYO 0102pc*"></color>
+<color name="TOYO 0103pc*" cs="TOYO 0103pc*"></color>
+<color name="TOYO 0104pc*" cs="TOYO 0104pc*"></color>
+<color name="TOYO 0105pc*" cs="TOYO 0105pc*"></color>
+<color name="TOYO 0106pc*" cs="TOYO 0106pc*"></color>
+<color name="TOYO 0107pc*" cs="TOYO 0107pc*"></color>
+<color name="TOYO 0108pc*" cs="TOYO 0108pc*"></color>
+<color name="TOYO 0109pc*" cs="TOYO 0109pc*"></color>
+<color name="TOYO 0110pc*" cs="TOYO 0110pc*"></color>
+<color name="TOYO 0111pc*" cs="TOYO 0111pc*"></color>
+<color name="TOYO 0112pc*" cs="TOYO 0112pc*"></color>
+<color name="TOYO 0113pc*" cs="TOYO 0113pc*"></color>
+<color name="TOYO 0114pc" cs="TOYO 0114pc"></color>
+<color name="TOYO 0115pc" cs="TOYO 0115pc"></color>
+<color name="TOYO 0116pc" cs="TOYO 0116pc"></color>
+<color name="TOYO 0117pc" cs="TOYO 0117pc"></color>
+<color name="TOYO 0118pc" cs="TOYO 0118pc"></color>
+<color name="TOYO 0119pc*" cs="TOYO 0119pc*"></color>
+<color name="TOYO 0120pc*" cs="TOYO 0120pc*"></color>
+<color name="TOYO 0121pc" cs="TOYO 0121pc"></color>
+<color name="TOYO 0122pc*" cs="TOYO 0122pc*"></color>
+<color name="TOYO 0123pc" cs="TOYO 0123pc"></color>
+<color name="TOYO 0124pc" cs="TOYO 0124pc"></color>
+<color name="TOYO 0125pc*" cs="TOYO 0125pc*"></color>
+<color name="TOYO 0126pc*" cs="TOYO 0126pc*"></color>
+<color name="TOYO 0127pc*" cs="TOYO 0127pc*"></color>
+<color name="TOYO 0128pc*" cs="TOYO 0128pc*"></color>
+<color name="TOYO 0129pc*" cs="TOYO 0129pc*"></color>
+<color name="TOYO 0130pc*" cs="TOYO 0130pc*"></color>
+<color name="TOYO 0131pc*" cs="TOYO 0131pc*"></color>
+<color name="TOYO 0132pc*" cs="TOYO 0132pc*"></color>
+<color name="TOYO 0133pc*" cs="TOYO 0133pc*"></color>
+<color name="TOYO 0134pc*" cs="TOYO 0134pc*"></color>
+<color name="TOYO 0135pc*" cs="TOYO 0135pc*"></color>
+<color name="TOYO 0136pc*" cs="TOYO 0136pc*"></color>
+<color name="TOYO 0137pc*" cs="TOYO 0137pc*"></color>
+<color name="TOYO 0138pc*" cs="TOYO 0138pc*"></color>
+<color name="TOYO 0139pc*" cs="TOYO 0139pc*"></color>
+<color name="TOYO 0140pc" cs="TOYO 0140pc"></color>
+<color name="TOYO 0141pc" cs="TOYO 0141pc"></color>
+<color name="TOYO 0142pc*" cs="TOYO 0142pc*"></color>
+<color name="TOYO 0143pc*" cs="TOYO 0143pc*"></color>
+<color name="TOYO 0144pc*" cs="TOYO 0144pc*"></color>
+<color name="TOYO 0145pc*" cs="TOYO 0145pc*"></color>
+<color name="TOYO 0146pc*" cs="TOYO 0146pc*"></color>
+<color name="TOYO 0147pc*" cs="TOYO 0147pc*"></color>
+<color name="TOYO 0148pc*" cs="TOYO 0148pc*"></color>
+<color name="TOYO 0149pc*" cs="TOYO 0149pc*"></color>
+<color name="TOYO 0150pc*" cs="TOYO 0150pc*"></color>
+<color name="TOYO 0151pc*" cs="TOYO 0151pc*"></color>
+<color name="TOYO 0152pc" cs="TOYO 0152pc"></color>
+<color name="TOYO 0153pc*" cs="TOYO 0153pc*"></color>
+<color name="TOYO 0154pc*" cs="TOYO 0154pc*"></color>
+<color name="TOYO 0155pc*" cs="TOYO 0155pc*"></color>
+<color name="TOYO 0156pc" cs="TOYO 0156pc"></color>
+<color name="TOYO 0157pc" cs="TOYO 0157pc"></color>
+<color name="TOYO 0158pc" cs="TOYO 0158pc"></color>
+<color name="TOYO 0159pc" cs="TOYO 0159pc"></color>
+<color name="TOYO 0160pc" cs="TOYO 0160pc"></color>
+<color name="TOYO 0161pc*" cs="TOYO 0161pc*"></color>
+<color name="TOYO 0162pc*" cs="TOYO 0162pc*"></color>
+<color name="TOYO 0163pc*" cs="TOYO 0163pc*"></color>
+<color name="TOYO 0164pc*" cs="TOYO 0164pc*"></color>
+<color name="TOYO 0165pc*" cs="TOYO 0165pc*"></color>
+<color name="TOYO 0166pc" cs="TOYO 0166pc"></color>
+<color name="TOYO 0167pc" cs="TOYO 0167pc"></color>
+<color name="TOYO 0168pc*" cs="TOYO 0168pc*"></color>
+<color name="TOYO 0169pc*" cs="TOYO 0169pc*"></color>
+<color name="TOYO 0170pc*" cs="TOYO 0170pc*"></color>
+<color name="TOYO 0171pc*" cs="TOYO 0171pc*"></color>
+<color name="TOYO 0172pc*" cs="TOYO 0172pc*"></color>
+<color name="TOYO 0173pc*" cs="TOYO 0173pc*"></color>
+<color name="TOYO 0174pc*" cs="TOYO 0174pc*"></color>
+<color name="TOYO 0175pc*" cs="TOYO 0175pc*"></color>
+<color name="TOYO 0176pc*" cs="TOYO 0176pc*"></color>
+<color name="TOYO 0177pc*" cs="TOYO 0177pc*"></color>
+<color name="TOYO 0178pc*" cs="TOYO 0178pc*"></color>
+<color name="TOYO 0179pc" cs="TOYO 0179pc"></color>
+<color name="TOYO 0180pc*" cs="TOYO 0180pc*"></color>
+<color name="TOYO 0181pc" cs="TOYO 0181pc"></color>
+<color name="TOYO 0182pc" cs="TOYO 0182pc"></color>
+<color name="TOYO 0183pc*" cs="TOYO 0183pc*"></color>
+<color name="TOYO 0184pc*" cs="TOYO 0184pc*"></color>
+<color name="TOYO 0185pc" cs="TOYO 0185pc"></color>
+<color name="TOYO 0186pc" cs="TOYO 0186pc"></color>
+<color name="TOYO 0187pc*" cs="TOYO 0187pc*"></color>
+<color name="TOYO 0188pc*" cs="TOYO 0188pc*"></color>
+<color name="TOYO 0189pc*" cs="TOYO 0189pc*"></color>
+<color name="TOYO 0190pc*" cs="TOYO 0190pc*"></color>
+<color name="TOYO 0191pc*" cs="TOYO 0191pc*"></color>
+<color name="TOYO 0192pc*" cs="TOYO 0192pc*"></color>
+<color name="TOYO 0193pc" cs="TOYO 0193pc"></color>
+<color name="TOYO 0194pc" cs="TOYO 0194pc"></color>
+<color name="TOYO 0195pc" cs="TOYO 0195pc"></color>
+<color name="TOYO 0196pc" cs="TOYO 0196pc"></color>
+<color name="TOYO 0197pc" cs="TOYO 0197pc"></color>
+<color name="TOYO 0198pc" cs="TOYO 0198pc"></color>
+<color name="TOYO 0199pc" cs="TOYO 0199pc"></color>
+<color name="TOYO 0200pc*" cs="TOYO 0200pc*"></color>
+<color name="TOYO 0201pc*" cs="TOYO 0201pc*"></color>
+<color name="TOYO 0202pc" cs="TOYO 0202pc"></color>
+<color name="TOYO 0203pc*" cs="TOYO 0203pc*"></color>
+<color name="TOYO 0204pc" cs="TOYO 0204pc"></color>
+<color name="TOYO 0205pc" cs="TOYO 0205pc"></color>
+<color name="TOYO 0206pc" cs="TOYO 0206pc"></color>
+<color name="TOYO 0207pc*" cs="TOYO 0207pc*"></color>
+<color name="TOYO 0208pc*" cs="TOYO 0208pc*"></color>
+<color name="TOYO 0209pc*" cs="TOYO 0209pc*"></color>
+<color name="TOYO 0210pc*" cs="TOYO 0210pc*"></color>
+<color name="TOYO 0211pc" cs="TOYO 0211pc"></color>
+<color name="TOYO 0212pc*" cs="TOYO 0212pc*"></color>
+<color name="TOYO 0213pc" cs="TOYO 0213pc"></color>
+<color name="TOYO 0214pc*" cs="TOYO 0214pc*"></color>
+<color name="TOYO 0215pc" cs="TOYO 0215pc"></color>
+<color name="TOYO 0216pc*" cs="TOYO 0216pc*"></color>
+<color name="TOYO 0217pc" cs="TOYO 0217pc"></color>
+<color name="TOYO 0218pc" cs="TOYO 0218pc"></color>
+<color name="TOYO 0219pc" cs="TOYO 0219pc"></color>
+<color name="TOYO 0220pc" cs="TOYO 0220pc"></color>
+<color name="TOYO 0221pc*" cs="TOYO 0221pc*"></color>
+<color name="TOYO 0222pc*" cs="TOYO 0222pc*"></color>
+<color name="TOYO 0223pc*" cs="TOYO 0223pc*"></color>
+<color name="TOYO 0224pc*" cs="TOYO 0224pc*"></color>
+<color name="TOYO 0225pc*" cs="TOYO 0225pc*"></color>
+<color name="TOYO 0226pc*" cs="TOYO 0226pc*"></color>
+<color name="TOYO 0227pc*" cs="TOYO 0227pc*"></color>
+<color name="TOYO 0228pc*" cs="TOYO 0228pc*"></color>
+<color name="TOYO 0229pc*" cs="TOYO 0229pc*"></color>
+<color name="TOYO 0230pc*" cs="TOYO 0230pc*"></color>
+<color name="TOYO 0231pc*" cs="TOYO 0231pc*"></color>
+<color name="TOYO 0232pc*" cs="TOYO 0232pc*"></color>
+<color name="TOYO 0233pc" cs="TOYO 0233pc"></color>
+<color name="TOYO 0234pc" cs="TOYO 0234pc"></color>
+<color name="TOYO 0235pc" cs="TOYO 0235pc"></color>
+<color name="TOYO 0236pc" cs="TOYO 0236pc"></color>
+<color name="TOYO 0237pc*" cs="TOYO 0237pc*"></color>
+<color name="TOYO 0238pc*" cs="TOYO 0238pc*"></color>
+<color name="TOYO 0239pc*" cs="TOYO 0239pc*"></color>
+<color name="TOYO 0240pc*" cs="TOYO 0240pc*"></color>
+<color name="TOYO 0241pc*" cs="TOYO 0241pc*"></color>
+<color name="TOYO 0242pc*" cs="TOYO 0242pc*"></color>
+<color name="TOYO 0243pc*" cs="TOYO 0243pc*"></color>
+<color name="TOYO 0244pc*" cs="TOYO 0244pc*"></color>
+<color name="TOYO 0245pc*" cs="TOYO 0245pc*"></color>
+<color name="TOYO 0246pc*" cs="TOYO 0246pc*"></color>
+<color name="TOYO 0247pc" cs="TOYO 0247pc"></color>
+<color name="TOYO 0248pc*" cs="TOYO 0248pc*"></color>
+<color name="TOYO 0249pc*" cs="TOYO 0249pc*"></color>
+<color name="TOYO 0250pc*" cs="TOYO 0250pc*"></color>
+<color name="TOYO 0251pc*" cs="TOYO 0251pc*"></color>
+<color name="TOYO 0252pc*" cs="TOYO 0252pc*"></color>
+<color name="TOYO 0253pc" cs="TOYO 0253pc"></color>
+<color name="TOYO 0254pc" cs="TOYO 0254pc"></color>
+<color name="TOYO 0255pc" cs="TOYO 0255pc"></color>
+<color name="TOYO 0256pc" cs="TOYO 0256pc"></color>
+<color name="TOYO 0257pc" cs="TOYO 0257pc"></color>
+<color name="TOYO 0258pc*" cs="TOYO 0258pc*"></color>
+<color name="TOYO 0259pc*" cs="TOYO 0259pc*"></color>
+<color name="TOYO 0260pc*" cs="TOYO 0260pc*"></color>
+<color name="TOYO 0261pc*" cs="TOYO 0261pc*"></color>
+<color name="TOYO 0262pc" cs="TOYO 0262pc"></color>
+<color name="TOYO 0263pc" cs="TOYO 0263pc"></color>
+<color name="TOYO 0264pc" cs="TOYO 0264pc"></color>
+<color name="TOYO 0265pc" cs="TOYO 0265pc"></color>
+<color name="TOYO 0266pc*" cs="TOYO 0266pc*"></color>
+<color name="TOYO 0267pc" cs="TOYO 0267pc"></color>
+<color name="TOYO 0268pc*" cs="TOYO 0268pc*"></color>
+<color name="TOYO 0269pc*" cs="TOYO 0269pc*"></color>
+<color name="TOYO 0270pc*" cs="TOYO 0270pc*"></color>
+<color name="TOYO 0271pc*" cs="TOYO 0271pc*"></color>
+<color name="TOYO 0272pc*" cs="TOYO 0272pc*"></color>
+<color name="TOYO 0273pc*" cs="TOYO 0273pc*"></color>
+<color name="TOYO 0274pc*" cs="TOYO 0274pc*"></color>
+<color name="TOYO 0275pc" cs="TOYO 0275pc"></color>
+<color name="TOYO 0276pc" cs="TOYO 0276pc"></color>
+<color name="TOYO 0277pc*" cs="TOYO 0277pc*"></color>
+<color name="TOYO 0278pc*" cs="TOYO 0278pc*"></color>
+<color name="TOYO 0279pc*" cs="TOYO 0279pc*"></color>
+<color name="TOYO 0280pc*" cs="TOYO 0280pc*"></color>
+<color name="TOYO 0281pc*" cs="TOYO 0281pc*"></color>
+<color name="TOYO 0282pc*" cs="TOYO 0282pc*"></color>
+<color name="TOYO 0283pc" cs="TOYO 0283pc"></color>
+<color name="TOYO 0284pc" cs="TOYO 0284pc"></color>
+<color name="TOYO 0285pc*" cs="TOYO 0285pc*"></color>
+<color name="TOYO 0286pc" cs="TOYO 0286pc"></color>
+<color name="TOYO 0287pc" cs="TOYO 0287pc"></color>
+<color name="TOYO 0288pc*" cs="TOYO 0288pc*"></color>
+<color name="TOYO 0289pc*" cs="TOYO 0289pc*"></color>
+<color name="TOYO 0290pc*" cs="TOYO 0290pc*"></color>
+<color name="TOYO 0291pc*" cs="TOYO 0291pc*"></color>
+<color name="TOYO 0292pc*" cs="TOYO 0292pc*"></color>
+<color name="TOYO 0293pc*" cs="TOYO 0293pc*"></color>
+<color name="TOYO 0294pc" cs="TOYO 0294pc"></color>
+<color name="TOYO 0295pc*" cs="TOYO 0295pc*"></color>
+<color name="TOYO 0296pc" cs="TOYO 0296pc"></color>
+<color name="TOYO 0297pc*" cs="TOYO 0297pc*"></color>
+<color name="TOYO 0298pc" cs="TOYO 0298pc"></color>
+<color name="TOYO 0299pc" cs="TOYO 0299pc"></color>
+<color name="TOYO 0300pc" cs="TOYO 0300pc"></color>
+<color name="TOYO 0301pc*" cs="TOYO 0301pc*"></color>
+<color name="TOYO 0302pc*" cs="TOYO 0302pc*"></color>
+<color name="TOYO 0303pc*" cs="TOYO 0303pc*"></color>
+<color name="TOYO 0304pc*" cs="TOYO 0304pc*"></color>
+<color name="TOYO 0305pc*" cs="TOYO 0305pc*"></color>
+<color name="TOYO 0306pc*" cs="TOYO 0306pc*"></color>
+<color name="TOYO 0307pc*" cs="TOYO 0307pc*"></color>
+<color name="TOYO 0308pc*" cs="TOYO 0308pc*"></color>
+<color name="TOYO 0309pc*" cs="TOYO 0309pc*"></color>
+<color name="TOYO 0310pc*" cs="TOYO 0310pc*"></color>
+<color name="TOYO 0311pc" cs="TOYO 0311pc"></color>
+<color name="TOYO 0312pc" cs="TOYO 0312pc"></color>
+<color name="TOYO 0313pc*" cs="TOYO 0313pc*"></color>
+<color name="TOYO 0314pc*" cs="TOYO 0314pc*"></color>
+<color name="TOYO 0315pc*" cs="TOYO 0315pc*"></color>
+<color name="TOYO 0316pc*" cs="TOYO 0316pc*"></color>
+<color name="TOYO 0317pc*" cs="TOYO 0317pc*"></color>
+<color name="TOYO 0318pc*" cs="TOYO 0318pc*"></color>
+<color name="TOYO 0319pc" cs="TOYO 0319pc"></color>
+<color name="TOYO 0320pc" cs="TOYO 0320pc"></color>
+<color name="TOYO 0321pc" cs="TOYO 0321pc"></color>
+<color name="TOYO 0322pc" cs="TOYO 0322pc"></color>
+<color name="TOYO 0323pc*" cs="TOYO 0323pc*"></color>
+<color name="TOYO 0324pc" cs="TOYO 0324pc"></color>
+<color name="TOYO 0325pc*" cs="TOYO 0325pc*"></color>
+<color name="TOYO 0326pc*" cs="TOYO 0326pc*"></color>
+<color name="TOYO 0327pc*" cs="TOYO 0327pc*"></color>
+<color name="TOYO 0328pc*" cs="TOYO 0328pc*"></color>
+<color name="TOYO 0329pc*" cs="TOYO 0329pc*"></color>
+<color name="TOYO 0330pc*" cs="TOYO 0330pc*"></color>
+<color name="TOYO 0331pc*" cs="TOYO 0331pc*"></color>
+<color name="TOYO 0332pc*" cs="TOYO 0332pc*"></color>
+<color name="TOYO 0333pc" cs="TOYO 0333pc"></color>
+<color name="TOYO 0334pc*" cs="TOYO 0334pc*"></color>
+<color name="TOYO 0335pc" cs="TOYO 0335pc"></color>
+<color name="TOYO 0336pc" cs="TOYO 0336pc"></color>
+<color name="TOYO 0337pc*" cs="TOYO 0337pc*"></color>
+<color name="TOYO 0338pc*" cs="TOYO 0338pc*"></color>
+<color name="TOYO 0339pc*" cs="TOYO 0339pc*"></color>
+<color name="TOYO 0340pc*" cs="TOYO 0340pc*"></color>
+<color name="TOYO 0341pc*" cs="TOYO 0341pc*"></color>
+<color name="TOYO 0342pc*" cs="TOYO 0342pc*"></color>
+<color name="TOYO 0343pc*" cs="TOYO 0343pc*"></color>
+<color name="TOYO 0344pc*" cs="TOYO 0344pc*"></color>
+<color name="TOYO 0345pc*" cs="TOYO 0345pc*"></color>
+<color name="TOYO 0346pc*" cs="TOYO 0346pc*"></color>
+<color name="TOYO 0347pc*" cs="TOYO 0347pc*"></color>
+<color name="TOYO 0348pc*" cs="TOYO 0348pc*"></color>
+<color name="TOYO 0349pc*" cs="TOYO 0349pc*"></color>
+<color name="TOYO 0350pc*" cs="TOYO 0350pc*"></color>
+<color name="TOYO 0351pc" cs="TOYO 0351pc"></color>
+<color name="TOYO 0352pc*" cs="TOYO 0352pc*"></color>
+<color name="TOYO 0353pc*" cs="TOYO 0353pc*"></color>
+<color name="TOYO 0354pc" cs="TOYO 0354pc"></color>
+<color name="TOYO 0355pc" cs="TOYO 0355pc"></color>
+<color name="TOYO 0356pc" cs="TOYO 0356pc"></color>
+<color name="TOYO 0357pc*" cs="TOYO 0357pc*"></color>
+<color name="TOYO 0358pc" cs="TOYO 0358pc"></color>
+<color name="TOYO 0359pc*" cs="TOYO 0359pc*"></color>
+<color name="TOYO 0360pc*" cs="TOYO 0360pc*"></color>
+<color name="TOYO 0361pc*" cs="TOYO 0361pc*"></color>
+<color name="TOYO 0362pc*" cs="TOYO 0362pc*"></color>
+<color name="TOYO 0363pc" cs="TOYO 0363pc"></color>
+<color name="TOYO 0364pc*" cs="TOYO 0364pc*"></color>
+<color name="TOYO 0365pc*" cs="TOYO 0365pc*"></color>
+<color name="TOYO 0366pc*" cs="TOYO 0366pc*"></color>
+<color name="TOYO 0367pc*" cs="TOYO 0367pc*"></color>
+<color name="TOYO 0368pc*" cs="TOYO 0368pc*"></color>
+<color name="TOYO 0369pc*" cs="TOYO 0369pc*"></color>
+<color name="TOYO 0370pc*" cs="TOYO 0370pc*"></color>
+<color name="TOYO 0371pc" cs="TOYO 0371pc"></color>
+<color name="TOYO 0372pc" cs="TOYO 0372pc"></color>
+<color name="TOYO 0373pc" cs="TOYO 0373pc"></color>
+<color name="TOYO 0374pc*" cs="TOYO 0374pc*"></color>
+<color name="TOYO 0375pc" cs="TOYO 0375pc"></color>
+<color name="TOYO 0376pc" cs="TOYO 0376pc"></color>
+<color name="TOYO 0377pc*" cs="TOYO 0377pc*"></color>
+<color name="TOYO 0378pc" cs="TOYO 0378pc"></color>
+<color name="TOYO 0379pc*" cs="TOYO 0379pc*"></color>
+<color name="TOYO 0380pc*" cs="TOYO 0380pc*"></color>
+<color name="TOYO 0381pc*" cs="TOYO 0381pc*"></color>
+<color name="TOYO 0382pc*" cs="TOYO 0382pc*"></color>
+<color name="TOYO 0383pc*" cs="TOYO 0383pc*"></color>
+<color name="TOYO 0384pc*" cs="TOYO 0384pc*"></color>
+<color name="TOYO 0385pc*" cs="TOYO 0385pc*"></color>
+<color name="TOYO 0386pc" cs="TOYO 0386pc"></color>
+<color name="TOYO 0387pc*" cs="TOYO 0387pc*"></color>
+<color name="TOYO 0388pc*" cs="TOYO 0388pc*"></color>
+<color name="TOYO 0389pc*" cs="TOYO 0389pc*"></color>
+<color name="TOYO 0390pc" cs="TOYO 0390pc"></color>
+<color name="TOYO 0391pc" cs="TOYO 0391pc"></color>
+<color name="TOYO 0392pc*" cs="TOYO 0392pc*"></color>
+<color name="TOYO 0393pc*" cs="TOYO 0393pc*"></color>
+<color name="TOYO 0394pc*" cs="TOYO 0394pc*"></color>
+<color name="TOYO 0395pc" cs="TOYO 0395pc"></color>
+<color name="TOYO 0396pc" cs="TOYO 0396pc"></color>
+<color name="TOYO 0397pc" cs="TOYO 0397pc"></color>
+<color name="TOYO 0398pc" cs="TOYO 0398pc"></color>
+<color name="TOYO 0399pc" cs="TOYO 0399pc"></color>
+<color name="TOYO 0400pc" cs="TOYO 0400pc"></color>
+<color name="TOYO 0401pc" cs="TOYO 0401pc"></color>
+<color name="TOYO 0402pc" cs="TOYO 0402pc"></color>
+<color name="TOYO 0403pc*" cs="TOYO 0403pc*"></color>
+<color name="TOYO 0404pc*" cs="TOYO 0404pc*"></color>
+<color name="TOYO 0405pc*" cs="TOYO 0405pc*"></color>
+<color name="TOYO 0406pc*" cs="TOYO 0406pc*"></color>
+<color name="TOYO 0407pc" cs="TOYO 0407pc"></color>
+<color name="TOYO 0408pc" cs="TOYO 0408pc"></color>
+<color name="TOYO 0409pc" cs="TOYO 0409pc"></color>
+<color name="TOYO 0410pc" cs="TOYO 0410pc"></color>
+<color name="TOYO 0411pc*" cs="TOYO 0411pc*"></color>
+<color name="TOYO 0412pc*" cs="TOYO 0412pc*"></color>
+<color name="TOYO 0413pc*" cs="TOYO 0413pc*"></color>
+<color name="TOYO 0414pc*" cs="TOYO 0414pc*"></color>
+<color name="TOYO 0415pc*" cs="TOYO 0415pc*"></color>
+<color name="TOYO 0416pc*" cs="TOYO 0416pc*"></color>
+<color name="TOYO 0417pc*" cs="TOYO 0417pc*"></color>
+<color name="TOYO 0418pc*" cs="TOYO 0418pc*"></color>
+<color name="TOYO 0419pc*" cs="TOYO 0419pc*"></color>
+<color name="TOYO 0420pc" cs="TOYO 0420pc"></color>
+<color name="TOYO 0421pc" cs="TOYO 0421pc"></color>
+<color name="TOYO 0422pc" cs="TOYO 0422pc"></color>
+<color name="TOYO 0423pc" cs="TOYO 0423pc"></color>
+<color name="TOYO 0424pc" cs="TOYO 0424pc"></color>
+<color name="TOYO 0425pc" cs="TOYO 0425pc"></color>
+<color name="TOYO 0426pc" cs="TOYO 0426pc"></color>
+<color name="TOYO 0427pc*" cs="TOYO 0427pc*"></color>
+<color name="TOYO 0428pc*" cs="TOYO 0428pc*"></color>
+<color name="TOYO 0429pc" cs="TOYO 0429pc"></color>
+<color name="TOYO 0430pc" cs="TOYO 0430pc"></color>
+<color name="TOYO 0431pc" cs="TOYO 0431pc"></color>
+<color name="TOYO 0432pc*" cs="TOYO 0432pc*"></color>
+<color name="TOYO 0433pc*" cs="TOYO 0433pc*"></color>
+<color name="TOYO 0434pc*" cs="TOYO 0434pc*"></color>
+<color name="TOYO 0435pc*" cs="TOYO 0435pc*"></color>
+<color name="TOYO 0436pc*" cs="TOYO 0436pc*"></color>
+<color name="TOYO 0437pc*" cs="TOYO 0437pc*"></color>
+<color name="TOYO 0438pc" cs="TOYO 0438pc"></color>
+<color name="TOYO 0439pc*" cs="TOYO 0439pc*"></color>
+<color name="TOYO 0440pc*" cs="TOYO 0440pc*"></color>
+<color name="TOYO 0441pc*" cs="TOYO 0441pc*"></color>
+<color name="TOYO 0442pc*" cs="TOYO 0442pc*"></color>
+<color name="TOYO 0443pc*" cs="TOYO 0443pc*"></color>
+<color name="TOYO 0444pc*" cs="TOYO 0444pc*"></color>
+<color name="TOYO 0445pc*" cs="TOYO 0445pc*"></color>
+<color name="TOYO 0446pc*" cs="TOYO 0446pc*"></color>
+<color name="TOYO 0447pc*" cs="TOYO 0447pc*"></color>
+<color name="TOYO 0448pc*" cs="TOYO 0448pc*"></color>
+<color name="TOYO 0449pc*" cs="TOYO 0449pc*"></color>
+<color name="TOYO 0450pc*" cs="TOYO 0450pc*"></color>
+<color name="TOYO 0451pc" cs="TOYO 0451pc"></color>
+<color name="TOYO 0452pc*" cs="TOYO 0452pc*"></color>
+<color name="TOYO 0453pc*" cs="TOYO 0453pc*"></color>
+<color name="TOYO 0454pc" cs="TOYO 0454pc"></color>
+<color name="TOYO 0455pc" cs="TOYO 0455pc"></color>
+<color name="TOYO 0456pc" cs="TOYO 0456pc"></color>
+<color name="TOYO 0457pc*" cs="TOYO 0457pc*"></color>
+<color name="TOYO 0458pc*" cs="TOYO 0458pc*"></color>
+<color name="TOYO 0459pc*" cs="TOYO 0459pc*"></color>
+<color name="TOYO 0460pc*" cs="TOYO 0460pc*"></color>
+<color name="TOYO 0461pc" cs="TOYO 0461pc"></color>
+<color name="TOYO 0462pc*" cs="TOYO 0462pc*"></color>
+<color name="TOYO 0463pc*" cs="TOYO 0463pc*"></color>
+<color name="TOYO 0464pc*" cs="TOYO 0464pc*"></color>
+<color name="TOYO 0465pc*" cs="TOYO 0465pc*"></color>
+<color name="TOYO 0466pc*" cs="TOYO 0466pc*"></color>
+<color name="TOYO 0467pc*" cs="TOYO 0467pc*"></color>
+<color name="TOYO 0468pc*" cs="TOYO 0468pc*"></color>
+<color name="TOYO 0469pc" cs="TOYO 0469pc"></color>
+<color name="TOYO 0470pc" cs="TOYO 0470pc"></color>
+<color name="TOYO 0471pc" cs="TOYO 0471pc"></color>
+<color name="TOYO 0472pc*" cs="TOYO 0472pc*"></color>
+<color name="TOYO 0473pc*" cs="TOYO 0473pc*"></color>
+<color name="TOYO 0474pc*" cs="TOYO 0474pc*"></color>
+<color name="TOYO 0475pc*" cs="TOYO 0475pc*"></color>
+<color name="TOYO 0476pc*" cs="TOYO 0476pc*"></color>
+<color name="TOYO 0477pc*" cs="TOYO 0477pc*"></color>
+<color name="TOYO 0478pc" cs="TOYO 0478pc"></color>
+<color name="TOYO 0479pc" cs="TOYO 0479pc"></color>
+<color name="TOYO 0480pc*" cs="TOYO 0480pc*"></color>
+<color name="TOYO 0481pc*" cs="TOYO 0481pc*"></color>
+<color name="TOYO 0482pc*" cs="TOYO 0482pc*"></color>
+<color name="TOYO 0483pc*" cs="TOYO 0483pc*"></color>
+<color name="TOYO 0484pc*" cs="TOYO 0484pc*"></color>
+<color name="TOYO 0485pc*" cs="TOYO 0485pc*"></color>
+<color name="TOYO 0486pc*" cs="TOYO 0486pc*"></color>
+<color name="TOYO 0487pc*" cs="TOYO 0487pc*"></color>
+<color name="TOYO 0488pc" cs="TOYO 0488pc"></color>
+<color name="TOYO 0489pc*" cs="TOYO 0489pc*"></color>
+<color name="TOYO 0490pc*" cs="TOYO 0490pc*"></color>
+<color name="TOYO 0491pc*" cs="TOYO 0491pc*"></color>
+<color name="TOYO 0492pc*" cs="TOYO 0492pc*"></color>
+<color name="TOYO 0493pc*" cs="TOYO 0493pc*"></color>
+<color name="TOYO 0494pc*" cs="TOYO 0494pc*"></color>
+<color name="TOYO 0495pc*" cs="TOYO 0495pc*"></color>
+<color name="TOYO 0496pc" cs="TOYO 0496pc"></color>
+<color name="TOYO 0497pc*" cs="TOYO 0497pc*"></color>
+<color name="TOYO 0498pc" cs="TOYO 0498pc"></color>
+<color name="TOYO 0499pc*" cs="TOYO 0499pc*"></color>
+<color name="TOYO 0500pc*" cs="TOYO 0500pc*"></color>
+<color name="TOYO 0501pc*" cs="TOYO 0501pc*"></color>
+<color name="TOYO 0502pc*" cs="TOYO 0502pc*"></color>
+<color name="TOYO 0503pc*" cs="TOYO 0503pc*"></color>
+<color name="TOYO 0504pc*" cs="TOYO 0504pc*"></color>
+<color name="TOYO 0505pc*" cs="TOYO 0505pc*"></color>
+<color name="TOYO 0506pc*" cs="TOYO 0506pc*"></color>
+<color name="TOYO 0507pc*" cs="TOYO 0507pc*"></color>
+<color name="TOYO 0508pc*" cs="TOYO 0508pc*"></color>
+<color name="TOYO 0509pc*" cs="TOYO 0509pc*"></color>
+<color name="TOYO 0510pc*" cs="TOYO 0510pc*"></color>
+<color name="TOYO 0511pc*" cs="TOYO 0511pc*"></color>
+<color name="TOYO 0512pc*" cs="TOYO 0512pc*"></color>
+<color name="TOYO 0513pc*" cs="TOYO 0513pc*"></color>
+<color name="TOYO 0514pc*" cs="TOYO 0514pc*"></color>
+<color name="TOYO 0515pc" cs="TOYO 0515pc"></color>
+<color name="TOYO 0516pc" cs="TOYO 0516pc"></color>
+<color name="TOYO 0517pc*" cs="TOYO 0517pc*"></color>
+<color name="TOYO 0518pc*" cs="TOYO 0518pc*"></color>
+<color name="TOYO 0519pc*" cs="TOYO 0519pc*"></color>
+<color name="TOYO 0520pc*" cs="TOYO 0520pc*"></color>
+<color name="TOYO 0521pc*" cs="TOYO 0521pc*"></color>
+<color name="TOYO 0522pc*" cs="TOYO 0522pc*"></color>
+<color name="TOYO 0523pc*" cs="TOYO 0523pc*"></color>
+<color name="TOYO 0524pc*" cs="TOYO 0524pc*"></color>
+<color name="TOYO 0525pc*" cs="TOYO 0525pc*"></color>
+<color name="TOYO 0526pc*" cs="TOYO 0526pc*"></color>
+<color name="TOYO 0527pc" cs="TOYO 0527pc"></color>
+<color name="TOYO 0528pc" cs="TOYO 0528pc"></color>
+<color name="TOYO 0529pc" cs="TOYO 0529pc"></color>
+<color name="TOYO 0530pc" cs="TOYO 0530pc"></color>
+<color name="TOYO 0531pc*" cs="TOYO 0531pc*"></color>
+<color name="TOYO 0532pc*" cs="TOYO 0532pc*"></color>
+<color name="TOYO 0533pc" cs="TOYO 0533pc"></color>
+<color name="TOYO 0534pc*" cs="TOYO 0534pc*"></color>
+<color name="TOYO 0535pc" cs="TOYO 0535pc"></color>
+<color name="TOYO 0536pc" cs="TOYO 0536pc"></color>
+<color name="TOYO 0537pc" cs="TOYO 0537pc"></color>
+<color name="TOYO 0538pc" cs="TOYO 0538pc"></color>
+<color name="TOYO 0539pc" cs="TOYO 0539pc"></color>
+<color name="TOYO 0540pc" cs="TOYO 0540pc"></color>
+<color name="TOYO 0541pc" cs="TOYO 0541pc"></color>
+<color name="TOYO 0542pc" cs="TOYO 0542pc"></color>
+<color name="TOYO 0543pc" cs="TOYO 0543pc"></color>
+<color name="TOYO 0544pc" cs="TOYO 0544pc"></color>
+<color name="TOYO 0545pc" cs="TOYO 0545pc"></color>
+<color name="TOYO 0546pc" cs="TOYO 0546pc"></color>
+<color name="TOYO 0547pc" cs="TOYO 0547pc"></color>
+<color name="TOYO 0548pc" cs="TOYO 0548pc"></color>
+<color name="TOYO 0549pc" cs="TOYO 0549pc"></color>
+<color name="TOYO 0550pc" cs="TOYO 0550pc"></color>
+<color name="TOYO 0551pc" cs="TOYO 0551pc"></color>
+<color name="TOYO 0552pc" cs="TOYO 0552pc"></color>
+<color name="TOYO 0553pc" cs="TOYO 0553pc"></color>
+<color name="TOYO 0554pc" cs="TOYO 0554pc"></color>
+<color name="TOYO 0555pc" cs="TOYO 0555pc"></color>
+<color name="TOYO 0556pc*" cs="TOYO 0556pc*"></color>
+<color name="TOYO 0557pc" cs="TOYO 0557pc"></color>
+<color name="TOYO 0558pc" cs="TOYO 0558pc"></color>
+<color name="TOYO 0559pc" cs="TOYO 0559pc"></color>
+<color name="TOYO 0560pc" cs="TOYO 0560pc"></color>
+<color name="TOYO 0561pc" cs="TOYO 0561pc"></color>
+<color name="TOYO 0562pc" cs="TOYO 0562pc"></color>
+<color name="TOYO 0563pc" cs="TOYO 0563pc"></color>
+<color name="TOYO 0564pc" cs="TOYO 0564pc"></color>
+<color name="TOYO 0565pc" cs="TOYO 0565pc"></color>
+<color name="TOYO 0566pc" cs="TOYO 0566pc"></color>
+<color name="TOYO 0567pc*" cs="TOYO 0567pc*"></color>
+<color name="TOYO 0568pc" cs="TOYO 0568pc"></color>
+<color name="TOYO 0569pc" cs="TOYO 0569pc"></color>
+<color name="TOYO 0570pc" cs="TOYO 0570pc"></color>
+<color name="TOYO 0571pc" cs="TOYO 0571pc"></color>
+<color name="TOYO 0572pc" cs="TOYO 0572pc"></color>
+<color name="TOYO 0573pc" cs="TOYO 0573pc"></color>
+<color name="TOYO 0574pc" cs="TOYO 0574pc"></color>
+<color name="TOYO 0575pc" cs="TOYO 0575pc"></color>
+<color name="TOYO 0576pc" cs="TOYO 0576pc"></color>
+<color name="TOYO 0577pc" cs="TOYO 0577pc"></color>
+<color name="TOYO 0578pc" cs="TOYO 0578pc"></color>
+<color name="TOYO 0579pc" cs="TOYO 0579pc"></color>
+<color name="TOYO 0580pc" cs="TOYO 0580pc"></color>
+<color name="TOYO 0581pc" cs="TOYO 0581pc"></color>
+<color name="TOYO 0582pc" cs="TOYO 0582pc"></color>
+<color name="TOYO 0583pc" cs="TOYO 0583pc"></color>
+<color name="TOYO 0584pc" cs="TOYO 0584pc"></color>
+<color name="TOYO 0585pc" cs="TOYO 0585pc"></color>
+<color name="TOYO 0586pc" cs="TOYO 0586pc"></color>
+<color name="TOYO 0587pc" cs="TOYO 0587pc"></color>
+<color name="TOYO 0588pc" cs="TOYO 0588pc"></color>
+<color name="TOYO 0589pc" cs="TOYO 0589pc"></color>
+<color name="TOYO 0590pc" cs="TOYO 0590pc"></color>
+<color name="TOYO 0591pc" cs="TOYO 0591pc"></color>
+<color name="TOYO 0592pc" cs="TOYO 0592pc"></color>
+<color name="TOYO 0593pc" cs="TOYO 0593pc"></color>
+<color name="TOYO 0594pc" cs="TOYO 0594pc"></color>
+<color name="TOYO 0595pc" cs="TOYO 0595pc"></color>
+<color name="TOYO 0596pc" cs="TOYO 0596pc"></color>
+<color name="TOYO 0597pc" cs="TOYO 0597pc"></color>
+<color name="TOYO 0598pc" cs="TOYO 0598pc"></color>
+<color name="TOYO 0599pc" cs="TOYO 0599pc"></color>
+<color name="TOYO 0600pc" cs="TOYO 0600pc"></color>
+<color name="TOYO 0601pc" cs="TOYO 0601pc"></color>
+<color name="TOYO 0602pc" cs="TOYO 0602pc"></color>
+<color name="TOYO 0603pc" cs="TOYO 0603pc"></color>
+<color name="TOYO 0604pc" cs="TOYO 0604pc"></color>
+<color name="TOYO 0605pc" cs="TOYO 0605pc"></color>
+<color name="TOYO 0606pc" cs="TOYO 0606pc"></color>
+<color name="TOYO 0607pc" cs="TOYO 0607pc"></color>
+<color name="TOYO 0608pc" cs="TOYO 0608pc"></color>
+<color name="TOYO 0609pc" cs="TOYO 0609pc"></color>
+<color name="TOYO 0610pc" cs="TOYO 0610pc"></color>
+<color name="TOYO 0611pc" cs="TOYO 0611pc"></color>
+<color name="TOYO 0612pc" cs="TOYO 0612pc"></color>
+<color name="TOYO 0613pc" cs="TOYO 0613pc"></color>
+<color name="TOYO 0614pc" cs="TOYO 0614pc"></color>
+<color name="TOYO 0615pc" cs="TOYO 0615pc"></color>
+<color name="TOYO 0616pc" cs="TOYO 0616pc"></color>
+<color name="TOYO 0617pc" cs="TOYO 0617pc"></color>
+<color name="TOYO 0618pc" cs="TOYO 0618pc"></color>
+<color name="TOYO 0619pc" cs="TOYO 0619pc"></color>
+<color name="TOYO 0620pc" cs="TOYO 0620pc"></color>
+<color name="TOYO 0621pc" cs="TOYO 0621pc"></color>
+<color name="TOYO 0622pc*" cs="TOYO 0622pc*"></color>
+<color name="TOYO 0623pc" cs="TOYO 0623pc"></color>
+<color name="TOYO 0624pc*" cs="TOYO 0624pc*"></color>
+<color name="TOYO 0625pc*" cs="TOYO 0625pc*"></color>
+<color name="TOYO 0626pc*" cs="TOYO 0626pc*"></color>
+<color name="TOYO 0627pc" cs="TOYO 0627pc"></color>
+<color name="TOYO 0628pc" cs="TOYO 0628pc"></color>
+<color name="TOYO 0629pc" cs="TOYO 0629pc"></color>
+<color name="TOYO 0630pc" cs="TOYO 0630pc"></color>
+<color name="TOYO 0631pc" cs="TOYO 0631pc"></color>
+<color name="TOYO 0632pc" cs="TOYO 0632pc"></color>
+<color name="TOYO 0633pc" cs="TOYO 0633pc"></color>
+<color name="TOYO 0634pc" cs="TOYO 0634pc"></color>
+<color name="TOYO 0635pc" cs="TOYO 0635pc"></color>
+<color name="TOYO 0636pc" cs="TOYO 0636pc"></color>
+<color name="TOYO 0637pc" cs="TOYO 0637pc"></color>
+<color name="TOYO 0638pc" cs="TOYO 0638pc"></color>
+<color name="TOYO 0639pc" cs="TOYO 0639pc"></color>
+<color name="TOYO 0640pc" cs="TOYO 0640pc"></color>
+<color name="TOYO 0641pc" cs="TOYO 0641pc"></color>
+<color name="TOYO 0642pc" cs="TOYO 0642pc"></color>
+<color name="TOYO 0643pc" cs="TOYO 0643pc"></color>
+<color name="TOYO 0644pc" cs="TOYO 0644pc"></color>
+<color name="TOYO 0645pc" cs="TOYO 0645pc"></color>
+<color name="TOYO 0646pc" cs="TOYO 0646pc"></color>
+<color name="TOYO 0647pc" cs="TOYO 0647pc"></color>
+<color name="TOYO 0648pc" cs="TOYO 0648pc"></color>
+<color name="TOYO 0649pc" cs="TOYO 0649pc"></color>
+<color name="TOYO 0650pc" cs="TOYO 0650pc"></color>
+<color name="TOYO 0651pc" cs="TOYO 0651pc"></color>
+<color name="TOYO 0652pc*" cs="TOYO 0652pc*"></color>
+<color name="TOYO 0653pc" cs="TOYO 0653pc"></color>
+<color name="TOYO 0654pc" cs="TOYO 0654pc"></color>
+<color name="TOYO 0655pc" cs="TOYO 0655pc"></color>
+<color name="TOYO 0656pc" cs="TOYO 0656pc"></color>
+<color name="TOYO 0657pc" cs="TOYO 0657pc"></color>
+<color name="TOYO 0658pc" cs="TOYO 0658pc"></color>
+<color name="TOYO 0659pc" cs="TOYO 0659pc"></color>
+<color name="TOYO 0660pc" cs="TOYO 0660pc"></color>
+<color name="TOYO 0661pc" cs="TOYO 0661pc"></color>
+<color name="TOYO 0662pc" cs="TOYO 0662pc"></color>
+<color name="TOYO 0663pc*" cs="TOYO 0663pc*"></color>
+<color name="TOYO 0664pc*" cs="TOYO 0664pc*"></color>
+<color name="TOYO 0665pc*" cs="TOYO 0665pc*"></color>
+<color name="TOYO 0666pc*" cs="TOYO 0666pc*"></color>
+<color name="TOYO 0667pc" cs="TOYO 0667pc"></color>
+<color name="TOYO 0668pc" cs="TOYO 0668pc"></color>
+<color name="TOYO 0669pc" cs="TOYO 0669pc"></color>
+<color name="TOYO 0670pc" cs="TOYO 0670pc"></color>
+<color name="TOYO 0671pc" cs="TOYO 0671pc"></color>
+<color name="TOYO 0672pc" cs="TOYO 0672pc"></color>
+<color name="TOYO 0673pc" cs="TOYO 0673pc"></color>
+<color name="TOYO 0674pc" cs="TOYO 0674pc"></color>
+<color name="TOYO 0675pc" cs="TOYO 0675pc"></color>
+<color name="TOYO 0676pc" cs="TOYO 0676pc"></color>
+<color name="TOYO 0677pc" cs="TOYO 0677pc"></color>
+<color name="TOYO 0678pc" cs="TOYO 0678pc"></color>
+<color name="TOYO 0679pc" cs="TOYO 0679pc"></color>
+<color name="TOYO 0680pc" cs="TOYO 0680pc"></color>
+<color name="TOYO 0681pc" cs="TOYO 0681pc"></color>
+<color name="TOYO 0682pc" cs="TOYO 0682pc"></color>
+<color name="TOYO 0683pc" cs="TOYO 0683pc"></color>
+<color name="TOYO 0684pc" cs="TOYO 0684pc"></color>
+<color name="TOYO 0685pc" cs="TOYO 0685pc"></color>
+<color name="TOYO 0686pc" cs="TOYO 0686pc"></color>
+<color name="TOYO 0687pc" cs="TOYO 0687pc"></color>
+<color name="TOYO 0688pc" cs="TOYO 0688pc"></color>
+<color name="TOYO 0689pc" cs="TOYO 0689pc"></color>
+<color name="TOYO 0690pc" cs="TOYO 0690pc"></color>
+<color name="TOYO 0691pc" cs="TOYO 0691pc"></color>
+<color name="TOYO 0692pc" cs="TOYO 0692pc"></color>
+<color name="TOYO 0693pc" cs="TOYO 0693pc"></color>
+<color name="TOYO 0694pc" cs="TOYO 0694pc"></color>
+<color name="TOYO 0695pc" cs="TOYO 0695pc"></color>
+<color name="TOYO 0696pc" cs="TOYO 0696pc"></color>
+<color name="TOYO 0697pc" cs="TOYO 0697pc"></color>
+<color name="TOYO 0698pc" cs="TOYO 0698pc"></color>
+<color name="TOYO 0699pc" cs="TOYO 0699pc"></color>
+<color name="TOYO 0700pc" cs="TOYO 0700pc"></color>
+<color name="TOYO 0701pc" cs="TOYO 0701pc"></color>
+<color name="TOYO 0702pc" cs="TOYO 0702pc"></color>
+<color name="TOYO 0703pc" cs="TOYO 0703pc"></color>
+<color name="TOYO 0704pc" cs="TOYO 0704pc"></color>
+<color name="TOYO 0705pc" cs="TOYO 0705pc"></color>
+<color name="TOYO 0706pc" cs="TOYO 0706pc"></color>
+<color name="TOYO 0707pc" cs="TOYO 0707pc"></color>
+<color name="TOYO 0708pc" cs="TOYO 0708pc"></color>
+<color name="TOYO 0709pc" cs="TOYO 0709pc"></color>
+<color name="TOYO 0710pc" cs="TOYO 0710pc"></color>
+<color name="TOYO 0711pc" cs="TOYO 0711pc"></color>
+<color name="TOYO 0712pc" cs="TOYO 0712pc"></color>
+<color name="TOYO 0713pc" cs="TOYO 0713pc"></color>
+<color name="TOYO 0714pc" cs="TOYO 0714pc"></color>
+<color name="TOYO 0715pc" cs="TOYO 0715pc"></color>
+<color name="TOYO 0716pc" cs="TOYO 0716pc"></color>
+<color name="TOYO 0717pc" cs="TOYO 0717pc"></color>
+<color name="TOYO 0718pc" cs="TOYO 0718pc"></color>
+<color name="TOYO 0719pc" cs="TOYO 0719pc"></color>
+<color name="TOYO 0720pc" cs="TOYO 0720pc"></color>
+<color name="TOYO 0721pc" cs="TOYO 0721pc"></color>
+<color name="TOYO 0722pc" cs="TOYO 0722pc"></color>
+<color name="TOYO 0723pc" cs="TOYO 0723pc"></color>
+<color name="TOYO 0724pc*" cs="TOYO 0724pc*"></color>
+<color name="TOYO 0725pc" cs="TOYO 0725pc"></color>
+<color name="TOYO 0726pc" cs="TOYO 0726pc"></color>
+<color name="TOYO 0727pc" cs="TOYO 0727pc"></color>
+<color name="TOYO 0728pc" cs="TOYO 0728pc"></color>
+<color name="TOYO 0729pc" cs="TOYO 0729pc"></color>
+<color name="TOYO 0730pc" cs="TOYO 0730pc"></color>
+<color name="TOYO 0731pc" cs="TOYO 0731pc"></color>
+<color name="TOYO 0732pc" cs="TOYO 0732pc"></color>
+<color name="TOYO 0733pc" cs="TOYO 0733pc"></color>
+<color name="TOYO 0734pc" cs="TOYO 0734pc"></color>
+<color name="TOYO 0735pc" cs="TOYO 0735pc"></color>
+<color name="TOYO 0736pc" cs="TOYO 0736pc"></color>
+<color name="TOYO 0737pc" cs="TOYO 0737pc"></color>
+<color name="TOYO 0738pc" cs="TOYO 0738pc"></color>
+<color name="TOYO 0739pc" cs="TOYO 0739pc"></color>
+<color name="TOYO 0740pc" cs="TOYO 0740pc"></color>
+<color name="TOYO 0741pc" cs="TOYO 0741pc"></color>
+<color name="TOYO 0742pc" cs="TOYO 0742pc"></color>
+<color name="TOYO 0743pc" cs="TOYO 0743pc"></color>
+<color name="TOYO 0744pc" cs="TOYO 0744pc"></color>
+<color name="TOYO 0745pc" cs="TOYO 0745pc"></color>
+<color name="TOYO 0746pc" cs="TOYO 0746pc"></color>
+<color name="TOYO 0747pc" cs="TOYO 0747pc"></color>
+<color name="TOYO 0748pc" cs="TOYO 0748pc"></color>
+<color name="TOYO 0749pc" cs="TOYO 0749pc"></color>
+<color name="TOYO 0750pc" cs="TOYO 0750pc"></color>
+<color name="TOYO 0751pc" cs="TOYO 0751pc"></color>
+<color name="TOYO 0752pc" cs="TOYO 0752pc"></color>
+<color name="TOYO 0753pc" cs="TOYO 0753pc"></color>
+<color name="TOYO 0754pc" cs="TOYO 0754pc"></color>
+<color name="TOYO 0755pc" cs="TOYO 0755pc"></color>
+<color name="TOYO 0756pc" cs="TOYO 0756pc"></color>
+<color name="TOYO 0757pc" cs="TOYO 0757pc"></color>
+<color name="TOYO 0758pc" cs="TOYO 0758pc"></color>
+<color name="TOYO 0759pc" cs="TOYO 0759pc"></color>
+<color name="TOYO 0760pc" cs="TOYO 0760pc"></color>
+<color name="TOYO 0761pc" cs="TOYO 0761pc"></color>
+<color name="TOYO 0762pc" cs="TOYO 0762pc"></color>
+<color name="TOYO 0763pc" cs="TOYO 0763pc"></color>
+<color name="TOYO 0764pc" cs="TOYO 0764pc"></color>
+<color name="TOYO 0765pc" cs="TOYO 0765pc"></color>
+<color name="TOYO 0766pc" cs="TOYO 0766pc"></color>
+<color name="TOYO 0767pc" cs="TOYO 0767pc"></color>
+<color name="TOYO 0768pc" cs="TOYO 0768pc"></color>
+<color name="TOYO 0769pc" cs="TOYO 0769pc"></color>
+<color name="TOYO 0770pc" cs="TOYO 0770pc"></color>
+<color name="TOYO 0771pc" cs="TOYO 0771pc"></color>
+<color name="TOYO 0772pc" cs="TOYO 0772pc"></color>
+<color name="TOYO 0773pc" cs="TOYO 0773pc"></color>
+<color name="TOYO 0774pc" cs="TOYO 0774pc"></color>
+<color name="TOYO 0775pc" cs="TOYO 0775pc"></color>
+<color name="TOYO 0776pc" cs="TOYO 0776pc"></color>
+<color name="TOYO 0777pc" cs="TOYO 0777pc"></color>
+<color name="TOYO 0778pc" cs="TOYO 0778pc"></color>
+<color name="TOYO 0779pc" cs="TOYO 0779pc"></color>
+<color name="TOYO 0780pc" cs="TOYO 0780pc"></color>
+<color name="TOYO 0781pc" cs="TOYO 0781pc"></color>
+<color name="TOYO 0782pc" cs="TOYO 0782pc"></color>
+<color name="TOYO 0783pc" cs="TOYO 0783pc"></color>
+<color name="TOYO 0784pc" cs="TOYO 0784pc"></color>
+<color name="TOYO 0785pc" cs="TOYO 0785pc"></color>
+<color name="TOYO 0786pc" cs="TOYO 0786pc"></color>
+<color name="TOYO 0787pc" cs="TOYO 0787pc"></color>
+<color name="TOYO 0788pc" cs="TOYO 0788pc"></color>
+<color name="TOYO 0789pc" cs="TOYO 0789pc"></color>
+<color name="TOYO 0790pc" cs="TOYO 0790pc"></color>
+<color name="TOYO 0791pc" cs="TOYO 0791pc"></color>
+<color name="TOYO 0792pc" cs="TOYO 0792pc"></color>
+<color name="TOYO 0793pc" cs="TOYO 0793pc"></color>
+<color name="TOYO 0794pc" cs="TOYO 0794pc"></color>
+<color name="TOYO 0795pc" cs="TOYO 0795pc"></color>
+<color name="TOYO 0796pc" cs="TOYO 0796pc"></color>
+<color name="TOYO 0797pc" cs="TOYO 0797pc"></color>
+<color name="TOYO 0798pc" cs="TOYO 0798pc"></color>
+<color name="TOYO 0799pc" cs="TOYO 0799pc"></color>
+<color name="TOYO 0800pc" cs="TOYO 0800pc"></color>
+<color name="TOYO 0801pc" cs="TOYO 0801pc"></color>
+<color name="TOYO 0802pc" cs="TOYO 0802pc"></color>
+<color name="TOYO 0803pc" cs="TOYO 0803pc"></color>
+<color name="TOYO 0804pc" cs="TOYO 0804pc"></color>
+<color name="TOYO 0805pc" cs="TOYO 0805pc"></color>
+<color name="TOYO 0806pc" cs="TOYO 0806pc"></color>
+<color name="TOYO 0807pc" cs="TOYO 0807pc"></color>
+<color name="TOYO 0808pc" cs="TOYO 0808pc"></color>
+<color name="TOYO 0809pc" cs="TOYO 0809pc"></color>
+<color name="TOYO 0810pc" cs="TOYO 0810pc"></color>
+<color name="TOYO 0811pc" cs="TOYO 0811pc"></color>
+<color name="TOYO 0812pc" cs="TOYO 0812pc"></color>
+<color name="TOYO 0813pc" cs="TOYO 0813pc"></color>
+<color name="TOYO 0814pc" cs="TOYO 0814pc"></color>
+<color name="TOYO 0815pc" cs="TOYO 0815pc"></color>
+<color name="TOYO 0816pc" cs="TOYO 0816pc"></color>
+<color name="TOYO 0817pc" cs="TOYO 0817pc"></color>
+<color name="TOYO 0818pc" cs="TOYO 0818pc"></color>
+<color name="TOYO 0819pc" cs="TOYO 0819pc"></color>
+<color name="TOYO 0820pc" cs="TOYO 0820pc"></color>
+<color name="TOYO 0821pc" cs="TOYO 0821pc"></color>
+<color name="TOYO 0822pc" cs="TOYO 0822pc"></color>
+<color name="TOYO 0823pc" cs="TOYO 0823pc"></color>
+<color name="TOYO 0824pc" cs="TOYO 0824pc"></color>
+<color name="TOYO 0825pc" cs="TOYO 0825pc"></color>
+<color name="TOYO 0826pc" cs="TOYO 0826pc"></color>
+<color name="TOYO 0827pc" cs="TOYO 0827pc"></color>
+<color name="TOYO 0828pc" cs="TOYO 0828pc"></color>
+<color name="TOYO 0829pc" cs="TOYO 0829pc"></color>
+<color name="TOYO 0830pc" cs="TOYO 0830pc"></color>
+<color name="TOYO 0831pc" cs="TOYO 0831pc"></color>
+<color name="TOYO 0832pc" cs="TOYO 0832pc"></color>
+<color name="TOYO 0833pc" cs="TOYO 0833pc"></color>
+<color name="TOYO 0834pc" cs="TOYO 0834pc"></color>
+<color name="TOYO 0835pc" cs="TOYO 0835pc"></color>
+<color name="TOYO 0836pc" cs="TOYO 0836pc"></color>
+<color name="TOYO 0837pc" cs="TOYO 0837pc"></color>
+<color name="TOYO 0838pc" cs="TOYO 0838pc"></color>
+<color name="TOYO 0839pc" cs="TOYO 0839pc"></color>
+<color name="TOYO 0840pc" cs="TOYO 0840pc"></color>
+<color name="TOYO 0841pc" cs="TOYO 0841pc"></color>
+<color name="TOYO 0842pc" cs="TOYO 0842pc"></color>
+<color name="TOYO 0843pc" cs="TOYO 0843pc"></color>
+<color name="TOYO 0844pc*" cs="TOYO 0844pc*"></color>
+<color name="TOYO 0845pc" cs="TOYO 0845pc"></color>
+<color name="TOYO 0846pc" cs="TOYO 0846pc"></color>
+<color name="TOYO 0847pc" cs="TOYO 0847pc"></color>
+<color name="TOYO 0848pc" cs="TOYO 0848pc"></color>
+<color name="TOYO 0849pc" cs="TOYO 0849pc"></color>
+<color name="TOYO 0850pc" cs="TOYO 0850pc"></color>
+<color name="TOYO 0851pc" cs="TOYO 0851pc"></color>
+<color name="TOYO 0852pc" cs="TOYO 0852pc"></color>
+<color name="TOYO 0853pc" cs="TOYO 0853pc"></color>
+<color name="TOYO 0854pc" cs="TOYO 0854pc"></color>
+<color name="TOYO 0855pc" cs="TOYO 0855pc"></color>
+<color name="TOYO 0856pc" cs="TOYO 0856pc"></color>
+<color name="TOYO 0857pc" cs="TOYO 0857pc"></color>
+<color name="TOYO 0858pc" cs="TOYO 0858pc"></color>
+<color name="TOYO 0859pc" cs="TOYO 0859pc"></color>
+<color name="TOYO 0860pc" cs="TOYO 0860pc"></color>
+<color name="TOYO 0861pc" cs="TOYO 0861pc"></color>
+<color name="TOYO 0862pc" cs="TOYO 0862pc"></color>
+<color name="TOYO 0863pc" cs="TOYO 0863pc"></color>
+<color name="TOYO 0864pc" cs="TOYO 0864pc"></color>
+<color name="TOYO 0865pc*" cs="TOYO 0865pc*"></color>
+<color name="TOYO 0866pc*" cs="TOYO 0866pc*"></color>
+<color name="TOYO 0867pc" cs="TOYO 0867pc"></color>
+<color name="TOYO 0868pc" cs="TOYO 0868pc"></color>
+<color name="TOYO 0869pc" cs="TOYO 0869pc"></color>
+<color name="TOYO 0870pc" cs="TOYO 0870pc"></color>
+<color name="TOYO 0871pc" cs="TOYO 0871pc"></color>
+<color name="TOYO 0872pc" cs="TOYO 0872pc"></color>
+<color name="TOYO 0873pc" cs="TOYO 0873pc"></color>
+<color name="TOYO 0874pc" cs="TOYO 0874pc"></color>
+<color name="TOYO 0875pc" cs="TOYO 0875pc"></color>
+<color name="TOYO 0876pc" cs="TOYO 0876pc"></color>
+<color name="TOYO 0877pc*" cs="TOYO 0877pc*"></color>
+<color name="TOYO 0878pc" cs="TOYO 0878pc"></color>
+<color name="TOYO 0879pc" cs="TOYO 0879pc"></color>
+<color name="TOYO 0880pc" cs="TOYO 0880pc"></color>
+<color name="TOYO 0881pc" cs="TOYO 0881pc"></color>
+<color name="TOYO 0882pc" cs="TOYO 0882pc"></color>
+<color name="TOYO 0883pc" cs="TOYO 0883pc"></color>
+<color name="TOYO 0884pc" cs="TOYO 0884pc"></color>
+<color name="TOYO 0885pc" cs="TOYO 0885pc"></color>
+<color name="TOYO 0886pc" cs="TOYO 0886pc"></color>
+<color name="TOYO 0887pc" cs="TOYO 0887pc"></color>
+<color name="TOYO 0888pc" cs="TOYO 0888pc"></color>
+<color name="TOYO 0889pc" cs="TOYO 0889pc"></color>
+<color name="TOYO 0890pc" cs="TOYO 0890pc"></color>
+<color name="TOYO 0891pc" cs="TOYO 0891pc"></color>
+<color name="TOYO 0892pc" cs="TOYO 0892pc"></color>
+<color name="TOYO 0893pc" cs="TOYO 0893pc"></color>
+<color name="TOYO 0894pc" cs="TOYO 0894pc"></color>
+<color name="TOYO 0895pc" cs="TOYO 0895pc"></color>
+<color name="TOYO 0896pc" cs="TOYO 0896pc"></color>
+<color name="TOYO 0897pc" cs="TOYO 0897pc"></color>
+<color name="TOYO 0898pc" cs="TOYO 0898pc"></color>
+<color name="TOYO 0899pc" cs="TOYO 0899pc"></color>
+<color name="TOYO 0900pc" cs="TOYO 0900pc"></color>
+<color name="TOYO 0901pc" cs="TOYO 0901pc"></color>
+<color name="TOYO 0902pc" cs="TOYO 0902pc"></color>
+<color name="TOYO 0903pc" cs="TOYO 0903pc"></color>
+<color name="TOYO 0904pc" cs="TOYO 0904pc"></color>
+<color name="TOYO 0905pc" cs="TOYO 0905pc"></color>
+<color name="TOYO 0906pc" cs="TOYO 0906pc"></color>
+<color name="TOYO 0907pc" cs="TOYO 0907pc"></color>
+<color name="TOYO 0908pc" cs="TOYO 0908pc"></color>
+<color name="TOYO 0909pc" cs="TOYO 0909pc"></color>
+<color name="TOYO 0910pc" cs="TOYO 0910pc"></color>
+<color name="TOYO 0911pc" cs="TOYO 0911pc"></color>
+<color name="TOYO 0912pc*" cs="TOYO 0912pc*"></color>
+<color name="TOYO 0913pc" cs="TOYO 0913pc"></color>
+<color name="TOYO 0914pc*" cs="TOYO 0914pc*"></color>
+<color name="TOYO 0915pc*" cs="TOYO 0915pc*"></color>
+<color name="TOYO 0916pc" cs="TOYO 0916pc"></color>
+<color name="TOYO 0917pc" cs="TOYO 0917pc"></color>
+<color name="TOYO 0918pc" cs="TOYO 0918pc"></color>
+<color name="TOYO 0919pc" cs="TOYO 0919pc"></color>
+<color name="TOYO 0920pc" cs="TOYO 0920pc"></color>
+<color name="TOYO 0921pc" cs="TOYO 0921pc"></color>
+<color name="TOYO 0922pc" cs="TOYO 0922pc"></color>
+<color name="TOYO 0923pc" cs="TOYO 0923pc"></color>
+<color name="TOYO 0924pc" cs="TOYO 0924pc"></color>
+<color name="TOYO 0925pc" cs="TOYO 0925pc"></color>
+<color name="TOYO 0926pc" cs="TOYO 0926pc"></color>
+<color name="TOYO 0927pc" cs="TOYO 0927pc"></color>
+<color name="TOYO 0928pc" cs="TOYO 0928pc"></color>
+<color name="TOYO 0929pc" cs="TOYO 0929pc"></color>
+<color name="TOYO 0930pc*" cs="TOYO 0930pc*"></color>
+<color name="TOYO 0931pc" cs="TOYO 0931pc"></color>
+<color name="TOYO 0932pc" cs="TOYO 0932pc"></color>
+<color name="TOYO 0933pc" cs="TOYO 0933pc"></color>
+<color name="TOYO 0934pc" cs="TOYO 0934pc"></color>
+<color name="TOYO 0935pc" cs="TOYO 0935pc"></color>
+<color name="TOYO 0936pc" cs="TOYO 0936pc"></color>
+<color name="TOYO 0937pc" cs="TOYO 0937pc"></color>
+<color name="TOYO 0938pc" cs="TOYO 0938pc"></color>
+<color name="TOYO 0939pc" cs="TOYO 0939pc"></color>
+<color name="TOYO 0940pc" cs="TOYO 0940pc"></color>
+<color name="TOYO 0941pc" cs="TOYO 0941pc"></color>
+<color name="TOYO 0942pc" cs="TOYO 0942pc"></color>
+<color name="TOYO 0943pc" cs="TOYO 0943pc"></color>
+<color name="TOYO 0944pc" cs="TOYO 0944pc"></color>
+<color name="TOYO 0945pc" cs="TOYO 0945pc"></color>
+<color name="TOYO 0946pc" cs="TOYO 0946pc"></color>
+<color name="TOYO 0947pc" cs="TOYO 0947pc"></color>
+<color name="TOYO 0948pc" cs="TOYO 0948pc"></color>
+<color name="TOYO 0949pc" cs="TOYO 0949pc"></color>
+<color name="TOYO 0950pc" cs="TOYO 0950pc"></color>
+<color name="TOYO 0951pc" cs="TOYO 0951pc"></color>
+<color name="TOYO 0952pc" cs="TOYO 0952pc"></color>
+<color name="TOYO 0953pc" cs="TOYO 0953pc"></color>
+<color name="TOYO 0954pc" cs="TOYO 0954pc"></color>
+<color name="TOYO 0955pc" cs="TOYO 0955pc"></color>
+<color name="TOYO 0956pc" cs="TOYO 0956pc"></color>
+<color name="TOYO 0957pc" cs="TOYO 0957pc"></color>
+<color name="TOYO 0958pc" cs="TOYO 0958pc"></color>
+<color name="TOYO 0959pc" cs="TOYO 0959pc"></color>
+<color name="TOYO 0960pc" cs="TOYO 0960pc"></color>
+<color name="TOYO 0961pc" cs="TOYO 0961pc"></color>
+<color name="TOYO 0962pc" cs="TOYO 0962pc"></color>
+<color name="TOYO 0963pc" cs="TOYO 0963pc"></color>
+<color name="TOYO 0964pc" cs="TOYO 0964pc"></color>
+<color name="TOYO 0965pc" cs="TOYO 0965pc"></color>
+<color name="TOYO 0966pc" cs="TOYO 0966pc"></color>
+<color name="TOYO 0967pc" cs="TOYO 0967pc"></color>
+<color name="TOYO 0968pc" cs="TOYO 0968pc"></color>
+<color name="TOYO 0969pc" cs="TOYO 0969pc"></color>
+<color name="TOYO 0970pc" cs="TOYO 0970pc"></color>
+<color name="TOYO 0971pc" cs="TOYO 0971pc"></color>
+<color name="TOYO 0972pc" cs="TOYO 0972pc"></color>
+<color name="TOYO 0973pc" cs="TOYO 0973pc"></color>
+<color name="TOYO 0974pc" cs="TOYO 0974pc"></color>
+<color name="TOYO 0975pc" cs="TOYO 0975pc"></color>
+<color name="TOYO 0976pc" cs="TOYO 0976pc"></color>
+<color name="TOYO 0977pc" cs="TOYO 0977pc"></color>
+<color name="TOYO 0978pc" cs="TOYO 0978pc"></color>
+<color name="TOYO 0979pc" cs="TOYO 0979pc"></color>
+<color name="TOYO 0980pc" cs="TOYO 0980pc"></color>
+<color name="TOYO 0981pc*" cs="TOYO 0981pc*"></color>
+<color name="TOYO 0982pc*" cs="TOYO 0982pc*"></color>
+<color name="TOYO 0983pc*" cs="TOYO 0983pc*"></color>
+<color name="TOYO 0984pc" cs="TOYO 0984pc"></color>
+<color name="TOYO 0985pc" cs="TOYO 0985pc"></color>
+<color name="TOYO 0986pc" cs="TOYO 0986pc"></color>
+<color name="TOYO 0987pc" cs="TOYO 0987pc"></color>
+<color name="TOYO 0988pc" cs="TOYO 0988pc"></color>
+<color name="TOYO 0989pc" cs="TOYO 0989pc"></color>
+<color name="TOYO 0990pc" cs="TOYO 0990pc"></color>
+<color name="TOYO 0991pc" cs="TOYO 0991pc"></color>
+<color name="TOYO 0992pc" cs="TOYO 0992pc"></color>
+<color name="TOYO 0993pc" cs="TOYO 0993pc"></color>
+<color name="TOYO 0994pc" cs="TOYO 0994pc"></color>
+<color name="TOYO 0995pc" cs="TOYO 0995pc"></color>
+<color name="TOYO 0996pc" cs="TOYO 0996pc"></color>
+<color name="TOYO 0997pc" cs="TOYO 0997pc"></color>
+<color name="TOYO 0998pc" cs="TOYO 0998pc"></color>
+<color name="TOYO 0999pc" cs="TOYO 0999pc"></color>
+<color name="TOYO 1000pc" cs="TOYO 1000pc"></color>
+<color name="TOYO 1001pc" cs="TOYO 1001pc"></color>
+<color name="TOYO 1002pc" cs="TOYO 1002pc"></color>
+<color name="TOYO 1003pc" cs="TOYO 1003pc"></color>
+<color name="TOYO 1004pc" cs="TOYO 1004pc"></color>
+<color name="TOYO 1005pc" cs="TOYO 1005pc"></color>
+<color name="TOYO 1006pc" cs="TOYO 1006pc"></color>
+<color name="TOYO 1007pc" cs="TOYO 1007pc"></color>
+<color name="TOYO 1008pc" cs="TOYO 1008pc"></color>
+<color name="TOYO 1009pc" cs="TOYO 1009pc"></color>
+<color name="TOYO 1010pc" cs="TOYO 1010pc"></color>
+<color name="TOYO 1011pc" cs="TOYO 1011pc"></color>
+<color name="TOYO 1012pc" cs="TOYO 1012pc"></color>
+<color name="TOYO 1013pc" cs="TOYO 1013pc"></color>
+<color name="TOYO 1014pc" cs="TOYO 1014pc"></color>
+<color name="TOYO 1015pc" cs="TOYO 1015pc"></color>
+<color name="TOYO 1016pc" cs="TOYO 1016pc"></color>
+<color name="TOYO 1017pc" cs="TOYO 1017pc"></color>
+<color name="TOYO 1018pc" cs="TOYO 1018pc"></color>
+<color name="TOYO 1019pc" cs="TOYO 1019pc"></color>
+<color name="TOYO 1020pc" cs="TOYO 1020pc"></color>
+<color name="TOYO 1021pc*" cs="TOYO 1021pc*"></color>
+<color name="TOYO 1022pc*" cs="TOYO 1022pc*"></color>
+<color name="TOYO 1023pc*" cs="TOYO 1023pc*"></color>
+<color name="TOYO 1024pc*" cs="TOYO 1024pc*"></color>
+<color name="TOYO 1025pc*" cs="TOYO 1025pc*"></color>
+<color name="TOYO 1026pc*" cs="TOYO 1026pc*"></color>
+<color name="TOYO 1027pc*" cs="TOYO 1027pc*"></color>
+<color name="TOYO 1028pc*" cs="TOYO 1028pc*"></color>
+<color name="TOYO 1029pc*" cs="TOYO 1029pc*"></color>
+<color name="TOYO 1030pc*" cs="TOYO 1030pc*"></color>
+<color name="TOYO 1031pc*" cs="TOYO 1031pc*"></color>
+<color name="TOYO 1032pc*" cs="TOYO 1032pc*"></color>
+<color name="TOYO 1033pc*" cs="TOYO 1033pc*"></color>
+<color name="TOYO 1034pc*" cs="TOYO 1034pc*"></color>
+<color name="TOYO 1035pc*" cs="TOYO 1035pc*"></color>
+<color name="TOYO 1036pc*" cs="TOYO 1036pc*"></color>
+<color name="TOYO 1037pc*" cs="TOYO 1037pc*"></color>
+<color name="TOYO 1038pc*" cs="TOYO 1038pc*"></color>
+<color name="TOYO 1039pc*" cs="TOYO 1039pc*"></color>
+<color name="TOYO 1040pc*" cs="TOYO 1040pc*"></color>
+<color name="TOYO 1041pc*" cs="TOYO 1041pc*"></color>
+<color name="TOYO 1042pc*" cs="TOYO 1042pc*"></color>
+<color name="TOYO 1043pc*" cs="TOYO 1043pc*"></color>
+<color name="TOYO 1044pc*" cs="TOYO 1044pc*"></color>
+<color name="TOYO 1045pc*" cs="TOYO 1045pc*"></color>
+<color name="TOYO 1046pc*" cs="TOYO 1046pc*"></color>
+<color name="TOYO 1047pc*" cs="TOYO 1047pc*"></color>
+<color name="TOYO 1048pc*" cs="TOYO 1048pc*"></color>
+<color name="TOYO 1049pc*" cs="TOYO 1049pc*"></color>
+<color name="TOYO 1050pc*" cs="TOYO 1050pc*"></color>
+</page>
+</colors>
+<localization></localization>
+</palette>
+

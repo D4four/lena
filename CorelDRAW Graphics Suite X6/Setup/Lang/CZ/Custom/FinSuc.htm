@@ -1,0 +1,229 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+           ICA:DlgHW="610,800" 
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:PromptForCancel="no"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+          ICA:ProgressState="TBPF_NOPROGRESS"
+    />
+
+    <script type="text/jscript" language="jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script type="text/jscript" language="jscript">
+    
+        var Setup = window.external;
+        
+        function OnBodyLoad()
+        {
+            
+            try
+            {
+                if ("ADMIN" == Setup.GetProperty("ACTION"))
+                {
+                    idAdmin.style.display = "block";    //admin
+                }
+                else
+                {
+                    if ("1" == Setup.GetProperty("RebootPage"))
+                    {
+                        idReboot.style.display = "block";   //reboot
+                    }
+                    else
+                    {
+                        //install
+                        if ("1" == Setup.GetProperty("VisualStudio9RTM_Installed"))
+                        {
+                            var str = Setup.GetProperty("Str.Dlg.FinSuc.Text.NoVSTAInstall")
+                            idFinishWithNoLauncher.innerHTML = str;
+                        }
+                        
+                        if ("" == Setup.GetProperty("Installed"))
+                        {
+                            if (g_bShowLaunchers ) //membership not included
+                            {
+                                idFreshInstallNoSub.style.display = "block";
+                                idFreshInstall.style.display = "none";
+                                if("1" == Setup.GetProperty("USER_TOKEN_AVAILABLE"))
+                                {
+                                    idBackGrd2.style.display = "block";
+                                    idBackGrd.style.display = "none";
+                                    
+                                    idFreshInstallWithLauncher.style.display = "block";
+
+                                    if ("1" == Setup.GetProperty("DRPFILES"))
+                                        idLaunchDraw.style.display = "block";
+
+                                    if ("1" == Setup.GetProperty("PPPFILES"))
+                                        idLaunchPaint.style.display = "block";                                
+
+                                    if ("1" == Setup.GetProperty("CONNECT"))
+                                        idLaunchConnect.style.display = "block";                                
+
+                               }
+                               else
+                               {
+                                    idFreshInstallWithNoLauncher.style.display = "block";
+                               }
+                            }
+                            else // no launcher
+                            {
+                                idFreshInstall.style.display = "block";    //first install                                
+                                idFreshInstallNoSub.style.display = "none";
+                            }
+                        }
+                        else
+                        {
+                            idMaintenance.style.display = "block";  //maintenance
+                        }
+                    }
+                }
+
+            }
+            catch (err)
+            {
+                idFreshInstall.style.display = "block";
+                idMaintenance.style.display = "block";
+            }
+            
+        } //function OnBodyLoad()
+        function LaunchAutorun()
+        {
+            if ("" == Setup.GetProperty("Installed"))
+            {
+                g_Setup.ExecuteFN('JS_LaunchAutorun');
+            }
+            Setup.EndModalLoop(0);
+        }//function LaunchAutorun()
+
+    </script>
+
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd" ></div>
+    <div id="idBackGrd2" style="display: none;"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" onclick="LaunchAutorun();" />
+   
+    <!-- ------------------------------------------------------------ -->
+    <!-- page content panel -->
+    <div id="idPanel">
+
+        <div class="DlgHeader" style="top: 20px;" >
+            Instalace proběhla úspěšně
+        </div>
+        
+        <!-- -------------------------------------------------------------------- -->
+        <!-- fresh workstation install -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idFreshInstall">
+            <div >
+                Děkujeme za instalaci sady CorelDRAW Graphics Suite X6.1!
+                <br /><br />
+            </div>
+            <div style="background-color: #5A6E32; color: white; padding: 7px 7px 7px 7px;">
+                Zakoupením sady CorelDRAW Graphics Suite X6.1 jste získali oprávnění využívat standardní členství aplikace CorelDRAW, které umožňuje využívat výhod online obsahu a budoucí aktualizace produktů.
+                <br />  
+            </div>
+                <br />          
+            <div>
+                Chcete-li instalaci ukončit, klikněte na tlačítko <b>Dokončit</b>.
+            </div>
+
+        </div>
+        <!-- -------------------------------------------------------------------- -->
+        
+        <!-- -------------------------------------------------------------------- -->
+        <!-- fresh workstation install - no subscription (corp, oem, trial) -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idFreshInstallNoSub">
+            <div style="display: none;" id="idFreshInstallWithLauncher">
+                Děkujeme za instalaci sady CorelDRAW Graphics Suite X6.1!
+                <br /><br />
+                Aplikace můžete začít okamžitě používat, nebo klepnutím na tlačítko <b>Dokončit</b> zavřete instalaci a spusťte aplikace později. 
+            </div>
+            <div style="display: none;" id="idFreshInstallWithNoLauncher">
+                Děkujeme za instalaci sady CorelDRAW Graphics Suite X6.1!.  Chcete-li instalaci ukončit, klikněte na tlačítko <b>Dokončit</b>.
+            </div>
+            <div style="background-color: Transparent; text-align: center;">
+                <a class="idLaunchDraw" id="idLaunchDraw" href="FinSuc.htm" onclick="LaunchIt('dr');" style="display: none;"></a>
+                <a class="idLaunchPaint" id="idLaunchPaint" href="FinSuc.htm" onclick="LaunchIt('pp');" style="display: none;"></a>
+                <a class="idLaunchConnect" id="idLaunchConnect" href="FinSuc.htm" onclick="LaunchIt('co');" style="display: none;"></a>
+                
+            </div>
+
+        </div>
+        <!-- -------------------------------------------------------------------- -->
+
+
+        <!-- maintenance install -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idMaintenance">
+            <div >
+                Děkujeme, že jste si vybrali sadu CorelDRAW Graphics Suite X6.1.  Chcete-li instalaci ukončit, klikněte na tlačítko <b>Dokončit</b>.
+            </div>
+        </div>
+        
+        <!-- reboot install -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idReboot">
+            <div class="DlgBlock" >
+                Aby se změny projevily, je třeba restartovat počítač. Vyberte jednu z následujících možností a kliknutím na tlačítko <b>Dokončit</b> ukončete instalaci.
+            </div>
+            
+            <div class="DlgBlock" style="top: 90px;">
+                <label>Děkujeme za instalaci sady CorelDRAW Graphics Suite X6.1!</label> 
+                <br />
+                <input type="radio" id="idRebootYes" name="REBOOT" value="force" accesskey="Y" />
+		<label for="idRebootYes" >Ano, chci nyní restartovat počítač.</label> 
+                <br />
+                <input type="radio" id="idRebootNo" name="REBOOT" value="ReallySuppress" accesskey="N" />
+		<label for="idRebootNo" >Ne, restartuji počítač později.</label>
+            </div>
+        </div>
+        
+        <!-- -------------------------------------------------------------------- -->
+        <!-- admin install -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idAdmin">
+            
+            <div>
+               Děkujeme za instalaci sady CorelDRAW Graphics Suite X6.1!  Instalace úspěšně vytvořila bitovou kopii na serveru. Chcete-li instalaci ukončit, klikněte na tlačítko <b>Dokončit</b>.
+            </div>
+            
+            <div class="DlgHeader" style="top: 100px;">
+                Umístění bitové kopie na serveru:
+            </div>
+        
+            <div class="DlgBlock" style="top: 130px; width: 45px; z-index: 1;">
+                <img src="../../_XX/Custom/Images/Folder.png" alt="" style="vertical-align:middle;" />
+            </div>
+            <div class="DlgBlock" style="top: 130px; left: 50px; width: 650px; z-index: 2;">
+                <label style="DISPLAY: block; OVERFLOW: hidden; cursor: hand;" onclick="OnAdminOpenFolder();" id="idAdminOpenFolder" ICA:Property="TARGETDIR">[TARGETDIR]</label>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------------------- -->
+        
+    </div> <!-- div id="idTabPanel" END -->
+
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    <button type="button" onmouseover="HighLightButton('idFinish');" onmouseout="UnHighLightButton('idFinish');" onclick="LaunchAutorun();" ID="idFinish" accesskey="D" ><u>D</u>okončit</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgWizardBtns"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

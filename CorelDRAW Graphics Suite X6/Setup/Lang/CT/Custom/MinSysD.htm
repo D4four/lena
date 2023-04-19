@@ -1,0 +1,170 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+    />
+    <script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script language="jscript" type="text/jscript">
+    
+        function OnBodyLoad()
+        {
+            var Setup   = window.external;
+            var pEl     = null;
+            var bkColor = "#94BF4B"; //91be44
+            
+            try
+            {
+                if ("1" == Setup.GetProperty("MinSysFail_idOS"))
+                {
+                    pEl = document.getElementById("idOS")
+                    if (null != pEl)
+                        pEl.style.backgroundColor = bkColor;
+                        pEl.style.color = "black";
+                }
+                
+                if ("1" == Setup.GetProperty("MinSysFail_idCPU"))
+                {
+                    pEl = document.getElementById("idCPU")
+                    if (null != pEl)
+                        pEl.style.backgroundColor = bkColor;
+                        pEl.style.color = "black";
+                }                
+                
+                if ("1" == Setup.GetProperty("MinSysFail_idRAM"))
+                {
+                    pEl = document.getElementById("idRAM")
+                    if (null != pEl)
+                        pEl.style.backgroundColor = bkColor;
+                        pEl.style.color = "black";
+                }
+                
+                if ("1" == Setup.GetProperty("MinSysFail_idScrRes"))
+                {
+                    pEl = document.getElementById("idScrRes")
+                    if (null != pEl)
+                        pEl.style.backgroundColor = bkColor;
+                        pEl.style.color = "black";
+                }
+                
+                if ("1" == Setup.GetProperty("VisualStudio9RTM_Installed"))
+                {
+                    pEl = document.getElementById("idVisualStudio9")
+                    if (null != pEl)
+                        pEl.style.display = "block";
+                        pEl.style.color = "black";
+                }
+                
+                
+                                
+            }
+            catch (err) {}
+            
+
+            
+        } //OnBodyLoad()
+    
+    </script>
+    
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+   
+    <!-- ------------------------------------------------------------ -->
+    <!-- page content panel -->
+    <div id="idPanel">
+    
+        <div class="DlgHeader" style="top: 20px;" >
+            <Loc>未符合下列一或多項最低系統需求</Loc>
+        </div>
+        
+        <div class="DlgBlock" style="top: 55px;">
+            <Loc>按一下<b>繼續</b>以忽略建議的最低系統需求，然後繼續安裝 CorelDRAW Graphics Suite X6.1。按一下<b>取消</b>離開安裝程式。</Loc>
+        </div>
+        
+        <div class="DlgBlock" style="top: 115px;
+                                     BORDER-LEFT-COLOR: silver; BORDER-BOTTOM-COLOR: silver; 
+                                     BORDER-TOP-COLOR: silver; BORDER-RIGHT-COLOR: silver;
+                                     BORDER-TOP-STYLE: double; BORDER-RIGHT-STYLE: double;
+                                     BORDER-LEFT-STYLE: double; BORDER-BOTTOM-STYLE: double;
+                                     background-color: #ffffff;
+                                     height: 225px;
+                                     width: 725px;
+                                     color: Black;">
+            
+            <div style="margin: 10px;">
+                <div>
+                    <b><u><Loc>最低系統需求：</Loc></u></b>
+                </div>
+                
+                <br />
+                
+	        	<div id="idOS">
+                    <Loc>提供最新 Service Pack 和重大更新的作業系統：<br />
+                    Windows 7 (32 位元或 64 位元版本)、Windows Vista (32 位元或 64 位元版本) 或 Windows XP (32 位元、<br />Internet Explorer 7)</Loc>
+                </div>
+                
+                <br />
+                
+                <div id="idCPU">
+		            <Loc>CPU：</Loc><br />
+    	    	    <Loc>Intel Pentium 4 或 AMD Athlon 64 (或以上)</Loc><br />
+    	    	</div>
+    	    	
+    	    	<br />
+    	    	
+    	    	<div id="idRAM">
+        		   <Loc>RAM：1 GB</Loc>
+        		</div>
+        		
+                <br />        		
+        		
+        		<div id="idScrRes">
+		            <Loc>螢幕解析度：1024 x 768</Loc>
+		        </div>
+		        
+		        <br />
+                
+                <div id="idVisualStudio9" style="display: none; background-color: #94BF4B;">
+                    <Loc>Visual Studio 2008 SP1 (支援 Visual Studio Tools for Applications 所需)</Loc>
+		        </div>
+		        
+            </div>
+        </div>
+    
+    </div> <!-- div id="idTabPanel" END -->
+
+<!-- ------------------------------------------------------------ -->
+<!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+<div class="DlgWizardBtns">
+    <table border="0" width="100%">
+        <tr>
+            <td align="right">
+            </td>
+            <td width="120px" align="left">
+                <button accesskey="O" type="submit" onmouseover="HighLightButton('idContinue');" onmouseout="UnHighLightButton('idContinue');" onclick="window.location='License.htm';" ID="idContinue" ><Loc>繼續(<u>O</u>)</Loc> &gt;</button>
+            </td>
+            <td width="120px" align="right">
+                <button accesskey="C" type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" ICA:Function="ICACancelSetup" ID="idCancel"><Loc>取消(<u>C</u>)</Loc></button>
+            </td>
+        </tr>
+    </table>
+</div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

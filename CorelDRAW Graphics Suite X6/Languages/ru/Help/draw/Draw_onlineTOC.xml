@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='Windows-1251' ?>
+
+<WebWorksHelpTOC version="3.0">
+ <i l="CorelDRAW_Welcome.html#wppagetop" t="Представл&#1103;ем справку по CorelDRAW" />
+ <i l="CorelDRAW_Welcomea.html#wppagetop" t="Начало работы">
+  <i l="CorelDRAW_Intro.html#wppagetop" t="Приветствие">
+   <i l="CorelDRAW_Installing_CorelDRAW_Graphics_Suite_X4_applications.html#wp350956" t="Установка приложений CorelDRAW Graphics Suite" />
+   <i l="CorelDRAW_Changing_languages.html#wp351139" t="Изменение &#1103;зыков" />
+   <i l="CorelDRAW_Changing_startup_settings.html#wp351228" t="Изменение настроек запуска" />
+   <i l="CorelDRAW_Updating_Corel_products.html#wp351317" t="Обновление продуктов Corel" />
+   <i l="CorelDRAW_Corel_Support_Services.html#wp351355" t="Служба поддержки Corel" />
+   <i l="CorelDRAW_About_Corel_Corporation.html#wp351371" t="О корпорации Corel" />
+  </i>
+  <i l="CorelDRAW_What_is_new_in_CDGSX6.html#wppagetop" t="Новые возможности CorelDRAW Graphics Suite X6">
+   <i l="CorelDRAW_Work_faster_and_more_efficiently.html#wp951379" t="Работайте быстрее и эффективнее" />
+   <i l="CorelDRAW_Create_layout_with_ease.html#wp951538" t="Создавайте макеты с легкостью" />
+   <i l="CorelDRAW_Design_with_style_and_creativity.html#wp951644" t="Создавайте дизайн со стилем и творческим подходом" />
+   <i l="CorelDRAW_Finding_out_what_was_new_in_previous_versions.html#wp951712" t="Получение сведений о новых возможност&#1103;х, по&#1103;вившихс&#1103; в предыдущих верси&#1103;х" />
+  </i>
+  <i l="CorelDRAW_Learning_resources.html#wppagetop" t="Ресурсы обучени&#1103;">
+   <i l="CorelDRAW_Getting_help.html#wp59416" t="Получение справки" />
+   <i l="CorelDRAW_Using_the_Help_and_tooltips.html#wp59451" t="Использование справки и всплывающих подсказок" />
+   <i l="CorelDRAW_Guidebook.html#wp59552" t="Руководство" />
+   <i l="CorelDRAW_Video_tutorials.html#wp59584" t="Обучающие видеоролики" />
+   <i l="CorelDRAW_Using_Hints.html#wp59638" t="Использование советов" />
+   <i l="CorelDRAW_CorelDRAW_welcome_screen.html#wp59673" t="Экран приветстви&#1103;" />
+   <i l="CorelDRAW_Tips_tricks.html#wp59715" t="Советы и рекомендации" />
+   <i l="CorelDRAW_VBA_Programming_Guide.html#wp59747" t="Руководство по программированию макросов" />
+   <i l="CorelDRAW_Network_deployment_guide.html#wp59779" t="Руководство по развертыванию в сети" />
+   <i l="CorelDRAW_Using_Web_based_resources.html#wp1484392" t="Интернет-ресурсы" />
+   <i l="CorelDRAW_Other_resources.html#wp59901" t="Специальные ресурсы по обучению и интеграции" />
+  </i>
+  <i l="CorelDRAW_Workspace_tour.html#wppagetop" t="CorelDRAW Знакомство с рабочим пространством">
+   <i l="CorelDRAW_CorelDRAW_terminology_and_concepts.html#wp958756" t="Термины CorelDRAW" />
+   <i l="CorelDRAW_CorelDRAW_application_window.html#wp958771" t="Окно приложени&#1103;" />
+   <i l="CorelDRAW_CorelDRAW_workspace_tools.html#wp958812" t="Инструменты рабочего пространства" />
+  </i>
+  <i l="CorelDRAW_CorelDRAW_basics.html#wppagetop" t="Основные операции в CorelDRAW">
+   <i l="CorelDRAW_About_vector_graphics_and_bitmaps.html#wp400744" t="Знакомство с векторной графикой и растровыми изображени&#1103;ми" />
+   <i l="CorelDRAW_Starting_and_opening_drawings.html#wp400795" t="Создание и открытие рисунков" />
+   <i l="CorelDRAW_Acquiring_images_from_scanners_and_digital_cameras.html#wp401056" t="Получение изображений со сканеров и цифровых камер" />
+   <i l="CorelDRAW_Undoing_redoing_and_repeating_actions.html#wp401199" t="Отмена, возврат и повтор действий" />
+   <i l="CorelDRAW_Zooming_and_panning.html#wp401281" t="Масштабирование, панорамирование и прокрутка" />
+   <i l="CorelDRAW_Previewing_a_drawing.html#wp401528" t="Предварительный просмотр рисунков" />
+   <i l="CorelDRAW_Choosing_viewing_modes.html#wp401689" t="Выбор режимов просмотра" />
+   <i l="CorelDRAW_Working_with_views.html#wp401802" t="Работа с видами" />
+   <i l="CorelDRAW_Saving_drawings.html#wp401942" t="Сохранение рисунков" />
+   <i l="CorelDRAW_Backing_up_and_recovering_files.html#wp402151" t="Создание резервных копий и восстановление файлов" />
+   <i l="CorelDRAW_Accessing_drawing_information.html#wp402303" t="Добавление сведений о рисунке и их просмотр" />
+   <i l="CorelDRAW_Closing_drawings_and_quitting_CorelDRAW.html#wp402382" t="Закрытие рисунков и завершение работы программы CorelDRAW" />
+   <i l="CorelDRAW_Exploring_the_basic_tasks_of_CorelDRAW.html#wp402453" t="Обзор основных задач" />
+  </i>
+  <i l="CorelDRAW_Finding_and_managing_content.html#wppagetop" t="Поиск контента и управление им">
+   <i l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612652" t="Знакомство с Corel CONNECT" />
+   <i l="CorelDRAW_Accessing_content.html#wp612752" t="Доступ к содержимому" />
+   <i l="CorelDRAW_Browsing_and_searching_for_content.html#wp612850" t="Обзор и поиск контента" />
+   <i l="CorelDRAW_Viewing_content.html#wp613010" t="Просмотр контента" />
+   <i l="CorelDRAW_Using_content.html#wp613052" t="Использование содержимого" />
+   <i l="CorelDRAW_Installing_pattern_fills_fonts.html#wp613168" t="Установка заливок узором и шрифтов" />
+   <i l="CorelDRAW_Managing_content.html#wp613201" t="Управление содержимым" />
+  </i>
+  <i l="CorelDRAW_Collaborating.html#wppagetop" t="Совместна&#1103; работа">
+   <i l="CorelDRAW_Using_ConceptShare.html#wp275125" t="Использование ConceptShare" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomeb.html#wppagetop" t="Линии, фигуры и абрисы">
+  <i l="CorelDRAW_Working_with_lines_outlines_and_brush_strokes.html#wppagetop" t="Работа с лини&#1103;ми, абрисами и мазками кисти">
+   <i l="CorelDRAW_Drawing_lines.html#wp349793" t="Рисование линий" />
+   <i l="CorelDRAW_Drawing_calligraphic_pressure-sensitive_and_preset_lines.html#wp350225" t="Рисование каллиграфических линий, линий с учетом силы нажима и заготовок линий" />
+   <i l="CorelDRAW_Formatting_lines_and_outlines.html#wp350367" t="Форматирование линий и абрисов" />
+   <i l="CorelDRAW_Copying_converting_and_removing_outlines.html#wp350526" t="Добавление наконечников линий и кривых" />
+   <i l="CorelDRAW_Copying_converting_and_removing_outlinesa.html#wp350648" t="Копирование, преобразование и удаление абрисов" />
+   <i l="CorelDRAW_Closing_multiple_line_segments.html#wp350740" t="Замыкание нескольких сегментов линии" />
+   <i l="CorelDRAW_Applying_brush_strokes.html#wp350806" t="Нанесение мазков кисти" />
+   <i l="CorelDRAW_Spraying_objects_along_a_line.html#wp350904" t="Распыление объектов вдоль линии" />
+   <i l="CorelDRAW_Drawing_connector_and_callout_lines.html#wp351081" t="Рисование соединительных и выносных линий" />
+   <i l="CorelDRAW_Drawing_dimension_lines.html#wp351288" t="Рисование размерных линий" />
+   <i l="CorelDRAW_Using_a_pressure_sensitive_pen.html#wp351465" t="Использование пера с учетом силы нажима" />
+  </i>
+  <i l="CorelDRAW_Drawing_shapes.html#wppagetop" t="Рисование фигур">
+   <i l="CorelDRAW_Drawing_rectangles_and_squares.html#wp662764" t="Рисование пр&#1103;моугольников и квадратов" />
+   <i l="CorelDRAW_Drawing_ellipses_circles_arcs_and_pie_shapes.html#wp662933" t="Рисование эллипсов, окружностей, дуг и секторов" />
+   <i l="CorelDRAW_Drawing_polygons_and_stars.html#wp663066" t="Рисование многоугольников и звезд" />
+   <i l="CorelDRAW_Drawing_spirals.html#wp663177" t="Рисование спиралей" />
+   <i l="CorelDRAW_Drawing_grids.html#wp663228" t="Рисование сеток" />
+   <i l="CorelDRAW_Drawing_predefined_shapes.html#wp663289" t="Рисование стандартных фигур" />
+   <i l="CorelDRAW_Drawing_by_using_shape_recognition.html#wp663397" t="Рисование с использованием функции распознавани&#1103; фигур" />
+  </i>
+  <i l="CorelDRAW_Shaping_objects.html#wppagetop" t="Формирование объектов">
+   <i l="CorelDRAW_Using_curve_objects.html#wp439666" t="Использование объектов кривых" />
+   <i l="CorelDRAW_Selecting_and_moving_nodes.html#wp439738" t="Выбор и перемещение узлов" />
+   <i l="CorelDRAW_Manipulating_segments.html#wp439824" t="Управление сегментами" />
+   <i l="CorelDRAW_Adding_removing_joining_and_aligning_nodes.html#wp439878" t="Добавление, удаление, соединение и выравнивание узлов" />
+   <i l="CorelDRAW_Using_node_types.html#wp440039" t="Использование типов узлов" />
+   <i l="CorelDRAW_Transforming_nodes.html#wp440097" t="Преобразование узлов" />
+   <i l="CorelDRAW_Breaking_the_path_of_curve_objects.html#wp440157" t="Разделение пути объектов кривых" />
+   <i l="CorelDRAW_Mirroring_changes_in_curve_objects.html#wp440210" t="Отражение изменений в объектах кривых" />
+   <i l="CorelDRAW_Skewing_and_stretching_objects.html#wp440274" t="Наклон и раст&#1103;гивание объектов" />
+   <i l="CorelDRAW_Smudging_objects.html#wp440379" t="Размазывание и смазывание объектов" />
+   <i l="CorelDRAW_Roughening_objects.html#wp440488" t="Применение эффекта грубой кисти дл&#1103; объектов" />
+   <i l="CorelDRAW_Shaping_objects_by_attracting_or_pushing_away_nodes.html#wp440552" t="Изменение формы объектов путем прит&#1103;гивани&#1103; или отталкивани&#1103; узлов" />
+   <i l="CorelDRAW_Applying_distortion_effects.html#wp440616" t="Применение эффектов искажени&#1103;" />
+   <i l="CorelDRAW_Adding_twirl_effects.html#wp440743" t="Добавление эффектов кручени&#1103;" />
+   <i l="CorelDRAW_Shaping_objects_by_using_envelopes.html#wp440783" t="Формирование объектов с помощью оболочек" />
+   <i l="CorelDRAW_Cropping_splitting_and_erasing_objects.html#wp440981" t="Обрезка, разделение и удаление объектов" />
+   <i l="CorelDRAW_Trimming_objects.html#wp441208" t="Исключение объектов" />
+   <i l="CorelDRAW_Filleting_scalloping_and_chamfering_corners.html#wp441343" t="Скруглени&#1103;, выемки и фаски на углах" />
+   <i l="CorelDRAW_Welding_and_intersecting_objects.html#wp441456" t="Объединение и пересечение объектов" />
+   <i l="CorelDRAW_Creating_PowerClip_objects.html#wp441571" t="Создание объектов PowerClip" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomec.html#wppagetop" t="Объекты, символы и слои">
+  <i l="CorelDRAW_Working_with_objects.html#wppagetop" t="Работа с объектами">
+   <i l="CorelDRAW_Selecting_objects.html#wp510172" t="Выделение объектов" />
+   <i l="CorelDRAW_Transforming_objects.html#wp510258" t="Преобразование объектов" />
+   <i l="CorelDRAW_Copying_duplicating_and_deleting_objects.html#wp510338" t="Копирование, дублирование и удаление объектов" />
+   <i l="CorelDRAW_Creating_objects_from_enclosed_areas.html#wp510539" t="Создание объектов на основе замкнутых областей" />
+   <i l="CorelDRAW_Creating_a_boundary_around_selected_objects.html#wp510568" t="Создание границы вокруг выделенных объектов" />
+   <i l="CorelDRAW_Copying_object_properties_transformations_and_effects.html#wp510599" t="Копирование свойств, преобразований и эффектов объекта" />
+   <i l="CorelDRAW_Cloning_objects.html#wp510749" t="Клонирование объектов" />
+   <i l="CorelDRAW_Positioning_objects.html#wp510819" t="Расположение объектов" />
+   <i l="CorelDRAW_Aligning_and_distributing_objects.html#wp510991" t="Выравнивание и распределение объектов" />
+   <i l="CorelDRAW_Applying_object_hinting.html#wp511181" t="Применение сглаживани&#1103; объектов" />
+   <i l="CorelDRAW_Snapping_objects.html#wp511210" t="Прив&#1103;зка объектов" />
+   <i l="CorelDRAW_Using_dynamic_guides.html#wp511311" t="Использование динамических направл&#1103;ющих" />
+   <i l="CorelDRAW_Using_alignment_guides.html#wp511519" t="Использование направл&#1103;ющих выравнивани&#1103;" />
+   <i l="CorelDRAW_Changing_the_order_of_objects.html#wp511587" t="Изменение пор&#1103;дка объектов" />
+   <i l="CorelDRAW_Sizing_and_scaling_objects.html#wp511667" t="Изменение размера и масштабирование объектов" />
+   <i l="CorelDRAW_Rotating_and_mirroring_objects.html#wp511747" t="Поворот и зеркальное отражение объектов" />
+   <i l="CorelDRAW_Grouping_objects.html#wp511868" t="Группировка объектов" />
+   <i l="CorelDRAW_Combining_objects.html#wp512002" t="Объединение объектов" />
+   <i l="CorelDRAW_Locking_objects.html#wp512088" t="Блокировка объектов" />
+   <i l="CorelDRAW_Finding_and_replacing_objects.html#wp512189" t="Поиск и замена объектов" />
+   <i l="CorelDRAW_Constraining_objects.html#wp512242" t="Ограничение объектов" />
+   <i l="CorelDRAW_Inserting_bar_codes.html#wp512304" t="Вставка штрих-кодов" />
+  </i>
+  <i l="CorelDRAW_Working_with_layers.html#wppagetop" t="Работа со сло&#1103;ми">
+   <i l="CorelDRAW_Creating_layers.html#wp398582" t="Создание слоев" />
+   <i l="CorelDRAW_Changing_layer_properties_and_stacking_order.html#wp398813" t="Изменение свойств сло&#1103;" />
+   <i l="CorelDRAW_Moving_and_copying_objects_between_layers.html#wp399039" t="Перемещение и копирование слоев и объектов" />
+  </i>
+  <i l="CorelDRAW_Working_with_symbols.html#wppagetop" t="Работа с символами">
+   <i l="CorelDRAW_Creating_editing_and_deleting_symbols.html#wp156161" t="Создание, редактирование и удаление символов" />
+   <i l="CorelDRAW_Using_symbols_in_drawings.html#wp156324" t="Использование символов в рисунках" />
+   <i l="CorelDRAW_Managing_collections_and_libraries.html#wp156471" t="Управление коллекци&#1103;ми и библиотеками" />
+   <i l="CorelDRAW_Reference_Working_with_symbols.html#wp156580" t="Reference: Работа с символами" />
+  </i>
+  <i l="CorelDRAW_Object_linking_and_embedding.html#wppagetop" t="Св&#1103;зывание и встраивание объектов">
+   <i l="CorelDRAW_Inserting_linked_or_embedded_objects.html#wp1054739" t="Вставка св&#1103;занных или встроенных объектов" />
+   <i l="CorelDRAW_Editing_linked_or_embedded_objects.html#wp372335" t="Редактирование св&#1103;занных или встроенных объектов" />
+  </i>
+  <i l="CorelDRAW_Managing_projects.html#wppagetop" t="Управление проектами">
+   <i l="CorelDRAW_Setting_up_the_project_database.html#wp206240" t="Настройка базы данных проекта" />
+   <i l="CorelDRAW_Assigning_and_copying_object_data.html#wp206297" t="Назначение и копирование данных объекта" />
+   <i l="CorelDRAW_Viewing_an_object_data_summary.html#wp206367" t="Просмотр сводки данных объекта" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomed.html#wppagetop" t="Цвет и заливки">
+  <i l="CorelDRAW_Working_with_color.html#wppagetop" t="Работа с цветом">
+   <i l="CorelDRAW_Understanding_color_models.html#wp466188" t="Общие сведени&#1103; о цветовых модел&#1103;х" />
+   <i l="CorelDRAW_Understanding_color_depth.html#wp466270" t="Общие сведени&#1103; о глубине цвета" />
+   <i l="CorelDRAW_Choosing_colors.html#wp466330" t="Выбор цветов" />
+   <i l="CorelDRAW_Using_the_Document_palette.html#wp1853181" t="Использование палитры документа" />
+   <i l="CorelDRAW_Creating_custom_color_palettes.html#wp467289" t="Создание и редактирование настраиваемых цветовых палитр" />
+   <i l="CorelDRAW_Organizing_and_displaying_custom_color_palettes.html#wp467539" t="Упор&#1103;дочение и отображение цветовых палитр" />
+   <i l="CorelDRAW_Displaying_or_hiding_color_palettes_in_the_Palette_Libraries.html#wp467699" t="Отображение и скрытие цветовых палитр в папке «Библиотеки палитр»" />
+   <i l="CorelDRAW_Setting_color_palette_properties.html#wp467764" t="Настройка свойств цветовых палитр" />
+  </i>
+  <i l="CorelDRAW_Filling_objects.html#wppagetop" t="Заливка объектов">
+   <i l="CorelDRAW_Applying_uniform_fills.html#wp441221" t="Применение однородных заливок" />
+   <i l="CorelDRAW_Applying_fountain_fills.html#wp441283" t="Применение фонтанных заливок" />
+   <i l="CorelDRAW_Applying_pattern_fills.html#wp441490" t="Применение заливок узором" />
+   <i l="CorelDRAW_Applying_texture_fills.html#wp441784" t="Применение заливок текстурой" />
+   <i l="CorelDRAW_Applying_PostScript_texture_fills.html#wp441888" t="Применение заливки текстурой PostScript" />
+   <i l="CorelDRAW_Applying_mesh_fills.html#wp441944" t="Применение заливок сетки" />
+   <i l="CorelDRAW_Applying_fills_to_areas.html#wp442074" t="Применение заливок дл&#1103; областей" />
+   <i l="CorelDRAW_Working_with_fills.html#wp442153" t="Работа с заливками" />
+  </i>
+  <i l="CorelDRAW_Managing_color_for_display_input_and_output.html#wppagetop" t="Использование управлени&#1103; цветом">
+   <i l="CorelDRAW_Understanding_Color_Management.html#wp266846" t="Общие сведени&#1103; о процессе управлени&#1103; цветом" />
+   <i l="CorelDRAW_Getting_Started_with_Color_Management.html#wp267080" t="Начало работы с управлением цветом в CorelDRAW" />
+   <i l="CorelDRAW_Installing_loading_and_embedding_color_profiles.html#wp267229" t="Установка, загрузка и встраивание цветовых профилей" />
+   <i l="CorelDRAW_Assigning_or_Removing_Color_Profiles.html#wp267368" t="Назначение цветовых профилей" />
+   <i l="CorelDRAW_Converting_Color_Profiles.html#wp267407" t="Преобразование цветов в другие цветовые профили" />
+   <i l="CorelDRAW_Choosing_color_conversion_settings.html#wp267453" t="Выбор параметров преобразовани&#1103; цвета" />
+   <i l="CorelDRAW_Soft_proofing.html#wp267492" t="Программна&#1103; цветопроба" />
+   <i l="CorelDRAW_Working_with_color_management_presets.html#wp267611" t="Работа с заготовками дл&#1103; управлени&#1103; цветом" />
+   <i l="CorelDRAW_Working_with_color_management_policies.html#wp267695" t="Работа с политиками управлени&#1103; цветом" />
+   <i l="CorelDRAW_Managing_colors_when_opening_documents.html#wp267779" t="Управление цветами при открытии документов" />
+   <i l="CorelDRAW_Managing_colors_when_importing_and_pasting_files.html#wp267846" t="Управление цветами при импорте и вставке файлов" />
+   <i l="CorelDRAW_Managing_colors_for_print.html#wp267905" t="Управление цветами дл&#1103; печати" />
+   <i l="CorelDRAW_Using_a_safe_CMYK_workflow.html#wp267971" t="Использование безопасного рабочего процесса CMYK" />
+   <i l="CorelDRAW_Managing_colors_for_online_viewing.html#wp267995" t="Управление цветами дл&#1103; просмотра в Интернете" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomee.html#wppagetop" t="Специальные эффекты">
+  <i l="CorelDRAW_Changing_the_transparency_of_objects.html#wppagetop" t="Изменение прозрачности объектов">
+   <i l="CorelDRAW_Applying_transparencies.html#wp742712" t="Применение эффектов прозрачности" />
+   <i l="CorelDRAW_Applying_merge_modes.html#wp742994" t="Применение режимов сли&#1103;ни&#1103;" />
+  </i>
+  <i l="CorelDRAW_Using_lenses_with_objects.html#wppagetop" t="Использование линз дл&#1103; объектов">
+   <i l="CorelDRAW_Applying_lenses.html#wp256909" t="Применение линз" />
+   <i l="CorelDRAW_Editing_lenses.html#wp256998" t="Редактирование линз" />
+  </i>
+  <i l="CorelDRAW_Adding_three-dimensional_effects_to_objects.html#wppagetop" t="Применение трехмерных эффектов дл&#1103; объектов">
+   <i l="CorelDRAW_Contouring_objects.html#wp790144" t="Создание контура дл&#1103; объектов" />
+   <i l="CorelDRAW_Applying_perspective_to_objects.html#wp790360" t="Применение перспективы дл&#1103; объектов" />
+   <i l="CorelDRAW_Creating_vector_extrusions.html#wp790514" t="Создание выт&#1103;гиваний" />
+   <i l="CorelDRAW_Creating_bevel_effects.html#wp790853" t="Создание эффектов скоса" />
+   <i l="CorelDRAW_Creating_drop_shadows.html#wp791042" t="Создание теней" />
+   <i l="CorelDRAW_Blending_objects.html#wp791283" t="Создание перетекани&#1103; объектов" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomef.html#wppagetop" t="Текст">
+  <i l="CorelDRAW_Adding_and_manipulating_text.html#wppagetop" t="Добавление и изменение текста">
+   <i l="CorelDRAW_Importing_and_pasting_text.html#wp488792" t="Импорт и вставка текста" />
+   <i l="CorelDRAW_Adding_artistic_text.html#wp488947" t="Добавление фигурного текста" />
+   <i l="CorelDRAW_Adding_paragraph_text.html#wp489005" t="Добавление простого текста" />
+   <i l="CorelDRAW_Adding_columns_to_text_frames.html#wp489259" t="Добавление столбцов в текстовые фреймы" />
+   <i l="CorelDRAW_Combining_and_linking_paragraph_text_frames.html#wp489378" t="Объединение и св&#1103;зь рамок простого текста" />
+   <i l="CorelDRAW_Using_the_baseline_grid.html#wp489568" t="Выравнивание текста с помощью базовой сетки" />
+   <i l="CorelDRAW_Selecting_text.html#wp489632" t="Выбор текста" />
+   <i l="CorelDRAW_Finding_editing_and_converting_text.html#wp489694" t="Поиск, редактирование и преобразование текста" />
+   <i l="CorelDRAW_Shifting_rotating_mirroring_and_flipping_text.html#wp489865" t="Смещение, поворот, отражение и переворот текста" />
+   <i l="CorelDRAW_Moving_text.html#wp490021" t="Перемещение текста" />
+   <i l="CorelDRAW_Wrapping_text.html#wp490084" t="Обтекание текста" />
+   <i l="CorelDRAW_Fitting_text_to_a_path.html#wp490188" t="Расположение текста вдоль пути" />
+   <i l="CorelDRAW_Embedding_graphics_and_adding_special_characters.html#wp490406" t="Встраивание графики и добавление специальных символов" />
+   <i l="CorelDRAW_Working_with_legacy_text.html#wp490528" t="Работа с текстом из прежних версий" />
+  </i>
+  <i l="CorelDRAW_Formatting_text.html#wppagetop" t="Форматирование текста">
+   <i l="CorelDRAW_Choosing_typefaces_and_fonts.html#wp860305" t="Выбор шрифтов и гарнитур шрифтов" />
+   <i l="CorelDRAW_Formatting_characters.html#wp860440" t="Форматирование символов" />
+   <i l="CorelDRAW_Changing_text_color.html#wp860575" t="Изменение цвета текста" />
+   <i l="CorelDRAW_Kerning_a_range_of_characters.html#wp860629" t="Кернинг диапазона символов" />
+   <i l="CorelDRAW_Changing_case_and_capitalization.html#wp860674" t="Изменение регистра текста" />
+   <i l="CorelDRAW_Working_with_OpenType_features.html#wp860745" t="Работа с возможност&#1103;ми OpenType" />
+   <i l="CorelDRAW_Adjusting_text_spacing.html#wp860839" t="Регулировка интервала между символами и словами" />
+   <i l="CorelDRAW_Adjusting_line_and_paragraph_spacing.html#wp860956" t="Регулировка интервала между строками и абзацами" />
+   <i l="CorelDRAW_Adding_bullets_to_text.html#wp861071" t="Добавление маркеров в текст" />
+   <i l="CorelDRAW_Inserting_drop_caps.html#wp861157" t="Вставка буквиц" />
+   <i l="CorelDRAW_Changing_character_position_and_angle.html#wp861208" t="Изменение положени&#1103; и угла символа" />
+   <i l="CorelDRAW_Aligning_text.html#wp861280" t="Выравнивание текста" />
+   <i l="CorelDRAW_Adding_tabs_and_indents.html#wp861443" t="Добавление табул&#1103;ций и отступов" />
+   <i l="CorelDRAW_Applying_a_text_style.html#wp861569" t="Работа со стил&#1103;ми текста" />
+   <i l="CorelDRAW_Hyphenating_text.html#wp861601" t="Перенос текста" />
+   <i l="CorelDRAW_Inserting_formatting_codes.html#wp861764" t="Вставка кодов форматировани&#1103;" />
+   <i l="CorelDRAW_Displaying_nonprinting_characters.html#wp861840" t="Отображение служебных символов" />
+  </i>
+  <i l="CorelDRAW_Working_with_text_in_different_languages.html#wppagetop" t="Работа с текстом на разных &#1103;зыках">
+   <i l="CorelDRAW_Formatting_Asian_text.html#wp809619" t="Форматирование азиатского текста" />
+   <i l="CorelDRAW_Using_Asian_line-breaking_rules.html#wp809726" t="Использование правил переноса строк в азиатском тексте" />
+   <i l="CorelDRAW_Formatting_multilingual_text.html#wp809813" t="Форматирование много&#1103;зычного текста" />
+   <i l="CorelDRAW_Displaying_text_correctly_in_any_language.html#wp809933" t="Правильное отображение текста на любом &#1103;зыке" />
+  </i>
+  <i l="CorelDRAW_Managing_fonts.html#wppagetop" t="Управление шрифтами">
+   <i l="CorelDRAW_Substituting_unavailable_fonts.html#wp552940" t="Подстановка шрифтов" />
+   <i l="CorelDRAW_Previewing_and_identifying_fonts.html#wp553071" t="Предварительный просмотр и идентификаци&#1103; шрифтов" />
+   <i l="CorelDRAW_Using_Bitstream_Font_Navigator.html#wp553175" t="Использование Bitstream Font Navigator" />
+  </i>
+  <i l="CorelDRAW_Using_writing_tools.html#wppagetop" t="Использование средств проверки правописани&#1103;">
+   <i l="CorelDRAW_Using_QuickCorrect.html#wp993011" t="Использование функции QuickCorrect" />
+   <i l="CorelDRAW_Using_the_spelling_checker_and_Grammatik.html#wp993153" t="Использование функции проверки орфографии и грамматики" />
+   <i l="CorelDRAW_Using_the_thesaurus.html#wp993354" t="Использование тезауруса" />
+   <i l="CorelDRAW_Working_with_languages.html#wp993438" t="Работа с &#1103;зыками" />
+   <i l="CorelDRAW_Customizing_the_writing_tools.html#wp993510" t="Настройка средств проверки правописани&#1103;" />
+   <i l="CorelDRAW_Using_checking_styles.html#wp993613" t="Использование стилей проверки" />
+   <i l="CorelDRAW_Using_rule_classes.html#wp993824" t="Использование классов правил" />
+   <i l="CorelDRAW_Analyzing_a_drawing.html#wp993916" t="Анализ рисунка" />
+   <i l="CorelDRAW_Using_word_lists.html#wp994043" t="Использование списков слов" />
+   <i l="CorelDRAW_Checking_statistics.html#wp994301" t="Проверка статистики" />
+   <i l="CorelDRAW_Reference_Using_writing_tools.html#wp994331" t="Reference: использование средств проверки правописани&#1103;" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomeg.html#wppagetop" t="Шаблоны и стили">
+  <i l="CorelDRAW_Working_with_templates.html#wppagetop" t="Работа с шаблонами">
+   <i l="CorelDRAW_Searching_for_templates.html#wp858776" t="Поиск шаблонов" />
+   <i l="CorelDRAW_Using_saved_templates_to_create_files.html#wp858910" t="Использование шаблонов" />
+   <i l="CorelDRAW_Creating_templates.html#wp858983" t="Создание шаблонов" />
+   <i l="CorelDRAW_Editing_templates.html#wp859073" t="Редактирование шаблонов" />
+  </i>
+  <i l="CorelDRAW_Working_with_styles_and_style_sets.html#wppagetop" t="Работа со стил&#1103;ми и наборами стилей">
+   <i l="CorelDRAW_Creating_styles_and_style_sets.html#wp514861" t="Создание стилей и наборов стилей" />
+   <i l="CorelDRAW_Applying_styles_and_style_sets.html#wp514988" t="Применение стилей и наборов стилей" />
+   <i l="CorelDRAW_Editing_styles_and_style_sets.html#wp515033" t="Редактирование стилей и наборов стилей" />
+   <i l="CorelDRAW_Managing_default_object_properties.html#wp515129" t="Управление свойствами объектов по умолчанию" />
+   <i l="CorelDRAW_Exporting_and_importing_style_sheets.html#wp515206" t="Экспорт и импорт таблиц стилей" />
+   <i l="CorelDRAW_Assigning_keyboard_shortcuts_to_styles_or_style_sets.html#wp515261" t="Назначение клавиш быстрого вызова дл&#1103; стилей или наборов стилей" />
+   <i l="CorelDRAW_Finding_objects_that_use_a_specific_style_or_style_set.html#wp515316" t="Поиск объектов с определенным стилем или набором стилей" />
+   <i l="CorelDRAW_Breaking_the_link_between_objects_and_styles_or_style_sets.html#wp515342" t="Разрыв св&#1103;зи между объектами и стил&#1103;ми или наборами стилей" />
+  </i>
+  <i l="CorelDRAW_Working_with_color_tyles.html#wppagetop" t="Работа с цветовыми стил&#1103;ми">
+   <i l="CorelDRAW_Creating_and_applying_color_styles.html#wp15366" t="Создание и применение цветовых стилей" />
+   <i l="CorelDRAW_Editing_color_styles.html#wp15559" t="Редактирование цветовых стилей" />
+   <i l="CorelDRAW_Exporting_and_importing_color_styles.html#wp15621" t="Экспорт и импорт цветовых стилей" />
+   <i l="CorelDRAW_Breaking_the_link_between_a_color_style_and_an_object.html#wp15645" t="Разрыв св&#1103;зи между цветовым стилем и объектом" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomeh.html#wppagetop" t="Страницы и макеты">
+  <i l="CorelDRAW_Working_with_pages_and_layout_tools.html#wppagetop" t="Работа с инструментами страниц и макетов">
+   <i l="CorelDRAW_Specifying_the_page_layout.html#wp66442" t="Определение макета страницы" />
+   <i l="CorelDRAW_Choosing_a_page_background.html#wp66617" t="Выбор фона страницы" />
+   <i l="CorelDRAW_Adding_duplicating_renaming_and_deleting_pages.html#wp66737" t="Добавление, дублирование, переименование и удаление страниц" />
+   <i l="CorelDRAW_Inserting_page_numbers.html#wp66934" t="Вставка номеров страниц" />
+   <i l="CorelDRAW_Using_the_rulers.html#wp67045" t="Использование линеек" />
+   <i l="CorelDRAW_Calibrating_the_rulers.html#wp67159" t="Калибровка линеек" />
+   <i l="CorelDRAW_Setting_up_the_grid.html#wp67217" t="Настройка сетки документа" />
+   <i l="CorelDRAW_Setting_up_baseline_grid.html#wp67387" t="Настройка базовой сетки" />
+   <i l="CorelDRAW_Setting_up_guidelines.html#wp67465" t="Настройка направл&#1103;ющих" />
+   <i l="CorelDRAW_Setting_the_drawing_scale.html#wp67733" t="Настройка масштаба рисунка" />
+  </i>
+  <i l="CorelDRAW_Working_with_tables.html#wppagetop" t="Работа с таблицами">
+   <i l="CorelDRAW_Adding_tables_to_drawings.html#wp739361" t="Добавление таблиц в рисунки" />
+   <i l="CorelDRAW_Selecting_moving_and_navigating_table_components.html#wp739448" t="Выбор, перемещение и навигаци&#1103; по компонентам таблицы" />
+   <i l="CorelDRAW_Inserting_and_deleting_table_rows_and_columns.html#wp739589" t="Вставка и удаление строк и столбцов таблицы" />
+   <i l="CorelDRAW_Resizing_table_cells_rows_and_columns.html#wp739659" t="Изменение размера &#1103;чеек, строк и столбцов таблицы" />
+   <i l="CorelDRAW_Formatting_tables_and_cells.html#wp739711" t="Форматирование таблиц и &#1103;чеек" />
+   <i l="CorelDRAW_Working_with_text_in_tables.html#wp739815" t="Работа с текстом в таблицах" />
+   <i l="CorelDRAW_Converting_a_table_to_text.html#wp739915" t="Преобразование таблиц в текст" />
+   <i l="CorelDRAW_Merging_and_splitting_tables_and_cells.html#wp739967" t="Сли&#1103;ние и разделение таблиц и &#1103;чеек" />
+   <i l="CorelDRAW_Manipulating_tables_as_objects.html#wp740038" t="Управление таблицами как объектами" />
+   <i l="CorelDRAW_Adding_images_graphics_and_backgrounds_to_tables.html#wp740053" t="Добавление изображений, графики и фонов в таблицы" />
+   <i l="CorelDRAW_Importing_tables_in_a_drawing.html#wp740106" t="Импорт таблиц в рисунок" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomei.html#wppagetop" t="Растровые изображени&#1103;">
+  <i l="CorelDRAW_Working_with_bitmaps.html#wppagetop" t="Работа с растровыми изображени&#1103;ми">
+   <i l="CorelDRAW_Converting_vector_graphics_to_bitmaps.html#wp460708" t="Преобразование векторной графики в растровые изображени&#1103;" />
+   <i l="CorelDRAW_Adding_bitmaps.html#wp460890" t="Импорт растровых изображений" />
+   <i l="CorelDRAW_Cropping_and_editing_bitmaps.html#wp460930" t="Обрезка растровых изображений" />
+   <i l="CorelDRAW_Changing_the_dimensions_and_resolution_of_bitmaps.html#wp461006" t="Изменение размеров и разрешени&#1103; растровых изображений" />
+   <i l="CorelDRAW_Straightening_bitmaps.html#wp1334335" t="Выпр&#1103;мление растровых изображений" />
+   <i l="CorelDRAW_Using_Digimarc_watermarks_to_identify_bitmaps.html#wp461205" t="Использование вод&#1103;ных знаков Digimarc дл&#1103; идентификации растровых изображений" />
+   <i l="CorelDRAW_Removing_dust_and_scratch_marks_from_bitmaps.html#wp461360" t="Удаление пылинок и царапин с растровых изображений" />
+   <i l="CorelDRAW_Applying_special_effects_to_bitmaps.html#wp461720" t="Применение специальных эффектов дл&#1103; растровых изображений" />
+   <i l="CorelDRAW_Working_with_colors_in_bitmaps.html#wp461849" t="Работа с цветами в растровых изображени&#1103;х" />
+   <i l="CorelDRAW_Adjusting_color_and_tone_quickly_in_the_Image_Adjustment_Lab.html#wp462075" t="Использование лаборатории по корректировке изображений" />
+   <i l="CorelDRAW_Adjusting_color_and_tone.html#wp462345" t="Настройка цвета и тона" />
+   <i l="CorelDRAW_Using_the_Tone_Curve_filter.html#wp462402" t="Использование фильтра цветовой кривой" />
+   <i l="CorelDRAW_Transforming_color_and_tone_effects.html#wp462456" t="Преобразование цвета и тона" />
+   <i l="CorelDRAW_Editing_bitmaps_in_Corel_PHOTO-PAINT.html#wp462510" t="Редактирование растровых изображений с помощью Corel PHOTO-PAINT" />
+  </i>
+  <i l="CorelDRAW_Working_with_bitmap_color_modes.html#wppagetop" t="Работа в цветовых режимах дл&#1103; растровых изображений">
+   <i l="CorelDRAW_Changing_the_color_mode_of_bitmaps.html#wp978335" t="Изменение цветового режима растровых изображений" />
+   <i l="CorelDRAW_Changing_bitmaps_to_black-and-white_images.html#wp978418" t="Преобразование растровых изображений в черно-белые" />
+   <i l="CorelDRAW_Changing_bitmaps_to_duotones.html#wp978474" t="Изменение растровых изображений на двухцветные изображени&#1103;" />
+   <i l="CorelDRAW_Changing_bitmaps_to_the_paletted_color_mode.html#wp978591" t="Преобразование растровых изображений в цветовой режим палитры" />
+  </i>
+  <i l="CorelDRAW_Tracing_bitmaps_and_editing_traced_results.html#wppagetop" t="Трассировка растровых изображений и редактирование результатов трассировки">
+   <i l="CorelDRAW_Tracing_bitmaps.html#wp337701" t="Трассировка растровых изображений" />
+   <i l="CorelDRAW_PowerTRACE_controls.html#wp337869" t="Элементы управлени&#1103; PowerTRACE" />
+   <i l="CorelDRAW_Previewing_traced_results.html#wp337895" t="Предварительный просмотр результатов трассировки" />
+   <i l="CorelDRAW_Finetuning_traced_results.html#wp337934" t="Точна&#1103; настройка результатов трассировки" />
+   <i l="CorelDRAW_Controlling_the_colors_of_traced_results.html#wp338035" t="Настройка цветов в результатах трассировки" />
+   <i l="CorelDRAW_Setting_default_tracing_options.html#wp338141" t="Настройка параметров трассировки по умолчанию" />
+   <i l="CorelDRAW_Tips_for_tracing_bitmaps.html#wp338187" t="Советы по трассировке растровых изображений и редактированию результатов трассировки" />
+  </i>
+  <i l="CorelDRAW_Working_with_raw_camera_files.html#wppagetop" t="Работа с файлами RAW">
+   <i l="CorelDRAW_Using_raw_camera_files.html#wp502125" t="Использование файлов RAW" />
+   <i l="CorelDRAW_Bringing_raw_camera_files_into_Corel_PHOTO_PAINT.html#wp502175" t="Перенос файлов RAW в CorelDRAW" />
+   <i l="CorelDRAW_Adjusting_the_color_and_tone_of_raw_camera_files.html#wp502316" t="Настройка цвета и тона файлов RAW" />
+   <i l="CorelDRAW_Sharpening_and_reducing_noise_in_raw_camera_files.html#wp502452" t="Повышение резкости и уменьшение шума в файлах RAW" />
+   <i l="CorelDRAW_Previewing_raw_camera_files_and_obtaining_image_information.html#wp502532" t="Предварительный просмотр файлов RAW и получение сведений об изображении" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomej.html#wppagetop" t="Печать">
+  <i l="CorelDRAW_Printing.html#wppagetop" t="Основы печати">
+   <i l="CorelDRAW_Printing_your_work.html#wp209114" t="Печать работ" />
+   <i l="CorelDRAW_Laying_out_print_jobs.html#wp209221" t="Создание макетов заданий на печать" />
+   <i l="CorelDRAW_Previewing_print_jobs.html#wp209322" t="Предварительный просмотр заданий на печать" />
+   <i l="CorelDRAW_Applying_print_styles.html#wp209464" t="Применение стилей печати" />
+   <i l="CorelDRAW_Fine-tuning_print_jobs.html#wp209605" t="Точна&#1103; настройка заданий на печать" />
+   <i l="CorelDRAW_Printing_colors_accurately.html#wp209770" t="Точна&#1103; передача цветов при печати" />
+   <i l="CorelDRAW_Printing_to_a_PostScript_printer.html#wp209948" t="Печать на принтере PostScript" />
+   <i l="CorelDRAW_Using_print_merge.html#wp1892290" t="Использование сли&#1103;ни&#1103; при печати" />
+   <i l="CorelDRAW_Using_Preflight.html#wp210549" t="Просмотр сводок по подготовке" />
+  </i>
+  <i l="CorelDRAW_Preparing_files_for_print_service_providers.html#wppagetop" t="Подготовка файлов дл&#1103; поставщиков услуг печати">
+   <i l="CorelDRAW_Preparing_a_print_job_for_a_print_service_provider.html#wp792853" t="Подготовка задани&#1103; печати дл&#1103; поставщика услуг печати" />
+   <i l="CorelDRAW_Working_with_imposition_layouts.html#wp792977" t="Работа с компоновками макета" />
+   <i l="CorelDRAW_Printing_printers_marks.html#wp793314" t="Печать меток принтера" />
+   <i l="CorelDRAW_Maintaining_OPI_links.html#wp1687718" t="Сохранение св&#1103;зей OPI" />
+   <i l="CorelDRAW_Printing_color_separations.html#wp793654" t="Печать цветоделений" />
+   <i l="CorelDRAW_Working_with_color_trapping_and_overprinting.html#wp793837" t="Работа с треппингом цветов и наложени&#1103;ми" />
+   <i l="CorelDRAW_Specifying_In-RIP_trapping_settings.html#wp794138" t="Указание параметров треппинга In-RIP" />
+   <i l="CorelDRAW_Printing_to_film.html#wp794370" t="Печать на пленке" />
+   <i l="CorelDRAW_Understanding_commercial_printing.html#wp794421" t="Работа с поставщиком услуг печати" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomek.html#wppagetop" t="Веб-графика">
+  <i l="CorelDRAW_Creating_objects_for_the_Web.html#wppagetop" t="Создание объектов дл&#1103; использовани&#1103; в Интернете">
+   <i l="CorelDRAW_Exporting_bitmaps_for_the_Web.html#wp754326" t="Экспорт растровых изображений дл&#1103; использовани&#1103; в Интернете" />
+   <i l="CorelDRAW_Saving_and_applying_Web_presets.html#wp754529" t="Сохранение и применение веб-заготовок" />
+   <i l="CorelDRAW_Exporting_objects_with_transparent_colors_and_backgrounds.html#wp754592" t="Экспорт объектов с прозрачными цветами и фонами" />
+   <i l="CorelDRAW_Creating_rollovers.html#wp754655" t="Создание ролловеров" />
+   <i l="CorelDRAW_Adding_bookmarks_and_hyperlinks_to_documents.html#wp754809" t="Добавление закладок и гиперссылок в документы" />
+   <i l="CorelDRAW_Adding_hotspots_and_alternate_text_to_objects.html#wp754997" t="Добавление гор&#1103;чих точек и альтернативного текста в объекты" />
+  </i>
+  <i l="CorelDRAW_Exporting_to_the_Web.html#wppagetop" t="Экспорт в формате HTML">
+   <i l="CorelDRAW_Setting_preferences_for_exporting_images_to_HTML.html#wp670748" t="Установка параметров экспорта изображений в формате HTML" />
+   <i l="CorelDRAW_Creating_Web-compatible_text.html#wp670801" t="Создание веб-совместимого текста" />
+   <i l="CorelDRAW_Previewing_and_verifying_files_before_exporting_to_HTML.html#wp670863" t="Предварительный просмотр и проверка файлов перед экспортом в формате HTML" />
+   <i l="CorelDRAW_Exporting_to_HTML.html#wp670919" t="Экспорт в формате HTML" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomel.html#wppagetop" t="Форматы файлов">
+  <i l="CorelDRAW_Importing_and_exporting_files.html#wppagetop" t="Импорт и экспорт файлов">
+   <i l="CorelDRAW_Importing_files.html#wp372332" t="Импорт файлов" />
+   <i l="CorelDRAW_Exporting_files.html#wp372581" t="Экспорт файлов" />
+  </i>
+  <i l="CorelDRAW_Exporting_to_PDF.html#wppagetop" t="Экспорт в формат PDF">
+   <i l="CorelDRAW_Exporting_documents_as_PDF_files.html#wp792440" t="Экспорт документов в формате файлов PDF" />
+   <i l="CorelDRAW_Including_hyperlinks_bookmarks_and_thumbnails_in_PDF_files.html#wp792720" t="Включение гиперссылок, закладок и эскизов в файлы PDF" />
+   <i l="CorelDRAW_Reducing_PDF_file_size.html#wp792786" t="Уменьшение размера файлов PDF" />
+   <i l="CorelDRAW_Working_with_text_and_fonts_when_creating_PDF_files.html#wp1384220" t="Работа с текстом и шрифтами в файлах PDF" />
+   <i l="CorelDRAW_Specifying_the_encoding_format_for_PDF_files.html#wp793103" t="Указание формата кодировани&#1103; дл&#1103; файлов PDF" />
+   <i l="CorelDRAW_Choosing_an_EPS_file_format.html#wp1384371" t="Указание параметров просмотра дл&#1103; файлов EPS" />
+   <i l="CorelDRAW_Choosing_color_settings_for_PDF_files.html#wp793233" t="Определение параметров управлени&#1103; цветами дл&#1103; экспорта файлов PDF" />
+   <i l="CorelDRAW_Setting_security_options_for_PDF_files.html#wp793325" t="Установка параметров безопасности дл&#1103; файлов PDF" />
+   <i l="CorelDRAW_Optimizing_PDF_files.html#wp793469" t="Оптимизаци&#1103; файлов PDF" />
+   <i l="CorelDRAW_Viewing_preflight_summaries_for_PDF_files.html#wp793596" t="Просмотр сводок по подготовке файлов PDF" />
+   <i l="CorelDRAW_Preparing_PDF_files_for_a_print_provider.html#wp793670" t="Подготовка файлов PDF дл&#1103; поставщика услуг печати" />
+  </i>
+  <i l="CorelDRAW_Working_with_office_applications.html#wppagetop" t="Работа с приложени&#1103;ми пакета Office">
+   <i l="CorelDRAW_Importing_files_from_office_applications.html#wp1077802" t="Импортирование файлов из приложений пакета Office" />
+   <i l="CorelDRAW_Exporting_files_to_office_applications.html#wp759061" t="Экспортирование файлов в приложени&#1103; пакета Office" />
+   <i l="CorelDRAW_Copying_and_inserting_objects.html#wp759101" t="Добавление объектов в документы" />
+  </i>
+  <i l="CorelDRAW_File_formats.html#wppagetop" t="Поддерживаемые форматы файлов">
+   <i l="CorelDRAW_Adobe_Illustrator_AI.html#wp16991" t="Adobe Illustrator (AI)" />
+   <i l="CorelDRAW_Adobe_Type_1_Font_PFB.html#wp3766350" t="Шрифт Adobe Type 1 (PFB)" />
+   <i l="CorelDRAW_Windows_Bitmap_BMP.html#wp17285" t="Растровое изображение Windows (BMP)" />
+   <i l="CorelDRAW_OS_2_Bitmap_BMP.html#wp17411" t="Растровое изображение OS/2 (BMP)" />
+   <i l="CorelDRAW_Computer_Graphics_Metafile_CGM.html#wp17455" t="метафайл компьютерной графики (CGM)" />
+   <i l="CorelDRAW_CorelDRAW_CDR.html#wp17593" t="CorelDRAW (CDR)" />
+   <i l="CorelDRAW_Corel_Presentation_Exchange_CMX.html#wp17693" t="Corel Presentation Exchange (CMX)" />
+   <i l="CorelDRAW_Corel_PHOTO_PAINT_CPT.html#wp17797" t="Corel PHOTO-PAINT (CPT)" />
+   <i l="CorelDRAW_Corel_Symbol_Library_CSL.html#wp3767013" t="Библиотека символов Corel (CSL)" />
+   <i l="CorelDRAW_Cursor_Resource_CUR.html#wp17946" t="Ресурс курсоров (CUR)" />
+   <i l="CorelDRAW_Microsoft_Word_Document_DOC_or_RTF.html#wp3767078" t="Microsoft Word (DOC, DOCX или RTF)" />
+   <i l="CorelDRAW_Microsoft_Publisher_PUB.html#wp3767168" t="Microsoft Publisher (PUB)" />
+   <i l="CorelDRAW_Corel_DESIGNER_DSF_or_DES.html#wp3767234" t="Corel DESIGNER (DES, DSF, DS4 или DRW)" />
+   <i l="CorelDRAW_AutoCAD_Drawing_Database_DWG_and_AutoCAD_Drawing_Interchange_Format.html#wp18378" t="AutoCAD Drawing Database (DWG) и AutoCAD Drawing Interchange Format (DXF)" />
+   <i l="CorelDRAW_Encapsulated_PostScript_EPS.html#wp18609" t="Инкапсулированный PostScript (EPS)" />
+   <i l="CorelDRAW_PostScript_PS_or_PRN.html#wp18926" t="PostScript (PS или PRN)" />
+   <i l="CorelDRAW_GIF.html#wp19047" t="GIF" />
+   <i l="CorelDRAW_JPEG_JPG.html#wp19199" t="JPEG (JPG)" />
+   <i l="CorelDRAW_JPEG_2000_JP2.html#wp19289" t="JPEG 2000 (JP2)" />
+   <i l="CorelDRAW_Kodak_Photo_CD_Image_PCD.html#wp19424" t="Изображение Kodak Photo CD (PCD)" />
+   <i l="CorelDRAW_PICT.html#wp19574" t="PICT (PCT)" />
+   <i l="CorelDRAW_PaintBrush_PCX.html#wp19685" t="PaintBrush (PCX)" />
+   <i l="CorelDRAW_Portable_Document_Format_PDF.html#wp19799" t="Формат переносимых документов Adobe (PDF)" />
+   <i l="CorelDRAW_HPGL_Plotter_File_PLT.html#wp19982" t="Файл плоттера HPGL (PLT)" />
+   <i l="CorelDRAW_Portable_Network_Graphics_PNG.html#wp20108" t="Переносима&#1103; сетева&#1103; графика (PNG)" />
+   <i l="CorelDRAW_Adobe_Photoshop_PSD.html#wp20216" t="Adobe Photoshop (PSD)" />
+   <i l="CorelDRAW_Corel_Painter_RIF.html#wp20385" t="Corel Painter (RIF)" />
+   <i l="CorelDRAW_Scalable_Vector_Graphics_SVG.html#wp3769382" t="Масштабируема&#1103; векторна&#1103; графика (SVG)" />
+   <i l="CorelDRAW_Adobe_Flash_SWF.html#wp3769606" t="Adobe Flash (SWF)" />
+   <i l="CorelDRAW_TARGA_TGA.html#wp20889" t="TARGA (TGA)" />
+   <i l="CorelDRAW_TIFF.html#wp20998" t="TIFF" />
+   <i l="CorelDRAW_Corel_Paint_Shop_Pro_PSP.html#wp21086" t="Corel Paint Shop Pro (PSP)" />
+   <i l="CorelDRAW_TrueType_Font_TTF.html#wp3770157" t="Шрифт True Type (TTF)" />
+   <i l="CorelDRAW_Visio_VSD.html#wp3770183" t="Visio (VSD)" />
+   <i l="CorelDRAW_WordPerfect_Document_WPD.html#wp3770197" t="Документ WordPerfect (WPD)" />
+   <i l="CorelDRAW_WordPerfect_Graphic_WPG.html#wp21267" t="Графика WordPerfect (WPG)" />
+   <i l="CorelDRAW_Raw_camera_file_formats.html#wp21378" t="Форматы файлов RAW камеры" />
+   <i l="CorelDRAW_Wavelet_Compressed_Bitmap_WI.html#wp21418" t="Сжатое растровое изображение вейвлета (WI)" />
+   <i l="CorelDRAW_Windows_Metafile_Format_WMF.html#wp21452" t="Метафайл Windows (WMF)" />
+   <i l="CorelDRAW_Other_file_formats.html#wp21710" t="Дополнительные форматы файлов" />
+   <i l="CorelDRAW_Recommended_formats_for_importing_from_other_applications.html#wp21866" t="Форматы, которые рекомендуетс&#1103; использовать дл&#1103; импорта графики" />
+   <i l="CorelDRAW_Recommended_formats_for_exporting_graphics.html#wp21895" t="Форматы, которые рекомендуетс&#1103; использовать дл&#1103; экспорта графики" />
+   <i l="CorelDRAW_General_notes_on_importing_text_files.html#wp3770889" t="Общие замечани&#1103; по импорту текстовых файлов" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomem.html#wppagetop" t="Настройка и автоматизаци&#1103;">
+  <i l="CorelDRAW_Reference_information.html#wppagetop" t="Настройка основных параметров">
+   <i l="CorelDRAW_Disabling_warning_messages.html#wp19856" t="Отключение предупреждающих сообщений" />
+   <i l="CorelDRAW_Viewing_system_information.html#wp19884" t="Просмотр системной информации" />
+   <i l="CorelDRAW_Corel_Application_Recovery_Manager.html#wp19925" t="Диспетчер восстановлени&#1103; приложений Corel (Windows XP)" />
+  </i>
+  <i l="CorelDRAW_Customizing_your_application.html#wppagetop" t="Настройка CorelDRAW">
+   <i l="CorelDRAW_Saving_defaults.html#wp1456173" t="Сохранение параметров по умолчанию" />
+   <i l="CorelDRAW_Using_multiple_workspaces.html#wp422727" t="Использование нескольких рабочих пространств" />
+   <i l="CorelDRAW_Customizing_keyboard_shortcuts.html#wp422933" t="Настройка клавиш быстрого вызова" />
+   <i l="CorelDRAW_Customizing_menus.html#wp423139" t="Настройка меню" />
+   <i l="CorelDRAW_Customizing_toolbars.html#wp423352" t="Настройка панелей инструментов" />
+   <i l="CorelDRAW_Customizing_the_property_bar.html#wp423607" t="Настройка панели свойств" />
+   <i l="CorelDRAW_Customizing_the_status_bar.html#wp423705" t="Настройка строки состо&#1103;ни&#1103;" />
+   <i l="CorelDRAW_Customizing_feedback_sounds.html#wp423876" t="Настройка звуковых сигналов извещени&#1103;" />
+   <i l="CorelDRAW_Customizing_filters.html#wp423978" t="Настройка фильтров" />
+   <i l="CorelDRAW_Customizing_file_associations.html#wp424083" t="Настройка св&#1103;зей файла" />
+  </i>
+  <i l="CorelDRAW_Automate_tasks.html#wppagetop" t="Автоматизаци&#1103; задач с помощью макросов и сценариев">
+   <i l="CorelDRAW_Working_with_macros.html#wp137310" t="Работа с макросами" />
+   <i l="CorelDRAW_Working_with_scripts.html#wp137916" t="Работа со сценари&#1103;ми" />
+  </i>
+ </i>
+ <i l="CorelDRAW_Welcomen.html#wppagetop" t="Справочник">
+  <i l="CorelDRAW_From_Adobe_Illustrator_to_CorelDRAW.html#wppagetop" t="CorelDRAW дл&#1103; пользователей Adobe Illustrator">
+   <i l="CorelDRAW_Comparing_terminology.html#wp468441" t="Сравнение терминов" />
+   <i l="CorelDRAW_Comparing_tools.html#wp468454" t="Сравнение инструментов" />
+   <i l="CorelDRAW_Using_the_Adobe_Illustrator_workspace.html#wp468467" t="Использование рабочего пространства Adobe Illustrator" />
+  </i>
+  <i l="CorelDRAW_Glossary.html#wppagetop" t="Глоссарий" />
+ </i>
+</WebWorksHelpTOC>

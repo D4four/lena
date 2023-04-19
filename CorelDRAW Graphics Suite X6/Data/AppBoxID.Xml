@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<AppBoxID>
+	<!--  Corel Draw Reg Key. This key must match BOX_NAME_R in BoxInfo.h -->
+	<ApplicationRegKey>CorelDRAW\16.0</ApplicationRegKey>
+  <IPMRegKey>IPM_CDGS</IPMRegKey>
+	
+  <!-- UI Suite Title -->
+  <UISuiteTitle>CorelDRAW Graphics Suite X6</UISuiteTitle>
+  
+	<!-- Path to user settings -->
+	<UserPathDir>Corel</UserPathDir>
+	<UserProductDir>CorelDRAW Graphics Suite X6</UserProductDir>
+
+	<!-- Box info -->
+	<BoxName>CorelDraw_16</BoxName>
+
+  <!-- User content folder -->
+  <UserContentDir>Corel Content</UserContentDir>
+  
+  <!-- Installed content folder -->
+  <InstalledContentDir>Content X6</InstalledContentDir>
+
+  <!-- Media supported -->
+  <Media>
+    <Disc Label="CGSX6_PGRM" ShortName="CDGS X6" LongName="CorelDRAW Graphics Suite X6" Guid="6a02825d-1f57-417e-bae9-33a8945ced78" Database="CDGSX6Content.db3"/>
+    <Disc Label="CGSX5_PGRM" ShortName="CDGS X5" LongName="CorelDRAW Graphics Suite X5" Guid="565d41e0-6d70-4630-a90b-a70ba5b022cd" Database="CDGSX5Content.db3"/>
+    <Disc Label="CDTSX5_PGRM" ShortName="CDTS X5" LongName="Corel DESIGNER Technical Suite X5" Guid="fd2fb7c1-b53a-47b2-9536-35eaf158e5df" Database="CDTSX5Content.db3"/>
+    <Disc Label="CDTSX4_PGRM" ShortName="CDTS X4" LongName="Corel DESIGNER Technical Suite X4" Guid="1f06e3d9-642b-40f6-85f4-3a884b153a53" Database="DesignerLegacyContent.db3"/>
+    <Disc Label="CDTS12_CLPART" ShortName="CDTS 12" LongName="Corel DESIGNER Technical Suite 12" Guid="4a4f4555-c7c7-4cf1-9b01-9c57a0abe78d" Database="DesignerLegacyContent.db3"/>
+  </Media>
+
+</AppBoxID>

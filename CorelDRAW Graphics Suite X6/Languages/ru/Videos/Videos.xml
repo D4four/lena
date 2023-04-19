@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<VideoBrowser>
+  
+  <Videos>
+    <Video id="10" path="10 - Welcome.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=10&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="20" path="20 - What's New Part 1 of 2.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=20&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="21" path="21 - What’s New Part 2 of 2.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=21&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="30" path="30 - CorelDRAW X6 Basics.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=30&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="40" path="40 - Corel PHOTO-PAINT Basics.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=40&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="50" path="50 - Working with CONNECT.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=50&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="51" path="51 - Working with Page Layout.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=51&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="52" path="52 - Working with Typography.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=52&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="53" path="53 - Working with Object Styles.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=53&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+    <Video id="54" path="54 - Working with Color Styles.wmv" LangDir="EN" online="http://apps.corel.com/redirect?_redirect=command&amp;function=videocontent&amp;subfunction=54&amp;app=cdgs&amp;version=x6&amp;lang=RU"/>
+  </Videos>
+  
+  <Chapters>
+    <Chapter name="Приветствие" videoID="10">
+      <Segment name="Вас приветствует X6" videoID="10" start="0"/>
+    </Chapter>
+    <Chapter name="Новые функции" videoID="20">
+      <Segment name="Новые возможности. Часть 1" videoID="20" start="0"/>
+      <Segment name="Новые возможности. Часть 2" videoID="21" start="0"/>
+    </Chapter>
+    <Chapter name="Изучение основ" videoID="30">
+      <Segment name="Основы CorelDRAW X6" videoID="30" start="0"/>
+      <Segment name="Основы Corel PHOTO-PAINT X6" videoID="40" start="0"/>
+    </Chapter>
+    <Chapter name="Работа с..." videoID="50">
+      <Segment name="Работа с CONNECT" videoID="50" start="0"/>
+      <Segment name="Работа с макетом страницы" videoID="51" start="0"/>
+      <Segment name="Работа с типографией" videoID="52" start="0"/>
+      <Segment name="Работа со стилями объектов" videoID="53" start="0"/>
+      <Segment name="Работа с цветовыми стилями" videoID="54" start="0"/>
+    </Chapter>
+  </Chapters>
+  
+</VideoBrowser>

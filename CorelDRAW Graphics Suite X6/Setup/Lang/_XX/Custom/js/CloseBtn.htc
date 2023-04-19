@@ -1,0 +1,33 @@
+<PUBLIC:COMPONENT ID="SetupUIControls">
+    
+<PUBLIC:ATTACH EVENT="onmouseover" ONEVENT="CloseBtnOnMouseOver()" />
+<PUBLIC:ATTACH EVENT="onmouseout" ONEVENT="CloseBtnOnMouseOut()" />
+
+<SCRIPT LANGUAGE="JScript">
+    
+    function CloseBtnOnMouseOver()
+    {
+        var pEl = window.event.srcElement;
+        if (null != pEl)
+        {
+            pEl.className = "CloseBtnOver";
+            pEl.src = "../../_XX/Custom/Images/closeovr.gif"
+        }
+        
+    } //function CloseBtnOnMouseOver()
+    
+    function CloseBtnOnMouseOut()
+    {
+        var pEl = window.event.srcElement;
+        if (null != pEl)
+        {
+            pEl.className = "CloseBtn";
+            pEl.src = "../../_XX/Custom/Images/close.gif"
+        }
+        
+    } //function CloseBtnOnMouseOver()
+    
+
+   </SCRIPT>
+</PUBLIC:COMPONENT>
+

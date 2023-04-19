@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+    />
+    <script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script language="jscript" type="text/jscript">
+    
+        function OnBodyLoad()
+        {
+            var Setup   = window.external;
+            var pEl     = null;
+            var bkColor = "#94BF4B"; //91be44
+            
+            try
+            {
+                if ("1" == Setup.GetProperty("MinSysFail_idOS"))
+                {
+                    pEl = document.getElementById("idOS")
+                    if (null != pEl)
+                        pEl.style.backgroundColor = bkColor;
+                        pEl.style.color = "black";
+                }
+                
+                if ("1" == Setup.GetProperty("MinSysFail_idCPU"))
+                {
+                    pEl = document.getElementById("idCPU")
+                    if (null != pEl)
+                        pEl.style.backgroundColor = bkColor;
+                        pEl.style.color = "black";
+                }                
+                
+                if ("1" == Setup.GetProperty("MinSysFail_idRAM"))
+                {
+                    pEl = document.getElementById("idRAM")
+                    if (null != pEl)
+                        pEl.style.backgroundColor = bkColor;
+                        pEl.style.color = "black";
+                }
+                
+                if ("1" == Setup.GetProperty("MinSysFail_idScrRes"))
+                {
+                    pEl = document.getElementById("idScrRes")
+                    if (null != pEl)
+                        pEl.style.backgroundColor = bkColor;
+                        pEl.style.color = "black";
+                }
+                
+                if ("1" == Setup.GetProperty("VisualStudio9RTM_Installed"))
+                {
+                    pEl = document.getElementById("idVisualStudio9")
+                    if (null != pEl)
+                        pEl.style.display = "block";
+                        pEl.style.color = "black";
+                }
+                
+                
+                                
+            }
+            catch (err) {}
+            
+
+            
+        } //OnBodyLoad()
+    
+    </script>
+    
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+   
+    <!-- ------------------------------------------------------------ -->
+    <!-- page content panel -->
+    <div id="idPanel">
+    
+        <div class="DlgHeader" style="top: 20px;" >
+            Um ou mais dos seguintes requisitos m&iacute;nimos do sistema n&atilde;o foram atendidos
+        </div>
+        
+        <div class="DlgBlock" style="top: 55px;">
+            Clique em <b>Continuar</b> para ignorar os requisitos m&iacute;nimos do sistema do sistema e instalar o CorelDRAW Graphics Suite X6.1. Clique em <b>Cancelar</b> para sair da instala&ccedil;&atilde;o.
+        </div>
+        
+        <div class="DlgBlock" style="top: 115px;
+                                     BORDER-LEFT-COLOR: silver; BORDER-BOTTOM-COLOR: silver; 
+                                     BORDER-TOP-COLOR: silver; BORDER-RIGHT-COLOR: silver;
+                                     BORDER-TOP-STYLE: double; BORDER-RIGHT-STYLE: double;
+                                     BORDER-LEFT-STYLE: double; BORDER-BOTTOM-STYLE: double;
+                                     background-color: #ffffff;
+                                     height: 225px;
+                                     width: 725px;
+                                     color: Black;">
+            
+            <div style="margin: 10px;">
+                <div>
+                    <b><u>Requisitos m&iacute;nimos do sistema:</u></b>
+                </div>
+                
+                <br />
+                
+	        	<div id="idOS">
+                    Sistema operacional com o pacote de servi&ccedil;os mais recente e atualiza&ccedil;&otilde;es fundamentais:<br /> Windows 7 (edi&ccedil;&otilde;es de 32 ou 64 bits), Windows Vista (edi&ccedil;&otilde;es de 32 ou 64 bits) ou Windows XP ((edi&ccedil;&otilde;es de 32 bits, Internet Explorer 7)
+                </div>
+                
+                <br />
+                
+                <div id="idCPU">
+		            CPU:<br /> Pentium 4 ou AMD Athlon 64 (ou superior)<br />
+    	    	</div>
+    	    	
+    	    	<br />
+    	    	
+    	    	<div id="idRAM">
+        		    RAM: 1 GB
+        		</div>
+        		
+                <br />        		
+        		
+        		<div id="idScrRes">
+		            Resolu&ccedil;&atilde;o de tela: 1024 x 768
+		        </div>
+		        
+		        <br />
+                
+                <div id="idVisualStudio9" style="display: none; background-color: #94BF4B;">
+                    Visual Studio 2008 SP1 (necess&aacute;rio para suporte a Visual Studio Tools for Applications)
+		        </div>
+		        
+            </div>
+        </div>
+    
+    </div> <!-- div id="idTabPanel" END -->
+
+<!-- ------------------------------------------------------------ -->
+<!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+<div class="DlgWizardBtns">
+    <table border="0" width="100%">
+        <tr>
+            <td align="right">
+            </td>
+            <td width="120px" align="left">
+                <button accesskey="O" type="submit" onmouseover="HighLightButton('idContinue');" onmouseout="UnHighLightButton('idContinue');" onclick="window.location='License.htm';" ID="idContinue">C<u>o</u>ntinuar &gt;</button>
+            </td>
+            <td width="120px" align="right">
+                <button accesskey="C" type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" ICA:Function="ICACancelSetup" ID="idCancel"><u>C</u>ancelar</button>
+            </td>
+        </tr>
+    </table>
+</div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

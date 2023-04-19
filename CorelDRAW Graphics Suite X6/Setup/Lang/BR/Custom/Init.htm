@@ -1,0 +1,69 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800" 
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"
+          ICA:ProgressState="TBPF_INDETERMINATE" 
+          ICA:ProgressBarTBLR="227,239,45,740"
+  
+          ICA:Modal="0"
+         
+    />
+
+    <script type="text/jscript" language="jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script type="text/jscript" language="jscript">
+    
+        function OnBodyLoad()
+        {
+
+        }
+        
+    </script>
+    
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+ 
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+   
+    <!-- ------------------------------------------------------------ -->
+    <!-- page content panel -->
+    <div id="idPanel">
+
+        <div class="DlgHeader" >
+            Inicializando a Instala&ccedil;&atilde;o
+        </div>
+        <div class="DlgBlock" style="top: 58px; left: 20px; width: 690px;">
+            <label id="ProgressTotalText" >Aguarde...</label>
+        </div>
+       
+    </div> <!-- div id="idTabPanel" END -->
+
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    <button accesskey="C" type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" onclick="window.external.OnCancel();" ID="idCancel"><u>C</u>ancelar</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgWizardBtns"> Wizard Buttons (at bottom of dialog) - END -->
+    
+</body>
+</html>

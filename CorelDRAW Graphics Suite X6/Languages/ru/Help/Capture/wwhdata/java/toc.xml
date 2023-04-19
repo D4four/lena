@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='Windows-1251' ?>
+
+<WebWorksHelpTOC version="3.0">
+ <i l="CorelDRAW_Using_Corel_CAPTURE.html#wppagetop" t="Использование программы Corel CAPTURE">
+  <i l="CorelDRAW_Preparing_to_capture_an_image.html#wppagetop" t="Подготовка к захвату изображени&#1103;" />
+  <i l="CorelDRAW_Setting_image_properties.html#wppagetop" t="Настройка свойств изображени&#1103;" />
+  <i l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wppagetop" t="Выбор элементов окна дл&#1103; захвата" />
+  <i l="CorelDRAW_Capturing_an_image.html#wppagetop" t="Захват изображени&#1103;" />
+  <i l="CorelDRAW_Recording_an_animation.html#wppagetop" t="Запись анимации" />
+  <i l="CorelDRAW_Using_Web_based_resources.html#wppagetop" t="Интернет-ресурсы" />
+ </i>
+</WebWorksHelpTOC>

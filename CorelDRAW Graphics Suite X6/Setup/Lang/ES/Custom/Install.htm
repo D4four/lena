@@ -1,0 +1,532 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+    />
+    
+ 
+<script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Menu.js"></script>
+<script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+<script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Install.js"></script>
+<script language="jscript" type="text/jscript">
+
+    function OnLoadBody()
+    {
+        idInstallDiv.style.display = "block";    
+        idTab1.className = "TabOn";
+        MenuUpdateSelectors();
+        idNextPrograms.style.display = "block";
+        
+        DisplayTabs();
+        if (g_bInstalled)
+        {
+            idBack.style.display = "block";
+            idReset.style.display = "none";
+        }
+    }
+
+
+</script>
+<style type="text/css">
+
+    .blacktext label
+    {
+        color: black;
+    }
+    
+</style>
+
+</head>
+<body onload="OnLoadBody()">
+    
+    <!-- background -->
+    <div id="idBackGrdTabbed"></div>
+
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+    
+    <!-- Position the tabs -->
+    <div class="TabsPosition">
+        <div id="idTab1" class="TabOff" onclick="LoadPrograms();">PROGRAMAS</div>
+        <div class="TabSeparator"></div>
+        <div id="idTab2" class="TabOff" onclick="LoadFeatures();">FUNCIONES</div>
+        <div class="TabSeparator"></div>
+        <div id="idTab3" class="TabOff" onclick="LoadOptions();">OPCIONES</div>
+    </div> <!-- <div class="TabsPosition"> ... Position the tabs -->
+
+        <!-- page content panel -->
+     <div id="idPanelTabbed">
+        <div id="idInstallDiv" class="DlgBlock" style="display: none;">          
+            <div class="DlgHeader">
+            Seleccione los programas que desea instalar y haga clic en <b>Siguiente</b>:
+            </div>
+
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> CorelDRAW Install controls - START -->
+            <div class="DlgBlock" style="top: 50px; z-index: 6;" onmouseover="HighLightDesc('idDrawDesc');" onmouseout="UnHighLightDesc('idDrawDesc');">
+            
+                <input id="idChkDR" type="checkbox" accesskey="D" name="DRAW" onfocus="OnHideAllMenus()" onclick="OnMenuToggleFeature('idChkDR')" ICA:IgnoreElement="1" />
+                <label for="idChkDR">
+                    <span style="padding-left: 3px; padding-right: 8px;"><img src="../../_XX/Custom/Images/Draw.png" alt="" style="vertical-align:middle;" /></span>
+            <span class="Header" >Corel<u>D</u>RAW</span><span class="Desc" id="idDrawDesc" > &mdash; ilustraci&oacute;n y dise&ntilde;o de p&aacute;gina de vectores</span>
+                </label>
+
+        
+            </div>  <!-- <div class="DlgBlock"> CorelDRAW Install controls - END -->
+            <!-- ---------------------------------------------------------- -->
+
+
+
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> CorelPHOTO-PAINT Install controls - START -->
+            <div class="DlgBlock" style="top: 100px; z-index: 5;" onmouseover="HighLightDesc('idPPDesc');" onmouseout="UnHighLightDesc('idPPDesc');">
+                <input id="idChkPP" type="checkbox" name="PP" accesskey="P" onfocus="OnHideAllMenus()" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idChkPP')" />
+                <label for="idChkPP">                
+                    <span style="padding-left: 3px; padding-right: 8px;"><img src="../../_XX/Custom/Images/pp.png" alt="" style="vertical-align:middle;" /></span>
+            <span class="Header" >Corel <u>P</u>HOTO-PAINT</span><span class="Desc" id="idPPDesc" > &mdash; ilustraci&oacute;n de mapa de bits y edici&oacute;n de fotos</span>
+                </label>
+
+        
+            </div>  <!-- <div class="DlgBlock"> CorelPHOTO-PAINT Install controls - END -->
+            <!-- ---------------------------------------------------------- -->
+
+
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> Connect Install controls - START -->
+            <div class="DlgBlock" style="top: 150px; z-index: 3;" onmouseover="HighLightDesc('idConnectDesc');" onmouseout="UnHighLightDesc('idConnectDesc');">
+            
+                <input id="idConnect" type="checkbox" accesskey="O" onfocus="OnHideAllMenus()" name="CONNECT" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idConnect')" />
+                <label for="idConnect" >
+                    <span style="padding-left: 3px; padding-right: 8px;"><img src="../../_XX/Custom/Images/Connect.png" alt="" style="vertical-align:middle;" /></span>
+            <span class="Header" >Corel C<u>O</u>NNECT</span><span class="Desc" id="idConnectDesc" > &mdash; b&uacute;squedas y exploraci&oacute;n de contenido</span>
+                </label>
+        </div> <!-- <div class="DlgBlock"> Corel Connect Install controls - END -->
+            <!-- ---------------------------------------------------------- -->
+
+
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> Corel CAPTURE Install controls - START -->
+            <div class="DlgBlock" style="top:200px; z-index: 4;" onmouseover="HighLightDesc('idCaptureDesc');" onmouseout="UnHighLightDesc('idCaptureDesc');">
+
+                <input id="idChkCapture" type="checkbox" accesskey="C" onfocus="OnHideAllMenus()" name="CAPTURE" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idChkCapture')" />                        
+                <label for="idChkCapture" >
+                    <span style="padding-left: 3px; padding-right: 8px;"><img src="../../_XX/Custom/Images/Capture.png" alt="" style="vertical-align:middle;" /></span>
+            <span class="Header" >Corel <u>C</u>APTURE</span><span class="Desc" id="idCaptureDesc" > &mdash; utilidad avanzada de captura de pantalla</span>
+                </label>
+
+       
+            </div>  <!-- <div class="DlgBlock"> Corel CAPTURE Install controls - END -->
+            <!-- ---------------------------------------------------------- -->
+
+
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> Font Nav Install controls - START -->
+            <div class="DlgBlock" style="top: 250px; z-index: 3;" onmouseover="HighLightDesc('idFontNavDesc');" onmouseout="UnHighLightDesc('idFontNavDesc');">
+            
+                <input id="idChkFontNav" type="checkbox" accesskey="B" onfocus="OnHideAllMenus()" name="FONTNAV" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idChkFontNav')" />
+                <label for="idChkFontNav" >
+                    <span style="padding-left: 3px; padding-right: 8px;"><img src="../../_XX/Custom/Images/Bitstream.png" alt="" style="vertical-align:middle;" /></span>
+            <span class="Header" ><u>B</u>itstream Font Navigator</span><span class="Desc" id="idFontNavDesc" > &mdash; gesti&oacute;n de fuentes</span>
+                </label>
+            </div>  <!-- <div class="DlgBlock"> Font Nav Install controls - END -->
+            <!-- ---------------------------------------------------------- -->
+     </div><!--<div id="idInstallDiv"> -->   
+ 
+
+
+        <div id="idFeaturesDiv" style="display: none;">
+     
+
+            <div class="DlgHeader">
+                Seleccione las funciones de los programas que desea instalar y haga clic en <b>Siguiente</b>:
+            </div>
+            
+            
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> Writing Tools Install controls - START -->
+            <div class="DlgBlock" style="top: 50px; z-index: 5;">
+                <div class="DlgBlock">
+                    <!-- input id="idChkWT" type="checkbox" accesskey="W" name="WTOOLS" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idChkWT_Hidden')" onfocus="OnHideAllMenus()" ICA:Title="Str.Feature.WT.Desc" / -->
+                </div>
+                <div class="DlgBlock" style="left: 25px; z-index: 5;" onmouseover="HighLightDesc('idWTDesc');" onmouseout="UnHighLightDesc('idWTDesc');">
+                    <label for="idChkWT" >
+                        <span class="Header">Herramientas de escritura</span><br />
+                        <span id="idWTDesc" class="Desc" >Instala Corrector ortogr&aacute;fico, Tesauro y Grammatik en varios idiomas para facilitarle la revisi&oacute;n de documentos.</span>
+                    </label>
+                    
+                    <div class="Menu" id="idWT"
+                         onmouseover="OnShowIt('idWTMenu')"
+                         onmouseout="OnHideIt('idWTMenu')"
+                         style="left: 190px; top: -7px; z-index: 4;">
+
+                        <button class="MenuBtn" onfocus="OnShowItBtn('idWTMenu')"></button>
+                        Incluye:
+                
+                        <div id="idWTMenu" class="MenuPopUp" style="height: 325px;">
+                            <input type="checkbox" id="idWTAF" name="AFRIKA" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTAF')" />
+                            <label for="idWTAF" ICA:Property="Str.Feature.WT.Afrikaans"></label><br />
+                            <input type="checkbox" id="idWTCA" name="CATALAN" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTCA')" />
+                            <label for="idWTCA" ICA:Property="Str.Feature.WT.Catalan" ></label><br />
+                            <input type="checkbox" id="idWTCZ" name="CZECH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTCZ')" />
+                            <label for="idWTCZ" ICA:Property="Str.Feature.WT.Czech" ></label><br />
+                            <input type="checkbox" id="idWTDK" name="DANISH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTDK')" />
+                            <label for="idWTDK" ICA:Property="Str.Feature.WT.Danish" ></label><br />
+                            <input type="checkbox" id="idWTNL" name="DUTCH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTNL')" />
+                            <label for="idWTNL" ICA:Property="Str.Feature.WT.Dutch" ></label><br />
+                            <input type="checkbox" id="idWTEN" name="ENGLISH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTEN')" />
+                            <label for="idWTEN" ICA:Property="Str.Feature.WT.English" ></label><br />
+                            <input type="checkbox" id="idWTSU" name="FINNISH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTSU')" />
+                            <label for="idWTSU" ICA:Property="Str.Feature.WT.Finnish" ></label><br />
+                            <input type="checkbox" id="idWTFR" name="FRENCH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTFR')" />
+                            <label for="idWTFR" ICA:Property="Str.Feature.WT.French" ></label><br />
+                            <input type="checkbox" id="idWTGA" name="GALICIAN" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTGA')" />
+                            <label for="idWTGA" ICA:Property="Str.Feature.WT.Galician" ></label><br />
+                            <input type="checkbox" id="idWTDE" name="GERMAN" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTDE')" />
+                            <label for="idWTDE" ICA:Property="Str.Feature.WT.German" ></label><br />
+                            <input type="checkbox" id="idWTGR" name="GREEK" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTGR')" />
+                            <label for="idWTGR" ICA:Property="Str.Feature.WT.Greek" ></label><br />
+                            <input type="checkbox" id="idWTIS" name="ICELAND" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTIS')" />
+                            <label for="idWTIS" ICA:Property="Str.Feature.WT.Icelandic" ></label><br />
+                            <input type="checkbox" id="idWTIT" name="ITALIAN" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTIT')" />
+                            <label for="idWTIT" ICA:Property="Str.Feature.WT.Italian" ></label><br />
+                            <input type="checkbox" id="idWTNO" name="NORWAY" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTNO')" />
+                            <label for="idWTNO" ICA:Property="Str.Feature.WT.Norwegian" ></label><br />
+                            <input type="checkbox" id="idWTPL" name="POLISH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTPL')" />
+                            <label for="idWTPL" ICA:Property="Str.Feature.WT.Polish" ></label><br />
+                            <input type="checkbox" id="idWTPO" name="PORTUGUE" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTPO')" />
+                            <label for="idWTPO" ICA:Property="Str.Feature.WT.Portuguese" ></label><br />
+                            <input type="checkbox" id="idWTRU" name="RUSSIAN" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTRU')" />
+                            <label for="idWTRU" ICA:Property="Str.Feature.WT.Russian" ></label><br />
+                            <input type="checkbox" id="idWTSL" name="SLOVAK" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTSL')" />
+                            <label for="idWTSL" ICA:Property="Str.Feature.WT.Slovak" ></label><br />
+                            <input type="checkbox" id="idWTST" name="SOTHO" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTST')" />
+                            <label for="idWTST" ICA:Property="Str.Feature.WT.Sotho" ></label><br />
+                            <input type="checkbox" id="idWTES" name="SPANISH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTES')" />
+                            <label for="idWTES" ICA:Property="Str.Feature.WT.Spanish" ></label><br />
+                            <input type="checkbox" id="idWTSV" name="SWEDISH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTSV')" />
+                            <label for="idWTSV" ICA:Property="Str.Feature.WT.Swedish" ></label><br />
+                            <input type="checkbox" id="idWTTN" name="TSWANA" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTTN')" />
+                            <label for="idWTTN" ICA:Property="Str.Feature.WT.Tswana" ></label><br />
+                            <input type="checkbox" id="idWTTR" name="TURKISH" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTTR')" />
+                            <label for="idWTTR" ICA:Property="Str.Feature.WT.Turkish" ></label><br />
+                            <input type="checkbox" id="idWTXH" name="XHOSA" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTXH')" />
+                            <label for="idWTXH" ICA:Property="Str.Feature.WT.Xhosa" ></label><br />
+                            <input type="checkbox" id="idWTZU" name="ZULU" ICA:IgnoreElement="1" onclick="OnMenuToggleFeatureWT('idWTZU')" />
+                            <label for="idWTZU" ICA:Property="Str.Feature.WT.Zulu" ></label><br />
+                        </div> <!-- div class=MenuPopUp" -->
+                    </div> <!-- div class=Menu" -->
+                
+                </div>
+
+            </div>  <!-- <div class="DlgBlock"> Writing Tools Install controls - END -->
+            <!-- ---------------------------------------------------------- -->
+
+       
+        <!-- ------------------------------------------------------------ -->
+        <!-- <div> Utilities - START -->
+        
+        <div id="idUtilitiesVBABlock" class="DlgBlock" style="top: 120px; left: 0px; z-index: 4; display: none;" onmouseover="HighLightDesc('idUtilitiesDesc');" onmouseout="UnHighLightDesc('idUtilitiesDesc');">
+            <div class="DlgBlock">
+                <input accesskey="U" id="idChkUtilities" type="checkbox" name="UTILITY" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idChkUtilities')" onfocus="OnHideAllMenus()" />
+            </div>
+
+            <div class="DlgBlock" style="left: 25px; z-index: 4;">
+                <label for="idChkUtilities">
+                <span class="Header"><u>U</u>tilidades</span><br />
+                <span id="idUtilitiesDesc" class="Desc" >Instala utilidades que se pueden usar con CorelDRAW y Corel PHOTO-PAINT.</span>
+                </label>
+                
+                
+                <div id="idUtilities" class="Menu"
+                     onmouseover="OnShowIt('idUtilitiesMenu')" 
+                     onmouseout="OnHideIt('idUtilitiesMenu')"
+                     style="left: 190px; top: -7px; z-index: 3;">
+
+                    <button class="MenuBtn" onfocus="OnShowItBtn('idUtilitiesMenu')"></button> Incluye:
+                    
+                    <div id="idUtilitiesMenu" class="MenuPopUp" style="width: 260px; height: 86px;">
+
+                        <input type="checkbox" id="idDrDupWiz" name="DRDUPWIZ" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idDrDupWiz')" />
+						<label for="idDrDupWiz" >Asistente de impresi&oacute;n a dos caras</label><br />
+                        
+                        <input type="checkbox" id="idVBAFiles" name="VBAFILES" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idVBAFiles')" />
+						<label for="idVBAFiles" id="idVBALabel" >Visual Basic for Applications 7.1</label><br />
+                        
+                        <input type="checkbox" id="idVSTA" name="VSTA" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idVSTA')" />
+						<label for="idVSTA" id="idVSTALabel" >Visual Studio Tools for Applications</label><br />
+                        
+                        <input type="checkbox" id="idShellExt" name="SHELLEXT" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idShellExt')" />
+						<label for="idShellExt" id="idShellExtLabel"  >Windows Shell Extension</label><br />
+                       
+                    </div>
+                </div> <!-- div class=Menu" -->                
+            </div>
+    
+        </div>  <!-- <div class="DlgBlock"> Utilities - END -->
+        <!-- ---------------------------------------------------------- -->
+
+        <!-- ------------------------------------------------------------ -->
+        <!-- <div> Utilities - START -->
+        
+        <div id="idUtilitiesNoVBABlock" class="DlgBlock" style="top: 120px; left: 0px; z-index: 4; display: none;" onmouseover="HighLightDesc('idUtilitiesNoVBADesc');" onmouseout="UnHighLightDesc('idUtilitiesNoVBADesc');">
+            <div class="DlgBlock">
+                <input accesskey="U" id="idChkUtilitiesNoVBA" type="checkbox" name="UTILITY" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idChkUtilitiesNoVBA')" onfocus="OnHideAllMenus()" />
+            </div>
+
+            <div class="DlgBlock" style="left: 25px; z-index: 4;">
+                <label for="idChkUtilitiesNoVBA">
+                <span class="Header"><u>U</u>tilidades</span><br />
+                <span id="idUtilitiesNoVBADesc" class="Desc" >Instala utilidades que se pueden usar con CorelDRAW y Corel PHOTO-PAINT.</span>
+                </label>
+                
+                
+                <div id="idUtilitiesNoVBA" class="Menu"
+                     onmouseover="OnShowIt('idUtilitiesMenuNoVBA')" 
+                     onmouseout="OnHideIt('idUtilitiesMenuNoVBA')"
+                     style="left: 190px; top: -5px; z-index: 3;">
+
+                    <button class="MenuBtn" onfocus="OnShowItBtn('idUtilitiesMenuNoVBA')"></button>
+                    Incluye:
+                    
+                    <div id="idUtilitiesMenuNoVBA" class="MenuPopUp" style="width: 260px; height: 86px;">
+
+                        <input type="checkbox" id="idDrDupWizNoVBA" name="DRDUPWIZ" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idDrDupWizNoVBA')" />
+                        <label for="idDrDupWizNoVBA" >Asistente de impresi&oacute;n a dos caras</label><br />
+
+                        <input type="checkbox" id="idShellExtNoVBA" name="SHELLEXT" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idShellExtNoVBA')" />
+                        <label for="idShellExtNoVBA" id="idShellExtLabelNoVBA"  >Windows Shell Extension</label><br />
+                       
+                    </div>
+                </div> <!-- div class=Menu" -->                
+            </div>
+    
+        </div>  <!-- <div class="DlgBlock"> Utilities - END -->
+        <!-- ---------------------------------------------------------- -->
+            
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> GPL - START -->
+            <div class="DlgBlock" style="top: 170px; z-index: 1;" onmouseover="HighLightDesc('idGPLDesc');" onmouseout="UnHighLightDesc('idGPLDesc');">
+                <div class="DlgBlock">
+                    <input accesskey="G" id="idChkGPL" type="checkbox" name="GPL" onfocus="OnHideAllMenus()" />
+                </div>
+                <div class="DlgBlock" style="left: 25px; z-index: 1;" id="idChkGPLDiv">
+                    <label for="idChkGPL" id="idChkGPLLabel">
+                <span class="Header"><u>G</u>PL Ghostscript</span><br />
+                <span id="idGPLDesc" class="Desc" >Mejora la compatibilidad para la importaci&oacute;n de archivos EPS y Post Script.</span>
+                </label>
+                </div>
+            </div>  <!-- <div class="DlgBlock"> GPL - END -->
+            <!-- ---------------------------------------------------------- -->
+            
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> Filters Secondary controls - START -->
+            <div class="DlgBlock" style="top: 220px; z-index: 1;" onmouseover="HighLightDesc('idFiltersDesc');" onmouseout="UnHighLightDesc('idFiltersDesc');">
+                <div class="DlgBlock">
+                <input accesskey="F" id="idChkSecFilter" type="checkbox" name="FILTERSADDITIONAL" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idChkSecFilter')" onfocus="OnHideAllMenus()" />
+                </div>
+                <div class="DlgBlock" style="left: 25px; z-index: 1; width: 680px;">
+                    <label  for="idChkSecFilter">
+                <span class="Header"><u>F</u>iltros de importaci&oacute;n / exportaci&oacute;n adicionales</span><br />
+                <span id="idFiltersDesc" class="Desc" >Instala filtros para los siguientes tipos de archivos: CUR, EXE, FMV, ICO, PCD, PCX, SCT, VSD, XCF, XPM, GEM, HTM, IMG, MET, NAP, PIC, SHW, MOV y QTM.</span>
+                    </label>
+                </div>
+            </div>  <!-- <div class="DlgBlock"> Filters Secondary controls - END -->
+            <!-- ---------------------------------------------------------- -->
+       
+       
+            
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> User Guide controls - START -->
+            <div class="DlgBlock" style="top: 285px; z-index: 1;" onmouseover="HighLightDesc('idUGDesc');" onmouseout="UnHighLightDesc('idUGDesc');">
+                <div class="DlgBlock">
+                    <input accesskey="I" id="idUserGuide" type="checkbox" name="USEGUIDE" ICA:IgnoreElement="1" onclick="OnMenuToggleFeature('idUserGuide')" onfocus="OnHideAllMenus()" />
+                </div>
+                <div class="DlgBlock" style="left: 25px; width: 650px; z-index: 1;">
+                    <label for="idUserGuide">
+                <span class="Header">Gu<u>&iacute;</u>a</span><br />
+                <span id="idUGDesc" class="Desc" >Instala un archivo PDF que contiene informaci&oacute;n sobre las novedades, tutoriales de gran ayuda y una galer&iacute;a de obras de arte.</span>
+                    </label>
+                </div>  <!-- <div class="DlgBlock"> User Guide controls - END -->
+            </div>
+            <!-- ---------------------------------------------------------- -->
+        
+        
+        </div><!--<div id="idFeaturesDiv">-->
+
+        <div id="idOptionsDiv" style="display: none;">
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> Select Folder - START -->
+            <div id="idInstallFolderDiv" class="DlgBlock" style="top: 10px; display: none;">
+            
+                <div class="DlgHeader" style="top: 0px;">
+                Instale CorelDRAW Graphics Suite X6.1 en la siguiente carpeta:
+                </div>
+                
+                <div class="DlgBlock" style="top: 35px; left: 15px; width: 45px;">
+                    <img src="../../_XX/Custom/images/Folder.png" alt="" />
+                </div>
+                
+                <div class="DlgBlock" style="top: 25px; width: 475px; left: 50px;" id="idFolderLabel">
+                R<u>u</u>ta:
+                </div>
+                
+                <div class="DlgBlock" style="top: 45px; width: 475px; left: 50px;">
+                <input type="text" maxlength="89" size="70" name="INSTALLDIR" ICA:Function="ICAPathInput" accesskey="U" ID="idINSTALLDIR" style="width: 470px;" onchange="OnPathChange();" />
+                </div>
+                
+                <div class="DlgBlock change" style="top: 43px; width: 140px; left: 540px;">
+                <button name="INSTALLDIR" onmouseover="HighLightButton('idChange');" onmouseout="UnHighLightButton('idChange');" accesskey="C" ICA:Function="ICABrowse" id="idChange"><u>C</u>ambiar...</button>
+                </div>
+                
+                
+            </div>
+
+
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> Languages - START DlgBlock  id="idSelectLangBlock" -->
+            <div id="idSelectLangBlock" class="DlgBlock" style="top: 105px; z-index: 2; left: 0px; visibility: hidden;">
+
+                <div class="DlgHeader" style="top: 0px;">
+                Elija los idiomas que desee instalar:
+                </div>
+            
+                <div class="DlgBlock" style="top: 33px; z-index: 2; left: 11px;">
+                <div class="Header" >Idiomas del producto</div>
+                    
+                    <div id="idLang" class="Menu"
+                         onmouseover="OnShowIt('idLangMenu')" 
+                         onmouseout="OnHideIt('idLangMenu')"
+                         style="left: 180px; top: -5px;">
+                         
+                        <button class="MenuBtn" onfocus="OnShowItBtn('idLangMenu')"></button>
+                    Incluye:
+                        
+                        <div id="idLangMenu" class="MenuPopUp blacktext">
+                            <div id="id1"  title="CS"><input type="checkbox" id="idCS" name="CS" onclick="OnMenuToggleFeature('idCS')" ICA:IgnoreElement="1" /><label for="idCS" ICA:Property="Str.Feature.Lang.CS"></label></div>
+                            <div id="id2"  title="CT"><input type="checkbox" id="idCT" name="CT" onclick="OnMenuToggleFeature('idCT')" ICA:IgnoreElement="1" /><label for="idCT" ICA:Property="Str.Feature.Lang.CT"></label></div>
+                            <div id="id3"  title="CZ"><input type="checkbox" id="idCZ" name="CZ" onclick="OnMenuToggleFeature('idCZ')" ICA:IgnoreElement="1" /><label for="idCZ" ICA:Property="Str.Feature.Lang.CZ"></label></div>
+                            <div id="id4"  title="NL"><input type="checkbox" id="idNL" name="NL" onclick="OnMenuToggleFeature('idNL')" ICA:IgnoreElement="1" /><label for="idNL" ICA:Property="Str.Feature.Lang.NL"></label></div>
+                            <div id="id5"  title="EN"><input type="checkbox" id="idEN" name="EN" onclick="OnMenuToggleFeature('idEN')" ICA:IgnoreElement="1" /><label for="idEN" ICA:Property="Str.Feature.Lang.EN"></label></div>
+                            <div id="id6"  title="SU"><input type="checkbox" id="idSU" name="SU" onclick="OnMenuToggleFeature('idSU')" ICA:IgnoreElement="1" /><label for="idSU" ICA:Property="Str.Feature.Lang.SU"></label></div>
+                            <div id="id7"  title="FR"><input type="checkbox" id="idFR" name="FR" onclick="OnMenuToggleFeature('idFR')" ICA:IgnoreElement="1" /><label for="idFR" ICA:Property="Str.Feature.Lang.FR"></label></div>
+                            <div id="id8"  title="DE"><input type="checkbox" id="idDE" name="DE" onclick="OnMenuToggleFeature('idDE')" ICA:IgnoreElement="1" /><label for="idDE" ICA:Property="Str.Feature.Lang.DE"></label></div>
+                            <div id="id9"  title="MA"><input type="checkbox" id="idMA" name="MA" onclick="OnMenuToggleFeature('idMA')" ICA:IgnoreElement="1" /><label for="idMA" ICA:Property="Str.Feature.Lang.MA"></label></div>
+                            <div id="id10" title="IT"><input type="checkbox" id="idIT" name="IT" onclick="OnMenuToggleFeature('idIT')" ICA:IgnoreElement="1" /><label for="idIT" ICA:Property="Str.Feature.Lang.IT"></label></div>
+                            <div id="id11" title="JP"><input type="checkbox" id="idJP" name="JP" onclick="OnMenuToggleFeature('idJP')" ICA:IgnoreElement="1" /><label for="idJP" ICA:Property="Str.Feature.Lang.JP"></label></div>
+                            <div id="id12" title="KR"><input type="checkbox" id="idKR" name="KR" onclick="OnMenuToggleFeature('idKR')" ICA:IgnoreElement="1" /><label for="idKR" ICA:Property="Str.Feature.Lang.KR"></label></div>
+                            <div id="id13" title="PL"><input type="checkbox" id="idPL" name="PL" onclick="OnMenuToggleFeature('idPL')" ICA:IgnoreElement="1" /><label for="idPL" ICA:Property="Str.Feature.Lang.PL"></label></div>
+                            <div id="id14" title="BR"><input type="checkbox" id="idBR" name="BR" onclick="OnMenuToggleFeature('idBR')" ICA:IgnoreElement="1" /><label for="idBR" ICA:Property="Str.Feature.Lang.BR"></label></div>
+                            <div id="id15" title="RU"><input type="checkbox" id="idRU" name="RU" onclick="OnMenuToggleFeature('idRU')" ICA:IgnoreElement="1" /><label for="idRU" ICA:Property="Str.Feature.Lang.RU"></label></div>
+                            <div id="id16" title="ES"><input type="checkbox" id="idES" name="ES" onclick="OnMenuToggleFeature('idES')" ICA:IgnoreElement="1" /><label for="idES" ICA:Property="Str.Feature.Lang.ES"></label></div>
+                            <div id="id17" title="SV"><input type="checkbox" id="idSV" name="SV" onclick="OnMenuToggleFeature('idSV')" ICA:IgnoreElement="1" /><label for="idSV" ICA:Property="Str.Feature.Lang.SV"></label></div>
+                            <div id="id18" title="TR"><input type="checkbox" id="idTR" name="TR" onclick="OnMenuToggleFeature('idTR')" ICA:IgnoreElement="1" /><label for="idTR" ICA:Property="Str.Feature.Lang.TR"></label></div>
+                        </div>
+                    </div> <!-- div class=Menu" -->
+                </div>
+            </div> <!-- <div> Languages - END DlgBlock id="idSelectLangBlock" -->
+            <!-- ---------------------------------------------------------- -->
+            
+
+            <!-- ------------------------------------------------------------ -->
+            <!-- <div> Additional Options cab files - START id="idAdditionalOptions" --> 
+            <div id="idAdditionalOptions" class="DlgBlock" style="top: 180px; left: 0px;">
+            
+                <div class="DlgHeader" style="position: relative; margin-bottom: 18px;">
+                Elija opciones adicionales:
+                </div>
+                
+                <div id="idProductUpdatesBlock" style="height: 45px;" style="display: none;" onmouseover="HighLightDesc('idUpdtesDesc');" onmouseout="UnHighLightDesc('idUpdtesDesc');">
+                    <div class="DlgBlock">
+                    <input id="idChkAutoDwnload" type="checkbox" name="ALLOW_PRODUCTUPDATES" accesskey="P"/>
+                    </div>
+                    <div class="DlgBlock" style="left: 25px;">
+                        <label for="idChkAutoDwnload">
+                        <span class="Header" >Autorice las actualizaciones del <u>p</u>roducto</span>
+                            <br />
+                        <span id="idUpdtesDesc" class="Desc" >Descarga automáticamente revisiones de producto, pero pregunta antes de instalarlas.</span>
+                        </label>
+                    </div>
+                </div>
+
+
+                <div id="idShortcutBlock" style="height: 45px;" onmouseover="HighLightDesc('idShortcutDesc');" onmouseout="UnHighLightDesc('idShortcutDesc');">
+                    <div class="DlgBlock">
+                    <input id="idShortcut" type="checkbox" name="DESKTOPSHORTCUTS" accesskey="E"/>
+                    </div>
+                    <div class="DlgBlock" style="left: 25px;">
+                        <label for="idShortcut">
+                        <span class="Header" >Instalar accesos directos del <u>e</u>scritorio</span>
+                            <br />
+                        <span id="idShortcutDesc" class="Desc" >Instala accesos directos a los programas en el escritorio.</span>
+                        </label>
+                    </div>
+                </div>
+                            
+                <div id="idCopyCabsBlock" style="display: block;" onmouseover="HighLightDesc('idCopyDesc');" onmouseout="UnHighLightDesc('idCopyDesc');">
+                    <div class="DlgBlock"">
+                        <input id="idChkCopyCabs" type="checkbox" ICA:Function="ICAToggleFeature" name="CACHE_SETUP_SOURCE" accesskey="O" />
+                    </div>
+                    <div class="DlgBlock" style="left: 25px; width: 680px;">
+                        <label for="idChkCopyCabs">
+                        <span class="Header" >C<u>o</u>piar archivos de instalación</span>
+                        <br />
+                        <span id="idCopyDesc" class="Desc" >Le permite mantener y actualizar el software sin necesidad de usar un disco de instalación. Esta opción requiere <label ICA:Property="CACHE_SETUP_SOURCE_SIZE_IN_MB">XXX</label> MB de espacio.</span>
+                        </label>
+                    </div>
+                </div>         
+                
+            </div>  <!-- <div class="DlgBlock"> Additional Options cab files - END id="idAdditionalOptions" -->
+            <!-- ---------------------------------------------------------- -->
+
+        </div><!--<div id="idOptionsDiv"> -->
+    
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Disk Space Requirements - START -->
+        <div class="DlgBlock" style="top: 350px; z-index: 1; background-color: transparent; text-align: right;">
+            &nbsp;<label ICA:AlwaysResolveStrings="1" ICA:Property="Str.DiskSpace.Formatted.1" style="font-size: 7pt; font-weight: bold;">XXX MB de XXX MB necesarios en la unidad C:\</label><br />
+			<label ICA:AlwaysResolveStrings="1" ICA:Property="Str.DiskSpace.Formatted.0" style="font-size: 7pt; font-weight: bold;">XXX MB de XXX MB necesarios en la unidad D:\</label>
+        </div>  <!-- <div class="DlgBlock"> Disk Space Requirements - END -->
+
+
+    
+    </div> <!-- div id="idTabPanel" END -->
+
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="left">
+                    <button onclick="OnResetDefaults();" onmouseover="HighLightButton('idReset');" onmouseout="UnHighLightButton('idReset');" id="idReset" onfocus="OnHideAllMenus()" accesskey="R"><u>R</u>establecer</button>
+                </td>
+                <td align="right">
+                    <button type="button" onclick="window.location='ARP.htm';" onmouseover="HighLightButton('idBack');" onmouseout="UnHighLightButton('idBack');" ID="idBack" style="display: none;" accesskey="A" ><u>A</u>tr&aacute;s</button>
+                    <button type="button" onclick="LoadPrograms();" onmouseover="HighLightButton('idBackFeatures');" onmouseout="UnHighLightButton('idBackFeatures');" ID="idBackFeatures" style="display: none;" accesskey="A" ><u>A</u>tr&aacute;s</button>
+                    <button type="button" onclick="LoadFeatures();" onmouseover="HighLightButton('idBackOptions');" onmouseout="UnHighLightButton('idBackOptions');" ID="idBackOptions" style="display: none;" accesskey="A" ><u>A</u>tr&aacute;s</button>
+                    
+                </td>
+                <td width="120px" align="left">
+                    <button onclick="LoadFeatures();" onmouseover="HighLightButton('idNextPrograms');" onmouseout="UnHighLightButton('idNextPrograms');" ID="idNextPrograms" onfocus="OnHideAllMenus()" style="display: none;" accesskey="S" ><u>S</u>iguiente</button>
+                    <button onclick="LoadOptions();" onmouseover="HighLightButton('idNextFeatures');" onmouseout="UnHighLightButton('idNextFeatures');" ID="idNextFeatures" onfocus="OnHideAllMenus()" style="display: none;" accesskey="S" ><u>S</u>iguiente</button>
+                    <button type="button" ICA:Function="ICABeginExecute" onmouseover="HighLightButton('idInstall');" onmouseout="UnHighLightButton('idInstall');" ID="idInstall" onfocus="OnHideAllMenus()" style="display: none;" accesskey="I"><u>I</u>nstalar ahora</button>
+                    
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+
+</body>
+</html>

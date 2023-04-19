@@ -1,0 +1,45 @@
+%----------------------------------------------------------------------------
+%	Level2 Pattern Fills
+/@p{/$fil 1 def 1 eq dup/$vectpat xd{/$pfrg true def}{@gs FillColor
+/separate_set_color dexec/$pfrg xd @gr}ifelse[exch aload pop 254000.0 div exch
+254000.0 div exch]/$pm xd/$pangle xd/$psy xd/$psx xd/$pyf xd/$pxf xd
+/$nTileHeight xd/$nTileWidth xd/$pn xd}bd/CorelCalcPatternMatrix{$pScaleX
+$pScaleY matrix identmatrix scale $pmnt matrix identmatrix concatmatrix $pxf
+$pyf matrix identmatrix translate matrix identmatrix concatmatrix}bd
+/CorelPtrnDoFill{@gs $ctm setmatrix wclip/$wid Bburx Bbllx sub def/$hei Bbury
+Bblly sub def @gs $vectpat{}{@sv FillColor/separate_set_color dexec{
+SeparationMode/Composite eq $pfrg or{Bbllx Bblly Tl $wid $hei scale <00> 8 1
+false[8 0 0 1 0 0]{}imagemask}{/$bkg true def}ifelse}if @rs}ifelse @gr $wid 0
+gt $hei 0 gt and{$pn cvlit load aload pop/$pd xd/$p2y xd/$p2x xd/$p0y xd/$p0x
+xd/$pwid $p2x $p0x sub def/$phei $p2y $p0y sub def/$pScaleX $nTileWidth $pwid
+div def/$pScaleY $nTileHeight $phei div def/$pmnt[$pm aload pop]def $pmnt 4 0
+put $pmnt 5 0 put $p0x $pScaleX mul neg $p0y $pScaleY mul neg $pmnt transform
+translate Bbllx Bblly matrix translate/PatOrigMatrix exch def PatOrigMatrix
+concat/PatternMatrix CorelCalcPatternMatrix def/PatternYStep $phei def
+/PatternXStep $pwid def/PatternBBox[$pn cvlit load aload pop pop]def
+/patternScallingMatrix matrix def $pScaleX $pScaleY patternScallingMatrix scale
+/patternScallingMatrix xd currentdict/CorelPtrnL2Pattern known $psy 0 eq and
+$psx 0 eq and{CorelPtrnL2Pattern}{PatternMatrix PatOrigMatrix matrix
+identmatrix concatmatrix/PTM exch def Bbllx Bblly PTM itransform/$t0y xd/$t0x
+xd Bburx Bblly PTM itransform/$t1y xd/$t1x xd Bburx Bbury PTM itransform/$t2y
+xd/$t2x xd Bbllx Bbury PTM itransform/$t3y xd/$t3x xd $t0x $t1x min $t2x min
+$t3x min/$tllx xd $t0y $t1y min $t2y min $t3y min/$tlly xd $t0x $t1x max $t2x
+max $t3x max/$turx xd $t0y $t1y max $t2y max $t3y max/$tury xd PatternMatrix
+concat CorelPtrnTile}ifelse currentdict/patternScallingMatrix undef}if @gr @np
+/$bkg false def}bd/p{/$pm xd 7 rp/$pyf xd/$pxf xd/$pn xd/$fil 1 def}bd
+/CorelPtrnDraw{@ep}bd/CorelPtrnPutTile{/nCurY xd/nCurX xd @sv $pn cvlit load
+aload pop nCurX nCurY translate matrix currentmatrix/$ctm xd newpath $p0x $p0y
+m 0 $phei rl $pwid 0 rl 0 $phei neg rl $pwid neg 0 rl closepath clip newpath
+CorelPtrnDraw pop pop pop pop @rs}bd/CorelPtrnTile{/nOffsetX $tury abs $tlly
+abs max $phei div ceiling $psx mul def/nOffsetY $turx abs $tllx abs max $pwid
+div ceiling $psy mul def/nStartX $tllx nOffsetX sub $pwid div ceiling cvi 1 sub
+def/nEndX $turx nOffsetX add $pwid div ceiling cvi 1 add def/nStartY $tlly
+nOffsetY sub $phei div ceiling cvi 1 sub def/nEndY $tury nOffsetY add $phei div
+ceiling cvi 1 add def nStartX 1 nEndX{/nTileNumX xd nStartY 1 nEndY{/nTileNumY
+xd $pwid nTileNumX mul $psx 0 ne{$psx nTileNumY mul add}if $phei nTileNumY mul
+$psy 0 ne{$psy nTileNumX mul add}if CorelPtrnPutTile}for}for}bd Level2
+DocPsLevel 2 ge and{/CorelPtrnL2Pattern{@sv currentdict/PatternMainDict xd
+/CorelPtnDict 20 dict def CorelPtnDict begin/PaintType 1 def/PatternType 1 def
+/TilingType 1 def/BBox PatternBBox def/XStep PatternXStep def/YStep
+PatternYStep def/PaintProc{begin PatternMainDict begin 0 CorelPtrnDraw end end
+}bd end CorelPtnDict PatternMatrix makepattern setpattern fill @rs}def}if

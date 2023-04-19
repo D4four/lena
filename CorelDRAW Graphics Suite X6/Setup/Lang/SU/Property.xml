@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ICA lang="SU">
+	<Properties>
+    <Property name="Str.ProductDisplayName" value="CorelDRAW Graphics Suite X6.1"/>
+    <Property name="Str.SetupAlreadyRunning" value="Setup.exe on jo käynnissä."/> 
+		<Property name="Str.CancelSetupPrompt" value="Haluatko varmasti peruuttaa %s -asennuksen?" comment="if %s is used in the string, it will be replaced with [Str.ProductDisplayName]"/>
+    <Property name="Str.CouldNotOpenCore" value="Asennusohjelma havaitsi ongelman ohjelmiston määrityksiä tehtäessä.  Seuraavan tiedoston käsittely ei onnistunut: %s Haluatko jatkaa?" comment="string displayed to the user if the core .msi could not be opened during initalization -- %s MUST be in the string, it is replaced with the reason for failure"/>
+    <Property name="Str.NoFolderAccess" value="Kansiota ei voi lukea: %s" comment="%s is replaced with the folder name"/>
+    <Property name="Str.PathTooLong" value="Polku sovelluksen %s asennushakemistoon saa sisältää enintään %s merkkiä. Valitse jokin muu kohde." comment="first %s is replaced with [Str.ProductDisplayName] -- second %s is replaced with [MAX_PATH]"/>
+    <Property name="Str.Initializing.Text" value="Odota..."/>
+    <Property name="Str.Initializing.Text.Cancelling" value="Toiminto keskeytetään..."/>
+		<Property name="Str.Feature.MainApp" value="CorelDRAW Graphics Suite X6.1"/> 
+		<Property name="Str.Feature.MainApp.Desc" value="CorelDRAW(R) Graphics Suite X6 on graafiseen suunnitteluun, sivujen asetteluun ja valokuvien muokkaukseen tarkoitettu tehokas ohjelmisto."/> 
+    
+    <Property name="Str.Feature.Utilities.VSTA.Desc.WithVS9" value="Tämä ominaisuus asentaa Visual Studio Tools for Applications -tuen (jos Visual Studio 2008 SP1 on asennettuna)."/>
+		<Property name="Str.Feature.WT" value="Kirjoitustyökalut"/>
+		<Property name="Str.Feature.WT.Desc" value="Asentaa eri kielten tavutuksen tarkistusohjelman, Thesauruksen ja kielioppisäännöt asiakirjojen oikoluvun helpottamiseksi."/>
+		<Property name="Str.Feature.WT.Afrikaans" value="Afrikaans"/>
+		<Property name="Str.Feature.WT.Afrikaans.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Catalan" value="Katalaani"/>
+		<Property name="Str.Feature.WT.Catalan.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Czech" value="Tshekki"/>
+		<Property name="Str.Feature.WT.Czech.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Danish" value="Tanska"/>
+		<Property name="Str.Feature.WT.Danish.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Dutch" value="Hollanti"/>
+		<Property name="Str.Feature.WT.Dutch.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+		<Property name="Str.Feature.WT.English" value="Englanti"/>
+		<Property name="Str.Feature.WT.English.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+		<Property name="Str.Feature.WT.Finnish" value="Suomi"/>
+		<Property name="Str.Feature.WT.Finnish.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.French" value="Ranska"/>
+		<Property name="Str.Feature.WT.French.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Galician" value="Galeco"/>
+		<Property name="Str.Feature.WT.Galician.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.German" value="Saksa"/>
+		<Property name="Str.Feature.WT.German.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Greek" value="Kreikka"/>
+		<Property name="Str.Feature.WT.Greek.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+		<Property name="Str.Feature.WT.Icelandic" value="Islanti"/>
+		<Property name="Str.Feature.WT.Icelandic.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+		<Property name="Str.Feature.WT.Italian" value="Italia"/>
+		<Property name="Str.Feature.WT.Italian.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Norwegian" value="Norja"/>
+		<Property name="Str.Feature.WT.Norwegian.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Polish" value="Puola"/>
+		<Property name="Str.Feature.WT.Polish.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Portuguese" value="Portugali"/>
+		<Property name="Str.Feature.WT.Portuguese.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Russian" value="Venäjä"/>
+		<Property name="Str.Feature.WT.Russian.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+		<Property name="Str.Feature.WT.Slovak" value="Slovakia"/>
+		<Property name="Str.Feature.WT.Slovak.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+		<Property name="Str.Feature.WT.Sotho" value="Sotho"/>
+		<Property name="Str.Feature.WT.Sotho.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+		<Property name="Str.Feature.WT.Spanish" value="Espanja"/>
+		<Property name="Str.Feature.WT.Spanish.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Swedish" value="Ruotsi"/>
+		<Property name="Str.Feature.WT.Swedish.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Tswana" value="Tswana"/>
+		<Property name="Str.Feature.WT.Tswana.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Turkish" value="Turkki"/>
+		<Property name="Str.Feature.WT.Turkish.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus ja tavutus."/>
+		<Property name="Str.Feature.WT.Xhosa" value="Xhosa"/>
+		<Property name="Str.Feature.WT.Xhosa.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+    <Property name="Str.Feature.WT.Zulu" value="Zulu"/>
+    <Property name="Str.Feature.WT.Zulu.Desc" value="Tähän kieleen sisältyy oikeinkirjoituksen tarkistus, tavutus ja kieliopin tarkistus."/>
+
+
+		
+    <Property name="Str.Feature.Programs64" value="64-bittiset ohjelmatiedostot"/>
+    <Property name="Str.Feature.Programs64.Desc" value="64-bittiset ohjelmatiedostot"/>
+    <Property name="Str.DestinationFolder" value="Valitse kansio, johon asennetaan."/>
+    <Property name="Str.SerialNotValid" value="Sarjanumero on virheellinen."/>
+    <Property name="Str.UpgradeSerialBlacklisted" value="Tätä sarjanumeroa ei saa käyttää tuotteen päivittämiseen."/>
+  <Property name="Str.UpgradeSerialNotEligible" value="Tämä sarjanumero ei ole oikeutettu tuotepäivitykseen."/>
+  <Property name="Str.UpgradeSerialNotValid" value="Tämä ei ole tunnistettavissa oleva sarjanumero. Varmista, että annoit numeron oikein."/>
+
+    <Property name="Str.ProgressText.Default" value="%d%% valmis" comment="this is the default progress text, you can override it using 'progresstext' attribute on the msi or dbm node -- optional %d%% is populated with the percent complete"/>
+    <Property name="Str.Running.VBA.exe.text" value="Odota. Visual Basic for Applications määritetään."/>
+    <Property name="Str.CacheSetupSource.Progress.text" value="Odota, kun asennustiedostoja valmistellaan"/>
+
+    <Property name="Str.Text.RequiredFeature" value="(Pakollinen)"/>
+
+    <Property name="Str.ProgressText.Common" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1"/>
+    <Property name="Str.ProgressText.Capture" value="%d%% valmis - Määritetään Corel CAPTURE"/>
+    <Property name="Str.ProgressText.Draw" value="%d%% valmis - Määritetään CorelDRAW"/>
+    <Property name="Str.ProgressText.Paint" value="%d%% valmis - Määritetään Corel PHOTO-PAINT"/>
+    
+    <Property name="Str.ProgressText.Fontnav" value="%d%% valmis - Määritetään Bitstream Font Navigator"/>
+    <Property name="Str.ProgressText.VBA" value="%d%% valmis - Määritetään Microsoft Visual Basic for Applications"/>
+    <Property name="Str.ProgressText.XML" value="%d%% valmis - Määritetään Microsoft XML"/>
+    <Property name="Str.ProgressText.ShellExt" value="%d%% valmis - Määritetään Corel Windows -liittymälaajennus"/>
+    <Property name="Str.ProgressText.EN" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -englannin kielipaketti"/>
+    <Property name="Str.ProgressText.CS" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -yksinkertaistetun kiinan kielipaketti"/>
+    <Property name="Str.ProgressText.CT" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -perinteisen kiinan kielipaketti"/>
+    <Property name="Str.ProgressText.CZ" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -tšekin kielipaketti"/>
+    <Property name="Str.ProgressText.NL" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -hollannin kielipaketti"/>
+    <Property name="Str.ProgressText.SU" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -suomen kielipaketti"/>
+    <Property name="Str.ProgressText.FR" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -ranskan kielipaketti"/>
+    <Property name="Str.ProgressText.DE" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -saksan kielipaketti"/>
+    <Property name="Str.ProgressText.MA" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -unkarin kielipaketti"/>
+    <Property name="Str.ProgressText.IT" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -italian kielipaketti"/>
+    <Property name="Str.ProgressText.JP" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -japanin kielipaketti"/>
+    <Property name="Str.ProgressText.KR" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -korean kielipaketti"/>
+    <Property name="Str.ProgressText.PL" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -puolan kielipaketti"/>
+    <Property name="Str.ProgressText.BR" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -Brasilian portugalin kielipaketti"/>
+    <Property name="Str.ProgressText.RU" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -venäjän kielipaketti"/>    
+    <Property name="Str.ProgressText.ES" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -espanjan kielipaketti"/>
+    <Property name="Str.ProgressText.SV" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -ruotsin kielipaketti"/>
+    <Property name="Str.ProgressText.TR" value="%d%% valmis - Määritetään CorelDRAW Graphics Suite X6.1 -turkki kielipaketti"/>
+    <Property name="Str.ProgressText.Extras" value="Asenna CorelDRAW Graphics Suite X6.1 -lisäsisältö:"/>
+    <Property name="Str.ProgressText.VSTA" value="%d%% valmis - Visual Studio Tools for Applications"/>    
+    <Property name="Str.ProgressText.VSTA.exe" value="Odota, kun asennusohjelma tekee Visual Studio Tools for Applications -määrityksiä"/>
+    <Property name="Str.ProgressText.IntelCompiler" value="Määritetään CorelDRAW Graphics Suite X6.1" />
+    <Property name="Str.Feature.Lang" value="Tuotteen kielet"/>
+    <Property name="Str.Feature.Lang.CS" value="Kiina (Yksinkertaistettu)"/>
+    <Property name="Str.Feature.Lang.CT" value="Kiina (Perinteinen)"/>
+    <Property name="Str.Feature.Lang.CZ" value="Tshekki"/>
+    <Property name="Str.Feature.Lang.NL" value="Hollanti"/>
+    <Property name="Str.Feature.Lang.EN" value="Englanti"/>
+    <Property name="Str.Feature.Lang.SU" value="Suomi"/>
+    <Property name="Str.Feature.Lang.FR" value="Ranska"/>
+    <Property name="Str.Feature.Lang.DE" value="Saksa"/>
+    <Property name="Str.Feature.Lang.MA" value="Unkari"/>
+    <Property name="Str.Feature.Lang.IT" value="Italia"/>
+    <Property name="Str.Feature.Lang.JP" value="Japani"/>
+    <Property name="Str.Feature.Lang.KR" value="Korea"/>
+    <Property name="Str.Feature.Lang.PL" value="Puola"/>
+    <Property name="Str.Feature.Lang.BR" value="Portugali (Brasilia)"/>
+    <Property name="Str.Feature.Lang.RU" value="Venäjä"/>
+    <Property name="Str.Feature.Lang.ES" value="Espanja"/>
+    <Property name="Str.Feature.Lang.SV" value="Ruotsi"/>
+    <Property name="Str.Feature.Lang.TR" value="Turkki"/>
+    <Property name="SETUP_LANG" value="SU"/>
+    <Property name="ICA.Lang.Transform" value="1035.mst"/>
+
+    <Property name="Str.Feature.Extras" value="CorelDRAW Graphics Suite X6.1 - Zasoby"/>
+    <Property name="Str.Feature.Extras.Desc" value="Asenna CorelDRAW Graphics Suite X6.1 -Sisältö"/>
+    <Property name="Str.InstallContent" value="Haluatko asentaa CorelDRAW Graphics Suite X6.1:n sisällön ja lisäominaisuudet?"/>
+
+
+    <Property name="Str.Error.20000" value="Sarjanumero on virheellinen."/>
+    <Property name="Str.Error.30000" value="TÄRKEÄÄ: Et voi asentaa CorelDRAW Graphics Suite X6.1:ta asentamatta Microsoft .NET Framework 4.0:aa. Lisätietoja Microsoft .NET Frameworkista on Microsoftin sivustossa:&lt;br&gt;&lt;a href=&quot;http://www.microsoft.com/downloads/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7&quot; target=&quot;_blank&quot; onclick=&quot;window.external.EndModalLoop(0);&quot;&gt;http://www.microsoft.com/NET/&lt;/a&gt;&lt;br&gt;&lt;br&gt;"/>
+    <Property name="Str.Error.30001" value="Tietokoneen suoritin ei täytä ohjelmiston vähimmäisjärjestelmävaatimuksia. Asennusta ei voi suorittaa."/>
+    <Property name="Str.Error.30002" value="CorelDRAW Graphics Suite X6.1 voidaan asentaa vain Windows XP- ja Windows Vista -käyttöjärjestelmiin. Asennus keskeytetään."/>
+    <Property name="Str.Error.30003" value="Käyttöoikeutesi eivät riitä tämän toiminnan suorittamiseen. Tämä asennus edellyttää järjestelmänvalvojan oikeuksia tai korotettua käyttöoikeustasoa. Ota yhteyttä järjestelmänvalvojaan ja yritä asentaa uudelleen."/>
+    <Property name="Str.Error.30004" value="TÄRKEÄÄ: Et voi asentaa CorelDRAW Graphics Suite X6.1:ta asentamatta Microsoft .NET Framework 4.0:aa. Lisätietoja Microsoft .NET Frameworkista on Microsoftin sivustossa. &apos;http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7&apos; - http://www.microsoft.com/NET/"/>
+    <Property name="Str.Error.30005" value="CorelDRAW Graphics Suite X6.1:n 64-bittistä versiota ei voi asentaa 32-bittiseen järjestelmään."/>
+    <Property name="Str.UpgradeNotSupported" value="Päivityssarjanumeroita ei voi käyttää komentorivillä asennettaessa. Anna tämä sarjanumero asennuskäyttöliittymässä tai käytä komentorivillä toista sarjanumeroa."/>
+<!--Coexistence Scenarios -->
+    <Property name="Str.Error.30500" value="Uudempi versio tästä sovelluksesta on jo asennettu tähän tietokoneeseen. Jos haluat asentaa tämän version, poista ensin uudemman version asennus." />
+    <Property name="Str.Error.30501" value="Et voi asentaa tätä kokeiluversiota, koska CorelDRAW Graphics Suite X6.1 on jo asennettu. Jos haluat asentaa tämän kokeiluversion, sinun on ensin poistettava tuotteen asennus." comment="Yellow" />
+    <Property name="Str.Error.1638" value="Tätä tuotetta ei voi asentaa, sillä toinen tuote on jo asennettu. Jos haluat asentaa tämän tuotteen, sinun on ensin poistettava nykyisen tuotteen asennus. Lopeta asennus valitsemalla Valmis." comment="Pink" />
+    <Property name="Str.CDTS.Prompt" value="CorelDRAW Graphics Suite X6.1 on havaittu tietokoneessa. Corel DESIGNER Technical Suite X6 tarjoaa kaikki CorelDRAW Graphics Suite X6.1:n toiminnot — ja enemmän!\n\nValitse Peruuta, jos et halua päivittää Corel DESIGNER Technical Suite X6:een." comment="Blue" />
+  <Property name="Str.CDTSTrial.Prompt" value="Tietokoneessa on havaittu Corel DESIGNER Technical Suite X6:n kokeiluversio. Ellet valitse Peruuta, kokeiluversion asennus poistetaan ja se korvataan CorelDRAW Graphics Suite X6.1:lla." comment="Purple" />
+  <Property name="Str.Error.30502" value="Et voi asentaa tätä tuotetta, koska toinen versio on jo asennettu." comment="Orange" />
+  <Property name="Str.Error.30503" value="Jos haluat asentaa tämän tuotteen, sinun on ensin asennettava CorelDRAW Graphics Suite X6.1 ja sitten suoritettava asennusohjelma uudelleen. Lataa CorelDRAW Graphics Suite X6.1 osoitteesta www.corel.com/draw." comment="Brown" />
+  <Property name="Str.Error.30504" value="CorelDRAW Essentialsia ja CorelDRAW Home and Student Editionia ei voi asentaa samaan tietokoneeseen. Järjestelmää ei ole muutettu.  Jos haluat asentaa tuotteen, sinun on ensin poistettava nykyisen CorelDRAW-tuotteen asennus." comment="Rust" />
+  <Property name="Str.Error.30505" value="Tämä tuote ei vastaa käyttämääsi CorelDRAW Graphics Suite X6.1:n 32-bittistä tai 64-bittistä versiota. Jos haluat asentaa tuotteen, valitse oikea versio ja suorita asennusohjelma uudelleen." comment="Green" />
+  <Property name="Str.Error.30505" value="Jos haluat asentaa tämän tuotteen, sinun on ensin hankittava CorelDRAW Graphics Suite X6.1 ja sitten suoritettava asennusohjelma uudelleen." coment="Grey" />
+    <Property name="Str.Error.35001" value="&lt;b&gt;Details:&lt;/b&gt;&lt;br /&gt;Unable to validate the serial number. An Internet connection is required to complete the installation.&lt;br /&gt;&lt;br /&gt;" />
+    <Property name="Str.Error.30510" value="Tarvitset Internet-yhteyden. Luo Internet-yhteys ja yritä uudelleen." />
+	<Property name="Str.Error.30511" value="Error: An unexpected error occurred on the server. Please check your Internet connection and try again later." />
+    
+        
+    <Property name="Str.DiskSpace.Bytes" value="tavua"/>
+    <Property name="Str.DiskSpace.Kb" value="kt"/>
+    <Property name="Str.DiskSpace.MB" value="Mt"/>
+    <Property name="Str.DiskSpace.GB" value="Gt"/>
+    <Property name="Str.DiskSpace.TB" value="Tb"/>
+    <Property name="Str.DiskSpace.RequiredString" value="%s %s megatavusta tarvitaan asemassa %s"/>
+    <Property name="Str.UpgradeProgressText" value="Poistetaan sovelluksia: "/>
+
+    <Property name="Str.Feature.Filters.GhostscriptGPL" value="GPL Ghostscript"/>
+    <Property name="Str.Feature.Filters.GhostscriptGPL.Installed.Text" value="&lt;b&gt;GPL Ghostscript (jo asennettu)&lt;/b&gt;"/>
+
+    <Property name="Str.PrerequisiteReboot.Prompt" value="Asennuksen jatkaminen edellyttää järjestelmän uudelleenkäynnistystä.\n\nKäynnistä uudelleen nyt valitsemalla Kyllä tai käynnistä myöhemmin uudelleen valitsemalla Ei."/>
+    
+
+    <Property name="Str.Required.Dlg.InstallComplete" value="Asennus valmis"/>
+
+    <Property name="Setup_Billboard_1.png" value="Katarzyna Kobylkiewicz"/>
+    <Property name="Setup_Billboard_10.png" value="Владимр Соломатин"/>
+    <Property name="Setup_Billboard_11.png" value="Fabio  Selani - www.fabiosellani.blogspot.com"/>
+    <Property name="Setup_Billboard_12.png" value="Роман Полищук"/>
+    <Property name="Setup_Billboard_13.png" value="André Luiz dos Santo  - www.logomarca3d.com"/>
+    <Property name="Setup_Billboard_14.png" value="John Fernandez"/>
+    <Property name="Setup_Billboard_15.png" value="Riteshsingh Seeboruth"/>
+    <Property name="Setup_Billboard_16.png" value="Francisco Javier Hurtado Zarate"/>   
+    <Property name="Setup_Billboard_17.png" value="Muaviath Ali - www.muart-a.com"/>
+    <Property name="Setup_Billboard_18.png" value="Federico Nicolas Arroyuelo"/>   
+    <Property name="Setup_Billboard_19.png" value="Franziskus Pfleghart"/>
+    <Property name="Setup_Billboard_2.png" value="Rodolfo Biglie - www.creatorica.com"/>
+    <Property name="Setup_Billboard_20.png" value="Kanimozhi S N - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_21.png" value="Dhananjay Garg - www.dhananjaydgarg.blogspot.com"/>
+    <Property name="Setup_Billboard_22.png" value="Jaime Andres Grimaldos Pimiento - www.graficon.com"/>
+    <Property name="Setup_Billboard_23.png" value="Prem Kumar V - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_24.png" value="Tania Macias"/>
+    <Property name="Setup_Billboard_25.png" value="Deborah McIntyre"/>
+    <Property name="Setup_Billboard_26.png" value="Ramm ND"/>
+    <Property name="Setup_Billboard_27.png" value="Fayiza Kulsoom - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_28.png" value="Leva Griskaite"/>
+    <Property name="Setup_Billboard_29.png" value="Yogita  Butala"/>
+    <Property name="Setup_Billboard_3.png" value="Nanda Dixit"/>
+    <Property name="Setup_Billboard_30.png" value="Giulia Marchetti Hennings"/>
+    <Property name="Setup_Billboard_31.png" value="Adnan Nan - www.anabawang.blogspot.com"/>
+    <Property name="Setup_Billboard_32.png" value="Dmitri Demidenko"/>
+    <Property name="Setup_Billboard_33.png" value="Firman Hatibu"/>
+    <Property name="Setup_Billboard_34.png" value="Jairo Cataia"/>
+    <Property name="Setup_Billboard_35.png" value="Suhasini R - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_36.png" value="Алексей Оглушевич"/>
+    <Property name="Setup_Billboard_37.png" value="Дамир Галлямов"/>     
+    <Property name="Setup_Billboard_38.png" value="Michal Milkowski - www.tonic-art.com"/>
+    <Property name="Setup_Billboard_39.png" value="Pumesh Kumar"/>
+    <Property name="Setup_Billboard_4.png" value="Anastasios Pappas"/>   
+    <Property name="Setup_Billboard_40.png" value="Mariusz Grzyb"/> 
+    <Property name="Setup_Billboard_41.png" value="Marcin Chamala"/>
+    <Property name="Setup_Billboard_42.png" value="Panagiotis Intakidis"/>
+    <Property name="Setup_Billboard_43.png" value="Hao Lun Jhang"/>
+    <Property name="Setup_Billboard_44.png" value="Hiroshi Kurozumi - www.ne.jp/asahi/h-kurozumi/cdr/"/>
+    <Property name="Setup_Billboard_45.png" value="Adhi Noegroho"/>
+    <Property name="Setup_Billboard_46.png" value="Gentil  Jimenez - www.akermos.com"/>
+    <Property name="Setup_Billboard_47.png" value="Bennes Patio - www.ben2ty.co.nr"/>
+    <Property name="Setup_Billboard_48.png" value="Елена Олина"/>
+    <Property name="Setup_Billboard_49.png" value="Olga Pavlova - www.pavlova.us"/>
+    <Property name="Setup_Billboard_5.png" value="Divya  Priya  - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_50.png" value="Tatiana Prokofieva"/>
+    <Property name="Setup_Billboard_6.png" value="Artsiom Aleksandrovich"/> 
+    <Property name="Setup_Billboard_7.png" value="Aditya Sawant"/>
+    <Property name="Setup_Billboard_8.png" value="Time Garvanliev"/> 
+    <Property name="Setup_Billboard_9.png" value="Noel Patrick Nesaraj Daniel"/>
+
+
+    <Property name="Str.OutOfDiskSpace.Warning" value="Asennuksen vaatima levytila on suurempi kuin vapaana oleva levytila." lang="English"/>
+    
+</Properties>
+</ICA>

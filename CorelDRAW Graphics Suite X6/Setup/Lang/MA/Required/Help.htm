@@ -1,0 +1,129 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+	<head>
+		<meta name="vs_showGrid" content="True" />
+		<title>Setup Wizard</title>
+		<LINK href="../../_XX/Required/Style.css" type="text/css" rel="STYLESHEET" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1" />
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+		<meta name="ICADlg" 
+		      content="text/html" 
+		      id="ICADlg" 
+		      ICA:DlgHW="550,480" 
+		      ICA:DlgTitle="Setup.exe /? - command line help" 
+		      ICA:PromptForCancel="no" />
+		
+		<style type="text/css">          	    .HelpTable 		    { 		        border-top-style: none; 	            border-right-style: none; 	            border-left-style: none; 	            border-bottom-style: none; 		    } 		                 .HelpItem             { 	            vertical-align: top; 	            font-size: 14px; 	            font-family: 'Segoe UI' , Tahoma; 	            border-bottom: gray 1px solid; 	            margin-top: 10px; 	            margin-bottom: 10px; 	            padding-top: 5; 	            padding-bottom: 5;             } 		</style>
+		
+	</head>
+	
+	<body>
+	
+	<div id="idContent"
+	     class="Panel"
+	     style="overflow: auto;
+	            padding: 5 5 5 5;
+	            border: double 3px silver;
+	            background-color: white;
+	            width: 450px;
+	            height: 440px; 
+	            text-align: left;">
+
+
+        <table id="idContentTable" cellspacing="0">
+        
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    Ez a gyorshivatkozási kézikönyv a Setup.exe fájllal használt gyakori parancssorokat tartalmazza.<br /><br /> Setup.exe /Option &lt;Kötelező paraméter&gt; [Opcionális paraméter] <br /><br /> <u>Telepítési opciók:</u>
+                </td>
+            </tr>
+                        
+            <tr> <!-- /a admin -->
+                <td class="HelpItem" style="width: 55px;">/a</td>
+                <td class="HelpItem">
+                    Azt jelzi, hogy szerverképet kíván létrehozni.  Adminisztratív telepítés – Termék telepítése a hálózatra <br /><br /> Setup.exe /a
+                </td>
+            </tr>
+            
+            <tr> <!-- /x uninstall -->
+                <td class="HelpItem" style="width: 55px;">/x <br /> /uninstall</td>
+                <td class="HelpItem">
+                    A szoftver eltávolítása.  Adminisztratív telepítés – Termék telepítése a hálózatra <br /><br /> Setup.exe /x
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Megjelenítési opciók:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/q[n|b|r|f]</td>
+                <td class="HelpItem">
+                    Annak beállítása, hogy milyen mértékben jelenjen meg a telepítés felhasználói felülete. <br /> n – Nincs UI<br /> b – Alap UI<br /> r – Csökkentett UI<br /> f – Teljes UI (alapértelmezett)<br /><br /> Setup.exe /q
+        		</td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/quiet</td>
+                <td class="HelpItem">
+                    Csendes mód, nincs felhasználói beavatkozás. Ugyanaz, mint a /qn
+        		</td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/passive</td>
+                <td class="HelpItem">
+                    Felügyelet nélküli mód – csak állapotjelző. Ugyanaz, mint a /qb
+        		</td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Naplózási opciók:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /l log -->
+                <td class="HelpItem" style="width: 55px;">/l[i|w|e|a|r|u|c|m|o|p|v|x|*]</td>
+                <td class="HelpItem">
+                    A telepítés általános információinak rögzítése egy naplófájlban. Ha nem ad meg elérési utat és fájlnevet, a naplófájl az aktuális felhasználó ideiglenes mappájába kerül. <br /><br /> i – Állapotüzenetek <br /> w – Nem végzetes hibák figyelmeztetései <br /> e – Minden hibaüzenet <br /> a – Műveletek indítása <br /> r – Műveletspecifikus bejegyzések <br /> u – Felhasználói kérések <br /> c – Kezdeti UI-paraméterek <br /> m – Elfogyott a memória vagy végzetes hibából fakadó kilépési információk <br /> o – Üzenet nem elegendő lemezterületről <br /> p – Végső tulajdonságok <br /> v – Túlzott kimenet <br /> x – További hibajavítási információk <br /> * – A v és x opciók kivételével minden információ rögzítése <br /><br /> Az alapértelmezés /lvoicewarmup<br /><br /> Setup.exe /l"C:\Install.log"
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Javítási opciók:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /a admin -->
+                <td class="HelpItem" style="width: 55px;">/f[p|e|c|m|s|o|d|a|u]</td>
+                <td class="HelpItem">
+                Termék javítása.<br /> p – csak ha egy fájl hiányzik<br /> o – ha egy fájl hiányzik, vagy régi verzió van telepítve (alapértelmezés)<br /> e – ha egy fájl hiányzik, vagy azonos vagy régi verzió van telepítve<br /> d – ha egy fájl hiányzik, vagy másik verzió van telepítve<br /> c – ha egy fájl hiányzik, vagy az összeg nem egyezik a számított értékkel<br /> a – összes fájl kényszerített újratelepítése<br /> u – összes szükséges felhasználóspecifikus rendszerleíró elem (alapértelmezés)<br /> m – összes szükséges számítógép-specifikus rendszerleíró elem (alapértelmezés)<br /> s – összes létező parancsikon (alapértelmezés)<br /> <br /><br /> Az alapértelmezés /foums<br /><br /> Setup.exe /f
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Nyilvános tulajdonságok beállítása:</u><br /><br /> [PROPERTY=PropertyValue]
+                </td>
+            </tr>
+        
+        </table> <!-- table id="idContentTable" -->
+
+    </div> <!-- id="idContent" -->
+
+	<div class="DlgBlock"
+	     style="text-align: right;
+	            width: 450px;
+	            top: 470px;">
+	            
+	    <button onclick="window.external.EndModalLoop(0);" ID="idOk" accesskey="O"><u>O</u>K</button>
+	    
+    </div>
+		
+	</body>
+</html>

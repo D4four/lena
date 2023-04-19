@@ -1,0 +1,3074 @@
+<?xml version="1.0"?>
+<palette resid="06a6c7fc-c4c4-4434-8ae2-53ee20edfcc9" fixedID="8" guid="d7aff84f-8ab7-4f36-b241-5c40cc4c0575" prefix="FOCOLTONE " locked="true">
+<colorspaces>
+<cs name="FOCOLTONE 1000" fixedID="1" version="1300">
+<color cs="CMYK" tints="0.15,0.3,0.5,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1001" fixedID="2" version="1300">
+<color cs="CMYK" tints="0.15,0.3,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 1002" fixedID="3" version="1300">
+<color cs="CMYK" tints="0.15,0,0.5,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1003" fixedID="4" version="1300">
+<color cs="CMYK" tints="0,0.3,0.5,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1004" fixedID="5" version="1300">
+<color cs="CMYK" tints="0.15,0.3,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1005" fixedID="6" version="1300">
+<color cs="CMYK" tints="0.15,0,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 1006" fixedID="7" version="1300">
+<color cs="CMYK" tints="0,0.3,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 1007" fixedID="8" version="1300">
+<color cs="CMYK" tints="0.15,0.3,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1008" fixedID="9" version="1300">
+<color cs="CMYK" tints="0,0,0.5,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1009" fixedID="10" version="1300">
+<color cs="CMYK" tints="0,0.3,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1010" fixedID="11" version="1300">
+<color cs="CMYK" tints="0.15,0,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1011" fixedID="12" version="1300">
+<color cs="CMYK" tints="0.15,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1012" fixedID="13" version="1300">
+<color cs="CMYK" tints="0,0.3,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1013" fixedID="14" version="1300">
+<color cs="CMYK" tints="0,0,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 1014" fixedID="15" version="1300">
+<color cs="CMYK" tints="0.2,0.4,0.15,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1015" fixedID="16" version="1300">
+<color cs="CMYK" tints="0.2,0.4,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 1016" fixedID="17" version="1300">
+<color cs="CMYK" tints="0.2,0,0.15,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1017" fixedID="18" version="1300">
+<color cs="CMYK" tints="0,0.4,0.15,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1018" fixedID="19" version="1300">
+<color cs="CMYK" tints="0.2,0.4,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1019" fixedID="20" version="1300">
+<color cs="CMYK" tints="0.2,0,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 1020" fixedID="21" version="1300">
+<color cs="CMYK" tints="0,0.4,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 1021" fixedID="22" version="1300">
+<color cs="CMYK" tints="0.2,0.4,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1022" fixedID="23" version="1300">
+<color cs="CMYK" tints="0,0,0.15,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1023" fixedID="24" version="1300">
+<color cs="CMYK" tints="0,0.4,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1024" fixedID="25" version="1300">
+<color cs="CMYK" tints="0.2,0,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1025" fixedID="26" version="1300">
+<color cs="CMYK" tints="0.2,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1026" fixedID="27" version="1300">
+<color cs="CMYK" tints="0,0.4,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1027" fixedID="28" version="1300">
+<color cs="CMYK" tints="0,0,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 1028" fixedID="29" version="1300">
+<color cs="CMYK" tints="0.3,0.5,0.2,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1029" fixedID="30" version="1300">
+<color cs="CMYK" tints="0.3,0.5,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 1030" fixedID="31" version="1300">
+<color cs="CMYK" tints="0.3,0,0.2,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1031" fixedID="32" version="1300">
+<color cs="CMYK" tints="0,0.5,0.2,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1032" fixedID="33" version="1300">
+<color cs="CMYK" tints="0.3,0.5,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1033" fixedID="34" version="1300">
+<color cs="CMYK" tints="0.3,0,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 1034" fixedID="35" version="1300">
+<color cs="CMYK" tints="0,0.5,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 1035" fixedID="36" version="1300">
+<color cs="CMYK" tints="0.3,0.5,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1036" fixedID="37" version="1300">
+<color cs="CMYK" tints="0,0,0.2,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1037" fixedID="38" version="1300">
+<color cs="CMYK" tints="0,0.5,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1038" fixedID="39" version="1300">
+<color cs="CMYK" tints="0.3,0,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1039" fixedID="40" version="1300">
+<color cs="CMYK" tints="0.3,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1040" fixedID="41" version="1300">
+<color cs="CMYK" tints="0,0.5,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1041" fixedID="42" version="1300">
+<color cs="CMYK" tints="0,0,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 1042" fixedID="43" version="1300">
+<color cs="CMYK" tints="0.4,0.15,0.3,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1043" fixedID="44" version="1300">
+<color cs="CMYK" tints="0.4,0.15,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 1044" fixedID="45" version="1300">
+<color cs="CMYK" tints="0.4,0,0.3,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1045" fixedID="46" version="1300">
+<color cs="CMYK" tints="0,0.15,0.3,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1046" fixedID="47" version="1300">
+<color cs="CMYK" tints="0.4,0.15,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1047" fixedID="48" version="1300">
+<color cs="CMYK" tints="0.4,0,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 1048" fixedID="49" version="1300">
+<color cs="CMYK" tints="0,0.15,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 1049" fixedID="50" version="1300">
+<color cs="CMYK" tints="0.4,0.15,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1050" fixedID="51" version="1300">
+<color cs="CMYK" tints="0,0,0.3,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1051" fixedID="52" version="1300">
+<color cs="CMYK" tints="0,0.15,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1052" fixedID="53" version="1300">
+<color cs="CMYK" tints="0.4,0,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1053" fixedID="54" version="1300">
+<color cs="CMYK" tints="0.4,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1054" fixedID="55" version="1300">
+<color cs="CMYK" tints="0,0.15,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1055" fixedID="56" version="1300">
+<color cs="CMYK" tints="0,0,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 1056" fixedID="57" version="1300">
+<color cs="CMYK" tints="0.5,0.2,0.4,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1057" fixedID="58" version="1300">
+<color cs="CMYK" tints="0.5,0.2,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 1058" fixedID="59" version="1300">
+<color cs="CMYK" tints="0.5,0,0.4,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1059" fixedID="60" version="1300">
+<color cs="CMYK" tints="0,0.2,0.4,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1060" fixedID="61" version="1300">
+<color cs="CMYK" tints="0.5,0.2,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1061" fixedID="62" version="1300">
+<color cs="CMYK" tints="0.5,0,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 1062" fixedID="63" version="1300">
+<color cs="CMYK" tints="0,0.2,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 1063" fixedID="64" version="1300">
+<color cs="CMYK" tints="0.5,0.2,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1064" fixedID="65" version="1300">
+<color cs="CMYK" tints="0,0,0.4,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1065" fixedID="66" version="1300">
+<color cs="CMYK" tints="0,0.2,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1066" fixedID="67" version="1300">
+<color cs="CMYK" tints="0.5,0,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1067" fixedID="68" version="1300">
+<color cs="CMYK" tints="0.5,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1068" fixedID="69" version="1300">
+<color cs="CMYK" tints="0,0.2,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1069" fixedID="70" version="1300">
+<color cs="CMYK" tints="0,0,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 1070" fixedID="71" version="1300">
+<color cs="CMYK" tints="1,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1071" fixedID="72" version="1300">
+<color cs="CMYK" tints="0,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1072" fixedID="73" version="1300">
+<color cs="CMYK" tints="0,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1073" fixedID="74" version="1300">
+<color cs="CMYK" tints="0,0,0,1"></color>
+</cs>
+<cs name="FOCOLTONE 1074" fixedID="75" version="1300">
+<color cs="CMYK" tints="1,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1075" fixedID="76" version="1300">
+<color cs="CMYK" tints="1,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1076" fixedID="77" version="1300">
+<color cs="CMYK" tints="0,1,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1077" fixedID="78" version="1300">
+<color cs="CMYK" tints="1,0,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1078" fixedID="79" version="1300">
+<color cs="CMYK" tints="0,1,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1079" fixedID="80" version="1300">
+<color cs="CMYK" tints="0,0,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1080" fixedID="81" version="1300">
+<color cs="CMYK" tints="1,1,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1081" fixedID="82" version="1300">
+<color cs="CMYK" tints="1,0,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1082" fixedID="83" version="1300">
+<color cs="CMYK" tints="0,1,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1083" fixedID="84" version="1300">
+<color cs="CMYK" tints="0,0,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1084" fixedID="85" version="1300">
+<color cs="CMYK" tints="1,0.3,0.5,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1085" fixedID="86" version="1300">
+<color cs="CMYK" tints="1,0.3,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 1086" fixedID="87" version="1300">
+<color cs="CMYK" tints="1,0,0.5,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1087" fixedID="88" version="1300">
+<color cs="CMYK" tints="1,0.3,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1088" fixedID="89" version="1300">
+<color cs="CMYK" tints="1,0,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 1089" fixedID="90" version="1300">
+<color cs="CMYK" tints="1,0.3,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1090" fixedID="91" version="1300">
+<color cs="CMYK" tints="1,0.4,0.15,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1091" fixedID="92" version="1300">
+<color cs="CMYK" tints="1,0.4,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 1092" fixedID="93" version="1300">
+<color cs="CMYK" tints="1,0,0.15,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1093" fixedID="94" version="1300">
+<color cs="CMYK" tints="1,0.4,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1094" fixedID="95" version="1300">
+<color cs="CMYK" tints="1,0,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 1095" fixedID="96" version="1300">
+<color cs="CMYK" tints="1,0.4,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1096" fixedID="97" version="1300">
+<color cs="CMYK" tints="1,0.5,0.2,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1097" fixedID="98" version="1300">
+<color cs="CMYK" tints="1,0.5,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 1098" fixedID="99" version="1300">
+<color cs="CMYK" tints="1,0,0.2,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1099" fixedID="100" version="1300">
+<color cs="CMYK" tints="1,0.5,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1100" fixedID="101" version="1300">
+<color cs="CMYK" tints="1,0,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 1101" fixedID="102" version="1300">
+<color cs="CMYK" tints="1,0.5,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1102" fixedID="103" version="1300">
+<color cs="CMYK" tints="1,0.15,0.3,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1103" fixedID="104" version="1300">
+<color cs="CMYK" tints="1,0.15,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 1104" fixedID="105" version="1300">
+<color cs="CMYK" tints="1,0,0.3,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1105" fixedID="106" version="1300">
+<color cs="CMYK" tints="1,0.15,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1106" fixedID="107" version="1300">
+<color cs="CMYK" tints="1,0,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 1107" fixedID="108" version="1300">
+<color cs="CMYK" tints="1,0.15,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1108" fixedID="109" version="1300">
+<color cs="CMYK" tints="1,0.2,0.4,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1109" fixedID="110" version="1300">
+<color cs="CMYK" tints="1,0.2,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 1110" fixedID="111" version="1300">
+<color cs="CMYK" tints="1,0,0.4,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1111" fixedID="112" version="1300">
+<color cs="CMYK" tints="1,0.2,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1112" fixedID="113" version="1300">
+<color cs="CMYK" tints="1,0,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 1113" fixedID="114" version="1300">
+<color cs="CMYK" tints="1,0.2,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1114" fixedID="115" version="1300">
+<color cs="CMYK" tints="0.15,1,0.5,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1115" fixedID="116" version="1300">
+<color cs="CMYK" tints="0.15,1,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 1116" fixedID="117" version="1300">
+<color cs="CMYK" tints="0,1,0.5,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1117" fixedID="118" version="1300">
+<color cs="CMYK" tints="0.15,1,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1118" fixedID="119" version="1300">
+<color cs="CMYK" tints="0,1,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 1119" fixedID="120" version="1300">
+<color cs="CMYK" tints="0.15,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1120" fixedID="121" version="1300">
+<color cs="CMYK" tints="0.2,1,0.15,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1121" fixedID="122" version="1300">
+<color cs="CMYK" tints="0.2,1,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 1122" fixedID="123" version="1300">
+<color cs="CMYK" tints="0,1,0.15,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1123" fixedID="124" version="1300">
+<color cs="CMYK" tints="0.2,1,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1124" fixedID="125" version="1300">
+<color cs="CMYK" tints="0,1,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 1125" fixedID="126" version="1300">
+<color cs="CMYK" tints="0.2,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1126" fixedID="127" version="1300">
+<color cs="CMYK" tints="0.3,1,0.2,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1127" fixedID="128" version="1300">
+<color cs="CMYK" tints="0.3,1,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 1128" fixedID="129" version="1300">
+<color cs="CMYK" tints="0,1,0.2,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1129" fixedID="130" version="1300">
+<color cs="CMYK" tints="0.3,1,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1130" fixedID="131" version="1300">
+<color cs="CMYK" tints="0,1,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 1131" fixedID="132" version="1300">
+<color cs="CMYK" tints="0.3,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1132" fixedID="133" version="1300">
+<color cs="CMYK" tints="0.4,1,0.3,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1133" fixedID="134" version="1300">
+<color cs="CMYK" tints="0.4,1,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 1134" fixedID="135" version="1300">
+<color cs="CMYK" tints="0,1,0.3,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1135" fixedID="136" version="1300">
+<color cs="CMYK" tints="0.4,1,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1136" fixedID="137" version="1300">
+<color cs="CMYK" tints="0,1,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 1137" fixedID="138" version="1300">
+<color cs="CMYK" tints="0.4,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1138" fixedID="139" version="1300">
+<color cs="CMYK" tints="0.5,1,0.4,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1139" fixedID="140" version="1300">
+<color cs="CMYK" tints="0.5,1,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 1140" fixedID="141" version="1300">
+<color cs="CMYK" tints="0,1,0.4,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1141" fixedID="142" version="1300">
+<color cs="CMYK" tints="0.5,1,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1142" fixedID="143" version="1300">
+<color cs="CMYK" tints="0,1,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 1143" fixedID="144" version="1300">
+<color cs="CMYK" tints="0.5,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 1144" fixedID="145" version="1300">
+<color cs="CMYK" tints="0.15,0.3,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1145" fixedID="146" version="1300">
+<color cs="CMYK" tints="0.15,0.3,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1146" fixedID="147" version="1300">
+<color cs="CMYK" tints="0.15,0,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1147" fixedID="148" version="1300">
+<color cs="CMYK" tints="0,0.3,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1148" fixedID="149" version="1300">
+<color cs="CMYK" tints="0.15,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1149" fixedID="150" version="1300">
+<color cs="CMYK" tints="0,0.3,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1150" fixedID="151" version="1300">
+<color cs="CMYK" tints="0.2,0.4,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1151" fixedID="152" version="1300">
+<color cs="CMYK" tints="0.2,0.4,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1152" fixedID="153" version="1300">
+<color cs="CMYK" tints="0.2,0,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1153" fixedID="154" version="1300">
+<color cs="CMYK" tints="0,0.4,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1154" fixedID="155" version="1300">
+<color cs="CMYK" tints="0.2,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1155" fixedID="156" version="1300">
+<color cs="CMYK" tints="0,0.4,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1156" fixedID="157" version="1300">
+<color cs="CMYK" tints="0.3,0.5,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1157" fixedID="158" version="1300">
+<color cs="CMYK" tints="0.3,0.5,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1158" fixedID="159" version="1300">
+<color cs="CMYK" tints="0.3,0,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1159" fixedID="160" version="1300">
+<color cs="CMYK" tints="0,0.5,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1160" fixedID="161" version="1300">
+<color cs="CMYK" tints="0.3,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1161" fixedID="162" version="1300">
+<color cs="CMYK" tints="0,0.5,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1162" fixedID="163" version="1300">
+<color cs="CMYK" tints="0.4,0.15,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1163" fixedID="164" version="1300">
+<color cs="CMYK" tints="0.4,0.15,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1164" fixedID="165" version="1300">
+<color cs="CMYK" tints="0.4,0,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1165" fixedID="166" version="1300">
+<color cs="CMYK" tints="0,0.15,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1166" fixedID="167" version="1300">
+<color cs="CMYK" tints="0.4,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1167" fixedID="168" version="1300">
+<color cs="CMYK" tints="0,0.15,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1168" fixedID="169" version="1300">
+<color cs="CMYK" tints="0.5,0.2,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1169" fixedID="170" version="1300">
+<color cs="CMYK" tints="0.5,0.2,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1170" fixedID="171" version="1300">
+<color cs="CMYK" tints="0.5,0,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1171" fixedID="172" version="1300">
+<color cs="CMYK" tints="0,0.2,1,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 1172" fixedID="173" version="1300">
+<color cs="CMYK" tints="0.5,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 1173" fixedID="174" version="1300">
+<color cs="CMYK" tints="0,0.2,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2174" fixedID="175" version="1300">
+<color cs="CMYK" tints="0.25,0.45,0.65,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2175" fixedID="176" version="1300">
+<color cs="CMYK" tints="0.25,0.45,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 2176" fixedID="177" version="1300">
+<color cs="CMYK" tints="0.25,0,0.65,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2177" fixedID="178" version="1300">
+<color cs="CMYK" tints="0,0.45,0.65,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2178" fixedID="179" version="1300">
+<color cs="CMYK" tints="0.25,0.45,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2179" fixedID="180" version="1300">
+<color cs="CMYK" tints="0.25,0,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 2180" fixedID="181" version="1300">
+<color cs="CMYK" tints="0,0.45,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 2181" fixedID="182" version="1300">
+<color cs="CMYK" tints="0.25,0.45,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2182" fixedID="183" version="1300">
+<color cs="CMYK" tints="0,0,0.65,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2183" fixedID="184" version="1300">
+<color cs="CMYK" tints="0,0.45,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2184" fixedID="185" version="1300">
+<color cs="CMYK" tints="0.25,0,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2185" fixedID="186" version="1300">
+<color cs="CMYK" tints="0.25,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2186" fixedID="187" version="1300">
+<color cs="CMYK" tints="0,0.45,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2187" fixedID="188" version="1300">
+<color cs="CMYK" tints="0,0,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 2188" fixedID="189" version="1300">
+<color cs="CMYK" tints="0.45,0.55,0.7,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2189" fixedID="190" version="1300">
+<color cs="CMYK" tints="0.45,0.55,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 2190" fixedID="191" version="1300">
+<color cs="CMYK" tints="0.45,0,0.7,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2191" fixedID="192" version="1300">
+<color cs="CMYK" tints="0,0.55,0.7,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2192" fixedID="193" version="1300">
+<color cs="CMYK" tints="0.45,0.55,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2193" fixedID="194" version="1300">
+<color cs="CMYK" tints="0.45,0,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 2194" fixedID="195" version="1300">
+<color cs="CMYK" tints="0,0.55,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 2195" fixedID="196" version="1300">
+<color cs="CMYK" tints="0.45,0.55,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2196" fixedID="197" version="1300">
+<color cs="CMYK" tints="0,0,0.7,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2197" fixedID="198" version="1300">
+<color cs="CMYK" tints="0,0.55,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2198" fixedID="199" version="1300">
+<color cs="CMYK" tints="0.45,0,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2199" fixedID="200" version="1300">
+<color cs="CMYK" tints="0.45,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2200" fixedID="201" version="1300">
+<color cs="CMYK" tints="0,0.55,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2201" fixedID="202" version="1300">
+<color cs="CMYK" tints="0,0,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 2202" fixedID="203" version="1300">
+<color cs="CMYK" tints="0.55,0.65,0.25,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2203" fixedID="204" version="1300">
+<color cs="CMYK" tints="0.55,0.65,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 2204" fixedID="205" version="1300">
+<color cs="CMYK" tints="0.55,0,0.25,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2205" fixedID="206" version="1300">
+<color cs="CMYK" tints="0,0.65,0.25,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2206" fixedID="207" version="1300">
+<color cs="CMYK" tints="0.55,0.65,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2207" fixedID="208" version="1300">
+<color cs="CMYK" tints="0.55,0,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 2208" fixedID="209" version="1300">
+<color cs="CMYK" tints="0,0.65,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 2209" fixedID="210" version="1300">
+<color cs="CMYK" tints="0.55,0.65,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2210" fixedID="211" version="1300">
+<color cs="CMYK" tints="0,0,0.25,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2211" fixedID="212" version="1300">
+<color cs="CMYK" tints="0,0.65,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2212" fixedID="213" version="1300">
+<color cs="CMYK" tints="0.55,0,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2213" fixedID="214" version="1300">
+<color cs="CMYK" tints="0.55,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2214" fixedID="215" version="1300">
+<color cs="CMYK" tints="0,0.65,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2215" fixedID="216" version="1300">
+<color cs="CMYK" tints="0,0,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 2216" fixedID="217" version="1300">
+<color cs="CMYK" tints="0.65,0.7,0.45,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2217" fixedID="218" version="1300">
+<color cs="CMYK" tints="0.65,0.7,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 2218" fixedID="219" version="1300">
+<color cs="CMYK" tints="0.65,0,0.45,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2219" fixedID="220" version="1300">
+<color cs="CMYK" tints="0,0.7,0.45,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2220" fixedID="221" version="1300">
+<color cs="CMYK" tints="0.65,0.7,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2221" fixedID="222" version="1300">
+<color cs="CMYK" tints="0.65,0,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 2222" fixedID="223" version="1300">
+<color cs="CMYK" tints="0,0.7,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 2223" fixedID="224" version="1300">
+<color cs="CMYK" tints="0.65,0.7,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2224" fixedID="225" version="1300">
+<color cs="CMYK" tints="0,0,0.45,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2225" fixedID="226" version="1300">
+<color cs="CMYK" tints="0,0.7,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2226" fixedID="227" version="1300">
+<color cs="CMYK" tints="0.65,0,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2227" fixedID="228" version="1300">
+<color cs="CMYK" tints="0.65,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2228" fixedID="229" version="1300">
+<color cs="CMYK" tints="0,0.7,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2229" fixedID="230" version="1300">
+<color cs="CMYK" tints="0,0,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 2230" fixedID="231" version="1300">
+<color cs="CMYK" tints="0.7,0.25,0.55,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2231" fixedID="232" version="1300">
+<color cs="CMYK" tints="0.7,0.25,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 2232" fixedID="233" version="1300">
+<color cs="CMYK" tints="0.7,0,0.55,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2233" fixedID="234" version="1300">
+<color cs="CMYK" tints="0,0.25,0.55,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2234" fixedID="235" version="1300">
+<color cs="CMYK" tints="0.7,0.25,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2235" fixedID="236" version="1300">
+<color cs="CMYK" tints="0.7,0,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 2236" fixedID="237" version="1300">
+<color cs="CMYK" tints="0,0.25,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 2237" fixedID="238" version="1300">
+<color cs="CMYK" tints="0.7,0.25,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2238" fixedID="239" version="1300">
+<color cs="CMYK" tints="0,0,0.55,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2239" fixedID="240" version="1300">
+<color cs="CMYK" tints="0,0.25,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2240" fixedID="241" version="1300">
+<color cs="CMYK" tints="0.7,0,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2241" fixedID="242" version="1300">
+<color cs="CMYK" tints="0.7,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2242" fixedID="243" version="1300">
+<color cs="CMYK" tints="0,0.25,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2243" fixedID="244" version="1300">
+<color cs="CMYK" tints="0,0,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 2244" fixedID="245" version="1300">
+<color cs="CMYK" tints="1,0,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2245" fixedID="246" version="1300">
+<color cs="CMYK" tints="0,1,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2246" fixedID="247" version="1300">
+<color cs="CMYK" tints="0,0,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2247" fixedID="248" version="1300">
+<color cs="CMYK" tints="1,1,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2248" fixedID="249" version="1300">
+<color cs="CMYK" tints="1,0,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2249" fixedID="250" version="1300">
+<color cs="CMYK" tints="0,1,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2250" fixedID="251" version="1300">
+<color cs="CMYK" tints="0,0,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2251" fixedID="252" version="1300">
+<color cs="CMYK" tints="1,0.45,0.65,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2252" fixedID="253" version="1300">
+<color cs="CMYK" tints="1,0.45,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 2253" fixedID="254" version="1300">
+<color cs="CMYK" tints="1,0,0.65,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2254" fixedID="255" version="1300">
+<color cs="CMYK" tints="1,0.45,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2255" fixedID="256" version="1300">
+<color cs="CMYK" tints="1,0,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 2256" fixedID="257" version="1300">
+<color cs="CMYK" tints="1,0.45,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2257" fixedID="258" version="1300">
+<color cs="CMYK" tints="1,0.55,0.7,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2258" fixedID="259" version="1300">
+<color cs="CMYK" tints="1,0.55,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 2259" fixedID="260" version="1300">
+<color cs="CMYK" tints="1,0,0.7,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2260" fixedID="261" version="1300">
+<color cs="CMYK" tints="1,0.55,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2261" fixedID="262" version="1300">
+<color cs="CMYK" tints="1,0,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 2262" fixedID="263" version="1300">
+<color cs="CMYK" tints="1,0.55,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2263" fixedID="264" version="1300">
+<color cs="CMYK" tints="1,0.65,0.25,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2264" fixedID="265" version="1300">
+<color cs="CMYK" tints="1,0.65,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 2265" fixedID="266" version="1300">
+<color cs="CMYK" tints="1,0,0.25,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2266" fixedID="267" version="1300">
+<color cs="CMYK" tints="1,0.65,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2267" fixedID="268" version="1300">
+<color cs="CMYK" tints="1,0,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 2268" fixedID="269" version="1300">
+<color cs="CMYK" tints="1,0.65,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2269" fixedID="270" version="1300">
+<color cs="CMYK" tints="1,0.7,0.45,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2270" fixedID="271" version="1300">
+<color cs="CMYK" tints="1,0.7,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 2271" fixedID="272" version="1300">
+<color cs="CMYK" tints="1,0,0.45,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2272" fixedID="273" version="1300">
+<color cs="CMYK" tints="1,0.7,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2273" fixedID="274" version="1300">
+<color cs="CMYK" tints="1,0,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 2274" fixedID="275" version="1300">
+<color cs="CMYK" tints="1,0.7,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2275" fixedID="276" version="1300">
+<color cs="CMYK" tints="1,0.25,0.55,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2276" fixedID="277" version="1300">
+<color cs="CMYK" tints="1,0.25,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 2277" fixedID="278" version="1300">
+<color cs="CMYK" tints="1,0,0.55,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2278" fixedID="279" version="1300">
+<color cs="CMYK" tints="1,0.25,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2279" fixedID="280" version="1300">
+<color cs="CMYK" tints="1,0,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 2280" fixedID="281" version="1300">
+<color cs="CMYK" tints="1,0.25,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2281" fixedID="282" version="1300">
+<color cs="CMYK" tints="0.25,1,0.65,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2282" fixedID="283" version="1300">
+<color cs="CMYK" tints="0.25,1,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 2283" fixedID="284" version="1300">
+<color cs="CMYK" tints="0,1,0.65,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2284" fixedID="285" version="1300">
+<color cs="CMYK" tints="0.25,1,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2285" fixedID="286" version="1300">
+<color cs="CMYK" tints="0,1,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 2286" fixedID="287" version="1300">
+<color cs="CMYK" tints="0.25,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2287" fixedID="288" version="1300">
+<color cs="CMYK" tints="0.45,1,0.7,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2288" fixedID="289" version="1300">
+<color cs="CMYK" tints="0.45,1,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 2289" fixedID="290" version="1300">
+<color cs="CMYK" tints="0,1,0.7,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2290" fixedID="291" version="1300">
+<color cs="CMYK" tints="0.45,1,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2291" fixedID="292" version="1300">
+<color cs="CMYK" tints="0,1,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 2292" fixedID="293" version="1300">
+<color cs="CMYK" tints="0.45,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2293" fixedID="294" version="1300">
+<color cs="CMYK" tints="0.55,1,0.25,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2294" fixedID="295" version="1300">
+<color cs="CMYK" tints="0.55,1,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 2295" fixedID="296" version="1300">
+<color cs="CMYK" tints="0,1,0.25,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2296" fixedID="297" version="1300">
+<color cs="CMYK" tints="0.55,1,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2297" fixedID="298" version="1300">
+<color cs="CMYK" tints="0,1,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 2298" fixedID="299" version="1300">
+<color cs="CMYK" tints="0.55,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2299" fixedID="300" version="1300">
+<color cs="CMYK" tints="0.65,1,0.45,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2300" fixedID="301" version="1300">
+<color cs="CMYK" tints="0.65,1,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 2301" fixedID="302" version="1300">
+<color cs="CMYK" tints="0,1,0.45,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2302" fixedID="303" version="1300">
+<color cs="CMYK" tints="0.65,1,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2303" fixedID="304" version="1300">
+<color cs="CMYK" tints="0,1,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 2304" fixedID="305" version="1300">
+<color cs="CMYK" tints="0.65,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2305" fixedID="306" version="1300">
+<color cs="CMYK" tints="0.7,1,0.55,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2306" fixedID="307" version="1300">
+<color cs="CMYK" tints="0.7,1,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 2307" fixedID="308" version="1300">
+<color cs="CMYK" tints="0,1,0.55,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2308" fixedID="309" version="1300">
+<color cs="CMYK" tints="0.7,1,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2309" fixedID="310" version="1300">
+<color cs="CMYK" tints="0,1,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 2310" fixedID="311" version="1300">
+<color cs="CMYK" tints="0.7,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 2311" fixedID="312" version="1300">
+<color cs="CMYK" tints="0.25,0.45,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2312" fixedID="313" version="1300">
+<color cs="CMYK" tints="0.25,0.45,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2313" fixedID="314" version="1300">
+<color cs="CMYK" tints="0.25,0,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2314" fixedID="315" version="1300">
+<color cs="CMYK" tints="0,0.45,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2315" fixedID="316" version="1300">
+<color cs="CMYK" tints="0.25,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2316" fixedID="317" version="1300">
+<color cs="CMYK" tints="0,0.45,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2317" fixedID="318" version="1300">
+<color cs="CMYK" tints="0.45,0.55,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2318" fixedID="319" version="1300">
+<color cs="CMYK" tints="0.45,0.55,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2319" fixedID="320" version="1300">
+<color cs="CMYK" tints="0.45,0,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2320" fixedID="321" version="1300">
+<color cs="CMYK" tints="0,0.55,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2321" fixedID="322" version="1300">
+<color cs="CMYK" tints="0.45,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2322" fixedID="323" version="1300">
+<color cs="CMYK" tints="0,0.55,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2323" fixedID="324" version="1300">
+<color cs="CMYK" tints="0.55,0.65,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2324" fixedID="325" version="1300">
+<color cs="CMYK" tints="0.55,0.65,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2325" fixedID="326" version="1300">
+<color cs="CMYK" tints="0.55,0,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2326" fixedID="327" version="1300">
+<color cs="CMYK" tints="0,0.65,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2327" fixedID="328" version="1300">
+<color cs="CMYK" tints="0.55,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2328" fixedID="329" version="1300">
+<color cs="CMYK" tints="0,0.55,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2329" fixedID="330" version="1300">
+<color cs="CMYK" tints="0.65,0.7,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2330" fixedID="331" version="1300">
+<color cs="CMYK" tints="0.65,0.7,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2331" fixedID="332" version="1300">
+<color cs="CMYK" tints="0.65,0,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2332" fixedID="333" version="1300">
+<color cs="CMYK" tints="0,0.7,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2333" fixedID="334" version="1300">
+<color cs="CMYK" tints="0.65,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2334" fixedID="335" version="1300">
+<color cs="CMYK" tints="0,0.7,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2335" fixedID="336" version="1300">
+<color cs="CMYK" tints="0.7,0.25,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2336" fixedID="337" version="1300">
+<color cs="CMYK" tints="0.7,0.25,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2337" fixedID="338" version="1300">
+<color cs="CMYK" tints="0.7,0,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2338" fixedID="339" version="1300">
+<color cs="CMYK" tints="0,0.25,1,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 2339" fixedID="340" version="1300">
+<color cs="CMYK" tints="0.7,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 2340" fixedID="341" version="1300">
+<color cs="CMYK" tints="0,0.25,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3341" fixedID="342" version="1300">
+<color cs="CMYK" tints="0.35,0.75,0.6,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3342" fixedID="343" version="1300">
+<color cs="CMYK" tints="0.35,0.75,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 3343" fixedID="344" version="1300">
+<color cs="CMYK" tints="0.35,0,0.6,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3344" fixedID="345" version="1300">
+<color cs="CMYK" tints="0,0.75,0.6,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3345" fixedID="346" version="1300">
+<color cs="CMYK" tints="0.35,0.75,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3346" fixedID="347" version="1300">
+<color cs="CMYK" tints="0.35,0,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 3347" fixedID="348" version="1300">
+<color cs="CMYK" tints="0,0.75,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 3348" fixedID="349" version="1300">
+<color cs="CMYK" tints="0.35,0.75,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3349" fixedID="350" version="1300">
+<color cs="CMYK" tints="0,0,0.6,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3350" fixedID="351" version="1300">
+<color cs="CMYK" tints="0,0.75,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3351" fixedID="352" version="1300">
+<color cs="CMYK" tints="0.35,0,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3352" fixedID="353" version="1300">
+<color cs="CMYK" tints="0.35,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3353" fixedID="354" version="1300">
+<color cs="CMYK" tints="0,0.75,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3354" fixedID="355" version="1300">
+<color cs="CMYK" tints="0,0,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 3355" fixedID="356" version="1300">
+<color cs="CMYK" tints="0.6,0.8,0.75,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3356" fixedID="357" version="1300">
+<color cs="CMYK" tints="0.6,0.8,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 3357" fixedID="358" version="1300">
+<color cs="CMYK" tints="0.6,0,0.75,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3358" fixedID="359" version="1300">
+<color cs="CMYK" tints="0,0.8,0.75,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3359" fixedID="360" version="1300">
+<color cs="CMYK" tints="0.6,0.8,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3360" fixedID="361" version="1300">
+<color cs="CMYK" tints="0.6,0,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 3361" fixedID="362" version="1300">
+<color cs="CMYK" tints="0,0.8,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 3362" fixedID="363" version="1300">
+<color cs="CMYK" tints="0.6,0.8,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3363" fixedID="364" version="1300">
+<color cs="CMYK" tints="0,0,0.75,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3364" fixedID="365" version="1300">
+<color cs="CMYK" tints="0,0.8,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3365" fixedID="366" version="1300">
+<color cs="CMYK" tints="0.6,0,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3366" fixedID="367" version="1300">
+<color cs="CMYK" tints="0.6,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3367" fixedID="368" version="1300">
+<color cs="CMYK" tints="0,0.8,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3368" fixedID="369" version="1300">
+<color cs="CMYK" tints="0,0,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 3369" fixedID="370" version="1300">
+<color cs="CMYK" tints="0.75,0.85,0.8,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3370" fixedID="371" version="1300">
+<color cs="CMYK" tints="0.75,0.85,0.8,0"></color>
+</cs>
+<cs name="FOCOLTONE 3371" fixedID="372" version="1300">
+<color cs="CMYK" tints="0.75,0,0.8,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3372" fixedID="373" version="1300">
+<color cs="CMYK" tints="0,0.85,0.8,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3373" fixedID="374" version="1300">
+<color cs="CMYK" tints="0.75,0.85,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3374" fixedID="375" version="1300">
+<color cs="CMYK" tints="0.75,0,0.8,0"></color>
+</cs>
+<cs name="FOCOLTONE 3375" fixedID="376" version="1300">
+<color cs="CMYK" tints="0,0.85,0.8,0"></color>
+</cs>
+<cs name="FOCOLTONE 3376" fixedID="377" version="1300">
+<color cs="CMYK" tints="0.75,0.85,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3377" fixedID="378" version="1300">
+<color cs="CMYK" tints="0,0,0.8,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3378" fixedID="379" version="1300">
+<color cs="CMYK" tints="0,0.85,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3379" fixedID="380" version="1300">
+<color cs="CMYK" tints="0.75,0,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3380" fixedID="381" version="1300">
+<color cs="CMYK" tints="0.75,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3381" fixedID="382" version="1300">
+<color cs="CMYK" tints="0,0.85,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3382" fixedID="383" version="1300">
+<color cs="CMYK" tints="0,0,0.8,0"></color>
+</cs>
+<cs name="FOCOLTONE 3383" fixedID="384" version="1300">
+<color cs="CMYK" tints="0.8,0.35,0.85,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3384" fixedID="385" version="1300">
+<color cs="CMYK" tints="0.8,0.35,0.85,0"></color>
+</cs>
+<cs name="FOCOLTONE 3385" fixedID="386" version="1300">
+<color cs="CMYK" tints="0.8,0,0.85,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3386" fixedID="387" version="1300">
+<color cs="CMYK" tints="0,0.35,0.85,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3387" fixedID="388" version="1300">
+<color cs="CMYK" tints="0.8,0.35,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3388" fixedID="389" version="1300">
+<color cs="CMYK" tints="0.8,0,0.85,0"></color>
+</cs>
+<cs name="FOCOLTONE 3389" fixedID="390" version="1300">
+<color cs="CMYK" tints="0,0.35,0.85,0"></color>
+</cs>
+<cs name="FOCOLTONE 3390" fixedID="391" version="1300">
+<color cs="CMYK" tints="0.8,0.35,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3391" fixedID="392" version="1300">
+<color cs="CMYK" tints="0,0,0.85,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3392" fixedID="393" version="1300">
+<color cs="CMYK" tints="0,0.35,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3393" fixedID="394" version="1300">
+<color cs="CMYK" tints="0.8,0,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3394" fixedID="395" version="1300">
+<color cs="CMYK" tints="0.8,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3395" fixedID="396" version="1300">
+<color cs="CMYK" tints="0,0.35,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3396" fixedID="397" version="1300">
+<color cs="CMYK" tints="0,0,0.85,0"></color>
+</cs>
+<cs name="FOCOLTONE 3397" fixedID="398" version="1300">
+<color cs="CMYK" tints="0.85,0.6,0.35,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3398" fixedID="399" version="1300">
+<color cs="CMYK" tints="0.85,0.6,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 3399" fixedID="400" version="1300">
+<color cs="CMYK" tints="0.85,0,0.35,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3400" fixedID="401" version="1300">
+<color cs="CMYK" tints="0,0.6,0.35,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3401" fixedID="402" version="1300">
+<color cs="CMYK" tints="0.85,0.6,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3402" fixedID="403" version="1300">
+<color cs="CMYK" tints="0.85,0,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 3403" fixedID="404" version="1300">
+<color cs="CMYK" tints="0,0.6,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 3404" fixedID="405" version="1300">
+<color cs="CMYK" tints="0.85,0.6,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3405" fixedID="406" version="1300">
+<color cs="CMYK" tints="0,0,0.35,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3406" fixedID="407" version="1300">
+<color cs="CMYK" tints="0,0.6,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3407" fixedID="408" version="1300">
+<color cs="CMYK" tints="0.85,0,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3408" fixedID="409" version="1300">
+<color cs="CMYK" tints="0.85,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3409" fixedID="410" version="1300">
+<color cs="CMYK" tints="0,0.6,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3410" fixedID="411" version="1300">
+<color cs="CMYK" tints="0,0,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 3411" fixedID="412" version="1300">
+<color cs="CMYK" tints="1,0,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3412" fixedID="413" version="1300">
+<color cs="CMYK" tints="0,1,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3413" fixedID="414" version="1300">
+<color cs="CMYK" tints="0,0,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3414" fixedID="415" version="1300">
+<color cs="CMYK" tints="1,1,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3415" fixedID="416" version="1300">
+<color cs="CMYK" tints="1,0,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3416" fixedID="417" version="1300">
+<color cs="CMYK" tints="0,1,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3417" fixedID="418" version="1300">
+<color cs="CMYK" tints="0,0,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3418" fixedID="419" version="1300">
+<color cs="CMYK" tints="1,0.75,0.6,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3419" fixedID="420" version="1300">
+<color cs="CMYK" tints="1,0.75,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 3420" fixedID="421" version="1300">
+<color cs="CMYK" tints="1,0,0.6,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3421" fixedID="422" version="1300">
+<color cs="CMYK" tints="1,0.75,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3422" fixedID="423" version="1300">
+<color cs="CMYK" tints="1,0,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 3423" fixedID="424" version="1300">
+<color cs="CMYK" tints="1,0.75,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3424" fixedID="425" version="1300">
+<color cs="CMYK" tints="1,0.8,0.75,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3425" fixedID="426" version="1300">
+<color cs="CMYK" tints="1,0.8,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 3426" fixedID="427" version="1300">
+<color cs="CMYK" tints="1,0,0.75,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3427" fixedID="428" version="1300">
+<color cs="CMYK" tints="1,0.8,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3428" fixedID="429" version="1300">
+<color cs="CMYK" tints="1,0,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 3429" fixedID="430" version="1300">
+<color cs="CMYK" tints="1,0.8,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3430" fixedID="431" version="1300">
+<color cs="CMYK" tints="1,0.85,0.8,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3431" fixedID="432" version="1300">
+<color cs="CMYK" tints="1,0.85,0.8,0"></color>
+</cs>
+<cs name="FOCOLTONE 3432" fixedID="433" version="1300">
+<color cs="CMYK" tints="1,0,0.8,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3433" fixedID="434" version="1300">
+<color cs="CMYK" tints="1,0.85,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3434" fixedID="435" version="1300">
+<color cs="CMYK" tints="1,0,0.8,0"></color>
+</cs>
+<cs name="FOCOLTONE 3435" fixedID="436" version="1300">
+<color cs="CMYK" tints="1,0.85,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3436" fixedID="437" version="1300">
+<color cs="CMYK" tints="1,0.35,0.85,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3437" fixedID="438" version="1300">
+<color cs="CMYK" tints="1,0.35,0.85,0"></color>
+</cs>
+<cs name="FOCOLTONE 3438" fixedID="439" version="1300">
+<color cs="CMYK" tints="1,0,0.85,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3439" fixedID="440" version="1300">
+<color cs="CMYK" tints="1,0.35,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3440" fixedID="441" version="1300">
+<color cs="CMYK" tints="1,0,0.85,0"></color>
+</cs>
+<cs name="FOCOLTONE 3441" fixedID="442" version="1300">
+<color cs="CMYK" tints="1,0.35,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3442" fixedID="443" version="1300">
+<color cs="CMYK" tints="1,0.6,0.35,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3443" fixedID="444" version="1300">
+<color cs="CMYK" tints="1,0.6,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 3444" fixedID="445" version="1300">
+<color cs="CMYK" tints="1,0,0.35,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3445" fixedID="446" version="1300">
+<color cs="CMYK" tints="1,0.6,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3446" fixedID="447" version="1300">
+<color cs="CMYK" tints="1,0,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 3447" fixedID="448" version="1300">
+<color cs="CMYK" tints="1,0.6,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3448" fixedID="449" version="1300">
+<color cs="CMYK" tints="0.35,1,0.6,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3449" fixedID="450" version="1300">
+<color cs="CMYK" tints="0.35,1,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 3450" fixedID="451" version="1300">
+<color cs="CMYK" tints="0,1,0.6,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3451" fixedID="452" version="1300">
+<color cs="CMYK" tints="0.35,1,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3452" fixedID="453" version="1300">
+<color cs="CMYK" tints="0,1,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 3453" fixedID="454" version="1300">
+<color cs="CMYK" tints="0.35,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3454" fixedID="455" version="1300">
+<color cs="CMYK" tints="0.6,1,0.75,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3455" fixedID="456" version="1300">
+<color cs="CMYK" tints="0.6,1,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 3456" fixedID="457" version="1300">
+<color cs="CMYK" tints="0,1,0.75,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3457" fixedID="458" version="1300">
+<color cs="CMYK" tints="0.6,1,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3458" fixedID="459" version="1300">
+<color cs="CMYK" tints="0,1,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 3459" fixedID="460" version="1300">
+<color cs="CMYK" tints="0.6,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3460" fixedID="461" version="1300">
+<color cs="CMYK" tints="0.75,1,0.8,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3461" fixedID="462" version="1300">
+<color cs="CMYK" tints="0.75,1,0.8,0"></color>
+</cs>
+<cs name="FOCOLTONE 3462" fixedID="463" version="1300">
+<color cs="CMYK" tints="0,1,0.8,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3463" fixedID="464" version="1300">
+<color cs="CMYK" tints="0.75,1,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3464" fixedID="465" version="1300">
+<color cs="CMYK" tints="0,1,0.8,0"></color>
+</cs>
+<cs name="FOCOLTONE 3465" fixedID="466" version="1300">
+<color cs="CMYK" tints="0.75,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3466" fixedID="467" version="1300">
+<color cs="CMYK" tints="0.8,1,0.85,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3467" fixedID="468" version="1300">
+<color cs="CMYK" tints="0.8,1,0.85,0"></color>
+</cs>
+<cs name="FOCOLTONE 3468" fixedID="469" version="1300">
+<color cs="CMYK" tints="0,1,0.85,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3469" fixedID="470" version="1300">
+<color cs="CMYK" tints="0.8,1,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3470" fixedID="471" version="1300">
+<color cs="CMYK" tints="0,1,0.85,0"></color>
+</cs>
+<cs name="FOCOLTONE 3471" fixedID="472" version="1300">
+<color cs="CMYK" tints="0.8,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3472" fixedID="473" version="1300">
+<color cs="CMYK" tints="0.85,1,0.35,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3473" fixedID="474" version="1300">
+<color cs="CMYK" tints="0.85,1,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 3474" fixedID="475" version="1300">
+<color cs="CMYK" tints="0,1,0.35,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3475" fixedID="476" version="1300">
+<color cs="CMYK" tints="0.85,1,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3476" fixedID="477" version="1300">
+<color cs="CMYK" tints="0,1,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 3477" fixedID="478" version="1300">
+<color cs="CMYK" tints="0.85,1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 3478" fixedID="479" version="1300">
+<color cs="CMYK" tints="0.35,0.75,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3479" fixedID="480" version="1300">
+<color cs="CMYK" tints="0.35,0.75,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3480" fixedID="481" version="1300">
+<color cs="CMYK" tints="0.35,0,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3481" fixedID="482" version="1300">
+<color cs="CMYK" tints="0,0.75,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3482" fixedID="483" version="1300">
+<color cs="CMYK" tints="0.35,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3483" fixedID="484" version="1300">
+<color cs="CMYK" tints="0,0.75,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3484" fixedID="485" version="1300">
+<color cs="CMYK" tints="0.6,0.8,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3485" fixedID="486" version="1300">
+<color cs="CMYK" tints="0.6,0.8,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3486" fixedID="487" version="1300">
+<color cs="CMYK" tints="0.6,0,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3487" fixedID="488" version="1300">
+<color cs="CMYK" tints="0,0.8,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3488" fixedID="489" version="1300">
+<color cs="CMYK" tints="0.6,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3489" fixedID="490" version="1300">
+<color cs="CMYK" tints="0,0.8,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3490" fixedID="491" version="1300">
+<color cs="CMYK" tints="0.75,0.85,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3491" fixedID="492" version="1300">
+<color cs="CMYK" tints="0.75,0.85,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3492" fixedID="493" version="1300">
+<color cs="CMYK" tints="0.75,0,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3493" fixedID="494" version="1300">
+<color cs="CMYK" tints="0,0.85,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3494" fixedID="495" version="1300">
+<color cs="CMYK" tints="0.75,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3495" fixedID="496" version="1300">
+<color cs="CMYK" tints="0,0.85,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3496" fixedID="497" version="1300">
+<color cs="CMYK" tints="0.8,0.35,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3497" fixedID="498" version="1300">
+<color cs="CMYK" tints="0.8,0.35,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3498" fixedID="499" version="1300">
+<color cs="CMYK" tints="0.8,0,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3499" fixedID="500" version="1300">
+<color cs="CMYK" tints="0,0.35,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3500" fixedID="501" version="1300">
+<color cs="CMYK" tints="0.8,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3501" fixedID="502" version="1300">
+<color cs="CMYK" tints="0,0.35,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3502" fixedID="503" version="1300">
+<color cs="CMYK" tints="0.85,0.6,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3503" fixedID="504" version="1300">
+<color cs="CMYK" tints="0.85,0.6,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3504" fixedID="505" version="1300">
+<color cs="CMYK" tints="0.85,0,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3505" fixedID="506" version="1300">
+<color cs="CMYK" tints="0,0.6,1,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 3506" fixedID="507" version="1300">
+<color cs="CMYK" tints="0.85,0,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 3507" fixedID="508" version="1300">
+<color cs="CMYK" tints="0,0.6,1,0"></color>
+</cs>
+<cs name="FOCOLTONE 4000" fixedID="509" version="1300">
+<color cs="CMYK" tints="0.05,0.05,0.05,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 4001" fixedID="510" version="1300">
+<color cs="CMYK" tints="0.05,0.05,0.05,0"></color>
+</cs>
+<cs name="FOCOLTONE 4002" fixedID="511" version="1300">
+<color cs="CMYK" tints="0.05,0,0.05,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 4003" fixedID="512" version="1300">
+<color cs="CMYK" tints="0,0.05,0.05,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 4004" fixedID="513" version="1300">
+<color cs="CMYK" tints="0.05,0.05,0,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 4005" fixedID="514" version="1300">
+<color cs="CMYK" tints="0.05,0,0.05,0"></color>
+</cs>
+<cs name="FOCOLTONE 4006" fixedID="515" version="1300">
+<color cs="CMYK" tints="0,0.05,0.05,0"></color>
+</cs>
+<cs name="FOCOLTONE 4007" fixedID="516" version="1300">
+<color cs="CMYK" tints="0.05,0.05,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4008" fixedID="517" version="1300">
+<color cs="CMYK" tints="0,0,0.05,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 4009" fixedID="518" version="1300">
+<color cs="CMYK" tints="0,0.05,0,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 4010" fixedID="519" version="1300">
+<color cs="CMYK" tints="0.05,0,0,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 4011" fixedID="520" version="1300">
+<color cs="CMYK" tints="0.05,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4012" fixedID="521" version="1300">
+<color cs="CMYK" tints="0,0.05,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4013" fixedID="522" version="1300">
+<color cs="CMYK" tints="0,0,0.05,0"></color>
+</cs>
+<cs name="FOCOLTONE 4014" fixedID="523" version="1300">
+<color cs="CMYK" tints="0.1,0.1,0.1,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 4015" fixedID="524" version="1300">
+<color cs="CMYK" tints="0.1,0.1,0.1,0"></color>
+</cs>
+<cs name="FOCOLTONE 4016" fixedID="525" version="1300">
+<color cs="CMYK" tints="0.1,0,0.1,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 4017" fixedID="526" version="1300">
+<color cs="CMYK" tints="0,0.1,0.1,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 4018" fixedID="527" version="1300">
+<color cs="CMYK" tints="0.1,0.1,0,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 4019" fixedID="528" version="1300">
+<color cs="CMYK" tints="0.1,0,0.1,0"></color>
+</cs>
+<cs name="FOCOLTONE 4020" fixedID="529" version="1300">
+<color cs="CMYK" tints="0,0.1,0.1,0"></color>
+</cs>
+<cs name="FOCOLTONE 4021" fixedID="530" version="1300">
+<color cs="CMYK" tints="0.1,0.1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4022" fixedID="531" version="1300">
+<color cs="CMYK" tints="0,0,0.1,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 4023" fixedID="532" version="1300">
+<color cs="CMYK" tints="0,0.1,0,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 4024" fixedID="533" version="1300">
+<color cs="CMYK" tints="0.1,0,0,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 4025" fixedID="534" version="1300">
+<color cs="CMYK" tints="0.1,0,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4026" fixedID="535" version="1300">
+<color cs="CMYK" tints="0,0.1,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4027" fixedID="536" version="1300">
+<color cs="CMYK" tints="0,0,0.1,0"></color>
+</cs>
+<cs name="FOCOLTONE 4028" fixedID="537" version="1300">
+<color cs="CMYK" tints="0.15,0.15,0.15,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 4029" fixedID="538" version="1300">
+<color cs="CMYK" tints="0.15,0.15,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 4030" fixedID="539" version="1300">
+<color cs="CMYK" tints="0.15,0,0.15,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 4031" fixedID="540" version="1300">
+<color cs="CMYK" tints="0,0.15,0.15,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 4032" fixedID="541" version="1300">
+<color cs="CMYK" tints="0.15,0.15,0,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 4033" fixedID="542" version="1300">
+<color cs="CMYK" tints="0.15,0,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 4034" fixedID="543" version="1300">
+<color cs="CMYK" tints="0,0.15,0.15,0"></color>
+</cs>
+<cs name="FOCOLTONE 4035" fixedID="544" version="1300">
+<color cs="CMYK" tints="0.15,0.15,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4036" fixedID="545" version="1300">
+<color cs="CMYK" tints="0,0,0.15,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 4037" fixedID="546" version="1300">
+<color cs="CMYK" tints="0,0.15,0,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 4038" fixedID="547" version="1300">
+<color cs="CMYK" tints="0.15,0,0,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 4039" fixedID="548" version="1300">
+<color cs="CMYK" tints="0.2,0.2,0.2,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 4040" fixedID="549" version="1300">
+<color cs="CMYK" tints="0.2,0.2,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 4041" fixedID="550" version="1300">
+<color cs="CMYK" tints="0.2,0,0.2,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 4042" fixedID="551" version="1300">
+<color cs="CMYK" tints="0,0.2,0.2,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 4043" fixedID="552" version="1300">
+<color cs="CMYK" tints="0.2,0.2,0,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 4044" fixedID="553" version="1300">
+<color cs="CMYK" tints="0.2,0,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 4045" fixedID="554" version="1300">
+<color cs="CMYK" tints="0,0.2,0.2,0"></color>
+</cs>
+<cs name="FOCOLTONE 4046" fixedID="555" version="1300">
+<color cs="CMYK" tints="0.2,0.2,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4047" fixedID="556" version="1300">
+<color cs="CMYK" tints="0,0,0.2,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 4048" fixedID="557" version="1300">
+<color cs="CMYK" tints="0,0.2,0,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 4049" fixedID="558" version="1300">
+<color cs="CMYK" tints="0.2,0,0,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 4050" fixedID="559" version="1300">
+<color cs="CMYK" tints="0.25,0.25,0.25,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 4051" fixedID="560" version="1300">
+<color cs="CMYK" tints="0.25,0.25,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 4052" fixedID="561" version="1300">
+<color cs="CMYK" tints="0.25,0,0.25,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 4053" fixedID="562" version="1300">
+<color cs="CMYK" tints="0,0.25,0.25,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 4054" fixedID="563" version="1300">
+<color cs="CMYK" tints="0.25,0.25,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 4055" fixedID="564" version="1300">
+<color cs="CMYK" tints="0.25,0,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 4056" fixedID="565" version="1300">
+<color cs="CMYK" tints="0,0.25,0.25,0"></color>
+</cs>
+<cs name="FOCOLTONE 4057" fixedID="566" version="1300">
+<color cs="CMYK" tints="0.25,0.25,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 4058" fixedID="567" version="1300">
+<color cs="CMYK" tints="0,0,0.25,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 4059" fixedID="568" version="1300">
+<color cs="CMYK" tints="0,0.25,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 4060" fixedID="569" version="1300">
+<color cs="CMYK" tints="0.25,0,0,0.25"></color>
+</cs>
+<cs name="FOCOLTONE 4061" fixedID="570" version="1300">
+<color cs="CMYK" tints="0,0,0,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 4062" fixedID="571" version="1300">
+<color cs="CMYK" tints="0,0,0,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 4063" fixedID="572" version="1300">
+<color cs="CMYK" tints="0,0,0,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 4064" fixedID="573" version="1300">
+<color cs="CMYK" tints="0,0,0,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 5000" fixedID="574" version="1300">
+<color cs="CMYK" tints="0.3,0.3,0.3,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 5001" fixedID="575" version="1300">
+<color cs="CMYK" tints="0.3,0.3,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 5002" fixedID="576" version="1300">
+<color cs="CMYK" tints="0.3,0,0.3,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 5003" fixedID="577" version="1300">
+<color cs="CMYK" tints="0,0.3,0.3,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 5004" fixedID="578" version="1300">
+<color cs="CMYK" tints="0.3,0.3,0,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 5005" fixedID="579" version="1300">
+<color cs="CMYK" tints="0.3,0,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 5006" fixedID="580" version="1300">
+<color cs="CMYK" tints="0,0.3,0.3,0"></color>
+</cs>
+<cs name="FOCOLTONE 5007" fixedID="581" version="1300">
+<color cs="CMYK" tints="0.3,0.3,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 5008" fixedID="582" version="1300">
+<color cs="CMYK" tints="0,0,0.3,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 5009" fixedID="583" version="1300">
+<color cs="CMYK" tints="0,0.3,0,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 5010" fixedID="584" version="1300">
+<color cs="CMYK" tints="0.3,0,0,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 5011" fixedID="585" version="1300">
+<color cs="CMYK" tints="0.35,0.35,0.35,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 5012" fixedID="586" version="1300">
+<color cs="CMYK" tints="0.35,0.35,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 5013" fixedID="587" version="1300">
+<color cs="CMYK" tints="0.35,0,0.35,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 5014" fixedID="588" version="1300">
+<color cs="CMYK" tints="0,0.35,0.35,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 5015" fixedID="589" version="1300">
+<color cs="CMYK" tints="0.35,0.35,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 5016" fixedID="590" version="1300">
+<color cs="CMYK" tints="0.35,0,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 5017" fixedID="591" version="1300">
+<color cs="CMYK" tints="0,0.35,0.35,0"></color>
+</cs>
+<cs name="FOCOLTONE 5018" fixedID="592" version="1300">
+<color cs="CMYK" tints="0.35,0.35,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 5019" fixedID="593" version="1300">
+<color cs="CMYK" tints="0,0,0.35,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 5020" fixedID="594" version="1300">
+<color cs="CMYK" tints="0,0.35,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 5021" fixedID="595" version="1300">
+<color cs="CMYK" tints="0.35,0,0,0.35"></color>
+</cs>
+<cs name="FOCOLTONE 5022" fixedID="596" version="1300">
+<color cs="CMYK" tints="0.4,0.4,0.4,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 5023" fixedID="597" version="1300">
+<color cs="CMYK" tints="0.4,0.4,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 5024" fixedID="598" version="1300">
+<color cs="CMYK" tints="0.4,0,0.4,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 5025" fixedID="599" version="1300">
+<color cs="CMYK" tints="0,0.4,0.4,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 5026" fixedID="600" version="1300">
+<color cs="CMYK" tints="0.4,0.4,0,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 5027" fixedID="601" version="1300">
+<color cs="CMYK" tints="0.4,0,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 5028" fixedID="602" version="1300">
+<color cs="CMYK" tints="0,0.4,0.4,0"></color>
+</cs>
+<cs name="FOCOLTONE 5029" fixedID="603" version="1300">
+<color cs="CMYK" tints="0.4,0.4,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 5030" fixedID="604" version="1300">
+<color cs="CMYK" tints="0,0,0.4,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 5031" fixedID="605" version="1300">
+<color cs="CMYK" tints="0,0.4,0,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 5032" fixedID="606" version="1300">
+<color cs="CMYK" tints="0.4,0,0,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 5033" fixedID="607" version="1300">
+<color cs="CMYK" tints="0.45,0.45,0.45,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 5034" fixedID="608" version="1300">
+<color cs="CMYK" tints="0.45,0.45,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 5035" fixedID="609" version="1300">
+<color cs="CMYK" tints="0.45,0,0.45,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 5036" fixedID="610" version="1300">
+<color cs="CMYK" tints="0,0.45,0.45,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 5037" fixedID="611" version="1300">
+<color cs="CMYK" tints="0.45,0.45,0,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 5038" fixedID="612" version="1300">
+<color cs="CMYK" tints="0.45,0,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 5039" fixedID="613" version="1300">
+<color cs="CMYK" tints="0,0.45,0.45,0"></color>
+</cs>
+<cs name="FOCOLTONE 5040" fixedID="614" version="1300">
+<color cs="CMYK" tints="0.45,0.45,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 5041" fixedID="615" version="1300">
+<color cs="CMYK" tints="0,0,0.45,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 5042" fixedID="616" version="1300">
+<color cs="CMYK" tints="0,0.45,0,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 5043" fixedID="617" version="1300">
+<color cs="CMYK" tints="0.45,0,0,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 5044" fixedID="618" version="1300">
+<color cs="CMYK" tints="0.5,0.5,0.5,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 5045" fixedID="619" version="1300">
+<color cs="CMYK" tints="0.5,0.5,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 5046" fixedID="620" version="1300">
+<color cs="CMYK" tints="0.5,0,0.5,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 5047" fixedID="621" version="1300">
+<color cs="CMYK" tints="0,0.5,0.5,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 5048" fixedID="622" version="1300">
+<color cs="CMYK" tints="0.5,0.5,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 5049" fixedID="623" version="1300">
+<color cs="CMYK" tints="0.5,0,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 5050" fixedID="624" version="1300">
+<color cs="CMYK" tints="0,0.5,0.5,0"></color>
+</cs>
+<cs name="FOCOLTONE 5051" fixedID="625" version="1300">
+<color cs="CMYK" tints="0.5,0.5,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 5052" fixedID="626" version="1300">
+<color cs="CMYK" tints="0,0,0.5,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 5053" fixedID="627" version="1300">
+<color cs="CMYK" tints="0,0.5,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 5054" fixedID="628" version="1300">
+<color cs="CMYK" tints="0.5,0,0,0.5"></color>
+</cs>
+<cs name="FOCOLTONE 5055" fixedID="629" version="1300">
+<color cs="CMYK" tints="0,0,0,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 5056" fixedID="630" version="1300">
+<color cs="CMYK" tints="0,0,0,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 5057" fixedID="631" version="1300">
+<color cs="CMYK" tints="0,0,0,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 6000" fixedID="632" version="1300">
+<color cs="CMYK" tints="0.55,0.55,0.55,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 6001" fixedID="633" version="1300">
+<color cs="CMYK" tints="0.55,0.55,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 6002" fixedID="634" version="1300">
+<color cs="CMYK" tints="0.55,0,0.55,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 6003" fixedID="635" version="1300">
+<color cs="CMYK" tints="0,0.55,0.55,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 6004" fixedID="636" version="1300">
+<color cs="CMYK" tints="0.55,0.55,0,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 6005" fixedID="637" version="1300">
+<color cs="CMYK" tints="0.55,0,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 6006" fixedID="638" version="1300">
+<color cs="CMYK" tints="0,0.55,0.55,0"></color>
+</cs>
+<cs name="FOCOLTONE 6007" fixedID="639" version="1300">
+<color cs="CMYK" tints="0.55,0.55,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 6008" fixedID="640" version="1300">
+<color cs="CMYK" tints="0,0,0.55,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 6009" fixedID="641" version="1300">
+<color cs="CMYK" tints="0,0.55,0,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 6010" fixedID="642" version="1300">
+<color cs="CMYK" tints="0.55,0,0,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 6011" fixedID="643" version="1300">
+<color cs="CMYK" tints="0.6,0.6,0.6,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 6012" fixedID="644" version="1300">
+<color cs="CMYK" tints="0.6,0.6,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 6013" fixedID="645" version="1300">
+<color cs="CMYK" tints="0.6,0,0.6,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 6014" fixedID="646" version="1300">
+<color cs="CMYK" tints="0,0.6,0.6,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 6015" fixedID="647" version="1300">
+<color cs="CMYK" tints="0.6,0.6,0,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 6016" fixedID="648" version="1300">
+<color cs="CMYK" tints="0.6,0,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 6017" fixedID="649" version="1300">
+<color cs="CMYK" tints="0,0.6,0.6,0"></color>
+</cs>
+<cs name="FOCOLTONE 6018" fixedID="650" version="1300">
+<color cs="CMYK" tints="0.6,0.6,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 6019" fixedID="651" version="1300">
+<color cs="CMYK" tints="0,0,0.6,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 6020" fixedID="652" version="1300">
+<color cs="CMYK" tints="0,0.6,0,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 6021" fixedID="653" version="1300">
+<color cs="CMYK" tints="0.6,0,0,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 6022" fixedID="654" version="1300">
+<color cs="CMYK" tints="0.65,0.65,0.65,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 6023" fixedID="655" version="1300">
+<color cs="CMYK" tints="0.65,0.65,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 6024" fixedID="656" version="1300">
+<color cs="CMYK" tints="0.65,0,0.65,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 6025" fixedID="657" version="1300">
+<color cs="CMYK" tints="0,0.65,0.65,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 6026" fixedID="658" version="1300">
+<color cs="CMYK" tints="0.65,0.65,0,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 6027" fixedID="659" version="1300">
+<color cs="CMYK" tints="0.65,0,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 6028" fixedID="660" version="1300">
+<color cs="CMYK" tints="0,0.65,0.65,0"></color>
+</cs>
+<cs name="FOCOLTONE 6029" fixedID="661" version="1300">
+<color cs="CMYK" tints="0.65,0.65,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 6030" fixedID="662" version="1300">
+<color cs="CMYK" tints="0,0,0.65,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 6031" fixedID="663" version="1300">
+<color cs="CMYK" tints="0,0.65,0,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 6032" fixedID="664" version="1300">
+<color cs="CMYK" tints="0.65,0,0,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 6033" fixedID="665" version="1300">
+<color cs="CMYK" tints="0.7,0.7,0.7,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 6034" fixedID="666" version="1300">
+<color cs="CMYK" tints="0.7,0.7,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 6035" fixedID="667" version="1300">
+<color cs="CMYK" tints="0.7,0,0.7,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 6036" fixedID="668" version="1300">
+<color cs="CMYK" tints="0,0.7,0.7,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 6037" fixedID="669" version="1300">
+<color cs="CMYK" tints="0.7,0.7,0,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 6038" fixedID="670" version="1300">
+<color cs="CMYK" tints="0.7,0,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 6039" fixedID="671" version="1300">
+<color cs="CMYK" tints="0,0.7,0.7,0"></color>
+</cs>
+<cs name="FOCOLTONE 6040" fixedID="672" version="1300">
+<color cs="CMYK" tints="0.7,0.7,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 6041" fixedID="673" version="1300">
+<color cs="CMYK" tints="0,0,0.7,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 6042" fixedID="674" version="1300">
+<color cs="CMYK" tints="0,0.7,0,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 6043" fixedID="675" version="1300">
+<color cs="CMYK" tints="0.7,0,0,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 6044" fixedID="676" version="1300">
+<color cs="CMYK" tints="0.75,0.75,0.75,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 6045" fixedID="677" version="1300">
+<color cs="CMYK" tints="0.75,0.75,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 6046" fixedID="678" version="1300">
+<color cs="CMYK" tints="0.75,0,0.75,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 6047" fixedID="679" version="1300">
+<color cs="CMYK" tints="0,0.75,0.75,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 6048" fixedID="680" version="1300">
+<color cs="CMYK" tints="0.75,0.75,0,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 6049" fixedID="681" version="1300">
+<color cs="CMYK" tints="0.75,0,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 6050" fixedID="682" version="1300">
+<color cs="CMYK" tints="0,0.75,0.75,0"></color>
+</cs>
+<cs name="FOCOLTONE 6051" fixedID="683" version="1300">
+<color cs="CMYK" tints="0.75,0.75,0,0"></color>
+</cs>
+<cs name="FOCOLTONE 6052" fixedID="684" version="1300">
+<color cs="CMYK" tints="0,0,0.75,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 6053" fixedID="685" version="1300">
+<color cs="CMYK" tints="0,0.75,0,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 6054" fixedID="686" version="1300">
+<color cs="CMYK" tints="0.75,0,0,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 6055" fixedID="687" version="1300">
+<color cs="CMYK" tints="0,0,0,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 6056" fixedID="688" version="1300">
+<color cs="CMYK" tints="0,0,0,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 6057" fixedID="689" version="1300">
+<color cs="CMYK" tints="0,0,0,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 6058" fixedID="690" version="1300">
+<color cs="CMYK" tints="0,0,0,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 6059" fixedID="691" version="1300">
+<color cs="CMYK" tints="0,0,0,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 7000" fixedID="692" version="1300">
+<color cs="CMYK" tints="1,0,0,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 7001" fixedID="693" version="1300">
+<color cs="CMYK" tints="0,1,0,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 7002" fixedID="694" version="1300">
+<color cs="CMYK" tints="0,0,1,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 7003" fixedID="695" version="1300">
+<color cs="CMYK" tints="1,1,0,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 7004" fixedID="696" version="1300">
+<color cs="CMYK" tints="1,0,1,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 7005" fixedID="697" version="1300">
+<color cs="CMYK" tints="0,1,1,0.05"></color>
+</cs>
+<cs name="FOCOLTONE 7006" fixedID="698" version="1300">
+<color cs="CMYK" tints="1,0,0,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 7007" fixedID="699" version="1300">
+<color cs="CMYK" tints="0,1,0,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 7008" fixedID="700" version="1300">
+<color cs="CMYK" tints="0,0,1,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 7009" fixedID="701" version="1300">
+<color cs="CMYK" tints="1,1,0,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 7010" fixedID="702" version="1300">
+<color cs="CMYK" tints="1,0,1,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 7011" fixedID="703" version="1300">
+<color cs="CMYK" tints="0,1,1,0.1"></color>
+</cs>
+<cs name="FOCOLTONE 7012" fixedID="704" version="1300">
+<color cs="CMYK" tints="1,0,0,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 7013" fixedID="705" version="1300">
+<color cs="CMYK" tints="0,1,0,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 7014" fixedID="706" version="1300">
+<color cs="CMYK" tints="0,0,1,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 7015" fixedID="707" version="1300">
+<color cs="CMYK" tints="1,1,0,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 7016" fixedID="708" version="1300">
+<color cs="CMYK" tints="1,0,1,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 7017" fixedID="709" version="1300">
+<color cs="CMYK" tints="0,1,1,0.15"></color>
+</cs>
+<cs name="FOCOLTONE 7018" fixedID="710" version="1300">
+<color cs="CMYK" tints="1,0,0,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 7019" fixedID="711" version="1300">
+<color cs="CMYK" tints="0,1,0,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 7020" fixedID="712" version="1300">
+<color cs="CMYK" tints="0,0,1,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 7021" fixedID="713" version="1300">
+<color cs="CMYK" tints="1,1,0,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 7022" fixedID="714" version="1300">
+<color cs="CMYK" tints="1,0,1,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 7023" fixedID="715" version="1300">
+<color cs="CMYK" tints="0,1,1,0.2"></color>
+</cs>
+<cs name="FOCOLTONE 7024" fixedID="716" version="1300">
+<color cs="CMYK" tints="1,0,0,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 7025" fixedID="717" version="1300">
+<color cs="CMYK" tints="0,1,0,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 7026" fixedID="718" version="1300">
+<color cs="CMYK" tints="0,0,1,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 7027" fixedID="719" version="1300">
+<color cs="CMYK" tints="1,1,0,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 7028" fixedID="720" version="1300">
+<color cs="CMYK" tints="1,0,1,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 7029" fixedID="721" version="1300">
+<color cs="CMYK" tints="0,1,1,0.3"></color>
+</cs>
+<cs name="FOCOLTONE 7030" fixedID="722" version="1300">
+<color cs="CMYK" tints="1,0,0,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 7031" fixedID="723" version="1300">
+<color cs="CMYK" tints="0,1,0,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 7032" fixedID="724" version="1300">
+<color cs="CMYK" tints="0,0,1,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 7033" fixedID="725" version="1300">
+<color cs="CMYK" tints="1,1,0,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 7034" fixedID="726" version="1300">
+<color cs="CMYK" tints="1,0,1,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 7035" fixedID="727" version="1300">
+<color cs="CMYK" tints="0,1,1,0.4"></color>
+</cs>
+<cs name="FOCOLTONE 7036" fixedID="728" version="1300">
+<color cs="CMYK" tints="1,0,0,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 7037" fixedID="729" version="1300">
+<color cs="CMYK" tints="0,1,0,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 7038" fixedID="730" version="1300">
+<color cs="CMYK" tints="0,0,1,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 7039" fixedID="731" version="1300">
+<color cs="CMYK" tints="1,1,0,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 7040" fixedID="732" version="1300">
+<color cs="CMYK" tints="1,0,1,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 7041" fixedID="733" version="1300">
+<color cs="CMYK" tints="0,1,1,0.45"></color>
+</cs>
+<cs name="FOCOLTONE 7042" fixedID="734" version="1300">
+<color cs="CMYK" tints="1,0,0,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 7043" fixedID="735" version="1300">
+<color cs="CMYK" tints="0,1,0,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 7044" fixedID="736" version="1300">
+<color cs="CMYK" tints="0,0,1,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 7045" fixedID="737" version="1300">
+<color cs="CMYK" tints="1,1,0,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 7046" fixedID="738" version="1300">
+<color cs="CMYK" tints="1,0,1,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 7047" fixedID="739" version="1300">
+<color cs="CMYK" tints="0,1,1,0.55"></color>
+</cs>
+<cs name="FOCOLTONE 7048" fixedID="740" version="1300">
+<color cs="CMYK" tints="1,0,0,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 7049" fixedID="741" version="1300">
+<color cs="CMYK" tints="0,1,0,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 7050" fixedID="742" version="1300">
+<color cs="CMYK" tints="0,0,1,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 7051" fixedID="743" version="1300">
+<color cs="CMYK" tints="1,1,0,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 7052" fixedID="744" version="1300">
+<color cs="CMYK" tints="1,0,1,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 7053" fixedID="745" version="1300">
+<color cs="CMYK" tints="0,1,1,0.6"></color>
+</cs>
+<cs name="FOCOLTONE 7054" fixedID="746" version="1300">
+<color cs="CMYK" tints="1,0,0,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 7055" fixedID="747" version="1300">
+<color cs="CMYK" tints="0,1,0,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 7056" fixedID="748" version="1300">
+<color cs="CMYK" tints="0,0,1,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 7057" fixedID="749" version="1300">
+<color cs="CMYK" tints="1,1,0,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 7058" fixedID="750" version="1300">
+<color cs="CMYK" tints="1,0,1,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 7059" fixedID="751" version="1300">
+<color cs="CMYK" tints="0,1,1,0.65"></color>
+</cs>
+<cs name="FOCOLTONE 7060" fixedID="752" version="1300">
+<color cs="CMYK" tints="1,0,0,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 7061" fixedID="753" version="1300">
+<color cs="CMYK" tints="0,1,0,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 7062" fixedID="754" version="1300">
+<color cs="CMYK" tints="0,0,1,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 7063" fixedID="755" version="1300">
+<color cs="CMYK" tints="1,1,0,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 7064" fixedID="756" version="1300">
+<color cs="CMYK" tints="1,0,1,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 7065" fixedID="757" version="1300">
+<color cs="CMYK" tints="0,1,1,0.7"></color>
+</cs>
+<cs name="FOCOLTONE 7066" fixedID="758" version="1300">
+<color cs="CMYK" tints="1,0,0,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 7067" fixedID="759" version="1300">
+<color cs="CMYK" tints="0,1,0,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 7068" fixedID="760" version="1300">
+<color cs="CMYK" tints="0,0,1,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 7069" fixedID="761" version="1300">
+<color cs="CMYK" tints="1,1,0,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 7070" fixedID="762" version="1300">
+<color cs="CMYK" tints="1,0,1,0.75"></color>
+</cs>
+<cs name="FOCOLTONE 7071" fixedID="763" version="1300">
+<color cs="CMYK" tints="0,1,1,0.75"></color>
+</cs>
+</colorspaces>
+<colors>
+<page>
+<color name="FOCOLTONE 1000" cs="FOCOLTONE 1000"></color>
+<color name="FOCOLTONE 1001" cs="FOCOLTONE 1001"></color>
+<color name="FOCOLTONE 1002" cs="FOCOLTONE 1002"></color>
+<color name="FOCOLTONE 1003" cs="FOCOLTONE 1003"></color>
+<color name="FOCOLTONE 1004" cs="FOCOLTONE 1004"></color>
+<color name="FOCOLTONE 1005" cs="FOCOLTONE 1005"></color>
+<color name="FOCOLTONE 1006" cs="FOCOLTONE 1006"></color>
+<color name="FOCOLTONE 1007" cs="FOCOLTONE 1007"></color>
+<color name="FOCOLTONE 1008" cs="FOCOLTONE 1008"></color>
+<color name="FOCOLTONE 1009" cs="FOCOLTONE 1009"></color>
+<color name="FOCOLTONE 1010" cs="FOCOLTONE 1010"></color>
+<color name="FOCOLTONE 1011" cs="FOCOLTONE 1011"></color>
+<color name="FOCOLTONE 1012" cs="FOCOLTONE 1012"></color>
+<color name="FOCOLTONE 1013" cs="FOCOLTONE 1013"></color>
+<color name="FOCOLTONE 1014" cs="FOCOLTONE 1014"></color>
+<color name="FOCOLTONE 1015" cs="FOCOLTONE 1015"></color>
+<color name="FOCOLTONE 1016" cs="FOCOLTONE 1016"></color>
+<color name="FOCOLTONE 1017" cs="FOCOLTONE 1017"></color>
+<color name="FOCOLTONE 1018" cs="FOCOLTONE 1018"></color>
+<color name="FOCOLTONE 1019" cs="FOCOLTONE 1019"></color>
+<color name="FOCOLTONE 1020" cs="FOCOLTONE 1020"></color>
+<color name="FOCOLTONE 1021" cs="FOCOLTONE 1021"></color>
+<color name="FOCOLTONE 1022" cs="FOCOLTONE 1022"></color>
+<color name="FOCOLTONE 1023" cs="FOCOLTONE 1023"></color>
+<color name="FOCOLTONE 1024" cs="FOCOLTONE 1024"></color>
+<color name="FOCOLTONE 1025" cs="FOCOLTONE 1025"></color>
+<color name="FOCOLTONE 1026" cs="FOCOLTONE 1026"></color>
+<color name="FOCOLTONE 1027" cs="FOCOLTONE 1027"></color>
+<color name="FOCOLTONE 1028" cs="FOCOLTONE 1028"></color>
+<color name="FOCOLTONE 1029" cs="FOCOLTONE 1029"></color>
+<color name="FOCOLTONE 1030" cs="FOCOLTONE 1030"></color>
+<color name="FOCOLTONE 1031" cs="FOCOLTONE 1031"></color>
+<color name="FOCOLTONE 1032" cs="FOCOLTONE 1032"></color>
+<color name="FOCOLTONE 1033" cs="FOCOLTONE 1033"></color>
+<color name="FOCOLTONE 1034" cs="FOCOLTONE 1034"></color>
+<color name="FOCOLTONE 1035" cs="FOCOLTONE 1035"></color>
+<color name="FOCOLTONE 1036" cs="FOCOLTONE 1036"></color>
+<color name="FOCOLTONE 1037" cs="FOCOLTONE 1037"></color>
+<color name="FOCOLTONE 1038" cs="FOCOLTONE 1038"></color>
+<color name="FOCOLTONE 1039" cs="FOCOLTONE 1039"></color>
+<color name="FOCOLTONE 1040" cs="FOCOLTONE 1040"></color>
+<color name="FOCOLTONE 1041" cs="FOCOLTONE 1041"></color>
+<color name="FOCOLTONE 1042" cs="FOCOLTONE 1042"></color>
+<color name="FOCOLTONE 1043" cs="FOCOLTONE 1043"></color>
+<color name="FOCOLTONE 1044" cs="FOCOLTONE 1044"></color>
+<color name="FOCOLTONE 1045" cs="FOCOLTONE 1045"></color>
+<color name="FOCOLTONE 1046" cs="FOCOLTONE 1046"></color>
+<color name="FOCOLTONE 1047" cs="FOCOLTONE 1047"></color>
+<color name="FOCOLTONE 1048" cs="FOCOLTONE 1048"></color>
+<color name="FOCOLTONE 1049" cs="FOCOLTONE 1049"></color>
+<color name="FOCOLTONE 1050" cs="FOCOLTONE 1050"></color>
+<color name="FOCOLTONE 1051" cs="FOCOLTONE 1051"></color>
+<color name="FOCOLTONE 1052" cs="FOCOLTONE 1052"></color>
+<color name="FOCOLTONE 1053" cs="FOCOLTONE 1053"></color>
+<color name="FOCOLTONE 1054" cs="FOCOLTONE 1054"></color>
+<color name="FOCOLTONE 1055" cs="FOCOLTONE 1055"></color>
+<color name="FOCOLTONE 1056" cs="FOCOLTONE 1056"></color>
+<color name="FOCOLTONE 1057" cs="FOCOLTONE 1057"></color>
+<color name="FOCOLTONE 1058" cs="FOCOLTONE 1058"></color>
+<color name="FOCOLTONE 1059" cs="FOCOLTONE 1059"></color>
+<color name="FOCOLTONE 1060" cs="FOCOLTONE 1060"></color>
+<color name="FOCOLTONE 1061" cs="FOCOLTONE 1061"></color>
+<color name="FOCOLTONE 1062" cs="FOCOLTONE 1062"></color>
+<color name="FOCOLTONE 1063" cs="FOCOLTONE 1063"></color>
+<color name="FOCOLTONE 1064" cs="FOCOLTONE 1064"></color>
+<color name="FOCOLTONE 1065" cs="FOCOLTONE 1065"></color>
+<color name="FOCOLTONE 1066" cs="FOCOLTONE 1066"></color>
+<color name="FOCOLTONE 1067" cs="FOCOLTONE 1067"></color>
+<color name="FOCOLTONE 1068" cs="FOCOLTONE 1068"></color>
+<color name="FOCOLTONE 1069" cs="FOCOLTONE 1069"></color>
+<color name="FOCOLTONE 1070" cs="FOCOLTONE 1070"></color>
+<color name="FOCOLTONE 1071" cs="FOCOLTONE 1071"></color>
+<color name="FOCOLTONE 1072" cs="FOCOLTONE 1072"></color>
+<color name="FOCOLTONE 1073" cs="FOCOLTONE 1073"></color>
+<color name="FOCOLTONE 1074" cs="FOCOLTONE 1074"></color>
+<color name="FOCOLTONE 1075" cs="FOCOLTONE 1075"></color>
+<color name="FOCOLTONE 1076" cs="FOCOLTONE 1076"></color>
+<color name="FOCOLTONE 1077" cs="FOCOLTONE 1077"></color>
+<color name="FOCOLTONE 1078" cs="FOCOLTONE 1078"></color>
+<color name="FOCOLTONE 1079" cs="FOCOLTONE 1079"></color>
+<color name="FOCOLTONE 1080" cs="FOCOLTONE 1080"></color>
+<color name="FOCOLTONE 1081" cs="FOCOLTONE 1081"></color>
+<color name="FOCOLTONE 1082" cs="FOCOLTONE 1082"></color>
+<color name="FOCOLTONE 1083" cs="FOCOLTONE 1083"></color>
+<color name="FOCOLTONE 1084" cs="FOCOLTONE 1084"></color>
+<color name="FOCOLTONE 1085" cs="FOCOLTONE 1085"></color>
+<color name="FOCOLTONE 1086" cs="FOCOLTONE 1086"></color>
+<color name="FOCOLTONE 1087" cs="FOCOLTONE 1087"></color>
+<color name="FOCOLTONE 1088" cs="FOCOLTONE 1088"></color>
+<color name="FOCOLTONE 1089" cs="FOCOLTONE 1089"></color>
+<color name="FOCOLTONE 1090" cs="FOCOLTONE 1090"></color>
+<color name="FOCOLTONE 1091" cs="FOCOLTONE 1091"></color>
+<color name="FOCOLTONE 1092" cs="FOCOLTONE 1092"></color>
+<color name="FOCOLTONE 1093" cs="FOCOLTONE 1093"></color>
+<color name="FOCOLTONE 1094" cs="FOCOLTONE 1094"></color>
+<color name="FOCOLTONE 1095" cs="FOCOLTONE 1095"></color>
+<color name="FOCOLTONE 1096" cs="FOCOLTONE 1096"></color>
+<color name="FOCOLTONE 1097" cs="FOCOLTONE 1097"></color>
+<color name="FOCOLTONE 1098" cs="FOCOLTONE 1098"></color>
+<color name="FOCOLTONE 1099" cs="FOCOLTONE 1099"></color>
+<color name="FOCOLTONE 1100" cs="FOCOLTONE 1100"></color>
+<color name="FOCOLTONE 1101" cs="FOCOLTONE 1101"></color>
+<color name="FOCOLTONE 1102" cs="FOCOLTONE 1102"></color>
+<color name="FOCOLTONE 1103" cs="FOCOLTONE 1103"></color>
+<color name="FOCOLTONE 1104" cs="FOCOLTONE 1104"></color>
+<color name="FOCOLTONE 1105" cs="FOCOLTONE 1105"></color>
+<color name="FOCOLTONE 1106" cs="FOCOLTONE 1106"></color>
+<color name="FOCOLTONE 1107" cs="FOCOLTONE 1107"></color>
+<color name="FOCOLTONE 1108" cs="FOCOLTONE 1108"></color>
+<color name="FOCOLTONE 1109" cs="FOCOLTONE 1109"></color>
+<color name="FOCOLTONE 1110" cs="FOCOLTONE 1110"></color>
+<color name="FOCOLTONE 1111" cs="FOCOLTONE 1111"></color>
+<color name="FOCOLTONE 1112" cs="FOCOLTONE 1112"></color>
+<color name="FOCOLTONE 1113" cs="FOCOLTONE 1113"></color>
+<color name="FOCOLTONE 1114" cs="FOCOLTONE 1114"></color>
+<color name="FOCOLTONE 1115" cs="FOCOLTONE 1115"></color>
+<color name="FOCOLTONE 1116" cs="FOCOLTONE 1116"></color>
+<color name="FOCOLTONE 1117" cs="FOCOLTONE 1117"></color>
+<color name="FOCOLTONE 1118" cs="FOCOLTONE 1118"></color>
+<color name="FOCOLTONE 1119" cs="FOCOLTONE 1119"></color>
+<color name="FOCOLTONE 1120" cs="FOCOLTONE 1120"></color>
+<color name="FOCOLTONE 1121" cs="FOCOLTONE 1121"></color>
+<color name="FOCOLTONE 1122" cs="FOCOLTONE 1122"></color>
+<color name="FOCOLTONE 1123" cs="FOCOLTONE 1123"></color>
+<color name="FOCOLTONE 1124" cs="FOCOLTONE 1124"></color>
+<color name="FOCOLTONE 1125" cs="FOCOLTONE 1125"></color>
+<color name="FOCOLTONE 1126" cs="FOCOLTONE 1126"></color>
+<color name="FOCOLTONE 1127" cs="FOCOLTONE 1127"></color>
+<color name="FOCOLTONE 1128" cs="FOCOLTONE 1128"></color>
+<color name="FOCOLTONE 1129" cs="FOCOLTONE 1129"></color>
+<color name="FOCOLTONE 1130" cs="FOCOLTONE 1130"></color>
+<color name="FOCOLTONE 1131" cs="FOCOLTONE 1131"></color>
+<color name="FOCOLTONE 1132" cs="FOCOLTONE 1132"></color>
+<color name="FOCOLTONE 1133" cs="FOCOLTONE 1133"></color>
+<color name="FOCOLTONE 1134" cs="FOCOLTONE 1134"></color>
+<color name="FOCOLTONE 1135" cs="FOCOLTONE 1135"></color>
+<color name="FOCOLTONE 1136" cs="FOCOLTONE 1136"></color>
+<color name="FOCOLTONE 1137" cs="FOCOLTONE 1137"></color>
+<color name="FOCOLTONE 1138" cs="FOCOLTONE 1138"></color>
+<color name="FOCOLTONE 1139" cs="FOCOLTONE 1139"></color>
+<color name="FOCOLTONE 1140" cs="FOCOLTONE 1140"></color>
+<color name="FOCOLTONE 1141" cs="FOCOLTONE 1141"></color>
+<color name="FOCOLTONE 1142" cs="FOCOLTONE 1142"></color>
+<color name="FOCOLTONE 1143" cs="FOCOLTONE 1143"></color>
+<color name="FOCOLTONE 1144" cs="FOCOLTONE 1144"></color>
+<color name="FOCOLTONE 1145" cs="FOCOLTONE 1145"></color>
+<color name="FOCOLTONE 1146" cs="FOCOLTONE 1146"></color>
+<color name="FOCOLTONE 1147" cs="FOCOLTONE 1147"></color>
+<color name="FOCOLTONE 1148" cs="FOCOLTONE 1148"></color>
+<color name="FOCOLTONE 1149" cs="FOCOLTONE 1149"></color>
+<color name="FOCOLTONE 1150" cs="FOCOLTONE 1150"></color>
+<color name="FOCOLTONE 1151" cs="FOCOLTONE 1151"></color>
+<color name="FOCOLTONE 1152" cs="FOCOLTONE 1152"></color>
+<color name="FOCOLTONE 1153" cs="FOCOLTONE 1153"></color>
+<color name="FOCOLTONE 1154" cs="FOCOLTONE 1154"></color>
+<color name="FOCOLTONE 1155" cs="FOCOLTONE 1155"></color>
+<color name="FOCOLTONE 1156" cs="FOCOLTONE 1156"></color>
+<color name="FOCOLTONE 1157" cs="FOCOLTONE 1157"></color>
+<color name="FOCOLTONE 1158" cs="FOCOLTONE 1158"></color>
+<color name="FOCOLTONE 1159" cs="FOCOLTONE 1159"></color>
+<color name="FOCOLTONE 1160" cs="FOCOLTONE 1160"></color>
+<color name="FOCOLTONE 1161" cs="FOCOLTONE 1161"></color>
+<color name="FOCOLTONE 1162" cs="FOCOLTONE 1162"></color>
+<color name="FOCOLTONE 1163" cs="FOCOLTONE 1163"></color>
+<color name="FOCOLTONE 1164" cs="FOCOLTONE 1164"></color>
+<color name="FOCOLTONE 1165" cs="FOCOLTONE 1165"></color>
+<color name="FOCOLTONE 1166" cs="FOCOLTONE 1166"></color>
+<color name="FOCOLTONE 1167" cs="FOCOLTONE 1167"></color>
+<color name="FOCOLTONE 1168" cs="FOCOLTONE 1168"></color>
+<color name="FOCOLTONE 1169" cs="FOCOLTONE 1169"></color>
+<color name="FOCOLTONE 1170" cs="FOCOLTONE 1170"></color>
+<color name="FOCOLTONE 1171" cs="FOCOLTONE 1171"></color>
+<color name="FOCOLTONE 1172" cs="FOCOLTONE 1172"></color>
+<color name="FOCOLTONE 1173" cs="FOCOLTONE 1173"></color>
+<color name="FOCOLTONE 2174" cs="FOCOLTONE 2174"></color>
+<color name="FOCOLTONE 2175" cs="FOCOLTONE 2175"></color>
+<color name="FOCOLTONE 2176" cs="FOCOLTONE 2176"></color>
+<color name="FOCOLTONE 2177" cs="FOCOLTONE 2177"></color>
+<color name="FOCOLTONE 2178" cs="FOCOLTONE 2178"></color>
+<color name="FOCOLTONE 2179" cs="FOCOLTONE 2179"></color>
+<color name="FOCOLTONE 2180" cs="FOCOLTONE 2180"></color>
+<color name="FOCOLTONE 2181" cs="FOCOLTONE 2181"></color>
+<color name="FOCOLTONE 2182" cs="FOCOLTONE 2182"></color>
+<color name="FOCOLTONE 2183" cs="FOCOLTONE 2183"></color>
+<color name="FOCOLTONE 2184" cs="FOCOLTONE 2184"></color>
+<color name="FOCOLTONE 2185" cs="FOCOLTONE 2185"></color>
+<color name="FOCOLTONE 2186" cs="FOCOLTONE 2186"></color>
+<color name="FOCOLTONE 2187" cs="FOCOLTONE 2187"></color>
+<color name="FOCOLTONE 2188" cs="FOCOLTONE 2188"></color>
+<color name="FOCOLTONE 2189" cs="FOCOLTONE 2189"></color>
+<color name="FOCOLTONE 2190" cs="FOCOLTONE 2190"></color>
+<color name="FOCOLTONE 2191" cs="FOCOLTONE 2191"></color>
+<color name="FOCOLTONE 2192" cs="FOCOLTONE 2192"></color>
+<color name="FOCOLTONE 2193" cs="FOCOLTONE 2193"></color>
+<color name="FOCOLTONE 2194" cs="FOCOLTONE 2194"></color>
+<color name="FOCOLTONE 2195" cs="FOCOLTONE 2195"></color>
+<color name="FOCOLTONE 2196" cs="FOCOLTONE 2196"></color>
+<color name="FOCOLTONE 2197" cs="FOCOLTONE 2197"></color>
+<color name="FOCOLTONE 2198" cs="FOCOLTONE 2198"></color>
+<color name="FOCOLTONE 2199" cs="FOCOLTONE 2199"></color>
+<color name="FOCOLTONE 2200" cs="FOCOLTONE 2200"></color>
+<color name="FOCOLTONE 2201" cs="FOCOLTONE 2201"></color>
+<color name="FOCOLTONE 2202" cs="FOCOLTONE 2202"></color>
+<color name="FOCOLTONE 2203" cs="FOCOLTONE 2203"></color>
+<color name="FOCOLTONE 2204" cs="FOCOLTONE 2204"></color>
+<color name="FOCOLTONE 2205" cs="FOCOLTONE 2205"></color>
+<color name="FOCOLTONE 2206" cs="FOCOLTONE 2206"></color>
+<color name="FOCOLTONE 2207" cs="FOCOLTONE 2207"></color>
+<color name="FOCOLTONE 2208" cs="FOCOLTONE 2208"></color>
+<color name="FOCOLTONE 2209" cs="FOCOLTONE 2209"></color>
+<color name="FOCOLTONE 2210" cs="FOCOLTONE 2210"></color>
+<color name="FOCOLTONE 2211" cs="FOCOLTONE 2211"></color>
+<color name="FOCOLTONE 2212" cs="FOCOLTONE 2212"></color>
+<color name="FOCOLTONE 2213" cs="FOCOLTONE 2213"></color>
+<color name="FOCOLTONE 2214" cs="FOCOLTONE 2214"></color>
+<color name="FOCOLTONE 2215" cs="FOCOLTONE 2215"></color>
+<color name="FOCOLTONE 2216" cs="FOCOLTONE 2216"></color>
+<color name="FOCOLTONE 2217" cs="FOCOLTONE 2217"></color>
+<color name="FOCOLTONE 2218" cs="FOCOLTONE 2218"></color>
+<color name="FOCOLTONE 2219" cs="FOCOLTONE 2219"></color>
+<color name="FOCOLTONE 2220" cs="FOCOLTONE 2220"></color>
+<color name="FOCOLTONE 2221" cs="FOCOLTONE 2221"></color>
+<color name="FOCOLTONE 2222" cs="FOCOLTONE 2222"></color>
+<color name="FOCOLTONE 2223" cs="FOCOLTONE 2223"></color>
+<color name="FOCOLTONE 2224" cs="FOCOLTONE 2224"></color>
+<color name="FOCOLTONE 2225" cs="FOCOLTONE 2225"></color>
+<color name="FOCOLTONE 2226" cs="FOCOLTONE 2226"></color>
+<color name="FOCOLTONE 2227" cs="FOCOLTONE 2227"></color>
+<color name="FOCOLTONE 2228" cs="FOCOLTONE 2228"></color>
+<color name="FOCOLTONE 2229" cs="FOCOLTONE 2229"></color>
+<color name="FOCOLTONE 2230" cs="FOCOLTONE 2230"></color>
+<color name="FOCOLTONE 2231" cs="FOCOLTONE 2231"></color>
+<color name="FOCOLTONE 2232" cs="FOCOLTONE 2232"></color>
+<color name="FOCOLTONE 2233" cs="FOCOLTONE 2233"></color>
+<color name="FOCOLTONE 2234" cs="FOCOLTONE 2234"></color>
+<color name="FOCOLTONE 2235" cs="FOCOLTONE 2235"></color>
+<color name="FOCOLTONE 2236" cs="FOCOLTONE 2236"></color>
+<color name="FOCOLTONE 2237" cs="FOCOLTONE 2237"></color>
+<color name="FOCOLTONE 2238" cs="FOCOLTONE 2238"></color>
+<color name="FOCOLTONE 2239" cs="FOCOLTONE 2239"></color>
+<color name="FOCOLTONE 2240" cs="FOCOLTONE 2240"></color>
+<color name="FOCOLTONE 2241" cs="FOCOLTONE 2241"></color>
+<color name="FOCOLTONE 2242" cs="FOCOLTONE 2242"></color>
+<color name="FOCOLTONE 2243" cs="FOCOLTONE 2243"></color>
+<color name="FOCOLTONE 2244" cs="FOCOLTONE 2244"></color>
+<color name="FOCOLTONE 2245" cs="FOCOLTONE 2245"></color>
+<color name="FOCOLTONE 2246" cs="FOCOLTONE 2246"></color>
+<color name="FOCOLTONE 2247" cs="FOCOLTONE 2247"></color>
+<color name="FOCOLTONE 2248" cs="FOCOLTONE 2248"></color>
+<color name="FOCOLTONE 2249" cs="FOCOLTONE 2249"></color>
+<color name="FOCOLTONE 2250" cs="FOCOLTONE 2250"></color>
+<color name="FOCOLTONE 2251" cs="FOCOLTONE 2251"></color>
+<color name="FOCOLTONE 2252" cs="FOCOLTONE 2252"></color>
+<color name="FOCOLTONE 2253" cs="FOCOLTONE 2253"></color>
+<color name="FOCOLTONE 2254" cs="FOCOLTONE 2254"></color>
+<color name="FOCOLTONE 2255" cs="FOCOLTONE 2255"></color>
+<color name="FOCOLTONE 2256" cs="FOCOLTONE 2256"></color>
+<color name="FOCOLTONE 2257" cs="FOCOLTONE 2257"></color>
+<color name="FOCOLTONE 2258" cs="FOCOLTONE 2258"></color>
+<color name="FOCOLTONE 2259" cs="FOCOLTONE 2259"></color>
+<color name="FOCOLTONE 2260" cs="FOCOLTONE 2260"></color>
+<color name="FOCOLTONE 2261" cs="FOCOLTONE 2261"></color>
+<color name="FOCOLTONE 2262" cs="FOCOLTONE 2262"></color>
+<color name="FOCOLTONE 2263" cs="FOCOLTONE 2263"></color>
+<color name="FOCOLTONE 2264" cs="FOCOLTONE 2264"></color>
+<color name="FOCOLTONE 2265" cs="FOCOLTONE 2265"></color>
+<color name="FOCOLTONE 2266" cs="FOCOLTONE 2266"></color>
+<color name="FOCOLTONE 2267" cs="FOCOLTONE 2267"></color>
+<color name="FOCOLTONE 2268" cs="FOCOLTONE 2268"></color>
+<color name="FOCOLTONE 2269" cs="FOCOLTONE 2269"></color>
+<color name="FOCOLTONE 2270" cs="FOCOLTONE 2270"></color>
+<color name="FOCOLTONE 2271" cs="FOCOLTONE 2271"></color>
+<color name="FOCOLTONE 2272" cs="FOCOLTONE 2272"></color>
+<color name="FOCOLTONE 2273" cs="FOCOLTONE 2273"></color>
+<color name="FOCOLTONE 2274" cs="FOCOLTONE 2274"></color>
+<color name="FOCOLTONE 2275" cs="FOCOLTONE 2275"></color>
+<color name="FOCOLTONE 2276" cs="FOCOLTONE 2276"></color>
+<color name="FOCOLTONE 2277" cs="FOCOLTONE 2277"></color>
+<color name="FOCOLTONE 2278" cs="FOCOLTONE 2278"></color>
+<color name="FOCOLTONE 2279" cs="FOCOLTONE 2279"></color>
+<color name="FOCOLTONE 2280" cs="FOCOLTONE 2280"></color>
+<color name="FOCOLTONE 2281" cs="FOCOLTONE 2281"></color>
+<color name="FOCOLTONE 2282" cs="FOCOLTONE 2282"></color>
+<color name="FOCOLTONE 2283" cs="FOCOLTONE 2283"></color>
+<color name="FOCOLTONE 2284" cs="FOCOLTONE 2284"></color>
+<color name="FOCOLTONE 2285" cs="FOCOLTONE 2285"></color>
+<color name="FOCOLTONE 2286" cs="FOCOLTONE 2286"></color>
+<color name="FOCOLTONE 2287" cs="FOCOLTONE 2287"></color>
+<color name="FOCOLTONE 2288" cs="FOCOLTONE 2288"></color>
+<color name="FOCOLTONE 2289" cs="FOCOLTONE 2289"></color>
+<color name="FOCOLTONE 2290" cs="FOCOLTONE 2290"></color>
+<color name="FOCOLTONE 2291" cs="FOCOLTONE 2291"></color>
+<color name="FOCOLTONE 2292" cs="FOCOLTONE 2292"></color>
+<color name="FOCOLTONE 2293" cs="FOCOLTONE 2293"></color>
+<color name="FOCOLTONE 2294" cs="FOCOLTONE 2294"></color>
+<color name="FOCOLTONE 2295" cs="FOCOLTONE 2295"></color>
+<color name="FOCOLTONE 2296" cs="FOCOLTONE 2296"></color>
+<color name="FOCOLTONE 2297" cs="FOCOLTONE 2297"></color>
+<color name="FOCOLTONE 2298" cs="FOCOLTONE 2298"></color>
+<color name="FOCOLTONE 2299" cs="FOCOLTONE 2299"></color>
+<color name="FOCOLTONE 2300" cs="FOCOLTONE 2300"></color>
+<color name="FOCOLTONE 2301" cs="FOCOLTONE 2301"></color>
+<color name="FOCOLTONE 2302" cs="FOCOLTONE 2302"></color>
+<color name="FOCOLTONE 2303" cs="FOCOLTONE 2303"></color>
+<color name="FOCOLTONE 2304" cs="FOCOLTONE 2304"></color>
+<color name="FOCOLTONE 2305" cs="FOCOLTONE 2305"></color>
+<color name="FOCOLTONE 2306" cs="FOCOLTONE 2306"></color>
+<color name="FOCOLTONE 2307" cs="FOCOLTONE 2307"></color>
+<color name="FOCOLTONE 2308" cs="FOCOLTONE 2308"></color>
+<color name="FOCOLTONE 2309" cs="FOCOLTONE 2309"></color>
+<color name="FOCOLTONE 2310" cs="FOCOLTONE 2310"></color>
+<color name="FOCOLTONE 2311" cs="FOCOLTONE 2311"></color>
+<color name="FOCOLTONE 2312" cs="FOCOLTONE 2312"></color>
+<color name="FOCOLTONE 2313" cs="FOCOLTONE 2313"></color>
+<color name="FOCOLTONE 2314" cs="FOCOLTONE 2314"></color>
+<color name="FOCOLTONE 2315" cs="FOCOLTONE 2315"></color>
+<color name="FOCOLTONE 2316" cs="FOCOLTONE 2316"></color>
+<color name="FOCOLTONE 2317" cs="FOCOLTONE 2317"></color>
+<color name="FOCOLTONE 2318" cs="FOCOLTONE 2318"></color>
+<color name="FOCOLTONE 2319" cs="FOCOLTONE 2319"></color>
+<color name="FOCOLTONE 2320" cs="FOCOLTONE 2320"></color>
+<color name="FOCOLTONE 2321" cs="FOCOLTONE 2321"></color>
+<color name="FOCOLTONE 2322" cs="FOCOLTONE 2322"></color>
+<color name="FOCOLTONE 2323" cs="FOCOLTONE 2323"></color>
+<color name="FOCOLTONE 2324" cs="FOCOLTONE 2324"></color>
+<color name="FOCOLTONE 2325" cs="FOCOLTONE 2325"></color>
+<color name="FOCOLTONE 2326" cs="FOCOLTONE 2326"></color>
+<color name="FOCOLTONE 2327" cs="FOCOLTONE 2327"></color>
+<color name="FOCOLTONE 2328" cs="FOCOLTONE 2328"></color>
+<color name="FOCOLTONE 2329" cs="FOCOLTONE 2329"></color>
+<color name="FOCOLTONE 2330" cs="FOCOLTONE 2330"></color>
+<color name="FOCOLTONE 2331" cs="FOCOLTONE 2331"></color>
+<color name="FOCOLTONE 2332" cs="FOCOLTONE 2332"></color>
+<color name="FOCOLTONE 2333" cs="FOCOLTONE 2333"></color>
+<color name="FOCOLTONE 2334" cs="FOCOLTONE 2334"></color>
+<color name="FOCOLTONE 2335" cs="FOCOLTONE 2335"></color>
+<color name="FOCOLTONE 2336" cs="FOCOLTONE 2336"></color>
+<color name="FOCOLTONE 2337" cs="FOCOLTONE 2337"></color>
+<color name="FOCOLTONE 2338" cs="FOCOLTONE 2338"></color>
+<color name="FOCOLTONE 2339" cs="FOCOLTONE 2339"></color>
+<color name="FOCOLTONE 2340" cs="FOCOLTONE 2340"></color>
+<color name="FOCOLTONE 3341" cs="FOCOLTONE 3341"></color>
+<color name="FOCOLTONE 3342" cs="FOCOLTONE 3342"></color>
+<color name="FOCOLTONE 3343" cs="FOCOLTONE 3343"></color>
+<color name="FOCOLTONE 3344" cs="FOCOLTONE 3344"></color>
+<color name="FOCOLTONE 3345" cs="FOCOLTONE 3345"></color>
+<color name="FOCOLTONE 3346" cs="FOCOLTONE 3346"></color>
+<color name="FOCOLTONE 3347" cs="FOCOLTONE 3347"></color>
+<color name="FOCOLTONE 3348" cs="FOCOLTONE 3348"></color>
+<color name="FOCOLTONE 3349" cs="FOCOLTONE 3349"></color>
+<color name="FOCOLTONE 3350" cs="FOCOLTONE 3350"></color>
+<color name="FOCOLTONE 3351" cs="FOCOLTONE 3351"></color>
+<color name="FOCOLTONE 3352" cs="FOCOLTONE 3352"></color>
+<color name="FOCOLTONE 3353" cs="FOCOLTONE 3353"></color>
+<color name="FOCOLTONE 3354" cs="FOCOLTONE 3354"></color>
+<color name="FOCOLTONE 3355" cs="FOCOLTONE 3355"></color>
+<color name="FOCOLTONE 3356" cs="FOCOLTONE 3356"></color>
+<color name="FOCOLTONE 3357" cs="FOCOLTONE 3357"></color>
+<color name="FOCOLTONE 3358" cs="FOCOLTONE 3358"></color>
+<color name="FOCOLTONE 3359" cs="FOCOLTONE 3359"></color>
+<color name="FOCOLTONE 3360" cs="FOCOLTONE 3360"></color>
+<color name="FOCOLTONE 3361" cs="FOCOLTONE 3361"></color>
+<color name="FOCOLTONE 3362" cs="FOCOLTONE 3362"></color>
+<color name="FOCOLTONE 3363" cs="FOCOLTONE 3363"></color>
+<color name="FOCOLTONE 3364" cs="FOCOLTONE 3364"></color>
+<color name="FOCOLTONE 3365" cs="FOCOLTONE 3365"></color>
+<color name="FOCOLTONE 3366" cs="FOCOLTONE 3366"></color>
+<color name="FOCOLTONE 3367" cs="FOCOLTONE 3367"></color>
+<color name="FOCOLTONE 3368" cs="FOCOLTONE 3368"></color>
+<color name="FOCOLTONE 3369" cs="FOCOLTONE 3369"></color>
+<color name="FOCOLTONE 3370" cs="FOCOLTONE 3370"></color>
+<color name="FOCOLTONE 3371" cs="FOCOLTONE 3371"></color>
+<color name="FOCOLTONE 3372" cs="FOCOLTONE 3372"></color>
+<color name="FOCOLTONE 3373" cs="FOCOLTONE 3373"></color>
+<color name="FOCOLTONE 3374" cs="FOCOLTONE 3374"></color>
+<color name="FOCOLTONE 3375" cs="FOCOLTONE 3375"></color>
+<color name="FOCOLTONE 3376" cs="FOCOLTONE 3376"></color>
+<color name="FOCOLTONE 3377" cs="FOCOLTONE 3377"></color>
+<color name="FOCOLTONE 3378" cs="FOCOLTONE 3378"></color>
+<color name="FOCOLTONE 3379" cs="FOCOLTONE 3379"></color>
+<color name="FOCOLTONE 3380" cs="FOCOLTONE 3380"></color>
+<color name="FOCOLTONE 3381" cs="FOCOLTONE 3381"></color>
+<color name="FOCOLTONE 3382" cs="FOCOLTONE 3382"></color>
+<color name="FOCOLTONE 3383" cs="FOCOLTONE 3383"></color>
+<color name="FOCOLTONE 3384" cs="FOCOLTONE 3384"></color>
+<color name="FOCOLTONE 3385" cs="FOCOLTONE 3385"></color>
+<color name="FOCOLTONE 3386" cs="FOCOLTONE 3386"></color>
+<color name="FOCOLTONE 3387" cs="FOCOLTONE 3387"></color>
+<color name="FOCOLTONE 3388" cs="FOCOLTONE 3388"></color>
+<color name="FOCOLTONE 3389" cs="FOCOLTONE 3389"></color>
+<color name="FOCOLTONE 3390" cs="FOCOLTONE 3390"></color>
+<color name="FOCOLTONE 3391" cs="FOCOLTONE 3391"></color>
+<color name="FOCOLTONE 3392" cs="FOCOLTONE 3392"></color>
+<color name="FOCOLTONE 3393" cs="FOCOLTONE 3393"></color>
+<color name="FOCOLTONE 3394" cs="FOCOLTONE 3394"></color>
+<color name="FOCOLTONE 3395" cs="FOCOLTONE 3395"></color>
+<color name="FOCOLTONE 3396" cs="FOCOLTONE 3396"></color>
+<color name="FOCOLTONE 3397" cs="FOCOLTONE 3397"></color>
+<color name="FOCOLTONE 3398" cs="FOCOLTONE 3398"></color>
+<color name="FOCOLTONE 3399" cs="FOCOLTONE 3399"></color>
+<color name="FOCOLTONE 3400" cs="FOCOLTONE 3400"></color>
+<color name="FOCOLTONE 3401" cs="FOCOLTONE 3401"></color>
+<color name="FOCOLTONE 3402" cs="FOCOLTONE 3402"></color>
+<color name="FOCOLTONE 3403" cs="FOCOLTONE 3403"></color>
+<color name="FOCOLTONE 3404" cs="FOCOLTONE 3404"></color>
+<color name="FOCOLTONE 3405" cs="FOCOLTONE 3405"></color>
+<color name="FOCOLTONE 3406" cs="FOCOLTONE 3406"></color>
+<color name="FOCOLTONE 3407" cs="FOCOLTONE 3407"></color>
+<color name="FOCOLTONE 3408" cs="FOCOLTONE 3408"></color>
+<color name="FOCOLTONE 3409" cs="FOCOLTONE 3409"></color>
+<color name="FOCOLTONE 3410" cs="FOCOLTONE 3410"></color>
+<color name="FOCOLTONE 3411" cs="FOCOLTONE 3411"></color>
+<color name="FOCOLTONE 3412" cs="FOCOLTONE 3412"></color>
+<color name="FOCOLTONE 3413" cs="FOCOLTONE 3413"></color>
+<color name="FOCOLTONE 3414" cs="FOCOLTONE 3414"></color>
+<color name="FOCOLTONE 3415" cs="FOCOLTONE 3415"></color>
+<color name="FOCOLTONE 3416" cs="FOCOLTONE 3416"></color>
+<color name="FOCOLTONE 3417" cs="FOCOLTONE 3417"></color>
+<color name="FOCOLTONE 3418" cs="FOCOLTONE 3418"></color>
+<color name="FOCOLTONE 3419" cs="FOCOLTONE 3419"></color>
+<color name="FOCOLTONE 3420" cs="FOCOLTONE 3420"></color>
+<color name="FOCOLTONE 3421" cs="FOCOLTONE 3421"></color>
+<color name="FOCOLTONE 3422" cs="FOCOLTONE 3422"></color>
+<color name="FOCOLTONE 3423" cs="FOCOLTONE 3423"></color>
+<color name="FOCOLTONE 3424" cs="FOCOLTONE 3424"></color>
+<color name="FOCOLTONE 3425" cs="FOCOLTONE 3425"></color>
+<color name="FOCOLTONE 3426" cs="FOCOLTONE 3426"></color>
+<color name="FOCOLTONE 3427" cs="FOCOLTONE 3427"></color>
+<color name="FOCOLTONE 3428" cs="FOCOLTONE 3428"></color>
+<color name="FOCOLTONE 3429" cs="FOCOLTONE 3429"></color>
+<color name="FOCOLTONE 3430" cs="FOCOLTONE 3430"></color>
+<color name="FOCOLTONE 3431" cs="FOCOLTONE 3431"></color>
+<color name="FOCOLTONE 3432" cs="FOCOLTONE 3432"></color>
+<color name="FOCOLTONE 3433" cs="FOCOLTONE 3433"></color>
+<color name="FOCOLTONE 3434" cs="FOCOLTONE 3434"></color>
+<color name="FOCOLTONE 3435" cs="FOCOLTONE 3435"></color>
+<color name="FOCOLTONE 3436" cs="FOCOLTONE 3436"></color>
+<color name="FOCOLTONE 3437" cs="FOCOLTONE 3437"></color>
+<color name="FOCOLTONE 3438" cs="FOCOLTONE 3438"></color>
+<color name="FOCOLTONE 3439" cs="FOCOLTONE 3439"></color>
+<color name="FOCOLTONE 3440" cs="FOCOLTONE 3440"></color>
+<color name="FOCOLTONE 3441" cs="FOCOLTONE 3441"></color>
+<color name="FOCOLTONE 3442" cs="FOCOLTONE 3442"></color>
+<color name="FOCOLTONE 3443" cs="FOCOLTONE 3443"></color>
+<color name="FOCOLTONE 3444" cs="FOCOLTONE 3444"></color>
+<color name="FOCOLTONE 3445" cs="FOCOLTONE 3445"></color>
+<color name="FOCOLTONE 3446" cs="FOCOLTONE 3446"></color>
+<color name="FOCOLTONE 3447" cs="FOCOLTONE 3447"></color>
+<color name="FOCOLTONE 3448" cs="FOCOLTONE 3448"></color>
+<color name="FOCOLTONE 3449" cs="FOCOLTONE 3449"></color>
+<color name="FOCOLTONE 3450" cs="FOCOLTONE 3450"></color>
+<color name="FOCOLTONE 3451" cs="FOCOLTONE 3451"></color>
+<color name="FOCOLTONE 3452" cs="FOCOLTONE 3452"></color>
+<color name="FOCOLTONE 3453" cs="FOCOLTONE 3453"></color>
+<color name="FOCOLTONE 3454" cs="FOCOLTONE 3454"></color>
+<color name="FOCOLTONE 3455" cs="FOCOLTONE 3455"></color>
+<color name="FOCOLTONE 3456" cs="FOCOLTONE 3456"></color>
+<color name="FOCOLTONE 3457" cs="FOCOLTONE 3457"></color>
+<color name="FOCOLTONE 3458" cs="FOCOLTONE 3458"></color>
+<color name="FOCOLTONE 3459" cs="FOCOLTONE 3459"></color>
+<color name="FOCOLTONE 3460" cs="FOCOLTONE 3460"></color>
+<color name="FOCOLTONE 3461" cs="FOCOLTONE 3461"></color>
+<color name="FOCOLTONE 3462" cs="FOCOLTONE 3462"></color>
+<color name="FOCOLTONE 3463" cs="FOCOLTONE 3463"></color>
+<color name="FOCOLTONE 3464" cs="FOCOLTONE 3464"></color>
+<color name="FOCOLTONE 3465" cs="FOCOLTONE 3465"></color>
+<color name="FOCOLTONE 3466" cs="FOCOLTONE 3466"></color>
+<color name="FOCOLTONE 3467" cs="FOCOLTONE 3467"></color>
+<color name="FOCOLTONE 3468" cs="FOCOLTONE 3468"></color>
+<color name="FOCOLTONE 3469" cs="FOCOLTONE 3469"></color>
+<color name="FOCOLTONE 3470" cs="FOCOLTONE 3470"></color>
+<color name="FOCOLTONE 3471" cs="FOCOLTONE 3471"></color>
+<color name="FOCOLTONE 3472" cs="FOCOLTONE 3472"></color>
+<color name="FOCOLTONE 3473" cs="FOCOLTONE 3473"></color>
+<color name="FOCOLTONE 3474" cs="FOCOLTONE 3474"></color>
+<color name="FOCOLTONE 3475" cs="FOCOLTONE 3475"></color>
+<color name="FOCOLTONE 3476" cs="FOCOLTONE 3476"></color>
+<color name="FOCOLTONE 3477" cs="FOCOLTONE 3477"></color>
+<color name="FOCOLTONE 3478" cs="FOCOLTONE 3478"></color>
+<color name="FOCOLTONE 3479" cs="FOCOLTONE 3479"></color>
+<color name="FOCOLTONE 3480" cs="FOCOLTONE 3480"></color>
+<color name="FOCOLTONE 3481" cs="FOCOLTONE 3481"></color>
+<color name="FOCOLTONE 3482" cs="FOCOLTONE 3482"></color>
+<color name="FOCOLTONE 3483" cs="FOCOLTONE 3483"></color>
+<color name="FOCOLTONE 3484" cs="FOCOLTONE 3484"></color>
+<color name="FOCOLTONE 3485" cs="FOCOLTONE 3485"></color>
+<color name="FOCOLTONE 3486" cs="FOCOLTONE 3486"></color>
+<color name="FOCOLTONE 3487" cs="FOCOLTONE 3487"></color>
+<color name="FOCOLTONE 3488" cs="FOCOLTONE 3488"></color>
+<color name="FOCOLTONE 3489" cs="FOCOLTONE 3489"></color>
+<color name="FOCOLTONE 3490" cs="FOCOLTONE 3490"></color>
+<color name="FOCOLTONE 3491" cs="FOCOLTONE 3491"></color>
+<color name="FOCOLTONE 3492" cs="FOCOLTONE 3492"></color>
+<color name="FOCOLTONE 3493" cs="FOCOLTONE 3493"></color>
+<color name="FOCOLTONE 3494" cs="FOCOLTONE 3494"></color>
+<color name="FOCOLTONE 3495" cs="FOCOLTONE 3495"></color>
+<color name="FOCOLTONE 3496" cs="FOCOLTONE 3496"></color>
+<color name="FOCOLTONE 3497" cs="FOCOLTONE 3497"></color>
+<color name="FOCOLTONE 3498" cs="FOCOLTONE 3498"></color>
+<color name="FOCOLTONE 3499" cs="FOCOLTONE 3499"></color>
+<color name="FOCOLTONE 3500" cs="FOCOLTONE 3500"></color>
+<color name="FOCOLTONE 3501" cs="FOCOLTONE 3501"></color>
+<color name="FOCOLTONE 3502" cs="FOCOLTONE 3502"></color>
+<color name="FOCOLTONE 3503" cs="FOCOLTONE 3503"></color>
+<color name="FOCOLTONE 3504" cs="FOCOLTONE 3504"></color>
+<color name="FOCOLTONE 3505" cs="FOCOLTONE 3505"></color>
+<color name="FOCOLTONE 3506" cs="FOCOLTONE 3506"></color>
+<color name="FOCOLTONE 3507" cs="FOCOLTONE 3507"></color>
+<color name="FOCOLTONE 4000" cs="FOCOLTONE 4000"></color>
+<color name="FOCOLTONE 4001" cs="FOCOLTONE 4001"></color>
+<color name="FOCOLTONE 4002" cs="FOCOLTONE 4002"></color>
+<color name="FOCOLTONE 4003" cs="FOCOLTONE 4003"></color>
+<color name="FOCOLTONE 4004" cs="FOCOLTONE 4004"></color>
+<color name="FOCOLTONE 4005" cs="FOCOLTONE 4005"></color>
+<color name="FOCOLTONE 4006" cs="FOCOLTONE 4006"></color>
+<color name="FOCOLTONE 4007" cs="FOCOLTONE 4007"></color>
+<color name="FOCOLTONE 4008" cs="FOCOLTONE 4008"></color>
+<color name="FOCOLTONE 4009" cs="FOCOLTONE 4009"></color>
+<color name="FOCOLTONE 4010" cs="FOCOLTONE 4010"></color>
+<color name="FOCOLTONE 4011" cs="FOCOLTONE 4011"></color>
+<color name="FOCOLTONE 4012" cs="FOCOLTONE 4012"></color>
+<color name="FOCOLTONE 4013" cs="FOCOLTONE 4013"></color>
+<color name="FOCOLTONE 4014" cs="FOCOLTONE 4014"></color>
+<color name="FOCOLTONE 4015" cs="FOCOLTONE 4015"></color>
+<color name="FOCOLTONE 4016" cs="FOCOLTONE 4016"></color>
+<color name="FOCOLTONE 4017" cs="FOCOLTONE 4017"></color>
+<color name="FOCOLTONE 4018" cs="FOCOLTONE 4018"></color>
+<color name="FOCOLTONE 4019" cs="FOCOLTONE 4019"></color>
+<color name="FOCOLTONE 4020" cs="FOCOLTONE 4020"></color>
+<color name="FOCOLTONE 4021" cs="FOCOLTONE 4021"></color>
+<color name="FOCOLTONE 4022" cs="FOCOLTONE 4022"></color>
+<color name="FOCOLTONE 4023" cs="FOCOLTONE 4023"></color>
+<color name="FOCOLTONE 4024" cs="FOCOLTONE 4024"></color>
+<color name="FOCOLTONE 4025" cs="FOCOLTONE 4025"></color>
+<color name="FOCOLTONE 4026" cs="FOCOLTONE 4026"></color>
+<color name="FOCOLTONE 4027" cs="FOCOLTONE 4027"></color>
+<color name="FOCOLTONE 4028" cs="FOCOLTONE 4028"></color>
+<color name="FOCOLTONE 4029" cs="FOCOLTONE 4029"></color>
+<color name="FOCOLTONE 4030" cs="FOCOLTONE 4030"></color>
+<color name="FOCOLTONE 4031" cs="FOCOLTONE 4031"></color>
+<color name="FOCOLTONE 4032" cs="FOCOLTONE 4032"></color>
+<color name="FOCOLTONE 4033" cs="FOCOLTONE 4033"></color>
+<color name="FOCOLTONE 4034" cs="FOCOLTONE 4034"></color>
+<color name="FOCOLTONE 4035" cs="FOCOLTONE 4035"></color>
+<color name="FOCOLTONE 4036" cs="FOCOLTONE 4036"></color>
+<color name="FOCOLTONE 4037" cs="FOCOLTONE 4037"></color>
+<color name="FOCOLTONE 4038" cs="FOCOLTONE 4038"></color>
+<color name="FOCOLTONE 4039" cs="FOCOLTONE 4039"></color>
+<color name="FOCOLTONE 4040" cs="FOCOLTONE 4040"></color>
+<color name="FOCOLTONE 4041" cs="FOCOLTONE 4041"></color>
+<color name="FOCOLTONE 4042" cs="FOCOLTONE 4042"></color>
+<color name="FOCOLTONE 4043" cs="FOCOLTONE 4043"></color>
+<color name="FOCOLTONE 4044" cs="FOCOLTONE 4044"></color>
+<color name="FOCOLTONE 4045" cs="FOCOLTONE 4045"></color>
+<color name="FOCOLTONE 4046" cs="FOCOLTONE 4046"></color>
+<color name="FOCOLTONE 4047" cs="FOCOLTONE 4047"></color>
+<color name="FOCOLTONE 4048" cs="FOCOLTONE 4048"></color>
+<color name="FOCOLTONE 4049" cs="FOCOLTONE 4049"></color>
+<color name="FOCOLTONE 4050" cs="FOCOLTONE 4050"></color>
+<color name="FOCOLTONE 4051" cs="FOCOLTONE 4051"></color>
+<color name="FOCOLTONE 4052" cs="FOCOLTONE 4052"></color>
+<color name="FOCOLTONE 4053" cs="FOCOLTONE 4053"></color>
+<color name="FOCOLTONE 4054" cs="FOCOLTONE 4054"></color>
+<color name="FOCOLTONE 4055" cs="FOCOLTONE 4055"></color>
+<color name="FOCOLTONE 4056" cs="FOCOLTONE 4056"></color>
+<color name="FOCOLTONE 4057" cs="FOCOLTONE 4057"></color>
+<color name="FOCOLTONE 4058" cs="FOCOLTONE 4058"></color>
+<color name="FOCOLTONE 4059" cs="FOCOLTONE 4059"></color>
+<color name="FOCOLTONE 4060" cs="FOCOLTONE 4060"></color>
+<color name="FOCOLTONE 4061" cs="FOCOLTONE 4061"></color>
+<color name="FOCOLTONE 4062" cs="FOCOLTONE 4062"></color>
+<color name="FOCOLTONE 4063" cs="FOCOLTONE 4063"></color>
+<color name="FOCOLTONE 4064" cs="FOCOLTONE 4064"></color>
+<color name="FOCOLTONE 5000" cs="FOCOLTONE 5000"></color>
+<color name="FOCOLTONE 5001" cs="FOCOLTONE 5001"></color>
+<color name="FOCOLTONE 5002" cs="FOCOLTONE 5002"></color>
+<color name="FOCOLTONE 5003" cs="FOCOLTONE 5003"></color>
+<color name="FOCOLTONE 5004" cs="FOCOLTONE 5004"></color>
+<color name="FOCOLTONE 5005" cs="FOCOLTONE 5005"></color>
+<color name="FOCOLTONE 5006" cs="FOCOLTONE 5006"></color>
+<color name="FOCOLTONE 5007" cs="FOCOLTONE 5007"></color>
+<color name="FOCOLTONE 5008" cs="FOCOLTONE 5008"></color>
+<color name="FOCOLTONE 5009" cs="FOCOLTONE 5009"></color>
+<color name="FOCOLTONE 5010" cs="FOCOLTONE 5010"></color>
+<color name="FOCOLTONE 5011" cs="FOCOLTONE 5011"></color>
+<color name="FOCOLTONE 5012" cs="FOCOLTONE 5012"></color>
+<color name="FOCOLTONE 5013" cs="FOCOLTONE 5013"></color>
+<color name="FOCOLTONE 5014" cs="FOCOLTONE 5014"></color>
+<color name="FOCOLTONE 5015" cs="FOCOLTONE 5015"></color>
+<color name="FOCOLTONE 5016" cs="FOCOLTONE 5016"></color>
+<color name="FOCOLTONE 5017" cs="FOCOLTONE 5017"></color>
+<color name="FOCOLTONE 5018" cs="FOCOLTONE 5018"></color>
+<color name="FOCOLTONE 5019" cs="FOCOLTONE 5019"></color>
+<color name="FOCOLTONE 5020" cs="FOCOLTONE 5020"></color>
+<color name="FOCOLTONE 5021" cs="FOCOLTONE 5021"></color>
+<color name="FOCOLTONE 5022" cs="FOCOLTONE 5022"></color>
+<color name="FOCOLTONE 5023" cs="FOCOLTONE 5023"></color>
+<color name="FOCOLTONE 5024" cs="FOCOLTONE 5024"></color>
+<color name="FOCOLTONE 5025" cs="FOCOLTONE 5025"></color>
+<color name="FOCOLTONE 5026" cs="FOCOLTONE 5026"></color>
+<color name="FOCOLTONE 5027" cs="FOCOLTONE 5027"></color>
+<color name="FOCOLTONE 5028" cs="FOCOLTONE 5028"></color>
+<color name="FOCOLTONE 5029" cs="FOCOLTONE 5029"></color>
+<color name="FOCOLTONE 5030" cs="FOCOLTONE 5030"></color>
+<color name="FOCOLTONE 5031" cs="FOCOLTONE 5031"></color>
+<color name="FOCOLTONE 5032" cs="FOCOLTONE 5032"></color>
+<color name="FOCOLTONE 5033" cs="FOCOLTONE 5033"></color>
+<color name="FOCOLTONE 5034" cs="FOCOLTONE 5034"></color>
+<color name="FOCOLTONE 5035" cs="FOCOLTONE 5035"></color>
+<color name="FOCOLTONE 5036" cs="FOCOLTONE 5036"></color>
+<color name="FOCOLTONE 5037" cs="FOCOLTONE 5037"></color>
+<color name="FOCOLTONE 5038" cs="FOCOLTONE 5038"></color>
+<color name="FOCOLTONE 5039" cs="FOCOLTONE 5039"></color>
+<color name="FOCOLTONE 5040" cs="FOCOLTONE 5040"></color>
+<color name="FOCOLTONE 5041" cs="FOCOLTONE 5041"></color>
+<color name="FOCOLTONE 5042" cs="FOCOLTONE 5042"></color>
+<color name="FOCOLTONE 5043" cs="FOCOLTONE 5043"></color>
+<color name="FOCOLTONE 5044" cs="FOCOLTONE 5044"></color>
+<color name="FOCOLTONE 5045" cs="FOCOLTONE 5045"></color>
+<color name="FOCOLTONE 5046" cs="FOCOLTONE 5046"></color>
+<color name="FOCOLTONE 5047" cs="FOCOLTONE 5047"></color>
+<color name="FOCOLTONE 5048" cs="FOCOLTONE 5048"></color>
+<color name="FOCOLTONE 5049" cs="FOCOLTONE 5049"></color>
+<color name="FOCOLTONE 5050" cs="FOCOLTONE 5050"></color>
+<color name="FOCOLTONE 5051" cs="FOCOLTONE 5051"></color>
+<color name="FOCOLTONE 5052" cs="FOCOLTONE 5052"></color>
+<color name="FOCOLTONE 5053" cs="FOCOLTONE 5053"></color>
+<color name="FOCOLTONE 5054" cs="FOCOLTONE 5054"></color>
+<color name="FOCOLTONE 5055" cs="FOCOLTONE 5055"></color>
+<color name="FOCOLTONE 5056" cs="FOCOLTONE 5056"></color>
+<color name="FOCOLTONE 5057" cs="FOCOLTONE 5057"></color>
+<color name="FOCOLTONE 6000" cs="FOCOLTONE 6000"></color>
+<color name="FOCOLTONE 6001" cs="FOCOLTONE 6001"></color>
+<color name="FOCOLTONE 6002" cs="FOCOLTONE 6002"></color>
+<color name="FOCOLTONE 6003" cs="FOCOLTONE 6003"></color>
+<color name="FOCOLTONE 6004" cs="FOCOLTONE 6004"></color>
+<color name="FOCOLTONE 6005" cs="FOCOLTONE 6005"></color>
+<color name="FOCOLTONE 6006" cs="FOCOLTONE 6006"></color>
+<color name="FOCOLTONE 6007" cs="FOCOLTONE 6007"></color>
+<color name="FOCOLTONE 6008" cs="FOCOLTONE 6008"></color>
+<color name="FOCOLTONE 6009" cs="FOCOLTONE 6009"></color>
+<color name="FOCOLTONE 6010" cs="FOCOLTONE 6010"></color>
+<color name="FOCOLTONE 6011" cs="FOCOLTONE 6011"></color>
+<color name="FOCOLTONE 6012" cs="FOCOLTONE 6012"></color>
+<color name="FOCOLTONE 6013" cs="FOCOLTONE 6013"></color>
+<color name="FOCOLTONE 6014" cs="FOCOLTONE 6014"></color>
+<color name="FOCOLTONE 6015" cs="FOCOLTONE 6015"></color>
+<color name="FOCOLTONE 6016" cs="FOCOLTONE 6016"></color>
+<color name="FOCOLTONE 6017" cs="FOCOLTONE 6017"></color>
+<color name="FOCOLTONE 6018" cs="FOCOLTONE 6018"></color>
+<color name="FOCOLTONE 6019" cs="FOCOLTONE 6019"></color>
+<color name="FOCOLTONE 6020" cs="FOCOLTONE 6020"></color>
+<color name="FOCOLTONE 6021" cs="FOCOLTONE 6021"></color>
+<color name="FOCOLTONE 6022" cs="FOCOLTONE 6022"></color>
+<color name="FOCOLTONE 6023" cs="FOCOLTONE 6023"></color>
+<color name="FOCOLTONE 6024" cs="FOCOLTONE 6024"></color>
+<color name="FOCOLTONE 6025" cs="FOCOLTONE 6025"></color>
+<color name="FOCOLTONE 6026" cs="FOCOLTONE 6026"></color>
+<color name="FOCOLTONE 6027" cs="FOCOLTONE 6027"></color>
+<color name="FOCOLTONE 6028" cs="FOCOLTONE 6028"></color>
+<color name="FOCOLTONE 6029" cs="FOCOLTONE 6029"></color>
+<color name="FOCOLTONE 6030" cs="FOCOLTONE 6030"></color>
+<color name="FOCOLTONE 6031" cs="FOCOLTONE 6031"></color>
+<color name="FOCOLTONE 6032" cs="FOCOLTONE 6032"></color>
+<color name="FOCOLTONE 6033" cs="FOCOLTONE 6033"></color>
+<color name="FOCOLTONE 6034" cs="FOCOLTONE 6034"></color>
+<color name="FOCOLTONE 6035" cs="FOCOLTONE 6035"></color>
+<color name="FOCOLTONE 6036" cs="FOCOLTONE 6036"></color>
+<color name="FOCOLTONE 6037" cs="FOCOLTONE 6037"></color>
+<color name="FOCOLTONE 6038" cs="FOCOLTONE 6038"></color>
+<color name="FOCOLTONE 6039" cs="FOCOLTONE 6039"></color>
+<color name="FOCOLTONE 6040" cs="FOCOLTONE 6040"></color>
+<color name="FOCOLTONE 6041" cs="FOCOLTONE 6041"></color>
+<color name="FOCOLTONE 6042" cs="FOCOLTONE 6042"></color>
+<color name="FOCOLTONE 6043" cs="FOCOLTONE 6043"></color>
+<color name="FOCOLTONE 6044" cs="FOCOLTONE 6044"></color>
+<color name="FOCOLTONE 6045" cs="FOCOLTONE 6045"></color>
+<color name="FOCOLTONE 6046" cs="FOCOLTONE 6046"></color>
+<color name="FOCOLTONE 6047" cs="FOCOLTONE 6047"></color>
+<color name="FOCOLTONE 6048" cs="FOCOLTONE 6048"></color>
+<color name="FOCOLTONE 6049" cs="FOCOLTONE 6049"></color>
+<color name="FOCOLTONE 6050" cs="FOCOLTONE 6050"></color>
+<color name="FOCOLTONE 6051" cs="FOCOLTONE 6051"></color>
+<color name="FOCOLTONE 6052" cs="FOCOLTONE 6052"></color>
+<color name="FOCOLTONE 6053" cs="FOCOLTONE 6053"></color>
+<color name="FOCOLTONE 6054" cs="FOCOLTONE 6054"></color>
+<color name="FOCOLTONE 6055" cs="FOCOLTONE 6055"></color>
+<color name="FOCOLTONE 6056" cs="FOCOLTONE 6056"></color>
+<color name="FOCOLTONE 6057" cs="FOCOLTONE 6057"></color>
+<color name="FOCOLTONE 6058" cs="FOCOLTONE 6058"></color>
+<color name="FOCOLTONE 6059" cs="FOCOLTONE 6059"></color>
+<color name="FOCOLTONE 7000" cs="FOCOLTONE 7000"></color>
+<color name="FOCOLTONE 7001" cs="FOCOLTONE 7001"></color>
+<color name="FOCOLTONE 7002" cs="FOCOLTONE 7002"></color>
+<color name="FOCOLTONE 7003" cs="FOCOLTONE 7003"></color>
+<color name="FOCOLTONE 7004" cs="FOCOLTONE 7004"></color>
+<color name="FOCOLTONE 7005" cs="FOCOLTONE 7005"></color>
+<color name="FOCOLTONE 7006" cs="FOCOLTONE 7006"></color>
+<color name="FOCOLTONE 7007" cs="FOCOLTONE 7007"></color>
+<color name="FOCOLTONE 7008" cs="FOCOLTONE 7008"></color>
+<color name="FOCOLTONE 7009" cs="FOCOLTONE 7009"></color>
+<color name="FOCOLTONE 7010" cs="FOCOLTONE 7010"></color>
+<color name="FOCOLTONE 7011" cs="FOCOLTONE 7011"></color>
+<color name="FOCOLTONE 7012" cs="FOCOLTONE 7012"></color>
+<color name="FOCOLTONE 7013" cs="FOCOLTONE 7013"></color>
+<color name="FOCOLTONE 7014" cs="FOCOLTONE 7014"></color>
+<color name="FOCOLTONE 7015" cs="FOCOLTONE 7015"></color>
+<color name="FOCOLTONE 7016" cs="FOCOLTONE 7016"></color>
+<color name="FOCOLTONE 7017" cs="FOCOLTONE 7017"></color>
+<color name="FOCOLTONE 7018" cs="FOCOLTONE 7018"></color>
+<color name="FOCOLTONE 7019" cs="FOCOLTONE 7019"></color>
+<color name="FOCOLTONE 7020" cs="FOCOLTONE 7020"></color>
+<color name="FOCOLTONE 7021" cs="FOCOLTONE 7021"></color>
+<color name="FOCOLTONE 7022" cs="FOCOLTONE 7022"></color>
+<color name="FOCOLTONE 7023" cs="FOCOLTONE 7023"></color>
+<color name="FOCOLTONE 7024" cs="FOCOLTONE 7024"></color>
+<color name="FOCOLTONE 7025" cs="FOCOLTONE 7025"></color>
+<color name="FOCOLTONE 7026" cs="FOCOLTONE 7026"></color>
+<color name="FOCOLTONE 7027" cs="FOCOLTONE 7027"></color>
+<color name="FOCOLTONE 7028" cs="FOCOLTONE 7028"></color>
+<color name="FOCOLTONE 7029" cs="FOCOLTONE 7029"></color>
+<color name="FOCOLTONE 7030" cs="FOCOLTONE 7030"></color>
+<color name="FOCOLTONE 7031" cs="FOCOLTONE 7031"></color>
+<color name="FOCOLTONE 7032" cs="FOCOLTONE 7032"></color>
+<color name="FOCOLTONE 7033" cs="FOCOLTONE 7033"></color>
+<color name="FOCOLTONE 7034" cs="FOCOLTONE 7034"></color>
+<color name="FOCOLTONE 7035" cs="FOCOLTONE 7035"></color>
+<color name="FOCOLTONE 7036" cs="FOCOLTONE 7036"></color>
+<color name="FOCOLTONE 7037" cs="FOCOLTONE 7037"></color>
+<color name="FOCOLTONE 7038" cs="FOCOLTONE 7038"></color>
+<color name="FOCOLTONE 7039" cs="FOCOLTONE 7039"></color>
+<color name="FOCOLTONE 7040" cs="FOCOLTONE 7040"></color>
+<color name="FOCOLTONE 7041" cs="FOCOLTONE 7041"></color>
+<color name="FOCOLTONE 7042" cs="FOCOLTONE 7042"></color>
+<color name="FOCOLTONE 7043" cs="FOCOLTONE 7043"></color>
+<color name="FOCOLTONE 7044" cs="FOCOLTONE 7044"></color>
+<color name="FOCOLTONE 7045" cs="FOCOLTONE 7045"></color>
+<color name="FOCOLTONE 7046" cs="FOCOLTONE 7046"></color>
+<color name="FOCOLTONE 7047" cs="FOCOLTONE 7047"></color>
+<color name="FOCOLTONE 7048" cs="FOCOLTONE 7048"></color>
+<color name="FOCOLTONE 7049" cs="FOCOLTONE 7049"></color>
+<color name="FOCOLTONE 7050" cs="FOCOLTONE 7050"></color>
+<color name="FOCOLTONE 7051" cs="FOCOLTONE 7051"></color>
+<color name="FOCOLTONE 7052" cs="FOCOLTONE 7052"></color>
+<color name="FOCOLTONE 7053" cs="FOCOLTONE 7053"></color>
+<color name="FOCOLTONE 7054" cs="FOCOLTONE 7054"></color>
+<color name="FOCOLTONE 7055" cs="FOCOLTONE 7055"></color>
+<color name="FOCOLTONE 7056" cs="FOCOLTONE 7056"></color>
+<color name="FOCOLTONE 7057" cs="FOCOLTONE 7057"></color>
+<color name="FOCOLTONE 7058" cs="FOCOLTONE 7058"></color>
+<color name="FOCOLTONE 7059" cs="FOCOLTONE 7059"></color>
+<color name="FOCOLTONE 7060" cs="FOCOLTONE 7060"></color>
+<color name="FOCOLTONE 7061" cs="FOCOLTONE 7061"></color>
+<color name="FOCOLTONE 7062" cs="FOCOLTONE 7062"></color>
+<color name="FOCOLTONE 7063" cs="FOCOLTONE 7063"></color>
+<color name="FOCOLTONE 7064" cs="FOCOLTONE 7064"></color>
+<color name="FOCOLTONE 7065" cs="FOCOLTONE 7065"></color>
+<color name="FOCOLTONE 7066" cs="FOCOLTONE 7066"></color>
+<color name="FOCOLTONE 7067" cs="FOCOLTONE 7067"></color>
+<color name="FOCOLTONE 7068" cs="FOCOLTONE 7068"></color>
+<color name="FOCOLTONE 7069" cs="FOCOLTONE 7069"></color>
+<color name="FOCOLTONE 7070" cs="FOCOLTONE 7070"></color>
+<color name="FOCOLTONE 7071" cs="FOCOLTONE 7071"></color>
+</page>
+</colors>
+<localization>
+<resource id="06a6c7fc-c4c4-4434-8ae2-53ee20edfcc9">
+<EN>FOCOLTONE Colors</EN>
+<BR>Cores FOCOLTONE </BR>
+<DE>FOCOLTONE-Farben</DE>
+<ES>Colores FOCOLTONE</ES>
+<FR>Couleurs FOCOLTONE</FR>
+<IT>Colori FOCOLTONE</IT>
+<JP>FOCOLTONE カラー</JP>
+<NL>FOCOLTONE-kleuren</NL>
+</resource>
+</localization>
+</palette>
+

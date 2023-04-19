@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <destinations>
+    <destination id="2"
+                 name="Default RGB"
+                 colorMode="RGB"
+                 dpi="300"
+								 numberOfPages="1"
+                 preview="Enhanced">
+      <preferred system="metric">
+        <size id="15" /> <!-- A4 -->
+        <size id="14" /> <!-- A3 -->
+        <size id="3" /> <!-- Letter -->
+        <size id="4" /> <!-- Legal -->
+        <size id="5" /> <!-- Tabloid -->
+      </preferred>
+      <preferred system="imperial">
+        <size id="3" /> <!-- Letter -->
+        <size id="4" /> <!-- Legal -->
+        <size id="5" /> <!-- Tabloid -->
+        <size id="15" /> <!-- A4 -->
+        <size id="14" /> <!-- A3 -->
+      </preferred>
+    </destination>
+    <destination id="3"
+                 name="Default CMYK"
+                 colorMode="CMYK"
+                 dpi="300"
+								 numberOfPages="1"
+                 preview="Enhanced with Overprints">
+      <preferred system="metric">
+        <size id="15" /> <!-- A4 -->
+        <size id="14" /> <!-- A3 -->
+        <size id="3" /> <!-- Letter -->
+        <size id="4" /> <!-- Legal -->
+        <size id="5" /> <!-- Tabloid -->
+      </preferred>
+      <preferred system="imperial">
+        <size id="3" /> <!-- Letter -->
+        <size id="4" /> <!-- Legal -->
+        <size id="5" /> <!-- Tabloid -->
+        <size id="15" /> <!-- A4 -->
+        <size id="14" /> <!-- A3 -->
+      </preferred>
+    </destination>
+    <destination id="4"
+                 name="Web"
+                 colorMode="RGB"
+                 dpi="96"
+								 numberOfPages="1"
+                 preview="Pixel Preview">
+      <preferred system="metric"
+                 grayProf="Gray Gamma 22.icc">
+        <size id="57" /> <!-- Full Screen -->
+        <size id="58" /> <!-- Web Page (960x960) -->
+        <size id="59" /> <!-- Leaderboard Ad -->
+        <size id="60" /> <!-- Medium Rectangle Ad -->
+        <size id="61" /> <!-- Wide Skyscraper Ad -->
+      </preferred>
+      <preferred system="imperial"
+                 grayProf="Gray Gamma 22.icc">
+        <size id="57" /> <!-- Full Screen -->
+        <size id="58" /> <!-- Web Page (960x960) -->
+        <size id="59" /> <!-- Leaderboard Ad -->
+        <size id="60" /> <!-- Medium Rectangle Ad -->
+        <size id="61" /> <!-- Wide Skyscraper Ad -->
+      </preferred>
+    </destination>
+  </destinations>
+
+  <!-- By default, we use the user's preferred measurement system (imperial or metric), as set in
+       Control Panel->Regional Settings, to determine the pageset.  Here we override this behaviour
+       for certain locations.  Geoids are compared against the return value of Win32's GetUserGeoID().
+  -->
+  <locales>
+    <map geoid="39">imperial</map><!--Canada-->
+    <map geoid="122">Japan</map><!--Japan-->
+    <map geoid="166">imperial</map><!--Mexico-->
+  </locales>
+</content>

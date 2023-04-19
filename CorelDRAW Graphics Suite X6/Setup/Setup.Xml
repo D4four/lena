@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ICA lang="use_os">
+  <Setups productcode="ICA.productcode">
+    
+    <Msi productcode="DotNETFull" file="Redist\DotNet\dotnetfx35.exe" cmdline="/qb /norestart" condition="Prerequisite" scheduled="0" adminsupport="0" progresstext="" />
+    <Msi productcode="DotNETDnld" file="Redist\DotNet\dotNetFx35Setup.exe" cmdline="/norestart" condition="Prerequisite" scheduled="0" adminsupport="0" progresstext="" />
+    <Msi productcode="DotNET4" file="Redist\DotNet\dotNetFx40_Client_x86_x64.exe" cmdline="/passive /norestart" condition="Prerequisite" scheduled="0" adminsupport="0" progresstext="" />
+    <Msi productcode="DotNET4Dnld" file="Redist\DotNet\dotNetFx40_Full_setup.exe" cmdline="/passive /norestart" condition="Prerequisite" scheduled="0" adminsupport="0" progresstext="" />
+
+    <Msi productcode="MsiEngine" file="Redist\Msi\WindowsXP-KB942288-v3-x86.exe" cmdline="/passive /overwriteoem /nobackup /norestart" condition="Prerequisite" scheduled="0" adminsupport="0" progresstext="" />
+    <Msi productcode="KB974373-x64" file="wusa.exe" cmdline="&quot;[SETUP.EXE.DIR]Redist\DotNet\Windows6.0-KB974373-x64.msu&quot; /norestart /quiet /norestart" condition="Prerequisite" scheduled="0" adminsupport="0" progresstext="Str.Initializing.Text" ignorereturn="1" />
+    <Msi productcode="KB974373-x86" file="wusa.exe" cmdline="&quot;[SETUP.EXE.DIR]Redist\DotNet\Windows6.0-KB974373-x86.msu&quot; /norestart /quiet /norestart" condition="Prerequisite" scheduled="0" adminsupport="0" progresstext="Str.Initializing.Text" ignorereturn="1" />
+    
+    
+	<Msi productcode="{CBC1BFA3-E641-4FCA-8EFA-77E2B7D7E552}" file="CGS16\Setup_x64.msi" progresstext="Str.ProgressText.Common" cmdline="ICA_ALL_PUBLIC" managed="1" CorelUninstaller="1">
+      <Dbm productcode="{35869A6C-BA31-4F23-B52D-BC1B1E41EC1B}" file="CGS16\Common_x64.msi" progresstext="Str.ProgressText.Common" cmdline="ESTIMATEDSIZE=[ICA.DiskSpace.Drive.Required.0]" CorelUninstaller="1"/>
+      <Dbm productcode="{27AE72A4-B217-4CDC-B82B-3311E9D7460E}" file="CGS16\Draw_x64.msi" progresstext="Str.ProgressText.Draw" CorelUninstaller="1"/>
+      <Dbm productcode="{6099F026-0A98-4D40-9B3D-ED2123A8CBD0}" file="CGS16\Redist_x64.msi" progresstext="Str.ProgressText.Common" adminsupport="0" CorelUninstaller="1"/>
+      <Dbm productcode="{D7C2687D-924E-4485-B367-C7D95CBF8DDD}" file="CGS16\PHOTO-PAINT_x64.msi" progresstext="Str.ProgressText.Paint" CorelUninstaller="1"/>
+      <Dbm productcode="{E699230D-4B5E-411E-9F45-FF50789B18DD}" file="CGS16\Filters_x64.msi" progresstext="Str.ProgressText.Common" CorelUninstaller="1"/>
+      <Dbm productcode="{1967EF95-E00B-4669-8B1C-A589BE8BF24F}" file="CGS16\Capture_x64.msi" progresstext="Str.ProgressText.Capture" CorelUninstaller="1"/>
+      <Dbm productcode="{96AAAB95-AEBE-437A-B7CA-37C7BE13FFE9}" file="CGS16\Connect_x64.msi" progresstext="Str.ProgressText.Common" CorelUninstaller="1"/>
+      <Dbm productcode="{7B79AE44-9B76-4815-84E5-ACAC3F0F0278}" file="CGS16\VideoBrowser_x64.msi" progresstext="Str.ProgressText.Common" CorelUninstaller="1"/>
+      <Dbm productcode="{7386B5FA-8715-481D-821F-7785110506DF}" file="CGS16\CustomData_x64.msi" progresstext="Str.ProgressText.Common" CorelUninstaller="1"/>
+      <Dbm productcode="{2C72B5E4-AA34-4F1A-8C7E-468530F9F6A3}" file="CGS16\Photozoom_x64.msi" progresstext="Str.ProgressText.Common" CorelUninstaller="1"/>
+      <Dbm productcode="{BB65D262-3EBC-4F10-89D9-67A320E94EAA}" file="CGS16\EN_x64.msi" progresstext="Str.ProgressText.EN" CorelUninstaller="1"/>
+      <Dbm productcode="{0017EDB1-6F54-4EE2-8AD6-D8BA048C1F1F}" file="CGS16\RU_x64.msi" progresstext="Str.ProgressText.RU" CorelUninstaller="1"/>
+
+
+
+    <Dbm productcode="{80411B38-DEF6-4E32-BE6B-796015325109}" file="CGS16\IPMT3_x64.msi" progresstext="Str.ProgressText.Common" CorelUninstaller="1" cmdline="PCUSOURCEID=[PCUSOURCEID] PREMIUMFEATURES_PCUSOURCEID=[PREMIUMFEATURES_PCUSOURCEID] ALLOW_PRODUCTUPDATES=&quot;[ALLOW_PRODUCTUPDATES]&quot; SERIALNUMBER=&quot;[SERIALNUMBER]&quot; USERNAME=&quot;[USERNAME]&quot; SHOW_EULA=[AcceptLicense] SKU=[SKU]" />
+      <Dbm productcode="{B6DF7031-2843-44FD-9CAB-DECAB4257456}" file="CGS16\IPM_x64.msi" progresstext="Str.ProgressText.Common" CorelUninstaller="1" cmdline="PCUSOURCEID=[PCUSOURCEID] PREMIUMFEATURES_PCUSOURCEID=[PREMIUMFEATURES_PCUSOURCEID] ALLOW_PRODUCTUPDATES=&quot;[ALLOW_PRODUCTUPDATES]&quot; SERIALNUMBER=&quot;[SERIALNUMBER]&quot; USERNAME=&quot;[USERNAME]&quot; SHOW_EULA=[AcceptLicense] SKU=[SKU]" />
+
+      <Dbm productcode="{DDE82E3D-20C4-48E1-AE1D-B1F10E42CA44}" file="CGS16\WT_x64.msi" progresstext="Str.ProgressText.Common" CorelUninstaller="1" cmdline="DEFAULT_UI_DIALECT=en" />            
+   
+      <Dbm productcode="{3933C06C-8239-432B-87FC-F2BDC5B49A10}" file="CGS16\FontNav_x64.msi" progresstext="Str.ProgressText.FontNav" cmdline="DEFAULT_UI_DIALECT=[SETUP_LANG]" CorelUninstaller="1"/>
+      <Dbm productcode="{10762393-1B90-4AC2-AF1A-4C0C04AE303F}" file="CGS16\VBA_x64.msi" adminsupport="1" progresstext="Str.ProgressText.VBA" CorelUninstaller="1"/>
+      <Dbm productcode="{1E3A578C-0A7D-4820-990F-B7545C0B2303}" file="CGS16\CGS_VSTA_x64.msi" adminsupport="1" progresstext="Str.ProgressText.VSTA" CorelUninstaller="1"/>
+     
+      <Dbm productcode="ShellExt.msi" file="CGS16\ShellExt.msi" condition="CGS_ScheduleWindowsShellExtention" progresstext="Str.ProgressText.ShellExt" cmdline="INSTALLDIR=&quot;[CommonFiles64Folder]Corel\Shared\Shell Extension&quot;" />  
+      <Dbm productcode="32BitKey.msi" file="CGS16\32BitKey.msi" adminsupport="0" condition="CGS_ScheduleWindowsShellExtention" progresstext="Str.ProgressText.ShellExt" cmdline="INSTALLDIR=&quot;[CommonFiles64Folder]Corel\Shared\Shell Extension&quot;" />
+      
+      <Dbm productcode="{90120064-0070-0000-0000-4000000FF1CE}" file="CGS16\VBA\Vba71.msi" condition="Install.MsVba" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60409-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1033.MSI" condition="Install.MsVba.1033" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60404-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1028.MSI" condition="Install.MsVba.1028" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60407-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1031.MSI" condition="Install.MsVba.1031" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F6040C-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1036.MSI" condition="Install.MsVba.1036" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60410-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1040.MSI" condition="Install.MsVba.1040" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60411-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1041.MSI" condition="Install.MsVba.1041" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60412-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1042.MSI" condition="Install.MsVba.1042" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60413-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1043.MSI" condition="Install.MsVba.1043" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60416-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1046.MSI" condition="Install.MsVba.1046" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F6041D-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_1053.MSI" condition="Install.MsVba.1053" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60804-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_2052.MSI" condition="Install.MsVba.2052" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+      <Dbm productcode="{90F60C0A-7000-11D3-8CFE-0150048383C9}" file="CGS16\VBA\Vba71_3082.MSI" condition="Install.MsVba.3082" progresstext="Str.ProgressText.VBA" adminsupport="0" />
+
+      <Dbm productcode="{BDBFAC49-8877-472F-876B-75ADB7DBC955}" file="ICA_x64.msi" CorelUninstaller="1" cmdline="ESTIMATEDSIZE=&quot;[ICA.DiskSpace.Drive.Required.0]&quot;"  nomodify="1" progresstext="Str.ProgressText.Common" adminsupport="0" comment="all Dbm nodes need to be in the same folder as their parent Msi node, otherwise you can not support admin installs - this one is listed under a Msi node for admin installs only" />
+      <SupportFile file="CGS16\Redist_x64.cab" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite BR.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite CS.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite CT.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite CZ.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite DE.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite EN.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite ES.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite FR.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite IT.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite JP.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite KR.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite MA.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite NL.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite PL.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite RU.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite SU.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite SV.sms" />
+      <SupportFile file="CGS16\Administrator\CorelDRAW Graphics Suite.zap" />
+      <SupportFile file="CGS16\w_cproc_p_11.1.048_redist_intel64.exe" />
+      <SupportFile file="Redist\DotNet\Windows6.0-KB974373-x64.msu" />
+      <SupportFile file="Redist\DotNet\Windows6.0-KB974373-x86.msu" />
+      <SupportFile file="Setup.xml" />
+      
+    </Msi>
+
+    <Msi productcode="{AEB9948B-4FF2-47C9-990E-47014492A0FE}" file="Redist\MSXML\msxml6.msi" cmdline="ALLUSERS=1 ADDLOCAL=ALL" condition="Install.MsXml"  adminsupport="0" progresstext="Str.ProgressText.XML" />
+    <Msi productcode="{FF59CB23-1800-4047-B40C-E20AE7051491}" file="Redist\MSXML\msxml6_x64.msi" cmdline="ALLUSERS=1 ADDLOCAL=ALL" condition="Install.MsXml.64"  adminsupport="0" progresstext="Str.ProgressText.XML" />
+    <Msi productcode="Ghostscript" file="CGS16\Ghostscript.msi" cmdline="ALLUSERS=1 ADDLOCAL=ALL" adminsupport="0" condition="GPL=1"  progresstext="Str.ProgressText.Common" />
+	<Msi productcode="IntelCompiler_X64" file="CGS16\w_cproc_p_11.1.048_redist_intel64.exe" cmdline="/S /V/qn" adminsupport="0" progresstext="Str.ProgressText.IntelCompiler" />   
+    <!-- Vsta base -->
+    <Msi productcode="{299C0434-4F4E-341F-A916-4E07AEB35E79}" file="CGS16\VSTA\trin_art.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{AA4A4B2C-0465-3CF8-BA76-27A027D8ACAB}_Draw" file="CGS16\VSTA\trin_aide.msi" cmdline="REBOOT=ReallySuppress HOSTID=&quot;CorelDRAW&quot;" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{AA4A4B2C-0465-3CF8-BA76-27A027D8ACAB}_Paint" file="CGS16\VSTA\trin_aide.msi" cmdline="REBOOT=ReallySuppress HOSTID=&quot;CorelPHOTOPAINT&quot;" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\trin_aide.cab" />
+    <SupportFile file="CGS16\VSTA\trin_art.cab" />
+
+    <!-- Vsta langs -->
+    <Msi productcode="{8CCCE251-E495-328B-B905-74DBC0790612}" file="CGS16\VSTA\Language Packs\1028 Chinese - Taiwan\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{D9B9BA28-6B97-3EF8-9CED-C3388F73D1E1}" file="CGS16\VSTA\Language Packs\1028 Chinese - Taiwan\trin_artl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1028 Chinese - Taiwan\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1028 Chinese - Taiwan\trin_adtl.cab" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1028 Chinese - Taiwan\trin_artl.cab" />
+
+    <Msi productcode="{8E87B944-4815-3C5E-947F-5035C9F64362}" file="CGS16\VSTA\Language Packs\1031 German - Germany\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{76DAEC83-AF7B-333C-8A53-83D7C7D39199}" file="CGS16\VSTA\Language Packs\1031 German - Germany\trin_artl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1031 German - Germany\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1031 German - Germany\trin_adtl.cab" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1031 German - Germany\trin_artl.cab" />
+
+    <Msi productcode="{3514CD14-6F9C-39C9-94F5-6644CAD122CF}" file="CGS16\VSTA\Language Packs\1036 French - France\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{8A8F0E9B-4FC9-3C40-9AFB-9AEEFE81D6A7}" file="CGS16\VSTA\Language Packs\1036 French - France\trin_artl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1036 French - France\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1036 French - France\trin_adtl.cab" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1036 French - France\trin_artl.cab" />
+
+    <Msi productcode="{90E6C0AA-3DF3-31E2-97B1-B91DB28E46B7}" file="CGS16\VSTA\Language Packs\1040 Italian - Italy\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{8BFB850C-AD23-326D-99C8-D42DFDCF7EA0}" file="CGS16\VSTA\Language Packs\1040 Italian - Italy\trin_artl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1040 Italian - Italy\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1040 Italian - Italy\trin_adtl.cab" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1040 Italian - Italy\trin_artl.cab" />
+
+    <Msi productcode="{2C39CCE7-1098-3BC1-94D6-A63D1772DD82}" file="CGS16\VSTA\Language Packs\1041 Japanese - Japan\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{865D7FF8-3BC0-35A4-8D4F-7CFBFBC6D8F5}" file="CGS16\VSTA\Language Packs\1041 Japanese - Japan\trin_artl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1041 Japanese - Japan\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1041 Japanese - Japan\trin_adtl.cab" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1041 Japanese - Japan\trin_artl.cab" />
+    
+    <Msi productcode="{548F0C47-AF9A-3A01-B988-295602178221}" file="CGS16\VSTA\Language Packs\1042 Korean - Korea\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{E05097FC-1319-35F1-8466-B41468F32FF4}" file="CGS16\VSTA\Language Packs\1042 Korean - Korea\trin_artl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1042 Korean - Korea\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1042 Korean - Korea\trin_adtl.cab" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1042 Korean - Korea\trin_artl.cab" />
+    
+    <Msi productcode="{B35B324C-1C77-37FC-B918-C6F4E1744C76}" file="CGS16\VSTA\Language Packs\1046 Portuguese - Brazil\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1046 Portuguese - Brazil\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\1046 Portuguese - Brazil\trin_artl.cab" />
+
+    <Msi productcode="{A7B9659A-A6F1-3090-8E3F-6074767A0B76}" file="CGS16\VSTA\Language Packs\2052 Chinese - People's Republic of China\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{5CCE6B54-901F-3441-B12D-CDFF1E37DD4D}" file="CGS16\VSTA\Language Packs\2052 Chinese - People's Republic of China\trin_artl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\2052 Chinese - People's Republic of China\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\2052 Chinese - People's Republic of China\trin_adtl.cab" />
+    <SupportFile file="CGS16\VSTA\Language Packs\2052 Chinese - People's Republic of China\trin_artl.cab" />
+    
+    <Msi productcode="{6D972506-DC01-39BC-A5DD-06DA86E00031}" file="CGS16\VSTA\Language Packs\3082 Spanish - Modern Sort - Spain\trin_adtl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <Msi productcode="{4A28444E-0532-3264-B07D-5AFE590E30BE}" file="CGS16\VSTA\Language Packs\3082 Spanish - Modern Sort - Spain\trin_artl.msi" cmdline="REBOOT=ReallySuppress" condition="" adminsupport="0" progresstext="Str.ProgressText.VSTA.exe" ignorereturn="1" scheduled="0" />
+    <SupportFile file="CGS16\VSTA\Language Packs\3082 Spanish - Modern Sort - Spain\expdbgsetup.exe" />
+    <SupportFile file="CGS16\VSTA\Language Packs\3082 Spanish - Modern Sort - Spain\trin_adtl.cab" />
+    <SupportFile file="CGS16\VSTA\Language Packs\3082 Spanish - Modern Sort - Spain\trin_artl.cab" />
+
+    <Msi productcode="{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}" file="ICA_x64.msi" condition="ACTION=ADMIN" comment="Added here for admin support only, productcode is only used for local installs and should be unique -- therefore this node has a bogus one -- the other option is to explictly list all ICA files in SupportFile nodes -- NOTE the condition must be ACTION=ADMIN"/>
+
+    <Repair productcode="{7F05E704-30A6-421A-97A7-8EEB1C7FF013}" comment="CDGSX4 - Draw.msi" />
+    <Repair productcode="{7F05E704-30A6-421A-97A7-8EEB1C7FF014}" comment="CDGSX4 - PP.msi" />
+    <Repair productcode="{7F05E704-30A6-421A-97A7-8EEB1C7FF012}" comment="CDGSX4 - Capture.msi " />
+    <Repair productcode="{DCDAB2ED-5741-4C30-A1A4-0FCB8A529000}" comment="CDGSX4 - Setup.msi (T)" />
+    <Repair productcode="{7F05E704-30A6-421A-97A7-8EEB1C7FF000}" comment="CDGSX4 - Setup.msi (R)" />
+    <Repair productcode="{B9FA9F15-A1F3-4DB1-AD49-0B9351843FAA}" comment="CDGSX4 - Draw.msi (Ess)" />
+    <Repair productcode="{07B62101-7EBD-434A-94B1-B38063BE5516}" comment="CDGSX4 - PP.msi (Ess)" />
+    <Repair productcode="{9043B9A0-9505-405B-8202-E7167A38A89C}" comment="CDGSX4 - Setup.msi (Ess)" />
+
+    <Repair productcode="{834F4E2F-E9DF-4FA9-8499-FF6B91012898}" comment="CDEX5 - Setup.msi (R)" />
+    <Repair productcode="{AB83ACEC-2B1C-494B-909E-6028B57E0FF2}" comment="CDEX5 - Setup.msi (T)" />
+    <Repair productcode="{85E8F38F-0303-401E-A518-0302DF88EB07}" comment="CDEX5 - Draw.msi" />
+    <Repair productcode="{89BA6E81-B60A-49BC-B283-80560A9E60DF}" comment="CDEX5 - Photo-paint.msi" />
+
+    <Repair productcode="{368FCA18-C510-4F87-B60E-192B9BDBAE3D}" comment="CDGSX5 - Setup.msi (R)" />
+    <Repair productcode="{B399C91E-96F2-4265-9884-1C9A10E9FCF4}" comment="CDGSX5 - Setup.msi (T)" />
+    <Repair productcode="{62978C1C-FE2E-4A4E-851D-3EB406C9EBC2}" comment="CDGSX5 - Draw.msi" />
+    <Repair productcode="{A1B04B6B-25BB-48AD-8BD9-D31A86E89F3E}" comment="CDGSX5 - PHOTO-PAINT.msi" />
+    <Repair productcode="{5B6B70AD-D344-4AA6-8A24-1B0B5BFCFFCD}" comment="CDTSX5 - Setup.msi (R)" />
+    <Repair productcode="{423B52C6-78D2-4495-B29B-65C8886086B7}" comment="CDTSX5 - Setup.msi (T)" />      
+
+    <Repair productcode="{80D0E22C-24CA-4CAA-A49A-991CC56D3A65}" comment="CDGSX6 - Setup.msi (R)" />
+    <Repair productcode="{7F9F6864-8CAB-440C-AF44-030D0135666D}" comment="CDGSX6 - Setup.msi (T)" />
+    <Repair productcode="{C5262276-0075-498B-B80F-7D997482E4DB}" comment="CDGSX6 - Draw.msi" />
+    <Repair productcode="{6F53FB68-6620-423E-B7CD-B8205655B421}" comment="CDGSX6 - PHOTO-PAINT.msi" />
+    <Repair productcode="{7CCD75BD-5528-4FE1-90D2-392D661A2BF1}" comment="CDGSX6 - CGS_VSTA.msi" />
+
+
+    </Setups>
+
+  <FeatureTree>
+
+    <Feature name="Str.Feature.MainApp" desc="Str.Feature.MainApp.Desc" property="MainApp" expanded="1" size="28000" sizerfn="5000">
+
+      <Feature name="Connect" desc="" property="_CONNECT_APP" required="1" size="30000" />
+      <Feature name="VideoBrowser" desc="" property="_VIDEO" required="1" size="12288" />
+      <Feature name="Ipm" desc="" property="_Messaging" required="1" dest="CommonAppDataFolder"  size="7000" sizerfn="29000" />
+      <Feature name="Setup" desc="" property="_SETUPFILES" required="1" size="15360" sizerfn="20480" />
+      
+
+      <Feature name="Str.Feature.Lang" desc="" property="LANGUAGES" checked="1">
+        <Feature name="Str.Feature.Lang.EN" desc="" property="EN" size="159000" condition="Include.EN=1" checked="0" />
+        <Feature name="Str.Feature.Lang.BR" desc="" property="BR" size="157000" condition="Include.BR=1" checked="0" />
+        <Feature name="Str.Feature.Lang.DE" desc="" property="DE" size="172000" condition="Include.DE=1" checked="0" />
+        <Feature name="Str.Feature.Lang.ES" desc="" property="ES" size="151000" condition="Include.ES=1" checked="0" />
+        <Feature name="Str.Feature.Lang.FR" desc="" property="FR" size="157600" condition="Include.FR=1" checked="0" />
+        <Feature name="Str.Feature.Lang.IT" desc="" property="IT" size="154000" condition="Include.IT=1" checked="0" />
+        <Feature name="Str.Feature.Lang.NL" desc="" property="NL" size="150600" condition="Include.NL=1" checked="0" />        
+        <Feature name="Str.Feature.Lang.CZ" desc="" property="CZ" size="150600" condition="Include.CZ=1" checked="0" />
+        <Feature name="Str.Feature.Lang.MA" desc="" property="MA" size="150600" condition="Include.MA=1" checked="0" />
+        <Feature name="Str.Feature.Lang.PL" desc="" property="PL" size="150600" condition="Include.PL=1" checked="0" />
+        <Feature name="Str.Feature.Lang.RU" desc="" property="RU" size="150600" condition="Include.RU=1" checked="0" />
+        <Feature name="Str.Feature.Lang.SU" desc="" property="SU" size="150600" condition="Include.SU=1" checked="0" />
+        <Feature name="Str.Feature.Lang.SV" desc="" property="SV" size="150600" condition="Include.SV=1" checked="0" />
+        <Feature name="Str.Feature.Lang.TR" desc="" property="TR" size="150600" condition="Include.TR=1" checked="0" />
+        <Feature name="Str.Feature.Lang.CS" desc="" property="CS" size="150600" condition="Include.CS=1" checked="0" />
+        <Feature name="Str.Feature.Lang.CT" desc="" property="CT" size="150600" condition="Include.CT=1" checked="0" />
+        <Feature name="Str.Feature.Lang.JP" desc="" property="JP" size="150600" condition="Include.JP=1" checked="0" />
+      </Feature>
+      
+      <Feature name="Str.Feature.Draw" desc="Str.Feature.Draw.Desc" property="Draw" size="141464">
+        <Feature name="Str.Feature.Draw.ProgramFiles" desc="Str.Feature.Draw.ProgramFiles.Desc" property="DrPFiles" required="1" />
+        <Feature name="Str.Feature.Draw.Help" desc="Str.Feature.Draw.Help.Desc" property="DrHFiles" />        
+        <Feature name="Str.Feature.Draw.Labels" desc="Str.Feature.Draw.Labels.Desc" property="DrLabels" />
+        <Feature name="Str.Feature.Draw.Presets" desc="Str.Feature.Draw.Presets.Desc" property="DrPres" />
+        <Feature name="Str.Feature.Draw.Tiles" desc="Str.Feature.Draw.Tiles.Desc" property="DrTiFra" />
+      </Feature>
+   
+      <Feature name="Str.Feature.PP" desc="Str.Feature.PP.Desc" property="PP" size="84312">
+        <Feature name="Str.Feature.PP.ProgramFiles" desc="Str.Feature.PP.ProgramFiles.Desc" property="PPPFiles" required="1"  />
+        <Feature name="Str.Feature.PP.Help" desc="Str.Feature.PP.Help.Desc" property="PPHFiles" />        
+        <Feature name="Str.Feature.PP.Tiles" desc="Str.Feature.PP.Tiles.Desc" property="PPTiFra" />
+        <Feature name="Str.Feature.PhotoZoom" desc="Str.Feature.PhotoZoom.Desc" property="Photozoom" />
+      </Feature>
+     
+      <Feature name="Str.Feature.Capture" desc="Str.Feature.Capture.Desc" property="Capture" size="1486">
+        <Feature name="Str.Feature.Capture.ProgramFiles" desc="Str.Feature.Capture.ProgramFiles.Desc" property="CaPFiles" required="1" />
+        <Feature name="Str.Feature.Capture.Help" desc="Str.Feature.Capture.Help.Desc" property="CaHFiles" />
+      </Feature>
+
+      <Feature name="Str.Feature.CorelConnect" desc="Str.Feature.CorelConnect.Desc" property="CONNECT" size="30000" />
+      
+      <Feature name="Str.Feature.Utilities.FontNav" desc="Str.Feature.Utilities.FontNav.Desc" property="FontNav" size="4000" />
+
+      <Feature name="Str.GPL" desc="Str.GPL" property="GPL" size="23113" dest="ProgramFilesFolder" />
+    
+      <Feature name="Str.Feature.Utilities" desc="" property="Utility" >
+        <Feature name="Str.Feature.Utilities.Duplexing" desc="Str.Feature.Utilities.Duplexing.Desc" property="DrDupWiz" size="500" />
+        <Feature name="Str.Feature.Utilities.VBA" desc="Str.Feature.Utilities.VBA.Desc" property="VBAFiles" dest="CommonFilesFolder" size="35480" />
+        <Feature name="Str.Feature.Utilities.WindowsShellExtension" desc="Str.Feature.Utilities.WindowsShellExtension.Desc" dest="CommonFilesFolder" property="ShellExt" size="5000" />
+        <Feature name="Str.Feature.Utilities.VSTA" desc="Str.Feature.Utilities.VSTA.Desc" property="VSTA" dest="CommonFilesFolder" size="200000" />
+      </Feature>
+    
+      <Feature name="Str.Feature.Filters" desc="" property="Filters" checked="1" required="1" size="33023" />
+      <Feature name="Str.Feature.Filters.Additional" desc="Str.Feature.Filters.Additional.Desc" property="FiltersAdditional" size="1110" checked="1" />
+      
+      <Feature name="Str.Feature.UserGuide" desc="Str.Feature.UserGuide.Desc" property="UseGuide" size="25600" />
+    
+      <Feature name="Str.Feature.WT" desc="Str.Feature.WT.Desc" property="WTools" size="15360" >
+        <Feature name="Str.Feature.WT.Afrikaans" desc="Str.Feature.WT.Afrikaans.Desc" property="Afrika" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Catalan" desc="Str.Feature.WT.Catalan.Desc" property="Catalan" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Czech" desc="Str.Feature.WT.Czech.Desc" property="Czech" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Danish" desc="Str.Feature.WT.Danish.Desc" property="Danish" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Dutch" desc="Str.Feature.WT.Dutch.Desc" property="Dutch" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.English"  desc="Str.Feature.WT.English.Desc" property="English" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Finnish" desc="Str.Feature.WT.Finnish.Desc" property="Finnish" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.French" desc="Str.Feature.WT.French.Desc" property="French" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Galician" desc="Str.Feature.WT.Galician.Desc" property="Galician" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.German" desc="Str.Feature.WT.German.Desc" property="German" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Greek" desc="Str.Feature.WT.Greek.Desc" property="Greek" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Icelandic"  desc="Str.Feature.WT.Icelandic.Desc" property="Iceland" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Italian" desc="Str.Feature.WT.Italian.Desc" property="Italian" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Norwegian" desc="Str.Feature.WT.Norwegian.Desc" property="Norway" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Polish" desc="Str.Feature.WT.Polish.Desc" property="Polish" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Portuguese" desc="Str.Feature.WT.Portuguese.Desc" property="Portugue" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Russian" desc="Str.Feature.WT.Russian.Desc" property="Russian" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Slovak"  desc="Str.Feature.WT.Slovak.Desc" property="Slovak" size="1024"  checked="0" />
+        <Feature name="Str.Feature.WT.Sotho" desc="Str.Feature.WT.Sotho.Desc" property="Sotho" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Spanish" desc="Str.Feature.WT.Spanish.Desc" property="Spanish" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Swedish" desc="Str.Feature.WT.Swedish.Desc" property="Swedish" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Tswana" desc="Str.Feature.WT.Tswana.Desc" property="Tswana" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Turkish" desc="Str.Feature.WT.Turkish.Desc" property="Turkish" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Xhosa"  desc="Str.Feature.WT.Xhosa.Desc" property="Xhosa" size="1024" checked="0" />
+        <Feature name="Str.Feature.WT.Zulu"  desc="Str.Feature.WT.Zulu.Desc" property="Zulu" size="1024" checked="0" />
+      </Feature>
+
+    <Feature name="CopyCabs" desc="CopyCabs" property="CACHE_SETUP_SOURCE" condition="!Installed" />
+
+  </Feature>
+  </FeatureTree>
+     
+  
+  <SharedDiskCost>
+    <Size size="7349" feature="|PPPFiles|DrPFiles|" />
+    <Size size="47852" feature="|DrTiFra|PPPFiles|" />
+  </SharedDiskCost>
+
+	<SourceFiles>
+        	<SourceFile file="CGS16\*.*"/>
+  	</SourceFiles>
+  <RestartManager>
+    <App file="[INSTALLDIRRES]Programs64\BarCode.exe" />
+    <App file="[INSTALLDIRRES]Programs64\Cap.exe" />
+    <App file="[INSTALLDIRRES]Programs64\CorelDRW.exe" />
+    <App file="[INSTALLDIRRES]Programs64\CorelPP.exe" />
+    <App file="[INSTALLDIRRES]Programs64\CSBProf.exe" />
+    <App file="[INSTALLDIRRES]Programs64\PrintWiz.exe" />
+    <App file="[INSTALLDIRRES]Connect64\Connect.exe" />
+    <App file="[INSTALLDIRRES]FontNav64\FontNav.exe" />
+    <App file="[INSTALLDIRRES]WritingTools\Bin64\WT14sptlEN.exe" />
+  </RestartManager>
+
+  <UserFiles>
+    <UserFile file="Corel\CorelDRAW Graphics Suite X6\*.*"/>
+    <UserFile file="Corel\Messages\540240626_807001\*.*"/>
+    <UserFile file="Corel\Messages\540227504_807001\*.*"/>
+   
+  </UserFiles>
+
+
+	<Properties>
+    <Property name="ICA.Dlg.AllowDrag" value="1" />
+    <Property name="MAX_PATH" value="90" />
+    <Property name="AcceptLicense" value="1" />
+    <Property name="SERIALNUMBER" value="DR16R22-MGRR8H9-DUWNZNK-BMMGJ78" persist="1" comment="When you remove the hardcoded serial number, just set the value to blank, do not remove this node or the SERIALNUMBER will not be saved after you perform an admin install " />
+    <Property name="ALLOW_PRODUCTUPDATES" value="1" persist="1" comment="needs to be saved from admin installs, Script.dll will default it off if we are running an admin setup" />
+    <Property name="NETWORKINSTALLDIR" value="" persist="1" comment="This property contains the path to the Content for Network installs"/>
+    <Property name="ICA.Default.InstallFolder" value="CorelDRAW Graphics Suite X6" />
+    <Property name="ICA.Default.TargetDir" value="CorelDRAW Graphics Suite X6 (x64)" />    
+<!--    <Property name="ICA.Default.InstallDir" value="Corel\CorelDRAW Graphics Suite X6" /> -->
+    <Property name="ICA.LogOptions" value="iearmo" />
+    <Property name="YAHOOTOOLBAR" value="0" />
+    <Property name="CACHE_SETUP_SOURCE" value="0" />
+    <Property name="CACHE_SETUP_SOURCE_SHOWUI" value="Show" comment="Hide - will remove the Copy Installation Files option" />
+    <Property name="NO_CONTENT_UI" value="1" comment="1 - will Hide the prompt for path to Content in AdminDes.htm" />    
+    <Property name="ShowApplicationLanguageSelector" value="1" comment="use 1 - to show the Extra's tab in the UI" />
+    <Property name="Include.Extras.Page" value="1" comment="use 1 - to enable the Product Languages drop down in the UI" />
+    <Property name="ICA.Maintenance.Mode" value="Modify" comment="sets the default radio button on ARP.htm" />
+    <Property name="Include.Default" value="EN" />
+    <Property name="Include.BR" value="0" />
+    <Property name="Include.DE" value="0" />
+    <Property name="Include.EN" value="1" />
+    <Property name="Include.ES" value="0" />
+    <Property name="Include.FR" value="0" />
+    <Property name="Include.IT" value="0" />
+    <Property name="Include.NL" value="0" />
+    <Property name="Include.SU" value="0" />
+    <Property name="Include.SV" value="0" />
+    <Property name="Include.CZ" value="0" />
+    <Property name="Include.PL" value="0" />
+    <Property name="Include.MA" value="0" />
+    <Property name="Include.RU" value="1" />
+    <Property name="Include.CT" value="0" />
+    <Property name="Include.CS" value="0" />
+    <Property name="Include.JP" value="0" />
+    <Property name="Include.KR" value="0" />
+    <Property name="Include.TR" value="0" />
+    <Property name="INCLUDE_VBA" value="1" comment="change to 1 to include VBA"/>
+    <Property name="Vba.CmdLine.Install" value="ADDLOCAL=ALL ALLUSERS=1 REBOOT=ReallySuppress" />
+    <Property name="Vba.CmdLine.Remove" value="REMOVE=ALL REBOOT=ReallySuppress" />
+    <Property name="PRODUCTSHOWSERIAL" value="1" />
+    <Property name="PCUSOURCEID" value="807001" />
+    <Property name="PREMIUMFEATURES_PCUSOURCEID" value="807001" />
+    <Property name="PCU_LICID" value="540240626" />
+    <Property name="PREMIUMFEATURES_PCU_LICID" value="540227504" />
+    <Property name="PIDPREFIX" value="DR16" />
+    <Property name="NLRFILE" value="DRPCUNLR.DLL" />
+    <Property name="GetMsgs.CmdLine.Server" value="http://mc-cs-ihs-stg/servlet/MessageCenterServer"/>
+    <Property name="Script.RT.GUID" value="{C478443A-7E62-4AFF-9B34-5E020F6A50CC}" />
+    <Property name="GPL" value="0" />
+    <Property name="ICA_DotNETVersionShipped" value="4" />
+    <Property name="SerChckModule" value="SerChckv2.DLL" />
+  	<Property name="64BIT" value="1" />
+    <Property name="NLRFILE_SUB" value="RMPCUNLR.DLL"/>
+    <Property name="ProductRegKey1" value="CorelDRAW\16.0\IPM_CDGS"/>
+    <Property name="ProductRegKey_PremiumFeatures1" value="CorelDRAW\16.0\IPM_CDGS\PremiumFeatures"/>    
+    <Property name="SkipGetMsgs" value="1" comment="set to 0 or blank to enable" />    
+  </Properties>
+</ICA>
+

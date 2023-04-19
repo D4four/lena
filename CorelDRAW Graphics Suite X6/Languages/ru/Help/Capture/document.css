@@ -1,0 +1,26 @@
+/* Default style for links */
+a:link    { color: #003C74; text-decoration: none;}
+a:visited { color: #7C9EB5; text-decoration: none;}
+a:hover   { color: #324f85; text-decoration: underline;}
+a:active  { color: #324f85; text-decoration: underline;}
+
+/* Default style */
+body
+{
+ background-color:#FFFFFF;
+
+}
+
+/* Use this style for footnote numbers */
+span.Footnote
+{
+  font-size: small;
+  vertical-align: super
+}
+
+/* Use this style to control spacing for inline related topics tags */
+div.WWHInlineRelatedTopics
+{
+  margin-top:    8px;
+  margin-bottom: 4px;
+}

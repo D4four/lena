@@ -1,0 +1,102 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+    />
+    
+
+    <script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script language="jscript" type="text/jscript">
+        
+        function OnBodyLoad()
+        {
+         
+        }
+
+    </script>
+
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+    
+    <!-- page content panel -->
+    <div id="idPanel">
+    
+        <div class="DlgHeader" style="top: 20px;" >
+            <Loc>检测发现您的系统中运行了以下应用程序</Loc>
+        </div>        
+        
+        <div class="DlgBlock" style="top: 55px;" >
+            <Loc>为了最大程度地降低重新启动计算机的必要性，强烈建议您先关闭这些应用程序，然后再继续。</Loc><br /><br />
+            <Loc>请关闭这些应用程序，然后单击 <b>OK</b> 以继续。</Loc>
+        </div>
+        
+        <div class="DlgBlock" style="top: 130px;
+                                     BORDER-LEFT-COLOR: silver; BORDER-BOTTOM-COLOR: silver; 
+                                     BORDER-TOP-COLOR: silver; BORDER-RIGHT-COLOR: silver;
+                                     BORDER-TOP-STYLE: double; BORDER-RIGHT-STYLE: double;
+                                     BORDER-LEFT-STYLE: double; BORDER-BOTTOM-STYLE: double;
+                                     background-color: #f1f1f1;
+                                     height: 180px;
+                                     width: 725px;">
+                                     
+            <div style="margin: 10px;">
+                <label ICA:Property="Files.In.Use.DisplayName.0">[Files.In.Use.DisplayName.0]</label><br>
+	    		<label ICA:Property="Files.In.Use.DisplayName.1">[Files.In.Use.DisplayName.1]</label><br>
+		    	<label ICA:Property="Files.In.Use.DisplayName.2">[Files.In.Use.DisplayName.2]</label><br>
+			    <label ICA:Property="Files.In.Use.DisplayName.3">[Files.In.Use.DisplayName.3]</label><br>
+    			<label ICA:Property="Files.In.Use.DisplayName.4">[Files.In.Use.DisplayName.4]</label><br>
+	    		<label ICA:Property="Files.In.Use.DisplayName.5">[Files.In.Use.DisplayName.5]</label><br>
+		    	<label ICA:Property="Files.In.Use.DisplayName.6">[Files.In.Use.DisplayName.6]</label><br>
+			    <label ICA:Property="Files.In.Use.DisplayName.7">[Files.In.Use.DisplayName.7]</label><br>
+    			<label ICA:Property="Files.In.Use.DisplayName.8">[Files.In.Use.DisplayName.8]</label><br>
+                <label ICA:Property="Files.In.Use.DisplayName.9">[Files.In.Use.DisplayName.9]</label>
+            </div>
+        </div>
+        
+        <div class="DlgBlock" style="top: 345px;">
+            <input id="idRadio1" type="radio" name="RestartManagerOption" value="CloseRestart" checked />
+                <label for="idRadio1" accesskey="A" ><Loc>自动关闭并尝试重新启动应用程序。</Loc></label>
+            <br>
+            <input id="idRadio2" type="radio" name="RestartManagerOption" value="Reboot" />
+                <label for="idRadio2" accesskey="D" ><Loc>不关闭应用程序。(需要重新启动计算机。)</Loc></label>
+        </div>
+    
+    </div> <!-- div id="idTabPanel" END -->
+
+<!-- ------------------------------------------------------------ -->
+<!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+<div class="DlgWizardBtns">
+    <table border="0" width="100%">
+        <tr>
+            <td align="right">
+                
+            </td>
+            <td width="120px" align="left">
+                <button type="button" onmouseover="HighLightButton('idOk');" onmouseout="UnHighLightButton('idOk');" onclick="window.external.EndModalLoop(0);" ID="idOk" accesskey="O"><Loc>OK(<u>O</u>)</Loc></button>
+            </td>
+            <td width="120px" align="right">
+                <button type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" onclick="window.external.OnCancel();" ID="idCancel" accesskey="C"><Loc>取消(<u>C</u>)</Loc></button>
+            </td>
+        </tr>
+    </table>
+</div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

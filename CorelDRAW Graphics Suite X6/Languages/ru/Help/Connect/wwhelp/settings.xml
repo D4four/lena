@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<WebWorksHelpSettings version="3.0.0">
+ <Common>
+  <NavigationBar>
+   <SyncContents enable="true" />
+   
+   <Previous enable="true" />
+   
+   <Next enable="true" />
+
+   <RelatedTopics enableicon="false" enableinline="false">
+    <Title>
+     <Font style="font-family: Arial, Verdana, sans-serif ; font-size: 0.8em" />
+     <Colors foreground="#FFFFFF" background="#72849E" />
+    </Title>
+    <Inline>
+     <Font style="font-family: Arial, Verdana, sans-serif ; font-size: 0.8em" />
+     <Colors foreground="#003366" />
+    </Inline>
+    <Font style="font-family: Arial, Verdana, sans-serif ; font-size: 0.8em" />
+    <Colors foreground="#FF9900" background="#72849E" border="#666666" />
+    <Size width="250" />
+   </RelatedTopics>
+
+   <Email enable="false" address="" />
+
+   <Print enable="true" />
+ 
+   <Bookmark enable="false" />
+  </NavigationBar>
+
+  <Tabs>
+   <!-- border color not used by Java applet -->
+   <DefaultColors foreground="#324f85" background="#9cc5e0" border="#536980" />
+   <SelectedColors foreground="#324f85" background="#FFFFFF" border="#536980" />
+  </Tabs>
+
+  <Panels>
+   <!-- HoverText show= values are "never", "always", "onlyifsecure" -->
+   <HoverText show="never">
+    <!-- <Font> option not used by Java applet -->
+    <Font style="font-family: Arial, Verdana, sans-serif ; font-size: 0.8em" />
+    <Colors foreground="#000000" background="#FBFCFF" border="#999999" />
+    <Size width="200" />
+   </HoverText>
+
+   <Contents enable="true" />
+
+   <Index enable="true" />
+
+   <Search enable="true">
+    <Results showbook="false" showrank="false" />
+    <Font style="font-family: Arial, Verdana, sans-serif ; font-size: 0.8em" />
+    <Highlighting enable="true">
+     <Colors foreground="#FCFEFF" background="#9BC2DB" />
+    </Highlighting>
+   </Search>
+
+   <!-- Favorites not supported in JavaScript -->
+   <Favorites enable="true" />
+  </Panels>
+
+  <Popups>
+   <Colors foreground="#000000" background="#FBFCFF" border="#999999" />
+   <Size width="200" />
+  </Popups>
+ </Common>
+
+ <Implementations forcejavascript="true">
+  <Java secure="false">
+   <DocumentFrame value="WWHDocumentFrame" />
+
+   <Font family="sans-serif" size="12" />
+   <FrameColors background="#999999" />
+   <Colors foreground="#000000" background="#CCCCCC" />
+ 
+   <Panels>
+    <Contents>
+     <Colors background="#FCFEFF" />
+    </Contents>
+
+    <Index>
+     <Font allowitalics="true" />
+    </Index>
+   </Panels>
+  </Java>
+ 
+  <JavaScript>
+   <Font style="font-family: Arial, Verdana, sans-serif ; font-size: 12px; color: #24355b;" />
+   <Indent value="5" />
+   <AnchorColors enabled="#000000" disabled="#000000" />
+   <Colors foreground="#000000" background="#9BC2DB" />
+
+   <Tabs>
+    <!-- <Font> overrides can be specified here -->
+   </Tabs>
+
+   <Panels>
+    <Contents>
+     <!-- <Font>, <Indent>, and <AnchorColors> overrides can be specified here -->
+   <Colors foreground="#FCFEFF" background="#FCFEFF" />
+    </Contents>
+  
+    <Index>
+     <!-- <Font>, <Indent>, and <AnchorColors> overrides can be specified here -->
+  
+     <SectionNavigation threshold="500" separator=" - ">
+      <Font style="font-family: Arial, Verdana, sans-serif ; font-size: 0.8em ; font-weight: normal" />
+      <CurrentColor value="black" />
+      <AnchorColors enabled="#000000" disabled="#999999" />
+     </SectionNavigation>
+
+     <SectionGroups>
+      <RequiredGroup members="ABCDEFGHIJKLMNOPQRSTUVWXYZ" showgroupheader="true" />
+      <Group name="Numerics" members="1234567890" alwaysdisplay="false" showgroupheader="true" />
+      <Group name="Symbols" members="!@#$%^&amp;*(){}[]&lt;&gt;&quot;|\.,;-?+" alwaysdisplay="false" showgroupheader="true" />
+     </SectionGroups>
+    </Index>
+  
+    <Search>
+     <!-- <Font>, <Indent>, and <AnchorColors> overrides can be specified here -->
+<Font style="font-family: Arial, Verdana, sans-serif ; font-size: 0.8em ; font-weight: normal" />
+    </Search>
+   </Panels>
+  </JavaScript>
+ </Implementations>
+
+</WebWorksHelpSettings>

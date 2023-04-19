@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<palette resid="73157191-2ce4-43ee-827f-7fa6861dc2f1" guid="8963501c-600b-47ef-836c-bed253ef1f96">
+<colors>
+<page>
+<color name="RGB R204G153B51" cs="RGB" tints="0.8,0.6,0.2"></color>
+<color name="R195 G201 B15" cs="RGB" tints="0.764706,0.788235,0.058824"></color>
+<color name="R247 G255 B0" cs="RGB" tints="0.968627,1,0"></color>
+<color name="R245 G250 B98" cs="RGB" tints="0.960784,0.980392,0.384314"></color>
+<color name="R234 G237 B138" cs="RGB" tints="0.917647,0.929412,0.541176"></color>
+<color name="R242 G243 B6" cs="RGB" tints="0.94902,0.952941,0.023529"></color>
+<color name="R237 G230 B12" cs="RGB" tints="0.929412,0.901961,0.047059"></color>
+<color name="R231 G217 B19" cs="RGB" tints="0.905882,0.85098,0.07451"></color>
+<color name="R226 G204 B25" cs="RGB" tints="0.886275,0.8,0.098039"></color>
+<color name="R221 G192 B31" cs="RGB" tints="0.866667,0.752941,0.121569"></color>
+<color name="R215 G179 B38" cs="RGB" tints="0.843137,0.701961,0.14902"></color>
+<color name="R210 G166 B44" cs="RGB" tints="0.823529,0.65098,0.172549"></color>
+<color name="R204 G153 B51" cs="RGB" tints="0.8,0.6,0.2"></color>
+<color name="R246 G253 B17" cs="RGB" tints="0.964706,0.992157,0.066667"></color>
+<color name="R241 G242 B20" cs="RGB" tints="0.945098,0.94902,0.078431"></color>
+<color name="R236 G230 B24" cs="RGB" tints="0.92549,0.901961,0.094118"></color>
+<color name="R230 G217 B28" cs="RGB" tints="0.901961,0.85098,0.109804"></color>
+<color name="R225 G205 B31" cs="RGB" tints="0.882353,0.803922,0.121569"></color>
+<color name="R220 G194 B34" cs="RGB" tints="0.862745,0.760784,0.133333"></color>
+<color name="R214 G182 B39" cs="RGB" tints="0.839216,0.713725,0.152941"></color>
+<color name="R209 G171 B43" cs="RGB" tints="0.819608,0.670588,0.168627"></color>
+<color name="R203 G159 B47" cs="RGB" tints="0.796078,0.623529,0.184314"></color>
+<color name="R244 G251 B34" cs="RGB" tints="0.956863,0.984314,0.133333"></color>
+<color name="R239 G241 B35" cs="RGB" tints="0.937255,0.945098,0.137255"></color>
+<color name="R234 G230 B36" cs="RGB" tints="0.917647,0.901961,0.141176"></color>
+<color name="R229 G218 B37" cs="RGB" tints="0.898039,0.854902,0.145098"></color>
+<color name="R224 G207 B38" cs="RGB" tints="0.878431,0.811765,0.14902"></color>
+<color name="R219 G197 B38" cs="RGB" tints="0.858824,0.772549,0.14902"></color>
+<color name="R213 G186 B40" cs="RGB" tints="0.835294,0.729412,0.156863"></color>
+<color name="R208 G176 B41" cs="RGB" tints="0.815686,0.690196,0.160784"></color>
+<color name="R202 G165 B42" cs="RGB" tints="0.792157,0.647059,0.164706"></color>
+<color name="R243 G249 B51" cs="RGB" tints="0.952941,0.976471,0.2"></color>
+<color name="R238 G240 B49" cs="RGB" tints="0.933333,0.941176,0.192157"></color>
+<color name="R233 G230 B48" cs="RGB" tints="0.913725,0.901961,0.188235"></color>
+<color name="R227 G219 B46" cs="RGB" tints="0.890196,0.858824,0.180392"></color>
+<color name="R222 G209 B44" cs="RGB" tints="0.870588,0.819608,0.172549"></color>
+<color name="R217 G200 B42" cs="RGB" tints="0.85098,0.784314,0.164706"></color>
+<color name="R212 G190 B41" cs="RGB" tints="0.831373,0.745098,0.160784"></color>
+<color name="R207 G181 B40" cs="RGB" tints="0.811765,0.709804,0.156863"></color>
+<color name="R201 G171 B38" cs="RGB" tints="0.788235,0.670588,0.14902"></color>
+<color name="R241 G246 B69" cs="RGB" tints="0.945098,0.964706,0.270588"></color>
+<color name="R236 G238 B64" cs="RGB" tints="0.92549,0.933333,0.25098"></color>
+<color name="R231 G229 B60" cs="RGB" tints="0.905882,0.898039,0.235294"></color>
+<color name="R226 G220 B55" cs="RGB" tints="0.886275,0.862745,0.215686"></color>
+<color name="R221 G211 B51" cs="RGB" tints="0.866667,0.827451,0.2"></color>
+<color name="R216 G203 B46" cs="RGB" tints="0.847059,0.796078,0.180392"></color>
+<color name="R210 G194 B42" cs="RGB" tints="0.823529,0.760784,0.164706"></color>
+<color name="R205 G186 B38" cs="RGB" tints="0.803922,0.729412,0.14902"></color>
+<color name="R200 G177 B33" cs="RGB" tints="0.784314,0.694118,0.129412"></color>
+<color name="R239 G244 B86" cs="RGB" tints="0.937255,0.956863,0.337255"></color>
+<color name="R235 G237 B79" cs="RGB" tints="0.921569,0.929412,0.309804"></color>
+<color name="R230 G229 B72" cs="RGB" tints="0.901961,0.898039,0.282353"></color>
+<color name="R225 G221 B64" cs="RGB" tints="0.882353,0.866667,0.25098"></color>
+<color name="R220 G213 B57" cs="RGB" tints="0.862745,0.835294,0.223529"></color>
+<color name="R215 G206 B50" cs="RGB" tints="0.843137,0.807843,0.196078"></color>
+<color name="R209 G198 B43" cs="RGB" tints="0.819608,0.776471,0.168627"></color>
+<color name="R204 G191 B36" cs="RGB" tints="0.8,0.74902,0.141176"></color>
+<color name="R199 G183 B29" cs="RGB" tints="0.780392,0.717647,0.113725"></color>
+<color name="R238 G242 B103" cs="RGB" tints="0.933333,0.94902,0.403922"></color>
+<color name="R233 G236 B93" cs="RGB" tints="0.913725,0.92549,0.364706"></color>
+<color name="R228 G229 B84" cs="RGB" tints="0.894118,0.898039,0.329412"></color>
+<color name="R223 G222 B73" cs="RGB" tints="0.87451,0.870588,0.286275"></color>
+<color name="R218 G215 B64" cs="RGB" tints="0.854902,0.843137,0.25098"></color>
+<color name="R213 G209 B54" cs="RGB" tints="0.835294,0.819608,0.211765"></color>
+<color name="R208 G202 B44" cs="RGB" tints="0.815686,0.792157,0.172549"></color>
+<color name="R203 G196 B35" cs="RGB" tints="0.796078,0.768627,0.137255"></color>
+<color name="R198 G189 B24" cs="RGB" tints="0.776471,0.741176,0.094118"></color>
+<color name="R236 G240 B120" cs="RGB" tints="0.92549,0.941176,0.470588"></color>
+<color name="R232 G235 B108" cs="RGB" tints="0.909804,0.921569,0.423529"></color>
+<color name="R227 G229 B96" cs="RGB" tints="0.890196,0.898039,0.376471"></color>
+<color name="R222 G223 B82" cs="RGB" tints="0.870588,0.87451,0.321569"></color>
+<color name="R217 G217 B70" cs="RGB" tints="0.85098,0.85098,0.27451"></color>
+<color name="R212 G212 B58" cs="RGB" tints="0.831373,0.831373,0.227451"></color>
+<color name="R207 G206 B45" cs="RGB" tints="0.811765,0.807843,0.176471"></color>
+<color name="R202 G201 B33" cs="RGB" tints="0.792157,0.788235,0.129412"></color>
+<color name="R197 G195 B20" cs="RGB" tints="0.772549,0.764706,0.078431"></color>
+<color name="R230 G233 B123" cs="RGB" tints="0.901961,0.913725,0.482353"></color>
+<color name="R225 G228 B108" cs="RGB" tints="0.882353,0.894118,0.423529"></color>
+<color name="R220 G224 B92" cs="RGB" tints="0.862745,0.878431,0.360784"></color>
+<color name="R215 G219 B77" cs="RGB" tints="0.843137,0.858824,0.301961"></color>
+<color name="R210 G215 B62" cs="RGB" tints="0.823529,0.843137,0.243137"></color>
+<color name="R205 G210 B46" cs="RGB" tints="0.803922,0.823529,0.180392"></color>
+<color name="R200 G206 B31" cs="RGB" tints="0.784314,0.807843,0.121569"></color>
+<color name="R140 G255 B0" cs="RGB" tints="0.54902,1,0"></color>
+<color name="R234 G255 B0" cs="RGB" tints="0.917647,1,0"></color>
+<color name="R221 G255 B0" cs="RGB" tints="0.866667,1,0"></color>
+<color name="R207 G255 B0" cs="RGB" tints="0.811765,1,0"></color>
+<color name="R194 G255 B0" cs="RGB" tints="0.760784,1,0"></color>
+<color name="R181 G255 B0" cs="RGB" tints="0.709804,1,0"></color>
+<color name="R167 G255 B0" cs="RGB" tints="0.654902,1,0"></color>
+<color name="R154 G255 B0" cs="RGB" tints="0.603922,1,0"></color>
+<color name="R234 G253 B15" cs="RGB" tints="0.917647,0.992157,0.058824"></color>
+<color name="R221 G252 B13" cs="RGB" tints="0.866667,0.988235,0.05098"></color>
+<color name="R208 G252 B11" cs="RGB" tints="0.815686,0.988235,0.043137"></color>
+<color name="R196 G251 B9" cs="RGB" tints="0.768627,0.984314,0.035294"></color>
+<color name="R184 G250 B7" cs="RGB" tints="0.721569,0.980392,0.027451"></color>
+<color name="R171 G250 B5" cs="RGB" tints="0.670588,0.980392,0.019608"></color>
+<color name="R159 G249 B3" cs="RGB" tints="0.623529,0.976471,0.011765"></color>
+<color name="R146 G249 B1" cs="RGB" tints="0.572549,0.976471,0.003922"></color>
+<color name="R233 G250 B30" cs="RGB" tints="0.913725,0.980392,0.117647"></color>
+<color name="R222 G249 B27" cs="RGB" tints="0.870588,0.976471,0.105882"></color>
+<color name="R210 G248 B23" cs="RGB" tints="0.823529,0.972549,0.090196"></color>
+<color name="R199 G246 B19" cs="RGB" tints="0.780392,0.964706,0.07451"></color>
+<color name="R188 G245 B15" cs="RGB" tints="0.737255,0.960784,0.058824"></color>
+<color name="R176 G244 B11" cs="RGB" tints="0.690196,0.956863,0.043137"></color>
+<color name="R165 G243 B7" cs="RGB" tints="0.647059,0.952941,0.027451"></color>
+<color name="R153 G242 B3" cs="RGB" tints="0.6,0.94902,0.011765"></color>
+<color name="R233 G247 B46" cs="RGB" tints="0.913725,0.968627,0.180392"></color>
+<color name="R222 G245 B40" cs="RGB" tints="0.870588,0.960784,0.156863"></color>
+<color name="R211 G244 B34" cs="RGB" tints="0.827451,0.956863,0.133333"></color>
+<color name="R201 G242 B28" cs="RGB" tints="0.788235,0.94902,0.109804"></color>
+<color name="R191 G240 B23" cs="RGB" tints="0.74902,0.941176,0.090196"></color>
+<color name="R181 G239 B17" cs="RGB" tints="0.709804,0.937255,0.066667"></color>
+<color name="R171 G237 B11" cs="RGB" tints="0.670588,0.929412,0.043137"></color>
+<color name="R160 G235 B5" cs="RGB" tints="0.627451,0.921569,0.019608"></color>
+<color name="R232 G244 B61" cs="RGB" tints="0.909804,0.956863,0.239216"></color>
+<color name="R223 G242 B54" cs="RGB" tints="0.87451,0.94902,0.211765"></color>
+<color name="R213 G240 B46" cs="RGB" tints="0.835294,0.941176,0.180392"></color>
+<color name="R204 G237 B38" cs="RGB" tints="0.8,0.929412,0.14902"></color>
+<color name="R195 G235 B31" cs="RGB" tints="0.764706,0.921569,0.121569"></color>
+<color name="R186 G233 B23" cs="RGB" tints="0.729412,0.913725,0.090196"></color>
+<color name="R177 G231 B15" cs="RGB" tints="0.694118,0.905882,0.058824"></color>
+<color name="R167 G228 B7" cs="RGB" tints="0.654902,0.894118,0.027451"></color>
+<color name="R232 G242 B76" cs="RGB" tints="0.909804,0.94902,0.298039"></color>
+<color name="R223 G239 B67" cs="RGB" tints="0.87451,0.937255,0.262745"></color>
+<color name="R215 G236 B57" cs="RGB" tints="0.843137,0.92549,0.223529"></color>
+<color name="R207 G233 B48" cs="RGB" tints="0.811765,0.913725,0.188235"></color>
+<color name="R199 G230 B38" cs="RGB" tints="0.780392,0.901961,0.14902"></color>
+<color name="R190 G227 B28" cs="RGB" tints="0.745098,0.890196,0.109804"></color>
+<color name="R182 G225 B19" cs="RGB" tints="0.713725,0.882353,0.07451"></color>
+<color name="R174 G222 B9" cs="RGB" tints="0.682353,0.870588,0.035294"></color>
+<color name="R231 G239 B92" cs="RGB" tints="0.905882,0.937255,0.360784"></color>
+<color name="R224 G235 B81" cs="RGB" tints="0.878431,0.921569,0.317647"></color>
+<color name="R216 G232 B69" cs="RGB" tints="0.847059,0.909804,0.270588"></color>
+<color name="R209 G228 B57" cs="RGB" tints="0.819608,0.894118,0.223529"></color>
+<color name="R202 G225 B46" cs="RGB" tints="0.792157,0.882353,0.180392"></color>
+<color name="R195 G222 B34" cs="RGB" tints="0.764706,0.870588,0.133333"></color>
+<color name="R188 G219 B23" cs="RGB" tints="0.737255,0.858824,0.090196"></color>
+<color name="R181 G215 B11" cs="RGB" tints="0.709804,0.843137,0.043137"></color>
+<color name="R231 G236 B107" cs="RGB" tints="0.905882,0.92549,0.419608"></color>
+<color name="R224 G232 B94" cs="RGB" tints="0.878431,0.909804,0.368627"></color>
+<color name="R218 G228 B80" cs="RGB" tints="0.854902,0.894118,0.313725"></color>
+<color name="R212 G224 B67" cs="RGB" tints="0.831373,0.878431,0.262745"></color>
+<color name="R206 G220 B54" cs="RGB" tints="0.807843,0.862745,0.211765"></color>
+<color name="R200 G216 B40" cs="RGB" tints="0.784314,0.847059,0.156863"></color>
+<color name="R194 G213 B27" cs="RGB" tints="0.760784,0.835294,0.105882"></color>
+<color name="R188 G208 B13" cs="RGB" tints="0.737255,0.815686,0.05098"></color>
+<color name="R0 G0 B0" cs="RGB" tints="0,0,0"></color>
+<color name="R217 G224 B0" cs="RGB" tints="0.85098,0.878431,0"></color>
+<color name="R186 G192 B0" cs="RGB" tints="0.729412,0.752941,0"></color>
+<color name="R155 G160 B0" cs="RGB" tints="0.607843,0.627451,0"></color>
+<color name="R124 G128 B0" cs="RGB" tints="0.486275,0.501961,0"></color>
+<color name="R93 G96 B0" cs="RGB" tints="0.364706,0.376471,0"></color>
+<color name="R62 G64 B0" cs="RGB" tints="0.243137,0.25098,0"></color>
+<color name="R31 G32 B0" cs="RGB" tints="0.121569,0.12549,0"></color>
+<color name="R218 G225 B15" cs="RGB" tints="0.854902,0.882353,0.058824"></color>
+<color name="R190 G196 B13" cs="RGB" tints="0.745098,0.768627,0.05098"></color>
+<color name="R163 G168 B11" cs="RGB" tints="0.639216,0.658824,0.043137"></color>
+<color name="R135 G139 B9" cs="RGB" tints="0.529412,0.545098,0.035294"></color>
+<color name="R107 G110 B7" cs="RGB" tints="0.419608,0.431373,0.027451"></color>
+<color name="R79 G82 B5" cs="RGB" tints="0.309804,0.321569,0.019608"></color>
+<color name="R52 G53 B3" cs="RGB" tints="0.203922,0.207843,0.011765"></color>
+<color name="R24 G25 B1" cs="RGB" tints="0.094118,0.098039,0.003922"></color>
+<color name="R220 G226 B30" cs="RGB" tints="0.862745,0.886275,0.117647"></color>
+<color name="R195 G201 B27" cs="RGB" tints="0.764706,0.788235,0.105882"></color>
+<color name="R171 G176 B23" cs="RGB" tints="0.670588,0.690196,0.090196"></color>
+<color name="R146 G150 B19" cs="RGB" tints="0.572549,0.588235,0.07451"></color>
+<color name="R122 G125 B15" cs="RGB" tints="0.478431,0.490196,0.058824"></color>
+<color name="R97 G100 B11" cs="RGB" tints="0.380392,0.392157,0.043137"></color>
+<color name="R73 G75 B7" cs="RGB" tints="0.286275,0.294118,0.027451"></color>
+<color name="R48 G50 B3" cs="RGB" tints="0.188235,0.196078,0.011765"></color>
+<color name="R221 G227 B46" cs="RGB" tints="0.866667,0.890196,0.180392"></color>
+<color name="R200 G205 B40" cs="RGB" tints="0.784314,0.803922,0.156863"></color>
+<color name="R179 G184 B34" cs="RGB" tints="0.701961,0.721569,0.133333"></color>
+<color name="R158 G162 B28" cs="RGB" tints="0.619608,0.635294,0.109804"></color>
+<color name="R136 G140 B23" cs="RGB" tints="0.533333,0.54902,0.090196"></color>
+<color name="R115 G118 B17" cs="RGB" tints="0.45098,0.462745,0.066667"></color>
+<color name="R94 G97 B11" cs="RGB" tints="0.368627,0.380392,0.043137"></color>
+<color name="R73 G75 B5" cs="RGB" tints="0.286275,0.294118,0.019608"></color>
+<color name="R223 G228 B61" cs="RGB" tints="0.87451,0.894118,0.239216"></color>
+<color name="R205 G210 B54" cs="RGB" tints="0.803922,0.823529,0.211765"></color>
+<color name="R187 G192 B46" cs="RGB" tints="0.733333,0.752941,0.180392"></color>
+<color name="R169 G173 B38" cs="RGB" tints="0.662745,0.678431,0.14902"></color>
+<color name="R151 G155 B31" cs="RGB" tints="0.592157,0.607843,0.121569"></color>
+<color name="R133 G137 B23" cs="RGB" tints="0.521569,0.537255,0.090196"></color>
+<color name="R115 G119 B15" cs="RGB" tints="0.45098,0.466667,0.058824"></color>
+<color name="R97 G100 B7" cs="RGB" tints="0.380392,0.392157,0.027451"></color>
+<color name="R225 G229 B76" cs="RGB" tints="0.882353,0.898039,0.298039"></color>
+<color name="R210 G214 B67" cs="RGB" tints="0.823529,0.839216,0.262745"></color>
+<color name="R195 G200 B57" cs="RGB" tints="0.764706,0.784314,0.223529"></color>
+<color name="R180 G184 B48" cs="RGB" tints="0.705882,0.721569,0.188235"></color>
+<color name="R166 G170 B38" cs="RGB" tints="0.65098,0.666667,0.14902"></color>
+<color name="R151 G155 B28" cs="RGB" tints="0.592157,0.607843,0.109804"></color>
+<color name="R136 G140 B19" cs="RGB" tints="0.533333,0.54902,0.07451"></color>
+<color name="R121 G125 B9" cs="RGB" tints="0.47451,0.490196,0.035294"></color>
+<color name="R226 G230 B92" cs="RGB" tints="0.886275,0.901961,0.360784"></color>
+<color name="R215 G219 B81" cs="RGB" tints="0.843137,0.858824,0.317647"></color>
+<color name="R203 G208 B69" cs="RGB" tints="0.796078,0.815686,0.270588"></color>
+<color name="R192 G196 B57" cs="RGB" tints="0.752941,0.768627,0.223529"></color>
+<color name="R180 G185 B46" cs="RGB" tints="0.705882,0.72549,0.180392"></color>
+<color name="R169 G173 B34" cs="RGB" tints="0.662745,0.678431,0.133333"></color>
+<color name="R157 G162 B23" cs="RGB" tints="0.615686,0.635294,0.090196"></color>
+<color name="R146 G150 B11" cs="RGB" tints="0.572549,0.588235,0.043137"></color>
+<color name="R228 G231 B107" cs="RGB" tints="0.894118,0.905882,0.419608"></color>
+<color name="R220 G223 B94" cs="RGB" tints="0.862745,0.87451,0.368627"></color>
+<color name="R211 G216 B80" cs="RGB" tints="0.827451,0.847059,0.313725"></color>
+<color name="R203 G207 B67" cs="RGB" tints="0.796078,0.811765,0.262745"></color>
+<color name="R195 G200 B54" cs="RGB" tints="0.764706,0.784314,0.211765"></color>
+<color name="R187 G191 B40" cs="RGB" tints="0.733333,0.74902,0.156863"></color>
+<color name="R178 G184 B27" cs="RGB" tints="0.698039,0.721569,0.105882"></color>
+<color name="R170 G175 B13" cs="RGB" tints="0.666667,0.686275,0.05098"></color>
+</page>
+</colors>
+<localization>
+<resource id="73157191-2ce4-43ee-827f-7fa6861dc2f1">
+<EN>Bananas</EN>
+<CS>香蕉</CS>
+<CT>香蕉</CT>
+<CZ>Banány</CZ>
+<DE>Bananen</DE>
+<ES>Plátanos</ES>
+<FR>Bananes</FR>
+<IT>Banane</IT>
+<JP>バナナ</JP>
+<KR>바나나</KR>
+<MA>Banánok</MA>
+<NL>Bananen</NL>
+<PL>Banany</PL>
+<RU>Банан</RU>
+<SU>Banaani</SU>
+<SV>Bananer</SV>
+<TR>Muz</TR>
+</resource>
+</localization>
+</palette>
+

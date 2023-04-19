@@ -1,0 +1,76 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:PromptForCancel="no"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+          ICA:ProgressState="TBPF_NOPROGRESS"
+    />
+
+    <script type="text/jscript" language="jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script type="text/jscript" language="jscript">
+    
+        var Setup = window.external;
+        
+        function OnBodyLoad()
+        {
+
+
+        } //function OnBodyLoad()
+    
+    
+    </script>
+
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" onclick="g_Setup.EndModalLoop(1602);" />
+   
+    <!-- ------------------------------------------------------------ -->
+    <!-- page content panel -->
+    <div id="idPanel">
+
+        <div class="DlgHeader" >
+            Neustart erforderlich
+        </div>
+        
+        <div class="DlgBlock" style="top: 50px;" >
+                Die Installation von CorelDRAW Graphics Suite X6.1 erfordert einen Neustart Ihres Computers. Klicken Sie auf <b>Jetzt neu starten</b>, um den Computer neu zu starten und den Installationsvorgang fortzusetzen, oder auf <b>Nicht neu starten</b>, um das Setup-Programm zu beenden.
+        </div>
+        
+    </div> <!-- div id="idTabPanel" END -->
+
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                </td>
+                <td width="120px" align="left">
+                    <button type="button" style="width:150px;" onmouseover="HighLightButton('idRebootNow');" onmouseout="UnHighLightButton('idRebootNow');" onclick="window.external.EndModalLoop(1641);" id="idRebootNow" accesskey="J"><u>J</u>etzt neu starten</button>
+                </td>
+                <td width="120px" align="right">
+                    <button type="button" style="width:150px;" onmouseover="HighLightButton('idDoNotReboot');" onmouseout="UnHighLightButton('idDoNotReboot');" onclick="window.external.EndModalLoop(1602);" id="idDoNotReboot" accesskey="N"><u>N</u>icht neu starten</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

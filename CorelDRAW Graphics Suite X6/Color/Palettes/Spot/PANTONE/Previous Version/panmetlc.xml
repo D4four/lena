@@ -1,0 +1,1613 @@
+<?xml version="1.0"?>
+<palette name="PANTONE® metallic coated" fixedID="30" guid="3ab7ce0c-8952-4838-8ebb-8fdfcf3d2c2a" prefix="PANTONE " locked="true">
+	<colorspaces>
+		<cs name="PANTONE 871 C" fixedID="1" version="1300">
+			<color cs="RGB" tints="0.517647,0.462745,0.301961"></color>
+			<color cs="LAB" tints="0.501961,0.509804,0.596078"/>
+		</cs>
+		<cs name="PANTONE 872 C" fixedID="2" version="1300">
+			<color cs="RGB" tints="0.545098,0.45098,0.290196"></color>
+			<color cs="LAB" tints="0.501961,0.52549,0.603922"/>
+		</cs>
+		<cs name="PANTONE 873 C" fixedID="3" version="1300">
+			<color cs="RGB" tints="0.537255,0.431373,0.294118"></color>
+			<color cs="LAB" tints="0.486275,0.533333,0.596078"/>
+		</cs>
+		<cs name="PANTONE 874 C" fixedID="4" version="1300">
+			<color cs="RGB" tints="0.541176,0.435294,0.298039"></color>
+			<color cs="LAB" tints="0.490196,0.533333,0.596078"/>
+		</cs>
+		<cs name="PANTONE 875 C" fixedID="5" version="1300">
+			<color cs="RGB" tints="0.556863,0.427451,0.309804"></color>
+			<color cs="LAB" tints="0.490196,0.545098,0.588235"/>
+		</cs>
+		<cs name="PANTONE 876 C" fixedID="6" version="1300">
+			<color cs="RGB" tints="0.584314,0.411765,0.298039"></color>
+			<color cs="LAB" tints="0.490196,0.564706,0.596078"/>
+		</cs>
+		<cs name="PANTONE 877 C" fixedID="7" version="1300">
+			<color cs="RGB" tints="0.552941,0.564706,0.572549"></color>
+			<color cs="LAB" tints="0.596078,0.498039,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8001 C" fixedID="8" version="1300">
+			<color cs="RGB" tints="0.552941,0.54902,0.541176"></color>
+			<color cs="LAB" tints="0.584314,0.501961,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8002 C" fixedID="9" version="1300">
+			<color cs="RGB" tints="0.552941,0.52549,0.490196"></color>
+			<color cs="LAB" tints="0.560784,0.509804,0.52549"/>
+		</cs>
+		<cs name="PANTONE 8003 C" fixedID="10" version="1300">
+			<color cs="RGB" tints="0.541176,0.494118,0.439216"></color>
+			<color cs="LAB" tints="0.537255,0.513725,0.537255"/>
+		</cs>
+		<cs name="PANTONE 8004 C" fixedID="11" version="1300">
+			<color cs="RGB" tints="0.537255,0.47451,0.4"></color>
+			<color cs="LAB" tints="0.521569,0.521569,0.552941"/>
+		</cs>
+		<cs name="PANTONE 8005 C" fixedID="12" version="1300">
+			<color cs="RGB" tints="0.541176,0.454902,0.352941"></color>
+			<color cs="LAB" tints="0.505882,0.52549,0.572549"/>
+		</cs>
+		<cs name="PANTONE 8006 C" fixedID="205" version="1400">
+			<color cs="RGB" tints="0.537255,0.439216,0.329412"></color>
+			<color cs="LAB" tints="0.494118,0.529412,0.580392"/>
+		</cs>
+		<cs name="PANTONE 8020 C" fixedID="13" version="1300">
+			<color cs="RGB" tints="0.592157,0.505882,0.462745"></color>
+			<color cs="LAB" tints="0.560784,0.529412,0.541176"/>
+		</cs>
+		<cs name="PANTONE 8021 C" fixedID="14" version="1300">
+			<color cs="RGB" tints="0.603922,0.478431,0.415686"></color>
+			<color cs="LAB" tints="0.541176,0.545098,0.556863"/>
+		</cs>
+		<cs name="PANTONE 8022 C" fixedID="15" version="1300">
+			<color cs="RGB" tints="0.627451,0.443137,0.356863"></color>
+			<color cs="LAB" tints="0.52549,0.568627,0.584314"/>
+		</cs>
+		<cs name="PANTONE 8023 C" fixedID="16" version="1300">
+			<color cs="RGB" tints="0.631373,0.4,0.298039"></color>
+			<color cs="LAB" tints="0.498039,0.592157,0.603922"/>
+		</cs>
+		<cs name="PANTONE 8024 C" fixedID="206" version="1400">
+			<color cs="RGB" tints="0.654902,0.356863,0.219608"></color>
+			<color cs="LAB" tints="0.478431,0.619608,0.643137"/>
+		</cs>
+		<cs name="PANTONE 8025 C" fixedID="207" version="1400">
+			<color cs="RGB" tints="0.666667,0.333333,0.164706"></color>
+			<color cs="LAB" tints="0.470588,0.635294,0.666667"/>
+		</cs>
+		<cs name="PANTONE 8040 C" fixedID="17" version="1300">
+			<color cs="RGB" tints="0.568627,0.533333,0.529412"></color>
+			<color cs="LAB" tints="0.576471,0.513725,0.509804"/>
+		</cs>
+		<cs name="PANTONE 8041 C" fixedID="18" version="1300">
+			<color cs="RGB" tints="0.6,0.505882,0.486275"></color>
+			<color cs="LAB" tints="0.564706,0.537255,0.529412"/>
+		</cs>
+		<cs name="PANTONE 8042 C" fixedID="19" version="1300">
+			<color cs="RGB" tints="0.611765,0.47451,0.443137"></color>
+			<color cs="LAB" tints="0.545098,0.552941,0.545098"/>
+		</cs>
+		<cs name="PANTONE 8043 C" fixedID="20" version="1300">
+			<color cs="RGB" tints="0.639216,0.439216,0.388235"></color>
+			<color cs="LAB" tints="0.529412,0.580392,0.564706"/>
+		</cs>
+		<cs name="PANTONE 8044 C" fixedID="208" version="1400">
+			<color cs="RGB" tints="0.623529,0.388235,0.309804"></color>
+			<color cs="LAB" tints="0.486275,0.596078,0.592157"/>
+		</cs>
+		<cs name="PANTONE 8045 C" fixedID="209" version="1400">
+			<color cs="RGB" tints="0.639216,0.364706,0.266667"></color>
+			<color cs="LAB" tints="0.478431,0.611765,0.611765"/>
+		</cs>
+		<cs name="PANTONE 8060 C" fixedID="21" version="1300">
+			<color cs="RGB" tints="0.596078,0.509804,0.54902"></color>
+			<color cs="LAB" tints="0.568627,0.541176,0.494118"/>
+		</cs>
+		<cs name="PANTONE 8061 C" fixedID="22" version="1300">
+			<color cs="RGB" tints="0.615686,0.482353,0.533333"></color>
+			<color cs="LAB" tints="0.552941,0.564706,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8062 C" fixedID="23" version="1300">
+			<color cs="RGB" tints="0.635294,0.443137,0.498039"></color>
+			<color cs="LAB" tints="0.533333,0.588235,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8063 C" fixedID="24" version="1300">
+			<color cs="RGB" tints="0.654902,0.4,0.458824"></color>
+			<color cs="LAB" tints="0.513725,0.615686,0.517647"/>
+		</cs>
+		<cs name="PANTONE 8064 C" fixedID="210" version="1400">
+			<color cs="RGB" tints="0.639216,0.392157,0.415686"></color>
+			<color cs="LAB" tints="0.501961,0.607843,0.537255"/>
+		</cs>
+		<cs name="PANTONE 8065 C" fixedID="211" version="1400">
+			<color cs="RGB" tints="0.627451,0.364706,0.364706"></color>
+			<color cs="LAB" tints="0.478431,0.615686,0.552941"/>
+		</cs>
+		<cs name="PANTONE 8080 C" fixedID="25" version="1300">
+			<color cs="RGB" tints="0.572549,0.509804,0.580392"></color>
+			<color cs="LAB" tints="0.564706,0.537255,0.47451"/>
+		</cs>
+		<cs name="PANTONE 8081 C" fixedID="26" version="1300">
+			<color cs="RGB" tints="0.6,0.415686,0.564706"></color>
+			<color cs="LAB" tints="0.509804,0.596078,0.454902"/>
+		</cs>
+		<cs name="PANTONE 8082 C" fixedID="27" version="1300">
+			<color cs="RGB" tints="0.603922,0.364706,0.545098"></color>
+			<color cs="LAB" tints="0.482353,0.623529,0.447059"/>
+		</cs>
+		<cs name="PANTONE 8083 C" fixedID="28" version="1300">
+			<color cs="RGB" tints="0.611765,0.305882,0.521569"></color>
+			<color cs="LAB" tints="0.45098,0.65098,0.447059"/>
+		</cs>
+		<cs name="PANTONE 8084 C" fixedID="212" version="1400">
+			<color cs="RGB" tints="0.635294,0.254902,0.470588"></color>
+			<color cs="LAB" tints="0.435294,0.682353,0.466667"/>
+		</cs>
+		<cs name="PANTONE 8085 C" fixedID="213" version="1400">
+			<color cs="RGB" tints="0.631373,0.215686,0.411765"></color>
+			<color cs="LAB" tints="0.411765,0.694118,0.490196"/>
+		</cs>
+		<cs name="PANTONE 8100 C" fixedID="29" version="1300">
+			<color cs="RGB" tints="0.564706,0.462745,0.584314"></color>
+			<color cs="LAB" tints="0.529412,0.560784,0.45098"/>
+		</cs>
+		<cs name="PANTONE 8101 C" fixedID="30" version="1300">
+			<color cs="RGB" tints="0.560784,0.411765,0.572549"></color>
+			<color cs="LAB" tints="0.498039,0.584314,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8102 C" fixedID="31" version="1300">
+			<color cs="RGB" tints="0.560784,0.352941,0.560784"></color>
+			<color cs="LAB" tints="0.462745,0.615686,0.427451"/>
+		</cs>
+		<cs name="PANTONE 8103 C" fixedID="32" version="1300">
+			<color cs="RGB" tints="0.560784,0.298039,0.54902"></color>
+			<color cs="LAB" tints="0.431373,0.643137,0.415686"/>
+		</cs>
+		<cs name="PANTONE 8104 C" fixedID="214" version="1400">
+			<color cs="RGB" tints="0.556863,0.231373,0.47451"></color>
+			<color cs="LAB" tints="0.392157,0.666667,0.435294"/>
+		</cs>
+		<cs name="PANTONE 8105 C" fixedID="215" version="1400">
+			<color cs="RGB" tints="0.556863,0.2,0.427451"></color>
+			<color cs="LAB" tints="0.372549,0.678431,0.454902"/>
+		</cs>
+		<cs name="PANTONE 8120 C" fixedID="33" version="1300">
+			<color cs="RGB" tints="0.552941,0.509804,0.596078"></color>
+			<color cs="LAB" tints="0.560784,0.529412,0.462745"/>
+		</cs>
+		<cs name="PANTONE 8121 C" fixedID="34" version="1300">
+			<color cs="RGB" tints="0.541176,0.458824,0.584314"></color>
+			<color cs="LAB" tints="0.521569,0.552941,0.447059"/>
+		</cs>
+		<cs name="PANTONE 8122 C" fixedID="35" version="1300">
+			<color cs="RGB" tints="0.533333,0.411765,0.580392"></color>
+			<color cs="LAB" tints="0.490196,0.576471,0.431373"/>
+		</cs>
+		<cs name="PANTONE 8123 C" fixedID="36" version="1300">
+			<color cs="RGB" tints="0.533333,0.356863,0.580392"></color>
+			<color cs="LAB" tints="0.458824,0.607843,0.411765"/>
+		</cs>
+		<cs name="PANTONE 8124 C" fixedID="216" version="1400">
+			<color cs="RGB" tints="0.537255,0.305882,0.521569"></color>
+			<color cs="LAB" tints="0.423529,0.631373,0.427451"/>
+		</cs>
+		<cs name="PANTONE 8125 C" fixedID="217" version="1400">
+			<color cs="RGB" tints="0.529412,0.27451,0.478431"></color>
+			<color cs="LAB" tints="0.4,0.639216,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8140 C" fixedID="37" version="1300">
+			<color cs="RGB" tints="0.513725,0.462745,0.596078"></color>
+			<color cs="LAB" tints="0.521569,0.541176,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8141 C" fixedID="38" version="1300">
+			<color cs="RGB" tints="0.494118,0.415686,0.596078"></color>
+			<color cs="LAB" tints="0.482353,0.560784,0.415686"/>
+		</cs>
+		<cs name="PANTONE 8142 C" fixedID="39" version="1300">
+			<color cs="RGB" tints="0.47451,0.368627,0.6"></color>
+			<color cs="LAB" tints="0.447059,0.580392,0.396078"/>
+		</cs>
+		<cs name="PANTONE 8143 C" fixedID="40" version="1300">
+			<color cs="RGB" tints="0.443137,0.313725,0.588235"></color>
+			<color cs="LAB" tints="0.4,0.6,0.372549"/>
+		</cs>
+		<cs name="PANTONE 8144 C" fixedID="218" version="1400">
+			<color cs="RGB" tints="0.447059,0.309804,0.513725"></color>
+			<color cs="LAB" tints="0.392157,0.592157,0.411765"/>
+		</cs>
+		<cs name="PANTONE 8145 C" fixedID="219" version="1400">
+			<color cs="RGB" tints="0.439216,0.290196,0.47451"></color>
+			<color cs="LAB" tints="0.376471,0.596078,0.423529"/>
+		</cs>
+		<cs name="PANTONE 8160 C" fixedID="41" version="1300">
+			<color cs="RGB" tints="0.513725,0.517647,0.584314"></color>
+			<color cs="LAB" tints="0.556863,0.509804,0.466667"/>
+		</cs>
+		<cs name="PANTONE 8161 C" fixedID="42" version="1300">
+			<color cs="RGB" tints="0.47451,0.47451,0.592157"></color>
+			<color cs="LAB" tints="0.517647,0.521569,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8162 C" fixedID="43" version="1300">
+			<color cs="RGB" tints="0.4,0.380392,0.592157"></color>
+			<color cs="LAB" tints="0.435294,0.54902,0.388235"/>
+		</cs>
+		<cs name="PANTONE 8163 C" fixedID="44" version="1300">
+			<color cs="RGB" tints="0.356863,0.329412,0.596078"></color>
+			<color cs="LAB" tints="0.388235,0.564706,0.356863"/>
+		</cs>
+		<cs name="PANTONE 8164 C" fixedID="220" version="1400">
+			<color cs="RGB" tints="0.345098,0.286275,0.564706"></color>
+			<color cs="LAB" tints="0.352941,0.580392,0.356863"/>
+		</cs>
+		<cs name="PANTONE 8165 C" fixedID="221" version="1400">
+			<color cs="RGB" tints="0.321569,0.243137,0.505882"></color>
+			<color cs="LAB" tints="0.313725,0.584314,0.364706"/>
+		</cs>
+		<cs name="PANTONE 8180 C" fixedID="45" version="1300">
+			<color cs="RGB" tints="0.486275,0.533333,0.592157"></color>
+			<color cs="LAB" tints="0.556863,0.494118,0.462745"/>
+		</cs>
+		<cs name="PANTONE 8181 C" fixedID="46" version="1300">
+			<color cs="RGB" tints="0.368627,0.470588,0.611765"></color>
+			<color cs="LAB" tints="0.490196,0.494118,0.411765"/>
+		</cs>
+		<cs name="PANTONE 8182 C" fixedID="47" version="1300">
+			<color cs="RGB" tints="0.305882,0.431373,0.623529"></color>
+			<color cs="LAB" tints="0.454902,0.498039,0.380392"/>
+		</cs>
+		<cs name="PANTONE 8183 C" fixedID="48" version="1300">
+			<color cs="RGB" tints="0.231373,0.384314,0.631373"></color>
+			<color cs="LAB" tints="0.407843,0.505882,0.34902"/>
+		</cs>
+		<cs name="PANTONE 8184 C" fixedID="222" version="1400">
+			<color cs="RGB" tints="0.192157,0.34902,0.584314"></color>
+			<color cs="LAB" tints="0.368627,0.505882,0.352941"/>
+		</cs>
+		<cs name="PANTONE 8185 C" fixedID="223" version="1400">
+			<color cs="RGB" tints="0.168627,0.321569,0.54902"></color>
+			<color cs="LAB" tints="0.341176,0.509804,0.352941"/>
+		</cs>
+		<cs name="PANTONE 8200 C" fixedID="49" version="1300">
+			<color cs="RGB" tints="0.427451,0.533333,0.603922"></color>
+			<color cs="LAB" tints="0.54902,0.47451,0.45098"/>
+		</cs>
+		<cs name="PANTONE 8201 C" fixedID="50" version="1300">
+			<color cs="RGB" tints="0.372549,0.513725,0.611765"></color>
+			<color cs="LAB" tints="0.52549,0.466667,0.431373"/>
+		</cs>
+		<cs name="PANTONE 8202 C" fixedID="51" version="1300">
+			<color cs="RGB" tints="0.298039,0.494118,0.623529"></color>
+			<color cs="LAB" tints="0.498039,0.462745,0.407843"/>
+		</cs>
+		<cs name="PANTONE 8203 C" fixedID="52" version="1300">
+			<color cs="RGB" tints="0.192157,0.466667,0.639216"></color>
+			<color cs="LAB" tints="0.466667,0.454902,0.380392"/>
+		</cs>
+		<cs name="PANTONE 8204 C" fixedID="224" version="1400">
+			<color cs="RGB" tints="0.247059,0.458824,0.564706"></color>
+			<color cs="LAB" tints="0.462745,0.45098,0.419608"/>
+		</cs>
+		<cs name="PANTONE 8205 C" fixedID="225" version="1400">
+			<color cs="RGB" tints="0.239216,0.435294,0.521569"></color>
+			<color cs="LAB" tints="0.435294,0.45098,0.431373"/>
+		</cs>
+		<cs name="PANTONE 8220 C" fixedID="53" version="1300">
+			<color cs="RGB" tints="0.435294,0.54902,0.603922"></color>
+			<color cs="LAB" tints="0.560784,0.466667,0.454902"/>
+		</cs>
+		<cs name="PANTONE 8221 C" fixedID="54" version="1300">
+			<color cs="RGB" tints="0.368627,0.541176,0.619608"></color>
+			<color cs="LAB" tints="0.545098,0.454902,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8222 C" fixedID="55" version="1300">
+			<color cs="RGB" tints="0.286275,0.52549,0.631373"></color>
+			<color cs="LAB" tints="0.52549,0.443137,0.419608"/>
+		</cs>
+		<cs name="PANTONE 8223 C" fixedID="56" version="1300">
+			<color cs="RGB" tints="0.168627,0.501961,0.631373"></color>
+			<color cs="LAB" tints="0.494118,0.431373,0.4"/>
+		</cs>
+		<cs name="PANTONE 8224 C" fixedID="226" version="1400">
+			<color cs="RGB" tints="0.066667,0.47451,0.576471"></color>
+			<color cs="LAB" tints="0.462745,0.419608,0.411765"/>
+		</cs>
+		<cs name="PANTONE 8225 C" fixedID="227" version="1400">
+			<color cs="RGB" tints="0,0.447059,0.529412"></color>
+			<color cs="LAB" tints="0.431373,0.411765,0.419608"/>
+		</cs>
+		<cs name="PANTONE 8240 C" fixedID="57" version="1300">
+			<color cs="RGB" tints="0.505882,0.564706,0.596078"></color>
+			<color cs="LAB" tints="0.588235,0.482353,0.478431"/>
+		</cs>
+		<cs name="PANTONE 8241 C" fixedID="58" version="1300">
+			<color cs="RGB" tints="0.384314,0.556863,0.611765"></color>
+			<color cs="LAB" tints="0.560784,0.45098,0.45098"/>
+		</cs>
+		<cs name="PANTONE 8242 C" fixedID="59" version="1300">
+			<color cs="RGB" tints="0.298039,0.545098,0.607843"></color>
+			<color cs="LAB" tints="0.537255,0.431373,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8243 C" fixedID="60" version="1300">
+			<color cs="RGB" tints="0.164706,0.541176,0.623529"></color>
+			<color cs="LAB" tints="0.521569,0.411765,0.419608"/>
+		</cs>
+		<cs name="PANTONE 8244 C" fixedID="228" version="1400">
+			<color cs="RGB" tints="0.258824,0.498039,0.52549"></color>
+			<color cs="LAB" tints="0.490196,0.427451,0.458824"/>
+		</cs>
+		<cs name="PANTONE 8245 C" fixedID="229" version="1400">
+			<color cs="RGB" tints="0.247059,0.470588,0.47451"></color>
+			<color cs="LAB" tints="0.462745,0.423529,0.470588"/>
+		</cs>
+		<cs name="PANTONE 8260 C" fixedID="61" version="1300">
+			<color cs="RGB" tints="0.447059,0.560784,0.596078"></color>
+			<color cs="LAB" tints="0.572549,0.466667,0.466667"/>
+		</cs>
+		<cs name="PANTONE 8261 C" fixedID="62" version="1300">
+			<color cs="RGB" tints="0.384314,0.545098,0.584314"></color>
+			<color cs="LAB" tints="0.54902,0.45098,0.462745"/>
+		</cs>
+		<cs name="PANTONE 8262 C" fixedID="63" version="1300">
+			<color cs="RGB" tints="0.301961,0.533333,0.576471"></color>
+			<color cs="LAB" tints="0.52549,0.431373,0.45098"/>
+		</cs>
+		<cs name="PANTONE 8263 C" fixedID="64" version="1300">
+			<color cs="RGB" tints="0.2,0.517647,0.564706"></color>
+			<color cs="LAB" tints="0.505882,0.411765,0.443137"/>
+		</cs>
+		<cs name="PANTONE 8264 C" fixedID="230" version="1400">
+			<color cs="RGB" tints="0.129412,0.47451,0.486275"></color>
+			<color cs="LAB" tints="0.454902,0.403922,0.458824"/>
+		</cs>
+		<cs name="PANTONE 8265 C" fixedID="231" version="1400">
+			<color cs="RGB" tints="0.109804,0.427451,0.415686"></color>
+			<color cs="LAB" tints="0.411765,0.403922,0.478431"/>
+		</cs>
+		<cs name="PANTONE 8280 C" fixedID="65" version="1300">
+			<color cs="RGB" tints="0.486275,0.592157,0.592157"></color>
+			<color cs="LAB" tints="0.6,0.462745,0.486275"/>
+		</cs>
+		<cs name="PANTONE 8281 C" fixedID="66" version="1300">
+			<color cs="RGB" tints="0.439216,0.592157,0.584314"></color>
+			<color cs="LAB" tints="0.596078,0.443137,0.486275"/>
+		</cs>
+		<cs name="PANTONE 8282 C" fixedID="67" version="1300">
+			<color cs="RGB" tints="0.376471,0.603922,0.580392"></color>
+			<color cs="LAB" tints="0.592157,0.419608,0.486275"/>
+		</cs>
+		<cs name="PANTONE 8283 C" fixedID="68" version="1300">
+			<color cs="RGB" tints="0.286275,0.611765,0.576471"></color>
+			<color cs="LAB" tints="0.588235,0.388235,0.486275"/>
+		</cs>
+		<cs name="PANTONE 8284 C" fixedID="232" version="1400">
+			<color cs="RGB" tints="0.345098,0.576471,0.509804"></color>
+			<color cs="LAB" tints="0.564706,0.407843,0.509804"/>
+		</cs>
+		<cs name="PANTONE 8285 C" fixedID="233" version="1400">
+			<color cs="RGB" tints="0.333333,0.556863,0.466667"></color>
+			<color cs="LAB" tints="0.541176,0.407843,0.521569"/>
+		</cs>
+		<cs name="PANTONE 8300 C" fixedID="69" version="1300">
+			<color cs="RGB" tints="0.501961,0.588235,0.556863"></color>
+			<color cs="LAB" tints="0.6,0.466667,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8301 C" fixedID="70" version="1300">
+			<color cs="RGB" tints="0.470588,0.6,0.545098"></color>
+			<color cs="LAB" tints="0.603922,0.443137,0.513725"/>
+		</cs>
+		<cs name="PANTONE 8302 C" fixedID="71" version="1300">
+			<color cs="RGB" tints="0.415686,0.603922,0.509804"></color>
+			<color cs="LAB" tints="0.592157,0.419608,0.52549"/>
+		</cs>
+		<cs name="PANTONE 8303 C" fixedID="72" version="1300">
+			<color cs="RGB" tints="0.329412,0.576471,0.447059"></color>
+			<color cs="LAB" tints="0.556863,0.392157,0.541176"/>
+		</cs>
+		<cs name="PANTONE 8304 C" fixedID="234" version="1400">
+			<color cs="RGB" tints="0.380392,0.54902,0.407843"></color>
+			<color cs="LAB" tints="0.541176,0.415686,0.556863"/>
+		</cs>
+		<cs name="PANTONE 8305 C" fixedID="235" version="1400">
+			<color cs="RGB" tints="0.372549,0.52549,0.364706"></color>
+			<color cs="LAB" tints="0.521569,0.419608,0.568627"/>
+		</cs>
+		<cs name="PANTONE 8320 C" fixedID="73" version="1300">
+			<color cs="RGB" tints="0.541176,0.572549,0.54902"></color>
+			<color cs="LAB" tints="0.596078,0.486275,0.509804"/>
+		</cs>
+		<cs name="PANTONE 8321 C" fixedID="74" version="1300">
+			<color cs="RGB" tints="0.501961,0.588235,0.478431"></color>
+			<color cs="LAB" tints="0.596078,0.454902,0.54902"/>
+		</cs>
+		<cs name="PANTONE 8322 C" fixedID="75" version="1300">
+			<color cs="RGB" tints="0.470588,0.596078,0.431373"></color>
+			<color cs="LAB" tints="0.592157,0.431373,0.572549"/>
+		</cs>
+		<cs name="PANTONE 8323 C" fixedID="76" version="1300">
+			<color cs="RGB" tints="0.411765,0.576471,0.368627"></color>
+			<color cs="LAB" tints="0.564706,0.411765,0.588235"/>
+		</cs>
+		<cs name="PANTONE 8324 C" fixedID="236" version="1400">
+			<color cs="RGB" tints="0.458824,0.572549,0.356863"></color>
+			<color cs="LAB" tints="0.568627,0.427451,0.6"/>
+		</cs>
+		<cs name="PANTONE 8325 C" fixedID="237" version="1400">
+			<color cs="RGB" tints="0.447059,0.54902,0.309804"></color>
+			<color cs="LAB" tints="0.54902,0.431373,0.615686"/>
+		</cs>
+		<cs name="PANTONE 8340 C" fixedID="77" version="1300">
+			<color cs="RGB" tints="0.552941,0.584314,0.490196"></color>
+			<color cs="LAB" tints="0.603922,0.478431,0.54902"/>
+		</cs>
+		<cs name="PANTONE 8341 C" fixedID="78" version="1300">
+			<color cs="RGB" tints="0.545098,0.584314,0.439216"></color>
+			<color cs="LAB" tints="0.6,0.466667,0.572549"/>
+		</cs>
+		<cs name="PANTONE 8342 C" fixedID="79" version="1300">
+			<color cs="RGB" tints="0.537255,0.592157,0.384314"></color>
+			<color cs="LAB" tints="0.603922,0.454902,0.603922"/>
+		</cs>
+		<cs name="PANTONE 8343 C" fixedID="80" version="1300">
+			<color cs="RGB" tints="0.521569,0.6,0.321569"></color>
+			<color cs="LAB" tints="0.6,0.439216,0.635294"/>
+		</cs>
+		<cs name="PANTONE 8344 C" fixedID="238" version="1400">
+			<color cs="RGB" tints="0.513725,0.568627,0.243137"></color>
+			<color cs="LAB" tints="0.576471,0.443137,0.662745"/>
+		</cs>
+		<cs name="PANTONE 8345 C" fixedID="239" version="1400">
+			<color cs="RGB" tints="0.509804,0.552941,0.180392"></color>
+			<color cs="LAB" tints="0.560784,0.447059,0.686275"/>
+		</cs>
+		<cs name="PANTONE 8360 C" fixedID="81" version="1300">
+			<color cs="RGB" tints="0.576471,0.580392,0.470588"></color>
+			<color cs="LAB" tints="0.607843,0.486275,0.560784"/>
+		</cs>
+		<cs name="PANTONE 8361 C" fixedID="82" version="1300">
+			<color cs="RGB" tints="0.572549,0.572549,0.419608"></color>
+			<color cs="LAB" tints="0.596078,0.482353,0.584314"/>
+		</cs>
+		<cs name="PANTONE 8362 C" fixedID="83" version="1300">
+			<color cs="RGB" tints="0.596078,0.584314,0.360784"></color>
+			<color cs="LAB" tints="0.607843,0.482353,0.619608"/>
+		</cs>
+		<cs name="PANTONE 8363 C" fixedID="84" version="1300">
+			<color cs="RGB" tints="0.631373,0.607843,0.294118"></color>
+			<color cs="LAB" tints="0.635294,0.482353,0.666667"/>
+		</cs>
+		<cs name="PANTONE 8364 C" fixedID="240" version="1400">
+			<color cs="RGB" tints="0.623529,0.568627,0.27451"></color>
+			<color cs="LAB" tints="0.603922,0.498039,0.662745"/>
+		</cs>
+		<cs name="PANTONE 8365 C" fixedID="241" version="1400">
+			<color cs="RGB" tints="0.635294,0.560784,0.239216"></color>
+			<color cs="LAB" tints="0.6,0.505882,0.678431"/>
+		</cs>
+		<cs name="PANTONE 8380 C" fixedID="85" version="1300">
+			<color cs="RGB" tints="0.568627,0.564706,0.521569"></color>
+			<color cs="LAB" tints="0.596078,0.498039,0.52549"/>
+		</cs>
+		<cs name="PANTONE 8381 C" fixedID="86" version="1300">
+			<color cs="RGB" tints="0.588235,0.564706,0.466667"></color>
+			<color cs="LAB" tints="0.596078,0.498039,0.556863"/>
+		</cs>
+		<cs name="PANTONE 8382 C" fixedID="87" version="1300">
+			<color cs="RGB" tints="0.607843,0.556863,0.407843"></color>
+			<color cs="LAB" tints="0.596078,0.505882,0.588235"/>
+		</cs>
+		<cs name="PANTONE 8383 C" fixedID="88" version="1300">
+			<color cs="RGB" tints="0.615686,0.537255,0.345098"></color>
+			<color cs="LAB" tints="0.584314,0.513725,0.615686"/>
+		</cs>
+		<cs name="PANTONE 8384 C" fixedID="242" version="1400">
+			<color cs="RGB" tints="0.643137,0.509804,0.266667"></color>
+			<color cs="LAB" tints="0.568627,0.533333,0.654902"/>
+		</cs>
+		<cs name="PANTONE 8385 C" fixedID="243" version="1400">
+			<color cs="RGB" tints="0.643137,0.486275,0.223529"></color>
+			<color cs="LAB" tints="0.552941,0.545098,0.670588"/>
+		</cs>
+		<cs name="PANTONE 8400 C" fixedID="89" version="1300">
+			<color cs="RGB" tints="0.505882,0.505882,0.509804"></color>
+			<color cs="LAB" tints="0.541176,0.501961,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8401 C" fixedID="90" version="1300">
+			<color cs="RGB" tints="0.462745,0.458824,0.458824"></color>
+			<color cs="LAB" tints="0.494118,0.501961,0.501961"/>
+		</cs>
+		<cs name="PANTONE 8402 C" fixedID="91" version="1300">
+			<color cs="RGB" tints="0.411765,0.407843,0.4"></color>
+			<color cs="LAB" tints="0.439216,0.501961,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8403 C" fixedID="92" version="1300">
+			<color cs="RGB" tints="0.360784,0.356863,0.34902"></color>
+			<color cs="LAB" tints="0.388235,0.501961,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8404 C" fixedID="244" version="1400">
+			<color cs="RGB" tints="0.337255,0.313725,0.290196"></color>
+			<color cs="LAB" tints="0.345098,0.509804,0.517647"/>
+		</cs>
+		<cs name="PANTONE 8405 C" fixedID="245" version="1400">
+			<color cs="RGB" tints="0.321569,0.286275,0.258824"></color>
+			<color cs="LAB" tints="0.317647,0.513725,0.52549"/>
+		</cs>
+		<cs name="PANTONE 8420 C" fixedID="93" version="1300">
+			<color cs="RGB" tints="0.568627,0.545098,0.552941"></color>
+			<color cs="LAB" tints="0.584314,0.513725,0.501961"/>
+		</cs>
+		<cs name="PANTONE 8421 C" fixedID="94" version="1300">
+			<color cs="RGB" tints="0.490196,0.47451,0.478431"></color>
+			<color cs="LAB" tints="0.509804,0.509804,0.501961"/>
+		</cs>
+		<cs name="PANTONE 8422 C" fixedID="95" version="1300">
+			<color cs="RGB" tints="0.454902,0.427451,0.431373"></color>
+			<color cs="LAB" tints="0.466667,0.513725,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8423 C" fixedID="96" version="1300">
+			<color cs="RGB" tints="0.411765,0.376471,0.376471"></color>
+			<color cs="LAB" tints="0.415686,0.513725,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8424 C" fixedID="246" version="1400">
+			<color cs="RGB" tints="0.384314,0.333333,0.313725"></color>
+			<color cs="LAB" tints="0.372549,0.521569,0.521569"/>
+		</cs>
+		<cs name="PANTONE 8425 C" fixedID="247" version="1400">
+			<color cs="RGB" tints="0.372549,0.309804,0.286275"></color>
+			<color cs="LAB" tints="0.352941,0.52549,0.529412"/>
+		</cs>
+		<cs name="PANTONE 8440 C" fixedID="97" version="1300">
+			<color cs="RGB" tints="0.603922,0.513725,0.529412"></color>
+			<color cs="LAB" tints="0.572549,0.541176,0.509804"/>
+		</cs>
+		<cs name="PANTONE 8441 C" fixedID="98" version="1300">
+			<color cs="RGB" tints="0.619608,0.482353,0.490196"></color>
+			<color cs="LAB" tints="0.552941,0.560784,0.521569"/>
+		</cs>
+		<cs name="PANTONE 8442 C" fixedID="99" version="1300">
+			<color cs="RGB" tints="0.635294,0.443137,0.447059"></color>
+			<color cs="LAB" tints="0.529412,0.584314,0.533333"/>
+		</cs>
+		<cs name="PANTONE 8443 C" fixedID="100" version="1300">
+			<color cs="RGB" tints="0.666667,0.403922,0.403922"></color>
+			<color cs="LAB" tints="0.517647,0.611765,0.552941"/>
+		</cs>
+		<cs name="PANTONE 8444 C" fixedID="248" version="1400">
+			<color cs="RGB" tints="0.67451,0.356863,0.32549"></color>
+			<color cs="LAB" tints="0.490196,0.635294,0.584314"/>
+		</cs>
+		<cs name="PANTONE 8445 C" fixedID="249" version="1400">
+			<color cs="RGB" tints="0.678431,0.32549,0.270588"></color>
+			<color cs="LAB" tints="0.47451,0.65098,0.611765"/>
+		</cs>
+		<cs name="PANTONE 8460 C" fixedID="101" version="1300">
+			<color cs="RGB" tints="0.537255,0.513725,0.552941"></color>
+			<color cs="LAB" tints="0.556863,0.517647,0.482353"/>
+		</cs>
+		<cs name="PANTONE 8461 C" fixedID="102" version="1300">
+			<color cs="RGB" tints="0.521569,0.466667,0.517647"></color>
+			<color cs="LAB" tints="0.517647,0.533333,0.482353"/>
+		</cs>
+		<cs name="PANTONE 8462 C" fixedID="103" version="1300">
+			<color cs="RGB" tints="0.498039,0.415686,0.478431"></color>
+			<color cs="LAB" tints="0.47451,0.545098,0.478431"/>
+		</cs>
+		<cs name="PANTONE 8463 C" fixedID="104" version="1300">
+			<color cs="RGB" tints="0.466667,0.368627,0.431373"></color>
+			<color cs="LAB" tints="0.427451,0.552941,0.482353"/>
+		</cs>
+		<cs name="PANTONE 8464 C" fixedID="250" version="1400">
+			<color cs="RGB" tints="0.454902,0.32549,0.372549"></color>
+			<color cs="LAB" tints="0.392157,0.568627,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8465 C" fixedID="251" version="1400">
+			<color cs="RGB" tints="0.443137,0.298039,0.337255"></color>
+			<color cs="LAB" tints="0.372549,0.572549,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8480 C" fixedID="105" version="1300">
+			<color cs="RGB" tints="0.270588,0.396078,0.501961"></color>
+			<color cs="LAB" tints="0.407843,0.478431,0.427451"/>
+		</cs>
+		<cs name="PANTONE 8481 C" fixedID="106" version="1300">
+			<color cs="RGB" tints="0.298039,0.376471,0.494118"></color>
+			<color cs="LAB" tints="0.4,0.498039,0.423529"/>
+		</cs>
+		<cs name="PANTONE 8482 C" fixedID="107" version="1300">
+			<color cs="RGB" tints="0.207843,0.341176,0.447059"></color>
+			<color cs="LAB" tints="0.34902,0.478431,0.423529"/>
+		</cs>
+		<cs name="PANTONE 8483 C" fixedID="108" version="1300">
+			<color cs="RGB" tints="0.121569,0.282353,0.419608"></color>
+			<color cs="LAB" tints="0.286275,0.486275,0.4"/>
+		</cs>
+		<cs name="PANTONE 8484 C" fixedID="252" version="1400">
+			<color cs="RGB" tints="0.145098,0.337255,0.509804"></color>
+			<color cs="LAB" tints="0.345098,0.482353,0.384314"/>
+		</cs>
+		<cs name="PANTONE 8485 C" fixedID="253" version="1400">
+			<color cs="RGB" tints="0.172549,0.364706,0.541176"></color>
+			<color cs="LAB" tints="0.372549,0.482353,0.380392"/>
+		</cs>
+		<cs name="PANTONE 8500 C" fixedID="109" version="1300">
+			<color cs="RGB" tints="0.439216,0.498039,0.486275"></color>
+			<color cs="LAB" tints="0.517647,0.478431,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8501 C" fixedID="110" version="1300">
+			<color cs="RGB" tints="0.368627,0.490196,0.458824"></color>
+			<color cs="LAB" tints="0.494118,0.454902,0.501961"/>
+		</cs>
+		<cs name="PANTONE 8502 C" fixedID="111" version="1300">
+			<color cs="RGB" tints="0.294118,0.392157,0.419608"></color>
+			<color cs="LAB" tints="0.403922,0.470588,0.470588"/>
+		</cs>
+		<cs name="PANTONE 8503 C" fixedID="112" version="1300">
+			<color cs="RGB" tints="0.2,0.254902,0.298039"></color>
+			<color cs="LAB" tints="0.266667,0.490196,0.466667"/>
+		</cs>
+		<cs name="PANTONE 8504 C" fixedID="254" version="1400">
+			<color cs="RGB" tints="0.215686,0.305882,0.372549"></color>
+			<color cs="LAB" tints="0.313725,0.486275,0.447059"/>
+		</cs>
+		<cs name="PANTONE 8505 C" fixedID="255" version="1400">
+			<color cs="RGB" tints="0.235294,0.337255,0.419608"></color>
+			<color cs="LAB" tints="0.34902,0.482353,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8520 C" fixedID="113" version="1300">
+			<color cs="RGB" tints="0.470588,0.462745,0.364706"></color>
+			<color cs="LAB" tints="0.490196,0.494118,0.556863"/>
+		</cs>
+		<cs name="PANTONE 8521 C" fixedID="114" version="1300">
+			<color cs="RGB" tints="0.333333,0.345098,0.286275"></color>
+			<color cs="LAB" tints="0.368627,0.490196,0.533333"/>
+		</cs>
+		<cs name="PANTONE 8522 C" fixedID="115" version="1300">
+			<color cs="RGB" tints="0.27451,0.309804,0.270588"></color>
+			<color cs="LAB" tints="0.32549,0.482353,0.521569"/>
+		</cs>
+		<cs name="PANTONE 8523 C" fixedID="116" version="1300">
+			<color cs="RGB" tints="0.207843,0.254902,0.227451"></color>
+			<color cs="LAB" tints="0.262745,0.478431,0.509804"/>
+		</cs>
+		<cs name="PANTONE 8524 C" fixedID="256" version="1400">
+			<color cs="RGB" tints="0.235294,0.298039,0.290196"></color>
+			<color cs="LAB" tints="0.309804,0.47451,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8525 C" fixedID="257" version="1400">
+			<color cs="RGB" tints="0.262745,0.333333,0.333333"></color>
+			<color cs="LAB" tints="0.345098,0.47451,0.490196"/>
+		</cs>
+		<cs name="PANTONE 8540 C" fixedID="117" version="1300">
+			<color cs="RGB" tints="0.513725,0.298039,0.301961"></color>
+			<color cs="LAB" tints="0.396078,0.6,0.545098"/>
+		</cs>
+		<cs name="PANTONE 8541 C" fixedID="118" version="1300">
+			<color cs="RGB" tints="0.427451,0.270588,0.278431"></color>
+			<color cs="LAB" tints="0.345098,0.576471,0.529412"/>
+		</cs>
+		<cs name="PANTONE 8542 C" fixedID="119" version="1300">
+			<color cs="RGB" tints="0.388235,0.196078,0.219608"></color>
+			<color cs="LAB" tints="0.278431,0.592157,0.529412"/>
+		</cs>
+		<cs name="PANTONE 8543 C" fixedID="120" version="1300">
+			<color cs="RGB" tints="0.376471,0.203922,0.278431"></color>
+			<color cs="LAB" tints="0.282353,0.592157,0.494118"/>
+		</cs>
+		<cs name="PANTONE 8544 C" fixedID="258" version="1400">
+			<color cs="RGB" tints="0.392157,0.243137,0.329412"></color>
+			<color cs="LAB" tints="0.317647,0.580392,0.482353"/>
+		</cs>
+		<cs name="PANTONE 8545 C" fixedID="259" version="1400">
+			<color cs="RGB" tints="0.376471,0.262745,0.333333"></color>
+			<color cs="LAB" tints="0.32549,0.564706,0.482353"/>
+		</cs>
+		<cs name="PANTONE 8560 C" fixedID="121" version="1300">
+			<color cs="RGB" tints="0.498039,0.337255,0.286275"></color>
+			<color cs="LAB" tints="0.411765,0.568627,0.560784"/>
+		</cs>
+		<cs name="PANTONE 8561 C" fixedID="122" version="1300">
+			<color cs="RGB" tints="0.47451,0.290196,0.290196"></color>
+			<color cs="LAB" tints="0.372549,0.584314,0.541176"/>
+		</cs>
+		<cs name="PANTONE 8562 C" fixedID="123" version="1300">
+			<color cs="RGB" tints="0.443137,0.247059,0.266667"></color>
+			<color cs="LAB" tints="0.337255,0.592157,0.533333"/>
+		</cs>
+		<cs name="PANTONE 8563 C" fixedID="124" version="1300">
+			<color cs="RGB" tints="0.439216,0.262745,0.235294"></color>
+			<color cs="LAB" tints="0.341176,0.580392,0.552941"/>
+		</cs>
+		<cs name="PANTONE 8564 C" fixedID="260" version="1400">
+			<color cs="RGB" tints="0.470588,0.309804,0.305882"></color>
+			<color cs="LAB" tints="0.384314,0.572549,0.533333"/>
+		</cs>
+		<cs name="PANTONE 8565 C" fixedID="261" version="1400">
+			<color cs="RGB" tints="0.470588,0.333333,0.337255"></color>
+			<color cs="LAB" tints="0.403922,0.564706,0.52549"/>
+		</cs>
+		<cs name="PANTONE 8580 C" fixedID="125" version="1300">
+			<color cs="RGB" tints="0.576471,0.427451,0.254902"></color>
+			<color cs="LAB" tints="0.498039,0.54902,0.623529"/>
+		</cs>
+		<cs name="PANTONE 8581 C" fixedID="126" version="1300">
+			<color cs="RGB" tints="0.517647,0.368627,0.231373"></color>
+			<color cs="LAB" tints="0.435294,0.552941,0.607843"/>
+		</cs>
+		<cs name="PANTONE 8582 C" fixedID="127" version="1300">
+			<color cs="RGB" tints="0.494118,0.337255,0.2"></color>
+			<color cs="LAB" tints="0.407843,0.556863,0.611765"/>
+		</cs>
+		<cs name="PANTONE 8583 C" fixedID="128" version="1300">
+			<color cs="RGB" tints="0.431373,0.27451,0.152941"></color>
+			<color cs="LAB" tints="0.345098,0.560784,0.607843"/>
+		</cs>
+		<cs name="PANTONE 8584 C" fixedID="262" version="1400">
+			<color cs="RGB" tints="0.419608,0.286275,0.188235"></color>
+			<color cs="LAB" tints="0.345098,0.552941,0.584314"/>
+		</cs>
+		<cs name="PANTONE 8585 C" fixedID="263" version="1400">
+			<color cs="RGB" tints="0.462745,0.333333,0.239216"></color>
+			<color cs="LAB" tints="0.396078,0.54902,0.580392"/>
+		</cs>
+		<cs name="PANTONE 8600 C" fixedID="129" version="1300">
+			<color cs="RGB" tints="0.364706,0.352941,0.34902"></color>
+			<color cs="LAB" tints="0.384314,0.509804,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8601 C" fixedID="130" version="1300">
+			<color cs="RGB" tints="0.313725,0.282353,0.278431"></color>
+			<color cs="LAB" tints="0.313725,0.517647,0.509804"/>
+		</cs>
+		<cs name="PANTONE 8602 C" fixedID="131" version="1300">
+			<color cs="RGB" tints="0.258824,0.247059,0.266667"></color>
+			<color cs="LAB" tints="0.270588,0.513725,0.490196"/>
+		</cs>
+		<cs name="PANTONE 8603 C" fixedID="132" version="1300">
+			<color cs="RGB" tints="0.203922,0.203922,0.243137"></color>
+			<color cs="LAB" tints="0.219608,0.513725,0.478431"/>
+		</cs>
+		<cs name="PANTONE 8604 C" fixedID="264" version="1400">
+			<color cs="RGB" tints="0.223529,0.247059,0.305882"></color>
+			<color cs="LAB" tints="0.262745,0.505882,0.462745"/>
+		</cs>
+		<cs name="PANTONE 8605 C" fixedID="265" version="1400">
+			<color cs="RGB" tints="0.247059,0.282353,0.352941"></color>
+			<color cs="LAB" tints="0.305882,0.501961,0.454902"/>
+		</cs>
+		<cs name="PANTONE 8620 C" fixedID="133" version="1300">
+			<color cs="RGB" tints="0.470588,0.388235,0.301961"></color>
+			<color cs="LAB" tints="0.439216,0.529412,0.564706"/>
+		</cs>
+		<cs name="PANTONE 8621 C" fixedID="134" version="1300">
+			<color cs="RGB" tints="0.411765,0.337255,0.266667"></color>
+			<color cs="LAB" tints="0.380392,0.52549,0.556863"/>
+		</cs>
+		<cs name="PANTONE 8622 C" fixedID="135" version="1300">
+			<color cs="RGB" tints="0.34902,0.282353,0.223529"></color>
+			<color cs="LAB" tints="0.321569,0.52549,0.54902"/>
+		</cs>
+		<cs name="PANTONE 8623 C" fixedID="136" version="1300">
+			<color cs="RGB" tints="0.305882,0.266667,0.235294"></color>
+			<color cs="LAB" tints="0.298039,0.513725,0.52549"/>
+		</cs>
+		<cs name="PANTONE 8624 C" fixedID="266" version="1400">
+			<color cs="RGB" tints="0.266667,0.239216,0.211765"></color>
+			<color cs="LAB" tints="0.262745,0.513725,0.521569"/>
+		</cs>
+		<cs name="PANTONE 8625 C" fixedID="267" version="1400">
+			<color cs="RGB" tints="0.278431,0.258824,0.239216"></color>
+			<color cs="LAB" tints="0.282353,0.509804,0.517647"/>
+		</cs>
+		<cs name="PANTONE 8640 C" fixedID="137" version="1300">
+			<color cs="RGB" tints="0.603922,0.486275,0.219608"></color>
+			<color cs="LAB" tints="0.541176,0.529412,0.662745"/>
+		</cs>
+		<cs name="PANTONE 8641 C" fixedID="138" version="1300">
+			<color cs="RGB" tints="0.639216,0.517647,0.172549"></color>
+			<color cs="LAB" tints="0.568627,0.52549,0.698039"/>
+		</cs>
+		<cs name="PANTONE 8642 C" fixedID="139" version="1300">
+			<color cs="RGB" tints="0.67451,0.545098,0.101961"></color>
+			<color cs="LAB" tints="0.6,0.52549,0.733333"/>
+		</cs>
+		<cs name="PANTONE 8643 C" fixedID="140" version="1300">
+			<color cs="RGB" tints="0.67451,0.529412,0"></color>
+			<color cs="LAB" tints="0.588235,0.529412,0.752941"/>
+		</cs>
+		<cs name="PANTONE 8644 C" fixedID="268" version="1400">
+			<color cs="RGB" tints="0.65098,0.54902,0.141176"></color>
+			<color cs="LAB" tints="0.596078,0.513725,0.717647"/>
+		</cs>
+		<cs name="PANTONE 8645 C" fixedID="269" version="1400">
+			<color cs="RGB" tints="0.627451,0.556863,0.207843"></color>
+			<color cs="LAB" tints="0.596078,0.498039,0.694118"/>
+		</cs>
+		<cs name="PANTONE 8660 C" fixedID="141" version="1300">
+			<color cs="RGB" tints="0.552941,0.458824,0.207843"></color>
+			<color cs="LAB" tints="0.505882,0.517647,0.65098"/>
+		</cs>
+		<cs name="PANTONE 8661 C" fixedID="142" version="1300">
+			<color cs="RGB" tints="0.537255,0.47451,0.113725"></color>
+			<color cs="LAB" tints="0.509804,0.498039,0.694118"/>
+		</cs>
+		<cs name="PANTONE 8662 C" fixedID="143" version="1300">
+			<color cs="RGB" tints="0.521569,0.490196,0.117647"></color>
+			<color cs="LAB" tints="0.517647,0.482353,0.694118"/>
+		</cs>
+		<cs name="PANTONE 8663 C" fixedID="144" version="1300">
+			<color cs="RGB" tints="0.494118,0.505882,0.05098"></color>
+			<color cs="LAB" tints="0.521569,0.458824,0.709804"/>
+		</cs>
+		<cs name="PANTONE 8664 C" fixedID="270" version="1400">
+			<color cs="RGB" tints="0.513725,0.556863,0.172549"></color>
+			<color cs="LAB" tints="0.568627,0.447059,0.690196"/>
+		</cs>
+		<cs name="PANTONE 8665 C" fixedID="271" version="1400">
+			<color cs="RGB" tints="0.513725,0.568627,0.231373"></color>
+			<color cs="LAB" tints="0.576471,0.443137,0.670588"/>
+		</cs>
+		<cs name="PANTONE 8680 C" fixedID="145" version="1300">
+			<color cs="RGB" tints="0.490196,0.470588,0.278431"></color>
+			<color cs="LAB" tints="0.501961,0.486275,0.611765"/>
+		</cs>
+		<cs name="PANTONE 8681 C" fixedID="146" version="1300">
+			<color cs="RGB" tints="0.470588,0.478431,0.219608"></color>
+			<color cs="LAB" tints="0.501961,0.470588,0.639216"/>
+		</cs>
+		<cs name="PANTONE 8682 C" fixedID="147" version="1300">
+			<color cs="RGB" tints="0.431373,0.498039,0.188235"></color>
+			<color cs="LAB" tints="0.505882,0.439216,0.654902"/>
+		</cs>
+		<cs name="PANTONE 8683 C" fixedID="148" version="1300">
+			<color cs="RGB" tints="0.396078,0.560784,0.192157"></color>
+			<color cs="LAB" tints="0.54902,0.396078,0.670588"/>
+		</cs>
+		<cs name="PANTONE 8684 C" fixedID="272" version="1400">
+			<color cs="RGB" tints="0.380392,0.541176,0.231373"></color>
+			<color cs="LAB" tints="0.529412,0.4,0.643137"/>
+		</cs>
+		<cs name="PANTONE 8685 C" fixedID="273" version="1400">
+			<color cs="RGB" tints="0.392157,0.552941,0.286275"></color>
+			<color cs="LAB" tints="0.541176,0.403922,0.623529"/>
+		</cs>
+		<cs name="PANTONE 8700 C" fixedID="149" version="1300">
+			<color cs="RGB" tints="0.447059,0.458824,0.301961"></color>
+			<color cs="LAB" tints="0.482353,0.478431,0.584314"/>
+		</cs>
+		<cs name="PANTONE 8701 C" fixedID="150" version="1300">
+			<color cs="RGB" tints="0.415686,0.482353,0.27451"></color>
+			<color cs="LAB" tints="0.490196,0.45098,0.603922"/>
+		</cs>
+		<cs name="PANTONE 8702 C" fixedID="151" version="1300">
+			<color cs="RGB" tints="0.352941,0.498039,0.266667"></color>
+			<color cs="LAB" tints="0.490196,0.411765,0.603922"/>
+		</cs>
+		<cs name="PANTONE 8703 C" fixedID="152" version="1300">
+			<color cs="RGB" tints="0.262745,0.509804,0.25098"></color>
+			<color cs="LAB" tints="0.486275,0.372549,0.611765"/>
+		</cs>
+		<cs name="PANTONE 8704 C" fixedID="274" version="1400">
+			<color cs="RGB" tints="0.286275,0.533333,0.32549"></color>
+			<color cs="LAB" tints="0.509804,0.380392,0.584314"/>
+		</cs>
+		<cs name="PANTONE 8705 C" fixedID="275" version="1400">
+			<color cs="RGB" tints="0.305882,0.541176,0.368627"></color>
+			<color cs="LAB" tints="0.521569,0.388235,0.564706"/>
+		</cs>
+		<cs name="PANTONE 8720 C" fixedID="153" version="1300">
+			<color cs="RGB" tints="0.337255,0.45098,0.352941"></color>
+			<color cs="LAB" tints="0.454902,0.443137,0.541176"/>
+		</cs>
+		<cs name="PANTONE 8721 C" fixedID="154" version="1300">
+			<color cs="RGB" tints="0.364706,0.478431,0.356863"></color>
+			<color cs="LAB" tints="0.478431,0.439216,0.552941"/>
+		</cs>
+		<cs name="PANTONE 8722 C" fixedID="155" version="1300">
+			<color cs="RGB" tints="0.27451,0.470588,0.352941"></color>
+			<color cs="LAB" tints="0.458824,0.411765,0.541176"/>
+		</cs>
+		<cs name="PANTONE 8723 C" fixedID="156" version="1300">
+			<color cs="RGB" tints="0.180392,0.52549,0.380392"></color>
+			<color cs="LAB" tints="0.498039,0.364706,0.545098"/>
+		</cs>
+		<cs name="PANTONE 8724 C" fixedID="276" version="1400">
+			<color cs="RGB" tints="0.215686,0.572549,0.466667"></color>
+			<color cs="LAB" tints="0.541176,0.368627,0.521569"/>
+		</cs>
+		<cs name="PANTONE 8725 C" fixedID="277" version="1400">
+			<color cs="RGB" tints="0.239216,0.576471,0.494118"></color>
+			<color cs="LAB" tints="0.54902,0.376471,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8740 C" fixedID="157" version="1300">
+			<color cs="RGB" tints="0.301961,0.423529,0.388235"></color>
+			<color cs="LAB" tints="0.427451,0.45098,0.505882"/>
+		</cs>
+		<cs name="PANTONE 8741 C" fixedID="158" version="1300">
+			<color cs="RGB" tints="0.203922,0.431373,0.380392"></color>
+			<color cs="LAB" tints="0.419608,0.415686,0.501961"/>
+		</cs>
+		<cs name="PANTONE 8742 C" fixedID="159" version="1300">
+			<color cs="RGB" tints="0.207843,0.435294,0.396078"></color>
+			<color cs="LAB" tints="0.423529,0.415686,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8743 C" fixedID="160" version="1300">
+			<color cs="RGB" tints="0,0.443137,0.443137"></color>
+			<color cs="LAB" tints="0.419608,0.384314,0.462745"/>
+		</cs>
+		<cs name="PANTONE 8744 C" fixedID="278" version="1400">
+			<color cs="RGB" tints="0,0.478431,0.509804"></color>
+			<color cs="LAB" tints="0.454902,0.392157,0.447059"/>
+		</cs>
+		<cs name="PANTONE 8745 C" fixedID="279" version="1400">
+			<color cs="RGB" tints="0.086275,0.498039,0.545098"></color>
+			<color cs="LAB" tints="0.478431,0.4,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8760 C" fixedID="161" version="1300">
+			<color cs="RGB" tints="0.180392,0.427451,0.439216"></color>
+			<color cs="LAB" tints="0.419608,0.423529,0.466667"/>
+		</cs>
+		<cs name="PANTONE 8761 C" fixedID="162" version="1300">
+			<color cs="RGB" tints="0,0.4,0.45098"></color>
+			<color cs="LAB" tints="0.380392,0.403922,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8762 C" fixedID="163" version="1300">
+			<color cs="RGB" tints="0.207843,0.368627,0.407843"></color>
+			<color cs="LAB" tints="0.372549,0.45098,0.458824"/>
+		</cs>
+		<cs name="PANTONE 8763 C" fixedID="164" version="1300">
+			<color cs="RGB" tints="0.023529,0.341176,0.435294"></color>
+			<color cs="LAB" tints="0.333333,0.443137,0.415686"/>
+		</cs>
+		<cs name="PANTONE 8764 C" fixedID="280" version="1400">
+			<color cs="RGB" tints="0.101961,0.384314,0.501961"></color>
+			<color cs="LAB" tints="0.380392,0.447059,0.407843"/>
+		</cs>
+		<cs name="PANTONE 8765 C" fixedID="281" version="1400">
+			<color cs="RGB" tints="0.14902,0.411765,0.541176"></color>
+			<color cs="LAB" tints="0.407843,0.45098,0.4"/>
+		</cs>
+		<cs name="PANTONE 8780 C" fixedID="165" version="1300">
+			<color cs="RGB" tints="0.27451,0.247059,0.372549"></color>
+			<color cs="LAB" tints="0.286275,0.537255,0.431373"/>
+		</cs>
+		<cs name="PANTONE 8781 C" fixedID="166" version="1300">
+			<color cs="RGB" tints="0.235294,0.262745,0.388235"></color>
+			<color cs="LAB" tints="0.290196,0.517647,0.423529"/>
+		</cs>
+		<cs name="PANTONE 8782 C" fixedID="167" version="1300">
+			<color cs="RGB" tints="0.227451,0.235294,0.482353"></color>
+			<color cs="LAB" tints="0.278431,0.556863,0.356863"/>
+		</cs>
+		<cs name="PANTONE 8783 C" fixedID="168" version="1300">
+			<color cs="RGB" tints="0.164706,0.227451,0.431373"></color>
+			<color cs="LAB" tints="0.254902,0.529412,0.372549"/>
+		</cs>
+		<cs name="PANTONE 8784 C" fixedID="282" version="1400">
+			<color cs="RGB" tints="0.184314,0.270588,0.486275"></color>
+			<color cs="LAB" tints="0.298039,0.52549,0.364706"/>
+		</cs>
+		<cs name="PANTONE 8785 C" fixedID="283" version="1400">
+			<color cs="RGB" tints="0.2,0.305882,0.541176"></color>
+			<color cs="LAB" tints="0.333333,0.521569,0.356863"/>
+		</cs>
+		<cs name="PANTONE 8800 C" fixedID="169" version="1300">
+			<color cs="RGB" tints="0.356863,0.223529,0.372549"></color>
+			<color cs="LAB" tints="0.298039,0.584314,0.443137"/>
+		</cs>
+		<cs name="PANTONE 8801 C" fixedID="170" version="1300">
+			<color cs="RGB" tints="0.333333,0.231373,0.372549"></color>
+			<color cs="LAB" tints="0.290196,0.572549,0.439216"/>
+		</cs>
+		<cs name="PANTONE 8802 C" fixedID="171" version="1300">
+			<color cs="RGB" tints="0.278431,0.176471,0.376471"></color>
+			<color cs="LAB" tints="0.239216,0.584314,0.4"/>
+		</cs>
+		<cs name="PANTONE 8803 C" fixedID="172" version="1300">
+			<color cs="RGB" tints="0.305882,0.168627,0.376471"></color>
+			<color cs="LAB" tints="0.243137,0.596078,0.403922"/>
+		</cs>
+		<cs name="PANTONE 8804 C" fixedID="284" version="1400">
+			<color cs="RGB" tints="0.329412,0.219608,0.45098"></color>
+			<color cs="LAB" tints="0.294118,0.588235,0.388235"/>
+		</cs>
+		<cs name="PANTONE 8805 C" fixedID="285" version="1400">
+			<color cs="RGB" tints="0.345098,0.254902,0.490196"></color>
+			<color cs="LAB" tints="0.32549,0.580392,0.384314"/>
+		</cs>
+		<cs name="PANTONE 8820 C" fixedID="173" version="1300">
+			<color cs="RGB" tints="0.52549,0.254902,0.360784"></color>
+			<color cs="LAB" tints="0.380392,0.635294,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8821 C" fixedID="174" version="1300">
+			<color cs="RGB" tints="0.521569,0.2,0.372549"></color>
+			<color cs="LAB" tints="0.352941,0.662745,0.47451"/>
+		</cs>
+		<cs name="PANTONE 8822 C" fixedID="175" version="1300">
+			<color cs="RGB" tints="0.415686,0.215686,0.360784"></color>
+			<color cs="LAB" tints="0.313725,0.611765,0.458824"/>
+		</cs>
+		<cs name="PANTONE 8823 C" fixedID="176" version="1300">
+			<color cs="RGB" tints="0.384314,0.164706,0.396078"></color>
+			<color cs="LAB" tints="0.278431,0.631373,0.415686"/>
+		</cs>
+		<cs name="PANTONE 8824 C" fixedID="286" version="1400">
+			<color cs="RGB" tints="0.4,0.215686,0.458824"></color>
+			<color cs="LAB" tints="0.317647,0.619608,0.4"/>
+		</cs>
+		<cs name="PANTONE 8825 C" fixedID="287" version="1400">
+			<color cs="RGB" tints="0.415686,0.254902,0.509804"></color>
+			<color cs="LAB" tints="0.352941,0.611765,0.388235"/>
+		</cs>
+		<cs name="PANTONE 8840 C" fixedID="177" version="1300">
+			<color cs="RGB" tints="0.545098,0.254902,0.32549"></color>
+			<color cs="LAB" tints="0.384314,0.635294,0.52549"/>
+		</cs>
+		<cs name="PANTONE 8841 C" fixedID="178" version="1300">
+			<color cs="RGB" tints="0.545098,0.2,0.329412"></color>
+			<color cs="LAB" tints="0.360784,0.662745,0.509804"/>
+		</cs>
+		<cs name="PANTONE 8842 C" fixedID="179" version="1300">
+			<color cs="RGB" tints="0.552941,0.133333,0.356863"></color>
+			<color cs="LAB" tints="0.341176,0.698039,0.482353"/>
+		</cs>
+		<cs name="PANTONE 8843 C" fixedID="180" version="1300">
+			<color cs="RGB" tints="0.517647,0.133333,0.388235"></color>
+			<color cs="LAB" tints="0.32549,0.690196,0.45098"/>
+		</cs>
+		<cs name="PANTONE 8844 C" fixedID="288" version="1400">
+			<color cs="RGB" tints="0.517647,0.188235,0.447059"></color>
+			<color cs="LAB" tints="0.352941,0.670588,0.431373"/>
+		</cs>
+		<cs name="PANTONE 8845 C" fixedID="289" version="1400">
+			<color cs="RGB" tints="0.517647,0.239216,0.490196"></color>
+			<color cs="LAB" tints="0.376471,0.654902,0.419608"/>
+		</cs>
+		<cs name="PANTONE 8860 C" fixedID="181" version="1300">
+			<color cs="RGB" tints="0.603922,0.313725,0.317647"></color>
+			<color cs="LAB" tints="0.439216,0.631373,0.560784"/>
+		</cs>
+		<cs name="PANTONE 8861 C" fixedID="182" version="1300">
+			<color cs="RGB" tints="0.576471,0.262745,0.305882"></color>
+			<color cs="LAB" tints="0.4,0.647059,0.545098"/>
+		</cs>
+		<cs name="PANTONE 8862 C" fixedID="183" version="1300">
+			<color cs="RGB" tints="0.584314,0.215686,0.294118"></color>
+			<color cs="LAB" tints="0.384314,0.670588,0.545098"/>
+		</cs>
+		<cs name="PANTONE 8863 C" fixedID="184" version="1300">
+			<color cs="RGB" tints="0.588235,0.152941,0.258824"></color>
+			<color cs="LAB" tints="0.360784,0.698039,0.556863"/>
+		</cs>
+		<cs name="PANTONE 8864 C" fixedID="290" version="1400">
+			<color cs="RGB" tints="0.576471,0.207843,0.329412"></color>
+			<color cs="LAB" tints="0.376471,0.67451,0.521569"/>
+		</cs>
+		<cs name="PANTONE 8865 C" fixedID="291" version="1400">
+			<color cs="RGB" tints="0.564706,0.25098,0.380392"></color>
+			<color cs="LAB" tints="0.396078,0.65098,0.498039"/>
+		</cs>
+		<cs name="PANTONE 8880 C" fixedID="185" version="1300">
+			<color cs="RGB" tints="0.596078,0.329412,0.34902"></color>
+			<color cs="LAB" tints="0.447059,0.619608,0.545098"/>
+		</cs>
+		<cs name="PANTONE 8881 C" fixedID="186" version="1300">
+			<color cs="RGB" tints="0.615686,0.278431,0.356863"></color>
+			<color cs="LAB" tints="0.427451,0.654902,0.533333"/>
+		</cs>
+		<cs name="PANTONE 8882 C" fixedID="187" version="1300">
+			<color cs="RGB" tints="0.639216,0.231373,0.372549"></color>
+			<color cs="LAB" tints="0.419608,0.686275,0.517647"/>
+		</cs>
+		<cs name="PANTONE 8883 C" fixedID="188" version="1300">
+			<color cs="RGB" tints="0.666667,0.243137,0.313725"></color>
+			<color cs="LAB" tints="0.431373,0.690196,0.564706"/>
+		</cs>
+		<cs name="PANTONE 8884 C" fixedID="292" version="1400">
+			<color cs="RGB" tints="0.654902,0.286275,0.368627"></color>
+			<color cs="LAB" tints="0.45098,0.670588,0.537255"/>
+		</cs>
+		<cs name="PANTONE 8885 C" fixedID="293" version="1400">
+			<color cs="RGB" tints="0.635294,0.309804,0.396078"></color>
+			<color cs="LAB" tints="0.454902,0.65098,0.521569"/>
+		</cs>
+		<cs name="PANTONE 8900 C" fixedID="189" version="1300">
+			<color cs="RGB" tints="0.643137,0.356863,0.262745"></color>
+			<color cs="LAB" tints="0.478431,0.619608,0.615686"/>
+		</cs>
+		<cs name="PANTONE 8901 C" fixedID="190" version="1300">
+			<color cs="RGB" tints="0.713725,0.356863,0.286275"></color>
+			<color cs="LAB" tints="0.505882,0.65098,0.615686"/>
+		</cs>
+		<cs name="PANTONE 8902 C" fixedID="191" version="1300">
+			<color cs="RGB" tints="0.721569,0.360784,0.360784"></color>
+			<color cs="LAB" tints="0.513725,0.654902,0.576471"/>
+		</cs>
+		<cs name="PANTONE 8903 C" fixedID="192" version="1300">
+			<color cs="RGB" tints="0.733333,0.309804,0.317647"></color>
+			<color cs="LAB" tints="0.490196,0.682353,0.592157"/>
+		</cs>
+		<cs name="PANTONE 8904 C" fixedID="294" version="1400">
+			<color cs="RGB" tints="0.717647,0.345098,0.376471"></color>
+			<color cs="LAB" tints="0.505882,0.662745,0.564706"/>
+		</cs>
+		<cs name="PANTONE 8905 C" fixedID="295" version="1400">
+			<color cs="RGB" tints="0.701961,0.372549,0.419608"></color>
+			<color cs="LAB" tints="0.513725,0.643137,0.541176"/>
+		</cs>
+		<cs name="PANTONE 8920 C" fixedID="193" version="1300">
+			<color cs="RGB" tints="0.627451,0.4,0.305882"></color>
+			<color cs="LAB" tints="0.498039,0.592157,0.596078"/>
+		</cs>
+		<cs name="PANTONE 8921 C" fixedID="194" version="1300">
+			<color cs="RGB" tints="0.701961,0.34902,0.2"></color>
+			<color cs="LAB" tints="0.494118,0.643137,0.658824"/>
+		</cs>
+		<cs name="PANTONE 8922 C" fixedID="195" version="1300">
+			<color cs="RGB" tints="0.713725,0.32549,0.090196"></color>
+			<color cs="LAB" tints="0.486275,0.658824,0.705882"/>
+		</cs>
+		<cs name="PANTONE 8923 C" fixedID="196" version="1300">
+			<color cs="RGB" tints="0.717647,0.305882,0.137255"></color>
+			<color cs="LAB" tints="0.478431,0.670588,0.686275"/>
+		</cs>
+		<cs name="PANTONE 8924 C" fixedID="296" version="1400">
+			<color cs="RGB" tints="0.698039,0.337255,0.215686"></color>
+			<color cs="LAB" tints="0.490196,0.647059,0.647059"/>
+		</cs>
+		<cs name="PANTONE 8925 C" fixedID="297" version="1400">
+			<color cs="RGB" tints="0.67451,0.356863,0.262745"></color>
+			<color cs="LAB" tints="0.490196,0.631373,0.623529"/>
+		</cs>
+		<cs name="PANTONE 8940 C" fixedID="197" version="1300">
+			<color cs="RGB" tints="0.631373,0.407843,0.215686"></color>
+			<color cs="LAB" tints="0.501961,0.580392,0.65098"/>
+		</cs>
+		<cs name="PANTONE 8941 C" fixedID="198" version="1300">
+			<color cs="RGB" tints="0.67451,0.4,0.176471"></color>
+			<color cs="LAB" tints="0.509804,0.603922,0.67451"/>
+		</cs>
+		<cs name="PANTONE 8942 C" fixedID="199" version="1300">
+			<color cs="RGB" tints="0.682353,0.360784,0.109804"></color>
+			<color cs="LAB" tints="0.490196,0.627451,0.698039"/>
+		</cs>
+		<cs name="PANTONE 8943 C" fixedID="200" version="1300">
+			<color cs="RGB" tints="0.756863,0.376471,0.078431"></color>
+			<color cs="LAB" tints="0.529412,0.647059,0.729412"/>
+		</cs>
+		<cs name="PANTONE 8944 C" fixedID="298" version="1400">
+			<color cs="RGB" tints="0.733333,0.392157,0.156863"></color>
+			<color cs="LAB" tints="0.529412,0.631373,0.694118"/>
+		</cs>
+		<cs name="PANTONE 8945 C" fixedID="299" version="1400">
+			<color cs="RGB" tints="0.717647,0.407843,0.207843"></color>
+			<color cs="LAB" tints="0.533333,0.619608,0.67451"/>
+		</cs>
+		<cs name="PANTONE 8960 C" fixedID="201" version="1300">
+			<color cs="RGB" tints="0.588235,0.431373,0.196078"></color>
+			<color cs="LAB" tints="0.501961,0.54902,0.654902"/>
+		</cs>
+		<cs name="PANTONE 8961 C" fixedID="202" version="1300">
+			<color cs="RGB" tints="0.635294,0.407843,0.152941"></color>
+			<color cs="LAB" tints="0.501961,0.580392,0.678431"/>
+		</cs>
+		<cs name="PANTONE 8962 C" fixedID="203" version="1300">
+			<color cs="RGB" tints="0.701961,0.45098,0"></color>
+			<color cs="LAB" tints="0.54902,0.588235,0.745098"/>
+		</cs>
+		<cs name="PANTONE 8963 C" fixedID="204" version="1300">
+			<color cs="RGB" tints="0.74902,0.427451,0.062745"></color>
+			<color cs="LAB" tints="0.552941,0.619608,0.737255"/>
+		</cs>
+		<cs name="PANTONE 8964 C" fixedID="300" version="1400">
+			<color cs="RGB" tints="0.666667,0.396078,0.14902"></color>
+			<color cs="LAB" tints="0.505882,0.6,0.686275"/>
+		</cs>
+		<cs name="PANTONE 8965 C" fixedID="301" version="1400">
+			<color cs="RGB" tints="0.639216,0.411765,0.203922"></color>
+			<color cs="LAB" tints="0.505882,0.580392,0.658824"/>
+		</cs>
+	</colorspaces>
+	<colors>
+		<page>
+			<color name="PANTONE 871 C" cs="PANTONE 871 C" tints="1"></color>
+			<color name="PANTONE 872 C" cs="PANTONE 872 C" tints="1"></color>
+			<color name="PANTONE 873 C" cs="PANTONE 873 C" tints="1"></color>
+			<color name="PANTONE 874 C" cs="PANTONE 874 C" tints="1"></color>
+			<color name="PANTONE 875 C" cs="PANTONE 875 C" tints="1"></color>
+			<color name="PANTONE 876 C" cs="PANTONE 876 C" tints="1"></color>
+			<color name="PANTONE 877 C" cs="PANTONE 877 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8001 C" cs="PANTONE 8001 C" tints="1"></color>
+			<color name="PANTONE 8002 C" cs="PANTONE 8002 C" tints="1"></color>
+			<color name="PANTONE 8003 C" cs="PANTONE 8003 C" tints="1"></color>
+			<color name="PANTONE 8004 C" cs="PANTONE 8004 C" tints="1"></color>
+			<color name="PANTONE 8005 C" cs="PANTONE 8005 C" tints="1"></color>
+			<color name="PANTONE 8006 C" cs="PANTONE 8006 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8020 C" cs="PANTONE 8020 C" tints="1"></color>
+			<color name="PANTONE 8021 C" cs="PANTONE 8021 C" tints="1"></color>
+			<color name="PANTONE 8022 C" cs="PANTONE 8022 C" tints="1"></color>
+			<color name="PANTONE 8023 C" cs="PANTONE 8023 C" tints="1"></color>
+			<color name="PANTONE 8024 C" cs="PANTONE 8024 C" tints="1"></color>
+			<color name="PANTONE 8025 C" cs="PANTONE 8025 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8040 C" cs="PANTONE 8040 C" tints="1"></color>
+			<color name="PANTONE 8041 C" cs="PANTONE 8041 C" tints="1"></color>
+			<color name="PANTONE 8042 C" cs="PANTONE 8042 C" tints="1"></color>
+			<color name="PANTONE 8043 C" cs="PANTONE 8043 C" tints="1"></color>
+			<color name="PANTONE 8044 C" cs="PANTONE 8044 C" tints="1"></color>
+			<color name="PANTONE 8045 C" cs="PANTONE 8045 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8060 C" cs="PANTONE 8060 C" tints="1"></color>
+			<color name="PANTONE 8061 C" cs="PANTONE 8061 C" tints="1"></color>
+			<color name="PANTONE 8062 C" cs="PANTONE 8062 C" tints="1"></color>
+			<color name="PANTONE 8063 C" cs="PANTONE 8063 C" tints="1"></color>
+			<color name="PANTONE 8064 C" cs="PANTONE 8064 C" tints="1"></color>
+			<color name="PANTONE 8065 C" cs="PANTONE 8065 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8080 C" cs="PANTONE 8080 C" tints="1"></color>
+			<color name="PANTONE 8081 C" cs="PANTONE 8081 C" tints="1"></color>
+			<color name="PANTONE 8082 C" cs="PANTONE 8082 C" tints="1"></color>
+			<color name="PANTONE 8083 C" cs="PANTONE 8083 C" tints="1"></color>
+			<color name="PANTONE 8084 C" cs="PANTONE 8084 C" tints="1"></color>
+			<color name="PANTONE 8085 C" cs="PANTONE 8085 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8100 C" cs="PANTONE 8100 C" tints="1"></color>
+			<color name="PANTONE 8101 C" cs="PANTONE 8101 C" tints="1"></color>
+			<color name="PANTONE 8102 C" cs="PANTONE 8102 C" tints="1"></color>
+			<color name="PANTONE 8103 C" cs="PANTONE 8103 C" tints="1"></color>
+			<color name="PANTONE 8104 C" cs="PANTONE 8104 C" tints="1"></color>
+			<color name="PANTONE 8105 C" cs="PANTONE 8105 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8120 C" cs="PANTONE 8120 C" tints="1"></color>
+			<color name="PANTONE 8121 C" cs="PANTONE 8121 C" tints="1"></color>
+			<color name="PANTONE 8122 C" cs="PANTONE 8122 C" tints="1"></color>
+			<color name="PANTONE 8123 C" cs="PANTONE 8123 C" tints="1"></color>
+			<color name="PANTONE 8124 C" cs="PANTONE 8124 C" tints="1"></color>
+			<color name="PANTONE 8125 C" cs="PANTONE 8125 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8140 C" cs="PANTONE 8140 C" tints="1"></color>
+			<color name="PANTONE 8141 C" cs="PANTONE 8141 C" tints="1"></color>
+			<color name="PANTONE 8142 C" cs="PANTONE 8142 C" tints="1"></color>
+			<color name="PANTONE 8143 C" cs="PANTONE 8143 C" tints="1"></color>
+			<color name="PANTONE 8144 C" cs="PANTONE 8144 C" tints="1"></color>
+			<color name="PANTONE 8145 C" cs="PANTONE 8145 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8160 C" cs="PANTONE 8160 C" tints="1"></color>
+			<color name="PANTONE 8161 C" cs="PANTONE 8161 C" tints="1"></color>
+			<color name="PANTONE 8162 C" cs="PANTONE 8162 C" tints="1"></color>
+			<color name="PANTONE 8163 C" cs="PANTONE 8163 C" tints="1"></color>
+			<color name="PANTONE 8164 C" cs="PANTONE 8164 C" tints="1"></color>
+			<color name="PANTONE 8165 C" cs="PANTONE 8165 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8180 C" cs="PANTONE 8180 C" tints="1"></color>
+			<color name="PANTONE 8181 C" cs="PANTONE 8181 C" tints="1"></color>
+			<color name="PANTONE 8182 C" cs="PANTONE 8182 C" tints="1"></color>
+			<color name="PANTONE 8183 C" cs="PANTONE 8183 C" tints="1"></color>
+			<color name="PANTONE 8184 C" cs="PANTONE 8184 C" tints="1"></color>
+			<color name="PANTONE 8185 C" cs="PANTONE 8185 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8200 C" cs="PANTONE 8200 C" tints="1"></color>
+			<color name="PANTONE 8201 C" cs="PANTONE 8201 C" tints="1"></color>
+			<color name="PANTONE 8202 C" cs="PANTONE 8202 C" tints="1"></color>
+			<color name="PANTONE 8203 C" cs="PANTONE 8203 C" tints="1"></color>
+			<color name="PANTONE 8204 C" cs="PANTONE 8204 C" tints="1"></color>
+			<color name="PANTONE 8205 C" cs="PANTONE 8205 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8220 C" cs="PANTONE 8220 C" tints="1"></color>
+			<color name="PANTONE 8221 C" cs="PANTONE 8221 C" tints="1"></color>
+			<color name="PANTONE 8222 C" cs="PANTONE 8222 C" tints="1"></color>
+			<color name="PANTONE 8223 C" cs="PANTONE 8223 C" tints="1"></color>
+			<color name="PANTONE 8224 C" cs="PANTONE 8224 C" tints="1"></color>
+			<color name="PANTONE 8225 C" cs="PANTONE 8225 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8240 C" cs="PANTONE 8240 C" tints="1"></color>
+			<color name="PANTONE 8241 C" cs="PANTONE 8241 C" tints="1"></color>
+			<color name="PANTONE 8242 C" cs="PANTONE 8242 C" tints="1"></color>
+			<color name="PANTONE 8243 C" cs="PANTONE 8243 C" tints="1"></color>
+			<color name="PANTONE 8244 C" cs="PANTONE 8244 C" tints="1"></color>
+			<color name="PANTONE 8245 C" cs="PANTONE 8245 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8260 C" cs="PANTONE 8260 C" tints="1"></color>
+			<color name="PANTONE 8261 C" cs="PANTONE 8261 C" tints="1"></color>
+			<color name="PANTONE 8262 C" cs="PANTONE 8262 C" tints="1"></color>
+			<color name="PANTONE 8263 C" cs="PANTONE 8263 C" tints="1"></color>
+			<color name="PANTONE 8264 C" cs="PANTONE 8264 C" tints="1"></color>
+			<color name="PANTONE 8265 C" cs="PANTONE 8265 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8280 C" cs="PANTONE 8280 C" tints="1"></color>
+			<color name="PANTONE 8281 C" cs="PANTONE 8281 C" tints="1"></color>
+			<color name="PANTONE 8282 C" cs="PANTONE 8282 C" tints="1"></color>
+			<color name="PANTONE 8283 C" cs="PANTONE 8283 C" tints="1"></color>
+			<color name="PANTONE 8284 C" cs="PANTONE 8284 C" tints="1"></color>
+			<color name="PANTONE 8285 C" cs="PANTONE 8285 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8300 C" cs="PANTONE 8300 C" tints="1"></color>
+			<color name="PANTONE 8301 C" cs="PANTONE 8301 C" tints="1"></color>
+			<color name="PANTONE 8302 C" cs="PANTONE 8302 C" tints="1"></color>
+			<color name="PANTONE 8303 C" cs="PANTONE 8303 C" tints="1"></color>
+			<color name="PANTONE 8304 C" cs="PANTONE 8304 C" tints="1"></color>
+			<color name="PANTONE 8305 C" cs="PANTONE 8305 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8320 C" cs="PANTONE 8320 C" tints="1"></color>
+			<color name="PANTONE 8321 C" cs="PANTONE 8321 C" tints="1"></color>
+			<color name="PANTONE 8322 C" cs="PANTONE 8322 C" tints="1"></color>
+			<color name="PANTONE 8323 C" cs="PANTONE 8323 C" tints="1"></color>
+			<color name="PANTONE 8324 C" cs="PANTONE 8324 C" tints="1"></color>
+			<color name="PANTONE 8325 C" cs="PANTONE 8325 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8340 C" cs="PANTONE 8340 C" tints="1"></color>
+			<color name="PANTONE 8341 C" cs="PANTONE 8341 C" tints="1"></color>
+			<color name="PANTONE 8342 C" cs="PANTONE 8342 C" tints="1"></color>
+			<color name="PANTONE 8343 C" cs="PANTONE 8343 C" tints="1"></color>
+			<color name="PANTONE 8344 C" cs="PANTONE 8344 C" tints="1"></color>
+			<color name="PANTONE 8345 C" cs="PANTONE 8345 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8360 C" cs="PANTONE 8360 C" tints="1"></color>
+			<color name="PANTONE 8361 C" cs="PANTONE 8361 C" tints="1"></color>
+			<color name="PANTONE 8362 C" cs="PANTONE 8362 C" tints="1"></color>
+			<color name="PANTONE 8363 C" cs="PANTONE 8363 C" tints="1"></color>
+			<color name="PANTONE 8364 C" cs="PANTONE 8364 C" tints="1"></color>
+			<color name="PANTONE 8365 C" cs="PANTONE 8365 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8380 C" cs="PANTONE 8380 C" tints="1"></color>
+			<color name="PANTONE 8381 C" cs="PANTONE 8381 C" tints="1"></color>
+			<color name="PANTONE 8382 C" cs="PANTONE 8382 C" tints="1"></color>
+			<color name="PANTONE 8383 C" cs="PANTONE 8383 C" tints="1"></color>
+			<color name="PANTONE 8384 C" cs="PANTONE 8384 C" tints="1"></color>
+			<color name="PANTONE 8385 C" cs="PANTONE 8385 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8400 C" cs="PANTONE 8400 C" tints="1"></color>
+			<color name="PANTONE 8401 C" cs="PANTONE 8401 C" tints="1"></color>
+			<color name="PANTONE 8402 C" cs="PANTONE 8402 C" tints="1"></color>
+			<color name="PANTONE 8403 C" cs="PANTONE 8403 C" tints="1"></color>
+			<color name="PANTONE 8404 C" cs="PANTONE 8404 C" tints="1"></color>
+			<color name="PANTONE 8405 C" cs="PANTONE 8405 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8420 C" cs="PANTONE 8420 C" tints="1"></color>
+			<color name="PANTONE 8421 C" cs="PANTONE 8421 C" tints="1"></color>
+			<color name="PANTONE 8422 C" cs="PANTONE 8422 C" tints="1"></color>
+			<color name="PANTONE 8423 C" cs="PANTONE 8423 C" tints="1"></color>
+			<color name="PANTONE 8424 C" cs="PANTONE 8424 C" tints="1"></color>
+			<color name="PANTONE 8425 C" cs="PANTONE 8425 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8440 C" cs="PANTONE 8440 C" tints="1"></color>
+			<color name="PANTONE 8441 C" cs="PANTONE 8441 C" tints="1"></color>
+			<color name="PANTONE 8442 C" cs="PANTONE 8442 C" tints="1"></color>
+			<color name="PANTONE 8443 C" cs="PANTONE 8443 C" tints="1"></color>
+			<color name="PANTONE 8444 C" cs="PANTONE 8444 C" tints="1"></color>
+			<color name="PANTONE 8445 C" cs="PANTONE 8445 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8460 C" cs="PANTONE 8460 C" tints="1"></color>
+			<color name="PANTONE 8461 C" cs="PANTONE 8461 C" tints="1"></color>
+			<color name="PANTONE 8462 C" cs="PANTONE 8462 C" tints="1"></color>
+			<color name="PANTONE 8463 C" cs="PANTONE 8463 C" tints="1"></color>
+			<color name="PANTONE 8464 C" cs="PANTONE 8464 C" tints="1"></color>
+			<color name="PANTONE 8465 C" cs="PANTONE 8465 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8480 C" cs="PANTONE 8480 C" tints="1"></color>
+			<color name="PANTONE 8481 C" cs="PANTONE 8481 C" tints="1"></color>
+			<color name="PANTONE 8482 C" cs="PANTONE 8482 C" tints="1"></color>
+			<color name="PANTONE 8483 C" cs="PANTONE 8483 C" tints="1"></color>
+			<color name="PANTONE 8484 C" cs="PANTONE 8484 C" tints="1"></color>
+			<color name="PANTONE 8485 C" cs="PANTONE 8485 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8500 C" cs="PANTONE 8500 C" tints="1"></color>
+			<color name="PANTONE 8501 C" cs="PANTONE 8501 C" tints="1"></color>
+			<color name="PANTONE 8502 C" cs="PANTONE 8502 C" tints="1"></color>
+			<color name="PANTONE 8503 C" cs="PANTONE 8503 C" tints="1"></color>
+			<color name="PANTONE 8504 C" cs="PANTONE 8504 C" tints="1"></color>
+			<color name="PANTONE 8505 C" cs="PANTONE 8505 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8520 C" cs="PANTONE 8520 C" tints="1"></color>
+			<color name="PANTONE 8521 C" cs="PANTONE 8521 C" tints="1"></color>
+			<color name="PANTONE 8522 C" cs="PANTONE 8522 C" tints="1"></color>
+			<color name="PANTONE 8523 C" cs="PANTONE 8523 C" tints="1"></color>
+			<color name="PANTONE 8524 C" cs="PANTONE 8524 C" tints="1"></color>
+			<color name="PANTONE 8525 C" cs="PANTONE 8525 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8540 C" cs="PANTONE 8540 C" tints="1"></color>
+			<color name="PANTONE 8541 C" cs="PANTONE 8541 C" tints="1"></color>
+			<color name="PANTONE 8542 C" cs="PANTONE 8542 C" tints="1"></color>
+			<color name="PANTONE 8543 C" cs="PANTONE 8543 C" tints="1"></color>
+			<color name="PANTONE 8544 C" cs="PANTONE 8544 C" tints="1"></color>
+			<color name="PANTONE 8545 C" cs="PANTONE 8545 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8560 C" cs="PANTONE 8560 C" tints="1"></color>
+			<color name="PANTONE 8561 C" cs="PANTONE 8561 C" tints="1"></color>
+			<color name="PANTONE 8562 C" cs="PANTONE 8562 C" tints="1"></color>
+			<color name="PANTONE 8563 C" cs="PANTONE 8563 C" tints="1"></color>
+			<color name="PANTONE 8564 C" cs="PANTONE 8564 C" tints="1"></color>
+			<color name="PANTONE 8565 C" cs="PANTONE 8565 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8580 C" cs="PANTONE 8580 C" tints="1"></color>
+			<color name="PANTONE 8581 C" cs="PANTONE 8581 C" tints="1"></color>
+			<color name="PANTONE 8582 C" cs="PANTONE 8582 C" tints="1"></color>
+			<color name="PANTONE 8583 C" cs="PANTONE 8583 C" tints="1"></color>
+			<color name="PANTONE 8584 C" cs="PANTONE 8584 C" tints="1"></color>
+			<color name="PANTONE 8585 C" cs="PANTONE 8585 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8600 C" cs="PANTONE 8600 C" tints="1"></color>
+			<color name="PANTONE 8601 C" cs="PANTONE 8601 C" tints="1"></color>
+			<color name="PANTONE 8602 C" cs="PANTONE 8602 C" tints="1"></color>
+			<color name="PANTONE 8603 C" cs="PANTONE 8603 C" tints="1"></color>
+			<color name="PANTONE 8604 C" cs="PANTONE 8604 C" tints="1"></color>
+			<color name="PANTONE 8605 C" cs="PANTONE 8605 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8620 C" cs="PANTONE 8620 C" tints="1"></color>
+			<color name="PANTONE 8621 C" cs="PANTONE 8621 C" tints="1"></color>
+			<color name="PANTONE 8622 C" cs="PANTONE 8622 C" tints="1"></color>
+			<color name="PANTONE 8623 C" cs="PANTONE 8623 C" tints="1"></color>
+			<color name="PANTONE 8624 C" cs="PANTONE 8624 C" tints="1"></color>
+			<color name="PANTONE 8625 C" cs="PANTONE 8625 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8640 C" cs="PANTONE 8640 C" tints="1"></color>
+			<color name="PANTONE 8641 C" cs="PANTONE 8641 C" tints="1"></color>
+			<color name="PANTONE 8642 C" cs="PANTONE 8642 C" tints="1"></color>
+			<color name="PANTONE 8643 C" cs="PANTONE 8643 C" tints="1"></color>
+			<color name="PANTONE 8644 C" cs="PANTONE 8644 C" tints="1"></color>
+			<color name="PANTONE 8645 C" cs="PANTONE 8645 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8660 C" cs="PANTONE 8660 C" tints="1"></color>
+			<color name="PANTONE 8661 C" cs="PANTONE 8661 C" tints="1"></color>
+			<color name="PANTONE 8662 C" cs="PANTONE 8662 C" tints="1"></color>
+			<color name="PANTONE 8663 C" cs="PANTONE 8663 C" tints="1"></color>
+			<color name="PANTONE 8664 C" cs="PANTONE 8664 C" tints="1"></color>
+			<color name="PANTONE 8665 C" cs="PANTONE 8665 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8680 C" cs="PANTONE 8680 C" tints="1"></color>
+			<color name="PANTONE 8681 C" cs="PANTONE 8681 C" tints="1"></color>
+			<color name="PANTONE 8682 C" cs="PANTONE 8682 C" tints="1"></color>
+			<color name="PANTONE 8683 C" cs="PANTONE 8683 C" tints="1"></color>
+			<color name="PANTONE 8684 C" cs="PANTONE 8684 C" tints="1"></color>
+			<color name="PANTONE 8685 C" cs="PANTONE 8685 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8700 C" cs="PANTONE 8700 C" tints="1"></color>
+			<color name="PANTONE 8701 C" cs="PANTONE 8701 C" tints="1"></color>
+			<color name="PANTONE 8702 C" cs="PANTONE 8702 C" tints="1"></color>
+			<color name="PANTONE 8703 C" cs="PANTONE 8703 C" tints="1"></color>
+			<color name="PANTONE 8704 C" cs="PANTONE 8704 C" tints="1"></color>
+			<color name="PANTONE 8705 C" cs="PANTONE 8705 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8720 C" cs="PANTONE 8720 C" tints="1"></color>
+			<color name="PANTONE 8721 C" cs="PANTONE 8721 C" tints="1"></color>
+			<color name="PANTONE 8722 C" cs="PANTONE 8722 C" tints="1"></color>
+			<color name="PANTONE 8723 C" cs="PANTONE 8723 C" tints="1"></color>
+			<color name="PANTONE 8724 C" cs="PANTONE 8724 C" tints="1"></color>
+			<color name="PANTONE 8725 C" cs="PANTONE 8725 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8740 C" cs="PANTONE 8740 C" tints="1"></color>
+			<color name="PANTONE 8741 C" cs="PANTONE 8741 C" tints="1"></color>
+			<color name="PANTONE 8742 C" cs="PANTONE 8742 C" tints="1"></color>
+			<color name="PANTONE 8743 C" cs="PANTONE 8743 C" tints="1"></color>
+			<color name="PANTONE 8744 C" cs="PANTONE 8744 C" tints="1"></color>
+			<color name="PANTONE 8745 C" cs="PANTONE 8745 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8760 C" cs="PANTONE 8760 C" tints="1"></color>
+			<color name="PANTONE 8761 C" cs="PANTONE 8761 C" tints="1"></color>
+			<color name="PANTONE 8762 C" cs="PANTONE 8762 C" tints="1"></color>
+			<color name="PANTONE 8763 C" cs="PANTONE 8763 C" tints="1"></color>
+			<color name="PANTONE 8764 C" cs="PANTONE 8764 C" tints="1"></color>
+			<color name="PANTONE 8765 C" cs="PANTONE 8765 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8780 C" cs="PANTONE 8780 C" tints="1"></color>
+			<color name="PANTONE 8781 C" cs="PANTONE 8781 C" tints="1"></color>
+			<color name="PANTONE 8782 C" cs="PANTONE 8782 C" tints="1"></color>
+			<color name="PANTONE 8783 C" cs="PANTONE 8783 C" tints="1"></color>
+			<color name="PANTONE 8784 C" cs="PANTONE 8784 C" tints="1"></color>
+			<color name="PANTONE 8785 C" cs="PANTONE 8785 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8800 C" cs="PANTONE 8800 C" tints="1"></color>
+			<color name="PANTONE 8801 C" cs="PANTONE 8801 C" tints="1"></color>
+			<color name="PANTONE 8802 C" cs="PANTONE 8802 C" tints="1"></color>
+			<color name="PANTONE 8803 C" cs="PANTONE 8803 C" tints="1"></color>
+			<color name="PANTONE 8804 C" cs="PANTONE 8804 C" tints="1"></color>
+			<color name="PANTONE 8805 C" cs="PANTONE 8805 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8820 C" cs="PANTONE 8820 C" tints="1"></color>
+			<color name="PANTONE 8821 C" cs="PANTONE 8821 C" tints="1"></color>
+			<color name="PANTONE 8822 C" cs="PANTONE 8822 C" tints="1"></color>
+			<color name="PANTONE 8823 C" cs="PANTONE 8823 C" tints="1"></color>
+			<color name="PANTONE 8824 C" cs="PANTONE 8824 C" tints="1"></color>
+			<color name="PANTONE 8825 C" cs="PANTONE 8825 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8840 C" cs="PANTONE 8840 C" tints="1"></color>
+			<color name="PANTONE 8841 C" cs="PANTONE 8841 C" tints="1"></color>
+			<color name="PANTONE 8842 C" cs="PANTONE 8842 C" tints="1"></color>
+			<color name="PANTONE 8843 C" cs="PANTONE 8843 C" tints="1"></color>
+			<color name="PANTONE 8844 C" cs="PANTONE 8844 C" tints="1"></color>
+			<color name="PANTONE 8845 C" cs="PANTONE 8845 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8860 C" cs="PANTONE 8860 C" tints="1"></color>
+			<color name="PANTONE 8861 C" cs="PANTONE 8861 C" tints="1"></color>
+			<color name="PANTONE 8862 C" cs="PANTONE 8862 C" tints="1"></color>
+			<color name="PANTONE 8863 C" cs="PANTONE 8863 C" tints="1"></color>
+			<color name="PANTONE 8864 C" cs="PANTONE 8864 C" tints="1"></color>
+			<color name="PANTONE 8865 C" cs="PANTONE 8865 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8880 C" cs="PANTONE 8880 C" tints="1"></color>
+			<color name="PANTONE 8881 C" cs="PANTONE 8881 C" tints="1"></color>
+			<color name="PANTONE 8882 C" cs="PANTONE 8882 C" tints="1"></color>
+			<color name="PANTONE 8883 C" cs="PANTONE 8883 C" tints="1"></color>
+			<color name="PANTONE 8884 C" cs="PANTONE 8884 C" tints="1"></color>
+			<color name="PANTONE 8885 C" cs="PANTONE 8885 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8900 C" cs="PANTONE 8900 C" tints="1"></color>
+			<color name="PANTONE 8901 C" cs="PANTONE 8901 C" tints="1"></color>
+			<color name="PANTONE 8902 C" cs="PANTONE 8902 C" tints="1"></color>
+			<color name="PANTONE 8903 C" cs="PANTONE 8903 C" tints="1"></color>
+			<color name="PANTONE 8904 C" cs="PANTONE 8904 C" tints="1"></color>
+			<color name="PANTONE 8905 C" cs="PANTONE 8905 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8920 C" cs="PANTONE 8920 C" tints="1"></color>
+			<color name="PANTONE 8921 C" cs="PANTONE 8921 C" tints="1"></color>
+			<color name="PANTONE 8922 C" cs="PANTONE 8922 C" tints="1"></color>
+			<color name="PANTONE 8923 C" cs="PANTONE 8923 C" tints="1"></color>
+			<color name="PANTONE 8924 C" cs="PANTONE 8924 C" tints="1"></color>
+			<color name="PANTONE 8925 C" cs="PANTONE 8925 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8940 C" cs="PANTONE 8940 C" tints="1"></color>
+			<color name="PANTONE 8941 C" cs="PANTONE 8941 C" tints="1"></color>
+			<color name="PANTONE 8942 C" cs="PANTONE 8942 C" tints="1"></color>
+			<color name="PANTONE 8943 C" cs="PANTONE 8943 C" tints="1"></color>
+			<color name="PANTONE 8944 C" cs="PANTONE 8944 C" tints="1"></color>
+			<color name="PANTONE 8945 C" cs="PANTONE 8945 C" tints="1"></color>
+		</page>
+		<page>
+			<color name="PANTONE 8960 C" cs="PANTONE 8960 C" tints="1"></color>
+			<color name="PANTONE 8961 C" cs="PANTONE 8961 C" tints="1"></color>
+			<color name="PANTONE 8962 C" cs="PANTONE 8962 C" tints="1"></color>
+			<color name="PANTONE 8963 C" cs="PANTONE 8963 C" tints="1"></color>
+			<color name="PANTONE 8964 C" cs="PANTONE 8964 C" tints="1"></color>
+			<color name="PANTONE 8965 C" cs="PANTONE 8965 C" tints="1"></color>
+		</page>
+	</colors>
+	<localization></localization>
+</palette>

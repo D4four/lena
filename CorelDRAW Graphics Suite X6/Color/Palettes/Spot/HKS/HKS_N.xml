@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<palette name="HKS N" fixedID="27" guid="01d65145-c60e-4426-8a71-c353dffa3bb2" prefix="HKS N " locked="true">
+<colorspaces>
+<cs name="HKS 01 N" fixedID="0" version="1300">
+<color cs="CMYK" tints="0,0.05,0.6,0"></color>
+</cs>
+<cs name="HKS 02 N" fixedID="1" version="1300">
+<color cs="CMYK" tints="0.02,0,1,0"></color>
+</cs>
+<cs name="HKS 03 N" fixedID="2" version="1300">
+<color cs="CMYK" tints="0,0,1,0"></color>
+</cs>
+<cs name="HKS 04 N" fixedID="3" version="1300">
+<color cs="CMYK" tints="0,0.1,1,0"></color>
+</cs>
+<cs name="HKS 05 N" fixedID="4" version="1300">
+<color cs="CMYK" tints="0,0.15,1,0"></color>
+</cs>
+<cs name="HKS 06 N" fixedID="5" version="1300">
+<color cs="CMYK" tints="0,0.3,1,0"></color>
+</cs>
+<cs name="HKS 07 N" fixedID="6" version="1300">
+<color cs="CMYK" tints="0,0.45,1,0"></color>
+</cs>
+<cs name="HKS 08 N" fixedID="7" version="1300">
+<color cs="CMYK" tints="0,0.5,1,0"></color>
+</cs>
+<cs name="HKS 10 N" fixedID="8" version="1300">
+<color cs="CMYK" tints="0,0.7,0.9,0"></color>
+</cs>
+<cs name="HKS 11 N" fixedID="9" version="1300">
+<color cs="CMYK" tints="0,0.3,0.35,0"></color>
+</cs>
+<cs name="HKS 12 N" fixedID="10" version="1300">
+<color cs="CMYK" tints="0,0.6,0.7,0"></color>
+</cs>
+<cs name="HKS 13 N" fixedID="11" version="1300">
+<color cs="CMYK" tints="0,0.9,0.8,0"></color>
+</cs>
+<cs name="HKS 14 N" fixedID="12" version="1300">
+<color cs="CMYK" tints="0,0.75,0.7,0"></color>
+</cs>
+<cs name="HKS 15 N" fixedID="13" version="1300">
+<color cs="CMYK" tints="0.05,0.85,0.7,0"></color>
+</cs>
+<cs name="HKS 16 N" fixedID="14" version="1300">
+<color cs="CMYK" tints="0.1,1,0.8,0"></color>
+</cs>
+<cs name="HKS 17 N" fixedID="15" version="1300">
+<color cs="CMYK" tints="0.1,1,0.6,0"></color>
+</cs>
+<cs name="HKS 18 N" fixedID="16" version="1300">
+<color cs="CMYK" tints="0.35,1,0.6,0"></color>
+</cs>
+<cs name="HKS 21 N" fixedID="17" version="1300">
+<color cs="CMYK" tints="0,0.6,0.15,0"></color>
+</cs>
+<cs name="HKS 22 N" fixedID="18" version="1300">
+<color cs="CMYK" tints="0,1,0.8,0"></color>
+</cs>
+<cs name="HKS 23 N" fixedID="19" version="1300">
+<color cs="CMYK" tints="0,1,0.7,0"></color>
+</cs>
+<cs name="HKS 24 N" fixedID="20" version="1300">
+<color cs="CMYK" tints="0,1,0.3,0"></color>
+</cs>
+<cs name="HKS 25 N" fixedID="21" version="1300">
+<color cs="CMYK" tints="0,1,0.25,0"></color>
+</cs>
+<cs name="HKS 26 N" fixedID="22" version="1300">
+<color cs="CMYK" tints="0.05,1,0,0"></color>
+</cs>
+<cs name="HKS 27 N" fixedID="23" version="1300">
+<color cs="CMYK" tints="0.03,1,0,0"></color>
+</cs>
+<cs name="HKS 28 N" fixedID="24" version="1300">
+<color cs="CMYK" tints="0.1,1,0.15,0"></color>
+</cs>
+<cs name="HKS 29 N" fixedID="25" version="1300">
+<color cs="CMYK" tints="0.35,1,0,0"></color>
+</cs>
+<cs name="HKS 31 N" fixedID="26" version="1300">
+<color cs="CMYK" tints="0.1,0.95,0,0"></color>
+</cs>
+<cs name="HKS 32 N" fixedID="27" version="1300">
+<color cs="CMYK" tints="0.05,1,0,0"></color>
+</cs>
+<cs name="HKS 33 N" fixedID="28" version="1300">
+<color cs="CMYK" tints="0.4,1,0,0"></color>
+</cs>
+<cs name="HKS 34 N" fixedID="29" version="1300">
+<color cs="CMYK" tints="0.6,0.9,0,0"></color>
+</cs>
+<cs name="HKS 35 N" fixedID="30" version="1300">
+<color cs="CMYK" tints="0.8,0.8,0,0"></color>
+</cs>
+<cs name="HKS 36 N" fixedID="31" version="1300">
+<color cs="CMYK" tints="0.6,0.8,0,0"></color>
+</cs>
+<cs name="HKS 37 N" fixedID="32" version="1300">
+<color cs="CMYK" tints="0.7,0.8,0,0"></color>
+</cs>
+<cs name="HKS 38 N" fixedID="33" version="1300">
+<color cs="CMYK" tints="0.9,0.5,0.15,0.3"></color>
+</cs>
+<cs name="HKS 39 N" fixedID="34" version="1300">
+<color cs="CMYK" tints="1,0.4,0,0"></color>
+</cs>
+<cs name="HKS 40 N" fixedID="35" version="1300">
+<color cs="CMYK" tints="0.8,0.07,0.03,0"></color>
+</cs>
+<cs name="HKS 41 N" fixedID="36" version="1300">
+<color cs="CMYK" tints="0.9,0.6,0.1,0.3"></color>
+</cs>
+<cs name="HKS 42 N" fixedID="37" version="1300">
+<color cs="CMYK" tints="0.9,0.55,0,0"></color>
+</cs>
+<cs name="HKS 43 N" fixedID="38" version="1300">
+<color cs="CMYK" tints="1,0.5,0,0"></color>
+</cs>
+<cs name="HKS 44 N" fixedID="39" version="1300">
+<color cs="CMYK" tints="1,0.3,0,0"></color>
+</cs>
+<cs name="HKS 45 N" fixedID="40" version="1300">
+<color cs="CMYK" tints="0.9,0.7,0,0"></color>
+</cs>
+<cs name="HKS 46 N" fixedID="41" version="1300">
+<color cs="CMYK" tints="0.9,0.2,0.05,0"></color>
+</cs>
+<cs name="HKS 47 N" fixedID="42" version="1300">
+<color cs="CMYK" tints="1,0.03,0,0"></color>
+</cs>
+<cs name="HKS 48 N" fixedID="43" version="1300">
+<color cs="CMYK" tints="1,0,0.05,0"></color>
+</cs>
+<cs name="HKS 49 N" fixedID="44" version="1300">
+<color cs="CMYK" tints="1,0,0.08,0"></color>
+</cs>
+<cs name="HKS 50 N" fixedID="45" version="1300">
+<color cs="CMYK" tints="0.5,0,0.1,0"></color>
+</cs>
+<cs name="HKS 51 N" fixedID="46" version="1300">
+<color cs="CMYK" tints="1,0,0.3,0"></color>
+</cs>
+<cs name="HKS 52 N" fixedID="47" version="1300">
+<color cs="CMYK" tints="1,0,0.45,0"></color>
+</cs>
+<cs name="HKS 53 N" fixedID="48" version="1300">
+<color cs="CMYK" tints="0.8,0,0.45,0"></color>
+</cs>
+<cs name="HKS 54 N" fixedID="49" version="1300">
+<color cs="CMYK" tints="0.85,0,0.65,0"></color>
+</cs>
+<cs name="HKS 55 N" fixedID="50" version="1300">
+<color cs="CMYK" tints="1,0,0.65,0"></color>
+</cs>
+<cs name="HKS 56 N" fixedID="51" version="1300">
+<color cs="CMYK" tints="1,0,0.55,0.2"></color>
+</cs>
+<cs name="HKS 57 N" fixedID="52" version="1300">
+<color cs="CMYK" tints="0.8,0,0.7,0"></color>
+</cs>
+<cs name="HKS 58 N" fixedID="53" version="1300">
+<color cs="CMYK" tints="0.85,0,0.85,0.2"></color>
+</cs>
+<cs name="HKS 59 N" fixedID="54" version="1300">
+<color cs="CMYK" tints="1,0,0.4,0"></color>
+</cs>
+<cs name="HKS 60 N" fixedID="55" version="1300">
+<color cs="CMYK" tints="0.6,0,0.9,0"></color>
+</cs>
+<cs name="HKS 61 N" fixedID="56" version="1300">
+<color cs="CMYK" tints="0.6,0,0.9,0.35"></color>
+</cs>
+<cs name="HKS 62 N" fixedID="57" version="1300">
+<color cs="CMYK" tints="0.1,0,0.7,0.35"></color>
+</cs>
+<cs name="HKS 63 N" fixedID="58" version="1300">
+<color cs="CMYK" tints="0.55,0,0.9,0.1"></color>
+</cs>
+<cs name="HKS 64 N" fixedID="59" version="1300">
+<color cs="CMYK" tints="0.65,0,0.8,0"></color>
+</cs>
+<cs name="HKS 65 N" fixedID="60" version="1300">
+<color cs="CMYK" tints="0.45,0,0.75,0"></color>
+</cs>
+<cs name="HKS 66 N" fixedID="61" version="1300">
+<color cs="CMYK" tints="0.4,0,0.9,0"></color>
+</cs>
+<cs name="HKS 67 N" fixedID="62" version="1300">
+<color cs="CMYK" tints="0.4,0,1,0"></color>
+</cs>
+<cs name="HKS 68 N" fixedID="63" version="1300">
+<color cs="CMYK" tints="0.2,0.05,1,0"></color>
+</cs>
+<cs name="HKS 69 N" fixedID="64" version="1300">
+<color cs="CMYK" tints="0.1,0,1,0"></color>
+</cs>
+<cs name="HKS 71 N" fixedID="65" version="1300">
+<color cs="CMYK" tints="0,0.25,1,0"></color>
+</cs>
+<cs name="HKS 72 N" fixedID="66" version="1300">
+<color cs="CMYK" tints="0,0.3,1,0.02"></color>
+</cs>
+<cs name="HKS 73 N" fixedID="67" version="1300">
+<color cs="CMYK" tints="0.2,0.4,1,0"></color>
+</cs>
+<cs name="HKS 74 N" fixedID="68" version="1300">
+<color cs="CMYK" tints="0,0.3,1,0.25"></color>
+</cs>
+<cs name="HKS 75 N" fixedID="69" version="1300">
+<color cs="CMYK" tints="0.1,0.3,0.8,0.3"></color>
+</cs>
+<cs name="HKS 76 N" fixedID="70" version="1300">
+<color cs="CMYK" tints="0.1,0.4,0.8,0.5"></color>
+</cs>
+<cs name="HKS 77 N" fixedID="71" version="1300">
+<color cs="CMYK" tints="0,0.5,0.9,0.5"></color>
+</cs>
+<cs name="HKS 78 N" fixedID="72" version="1300">
+<color cs="CMYK" tints="0,0.55,0.8,0.3"></color>
+</cs>
+<cs name="HKS 81 N" fixedID="73" version="1300">
+<color cs="CMYK" tints="0,0.55,1,0"></color>
+</cs>
+<cs name="HKS 82 N" fixedID="74" version="1300">
+<color cs="CMYK" tints="0,0.65,1,0.05"></color>
+</cs>
+<cs name="HKS 83 N" fixedID="75" version="1300">
+<color cs="CMYK" tints="0,0.7,0.9,0.3"></color>
+</cs>
+<cs name="HKS 84 N" fixedID="76" version="1300">
+<color cs="CMYK" tints="0,0.7,0.85,0.4"></color>
+</cs>
+<cs name="HKS 88 N" fixedID="77" version="1300">
+<color cs="CMYK" tints="0,0,0,1"></color>
+</cs>
+<cs name="HKS 89 N" fixedID="78" version="1300">
+<color cs="CMYK" tints="0,0.05,0.3,0.35"></color>
+</cs>
+<cs name="HKS 90 N" fixedID="79" version="1300">
+<color cs="CMYK" tints="0,0.2,0.2,0.85"></color>
+</cs>
+<cs name="HKS 91 N" fixedID="80" version="1300">
+<color cs="CMYK" tints="0.15,0,0.15,0.3"></color>
+</cs>
+<cs name="HKS 92 N" fixedID="81" version="1300">
+<color cs="CMYK" tints="0.1,0,0.1,0.5"></color>
+</cs>
+<cs name="HKS 93 N" fixedID="82" version="1300">
+<color cs="CMYK" tints="0.35,0,0.1,0.6"></color>
+</cs>
+<cs name="HKS 95 N" fixedID="83" version="1300">
+<color cs="CMYK" tints="0,0,0.2,0.4"></color>
+</cs>
+<cs name="HKS 96 N" fixedID="84" version="1300">
+<color cs="CMYK" tints="0.1,0.03,0.2,0.4"></color>
+</cs>
+<cs name="HKS 97 N" fixedID="85" version="1300">
+<color cs="CMYK" tints="0.15,0,0.25,0.95"></color>
+</cs>
+</colorspaces>
+<colors>
+<page width="7">
+<color name="HKS 01 N" cs="HKS 01 N"></color>
+<color name="HKS 02 N" cs="HKS 02 N"></color>
+<color name="HKS 03 N" cs="HKS 03 N"></color>
+<color name="HKS 04 N" cs="HKS 04 N"></color>
+<color name="HKS 05 N" cs="HKS 05 N"></color>
+<color name="HKS 06 N" cs="HKS 06 N"></color>
+<color name="HKS 07 N" cs="HKS 07 N"></color>
+<color name="HKS 08 N" cs="HKS 08 N"></color>
+<color name="HKS 10 N" cs="HKS 10 N"></color>
+<color name="HKS 11 N" cs="HKS 11 N"></color>
+<color name="HKS 12 N" cs="HKS 12 N"></color>
+<color name="HKS 13 N" cs="HKS 13 N"></color>
+<color name="HKS 14 N" cs="HKS 14 N"></color>
+<color name="HKS 15 N" cs="HKS 15 N"></color>
+<color name="HKS 16 N" cs="HKS 16 N"></color>
+<color name="HKS 17 N" cs="HKS 17 N"></color>
+<color name="HKS 18 N" cs="HKS 18 N"></color>
+<color name="HKS 21 N" cs="HKS 21 N"></color>
+<color name="HKS 22 N" cs="HKS 22 N"></color>
+<color name="HKS 23 N" cs="HKS 23 N"></color>
+<color name="HKS 24 N" cs="HKS 24 N"></color>
+<color name="HKS 25 N" cs="HKS 25 N"></color>
+<color name="HKS 26 N" cs="HKS 26 N"></color>
+<color name="HKS 27 N" cs="HKS 27 N"></color>
+<color name="HKS 28 N" cs="HKS 28 N"></color>
+<color name="HKS 29 N" cs="HKS 29 N"></color>
+<color name="HKS 31 N" cs="HKS 31 N"></color>
+<color name="HKS 32 N" cs="HKS 32 N"></color>
+<color name="HKS 33 N" cs="HKS 33 N"></color>
+<color name="HKS 34 N" cs="HKS 34 N"></color>
+<color name="HKS 35 N" cs="HKS 35 N"></color>
+<color name="HKS 36 N" cs="HKS 36 N"></color>
+<color name="HKS 37 N" cs="HKS 37 N"></color>
+<color name="HKS 38 N" cs="HKS 38 N"></color>
+<color name="HKS 39 N" cs="HKS 39 N"></color>
+<color name="HKS 40 N" cs="HKS 40 N"></color>
+<color name="HKS 41 N" cs="HKS 41 N"></color>
+<color name="HKS 42 N" cs="HKS 42 N"></color>
+<color name="HKS 43 N" cs="HKS 43 N"></color>
+<color name="HKS 44 N" cs="HKS 44 N"></color>
+<color name="HKS 45 N" cs="HKS 45 N"></color>
+<color name="HKS 46 N" cs="HKS 46 N"></color>
+<color name="HKS 47 N" cs="HKS 47 N"></color>
+<color name="HKS 48 N" cs="HKS 48 N"></color>
+<color name="HKS 49 N" cs="HKS 49 N"></color>
+<color name="HKS 50 N" cs="HKS 50 N"></color>
+<color name="HKS 51 N" cs="HKS 51 N"></color>
+<color name="HKS 52 N" cs="HKS 52 N"></color>
+<color name="HKS 53 N" cs="HKS 53 N"></color>
+<color name="HKS 54 N" cs="HKS 54 N"></color>
+<color name="HKS 55 N" cs="HKS 55 N"></color>
+<color name="HKS 56 N" cs="HKS 56 N"></color>
+<color name="HKS 57 N" cs="HKS 57 N"></color>
+<color name="HKS 58 N" cs="HKS 58 N"></color>
+<color name="HKS 59 N" cs="HKS 59 N"></color>
+<color name="HKS 60 N" cs="HKS 60 N"></color>
+<color name="HKS 61 N" cs="HKS 61 N"></color>
+<color name="HKS 62 N" cs="HKS 62 N"></color>
+<color name="HKS 63 N" cs="HKS 63 N"></color>
+<color name="HKS 64 N" cs="HKS 64 N"></color>
+<color name="HKS 65 N" cs="HKS 65 N"></color>
+<color name="HKS 66 N" cs="HKS 66 N"></color>
+<color name="HKS 67 N" cs="HKS 67 N"></color>
+<color name="HKS 68 N" cs="HKS 68 N"></color>
+<color name="HKS 69 N" cs="HKS 69 N"></color>
+<color name="HKS 71 N" cs="HKS 71 N"></color>
+<color name="HKS 72 N" cs="HKS 72 N"></color>
+<color name="HKS 73 N" cs="HKS 73 N"></color>
+<color name="HKS 74 N" cs="HKS 74 N"></color>
+<color name="HKS 75 N" cs="HKS 75 N"></color>
+<color name="HKS 76 N" cs="HKS 76 N"></color>
+<color name="HKS 77 N" cs="HKS 77 N"></color>
+<color name="HKS 78 N" cs="HKS 78 N"></color>
+<color name="HKS 81 N" cs="HKS 81 N"></color>
+<color name="HKS 82 N" cs="HKS 82 N"></color>
+<color name="HKS 83 N" cs="HKS 83 N"></color>
+<color name="HKS 84 N" cs="HKS 84 N"></color>
+<color name="HKS 88 N" cs="HKS 88 N"></color>
+<color name="HKS 89 N" cs="HKS 89 N"></color>
+<color name="HKS 90 N" cs="HKS 90 N"></color>
+<color name="HKS 91 N" cs="HKS 91 N"></color>
+<color name="HKS 92 N" cs="HKS 92 N"></color>
+<color name="HKS 93 N" cs="HKS 93 N"></color>
+<color name="HKS 95 N" cs="HKS 95 N"></color>
+<color name="HKS 96 N" cs="HKS 96 N"></color>
+<color name="HKS 97 N" cs="HKS 97 N"></color>
+</page>
+</colors>
+<localization></localization>
+</palette>
+

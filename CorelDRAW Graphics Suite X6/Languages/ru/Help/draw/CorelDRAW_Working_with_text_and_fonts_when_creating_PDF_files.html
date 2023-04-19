@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="GENERATOR" content="Quadralay WebWorks Publisher Professional Edition 7.0.2.1206" />
+  <meta name="TEMPLATEBASE" content="Draw" />
+  <meta name="LASTUPDATED" content="02/17/12 09:10:02" />
+  <title>Работа с текстом и шрифтами в файлах PDF</title>
+  <link rel="StyleSheet" href="document.css" type="text/css" />
+  <link rel="StyleSheet" href="Mycatalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+ </head>
+
+ <body onLoad="WWHUpdate();">
+<a name="wppagetop"></a>
+<p class="pBody"></p>
+<p class="pBody">Быстрые ссылки на процедуры, описанные на этой странице:</p>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_text_and_fonts_when_creating_PDF_files.html#wp1384234">Встраивание шрифтов в файл PDF</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_text_and_fonts_when_creating_PDF_files.html#wp1384257">Преобразование шрифтов TrueType в шрифты Type 1</a></div></td></tr></table>
+
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0">
+<tr><td width="10"><div class="pListItemInTable">&#8226;</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable"><a href="CorelDRAW_Working_with_text_and_fonts_when_creating_PDF_files.html#wp1384280">Экспортирование текста в виде кривых</a></div></td></tr></table>
+
+<br/>
+<a name="wp1384220"> </a><h3 class="pHeading2">
+Работа с текстом и шрифтами в файлах PDF
+</h3>
+
+<a name="wp1384221"> </a><p class="pBody">
+С помощью параметров текста и шрифта можно определить, как будет выгл&#1103;деть документ в файле вывода PDF.
+</p>
+<a name="wp1384222"> </a><p class="pBody">
+В файл PDF можно встроить шрифты. В результате встраивани&#1103; увеличиваетс&#1103; размер файла, но это позвол&#1103;ет сделать его более универсальным, поскольку наличие шрифтов необ&#1103;зательно в других системах. При встраивании 14 основных шрифтов они добавл&#1103;ютс&#1103; в файл PDF. Таким образом обеспечиваетс&#1103; примерно одинаковый набор шрифтов в различных системах. 14 основных шрифтов присутствуют на всех устройствах PostScript.
+</p>
+<a name="wp1384224"> </a><p class="pBody">
+Можно также преобразовать <a  href="CorelDRAW_Glossary.html#wp1682974">шрифты TrueType</a> в шрифты Type 1, вследствие чего увеличитс&#1103; размер файла, содержащего много шрифтов. При преобразовании шрифтов можно уменьшить размер файла, создав поднабор шрифтов, если используетс&#1103; небольшое количество символов (например, английские символы от A до E). Можно также указать процент дл&#1103; используемых шрифтов. Например, можно создать поднабор, содержащий 50 процентов шрифтов. Если процент используемых в документе символов данного шрифта превышает 50, будет встроено все подмножество символов. Если процент использованных в документе символов данного шрифта меньше 50, то будут встроены только используемые символы.
+</p>
+<a name="wp1384225"> </a><p class="pBody">
+Восполнить разницу шрифтов на различных компьютерах можно также путем экспортировани&#1103; текста в виде кривых. В виде кривых текст можно экспортировать, к примеру, при использовании нестандартных текстовых символов. При экспортировании текста в виде кривых структура файла становитс&#1103; более сложной и может увеличитьс&#1103; его размер. Дл&#1103; обычного выпуска документации рекомендуетс&#1103; встраивать в документ шрифты, а не преобразовывать текст в кривые.
+</p>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1384234"> </a>Встраивание шрифтов в файл PDF</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Экспорт</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите параметр <b class="cBold">PDF &#8212; формат переносимых документов Adobe</b> в 
+списке <b class="cBold">Тип файла</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите папку, в которой необходимо сохранить файл.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В поле <b class="cBold">Им&#1103; файла</b> введите им&#1103; файла.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Экспорт</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">По&#1103;витс&#1103; диалоговое окно <b class="cBold">Параметры PDF</b>.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+6.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">Объекты</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+7.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Установите флажок <b class="cBold">Встроить шрифты в документ</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если требуетс&#1103; встроить основные шрифты в файл PDF, установите флажок <b class="cBold">Встроить основные 14 шрифтов</b>.</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">Дл&#1103; публикации документа в Интернете не рекомендуетс&#1103; 
+устанавливать флажок <b class="cBold">Встроить основные 14 шрифтов</b>, поскольку 
+это приводит к увеличению размера файла.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1384257"> </a>Преобразование шрифтов TrueType в шрифты Type 1</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Экспорт</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите параметр <b class="cBold">PDF &#8212; формат переносимых документов Adobe</b> в 
+списке <b class="cBold">Тип файла</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите папку, в которой необходимо сохранить файл.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В поле <b class="cBold">Им&#1103; файла</b> введите им&#1103; файла.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Экспорт</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">По&#1103;витс&#1103; диалоговое окно <b class="cBold">Параметры PDF</b>.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+6.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">Объекты</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+7.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Установите флажок <b class="cBold">Преобразовать шрифт TrueType в Type 1</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">Если требуетс&#1103; уменьшить размер файла, можно создать поднабор шрифтов, установив флажок <b class="cBold">Поднабор шрифтов</b> и введ&#1103; процент используемых шрифтов в поле <b class="cBold">% наб. симв.</b>.</div></td>
+</tr></table>
+<table class="TipNoteGraphic" border="0" cellspacing="0" 
+cellpadding="0"><tr>
+<td><img src="images/note.gif" height="15" 
+width="16" border="0" hspace="0" vspace="0"/></td>
+</tr></table><table class="TipNote" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td><div class="pListItemInTable">В случае создани&#1103; подгруппы шрифтов некоторые символы шрифта 
+могут отсутствовать в файле при редактировании PDF-файла в Adobe 
+Acrobat.
+</div></td>
+</tr></table>
+<table class="ToDo" width="99%" background="images/ToDoBackground.gif" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="95%"><a name="wp1384280"> </a>Экспортирование текста в виде кривых</td>
+<td align="right" valign="middle" width="5%"><a href="#wppagetop"><img SRC="images/BtnBacktoTopProc.gif" ALT="В начало страницы" border="0" height="10" width="10" /> </a></td>
+</tr>
+</table>
+
+
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+1.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите пункт <b class="cBold">Файл</b> <img src="images/onestep.jpg" height="14" width="9" border="0" hspace="0" vspace="0" align="absmiddle"/> <b class="cBold">Экспорт</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+2.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите параметр <b class="cBold">PDF &#8212; формат переносимых документов Adobe</b> в 
+списке <b class="cBold">Тип файла</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+3.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Выберите папку, в которой необходимо сохранить файл.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+4.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">В поле <b class="cBold">Им&#1103; файла</b> введите им&#1103; файла.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+5.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Нажмите кнопку <b class="cBold">Экспорт</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" 
+cellpadding="0"><tr valign="baseline">
+<td width="5"></td>
+<td><div class="pBodyRelative">По&#1103;витс&#1103; диалоговое окно <b class="cBold">Параметры PDF</b>.</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+6.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Перейдите на вкладку <b class="cBold">Объекты</b>.
+</div></td>
+</tr></table>
+<table class="autotable" border="0" cellspacing="0" cellpadding="0"><tr valign="baseline">
+<td width="10"><div class="pListItemInTable"> 
+7.</div></td>
+<td><div class="pListItemInTable">&#160;</div></td>
+<td><div class="pListItemInTable">Установите флажок <b class="cBold">Экспортировать весь текст как кривые</b>.
+</div></td>
+</tr></table>
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag());
+   // -->
+  </script>
+<p></p>
+<p class="pBody">Copyright 2012 Corel Corporation. Все права защищены.</p>
+    <iframe id="setcookiefrm" style="display:none;"></iframe>
+ </body>
+</html>

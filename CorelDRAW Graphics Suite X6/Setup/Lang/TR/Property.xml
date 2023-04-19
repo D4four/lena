@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ICA lang="TR">
+	<Properties>
+    <Property name="Str.ProductDisplayName" value="CorelDRAW Graphics Suite X6.1"/>
+    <Property name="Str.SetupAlreadyRunning" value="Setup.exe zaten çalışıyor."/> 
+		<Property name="Str.CancelSetupPrompt" value="%s yüklemesini durdurmak istediğinizden emin misiniz?" comment="if %s is used in the string, it will be replaced with [Str.ProductDisplayName]"/>
+    <Property name="Str.CouldNotOpenCore" value="Yükleme uygulaması yazılım ayarlamalarını yaparken bir sorunla karşılaştı.  Bu dosyaya ulaşılamıyor: %s Devam etmek ister misiniz?" comment="string displayed to the user if the core .msi could not be opened during initalization -- %s MUST be in the string, it is replaced with the reason for failure"/>
+    <Property name="Str.NoFolderAccess" value="Bu klasöre ulaşılamadı: %s" comment="%s is replaced with the folder name"/>
+    <Property name="Str.PathTooLong" value="%s yükleme dizini yolu en fazla %s karakter içerebilir. Lütfen farklı bir hedef seçin." comment="first %s is replaced with [Str.ProductDisplayName] -- second %s is replaced with [MAX_PATH]"/>
+    <Property name="Str.Initializing.Text" value="Başlatılıyor: lütfen bekleyin..."/>
+    <Property name="Str.Initializing.Text.Cancelling" value="İşlem Durduruluyor ..."/>
+		<Property name="Str.Feature.MainApp" value="CorelDRAW Graphics Suite X6.1"/> 
+		<Property name="Str.Feature.MainApp.Desc" value="CorelDRAW Graphics Suite X6.1, grafik tasarım, sayfa düzeni ve fotoğraf düzenleme için güçlü bir yazılım sunar."/> 
+    
+    <Property name="Str.Feature.Utilities.VSTA.Desc.WithVS9" value="Bu özellik Visual Studio Tools for Applications desteği yükler (eğer Visual Studio 2008 SP1 yüklü ise)."/>
+		<Property name="Str.Feature.WT" value="Yazma Araçları"/>
+		<Property name="Str.Feature.WT.Desc" value="Farklı diller için, belgelerinizi kontrol etmenizde yardımcı olan yazım kontrolü, eşanlamlı sözcükler sözlüğü ve gramer kontrolcüsünü yükler."/>
+		<Property name="Str.Feature.WT.Afrikaans" value="Güney Afrika Hollanda lehçesi"/>
+		<Property name="Str.Feature.WT.Afrikaans.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Catalan" value="Katalanca"/>
+		<Property name="Str.Feature.WT.Catalan.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Czech" value="Çekçe"/>
+		<Property name="Str.Feature.WT.Czech.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Danish" value="Danimarkaca"/>
+		<Property name="Str.Feature.WT.Danish.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Dutch" value="Hollandaca"/>
+		<Property name="Str.Feature.WT.Dutch.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.English" value="İngilizce"/>
+		<Property name="Str.Feature.WT.English.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Finnish" value="Fince"/>
+		<Property name="Str.Feature.WT.Finnish.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.French" value="Fransızca"/>
+		<Property name="Str.Feature.WT.French.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Galician" value="Galicia Dili"/>
+		<Property name="Str.Feature.WT.Galician.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.German" value="Almanca"/>
+		<Property name="Str.Feature.WT.German.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Greek" value="Yunanca"/>
+		<Property name="Str.Feature.WT.Greek.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Icelandic" value="İzlandaca"/>
+		<Property name="Str.Feature.WT.Icelandic.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Italian" value="İtalyanca"/>
+		<Property name="Str.Feature.WT.Italian.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Norwegian" value="Norveççe"/>
+		<Property name="Str.Feature.WT.Norwegian.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Polish" value="Lehçe"/>
+		<Property name="Str.Feature.WT.Polish.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Portuguese" value="Portekizce"/>
+		<Property name="Str.Feature.WT.Portuguese.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Russian" value="Rusça"/>
+		<Property name="Str.Feature.WT.Russian.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Slovak" value="Slovakça"/>
+		<Property name="Str.Feature.WT.Slovak.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Sotho" value="Sotho dili"/>
+		<Property name="Str.Feature.WT.Sotho.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Spanish" value="İspanyolca"/>
+		<Property name="Str.Feature.WT.Spanish.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Swedish" value="İsveççe"/>
+		<Property name="Str.Feature.WT.Swedish.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Tswana" value="Tsvana dili"/>
+		<Property name="Str.Feature.WT.Tswana.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Turkish" value="Türkçe"/>
+		<Property name="Str.Feature.WT.Turkish.Desc" value="Bu dil Yazım Denetleyici ve Heceleme denetimi içeriyor."/>
+		<Property name="Str.Feature.WT.Xhosa" value="Zosa dili"/>
+		<Property name="Str.Feature.WT.Xhosa.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+    <Property name="Str.Feature.WT.Zulu" value="Zulu dili"/>
+    <Property name="Str.Feature.WT.Zulu.Desc" value="Bu dil Yazım Denetleyici, Heceleme ve Gramer denetimi içeriyor."/>
+
+
+		
+    <Property name="Str.Feature.Programs64" value="64 Bit Program Dosyaları"/>
+    <Property name="Str.Feature.Programs64.Desc" value="64 Bit Program Dosyaları"/>
+    <Property name="Str.DestinationFolder" value="Geçerli Hedef Klasörü Değiştir"/>
+    <Property name="Str.SerialNotValid" value="Seri numarası geçerli değil."/>
+    <Property name="Str.UpgradeSerialBlacklisted" value="Ürün sürümünü yükseltmek için bu seri numarasını kullanamazsınız."/>
+  <Property name="Str.UpgradeSerialNotEligible" value="Bu seri numarası, ürün sürümünü yükseltme işlemi için uygun değil."/>
+  <Property name="Str.UpgradeSerialNotValid" value="Bu, tanınan bir seri numarası değil. Lütfen numarayı doğru girdiğinizden emin olun."/>
+
+    <Property name="Str.ProgressText.Default" value="%d%% Tamamlandı" comment="this is the default progress text, you can override it using 'progresstext' attribute on the msi or dbm node -- optional %d%% is populated with the percent complete"/>
+    <Property name="Str.Running.VBA.exe.text" value="Lütfen Visual Basic for Applications uygulamasını ayarlarken bekleyin"/>
+    <Property name="Str.CacheSetupSource.Progress.text" value="Lütfen, yükleme dosyaları hazırlanırken bekleyin"/>
+
+    <Property name="Str.Text.RequiredFeature" value="(Gerekli)"/>
+
+    <Property name="Str.ProgressText.Common" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.Capture" value="%d%% Tamamlandı - Corel CAPTURE ayarlanıyor"/>
+    <Property name="Str.ProgressText.Draw" value="%d%% Tamamlandı - CorelDRAW ayarlanıyor"/>
+    <Property name="Str.ProgressText.Paint" value="%d%% Tamamlandı - Corel PHOTO-PAINT ayarlanıyor"/>
+    <Property name="Str.ProgressText.CS" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Basitleştirilmiş Çince Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.CT" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Geleneksel Çince Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.CZ" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Çekçe Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.NL" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Hollandaca Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.EN" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 İngilizce Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.SU" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Fince Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.FR" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Fransızca Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.DE" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Almanca Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.MA" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Macarca Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.IT" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 İtalyanca Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.JP" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Japonca Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.KR" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Korece Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.PL" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Lehçe Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.BR" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Portekizce (Brezilya) Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.RU" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Rusça Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.ES" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 İspanyolca Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.SV" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 İsveççe Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.TR" value="%d%% Tamamlandı - CorelDRAW Graphics Suite X6.1 Türkçe Dil Paketi Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.Extras" value="CorelDRAW Graphics Suite X6 - Ek İçerikleri Yükle:"/>    
+    <Property name="Str.ProgressText.FontNav" value="%d%% Tamamlandı - Bitstream Font Navigator Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.VBA" value="%d%% Tamamlandı - Microsoft Visual Basic for Applications Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.VSTA" value="%d%% Tamamlandı - Visual Studio Tools for Applications"/>
+    <Property name="Str.ProgressText.VSTA.exe" value="Lütfen Visual Studio Tools for Applications ayarları yapılırken bekleyin"/>
+    <Property name="Str.ProgressText.XML" value="%d%% Tamamlandı - Microsoft XML Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.ShellExt" value="%d%% Tamamlandı - Corel Windows Shell Extension Yapılandırılıyor"/>
+    <Property name="Str.ProgressText.IntelCompiler" value="CorelDRAW Graphics Suite X6.1 Yapılandırılıyor" />
+    <Property name="Str.Feature.Lang" value="Ürün dilleri "/>
+    <Property name="Str.Feature.Lang.CS" value="Çince (Basitleştirilmiş)"/>
+    <Property name="Str.Feature.Lang.CT" value="Çince (Geleneksel)"/>
+    <Property name="Str.Feature.Lang.CZ" value="Çekçe"/>
+    <Property name="Str.Feature.Lang.NL" value="Hollandaca"/>
+    <Property name="Str.Feature.Lang.EN" value="İngilizce"/>
+    <Property name="Str.Feature.Lang.SU" value="Fince"/>
+    <Property name="Str.Feature.Lang.FR" value="Fransızca"/>
+    <Property name="Str.Feature.Lang.DE" value="Almanca"/>
+    <Property name="Str.Feature.Lang.MA" value="Macarca"/>
+    <Property name="Str.Feature.Lang.IT" value="İtalyanca"/>
+    <Property name="Str.Feature.Lang.JP" value="Japonca"/>
+    <Property name="Str.Feature.Lang.KR" value="Korece"/>
+    <Property name="Str.Feature.Lang.PL" value="Lehçe"/>
+    <Property name="Str.Feature.Lang.BR" value="Portekizce"/>
+    <Property name="Str.Feature.Lang.RU" value="Rusça"/>
+    <Property name="Str.Feature.Lang.ES" value="İspanyolca"/>
+    <Property name="Str.Feature.Lang.SV" value="İsveççe"/>
+    <Property name="Str.Feature.Lang.TR" value="Türkçe"/>
+    <Property name="SETUP_LANG" value="TR"/>
+    <Property name="ICA.Lang.Transform" value="1055.mst"/>
+
+    <Property name="Str.Feature.Extras" value="CorelDRAW Graphics Suite X6.1 - İçeriği"/>
+    <Property name="Str.Feature.Extras.Desc" value="CorelDRAW Graphics Suite X6.1 Yükle - İçeriği"/>
+    <Property name="Str.InstallContent" value="CorelDRAW Graphics Suite X6.1 ile birlikte gelen içeriği ve ek özellikleri yüklemek ister misiniz?"/>
+
+
+    <Property name="Str.Error.20000" value="Seri numarası geçerli değil."/>
+    <Property name="Str.Error.30000" value="ÖNEMLİ: Microsoft .NET Framework 4.0&apos;ı yüklemeden CorelDRAW Graphics Suite X6.1&apos;yı yükleyemezsiniz.  Microsoft .NET Framework hakkında bilgi için lütfenMicrosoft Web sitesini ziyaret edin.&lt;br /&gt;&lt;a href=&quot;http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7&quot; target=&quot;_blank&quot; onclick=&quot;window.external.EndModalLoop(0);&quot;&gt;http://www.microsoft.com/NET/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;" />
+    <Property name="Str.Error.30001" value="Bilgisayarınızdaki işlemci, yazılım için minimum sistem gereksinimini karşılamıyor. Yükleme tamamlanamıyor."/>
+    <Property name="Str.Error.30002" value="CorelDRAW Graphics Suite X6.1 yalnızca Windows XP ve Windows Vista işletim sistemlerine yüklenebilir. Kurulum şimdi sonlandırılacak."/>
+    <Property name="Str.Error.30003" value="Bu yüklemeyi gerçekleştirmek için yeterli ayrıcalıklara sahip değilsiniz.  Bu yükleme için yönetim ayrıcalığı veya yükseltilmiş ayrıcalık gerekir.  Lütfen yöneticinizle görüştükten sonra bu yüklemeyi yeniden deneyin."/>
+    <Property name="Str.Error.30004" value="ÖNEMLİ: Microsoft .NET Framework 4.0&apos;ı yüklemeden CorelDRAW Graphics Suite X6.1&apos;yı yükleyemezsiniz.  Microsoft .NET Framework hakkında bilgi için lütfen Microsoft Web sitesini ziyaret edin. &apos;http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7&apos; - http://www.microsoft.com/NET/"/>
+    <Property name="Str.Error.30005" value="CorelDRAW Graphics Suite X6.1&apos;nın 64-Bit sürümü 32-Bit bir sisteme yüklenemez."/>
+    <Property name="Str.UpgradeNotSupported" value="Sürüm yükseltme seri numaraları komut satırı aracılığıyla yükleme için kullanılamaz. Lütfen bu seri numarasını kurulum arabirimini kullanarak girin veya komut satırınızda başka bir seri numarası kullanın."/>
+<!--Coexistence Scenarios -->
+    <Property name="Str.Error.30500" value="Bu uygulamanın daha yeni bir sürümü bu bilgisayarda zaten kurulu. Bu sürümü kurmak istiyorsanız, lütfen ilk önce daha yeni sürümü kaldırın." />
+    <Property name="Str.Error.30501" value="CorelDRAW Graphics Suite X6.1 zaten yüklü olduğundan bu deneme sürümünü yükleyemezsiniz. Bu deneme sürümünü yüklemek için, önce var olan ürünü kaldırmanız gerekir." comment="Yellow" />
+    <Property name="Str.Error.1638" value="Başka bir sürümü yüklü olduğundan bu ürünü yükleyemezsiniz. Ürünü yüklemek için önce mevcut sürümü kaldırmalısınız. Kurulumdan çıkmak için Son'u tıklatın." comment="Pink" />
+    <Property name="Str.CDTS.Prompt" value="Bilgisayarınızda CorelDRAW Graphics Suite X6.1 olduğu algılandı. Corel DESIGNER Technical Suite X6, CorelDRAW Graphics Suite X6.1'un sunduklarını ve çok daha fazlasını sunar!\n\nYazılımınızı Corel DESIGNER Technical Suite X6'e yükseltmek istemiyorsanız İptal'i tıklatın." comment="Blue" />
+  <Property name="Str.CDTSTrial.Prompt" value="Bilgisayarınızda Corel DESIGNER Technical Suite X6'nın bir deneme sürümü olduğu algılandı. İptal'i tıklatmazsanız, bu deneme sürümü kaldırılır ve yerine CorelDRAW Graphics Suite X6.1 yüklenir." comment="Purple" />
+  <Property name="Str.Error.30502" value="Başka bir sürüm zaten yüklü olduğundan bu ürünü yükleyemezsiniz." comment="Orange" />
+  <Property name="Str.Error.30503" value="Bu ürünü yüklemek için önce CorelDRAW Graphics Suite X6.1'yı yükleyip kurma programını yeniden çalıştırmanız gerekir.  CorelDRAW Graphics Suite X6.1'yı indirmek için www.corel.com/draw adresini ziyaret edin." comment="Brown" />
+  <Property name="Str.Error.30504" value="CorelDRAW Essentials ve CorelDRAW Home and Student Edition aynı bilgisayara yüklenemez.  Sisteminiz değiştirilmemiş.  Ürünü yüklemek için önce geçerli CorelDRAW ürününü kaldırmanız gerekir. " comment="Rust" />
+  <Property name="Str.Error.30505" value="Bu ürün CorelDRAW Graphics Suite X6.1'nın sizdeki 32 bitlik veya 64 biglik sürümü ile eşleşmiyor.  Bu ürünü yüklemek için, eşleşen sürümü seçin, sonra kurma programını yeniden çalıştırın." comment="Green" />
+  <Property name="Str.Error.30505" value="Bu ürünü yüklemek için, önce CorelDRAW Graphics Suite X6.1'yı satın alıp sonra kurma programını yeniden çalıştırmanız gerekir." coment="Grey" />
+    <Property name="Str.Error.35001" value="&lt;b&gt;Details:&lt;/b&gt;&lt;br /&gt;Unable to validate the serial number. An Internet connection is required to complete the installation.&lt;br /&gt;&lt;br /&gt;" />
+    <Property name="Str.Error.30510" value="İnternet bağlantısı gerekiyor.  Lütfen İnternete bağlanın ve yeniden deneyin." />
+	<Property name="Str.Error.30511" value="Error: An unexpected error occurred on the server. Please check your Internet connection and try again later." />
+    
+        
+    <Property name="Str.DiskSpace.Bytes" value="byte"/>
+    <Property name="Str.DiskSpace.Kb" value="Kb"/>
+    <Property name="Str.DiskSpace.MB" value="MB"/>
+    <Property name="Str.DiskSpace.GB" value="GB"/>
+    <Property name="Str.DiskSpace.TB" value="TB"/>
+    <Property name="Str.DiskSpace.RequiredString" value="%s sürücüsünde %s / %s gerekiyor"/>
+    <Property name="Str.UpgradeProgressText" value="Uygulamalar kaldiriliyor: "/>
+
+    <Property name="Str.Feature.Filters.GhostscriptGPL" value="GPL Ghostscript"/>
+    <Property name="Str.Feature.Filters.GhostscriptGPL.Installed.Text" value="&lt;b&gt;GPL Ghostscript (Zaten Yüklü)&lt;/b&gt;"/>
+
+    <Property name="Str.PrerequisiteReboot.Prompt" value="Yüklemeyi tamamlamak için sisteminizi yeniden başlatmanız gerekiyor.\n\nŞimdi yeniden başlatmak için Evet düğmesine veya daha sonra yeniden başlatmak istiyorsanız Hayır düğmesine tıklayın."/>
+    
+
+    <Property name="Str.Required.Dlg.InstallComplete" value="Yükleme Tamamlandı"/>
+
+    <Property name="Setup_Billboard_1.png" value="Katarzyna Kobylkiewicz"/>
+    <Property name="Setup_Billboard_10.png" value="Владимр Соломатин"/>
+    <Property name="Setup_Billboard_11.png" value="Fabio  Selani - www.fabiosellani.blogspot.com"/>
+    <Property name="Setup_Billboard_12.png" value="Роман Полищук"/>
+    <Property name="Setup_Billboard_13.png" value="André Luiz dos Santo  - www.logomarca3d.com"/>
+    <Property name="Setup_Billboard_14.png" value="John Fernandez"/>
+    <Property name="Setup_Billboard_15.png" value="Riteshsingh Seeboruth"/>
+    <Property name="Setup_Billboard_16.png" value="Francisco Javier Hurtado Zarate"/>   
+    <Property name="Setup_Billboard_17.png" value="Muaviath Ali - www.muart-a.com"/>
+    <Property name="Setup_Billboard_18.png" value="Federico Nicolas Arroyuelo"/>   
+    <Property name="Setup_Billboard_19.png" value="Franziskus Pfleghart"/>
+    <Property name="Setup_Billboard_2.png" value="Rodolfo Biglie - www.creatorica.com"/>
+    <Property name="Setup_Billboard_20.png" value="Kanimozhi S N - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_21.png" value="Dhananjay Garg - www.dhananjaydgarg.blogspot.com"/>
+    <Property name="Setup_Billboard_22.png" value="Jaime Andres Grimaldos Pimiento - www.graficon.com"/>
+    <Property name="Setup_Billboard_23.png" value="Prem Kumar V - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_24.png" value="Tania Macias"/>
+    <Property name="Setup_Billboard_25.png" value="Deborah McIntyre"/>
+    <Property name="Setup_Billboard_26.png" value="Ramm ND"/>
+    <Property name="Setup_Billboard_27.png" value="Fayiza Kulsoom - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_28.png" value="Leva Griskaite"/>
+    <Property name="Setup_Billboard_29.png" value="Yogita  Butala"/>
+    <Property name="Setup_Billboard_3.png" value="Nanda Dixit"/>
+    <Property name="Setup_Billboard_30.png" value="Giulia Marchetti Hennings"/>
+    <Property name="Setup_Billboard_31.png" value="Adnan Nan - www.anabawang.blogspot.com"/>
+    <Property name="Setup_Billboard_32.png" value="Dmitri Demidenko"/>
+    <Property name="Setup_Billboard_33.png" value="Firman Hatibu"/>
+    <Property name="Setup_Billboard_34.png" value="Jairo Cataia"/>
+    <Property name="Setup_Billboard_35.png" value="Suhasini R - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_36.png" value="Алексей Оглушевич"/>
+    <Property name="Setup_Billboard_37.png" value="Дамир Галлямов"/>     
+    <Property name="Setup_Billboard_38.png" value="Michal Milkowski - www.tonic-art.com"/>
+    <Property name="Setup_Billboard_39.png" value="Pumesh Kumar"/>
+    <Property name="Setup_Billboard_4.png" value="Anastasios Pappas"/>   
+    <Property name="Setup_Billboard_40.png" value="Mariusz Grzyb"/> 
+    <Property name="Setup_Billboard_41.png" value="Marcin Chamala"/>
+    <Property name="Setup_Billboard_42.png" value="Panagiotis Intakidis"/>
+    <Property name="Setup_Billboard_43.png" value="Hao Lun Jhang"/>
+    <Property name="Setup_Billboard_44.png" value="Hiroshi Kurozumi - www.ne.jp/asahi/h-kurozumi/cdr/"/>
+    <Property name="Setup_Billboard_45.png" value="Adhi Noegroho"/>
+    <Property name="Setup_Billboard_46.png" value="Gentil  Jimenez - www.akermos.com"/>
+    <Property name="Setup_Billboard_47.png" value="Bennes Patio - www.ben2ty.co.nr"/>
+    <Property name="Setup_Billboard_48.png" value="Елена Олина"/>
+    <Property name="Setup_Billboard_49.png" value="Olga Pavlova - www.pavlova.us"/>
+    <Property name="Setup_Billboard_5.png" value="Divya  Priya  - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_50.png" value="Tatiana Prokofieva"/>
+    <Property name="Setup_Billboard_6.png" value="Artsiom Aleksandrovich"/> 
+    <Property name="Setup_Billboard_7.png" value="Aditya Sawant"/>
+    <Property name="Setup_Billboard_8.png" value="Time Garvanliev"/> 
+    <Property name="Setup_Billboard_9.png" value="Noel Patrick Nesaraj Daniel"/>
+
+
+    <Property name="Str.OutOfDiskSpace.Warning" value="Yükleme için gerekli olan disk alanı, kullanılabilir durumdaki disk alanından daha büyük." lang="English"/>
+    
+</Properties>
+</ICA>

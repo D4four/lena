@@ -1,0 +1,12 @@
+/* CSS Document */
+
+body { font-family:Verdana, Arial, Helvetica; font-size:11px; color:#000000; cursor:default; }
+a, a:link, a:active, a:visited {color:#335687; text-decoration:none}
+a:hover{color:#335687; text-decoration: underline;}
+.container { text-align:center; }
+.vt { border:1px solid #000; background-image:url(../images/vt.gif); color:#FFF; padding:5px 9px 4px 9px; font-size:12px; cursor:pointer; }
+.su { border:1px solid #000; background-image:url(../images/su.gif); color:#FFF; padding:5px 9px 4px 9px; font-size:12px; cursor:pointer; }
+.loginField { width:165px; border:1px solid #000; background-color:#F5F5F5; }
+.cr { color:#9b9b9b; font-size:9px; }
+.rMe { position:relative; top:-3px; }
+.field { border:1px solid #ABADB3 }

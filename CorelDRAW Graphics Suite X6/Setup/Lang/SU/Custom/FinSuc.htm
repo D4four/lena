@@ -1,0 +1,229 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+           ICA:DlgHW="610,800" 
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:PromptForCancel="no"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+          ICA:ProgressState="TBPF_NOPROGRESS"
+    />
+
+    <script type="text/jscript" language="jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script type="text/jscript" language="jscript">
+    
+        var Setup = window.external;
+        
+        function OnBodyLoad()
+        {
+            
+            try
+            {
+                if ("ADMIN" == Setup.GetProperty("ACTION"))
+                {
+                    idAdmin.style.display = "block";    //admin
+                }
+                else
+                {
+                    if ("1" == Setup.GetProperty("RebootPage"))
+                    {
+                        idReboot.style.display = "block";   //reboot
+                    }
+                    else
+                    {
+                        //install
+                        if ("1" == Setup.GetProperty("VisualStudio9RTM_Installed"))
+                        {
+                            var str = Setup.GetProperty("Str.Dlg.FinSuc.Text.NoVSTAInstall")
+                            idFinishWithNoLauncher.innerHTML = str;
+                        }
+                        
+                        if ("" == Setup.GetProperty("Installed"))
+                        {
+                            if (g_bShowLaunchers ) //membership not included
+                            {
+                                idFreshInstallNoSub.style.display = "block";
+                                idFreshInstall.style.display = "none";
+                                if("1" == Setup.GetProperty("USER_TOKEN_AVAILABLE"))
+                                {
+                                    idBackGrd2.style.display = "block";
+                                    idBackGrd.style.display = "none";
+                                    
+                                    idFreshInstallWithLauncher.style.display = "block";
+
+                                    if ("1" == Setup.GetProperty("DRPFILES"))
+                                        idLaunchDraw.style.display = "block";
+
+                                    if ("1" == Setup.GetProperty("PPPFILES"))
+                                        idLaunchPaint.style.display = "block";                                
+
+                                    if ("1" == Setup.GetProperty("CONNECT"))
+                                        idLaunchConnect.style.display = "block";                                
+
+                               }
+                               else
+                               {
+                                    idFreshInstallWithNoLauncher.style.display = "block";
+                               }
+                            }
+                            else // no launcher
+                            {
+                                idFreshInstall.style.display = "block";    //first install                                
+                                idFreshInstallNoSub.style.display = "none";
+                            }
+                        }
+                        else
+                        {
+                            idMaintenance.style.display = "block";  //maintenance
+                        }
+                    }
+                }
+
+            }
+            catch (err)
+            {
+                idFreshInstall.style.display = "block";
+                idMaintenance.style.display = "block";
+            }
+            
+        } //function OnBodyLoad()
+        function LaunchAutorun()
+        {
+            if ("" == Setup.GetProperty("Installed"))
+            {
+                g_Setup.ExecuteFN('JS_LaunchAutorun');
+            }
+            Setup.EndModalLoop(0);
+        }//function LaunchAutorun()
+
+    </script>
+
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd" ></div>
+    <div id="idBackGrd2" style="display: none;"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" onclick="LaunchAutorun();" />
+   
+    <!-- ------------------------------------------------------------ -->
+    <!-- page content panel -->
+    <div id="idPanel">
+
+        <div class="DlgHeader" style="top: 20px;" >
+            Asennus onnistui
+        </div>
+        
+        <!-- -------------------------------------------------------------------- -->
+        <!-- fresh workstation install -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idFreshInstall">
+            <div >
+                Kiitoksia CorelDRAW Graphics Suite X6.1:n asentamisesta.
+                <br /><br />
+            </div>
+            <div style="background-color: #5A6E32; color: white; padding: 7px 7px 7px 7px;">
+                CorelDRAW Graphics Suite X6.1:n myötä olet oikeutettu CorelDRAW-vakiojäsenyyteen, jolla voit hyödyntää online-sisältöä ja tulevia tuotepäivityksiä.
+                <br />  
+            </div>
+                <br />          
+            <div>
+               Valitse <b>Valmis</b>, jos haluat sulkea asennusohjelman.
+            </div>
+
+        </div>
+        <!-- -------------------------------------------------------------------- -->
+        
+        <!-- -------------------------------------------------------------------- -->
+        <!-- fresh workstation install - no subscription (corp, oem, trial) -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idFreshInstallNoSub">
+            <div style="display: none;" id="idFreshInstallWithLauncher">
+                Kiitoksia CorelDRAW Graphics Suite X6.1:n asentamisesta.
+                <br /><br />
+                Voit aloittaa sovellusten käytön välittömästi, tai voit poistua asennusohjelmasta napsauttamalla <b>Valmis</b> ja käyttää sovelluksia myöhemmin
+            </div>
+            <div style="display: none;" id="idFreshInstallWithNoLauncher">
+                Kiitoksia CorelDRAW Graphics Suite X6.1:n asentamisesta.  Valitse <b>Valmis</b>, jos haluat sulkea asennusohjelman.
+            </div>
+            <div style="background-color: Transparent; text-align: center;">
+                <a class="idLaunchDraw" id="idLaunchDraw" href="FinSuc.htm" onclick="LaunchIt('dr');" style="display: none;"></a>
+                <a class="idLaunchPaint" id="idLaunchPaint" href="FinSuc.htm" onclick="LaunchIt('pp');" style="display: none;"></a>
+                <a class="idLaunchConnect" id="idLaunchConnect" href="FinSuc.htm" onclick="LaunchIt('co');" style="display: none;"></a>
+                
+            </div>
+
+        </div>
+        <!-- -------------------------------------------------------------------- -->
+
+
+        <!-- maintenance install -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idMaintenance">
+            <div >
+                Kiitos, että valitsit CorelDRAW Graphics Suite X6.1:n.  Valitse <b>Valmis</b>, jos haluat sulkea asennusohjelman.
+            </div>
+        </div>
+        
+        <!-- reboot install -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idReboot">
+            <div class="DlgBlock" >
+                Tietokone on käynnistettävä uudelleen, jotta muutokset tulevat voimaan. Valitse jokin seuraavista vaihtoehdoista ja lopeta asennus valitsemalla <b>Valmis</b>.
+            </div>
+            
+            <div class="DlgBlock" style="top: 90px;">
+                <label>Kiitoksia CorelDRAW Graphics Suite X6.1:n asentamisesta.</label> 
+                <br />
+		<input type="radio" id="idRebootYes" name="REBOOT" value="force" accesskey="Y" /> 
+		<label for="idRebootYes" >Kyllä. Haluan käynnistää tietokoneen nyt uudelleen.</label> 
+                <br />
+		<input type="radio" id="idRebootNo" name="REBOOT" value="ReallySuppress" accesskey="N" /> 
+		<label for="idRebootNo" >Ei. Käynnistän tietokoneen uudelleen myöhemmin.</label>
+            </div>
+        </div>
+        
+        <!-- -------------------------------------------------------------------- -->
+        <!-- admin install -->
+        <div class="DlgBlock" style="top: 55px; display: none;" id="idAdmin">
+            
+            <div>
+                Kiitoksia CorelDRAW Graphics Suite X6.1:n asentamisesta. Asennusohjelma on luonut palvelimen näköistiedoston. Valitse <b>Valmis</b>, jos haluat sulkea asennusohjelman.
+            </div>
+            
+            <div class="DlgHeader" style="top: 100px;">
+                Palvelimen näköistiedoston sijainti:
+            </div>
+        
+            <div class="DlgBlock" style="top: 130px; width: 45px; z-index: 1;">
+                <img src="../../_XX/Custom/Images/Folder.png" alt="" style="vertical-align:middle;" />
+            </div>
+            <div class="DlgBlock" style="top: 130px; left: 50px; width: 650px; z-index: 2;">
+                <label style="DISPLAY: block; OVERFLOW: hidden; cursor: hand;" onclick="OnAdminOpenFolder();" id="idAdminOpenFolder" ICA:Property="TARGETDIR">[TARGETDIR]</label>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------------------- -->
+        
+    </div> <!-- div id="idTabPanel" END -->
+
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    <button type="button" onmouseover="HighLightButton('idFinish');" onmouseout="UnHighLightButton('idFinish');" onclick="LaunchAutorun();" ID="idFinish" accesskey="V" ><u>V</u>almis</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgWizardBtns"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

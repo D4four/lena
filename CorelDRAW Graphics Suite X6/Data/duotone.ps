@@ -1,0 +1,56 @@
+%----------------------------------------------------------------------------
+% Duotone images support
+gsave 40 dict begin/IsBlank 0 CorelGetTransfer exec 1 CorelGetTransfer exec eq
+def/IsNeg IsBlank{0 CorelGetTransfer exec 0.5 lt}{0 CorelGetTransfer exec 1
+CorelGetTransfer exec gt}ifelse def/StackTopFourEqual{4 index eq 8 1 roll 4
+index eq 8 1 roll 4 index eq 8 1 roll 4 index eq 8 1 roll pop pop pop pop and
+and and}def IsColorDevice{/SepNum 0 def}{/SepNum 5 def}ifelse/setcmykcolor
+where{pop 1 0 0 0 setcmykcolor CorelGetGray 1 exch sub 0 1 0 0 setcmykcolor
+CorelGetGray 1 exch sub 0 0 1 0 setcmykcolor CorelGetGray 1 exch sub 0 0 0 1
+setcmykcolor CorelGetGray 1 exch sub 4{4 copy}repeat 1 0 0 0 StackTopFourEqual
+{/SepNum 1 store}if 0 1 0 0 StackTopFourEqual{/SepNum 2 store}if 0 0 1 0
+StackTopFourEqual{/SepNum 3 store}if 0 0 0 1 StackTopFourEqual{/SepNum 4 store}
+if 0 0 0 0 StackTopFourEqual{/SepNum 6 store}if}if IsBlank{/SepNum 6 store}if
+/duotone_set_colorspace{/duotoneDevicenColorSpace xd Level2{Level3 InkNum 0 eq
+and{[/Indexed duotoneDevicenColorSpace 255 DuotoneColorLookUpTable]
+setcolorspace}{InkNum 0 eq IsColorDevice and{/DeviceCMYK setcolorspace}{
+/DeviceGray setcolorspace}ifelse}ifelse}if}bd/ReadImage Level2{/image load}{{
+begin Width Height BitsPerComponent ImageMatrix Decode length 2 eq{/DataSource
+load image}if Decode length 6 eq{DataSource 0 get DataSource 1 get DataSource 2
+get true 3 colorimage}if Decode length 8 eq{DataSource 0 get DataSource 1 get
+DataSource 2 get DataSource 3 get true 4 colorimage}if end}}ifelse def
+/CorelReadImage Level2{/CorelImage load def}{{begin Width Height
+BitsPerComponent ImageMatrix/DataSource load CorelImage end}def}ifelse
+/duotone_image_dict{12 dict begin/ImageType 1 def/Width cols def/Height rows
+def/ImageMatrix[cols 0 0 rows neg 0 rows]def/BitsPerComponent 8 def InkNum 0 eq
+IsColorDevice and Level3 not and{/Decode[1 0 1 0 1 0 1 0]def
+/MultipleDataSources true def/DataSource[{duo_scanline readdata}{duo_scanline}
+{duo_scanline}{duo_scanline}]def}{/Decode Level3 InkNum 0 eq and{[0 255]}{[0 1]
+}ifelse def/DataSource{duo_scanline readdata}def}ifelse currentdict end}bind
+def/duotone_scanline_image_dict{12 dict begin/ImageType 1 def/Width cols def
+/Height 1 def/ImageMatrix[cols 0 0 1 neg 0 1]def/BitsPerComponent 8 def/Decode
+get_simulate_devicen{[0 1]}{[0 1 0 1 0 1 0 1]}ifelse def/DataSource
+get_simulate_devicen{duo_plate_scanline}{duo_cmyk_scanline}ifelse def
+currentdict end}bind def/mark_color_patches{gsave newpath 0 0 moveto 0 1 lineto
+1 1 lineto 1 0 lineto 0 0 lineto clip newpath 1 setlinewidth/inksNum
+duotoneDevicenColorSpace 1 get length def 0 1 inksNum 1 sub{/inkIndex exch def
+/findcmykcustomcolor where{pop 1 inksNum 1 sub{0}repeat inksNum inkIndex roll
+duotoneDevicenColorSpace 3 get exec duotoneDevicenColorSpace 1 get inkIndex get
+findcmykcustomcolor 1 setcustomcolor 100 100 moveto 101 101 lineto stroke}if
+}for grestore}def/output_duotone_image{duotone_image_dict InkNum -1 eq{IsNeg{{
+pop 0}}{{pop 1}}ifelse CorelSetTransfer CorelReadImage}{InkNum 0 eq{ReadImage}
+{CorelReadImage}ifelse}ifelse}bind def/simulate_duotone_image{/scanline_height
+1 rows div def/inksNum duotoneDevicenColorSpace 1 get length def 0 1 rows 1 sub
+{/nRowIndex exch def duo_scanline readdata pop gsave 0 nRowIndex 1 add
+scanline_height mul Tl 1 scanline_height scale 0 1 inksNum 1 sub{gsave
+/inkIndex exch def 0 1 cols 1 sub{/nColumnIndex exch def duo_scanline
+nColumnIndex get/nDuoSample exch def DuotoneColorLookUpTable nDuoSample
+nColorIndex add get duo_plate_scanline nColumnIndex 3 -1 roll put}for[
+/Separation duotoneDevicenColorSpace 1 get inkIndex get/DeviceCMYK[1 inksNum 1
+sub{0}repeat inksNum inkIndex roll duotoneDevicenColorSpace 2 get exec]cvx]
+setcolorspace inkIndex 0 gt{true setoverprint}duotone_scanline_image_dict
+ReadImage grestore}for grestore}for}bind def/DuotoneBitmap{/cols exch def/rows
+exch def duotone_set_colorspace mark_color_patches/readdata{currentfile exch
+readhexstring pop}def/duo_scanline cols string def/duo_plate_scanline cols
+string def/duo_cmyk_scanline cols 4 mul string def get_simulate_devicen{
+simulate_duotone_image}{output_duotone_image}ifelse}bind def

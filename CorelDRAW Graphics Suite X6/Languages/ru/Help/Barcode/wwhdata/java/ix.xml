@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='Windows-1251' ?>
+
+<WebWorksHelpIX version="3.0">
+ <i t="Codabar">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957223" />
+ </i>
+ <i t="Code 39">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957235" />
+ </i>
+ <i t="Ean-13">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957275" />
+ </i>
+ <i t="Ean-8">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957265" />
+ </i>
+ <i t="FIM">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957283" />
+ </i>
+ <i t="ISBN">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957303" />
+  <i t="создание 13-значных штрих-кодов">
+   <j l="CorelDRAW_Creating_bar_codes.html#wp957109" />
+  </i>
+ </i>
+ <i t="ISSN">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957317" />
+ </i>
+ <i t="ITF">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957323" />
+ </i>
+ <i t="ITF-14">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957331" />
+ </i>
+ <i t="JAN-13">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957343" />
+ </i>
+ <i t="JAN-8">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957337" />
+ </i>
+ <i t="MSI Plessey">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957351" />
+ </i>
+ <i t="POSTNET">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957363" />
+ </i>
+ <i t="UPC(E)">
+  <j l="CorelDRAW_Bar_code_formats.html#wp957377" />
+ </i>
+ <i t="дополнительные параметры">
+  <j l="CorelDRAW_Setting_advanced_bar_code_options.html#wp957176" />
+ </i>
+ <i t="Мастер штрих-кода">
+  <j l="CorelDRAW_Using_the_Barcode_Wizard.html#wp956994" />
+ </i>
+ <i t="редактирование штрихкодов">
+  <j l="CorelDRAW_Creating_bar_codes.html#wp957154" />
+ </i>
+ <i t="создание штрих-кодов">
+  <j l="CorelDRAW_Creating_bar_codes.html#wp957008" />
+  <j l="CorelDRAW_Creating_bar_codes.html#wp957038" />
+ </i>
+</WebWorksHelpIX>

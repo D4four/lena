@@ -1,0 +1,299 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+    />
+    
+    <script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script language="jscript" type="text/jscript">
+ 
+        /*  Globals *******************************************************/
+        var g_ICA   = window.external;
+ 
+        
+        /*  function ValidateSN()   ***************************************
+        *
+        *   Returns: true/false
+        *
+        *   -   checks the serial number, if it is valid then
+        *       we move to the next page
+        *   -   page is only displayed for ACTION=INSTALL
+        *******************************************************************/
+        function ValidateSN()
+        {
+            if (idInputSerial.checked)
+            {
+
+            }
+            else
+            {
+                var sn = g_ICA.GetProperty("Default.SN");
+                g_ICA.SetProperty("SERIALNUMBER", sn);
+            }
+            
+            var iResultRC = g_Setup.ExecuteFN('JS_VerifyRedeemCode');
+
+            if (iResultRC != 50) //this is a RC, return True
+            {
+				//window.location = "InstallChoose.htm";
+				return true;
+            }
+            var iResult = g_Setup.ExecuteFN('JS_ValidateUSN');
+            if (0 == iResult)
+            {
+                return false;
+            }
+            try
+            {
+                if (iResult == 2)
+                {
+                    idInputSerial.style.display = "none";
+                    idInputSerialLabel.style.display = "none";
+                    idInputSerial.checked = true;           
+                    idSNDlgBlock.style.top = "100";
+                    idUpgrade.style.display = "Block";
+                    idNoInputSerial.style.display = "none";
+                    idNoInputSerialLabel.style.display = "none";
+                    idValidate.style.display = "None";
+                    idValidateUpgrade.style.display = "Block";                    
+                    
+                }
+                else
+                {
+                    window.location = "InstallChoose.htm";
+                 }
+            }
+            catch (err) {}
+                       
+            return true;
+            
+        } //function ValidateSN()
+        
+        function ValidateUpgradeSN()
+        {
+            var iResult = g_Setup.ExecuteFN('JS_ValidateSN_Upgrade');
+            if (0 != iResult)
+            {
+                return false;
+            }
+
+            else
+            { 
+                window.location = "InstallChoose.htm";
+            }
+            return true;
+        }        
+                
+        /*  SetupUI  ***********************************************
+        *
+        *   - sets up the sn input box, based on the radio buttons
+        ************************************************************/
+        function SetupUI()
+        {
+            if (idInputSerial.checked)
+            {
+                //enable the serial number input
+                idSNLabel.style.color = "#C0C0C0";
+                idSNInput.disabled = false;
+            }
+            else
+            {
+                //disable the serial number input
+                idSNLabel.style.color = "Gray";
+                idSNInput.value = "";
+                idSNInput.disabled = true;
+                g_ICA.SetProperty("SERIALNUMBER", "");
+            }
+            
+        } //function SetupUI()
+ 
+ 
+ 
+        /*  OnBodyLoad  ********************************************
+        *
+        *   -   setup the radio buttons based already having a
+        *       valid [SERIALNUMBER]
+        ************************************************************/
+        function OnBodyLoad()
+        {
+            idUpgrade.style.display = "None";
+            idValidate.style.display = "Block";            
+            if (g_bIsAdmin)
+            {
+                window.location = "SN.htm";
+            }
+            
+            OnBodyLoadInstall();
+        } //function OnBodyLoad()
+        
+        function OnBodyLoadInstall()
+        {
+            var iResult = g_ICA.ValidateSN2(false);
+            if (0 == iResult)
+            {
+                //is good ...hide controls
+                idInputSerial.style.display = "none";
+                idInputSerialLabel.style.display = "none";
+            
+                idSNLabel.style.color = "Gray";
+                idSNInput.disabled = true;
+            
+                idNoInputSerial.style.display = "none";
+                idNoInputSerialLabel.style.display = "none";
+                
+                idInputSerial.checked = true;
+                
+                idSNDlgBlock.style.top = "100";
+            }
+            else
+            {
+                //no serial ...default to -- I don't have a serial number
+                idNoInputSerial.checked = true;
+                g_ICA.SetProperty("InputSN", "idNoInputSerial");
+                SetupUI();
+            }
+            
+        } //function OnBodyLoadInstall()
+ 
+    </script>
+    <style type="text/css">
+    
+        a
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: default;
+        }
+        
+        a:hover
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+        
+        a:active
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+        
+        a:visited
+        {
+            color: white;
+            text-decoration: underline;
+            cursor: auto;
+        }
+
+
+    </style>
+    
+</head>
+<body onload="OnBodyLoad()">
+ 
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+    
+    <!-- page content panel -->
+    <div id="idPanel">
+ 
+        <div class="DlgHeader" >
+           Ange dina uppgifter.
+        </div>
+    
+        <div class="DlgBlock" style="top: 50px;">
+            <label class="Header" >Användarnamn:</label><br/> 
+            <input size="30 " maxlength="255" type="text" ID="idTextbox0" NAME="USERNAME" accesskey="U" />
+        </div>
+    
+        <div class="DlgBlock" style="top: 130px;" id="idSNDlgBlock">
+            
+            <div>
+                <input type="radio" name="InputSN" id="idInputSerial" value="idInputSerial" accesskey="H" onclick="SetupUI()" />
+                <label id="idInputSerialLabel" for="idInputSerial">
+                    <span class="Header" >Jag <u>h</u>ar ett serienummer eller en prenumerationskod</span><br /> 
+                    <span class="Desc" >Välj det här alternativet om du har köpt produkten eller en produktprenumeration, eller om du har ett serienummer för utvärdering från en partner.</span>
+                </label>
+                
+
+            </div>
+            
+            <div>
+                <label id="idSNLabel" >Serienummer:</label><br/> 
+                <input size="70" maxlength="45" type="text" ID="idSNInput" NAME="SERIALNUMBER" style="TEXT-TRANSFORM: uppercase; ime-mode:disabled;" accesskey="J" />
+            </div>
+          
+            <br /><br />
+            
+            <div>
+                <input type="radio" name="InputSN" id="idNoInputSerial" value="idNoInputSerial" accesskey="T" onclick="SetupUI()" />
+                <label id="idNoInputSerialLabel" for="idNoInputSerial">
+                    <span class="Header"><u>J</u>ag har inte ett serienummer och vill <u>t</u>esta produkten.</span><br /> 
+                    <span class="Desc">Välj det här alternativet för att testa den kompletta produkten under en begränsad tid. 
+                    När testperioden tar slut kommer endast en begränsad uppsättning funktioner att finnas tillgängliga.</span>
+                </label>
+            </div>
+            
+            
+        </div>
+        <div class="DlgBlock" id="idUpgrade" style="top: 160px; ">
+            <div class="DlgHeader" >
+                Bekräfta uppgraderingen.
+            </div>
+            <div class="DlgBlock" id="idUpgradeText" style="top: 50px;" >
+                Du försöker installera en uppgraderad version av CorelDRAW Graphics Suite X6.1, 
+		men installationen hittar inte en lämplig installation av CorelDRAW Graphics Suite. 
+                <br/><br/>
+		För att fortsätta uppgraderingen behöver du ange ditt serienummer för CorelDRAW Graphics Suite X4 eller X5.
+            </div>
+            <div class="DlgBlock" style="top: 140px;" >
+                <input size="70" maxlength="45" type="text" ID="idUpgradeSNInput" NAME="UPGRADEABLE_SERIALNUMBER" style="TEXT-TRANSFORM: uppercase; ime-mode:disabled;" accesskey="S" />
+            </div>
+            <div class="DlgBlock" style="top: 180px;" >
+                Om du inte hittar ditt tidigare serienummer kan du leta på <a href="http://www.corel.com/account" target="_blank"> ditt Corel-konto</a>. 
+		Om du behöver hjälp med installationen,</br> besök <a href="http://www.corel.com/installcenter" target="_blank">Corel Install Center</a>.
+
+            </div>
+            
+        </div>
+    
+    </div> <!-- div id="idTabPanel" END -->
+ 
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    <button type="button" onmouseover="HighLightButton('idBack');" onmouseout="UnHighLightButton('idBack');" onclick="window.location='License.htm';" ID="idBack" accesskey="T"><u>T</u>illbaka</button>
+                </td>
+                <td width="120px" align="left">
+
+                    <button type="submit" id="idValidate" onmouseover="HighLightButton('idValidate');" onmouseout="UnHighLightButton('idValidate');" onclick="ValidateSN()" style="display: none;" accesskey="N"><u>N</u>ästa</button> 
+                    <button type="submit" id="idValidateUpgrade" onmouseover="HighLightButton('idValidateUpgrade');" onmouseout="UnHighLightButton('idValidateUpgrade');" onclick="ValidateUpgradeSN()" style="display: none;" accesskey="N"><u>N</u>ästa</button>
+                    
+                </td>
+                <td width="120px" align="right">
+                    <button type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" ICA:Function="ICACancelSetup" ID="idCancel" accesskey="A"><u>A</u>vbryt</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+ 
+</body>
+</html>
+

@@ -1,0 +1,129 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+	<head>
+		<meta name="vs_showGrid" content="True" />
+		<title>Setup Wizard</title>
+		<LINK href="../../_XX/Required/Style.css" type="text/css" rel="STYLESHEET" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1" />
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+		<meta name="ICADlg" 
+		      content="text/html" 
+		      id="ICADlg" 
+		      ICA:DlgHW="550,480" 
+		      ICA:DlgTitle="Setup.exe /? - command line help" 
+		      ICA:PromptForCancel="no" />
+		
+		<style type="text/css">          	    .HelpTable 		    { 		        border-top-style: none; 	            border-right-style: none; 	            border-left-style: none; 	            border-bottom-style: none; 		    } 		                 .HelpItem             { 	            vertical-align: top; 	            font-size: 14px; 	            font-family: 'Segoe UI' , Tahoma; 	            border-bottom: gray 1px solid; 	            margin-top: 10px; 	            margin-bottom: 10px; 	            padding-top: 5; 	            padding-bottom: 5;             } 		</style>
+		
+	</head>
+	
+	<body>
+	
+	<div id="idContent"
+	     class="Panel"
+	     style="overflow: auto;
+	            padding: 5 5 5 5;
+	            border: double 3px silver;
+	            background-color: white;
+	            width: 450px;
+	            height: 440px; 
+	            text-align: left;">
+
+
+        <table id="idContentTable" cellspacing="0">
+        
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    Det här är en snabbreferens för de vanliga kommandoraderna som används med Setup.exe.<br /><br /> Setup.exe /Alternativ &lt;Nödvändig parameter&gt; [Valfri parameter] <br /><br /> <u>Installera alternativ:</u>
+                </td>
+            </tr>
+                        
+            <tr> <!-- /a admin -->
+                <td class="HelpItem" style="width: 55px;">/a</td>
+                <td class="HelpItem">
+                    Signalerar att du vill skapa en serveravbildning.  Administrativ installation – Installerar en produkt på nätverket <br /><br /> Setup.exe /a
+                </td>
+            </tr>
+            
+            <tr> <!-- /x uninstall -->
+                <td class="HelpItem" style="width: 55px;">/x <br /> /avinstallera</td>
+                <td class="HelpItem">
+                    Signalerar att du vill avinstallera programvaran.  Administrativ installation – Installerar en produkt på nätverket <br /><br /> Setup.exe /x
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Visningsalternativ:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/q[n|b|r|f]</td>
+                <td class="HelpItem">
+                    Ställer in omfattningen till vilken installationens användargränssnitt visas. <br /> n – Inget användargränssnitt <br /> b – Enkelt användargränssnitt <br /> r – Reducerat användargränssnitt <br /> f – Fullständigt användargränssnitt (standard)<br /><br /> Setup.exe /q
+        		</td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/tyst</td>
+                <td class="HelpItem">
+                    Tyst läge, ingen användaråtgärd. Samma som /qn
+        		</td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/passiv</td>
+                <td class="HelpItem">
+                    Oövervakat läge – endast förloppsindikator. Samma som /qb
+        		</td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Inloggningsalternativ:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /l log -->
+                <td class="HelpItem" style="width: 55px;">/l[i|w|e|a|r|u|c|m|o|p|v|x|*]</td>
+                <td class="HelpItem">
+                    Loggar allmän information om installationen till en loggfil. Om du inte specificerar sökväg eller filnamn skapas loggfilen i den nuvarande användarens tillfälliga mapp. <br /><br /> i – Statusmeddelanden <br /> w – Varningar som inte är allvarliga <br /> e – Alla felmeddelanden <br /> a – Start av åtgärder <br /> r – Åtgärdsspecifika poster <br /> u – Användarförfrågningar <br /> c – Inledande användargränssnittsparametrar <br /> m – Information om otillräckligt minne eller allvarliga fel vid avslut <br /> o – Meddelanden om otillräckligt diskutrymme <br /> p – Terminalegenskaper <br /> v – Utförliga utdata <br /> x – Extra felsökningsinformation  <br /> * – Logga all information, förutom alternativen v och x <br /><br /> Standard är /lvoicewarmup<br /><br /> Setup.exe /l"C:\Install.log"
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Repareringsalternativ:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /a admin -->
+                <td class="HelpItem" style="width: 55px;">/f[p|e|c|m|s|o|d|a|u]</td>
+                <td class="HelpItem">
+                Reparerar en produkt.<br /> p – endast om filen saknas<br /> o – om filen saknas eller en äldre version är installerad (standard)<br /> e – om fil saknas eller en likadan eller ändre version är installerad<br /> d – om filen saknas eller en annan version är installerad<br /> c – om filen saknas eller kontrollsumman inte matchar det beräknade värdet <br /> a – tvingar alla filer att ominstalleras<br /> u – alla nödvändiga användarspecifika registerposter (standard)<br /> m – alla nödvändiga datorspecifika registerposter (standard)<br /> s – alla befintliga genvägar (standard)<br /> <br /><br /> Standard är /foums<br /><br /> Setup.exe /f
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Ange offentliga egenskaper:</u><br /><br /> [PROPERTY=egenskapsvärde]
+                </td>
+            </tr>
+        
+        </table> <!-- table id="idContentTable" -->
+
+    </div> <!-- id="idContent" -->
+
+	<div class="DlgBlock"
+	     style="text-align: right;
+	            width: 450px;
+	            top: 470px;">
+	            
+	    <button onclick="window.external.EndModalLoop(0);" ID="idOk" accesskey="O"><u>O</u>K</button>
+	    
+    </div>
+		
+	</body>
+</html>

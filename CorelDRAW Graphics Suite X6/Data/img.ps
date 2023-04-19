@@ -1,0 +1,141 @@
+%----------------------------------------------------------------------------
+% Raster images support
+/set_image_clipping{concat 3 index 3 index m 3 index 1 index l 2 copy l 1 index
+3 index l 3 index 3 index l clip pop pop pop pop}bd/set_image_parameters{/$frg
+xd/$bkg xd/$ury xd/$urx xd/$lly xd/$llx xd/$ncl xd/$bts xd/$hei xd/$wid xd}bd
+/output_image{/@cc xd @sm @gs set_image_clipping set_image_parameters
+SeparationMode/OnHost eq EpsFile and{separate_output_image}{
+output_composite_image}ifelse @gr $ctm setmatrix}bd/output_composite_image{
+DocPsLevel 3 eq MaskedImage true eq and{output_masked_image}{$bts 1 gt
+DocPsLevel 2 eq DocPsLevel 3 eq or and{DevicenImage{output_devicen_image}{
+output_color_image}ifelse}{$bts 1 eq{output_monochrome_image}{
+output_color_image_level1}ifelse}ifelse}ifelse}bd/separate_output_image{@gs
+$bts 1 gt{separate_output_color_image}{separate_output_monochrome_image}ifelse
+@gr not{currentoverprint not{1.0 SetGry wfill}if}if @np}bd/set_decode_filter{
+ImageCompression/JPEG eq{/DCTDecode filter}{ImageCompression/RLE eq{
+/RunLengthDecode filter}{ImageCompression/LZW eq{/LZWDecode filter}if}ifelse}
+ifelse}bd/create_datasource{currentfile DevicenImage not get_ps_level 2 gt or{
+/ASCII85Decode filter}if set_decode_filter}bd/set_image_strip_parameters{
+/stripRows xd/numPlanes xd/stripBuffer $wid $bts mul $ncl mul stripRows mul 8
+div ceiling cvi dup 65535 gt{pop $ncl $bts mul}if string def DevicenImage{
+/readstrip{DataSource stripBuffer readhexstring pop}bd}{/readstrip{DataSource
+stripBuffer readstring pop}bd}ifelse/stripHeight $lly $ury sub stripRows mul
+$hei div def/stripOutBuffer $wid stripRows mul numPlanes mul 65535 min string
+def/strip_img_dict 8 dict def strip_img_dict begin/ImageType 1 def/Width $wid
+def/Height stripRows def/BitsPerComponent $bts def/Decode[numPlanes{0 1}
+repeat]def/ImageMatrix[$wid 0 0 stripRows neg 0 $hei 0 gt{stripRows}{0}ifelse]
+def/DataSource stripOutBuffer def end}bd/separate_output_color_image{
+/plateContent false def $ncl 1 eq{SeparationPlateName/Black eq{
+output_color_image/plateContent true def}if}{@np/DataSource create_datasource
+def SeparateInColor{DocCmykSpace setcolorspace/numPlanes 4 def}{
+DocGrayScaleSpace setcolorspace/numPlanes 1 def}ifelse/stripRows 65535 $wid
+$bts mul $ncl numPlanes max mul 8 div div floor cvi 1 max def numPlanes
+stripRows set_image_strip_parameters/maxStripIndex $hei stripRows div ceiling
+cvi 1 sub def 0 1 maxStripIndex{/stripIndex exch def/$t_ury $ury stripHeight
+stripIndex mul add ceiling cvi def/$t_lly $t_ury stripHeight add ceiling cvi
+def stripIndex maxStripIndex eq{numPlanes $hei maxStripIndex stripRows mul sub
+set_image_strip_parameters/$t_lly $t_ury stripHeight add ceiling cvi def}if
+readstrip pop @gs 0 1 $wid stripRows mul 1 sub{/pixelIndex xd stripBuffer
+pixelIndex $ncl mul $ncl getinterval{255 div}forall DevicenImage{
+ImageDevicenSpace create_devicen_color}{$ncl 3 eq{create_rgb_color}{
+create_cmyk_color}ifelse}ifelse/separate_color dexec{/plateContent true def
+begin color aload pop end}{pop numPlanes[numPlanes 1 eq{1}{0}ifelse]cvx repeat
+}ifelse numPlanes array astore/pixelSepIndex pixelIndex numPlanes mul def
+/posColorant 0 def{stripOutBuffer pixelSepIndex posColorant add 3 -1 roll 255
+mul cvi put/posColorant posColorant 1 add def}forall}for $llx $t_lly Tl $urx
+$llx sub $t_ury $t_lly sub scale strip_img_dict image @gr}for $SDF{$dsf $dsa
+$dsp @ss}if}ifelse plateContent}bd/separate_output_monochrome_image{
+SeparationPlateName/Black eq{output_monochrome_image true}{false}ifelse}bd
+/output_monochrome_image{$frg 1 eq{OutlineOverprint safe_setoverprint
+ImageForegroundColor/separate_set_color dexec{1}{0}ifelse/$frg xd}{/$frg false
+def}ifelse $bkg 1 eq{@gs $ctm setmatrix F @gr}if @np/$dat $wid $bts mul 8 div
+ceiling cvi 65535 min string def $bkg $frg add 1 ge{$SDF{$SCF $SCA $SCP @ss}if
+$llx $lly Tl $urx $llx sub $ury $lly sub scale $bkg 1 eq{FillColor
+/separate_set_color dexec pop}if $wid $hei abs $bts 1 eq{$bkg 1 ge}{$bts 1 ge}
+ifelse[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse]/tcc load $bts 1 eq
+{imagemask}{image}ifelse $SDF{$dsf $dsa $dsp @ss}if}{$hei abs{tcc pop}repeat}
+ifelse}bd/output_color_image_level1{@np $ngx $llx $lly Tl $urx $llx sub $ury
+$lly sub scale $wid $hei abs $bts[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse
+]/$dat $wid $bts mul $ncl mul 8 div ceiling cvi 65535 min string def $msimage
+false eq $ncl 1 eq or{/@cc load false $ncl ColorImage}{$wid $bts mul 8 div
+ceiling cvi $ncl 3 eq{dup dup/$dat1 exch string def/$dat2 exch string def
+/$dat3 exch string def/@cc1 load/@cc2 load/@cc3 load}{dup dup dup/$dat1 exch
+string def/$dat2 exch string def/$dat3 exch string def/$dat4 exch string def
+/@cc1 load/@cc2 load/@cc3 load/@cc4 load}ifelse true $ncl ColorImage}ifelse
+$SDF{$dsf $dsa $dsp @ss}if}bd/@cc1{currentfile $dat1 readhexstring pop}bd/@cc2
+{currentfile $dat2 readhexstring pop}bd/@cc3{currentfile $dat3 readhexstring
+pop}bd/@cc4{currentfile $dat4 readhexstring pop}bd/$msimage false def
+/ImageCompression/None def/MaskedImage false def/DevicenImage false def
+/output_color_image{@np $ncl 1 eq{DocGrayScaleSpace}{$ncl 3 eq{DocRgbSpace}
+{DocCmykSpace}ifelse}ifelse setcolorspace/$dat $wid $bts mul $ncl mul 8 div
+ceiling cvi 65535 min string def $ngx $llx $lly Tl $urx $llx sub $ury $lly sub
+scale 8 dict begin/ImageType 1 def/Width $wid def/Height $hei abs def
+/BitsPerComponent $bts def/Decode[$ncl{0 1}repeat]def/ImageMatrix[$wid 0 0 $hei
+neg 0 $hei 0 gt{$hei}{0}ifelse]def/DataSource create_datasource def currentdict
+end image $SDF{$dsf $dsa $dsp @ss}if}bd/simulate_devicen_image{@np $ngx
+/colorantNames ImageDevicenSpace 1 get def/altColorSpace ImageDevicenSpace 2
+get def/tintProc ImageDevicenSpace 3 get def/DataSource create_datasource def
+/stripRows 65535 $wid $bts mul $ncl mul 8 div div floor cvi 1 max def 1
+stripRows set_image_strip_parameters/maxStripIndex $hei stripRows div ceiling
+cvi 1 sub def 0 1 maxStripIndex{/stripIndex exch def/$t_ury $ury stripHeight
+stripIndex mul add ceiling cvi def/$t_lly $t_ury stripHeight add ceiling cvi
+def stripIndex maxStripIndex eq{1 $hei maxStripIndex stripRows mul sub
+set_image_strip_parameters/$t_lly $t_ury stripHeight add ceiling cvi def}if
+readstrip pop @gs $llx $t_lly Tl $urx $llx sub $t_ury $t_lly sub scale 0 1 $ncl
+1 sub{@gs/inkIndex exch def 0 1 stripOutBuffer length 1 sub{dup $ncl mul
+inkIndex add stripBuffer exch get stripOutBuffer 3 1 roll put}for[/Separation
+colorantNames inkIndex get altColorSpace{$ncl 1 sub{0}repeat $ncl inkIndex roll
+tintProc}]setcolorspace inkIndex 0 gt{true setoverprint}if strip_img_dict image
+@gr}for @gr}for $SDF{$dsf $dsa $dsp @ss}if}bd/output_devicen_image_alt{@np $ngx
+/colorantNames ImageDevicenSpace 1 get def/altColorSpace ImageDevicenSpace 2
+get def/tintProc ImageDevicenSpace 3 get def altColorSpace DocCmykSpace eq{
+/numAltChannels 4 def}{altColorSpace DocRgbSpace eq{/numAltChannels 3 def}{
+/numAltChannels 1 def}ifelse}ifelse/DataSource create_datasource def
+altColorSpace setcolorspace/stripRows 65535 $wid $bts mul $ncl numAltChannels
+max mul 8 div div floor cvi 1 max def numAltChannels stripRows
+set_image_strip_parameters/maxStripIndex $hei stripRows div ceiling cvi 1 sub
+def 0 1 maxStripIndex{/stripIndex exch def/$t_ury $ury stripHeight stripIndex
+mul add ceiling cvi def/$t_lly $t_ury stripHeight add ceiling cvi def
+stripIndex maxStripIndex eq{numAltChannels $hei maxStripIndex stripRows mul sub
+set_image_strip_parameters/$t_lly $t_ury stripHeight add ceiling cvi def}if
+readstrip pop @gs 0 1 stripBuffer length $ncl div cvi 1 sub{/pixelIndex xd
+stripBuffer pixelIndex $ncl mul $ncl getinterval{255 div}forall tintProc exec
+numAltChannels array astore/pixelAltIndex pixelIndex numAltChannels mul def
+/posColorant 0 def{stripOutBuffer pixelAltIndex posColorant add 3 -1 roll 255
+mul cvi put/posColorant posColorant 1 add def}forall}for $llx $t_lly Tl $urx
+$llx sub $t_ury $t_lly sub scale strip_img_dict image @gr}for $SDF{$dsf $dsa
+$dsp @ss}if}bd/output_devicen_image_native{@np $ngx ImageDevicenSpace
+setcolorspace/scanline $wid $bts mul $ncl mul 8 div ceiling cvi 65535 min
+string def/readscanline{currentfile scanline readhexstring pop}bind def $llx
+$lly Tl $urx $llx sub $ury $lly sub scale 8 dict begin/ImageType 1 def/Width
+$wid def/Height $hei abs def/BitsPerComponent $bts def/Decode[$ncl{0 1}repeat]
+def/ImageMatrix[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse]def/DataSource{
+readscanline}def currentdict end image $SDF{$dsf $dsa $dsp @ss}if}bd
+/output_devicen_image{Level3{output_devicen_image_native}{get_simulate_devicen
+{simulate_devicen_image}{output_devicen_image_alt}ifelse}ifelse}bd
+/output_masked_image{/$dat $wid $bts mul $ncl mul 8 div ceiling cvi 65535 min
+string def $ngx DevicenImage{ImageDevicenSpace}{$ncl 1 eq{DocGrayScaleSpace}{
+$ncl 3 eq{DocRgbSpace}{DocCmykSpace}ifelse}ifelse}ifelse setcolorspace $llx
+$lly Tl $urx $llx sub $ury $lly sub scale/ImageDataDict 8 dict def
+ImageDataDict begin/ImageType 1 def/Width $wid def/Height $hei abs def
+/BitsPerComponent $bts def/Decode[$ncl{0 1}repeat]def/ImageMatrix[$wid 0 0 $hei
+neg 0 $hei 0 gt{$hei}{0}ifelse]def/DataSource create_datasource def end
+/MaskedImageDict 7 dict def MaskedImageDict begin/ImageType 3 def
+/InterleaveType 3 def/MaskDict ImageMaskDict def/DataDict ImageDataDict def end
+MaskedImageDict image $SDF{$dsf $dsa $dsp @ss}if}bd/set_image_mask{/$mbts xd
+/$mhei xd/$mwid xd/ImageMaskDict 8 dict def ImageMaskDict begin/ImageType 1 def
+/Width $mwid def/Height $mhei abs def/BitsPerComponent $mbts def/DataSource
+maskstream def/ImageMatrix[$mwid 0 0 $mhei neg 0 $mhei 0 gt{$mhei}{0}ifelse]
+def/Decode[1 0]def end}bd/@daq{dup type/arraytype eq{aload pop}if}bd
+/skip_image_body{8 rp/$ury xd/$urx xd/$lly xd/$llx xd/$ncl xd/$bts xd/$hei xd
+/$wid xd DevicenImage not ImageCompression/JPEG eq or ImageCompression/RLE eq
+or ImageCompression/LZW eq or{create_datasource flushfile}{/scanline $wid $bts
+mul $ncl mul 8 div ceiling cvi dup 65535 gt{pop $bts $ncl mul}if string def
+/upperBound $wid $hei mul $bts mul $ncl mul scanline length div cvi 1 sub def 0
+1 upperBound{pop currentfile scanline readhexstring pop pop}for}ifelse}bd
+/disable_raster_output{deflevel 0 eq{@rs}if/output_image load
+/output_image_original exch def/output_image/skip_image_body load def
+globaldict begin/bSkipDeviceNImage true def end deflevel 0 eq{@sv}if}def
+/enable_raster_output{deflevel 0 eq{@rs}if/bSkipDeviceNImage where{
+/bSkipDeviceNImage undef/output_image/output_image_original load def}if
+deflevel 0 eq{@sv}if}def

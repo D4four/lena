@@ -1,0 +1,237 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:DisableBackspace="1"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"
+          ICA:ProgressState="TBPF_INDETERMINATE"
+          ICA:ProgressBarTBLR="528,540,32,765"
+          ICA:Modal="0"
+    />
+        
+    <script type="text/jscript" language="jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script type="text/jscript" language="jscript">
+    
+    var g_iInterval = 10000;    //milliseconds
+    
+    var g_strImg    = [ "Setup_Billboard_01.png", 
+                        "Setup_Billboard_02.png", 
+                        "Setup_Billboard_03.png",
+                        "Setup_Billboard_04.png", 
+                        "Setup_Billboard_05.png",
+                        "Setup_Billboard_06.png", 
+                        "Setup_Billboard_07.png",
+                        "Setup_Billboard_08.png", 
+                        "Setup_Billboard_09.png",
+                        "Setup_Billboard_10.png", 
+                        "Setup_Billboard_11.png",                         
+                        "Setup_Billboard_12.png",
+                        "Setup_Billboard_13.png", 
+                        "Setup_Billboard_14.png", 
+                        "Setup_Billboard_15.png", 
+                        "Setup_Billboard_16.png", 
+                        "Setup_Billboard_17.png", 
+                        "Setup_Billboard_18.png", 
+                        "Setup_Billboard_19.png", 
+                        "Setup_Billboard_20.png", 
+                        "Setup_Billboard_21.png", 
+                        "Setup_Billboard_22.png", 
+                        "Setup_Billboard_23.png", 
+                        "Setup_Billboard_24.png", 
+                        "Setup_Billboard_25.png", 
+                        "Setup_Billboard_26.png", 
+                        "Setup_Billboard_27.png", 
+                        "Setup_Billboard_28.png", 
+                        "Setup_Billboard_29.png", 
+                        "Setup_Billboard_30.png",
+                        "Setup_Billboard_31.png",
+                        "Setup_Billboard_32.png",
+                        "Setup_Billboard_33.png",
+                        "Setup_Billboard_34.png",
+                        "Setup_Billboard_35.png",
+                        "Setup_Billboard_36.png",
+                        "Setup_Billboard_37.png",
+                        "Setup_Billboard_38.png",
+                        "Setup_Billboard_39.png",
+                        "Setup_Billboard_40.png",
+                        "Setup_Billboard_41.png",
+                        "Setup_Billboard_42.png",
+                        "Setup_Billboard_43.png",
+                        "Setup_Billboard_44.png",
+                        "Setup_Billboard_45.png",
+                        "Setup_Billboard_46.png",
+                        "Setup_Billboard_47.png",
+                        "Setup_Billboard_48.png",
+                        "Setup_Billboard_49.png",
+                        "Setup_Billboard_50.png"];
+                      
+    var g_strDesc   = [ g_Setup.GetProperty("Setup_Billboard_1.png"), 
+                        g_Setup.GetProperty("Setup_Billboard_2.png"), 
+                        g_Setup.GetProperty("Setup_Billboard_3.png"),
+                        g_Setup.GetProperty("Setup_Billboard_4.png"),
+                        g_Setup.GetProperty("Setup_Billboard_5.png"),
+                        g_Setup.GetProperty("Setup_Billboard_6.png"),
+                        g_Setup.GetProperty("Setup_Billboard_7.png"),
+                        g_Setup.GetProperty("Setup_Billboard_8.png"),
+                        g_Setup.GetProperty("Setup_Billboard_9.png"),
+                        g_Setup.GetProperty("Setup_Billboard_10.png"),
+                        g_Setup.GetProperty("Setup_Billboard_11.png"),
+                        g_Setup.GetProperty("Setup_Billboard_12.png"),
+                        g_Setup.GetProperty("Setup_Billboard_13.png"),
+                        g_Setup.GetProperty("Setup_Billboard_14.png"),
+                        g_Setup.GetProperty("Setup_Billboard_15.png"),
+                        g_Setup.GetProperty("Setup_Billboard_16.png"),
+                        g_Setup.GetProperty("Setup_Billboard_17.png"),
+                        g_Setup.GetProperty("Setup_Billboard_18.png"),
+                        g_Setup.GetProperty("Setup_Billboard_19.png"),
+                        g_Setup.GetProperty("Setup_Billboard_20.png"),
+                        g_Setup.GetProperty("Setup_Billboard_21.png"),
+                        g_Setup.GetProperty("Setup_Billboard_22.png"),
+                        g_Setup.GetProperty("Setup_Billboard_23.png"),
+                        g_Setup.GetProperty("Setup_Billboard_24.png"),
+                        g_Setup.GetProperty("Setup_Billboard_25.png"),
+                        g_Setup.GetProperty("Setup_Billboard_26.png"),
+                        g_Setup.GetProperty("Setup_Billboard_27.png"),
+                        g_Setup.GetProperty("Setup_Billboard_28.png"),
+                        g_Setup.GetProperty("Setup_Billboard_29.png"),
+                        g_Setup.GetProperty("Setup_Billboard_30.png"),
+                        g_Setup.GetProperty("Setup_Billboard_31.png"),
+                        g_Setup.GetProperty("Setup_Billboard_32.png"),
+                        g_Setup.GetProperty("Setup_Billboard_33.png"),
+                        g_Setup.GetProperty("Setup_Billboard_34.png"),
+                        g_Setup.GetProperty("Setup_Billboard_35.png"),
+                        g_Setup.GetProperty("Setup_Billboard_36.png"),
+                        g_Setup.GetProperty("Setup_Billboard_37.png"),
+                        g_Setup.GetProperty("Setup_Billboard_38.png"),
+                        g_Setup.GetProperty("Setup_Billboard_39.png"),
+                        g_Setup.GetProperty("Setup_Billboard_40.png"),
+                        g_Setup.GetProperty("Setup_Billboard_41.png"),
+                        g_Setup.GetProperty("Setup_Billboard_42.png"),
+                        g_Setup.GetProperty("Setup_Billboard_43.png"),
+                        g_Setup.GetProperty("Setup_Billboard_44.png"),
+                        g_Setup.GetProperty("Setup_Billboard_45.png"),
+                        g_Setup.GetProperty("Setup_Billboard_46.png"),
+                        g_Setup.GetProperty("Setup_Billboard_47.png"),
+                        g_Setup.GetProperty("Setup_Billboard_48.png"),
+                        g_Setup.GetProperty("Setup_Billboard_49.png"),
+                        g_Setup.GetProperty("Setup_Billboard_50.png") ];
+                      
+    var g_iCnt   = 0;
+    var g_iTimer = 0;
+    
+    var g_bApplyTransition = false;
+  
+    function OnBodyLoad()
+    {
+
+       
+        try
+        {
+            ProgressTotalText.innerHTML = g_Setup.GetProperty("Str.Initializing.Text");
+        }
+        catch (err) {}
+        
+        UpdateBillboard();
+        
+        idImg.style.display = "block";
+        g_bApplyTransition = true;
+        
+    } //function OnBodyLoad()
+    
+    
+    
+    function UpdateBillboard()
+    {
+        if (g_iCnt >= g_strImg.length)
+            g_iCnt = 0;
+            
+        if (g_iCnt < 0)
+            g_iCnt = 0;
+            
+        var strImg  = "../../_XX/Custom/Images/Gallery/" + g_strImg[g_iCnt];
+        var strText = g_strDesc[g_iCnt];
+
+        idImg.src = strImg;
+        idImgText.innerHTML = strText;
+        
+        if (g_iTimer > 0)
+        {
+            window.clearTimeout(g_iTimer);
+            g_iTimer = 0;
+        }
+        
+        g_iCnt++;   //bump to next image
+        g_iTimer = window.setTimeout(UpdateBillboard, g_iInterval);
+        
+    } //function UpdateBillboard()
+    
+    </script>
+        
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+ 
+    <!-- ------------------------------------------------------------ -->
+    <!-- TabPanel -- START -->
+    <div id="idPanel" style="top: 160px; height: 400px;">
+
+        <div style="text-align: left; border: none; height: 40px;" >
+                Odotellessasi voit katsella CorelDRAW International Design Contest -kilpailuun jätettyjä töitä.           
+        </div>
+
+        <div style="width: 100%; text-align: center;">
+        
+            
+            
+            <div id="idImageDiv" style="background-color: #292728; width: 500px; height: 282px; text-align: center; padding: 0px 0px 0px 0px; overflow: hidden; top: 200px;">
+                <img id="idImg" src="../../_XX/Custom/Images/Gallery/Setup_Billboard_01.png" alt="" style="display: none;" />
+            </div>
+            <div id="idImgText" style="border: none; width: 500px; text-align: center; font-size: 12px;">
+            </div>
+            
+        </div>
+        
+        <!-- ************************************************************ -->
+        <!-- ------------------------------------------------------------ -->
+        <!-- Progress preview -- START -->
+        <div class="DlgBlock" style="left: 7px; top: 350px; width: 735px; text-align: left; font-weight: normal; font-size: 12px; overflow: hidden; border: none;">
+            <label id="ProgressTotalText"></label>
+        </div>
+        <!-- Progress preview -- END -->
+        <!-- ------------------------------------------------------------ -->
+        <!-- ************************************************************ -->
+    
+           
+    </div> <!-- div id="idTabPanel" END -->
+    <!-- ------------------------------------------------------------ -->
+
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    <button accesskey="P" type="button" onmouseover="HighLightButton('idCancel');" onmouseout="UnHighLightButton('idCancel');" ICA:Function="ICACancelSetup" ID="idCancel"><u>P</u>eruuta</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgWizardBtns"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

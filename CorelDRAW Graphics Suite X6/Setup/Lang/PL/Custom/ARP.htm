@@ -1,0 +1,224 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+<head>
+    <title>Setup Wizard</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="MSThemeCompatible" content="Yes"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="text/html" name="ICADlg" id="ICADlg" 
+          ICA:DlgHW="610,800"  
+          ICA:DlgFrame="0"
+          ICA:TransparencyColorRBG="51,52,53"
+          ICA:ShadowGraphic="Images\Shadow.png"
+          ICA:ShadowGraphicOffsetLeft="0"
+          ICA:ShadowGraphicOffsetTop="0"
+          ICA:ShadowGraphicTransparency="255"           
+          ICA:ProgressState="TBPF_NOPROGRESS"
+    />
+
+    <script language="jscript" type="text/jscript" src="../../_XX/Custom/js/Setup.js"></script>
+    <script language="jscript" type="text/jscript">
+        
+        var Setup = window.external;
+        
+        function OnBodyLoad()
+        {
+
+            try
+            {
+                UpdatePage(Setup.GetProperty("ICA.Maintenance.Mode"));
+
+            }
+            catch (err) {}          
+            if ("1" == Setup.GetProperty("Extras.SA"))
+	        {
+		        idRemoveUserFilesLbl.style.display = "none";
+		        idRemoveUserFilesChk.style.display = "none";
+	        }	                    
+        }
+        
+        function UpdatePage(str)
+        {
+            var strCompare = str.toLowerCase();
+      
+            idNext.style.display = "none";
+            idRepair.style.display = "none";
+            idRemove.style.display = "none";
+       
+            if ("modify" == strCompare)
+            {
+                idNext.style.display = "block";
+                Setup.SetProperty("REMOVEUSERFILES", "0");
+            }
+
+            else if ("repair" == strCompare)
+            {
+                idRepair.style.display = "block";
+                Setup.SetProperty("REMOVEUSERFILES", "0");
+            }
+                
+            else if ("remove" == strCompare)
+            {
+                idRemove.style.display = "block";
+            }
+            
+        }
+        
+        function ClickRemoveUserFiles()
+        {
+            Setup.SetProperty("ICA.Maintenance.Mode", "Remove");
+            
+            idNext.style.display = "none";
+            idRepair.style.display = "none";
+            idRemove.style.display = "block";
+
+        }
+        
+        function OnNext()
+        {
+            try
+            {
+                if ("1" == Setup.GetProperty("Extras.SA"))
+	            {
+	                window.location = "Extras.htm";
+                }
+                else
+                {
+                    window.location = "Install.htm";
+                }
+            }
+            catch(err) {}
+        }
+        
+    </script>
+
+	<style type="text/css">
+	.style1 {
+		width: 740px;
+		left: 0px;
+		position: absolute;
+		background-color: Transparent;
+		z-index: 1;
+		margin-bottom: 0px;
+	}
+	</style>
+
+</head>
+
+<body onload="OnBodyLoad();">
+
+    <!-- background -->
+    <div id="idBackGrd"></div>
+    
+    <img alt="" class="CloseBtn" src="../../_XX/Custom/Images/close.gif" ICA:Function="ICACancelSetup" />
+    
+    <!-- page content panel -->
+    <div id="idPanel">
+    
+        <div class="DlgHeader" style="top: 20px;">
+            Trwa instalacja pakietu CorelDRAW Graphics Suite X6.1.
+        </div>
+    
+        <div style="height: 55px;">
+        </div>
+    
+        <div style="height: 55px;" >
+            Wybierz jedną z poniższych opcji, aby zmienić ten program lub usunąć go z komputera.
+        </div>
+
+    <!-- ************* Modify ************* -->
+    <div class="DlgBlock" style="height: 70px; position: relative;" onmouseover="HighLightDesc('idModifyDesc');" onmouseout="UnHighLightDesc('idModifyDesc');">
+        
+        <div class="DlgBlock" style="height: 40px; width: 40px;">
+            <img src="../../_XX/Custom/Images/Modify.gif" alt="" style="vertical-align:middle;" />
+        </div>
+        
+        <div class="DlgBlock" style="left: 50px; top: 2px; width: 660px;">
+            <input id="idRadioModify" type="radio" name="ICA.Maintenance.Mode" value="Modify" onclick="UpdatePage('Modify');" />
+        </div>
+        
+        <div class="DlgBlock" style="left: 80px; top: 2px; width: 660px;">
+            <label for="idRadioModify" >
+		<span class="Header" >Zmodyfikuj</span><br /> 
+		<span id="idModifyDesc" class="Desc" >Zmiana funkcji programu przeznaczonych do zainstalowania. Ta opcja powoduje wyświetlenie okna dialogowego Wybór niestandardowy, w którym można zmieniać sposób instalacji funkcji.</span>
+            </label>
+        </div>
+        
+    </div>
+        
+        
+    <!-- ************* Repair ************* -->
+    <div class="DlgBlock" style="height: 65px; position: relative;" onmouseover="HighLightDesc('idRepairDesc');" onmouseout="UnHighLightDesc('idRepairDesc');">
+    
+        <div class="DlgBlock" style="height: 40px; width: 40px;">
+            <img src="../../_XX/Custom/Images/Repair.gif" alt="" style="vertical-align:middle;" />
+        </div>
+        
+        <div class="style1" style="left: 50px; top: 2px; width: 660px;">
+            <input id="idRadioRepair" type="radio" name="ICA.Maintenance.Mode" value="Repair" onclick="UpdatePage('Repair');" />
+        </div>
+        
+        <div class="DlgBlock" style="left: 80px; top: 2px; width: 660px;">
+            <label for="idRadioRepair" >
+		<span class="Header" >Napraw</span><br /> 
+		<span id="idRepairDesc"class="Desc" >Naprawa błędów instalacji programu. Ta opcja umożliwia naprawienie uszkodzonych lub brakujących plików, skrótów i wpisów do rejestru.</span>
+            </label>
+        </div>
+        
+    </div>
+        
+        
+    <!-- ************* Remove ************* -->
+    <div class="DlgBlock" style="height: 70px; position: relative;">
+    
+        <div class="DlgBlock" style="height: 40px; width: 40px;">
+            <img src="../../_XX/Custom/Images/Remove.gif" alt="" style="vertical-align:middle;" />
+        </div>
+        
+        <div class="DlgBlock" style="left: 50px; top: 2px; width: 660px;" onmouseover="HighLightDesc('idRemoveDesc');" onmouseout="UnHighLightDesc('idRemoveDesc');">
+            <input id="idRadioRemove" type="radio" name="ICA.Maintenance.Mode" value="Remove" onclick="UpdatePage('Remove');" />
+        </div>
+        
+        <div class="DlgBlock" style="left: 80px; top: 2px; width: 660px;" onmouseover="HighLightDesc('idRemoveDesc');" onmouseout="UnHighLightDesc('idRemoveDesc');">
+            <label for="idRadioRemove" >
+            <span class="Header" >Usuń</span><br /> 
+            <span id="idRemoveDesc" class="Desc" >Usunięcie pakietu CorelDRAW Graphics Suite X6.1z komputera.</span>
+            </label>
+        </div>
+        
+        <div class="DlgBlock" style="left: 100px; top: 50px; width: 100px;" id="idRemoveUserFilesLbl" onmouseover="HighLightDesc('idUserFilesDesc');" onmouseout="UnHighLightDesc('idUserFilesDesc');">
+            <input id="chkUserFiles" type="checkbox" name="REMOVEUSERFILES" value="1" onclick="ClickRemoveUserFiles();" />
+        </div>
+        <div class="DlgBlock" style="left: 120px; top: 50px; width: 600px;" id="idRemoveUserFilesChk" onmouseover="HighLightDesc('idUserFilesDesc');" onmouseout="UnHighLightDesc('idUserFilesDesc');" >
+            <label for="chkUserFiles">
+              <span class="Header" >Usuń pliki użytkownika</span><br /> 
+              <span id="idUserFilesDesc" class="Desc" >Pliki użytkownika, takie jak przestrzenie robocze, zawierają ustawienia osobiste aplikacji pakietu CorelDRAW Graphics Suite X6.1.</span>
+            </label>
+        </div>
+        
+    </div>
+    
+    </div> <!-- div id="idTabPanel" END -->
+        
+    <!-- ------------------------------------------------------------ -->
+    <!-- <div> Wizard Buttons (at bottom of dialog) - START -->
+    <div class="DlgWizardBtns">
+        <table border="0" width="100%">
+            <tr>
+                <td align="right">
+                    
+                </td>
+                <td width="120px" align="left">
+                    
+                </td>
+                <td width="120px" align="right">
+                    <button type="submit" onmouseover="HighLightButton('idNext');" onmouseout="UnHighLightButton('idNext');"  onclick="OnNext();" ID="idNext" style="display: none; " accesskey="D" ><u>D</u>alej</button> 
+                    <button type="submit" onmouseover="HighLightButton('idRepair');" onmouseout="UnHighLightButton('idRepair');" ICA:Function="ICABeginRepair" ID="idRepair" style="display: none; " accesskey="N" ><u>N</u>apraw</button> 
+                    <button type="button" onmouseover="HighLightButton('idRemove');" onmouseout="UnHighLightButton('idRemove');" ICA:Function="ICABeginRemove" ID="idRemove" style="display: none; "accesskey="U" ><u>U</u>suń</button>
+                </td>
+            </tr>
+        </table>
+    </div>  <!-- <div class="DlgBlock"> Wizard Buttons (at bottom of dialog) - END -->
+
+</body>
+</html>

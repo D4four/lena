@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PageSizes>
+  <sizes>
+    <size id="0"   group="0"  name="Custom"               width="1"    height="1"   units="in"/>
+    <size id="1"   group="1"  name="3x5"                  width="3"    height="5"   units="in"/>
+    <size id="2"   group="1"  name="4x6"                  width="4"    height="6"   units="in"/>
+    <size id="3"   group="1"  name="5x7"                  width="5"    height="7"   units="in"/>
+    <size id="4"   group="1"  name="8x10"                 width="8"    height="10"  units="in"/>
+    <size id="5"   group="2"  name="640x480"              width="640"  height="480" units="px"/>
+    <size id="6"   group="2"  name="800x600"              width="800"  height="600" units="px"/>
+    <size id="7"   group="2"  name="1024x768"             width="1024" height="768" units="px"/>
+    <size id="8"   group="3"  name="Letter"               width="8.5"  height="11"  units="in"/>
+    <size id="9"   group="3"  name="Legal"                width="8.5"  height="14"  units="in"/>
+    <size id="10"  group="3"  name="Tabloid"              width="11"   height="17"  units="in"/>
+    <size id="11"  group="4"  name="A4"                   width="210"  height="297" units="mm"/>
+    <size id="12"  group="4"  name="A3"                   width="297"  height="420" units="mm"/>
+    <size id="13"  group="5"  name="100x150mm"            width="100"  height="150" units="mm"/>
+    <size id="14"  group="5"  name="130x180mm"            width="130"  height="180" units="mm"/>
+    <size id="15"  group="6"  name="Full"                 width="457"  height="560" units="mm"/>
+    <size id="16"  group="6"  name="Half"                 width="356"  height="432" units="mm"/>
+    <size id="17"  group="6"  name="Wide Quarter"         width="254"  height="368" units="mm"/>
+    <size id="18"  group="6"  name="Quarter"              width="254"  height="305" units="mm"/>
+    <size id="19"  group="6"  name="Wide 6th"             width="203"  height="305" units="mm"/>
+    <size id="20"  group="6"  name="6th"                  width="203"  height="254" units="mm"/>
+    <size id="21"  group="6"  name="8th"                  width="165"  height="216" units="mm"/>
+    <size id="22"  group="6"  name="Cabinet"              width="130"  height="180" units="mm"/>
+    <size id="23"  group="6"  name="Panorama Big (PAB)"   width="127"  height="353" units="mm"/>
+    <size id="24"  group="6"  name="Panorama Big (PAL)"   width="89"   height="254" units="mm"/>
+    <size id="25"  group="6"  name="2L Wide"              width="127"  height="216" units="mm"/>
+    <size id="26"  group="6"  name="2L"                   width="127"  height="178" units="mm"/>
+    <size id="27"  group="6"  name="High Vision (HV)"     width="89"   height="148" units="mm"/>
+    <size id="28"  group="6"  name="L"                    width="89"   height="127" units="mm"/>
+    <size id="29"  group="6"  name="2E"                   width="117"  height="164" units="mm"/>
+    <size id="30"  group="6"  name="E"                    width="82.5" height="117" units="mm"/>
+    <size id="31"  group="6"  name="Name Card"            width="89"   height="127" units="mm"/>
+    <size id="32"  group="6"  name="Post Card"            width="102"  height="148" units="mm"/>
+    <size id="33"  group="4"  name="B4 (JIS)"             width="257"  height="364" units="mm"/>
+    <size id="34"  group="4"  name="A5"                   width="148"  height="210" units="mm"/>
+    <size id="35"  group="2"  name="960x960"              width="960"  height="960" units="px"/>
+    <size id="36"  group="2"  name="728x90"               width="728"  height="90"  units="px"/>
+    <size id="37"  group="2"  name="300x250"              width="300"  height="250" units="px"/>
+    <size id="38"  group="2"  name="160x600"              width="160"  height="600" units="px"/>
+    <size id="39"  group="2"  name="120x60"               width="120"  height="60"  units="px"/>
+    <size id="40"  group="2"  name="120x90"               width="120"  height="90"  units="px"/>
+    <size id="41"  group="2"  name="120x600"              width="120"  height="600" units="px"/>
+    <size id="42"  group="2"  name="125x125"              width="125"  height="125" units="px"/>
+    <size id="43"  group="2"  name="250x250"              width="250"  height="250" units="px"/>
+    <size id="44"  group="2"  name="336x280"              width="336"  height="280" units="px"/>
+    <size id="45"  group="2"  name="468x60"               width="468"  height="60"  units="px"/>
+  </sizes>
+
+  <pageset name="imperial">
+    <order>
+      <page>0</page>  <!--Custom-->
+      <page>1</page>  <!--3x5-->
+      <page>2</page>  <!--4x6-->
+      <page>3</page>  <!--5x7-->
+      <page>4</page>  <!--8x10-->
+      <page>5</page>  <!--640x480-->
+      <page>6</page>  <!--800x600-->
+      <page>7</page>  <!--1024x768-->
+      <page>39</page> <!--120x60-->
+      <page>40</page> <!--120x90-->
+      <page>41</page> <!--120x600-->
+      <page>42</page> <!--125x125-->
+      <page>38</page> <!--160x600-->
+      <page>43</page> <!--250x250-->
+      <page>37</page> <!--300x250-->
+      <page>44</page> <!--336x280-->
+      <page>45</page> <!--468x60-->
+      <page>36</page> <!--728x90-->
+      <page>35</page> <!--960x960-->
+      <page>8</page>  <!--Letter-->
+      <page>9</page>  <!--Legal-->
+      <page>10</page> <!--Tabloid-->
+      <page>12</page> <!--A3-->
+      <page>11</page> <!--A4-->
+      <page>34</page> <!--A5-->
+      <page>13</page> <!--100x150mm-->
+      <page>14</page> <!--130x180mm-->
+    </order>
+    <default>
+      <page>3</page>  <!--5x7-->
+    </default>
+  </pageset>
+
+  <pageset name="metric">
+    <order>
+      <page>0</page>  <!--Custom-->
+      <page>13</page> <!--100x150mm-->
+      <page>14</page> <!--130x180mm-->
+      <page>12</page> <!--A3-->
+      <page>11</page> <!--A4-->
+      <page>34</page> <!--A5-->
+      <page>5</page>  <!--640x480-->
+      <page>6</page>  <!--800x600-->
+      <page>7</page>  <!--1024x768-->
+      <page>39</page> <!--120x60-->
+      <page>40</page> <!--120x90-->
+      <page>41</page> <!--120x600-->
+      <page>42</page> <!--125x125-->
+      <page>38</page> <!--160x600-->
+      <page>43</page> <!--250x250-->
+      <page>37</page> <!--300x250-->
+      <page>44</page> <!--336x280-->
+      <page>45</page> <!--468x60-->
+      <page>36</page> <!--728x90-->
+      <page>35</page> <!--960x960-->
+      <page>8</page>  <!--Letter-->
+      <page>9</page>  <!--Legal-->
+      <page>10</page> <!--Tabloid-->
+      <page>1</page>  <!--3x5-->
+      <page>2</page>  <!--4x6-->
+      <page>3</page>  <!--5x7-->
+      <page>4</page>  <!--8x10-->
+    </order>
+    <default>
+      <page>13</page>	<!--100x150mm-->
+    </default>
+  </pageset>
+
+  <pageset name="Japan">
+    <order>
+      <page>0</page>  <!--Custom-->
+      <page>28</page> <!--L-->
+      <page>26</page> <!--2L-->
+      <page>25</page> <!--2LWide-->
+      <page>15</page> <!--Full-->
+      <page>16</page> <!--Half-->
+      <page>17</page> <!--Wide Quarter-->
+      <page>18</page> <!--Quarter-->
+      <page>19</page> <!--Wide 6th-->
+      <page>20</page> <!--6th-->
+      <page>21</page> <!--8th-->
+      <page>5</page>  <!--640x480-->
+      <page>6</page>  <!--800x600-->
+      <page>7</page>  <!--1024x768-->
+      <page>39</page> <!--120x60-->
+      <page>40</page> <!--120x90-->
+      <page>41</page> <!--120x600-->
+      <page>42</page> <!--125x125-->
+      <page>38</page> <!--160x600-->
+      <page>43</page> <!--250x250-->
+      <page>37</page> <!--300x250-->
+      <page>44</page> <!--336x280-->
+      <page>45</page> <!--468x60-->
+      <page>36</page> <!--728x90-->
+      <page>35</page> <!--960x960-->
+      <page>22</page> <!--Cabinet-->
+      <page>23</page> <!--Panorama Big (PAB)-->
+      <page>24</page> <!--Panorama Big (PAL)-->
+      <page>27</page> <!--High Vision-->
+      <page>29</page> <!--2E-->
+      <page>30</page> <!--E -->
+      <page>31</page> <!--Name Card-->
+      <page>32</page> <!--Post Card-->
+      <page>11</page> <!--A4-->
+      <page>33</page> <!--B4 (JIS)-->
+      <page>12</page> <!--A3-->
+      <page>34</page> <!--A5-->
+      <page>8</page>  <!--Letter-->
+      <page>9</page>  <!--Legal-->
+      <page>10</page> <!--Tabloid-->
+    </order>
+    <default>
+      <page>28</page> <!--L-->
+    </default>
+  </pageset>
+
+  <!-- By default, we use the user's preferred measurement system (imperial or metric), as set in
+       Control Panel->Regional Settings, to determine the pageset.  Here we override this behaviour
+       for certain locations.  Geoids are compared against the return value of Win32's GetUserGeoID().
+  -->
+  <locales>
+    <map geoid="39">imperial</map>   <!--Canada-->
+    <map geoid="166">imperial</map>  <!--Mexico-->
+    <map geoid="122">Japan</map>     <!--Japan-->
+    <map geoid="45">Japan</map>      <!--China-->
+    <map geoid="134">Japan</map>     <!--Korea-->
+    <map geoid="237">Japan</map>     <!--Taiwan-->
+  </locales>
+</PageSizes>

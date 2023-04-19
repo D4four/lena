@@ -1,0 +1,636 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Welcome Screen</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+  <link href="css/tab_00.css" rel="stylesheet" type="text/css" />
+  <link href="css/draw.css" rel="stylesheet" type="text/css" />
+  <script src="js/gallery.js" type="text/javascript"></script>
+  <script src="js/integrations.js" type="text/javascript"></script>
+  <script src="js/resources.js" type="text/javascript"></script>
+  <script src="js/behaviours.js" type="text/javascript"></script>
+  <script src="js/resets.js" type="text/javascript"></script>
+  <script src="js/ipm.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var g_app = "Draw"; // PP
+    var g_app2 = "Draw"; // Photo-Paint
+    var g_app3 = "Draw"; // Paint
+    var g_tutorprefix = strTutorPath + "CorelDRAW Tutorials\\dr_"; // "PHOTO-PAINT Tutorials\\pp_"
+  </script>
+</head>
+<body onload="OnWelcomeScreenLoad(g_app2);">
+<div id="container_main">
+
+<!--COVER BEGINS HERE-->
+	<div id="container_cover">
+		<div id="container_pagecover">
+			<div id="cover_header">
+				<div id="container_cover_closebutton" class="container_closebutton" onclick="CloseDialog()"></div>
+				<div id="cover_wordmark"></div>
+				<div id="cover_welcome"></div>
+			</div>
+			<div id="cover_body" class="body">
+				<div id="cover_graphic"></div>
+				<div id="cover_videoselect">
+				</div>
+				<div id="cover_content">
+					<div id="cover_contentframe">
+						<div id="tab0_desc" style="display:block"><script type="text/javascript">_app('WelcomeMessage')</script></div>
+						<div id="tab1_desc"><script type="text/javascript">_app('Tab1Description')</script></div>
+						<div id="tab2_desc"><script type="text/javascript">_app('Tab2Description')</script></div>
+						<div id="tab3_desc"><script type="text/javascript">_app('Tab3Description')</script></div>
+						<div id="tab4_desc"><script type="text/javascript">_app('Tab4Description')</script></div>
+						<div id="tab5_desc"><script type="text/javascript">_app('Tab5Description')</script></div>
+					</div>
+					<ul>
+						<li onmouseout="dshow('tab0_desc')" onmouseover="dshow('tab1_desc')" onclick="OnTabNavigate(1)"><script type="text/javascript">_('Tab1Inline')</script></li>
+						<li onmouseout="dshow('tab0_desc')" onmouseover="dshow('tab2_desc')" onclick="OnTabNavigate(2)"><script type="text/javascript">_('Tab2Inline')</script></li>
+						<li onmouseout="dshow('tab0_desc')" onmouseover="dshow('tab3_desc')" onclick="OnTabNavigate(3)"><script type="text/javascript">_('Tab3Inline')</script></li>
+						<li onmouseout="dshow('tab0_desc')" onmouseover="dshow('tab4_desc')" onclick="OnTabNavigate(4)"><script type="text/javascript">_('Tab4Inline')</script></li>
+						<li onmouseout="dshow('tab0_desc')" onmouseover="dshow('tab5_desc')" onclick="OnTabNavigate(5)"><script type="text/javascript">_('Tab5Inline')</script></li>
+					</ul>
+				</div>
+			</div>
+			<div id="cover_footer">
+				<p><script type="text/javascript">_('CoverFooter')</script></p>
+			</div>
+		</div>
+		<div id="container_tabscover">
+			<div id="tab_cover_1" class="tab_cover" onclick="OnTabNavigate(1)"><p><script type="text/javascript">_('Tab1')</script></p></div>
+			<div id="tab_cover_2" class="tab_cover" onclick="OnTabNavigate(2)"><p><script type="text/javascript">_('Tab2')</script></p></div>
+			<div id="tab_cover_3" class="tab_cover" onclick="OnTabNavigate(3)"><p><script type="text/javascript">_('Tab3')</script></p></div>
+			<div id="tab_cover_4" class="tab_cover" onclick="OnTabNavigate(4)"><p><script type="text/javascript">_('Tab4')</script></p></div>
+			<div id="tab_cover_5" class="tab_cover" onclick="OnTabNavigate(5)"><p><script type="text/javascript">_('Tab5')</script></p></div>
+		</div>
+	</div>
+<!--COVER ENDS HERE-->
+<!--SPREAD BEGINS HERE-->
+	<div id="container_spread">
+		<div id="container_pages">
+	<!--CONTENT BEGINS divided into separate containers for each section, only the first initially visble-->
+<!--CONTENT SPREAD 1-->
+			<div id="container_page_1" class="visible">
+				<div class="container_pageleft">
+					<div class="header">
+						<div class="title"><img src="images/icons/icon_title1.png" alt=""/><script type="text/javascript">_('Tab1Inline')</script></div>
+						<div class="subheading_left">
+							<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+								<tr style="height:55px">
+									<td style="vertical-align:bottom"><script type="text/javascript">_('HeadingOpenRecent')</script></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<!--Left spread of page 1: MRU and file preview-->
+					<div id="body_left1" class="bodyfull">
+						<div class="breadcrumb" style="top:42px;"><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <script type="text/javascript">_('Tab1Inline')</script></div>
+						<div id="filepreview">
+							<div id="filepreview_thumb" class="vc_outer">
+								<div id="filepreview_thumb_withcontent" class="vc_middle">
+									<div class="vc_inner">
+										<img id="mru_previewimage" src="images/tempfilepreview.png" onerror="ImageLoadErrorHandler( 'mru_previewimage', 'images/loadingpreview.gif' )" alt="" />
+									</div>
+								</div>
+								<div id="filepreview_thumb_sanscontent" class="vc_middle sanscontent">
+									<div class="vc_inner">
+										<script type="text/javascript">_('NoThumbnail')</script>
+									</div>
+								</div>
+							</div>
+							<div id="filepreview_details" class="vc_outer">
+								<div id="filepreview_details_withcontent">
+									<ul>
+										<li id="mru_filename"></li>
+										<li id="mru_filedate"></li>
+										<li id="mru_filepath"></li>
+										<li id="mru_filesize"></li>
+									</ul>
+								</div>
+								<div id="filepreview_details_sanscontent" class="vc_middle sanscontent">
+									<div class="vc_inner">
+										<script type="text/javascript">_('NoInfo')</script>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="mru" class="vc_outer">
+							<div id="mru_withcontent">
+								<ul>
+									<script type="text/javascript">PopulateMruList()</script>
+									<li>
+										<form action="" method="post" id="mrubuttons">
+											<p> <script type="text/javascript">document.write("<input id='openother' name='openother' type='button' value='" + GetStringByID('OpenOther') + "' onclick='OnOpenDocument()'/>")</script></p>
+										</form>
+									</li>
+								</ul>
+							</div>
+							<div id="mru_sanscontent" class="vc_middle sanscontent">
+								<div class="vc_inner">
+									<script type="text/javascript">_app('NoMRU')</script>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="footer_left1" class="footer">
+						<form action="" method="post" id="options_1">
+							<p><input type="checkbox" id="defaultscreen_1" checked="checked" onclick="OnMakePageDefaultToggled(1)"/><label for="defaultscreen_1"><script type="text/javascript">_('MakeDefaultPage')</script></label></p>
+							<p><input type="checkbox" id="startuplaunch_1" onclick="OnAlwaysShowToggled(1)"/><label for="startuplaunch_1"><script type="text/javascript">_('AlwaysShow')</script></label></p>
+						</form>
+					</div>
+				</div>
+				<div id="container_page_right1" class="container_pageright">
+					<div id="header_right1" class="header">
+						<div id="subheading_right1" class="subheading_right"><p><script type="text/javascript">_('HeadingStartNew')</script></p></div>
+						<div id="info_1" class="info off"></div>
+					</div>
+					<!--Right spread of page 1: Task links-->
+					<div id="body_right1" class="bodyright">
+						<ul class="actions">
+							<li id="bullet_newdoc" class="inactive"><span class="pointer bullettitle" onclick="OnNewDocument()"><script type="text/javascript">_('NewBlank')</script></span>
+								<p><script type="text/javascript">_('NewBlankDesc')</script></p>
+							</li>
+							<li id="bullet_newtemplate" class="inactive"><span class="pointer bullettitle" onclick="OnNewFromTemplate()"><script type="text/javascript">_('NewTemplate')</script></span>
+								<p><script type="text/javascript">_('NewTemplateDesc')</script></p>
+							</li>
+							<li id="bullet_newclipboard" class="inactive"><span class="pointer bullettitle" onclick="OnNewFromClipboard()"><script type="text/javascript">_('NewClipboard')</script></span>
+								<p><script type="text/javascript">_('NewClipboardDesc')</script></p>
+							</li>
+							<li id="bullet_acquire" class="inactive"><span class="pointer bullettitle" onclick="OnAcquireImage()"><script type="text/javascript">_('AcquireImage')</script></span>
+								<p><script type="text/javascript">_('AcquireImageDesc')</script></p>
+							</li>
+						</ul>
+					</div>	
+					<div id="footer_right1" class="footer">
+						<ul>
+							<li id="ipm_updatesavailable_1"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+<!--CONTENT SPREAD 2-->
+			<div id="container_page_2">
+				<div class="container_pageleft">
+					<div class="header">
+						<div class="title"><img src="images/icons/icon_title2.png" alt=""/><script type="text/javascript">_('Tab2Inline')</script></div>
+					</div>
+					<div id="body_left2" class="bodyleft">
+						<div id="body_left2_00">
+							<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <script type="text/javascript">_('Tab2Inline')</script></div></div>
+							<div id="whatsnew_videoframe">
+								<img id="whatsnew_videomatte" src="images/content/video_whatsnew.png" alt=""/>
+							</div>
+						</div>
+						<div id="body_left2_01">
+							<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <a href="#" onclick="ResetTab2()"><script type="text/javascript">_('Tab2Inline')</script></a> / <script type="text/javascript">_app('WhatsNew01')</script></div></div>
+							<ul class="actions">
+								<li id="whatsnew01a" class="active"><span class="pointer bullettitle" onclick="dactive('whatsnew01a');dshow('body_right2_01a')"><script type="text/javascript">_app('WhatsNew01a')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew01aDesc')</script></div></li>
+								<li id="whatsnew01b" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew01b');dshow('body_right2_01b')"><script type="text/javascript">_app('WhatsNew01b')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew01bDesc')</script></div></li>
+								<li id="whatsnew01c" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew01c');dshow('body_right2_01c')"><script type="text/javascript">_app('WhatsNew01c')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew01cDesc')</script></div></li>
+								<li id="whatsnew01d" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew01d');dshow('body_right2_01d')"><script type="text/javascript">_app('WhatsNew01d')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew01dDesc')</script></div></li>
+								<li id="whatsnew01e" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew01e');dshow('body_right2_01e')"><script type="text/javascript">_app('WhatsNew01e')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew01eDesc')</script></div></li>
+							</ul>
+						</div>
+						<div id="body_left2_02">
+							<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <a href="#" onclick="ResetTab2()"><script type="text/javascript">_('Tab2Inline')</script></a> / <script type="text/javascript">_app('WhatsNew02')</script></div></div>
+							<ul class="actions">
+								<li id="whatsnew02a" class="active"><span class="pointer bullettitle" onclick="dactive('whatsnew02a');dshow('body_right2_02a')"><script type="text/javascript">_app('WhatsNew02a')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew02aDesc')</script></div></li>
+								<li id="whatsnew02b" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew02b');dshow('body_right2_02b')"><script type="text/javascript">_app('WhatsNew02b')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew02bDesc')</script></div></li>
+								<li id="whatsnew02c" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew02c');dshow('body_right2_02c')"><script type="text/javascript">_app('WhatsNew02c')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew02cDesc')</script></div></li>
+								<li id="whatsnew02d" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew02d');dshow('body_right2_02d')"><script type="text/javascript">_app('WhatsNew02d')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew02dDesc')</script></div></li>
+								<li id="whatsnew02e" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew02e');dshow('body_right2_02e')"><script type="text/javascript">_app('WhatsNew02e')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew02eDesc')</script></div></li>
+								<li id="whatsnew02f" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew02f');dshow('body_right2_02f')"><script type="text/javascript">_app('WhatsNew02f')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew02fDesc')</script></div></li>
+								<li id="whatsnew02g" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew02g');dshow('body_right2_02g')"><script type="text/javascript">_app('WhatsNew02g')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew02gDesc')</script></div></li>
+							</ul>
+						</div>
+						<div id="body_left2_03">
+							<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <a href="#" onclick="ResetTab2()"><script type="text/javascript">_('Tab2Inline')</script></a> / <script type="text/javascript">_app('WhatsNew03')</script></div></div>
+							<ul class="actions">
+								<li id="whatsnew03a" class="active"><span class="pointer bullettitle" onclick="dactive('whatsnew03a');dshow('body_right2_03a')"><script type="text/javascript">_app('WhatsNew03a')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew03aDesc')</script></div></li>
+								<li id="whatsnew03b" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew03b');dshow('body_right2_03b')"><script type="text/javascript">_app('WhatsNew03b')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew03bDesc')</script></div></li>
+								<li id="whatsnew03c" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew03c');dshow('body_right2_03c')"><script type="text/javascript">_app('WhatsNew03c')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew03cDesc')</script></div></li>
+								<li id="whatsnew03d" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew03d');dshow('body_right2_03d')"><script type="text/javascript">_app('WhatsNew03d')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew03dDesc')</script></div></li>
+								<li id="whatsnew03e" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew03e');dshow('body_right2_03e')"><script type="text/javascript">_app('WhatsNew03e')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew03eDesc')</script></div></li>
+								<li id="whatsnew03f" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew03f');dshow('body_right2_03f')"><script type="text/javascript">_app('WhatsNew03f')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew03fDesc')</script></div></li>
+							</ul>
+						</div>
+						<div id="body_left2_04">
+							<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <a href="#" onclick="ResetTab2()"><script type="text/javascript">_('Tab2Inline')</script></a> / <script type="text/javascript">_app('WhatsNew04')</script></div></div>
+							<ul class="actions">
+								<li id="whatsnew04a" class="active"><span class="pointer bullettitle" onclick="dactive('whatsnew04a');dshow('body_right2_04a')"><script type="text/javascript">_app('WhatsNew04a')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew04aDesc')</script></div></li>
+								<li id="whatsnew04b" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew04b');dshow('body_right2_04b')"><script type="text/javascript">_app('WhatsNew04b')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew04bDesc')</script></div></li>
+								<li id="whatsnew04c" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew04c');dshow('body_right2_04c')"><script type="text/javascript">_app('WhatsNew04c')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew04cDesc')</script></div></li>
+								<li id="whatsnew04d" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew04d');dshow('body_right2_04d')"><script type="text/javascript">_app('WhatsNew04d')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew04dDesc')</script></div></li>
+							</ul>
+						</div>
+						<div id="body_left2_05">
+							<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <a href="#" onclick="ResetTab2()"><script type="text/javascript">_('Tab2Inline')</script></a> / <script type="text/javascript">_app('WhatsNew05')</script></div></div>
+							<ul class="actions">
+								<li id="whatsnew05a" class="active"><span class="pointer bullettitle" onclick="dactive('whatsnew05a');dshow('body_right2_05a')"><script type="text/javascript">_app('WhatsNew05a')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew05aDesc')</script></div></li>
+								<li id="whatsnew05b" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew05b');dshow('body_right2_05b')"><script type="text/javascript">_app('WhatsNew05b')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew05bDesc')</script></div></li>
+								<li id="whatsnew05c" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew05c');dshow('body_right2_05c')"><script type="text/javascript">_app('WhatsNew05c')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew05cDesc')</script></div></li>
+								<li id="whatsnew05d" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew05d');dshow('body_right2_05d')"><script type="text/javascript">_app('WhatsNew05d')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew05dDesc')</script></div></li>
+								<li id="whatsnew05e" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew05e');dshow('body_right2_05e')"><script type="text/javascript">_app('WhatsNew05e')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew05eDesc')</script></div></li>
+								<li id="whatsnew05f" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew05f');dshow('body_right2_05f')"><script type="text/javascript">_app('WhatsNew05f')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew05fDesc')</script></div></li>
+								<li id="whatsnew05g" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew05g');dshow('body_right2_05g')"><script type="text/javascript">_app('WhatsNew05g')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew05gDesc')</script></div></li>
+								<li id="whatsnew05h" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew05h');dshow('body_right2_05h')"><script type="text/javascript">_app('WhatsNew05h')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew05hDesc')</script></div></li>
+							</ul>
+						</div>
+						<div id="body_left2_06">
+							<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <a href="#" onclick="ResetTab2()"><script type="text/javascript">_('Tab2Inline')</script></a> / <script type="text/javascript">_app('WhatsNew06')</script></div></div>
+							<ul class="actions">
+								<li id="whatsnew06a" class="active"><span class="pointer bullettitle" onclick="dactive('whatsnew06a');dshow('body_right2_06a')"><script type="text/javascript">_app('WhatsNew06a')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew06aDesc')</script></div></li>
+								<li id="whatsnew06b" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew06b');dshow('body_right2_06b')"><script type="text/javascript">_app('WhatsNew06b')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew06bDesc')</script></div></li>
+								<li id="whatsnew06c" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew06c');dshow('body_right2_06c')"><script type="text/javascript">_app('WhatsNew06c')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew06cDesc')</script></div></li>
+								<li id="whatsnew06d" class="inactive"><span class="pointer bullettitle" onclick="dactive('whatsnew06d');dshow('body_right2_06d')"><script type="text/javascript">_app('WhatsNew06d')</script></span><div class="description"><script type="text/javascript">_app('WhatsNew06dDesc')</script></div></li>
+							</ul>
+						</div>
+					</div>
+					<div id="footer_left2" class="footer">
+						<form action="" method="post" id="options_2">
+							<p><input type="checkbox" id="defaultscreen_2" onclick="OnMakePageDefaultToggled(2)" /><label for="defaultscreen_2"><script type="text/javascript">_('MakeDefaultPage')</script></label></p>
+							<p><input type="checkbox" id="startuplaunch_2" onclick="OnAlwaysShowToggled(2)" /><label for="startuplaunch_2"><script type="text/javascript">_('AlwaysShow')</script></label></p>
+						</form>
+					</div>
+				</div>
+				<div id="container_page_right2" class="container_pageright">
+					<div id="header_right2" class="header">
+						<div id="subheading_right2" class="subheading_right off"></div>
+						<div class="infobutton" id="info_2" onmouseover="ChangeLayerVis('infopopup_2','','show')" onmouseout="ChangeLayerVis('infopopup_2','','hide')"></div>
+						<div id="infopopup_2" class="infopopup off">
+							<p><script type="text/javascript">_app('InfoPopup')</script></p>
+						</div>
+					</div>
+					<div id="body_right2" class="bodyright">
+						<div id="body_right2_00">
+							<div>
+								<div class="forward" onclick="dshow('body_left2_01');dshow('body_right2_01');ResetTab2Sub()"></div>
+							</div>
+							<ul class="actions">
+								<li id="bullet_whatsnew01" class="inactive"><span class="pointer bullettitle" onclick="dshow('body_left2_01');dshow('body_right2_01')"><script type="text/javascript">_app('WhatsNew01')</script></span><p><script type="text/javascript">_app('WhatsNew01Desc')</script></p></li>
+								<li id="bullet_whatsnew02" class="inactive"><span class="pointer bullettitle" onclick="dshow('body_left2_02');dshow('body_right2_02')"><script type="text/javascript">_app('WhatsNew02')</script></span><p><script type="text/javascript">_app('WhatsNew02Desc')</script></p></li>
+								<li id="bullet_whatsnew03" class="inactive"><span class="pointer bullettitle" onclick="dshow('body_left2_03');dshow('body_right2_03')"><script type="text/javascript">_app('WhatsNew03')</script></span><p><script type="text/javascript">_app('WhatsNew03Desc')</script></p></li>
+								<li id="bullet_whatsnew04" class="inactive"><span class="pointer bullettitle" onclick="dshow('body_left2_04');dshow('body_right2_04')"><script type="text/javascript">_app('WhatsNew04')</script></span><p><script type="text/javascript">_app('WhatsNew04Desc')</script></p></li>
+								<li id="bullet_whatsnew05" class="inactive"><span class="pointer bullettitle" onclick="dshow('body_left2_05');dshow('body_right2_05')"><script type="text/javascript">_app('WhatsNew05')</script></span><p><script type="text/javascript">_app('WhatsNew05Desc')</script></p></li>
+								<li id="bullet_whatsnew06" class="inactive"><span class="pointer bullettitle" onclick="dshow('body_left2_06');dshow('body_right2_06')"><script type="text/javascript">_app('WhatsNew06')</script></span><p><script type="text/javascript">_app('WhatsNew06Desc')</script></p></li>
+							</ul>
+						</div>
+						<div id="body_right2_01">
+							<div>
+								<div class="back" onclick="dshow('body_left2_00');dshow('body_right2_00')" onmouseup="ResetTab2Sub()"></div>
+								<div class="forward" onclick="dshow('body_left2_02');dshow('body_right2_02')" onmouseup="ResetTab2Sub()"></div>
+							</div>
+							<div>
+								<div id="body_right2_01a"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_01a.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_01b"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_01b.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_01c"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_01c.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_01d"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_01d.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_01e"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_01e.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_01f"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_01f.png" alt="" class="vc_inner" /></div></div></div></div>
+							</div>
+						</div>
+						<div id="body_right2_02">
+							<div>
+								<div class="back" onclick="dshow('body_left2_01');dshow('body_right2_01')" onmouseup="ResetTab2Sub()"></div>
+								<div class="forward" onclick="dshow('body_left2_03');dshow('body_right2_03')" onmouseup="ResetTab2Sub()"></div>
+							</div>
+							<div>
+								<div id="body_right2_02a"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_02a.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_02b"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_02b.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_02c"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_02c.png" alt="" class="vc_inner" />	</div></div></div></div>
+								<div id="body_right2_02d"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_02d.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_02e"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_02e.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_02f"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_02f.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_02g"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_02g.png" alt="" class="vc_inner" /></div></div></div></div>
+							</div>
+						</div>
+						<div id="body_right2_03">
+							<div>
+								<div class="back" onclick="dshow('body_left2_02');dshow('body_right2_02')" onmouseup="ResetTab2Sub()"></div>
+								<div class="forward" onclick="dshow('body_left2_04');dshow('body_right2_04')" onmouseup="ResetTab2Sub()"></div>
+							</div>
+							<div>
+								<div id="body_right2_03a"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_03a.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_03b"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_03b.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_03c"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_03c.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_03d"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_03d.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_03e"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_03e.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_03f"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_03f.png" alt="" class="vc_inner" /></div></div></div></div>
+							</div>
+						</div>
+						<div id="body_right2_04">
+							<div>
+								<div class="back" onclick="dshow('body_left2_03');dshow('body_right2_03')" onmouseup="ResetTab2Sub()"></div>
+								<div class="forward" onclick="dshow('body_left2_05');dshow('body_right2_05')" onmouseup="ResetTab2Sub()"></div>
+							</div>
+							<div>
+								<div id="body_right2_04a"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_04a.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_04b"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_04b.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_04c"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_04c.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_04d"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_04d.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_04e"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_04e.png" alt="" class="vc_inner" /></div></div></div></div>
+							</div>
+						</div>
+						<div id="body_right2_05">
+							<div>
+								<div class="back" onclick="dshow('body_left2_04');dshow('body_right2_04')" onmouseup="ResetTab2Sub()"></div>
+								<div class="forward" onclick="dshow('body_left2_06');dshow('body_right2_06')" onmouseup="ResetTab2Sub()"></div>
+							</div>
+							<div>
+								<div id="body_right2_05a"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_05a.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_05b"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_05b.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_05c"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_05c.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_05d"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_05d.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_05e"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_05e.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_05f"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_05f.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_05g"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_05g.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_05h"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_05h.png" alt="" class="vc_inner" /></div></div></div></div>
+							</div>
+						</div>
+						<div id="body_right2_06">
+							<div>
+								<div class="back" onclick="dshow('body_left2_05');dshow('body_right2_05')" onmouseup="ResetTab2Sub()"></div>
+							</div>
+							<div>
+								<div id="body_right2_06a"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_06a.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_06b"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_06b.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_06c"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_06c.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_06d"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_06d.png" alt="" class="vc_inner" /></div></div></div></div>
+								<div id="body_right2_06e"><div class="whatsnew_border"><div class="whatsnew_matte vc_outer"><div class="vc_middle"><img src="images/content/whatsnew_06e.png" alt="" class="vc_inner" /></div></div></div></div>
+							</div>
+						</div>
+					</div>
+					<div id="footer_right2" class="footer">
+						<ul>
+							<li id="ipm_updatesavailable_2"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+<!--CONTENT SPREAD 3-->
+			<div id="container_page_3">
+				<div class="container_pageleft">
+					<div class="header">
+						<div class="title"><img src="images/icons/icon_title3.png" alt=""/><script type="text/javascript">_('Tab3Inline')</script></div>
+					</div>
+					<div id="body_left3" class="bodyleft">
+						<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <script type="text/javascript">_('Tab3Inline')</script></div></div>
+							<ul class="actions vc">
+								<li id="bullet_videotuts" class="active">
+								  <span class="pointer bullettitle" onclick="dactive('bullet_videotuts');dshow('body_right3_00');$('NeedReaderAdvisory').style.display='none';"><script type="text/javascript">_('VideoTutorials')</script></span> 
+								  <div class="description"><script type="text/javascript">_app('VideoTutorialsDesc')</script></div>
+                </li>
+								<li id="bullet_guidebook" class="inactive">
+								  <span class="pointer bullettitle" onclick="dactive('bullet_guidebook');dshow('body_right3_04');$('NeedReaderAdvisory').style.display='block';"><script type="text/javascript">_('Guidebook')</script></span>
+								  <div class="description"><script type="text/javascript">_app('GuidebookDesc')</script></div>
+                </li>
+								<li id="bullet_coreltutor" class="inactive">
+								  <span class="pointer bullettitle" onclick="dactive('bullet_coreltutor');dshow('body_right3_01');$('NeedReaderAdvisory').style.display='block';"><script type="text/javascript">_('CorelTutor')</script></span>
+								  <div class="description"><script type="text/javascript">_app('CorelTutorDesc')</script></div>
+								</li>
+								<li id="bullet_insights" class="inactive">
+								  <span class="pointer bullettitle" onclick="dactive('bullet_insights');dshow('body_right3_02');$('NeedReaderAdvisory').style.display='block';"><script type="text/javascript">_('InsightsExperts')</script></span>
+								  <div class="description"><script type="text/javascript">_app('InsightsExpertsDesc')</script></div>
+								</li>
+								<li id="bullet_tipstricks" class="inactive">
+								  <span class="pointer bullettitle" onclick="dactive('bullet_tipstricks');dshow('body_right3_03');$('NeedReaderAdvisory').style.display='none';DisplayTipsWithRotation();"><script type="text/javascript">_('TipsTricks')</script></span> | <span id="history" class="pointer bullettitle" onclick="ChangeLayerVis('morettpopup','','show');ChangeLayerVis('screen','','show');dactive('bullet_tipstricks');dshow('body_right3_03');DisplayTipsWithRotation()"><script type="text/javascript">_('History')</script></span>
+								  <div class="description"><script type="text/javascript">_app('TipsTricksDesc')</script></div>
+								</li>
+								<li id="moreonline"><span id="moreonline_link" class="link" onclick="OpenBrowser(GetStringByID('URLResources'))" onmouseover="ClassSwitch('moreonline_link','link link_over')" onmouseout="ClassSwitch('moreonline_link','link')"><script type="text/javascript">_('MoreAvailable')</script></span> <span class="detail">(<script type="text/javascript">_('UpdatedPeriodically')</script>)</span></li>
+							</ul>
+						<p id="NeedReaderAdvisory" style="display:none"><script type="text/javascript">_('NeedReader')</script></p>
+					</div>
+					<div id="footer_left3" class="footer">
+						<form action="" method="post" id="options_3">
+							<p><input type="checkbox" id="defaultscreen_3" onclick="OnMakePageDefaultToggled(3)" /><label for="defaultscreen_3"><script type="text/javascript">_('MakeDefaultPage')</script></label></p>
+							<p><input type="checkbox" id="startuplaunch_3" onclick="OnAlwaysShowToggled(3)" /><label for="startuplaunch_3"><script type="text/javascript">_('AlwaysShow')</script></label></p>
+						</form>
+					</div>
+				</div>
+				<div id="container_page_right3" class="container_pageright">
+					<div id="header_right3" class="header">
+						<div id="subheading_right3" class="subheading_right off"></div>
+						<div id="info_3" class="info off"></div>
+					</div>
+					<!--Right spread of page 3: Content thumbnails and text-->
+					<div id="body_right3" class="bodyright">
+						<!--Video-based tutorials (Default)-->
+						<div id="body_right3_00">
+						  <p><script type="text/javascript">_('VideoTutsIntro')</script></p>
+							<ul class="simplelist">
+								<li id="video01"><a href="#" onclick="LaunchVideoBrowser('01')"><script type="text/javascript">_app('VideoTuts01Title')</script></a>: <script type="text/javascript">_app('VideoTuts01Desc')</script></li>
+								<li id="video02"><a href="#" onclick="OpenVideoHints()"><script type="text/javascript">_app('VideoTuts02Title')</script></a>: <script type="text/javascript">_app('VideoTuts02Desc')</script></li>
+								<li id="video03"><a href="#" onclick="LaunchVideoBrowser('07')"><script type="text/javascript">_app('VideoTuts03Title')</script></a>: <script type="text/javascript">_app('VideoTuts03Desc')</script></li>
+								<li id="video04"><a href="#" onclick="LaunchVideoBrowser('12')"><script type="text/javascript">_app('VideoTuts04Title')</script></a>: <script type="text/javascript">_app('VideoTuts04Desc')</script></li>
+							</ul>
+							<p><script type="text/javascript">_('VideoTutsInternetConnection')</script></p>
+						</div>
+						<!--Corel Tutor-->
+						<div id="body_right3_01">
+							<ul class="thumbs">
+								<li class="thumb1" onmouseout="dshow('tutor00')" onmouseover="dshow('tutor01')" onclick="OpenFile(g_tutorprefix+'1.pdf')"><img src="images/content/coreltutor_01.png" alt=""/></li>
+								<li class="thumb2" onmouseout="dshow('tutor00')" onmouseover="dshow('tutor02')" onclick="OpenFile(g_tutorprefix+'2.pdf')"><img src="images/content/coreltutor_01.png" alt=""/></li>
+								<li class="thumb3" onmouseout="dshow('tutor00')" onmouseover="dshow('tutor03')" onclick="OpenFile(g_tutorprefix+'3.pdf')"><img src="images/content/coreltutor_03.png" alt=""/></li>
+								<li class="thumb4" onmouseout="dshow('tutor00')" onmouseover="dshow('tutor04')" onclick="OpenFile(g_tutorprefix+'4.pdf')"><img src="images/content/coreltutor_04.png" alt=""/></li>
+								<li class="thumb5" onmouseout="dshow('tutor00')" onmouseover="dshow('tutor05')" onclick="OpenFile(g_tutorprefix+'5.pdf')"><img src="images/content/coreltutor_05.png" alt=""/></li>
+								<li class="thumb6" onmouseout="dshow('tutor00')" onmouseover="dshow('tutor06')" onclick="OpenFile(g_tutorprefix+'6.pdf')"><img src="images/content/coreltutor_06.png" alt=""/></li>
+							</ul>
+							<div class="thumbsummary">
+							  <div id="tutor00"></div>
+							  <div id="tutor01" style="display:none"><dl><dt><script type="text/javascript">_app('CorelTutor01Title')</script></dt><dd class="description"><script type="text/javascript">_app('CorelTutor01Desc')</script></dd></dl></div>
+							  <div id="tutor02" style="display:none"><dl><dt><script type="text/javascript">_app('CorelTutor02Title')</script></dt><dd class="description"><script type="text/javascript">_app('CorelTutor02Desc')</script></dd></dl></div>
+							  <div id="tutor03" style="display:none"><dl><dt><script type="text/javascript">_app('CorelTutor03Title')</script></dt><dd class="description"><script type="text/javascript">_app('CorelTutor03Desc')</script></dd></dl></div>
+							  <div id="tutor04" style="display:none"><dl><dt><script type="text/javascript">_app('CorelTutor04Title')</script></dt><dd class="description"><script type="text/javascript">_app('CorelTutor04Desc')</script></dd></dl></div>
+							  <div id="tutor05" style="display:none"><dl><dt><script type="text/javascript">_app('CorelTutor05Title')</script></dt><dd class="description"><script type="text/javascript">_app('CorelTutor05Desc')</script></dd></dl></div>
+							  <div id="tutor06" style="display:none"><dl><dt><script type="text/javascript">_app('CorelTutor06Title')</script></dt><dd class="description"><script type="text/javascript">_app('CorelTutor06Desc')</script></dd></dl></div>
+							</div>
+						</div>
+						<!--Insights from the experts-->
+						<div id="body_right3_02">
+							<ul class="thumbs">
+								<li class="thumb1" onmouseout="dshow('insight00')" onmouseover="dshow('insight01')" onclick="OpenFile(strTutorPath + 'IFE_1.pdf')"><img src="images/content/insight_01.png" alt=""/></li>
+								<li class="thumb2" onmouseout="dshow('insight00')" onmouseover="dshow('insight02')" onclick="OpenFile(strTutorPath + 'IFE_7.pdf')"><img src="images/content/insight_02.png" alt=""/></li>
+								<li class="thumb3" onmouseout="dshow('insight00')" onmouseover="dshow('insight03')" onclick="OpenFile(strTutorPath + 'IFE_3.pdf')"><img src="images/content/insight_03.png" alt=""/></li>
+								<li class="thumb4" onmouseout="dshow('insight00')" onmouseover="dshow('insight04')" onclick="OpenFile(strTutorPath + 'IFE_5.pdf')"><img src="images/content/insight_04.png" alt=""/></li>
+								<li class="thumb5" onmouseout="dshow('insight00')" onmouseover="dshow('insight05')" onclick="OpenFile(strTutorPath + 'IFE_4.pdf')"><img src="images/content/insight_05.png" alt=""/></li>
+								<li class="thumb6" onmouseout="dshow('insight00')" onmouseover="dshow('insight06')" onclick="OpenFile(strTutorPath + 'IFE_6.pdf')"><img src="images/content/insight_06.png" alt=""/></li>
+							</ul>
+							<div class="thumbsummary">
+							  <div id="insight00"></div>
+							  <div id="insight01" style="display:none"><dl><dt><script type="text/javascript">_app('Insights01Title')</script></dt><dd class="artist"><script type="text/javascript">_app('Insights01Artist')</script></dd><dd class="description"><script type="text/javascript">_app('Insights01Desc')</script></dd></dl></div>
+							  <div id="insight02" style="display:none"><dl><dt><script type="text/javascript">_app('Insights02Title')</script></dt><dd class="artist"><script type="text/javascript">_app('Insights02Artist')</script></dd><dd class="description"><script type="text/javascript">_app('Insights02Desc')</script></dd></dl></div>
+							  <div id="insight03" style="display:none"><dl><dt><script type="text/javascript">_app('Insights03Title')</script></dt><dd class="artist"><script type="text/javascript">_app('Insights03Artist')</script></dd><dd class="description"><script type="text/javascript">_app('Insights03Desc')</script></dd></dl></div>
+							  <div id="insight04" style="display:none"><dl><dt><script type="text/javascript">_app('Insights04Title')</script></dt><dd class="artist"><script type="text/javascript">_app('Insights04Artist')</script></dd><dd class="description"><script type="text/javascript">_app('Insights04Desc')</script></dd></dl></div>
+							  <div id="insight05" style="display:none"><dl><dt><script type="text/javascript">_app('Insights05Title')</script></dt><dd class="artist"><script type="text/javascript">_app('Insights05Artist')</script></dd><dd class="description"><script type="text/javascript">_app('Insights05Desc')</script></dd></dl></div>
+							  <div id="insight06" style="display:none"><dl><dt><script type="text/javascript">_app('Insights06Title')</script></dt><dd class="artist"><script type="text/javascript">_app('Insights06Artist')</script></dd><dd class="description"><script type="text/javascript">_app('Insights06Desc')</script></dd></dl></div>
+							</div>
+						</div>
+						<!--Tips & Tricks-->
+						<div id="body_right3_03">
+							<ul id="ipm_tips_list" class="contentitems">
+							</ul>
+						</div>
+						<!--Guidebook-->
+						<div id="body_right3_04">
+						  <p><script type="text/javascript">_('GuidebookIntro')</script></p>
+							<ul class="simplelist">
+								<li><script type="text/javascript">_app('Guidebook01Title')</script>: <script type="text/javascript">_app('Guidebook01Desc')</script></li>
+								<li><script type="text/javascript">_app('Guidebook02Title')</script>: <script type="text/javascript">_app('Guidebook02Desc')</script></li>
+								<li><script type="text/javascript">_app('Guidebook03Title')</script>: <script type="text/javascript">_app('Guidebook03Desc')</script></li>
+								<li><script type="text/javascript">_app('Guidebook04Title')</script>: <script type="text/javascript">_app('Guidebook04Desc')</script></li>
+							</ul>
+							<p><a href="#" onclick="OpenFile(strTutorPath + '..\\Help\\GB.pdf')"><script type="text/javascript">_('OpenGuidebook')</script></a></p>
+						</div>
+					</div>
+					<div id="footer_right3" class="footer">
+						<ul>
+							<li id="ipm_updatesavailable_3"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+<!--CONTENT SPREAD 4-->
+			<div id="container_page_4">
+				<div class="container_pageleft">
+					<div class="header">
+						<div class="title"><img src="images/icons/icon_title4.png" alt=""/><script type="text/javascript">_('Tab4Inline')</script></div>
+					</div>
+					<!--Left spread of page 4: Gallery image and caption-->
+					<div id="body_left4" class="bodyleft">
+						<div id="gallery_back" class="back" onclick="DecrementGalleryPosition()"></div>
+						<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <script type="text/javascript">_('Tab4Inline')</script></div></div>
+						<div class="gallery_border gallery_border_left">
+							<div id="gallery_left" class="vc_outer">
+								<div class="vc_middle" id="gallery_left_image"></div>
+							</div>
+						</div>
+						<p id="gallery_left_artist" class="gallery_artist_left"></p>
+					</div>
+					<div id="footer_left4" class="footer">
+						<form action="" method="post" id="options_4">
+							<p><input type="checkbox" id="defaultscreen_4" onclick="OnMakePageDefaultToggled(4)" /><label for="defaultscreen_4"><script type="text/javascript">_('MakeDefaultPage')</script></label></p>
+							<p><input type="checkbox" id="startuplaunch_4" onclick="OnAlwaysShowToggled(4)" /><label for="startuplaunch_4"><script type="text/javascript">_('AlwaysShow')</script></label></p>
+						</form>
+					</div>
+				</div>
+				<div id="container_page_right4" class="container_pageright">
+					<div id="header_right4" class="header">
+						<div id="subheading_right4" class="subheading_right off"></div>
+						<div id="info_4" class="info"><span id="info_link" class="link" onclick="OpenBrowser(GetStringByID('URLCommunity'))" onmouseover="ClassSwitch('info_link','link link_over')" onmouseout="ClassSwitch('info_link','link')"><script type="text/javascript">_('VisitCommunity')</script></span></div>
+					</div>
+					<!--Right spread of page 4: Gallery right-->
+					<div id="body_right4" class="bodyright">
+						<div id="gallery_forward" class="forward" onclick="IncrementGalleryPosition()" ></div>
+						<div class="gallery_border">
+							<div id="gallery_right" class="vc_outer">
+								<div class="vc_middle" id="gallery_right_image"></div>
+							</div>
+						</div>
+						<p id="gallery_right_artist" class="gallery_artist_right"></p>
+					</div>
+					<div id="footer_right4" class="footer">
+						<ul>
+							<li id="ipm_updatesavailable_4"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+<!--CONTENT SPREAD 5-->
+			<div id="container_page_5">
+				<div class="container_pageleft">
+					<div class="header">
+						<div class="title"><img src="images/icons/icon_title5.png" alt=""/><script type="text/javascript">_('Tab5Inline')</script></div>
+						<div class="settings" id="settingsButton"><a href="#" onclick="OnShowSettings()"><script type="text/javascript">_('Settings')</script></a></div>
+					</div>
+					<!--Left spread of page 5: Updates item list-->
+					<div id="body_left5" class="bodyleft">
+						<div class="breadcrumb"><div><a href="#" onclick="OnCoverPageNavigate()"><script type="text/javascript">_('Welcome')</script></a> / <script type="text/javascript">_('Tab5Inline')</script></div></div>
+						<script type="text/javascript">PopulateUpdatesPage( g_app2 )</script>	
+					</div>
+					<div id="footer_left5" class="footer">
+						<form action="" method="post" id="options_5">
+							<p><input type="checkbox" id="defaultscreen_5" onclick="OnMakePageDefaultToggled(5)" /><label for="defaultscreen_5"><script type="text/javascript">_('MakeDefaultPage')</script></label></p>
+							<p><input type="checkbox" id="startuplaunch_5" onclick="OnAlwaysShowToggled(5)" /><label for="startuplaunch_5"><script type="text/javascript">_('AlwaysShow')</script></label></p>
+						</form>
+					</div>
+				</div>
+				<div id="container_page_right5" class="container_pageright">
+					<div id="header_right5" class="header">
+						<div id="subheading_right5" class="subheading_rightflush"><script type="text/javascript">_('HeadingUpdateDetails')</script></div>
+						<div id="info_5" class="info off"></div>
+					</div>
+					<!--Right spread of page 5: Selected update description content-->
+					<div id="body_right5" class="bodyright">
+						<div id="ipm_updates_title"></div>
+						<iframe id="updatesbodyframe" src="updates.html" allowtransparency="1" scrolling="auto">iframe</iframe>
+					</div>
+					<div id="footer_right5" class="footer">
+					</div>
+				</div>
+			</div>
+<!--Insert additional content spreads here if required-->
+<!--CONTENT ENDS-->
+		</div>
+<!--TABS BEGIN below, divided into separate containers for left and right instances-->
+		<!--LEFT TABS BEGIN-->
+		<div id="container_tabsleft">
+			<!--LEFT TAB 1-->
+			<div id="tab_readyleft_1" class="tab tab_readyleft" onclick="OnTabNavigate(1)"><p><script type="text/javascript">_('Tab1')</script></p></div>
+			<div id="tab_offleft_1" class="tab tab_offleft"><p><script type="text/javascript">_('Tab1')</script></p></div>
+			<!--LEFT TAB 2-->
+			<div id="tab_readyleft_2" class="tab tab_readyleft" onclick="OnTabNavigate(2)"><p><script type="text/javascript">_('Tab2')</script></p></div>
+			<div id="tab_offleft_2" class="tab tab_offleft"><p><script type="text/javascript">_('Tab2')</script></p></div>
+			<!--LEFT TAB 3-->
+			<div id="tab_readyleft_3" class="tab tab_readyleft" onclick="OnTabNavigate(3)"><p><script type="text/javascript">_('Tab3')</script></p></div>
+			<div id="tab_offleft_3" class="tab tab_offleft"><p><script type="text/javascript">_('Tab3')</script></p></div>
+			<!--LEFT TAB 4-->
+			<div id="tab_readyleft_4" class="tab tab_readyleft" onclick="OnTabNavigate(4)"><p><script type="text/javascript">_('Tab4')</script></p></div>
+			<div id="tab_offleft_4" class="tab tab_offleft"><p><script type="text/javascript">_('Tab4')</script></p></div>
+			<!--LEFT TAB 5-->
+			<div id="tab_offleft_5" class="tab tab_offleft"><p><script type="text/javascript">_('Tab5')</script></p></div>
+		</div>
+		<!--LEFT TABS END-->
+		<!--RIGHT TABS BEGIN-->
+		<div id="container_tabsright">
+			<!--RIGHT TAB 1-->
+			<div id="tab_focus_1" class="tab tab_focus"><p><script type="text/javascript">_('Tab1')</script></p></div>
+			<div id="tab_offright_1" class="tab tab_offright"><p><script type="text/javascript">_('Tab1')</script></p></div>
+			<!--RIGHT TAB 2-->
+			<div id="tab_focus_2" class="tab tab_focus"><p><script type="text/javascript">_('Tab2')</script></p></div>
+			<div id="tab_readyright_2" class="tab tab_readyright" onclick="OnTabNavigate(2)"><p><script type="text/javascript">_('Tab2')</script></p></div>
+			<div id="tab_offright_2" class="tab tab_offright"><p><script type="text/javascript">_('Tab2')</script></p></div>
+			<!--RIGHT TAB 3-->
+			<div id="tab_focus_3" class="tab tab_focus"><p><script type="text/javascript">_('Tab3')</script></p></div>
+			<div id="tab_readyright_3" class="tab tab_readyright" onclick="OnTabNavigate(3)"><p><script type="text/javascript">_('Tab3')</script></p></div>
+			<div id="tab_offright_3" class="tab tab_offright"><p><script type="text/javascript">_('Tab3')</script></p></div>
+			<!--RIGHT TAB 4-->
+			<div id="tab_focus_4" class="tab tab_focus"><p><script type="text/javascript">_('Tab4')</script></p></div>
+			<div id="tab_readyright_4" class="tab tab_readyright" onclick="OnTabNavigate(4)"><p><script type="text/javascript">_('Tab4')</script></p></div>
+			<div id="tab_offright_4" class="tab tab_offright"><p><script type="text/javascript">_('Tab4')</script></p></div>
+			<!--RIGHT TAB 5-->
+			<div id="tab_focus_5" class="tab tab_focus"><p><script type="text/javascript">_('Tab5')</script></p></div>
+			<div id="tab_readyright_5" class="tab tab_readyright" onclick="OnTabNavigate(5)"><p><script type="text/javascript">_('Tab5')</script></p></div>
+		</div>
+		<!--RIGHT TABS END -->
+	<!--TABS END -->
+		<div id="container_spread_closebutton" class="container_closebutton" onclick="CloseDialog()"></div>
+		<div id="screen" class="off"></div>
+		<div id="morettpopup" class="off">
+			<div id="container_settingspopup_closebutton" class="container_closebutton" onclick="ChangeLayerVis('morettpopup','','hide');ChangeLayerVis('screen','','hide')"></div>
+			<div class="dialogtitle"><script type="text/javascript">_('TipsTricksHistory')</script></div>
+			<iframe id="morettframe" class="rightframe" src="morett.html" allowtransparency="1" scrolling="auto">iframe</iframe>
+		</div>
+		<div id="settingspopup" class="off">
+			<div id="container_settingspopup_closebutton" class="container_closebutton" onclick="ChangeLayerVis('settingspopup','','hide');ChangeLayerVis('screen','','hide')"></div>
+			<div class="dialogtitle"><script type="text/javascript">_('UpdateSettings')</script></div>
+				<form action="" method="post" id="update_settings">
+					<p><input type="checkbox" id="showmessages" onclick="OnNotifyNewToggled()"/><label for="showmessages"><script type="text/javascript">_('ShowMessages')</script></label></p>
+					<p><input type="checkbox" id="autodownload" onclick="OnAutoDownloadUpdatesToggled()"/><label for="autodownload"><script type="text/javascript">_('AutoDownload')</script></label></p>
+				</form>
+		</div>
+	</div>
+<!--SPREAD ENDS HERE-->
+</div>
+
+</body>
+</html>

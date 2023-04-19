@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ICA lang="DE">
+	<Properties>
+    <Property name="Str.ProductDisplayName" value="CorelDRAW Graphics Suite X6.1"/>
+    <Property name="Str.SetupAlreadyRunning" value="'Setup.exe' wird bereits ausgeführt."/> 
+		<Property name="Str.CancelSetupPrompt" value="Möchten Sie das %s Setup wirklich abbrechen?" comment="if %s is used in the string, it will be replaced with [Str.ProductDisplayName]"/>
+    <Property name="Str.CouldNotOpenCore" value="Bei der Konfiguration der Software durch das Setup ist ein Problem aufgetreten. Fehler beim Zugriff auf folgende Datei: %s Möchten Sie dennoch fortfahren?" comment="string displayed to the user if the core .msi could not be opened during initalization -- %s MUST be in the string, it is replaced with the reason for failure"/>
+    <Property name="Str.NoFolderAccess" value="Fehler beim Zugriff auf den folgenden Ordner: %s" comment="%s is replaced with the folder name"/>
+    <Property name="Str.PathTooLong" value="Der Pfad zum %s-Installationsverzeichnis darf nicht länger als %s Zeichen sein. Wählen Sie einen anderen Zielordner aus." comment="first %s is replaced with [Str.ProductDisplayName] -- second %s is replaced with [MAX_PATH]"/>
+    <Property name="Str.Initializing.Text" value="Bitte warten ..."/>
+    <Property name="Str.Initializing.Text.Cancelling" value="Der Vorgang wird abgebrochen..."/>
+		<Property name="Str.Feature.MainApp" value="CorelDRAW Graphics Suite X6.1"/> 
+		<Property name="Str.Feature.MainApp.Desc" value="CorelDRAW(R) Graphics Suite X6 - leistungsstarke Software für Grafikdesign, Seitenlayout und Fotobearbeitung."/> 
+    
+    <Property name="Str.Feature.Utilities.VSTA.Desc.WithVS9" value="Mit dieser Funktion wird die Unterstützung für Visual Studio Tools für Anwendungen installiert (sofern Visual Studio 2008 SP1 installiert ist)."/>
+		<Property name="Str.Feature.WT" value="Schreibhilfsmittel"/>
+		<Property name="Str.Feature.WT.Desc" value="Installiert die Rechtschreibprüfung, den Thesaurus und die Grammatik in verschiedenen Sprachen, um Sie beim Korrekturlesen von Dokumenten zu unterstützen."/>
+		<Property name="Str.Feature.WT.Afrikaans" value="Afrikaans"/>
+		<Property name="Str.Feature.WT.Afrikaans.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Catalan" value="Katalanisch"/>
+		<Property name="Str.Feature.WT.Catalan.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Czech" value="Tschechisch"/>
+		<Property name="Str.Feature.WT.Czech.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Danish" value="Dänisch"/>
+		<Property name="Str.Feature.WT.Danish.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Dutch" value="Niederländisch"/>
+		<Property name="Str.Feature.WT.Dutch.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung, eine Silbentrennung und eine Grammatikprüfung."/>
+		<Property name="Str.Feature.WT.English" value="Englisch"/>
+		<Property name="Str.Feature.WT.English.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung, eine Silbentrennung und eine Grammatikprüfung."/>
+		<Property name="Str.Feature.WT.Finnish" value="Finnisch"/>
+		<Property name="Str.Feature.WT.Finnish.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.French" value="Französisch"/>
+		<Property name="Str.Feature.WT.French.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung, eine Silbentrennung und eine Grammatikprüfung."/>
+		<Property name="Str.Feature.WT.Galician" value="Galizisch"/>
+		<Property name="Str.Feature.WT.Galician.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung und eine Grammatikprüfung."/>
+		<Property name="Str.Feature.WT.German" value="Deutsch"/>
+		<Property name="Str.Feature.WT.German.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung, eine Silbentrennung und eine Grammatikprüfung."/>
+		<Property name="Str.Feature.WT.Greek" value="Griechisch"/>
+		<Property name="Str.Feature.WT.Greek.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung und eine Grammatikprüfung."/>
+		<Property name="Str.Feature.WT.Icelandic" value="Isländisch"/>
+		<Property name="Str.Feature.WT.Icelandic.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung."/>
+		<Property name="Str.Feature.WT.Italian" value="Italienisch"/>
+		<Property name="Str.Feature.WT.Italian.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Norwegian" value="Norwegisch"/>
+		<Property name="Str.Feature.WT.Norwegian.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Polish" value="Polnisch"/>
+		<Property name="Str.Feature.WT.Polish.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Portuguese" value="Portugiesisch"/>
+		<Property name="Str.Feature.WT.Portuguese.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Russian" value="Russisch"/>
+		<Property name="Str.Feature.WT.Russian.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Slovak" value="Slowakisch"/>
+		<Property name="Str.Feature.WT.Slovak.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Sotho" value="Sotho"/>
+		<Property name="Str.Feature.WT.Sotho.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung."/>
+		<Property name="Str.Feature.WT.Spanish" value="Spanisch"/>
+		<Property name="Str.Feature.WT.Spanish.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung, eine Silbentrennung und eine Grammatikprüfung."/>
+		<Property name="Str.Feature.WT.Swedish" value="Schwedisch"/>
+		<Property name="Str.Feature.WT.Swedish.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Tswana" value="Tswana"/>
+		<Property name="Str.Feature.WT.Tswana.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung."/>
+		<Property name="Str.Feature.WT.Turkish" value="Türkisch"/>
+		<Property name="Str.Feature.WT.Turkish.Desc" value="Für diese Sprache gibt es eine Rechtschreibprüfung und eine Silbentrennungsfunktion."/>
+		<Property name="Str.Feature.WT.Xhosa" value="Xhosa"/>
+		<Property name="Str.Feature.WT.Xhosa.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung."/>
+    <Property name="Str.Feature.WT.Zulu" value="Zulu"/>
+    <Property name="Str.Feature.WT.Zulu.Desc" value="Diese Sprache enthält eine Rechtschreibprüfung."/>
+
+
+		
+    <Property name="Str.Feature.Programs64" value="64 Bit Programm-Dateien"/>
+    <Property name="Str.Feature.Programs64.Desc" value="64 Bit Programm-Dateien"/>
+    <Property name="Str.DestinationFolder" value="Zielordner bestimmen."/>
+    <Property name="Str.SerialNotValid" value="Die Seriennummer ist ungültig."/>
+    <Property name="Str.UpgradeSerialBlacklisted" value="Die Verwendung dieser Seriennummer für ein Produktupgrade ist nicht zulässig." />
+  <Property name="Str.UpgradeSerialNotEligible" value="Mit dieser Seriennummer kann kein Produktupgrade durchgeführt werden." />
+  <Property name="Str.UpgradeSerialNotValid" value="Diese Seriennummer ist ungültig. Überprüfen Sie Ihre Eingabe." />
+    <Property name="Str.UpgradeNotSupported" value="Seriennummern für Upgrades können für Installation über die Befehlszeile nicht verwendet werden. Geben Sie diese Seriennummer über die Setup-Benutzeroberfläche ein oder verwenden Sie eine andere Seriennummer in Ihrer Befehlszeile." />
+
+    <Property name="Str.ProgressText.Default" value="%d%% abgeschlossen" comment="this is the default progress text, you can override it using 'progresstext' attribute on the msi or dbm node -- optional %d%% is populated with the percent complete"/>
+    <Property name="Str.Running.VBA.exe.text" value="Visual Basic for Applications wird konfiguriert..."/>
+    <Property name="Str.CacheSetupSource.Progress.text" value="Setup-Dateien werden vorbereitet..."/>
+
+    <Property name="Str.Text.RequiredFeature" value="(Benötigt)"/>
+
+    <Property name="Str.ProgressText.Common" value="%d%% abgeschlossen - CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.Capture" value="%d%% abgeschlossen - CorelDRAW CAPTURE wird konfiguriert..."/>
+    <Property name="Str.ProgressText.Draw" value="%d%% abgeschlossen - CorelDRAW wird konfiguriert..."/>
+    <Property name="Str.ProgressText.Paint" value="%d%% abgeschlossen - CorelDRAW PHOTO-PAINT wird konfiguriert..."/>
+    <Property name="Str.ProgressText.CS" value="%d%% abgeschlossen - Das Sprachpaket für vereinfachtes Chinesisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.CT" value="%d%% abgeschlossen - Das Sprachpaket für traditionelles Chinesisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.CZ" value="%d%% abgeschlossen - Das Sprachpaket für Tschechisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.NL" value="%d%% abgeschlossen - Das Sprachpaket für Niederländisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.EN" value="%d%% abgeschlossen - Das Sprachpaket für Englisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.SU" value="%d%% abgeschlossen - Das Sprachpaket für Finnisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.FR" value="%d%% abgeschlossen - Das Sprachpaket für Französisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.DE" value="%d%% abgeschlossen - Das Sprachpaket für Deutsch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.MA" value="%d%% abgeschlossen - Das Sprachpaket für Ungarisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.IT" value="%d%% abgeschlossen - Das Sprachpaket für Italienisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.JP" value="%d%% abgeschlossen - Das Sprachpaket für Japanisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.KR" value="%d%% abgeschlossen - Das Sprachpaket für Koreanisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.PL" value="%d%% abgeschlossen - Das Sprachpaket für Polnisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.BR" value="%d%% abgeschlossen - Das Sprachpaket für Portugiesisch (Brasilien) der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.RU" value="%d%% abgeschlossen - Das Sprachpaket für Russisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.ES" value="%d%% abgeschlossen - Das Sprachpaket für Spanisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.SV" value="%d%% abgeschlossen - Das Sprachpaket für Schwedisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert"/>
+    <Property name="Str.ProgressText.TR" value="%d%% abgeschlossen – Das Sprachpaket für Türkisch der CorelDRAW Graphics Suite X6.1 wird konfiguriert."/>
+    <Property name="Str.ProgressText.Extras" value="Das Sprachpaket für Zusätzliche Komponenten"/>    
+    <Property name="Str.ProgressText.FontNav" value="%d%% abgeschlossen - Bitstream Font Navigator wird konfiguriert"/>
+    <Property name="Str.ProgressText.VBA" value="%d%% abgeschlossen - Microsoft Visual Basic for Applications wird konfiguriert..."/>
+    <Property name="Str.ProgressText.VSTA" value="%d%% abgeschlossen - Visual Studio Tools für Anwendungen"/>
+    <Property name="Str.ProgressText.VSTA.exe" value="Visual Studio Tools für Anwendungen wird konfiguriert..."/>
+    <Property name="Str.ProgressText.XML" value="%d%% abgeschlossen - Microsoft XML wird konfiguriert..."/>
+    <Property name="Str.ProgressText.ShellExt" value="%d%% abgeschlossen - Corel Windows-Shellerweiterung wird konfiguriert..."/>
+    <Property name="Str.ProgressText.IntelCompiler" value="CorelDRAW Graphics Suite X6.1 wird konfiguriert" />
+    <Property name="Str.Feature.Lang" value="Produktsprachen "/>
+    <Property name="Str.Feature.Lang.CS" value="Chinesisch (vereinfacht)"/>
+    <Property name="Str.Feature.Lang.CT" value="Chinesisch (traditionell)"/>
+    <Property name="Str.Feature.Lang.CZ" value="Tschechisch"/>
+    <Property name="Str.Feature.Lang.NL" value="Niederländisch"/>
+    <Property name="Str.Feature.Lang.EN" value="Englisch"/>
+    <Property name="Str.Feature.Lang.SU" value="Finnisch"/>
+    <Property name="Str.Feature.Lang.FR" value="Französisch"/>
+    <Property name="Str.Feature.Lang.DE" value="Deutsch"/>
+    <Property name="Str.Feature.Lang.MA" value="Ungarisch"/>
+    <Property name="Str.Feature.Lang.IT" value="Italienisch"/>
+    <Property name="Str.Feature.Lang.JP" value="Japanisch"/>
+    <Property name="Str.Feature.Lang.KR" value="Koreanisch"/>
+    <Property name="Str.Feature.Lang.PL" value="Polnisch"/>
+    <Property name="Str.Feature.Lang.BR" value="Portugiesisch"/>
+    <Property name="Str.Feature.Lang.RU" value="Russisch"/>
+    <Property name="Str.Feature.Lang.ES" value="Spanisch"/>
+    <Property name="Str.Feature.Lang.SV" value="Schwedisch"/>
+    <Property name="Str.Feature.Lang.TR" value="Türkisch"/>
+    <Property name="SETUP_LANG" value="DE"/>
+    <Property name="ICA.Lang.Transform" value="1031.mst"/>
+
+    <Property name="Str.Feature.Extras" value="CorelDRAW Graphics Suite X6.1 - Inhalte"/>
+    <Property name="Str.Feature.Extras.Desc" value="CorelDRAW Graphics Suite X6.1 - Inhalte installieren"/>
+    <Property name="Str.InstallContent" value="Möchten Sie die in CorelDRAW Graphics Suite X6.1 enthaltenen Inhalte und zusätzlichen Komponenten installieren?" />
+
+    <Property name="Str.Error.20000" value="Die Seriennummer ist ungültig."/>
+    <Property name="Str.Error.30000" value="WICHTIG: Sie müssen zuerst das Microsoft .NET Framework 4.0 installieren, bevor Sie CorelDRAW Graphics Suite X6.1 installieren können.  Weitere Informationen zum .NET Framework finden Sie auf der Microsoft-Website.&lt;br&gt;&lt;a href=&quot;http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7&quot; target=&quot;_blank&quot; onclick=&quot;window.external.EndModalLoop(0);&quot;&gt;http://www.microsoft.com/NET/&lt;/a&gt;&lt;br&gt;&lt;br&gt;"/>
+    <Property name="Str.Error.30001" value="Der Prozessor Ihres Computers erfüllt nicht die Mindestsystemanforderungen für die Software. Der Setup-Vorgang kann nicht abgeschlossen werden."/>
+    <Property name="Str.Error.30002" value="CorelDRAW Graphics Suite X6.1 kann nur unter Windows XP und Windows Vista installiert werden. Der Setup-Vorgang wird nun abgebrochen."/>
+    <Property name="Str.Error.30003" value="Sie verfügen nicht über die erforderlichen Berechtigungen, um diese Installation abzuschließen. Für diese Installation benötigen Sie Administrator- oder andere erweiterte Zugriffsrechte. Wenden Sie sich an den Administrator und versuchen Sie dann erneut, die Installation auszuführen."/>
+    <Property name="Str.Error.30004" value="WICHTIG: Sie müssen zuerst das Microsoft .NET Framework 4.0 installieren, bevor Sie CorelDRAW Graphics Suite X6.1 installieren können.  Weitere Informationen zum .NET Framework finden Sie auf der Microsoft-Website. 'http://www.microsoft.com/downloads/en/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7' - http://www.microsoft.com/NET/"/>
+    <Property name="Str.Error.30005" value="Die 64-Bit-Version von CorelDRAW Graphics Suite X6.1 kann nicht auf einem 32-Bit-System installiert werden."/> 
+    <Property name="Str.Error.30500" value="Auf diesem Computer ist bereits eine neuere Version dieser Anwendung installiert. Um diese Version zu installieren, müssen Sie zunächst die neuere Version deinstallieren." />
+    <Property name="Str.Error.30501" value="Sie können diese Testversion nicht installieren, da CorelDRAW Graphics Suite X6.1 bereits installiert ist. Deinstallieren Sie das vorhandene Produkt, bevor Sie die Testversion installieren."  comment="Yellow" />
+    <Property name="Str.UpgradeNotSupported" value="Seriennummern für Upgrades können für Installation über die Befehlszeile nicht verwendet werden. Geben Sie diese Seriennummer über die Setup-Benutzeroberfläche ein oder verwenden Sie eine andere Seriennummer in Ihrer Befehlszeile"/>
+    <Property name="Str.Error.1638" value="Sie können dieses Produkt nicht installieren, da bereits eine andere Version installiert ist. Um dieses Produkt zu installieren, müssen Sie zunächst die vorhandene Version deinstallieren. Klicken Sie auf Fertig stellen, um die Installation zu beenden." />
+    <Property name="Str.CDTS.Prompt" value="Auf Ihrem Computer wurde CorelDRAW Graphics Suite X6.1 gefunden. Corel DESIGNER Technical Suite X6 bietet Ihnen alle Funktionen von CorelDRAW Graphics Suite X6.1 und vieles mehr!\n\nKlicken Sie auf Abbrechen, wenn Sie kein Upgrade auf Corel DESIGNER Technical Suite X6 ausführen möchten." comment="Blue" />
+    <Property name="Str.CDTSTrial.Prompt" value="Auf Ihrem Computer wurde eine Testversion von Corel DESIGNER Technical Suite X6 gefunden. Klicken Sie auf Abbrechen, wenn Sie nicht möchten, dass diese Testversion deinstalliert und durch CorelDRAW Graphics Suite X6.1 ersetzt wird." comment="Purple" />
+    <Property name="Str.Error.30502" value="Sie können dieses Produkt nicht installieren, da bereits eine andere Version vorhanden ist." comment="Orange" />
+    <Property name="Str.Error.30503" value="Zur Installation dieses Produkts installieren Sie zuerst CorelDRAW Graphics Suite X6.1 und führen Sie anschließend das Setup erneut aus. Auf www.corel.com/draw können Sie CorelDRAW Graphics Suite X6.1 herunterladen." comment="Brown" />
+    <Property name="Str.Error.30504" value="CorelDRAW Essentials, CorelDRAW Home und Student Edition können nicht gleichzeitig auf einem Computer installiert werden. Ihr System wurde nicht geändert.  Sie müssen zuerst Ihr aktuelles CorelDRAW-Produkt deinstallieren, bevor Sie dieses Produkt installieren können." comment="Rust" />
+    <Property name="Str.Error.30505" value="Dieses Produkt ist mit Ihrer 32-Bit- oder 64-Bit-Version von CorelDRAW Graphics Suite X6.1 nicht kompatibel. Wählen Sie zur Installation des Produkts eine kompatible Version aus, und führen Sie das Setup anschließend erneut aus." comment="Green" />
+    <Property name="Str.Error.30506" value="Erwerben Sie zur Installation dieses Produkts zuerst CorelDRAW Graphics Suite X6.1 und führen Sie anschließend das Setup erneut aus." coment="Grey" />
+    <Property name="Str.Error.35001" value="&lt;b&gt;Details:&lt;/b&gt;&lt;br /&gt;Unable to validate the serial number. An Internet connection is required to complete the installation.&lt;br /&gt;&lt;br /&gt;" />
+    <Property name="Str.Error.30510" value="Eine Internetverbindung ist erforderlich. Stellen Sie Verbindung zum Internet her und versuchen Sie es erneut." />
+	<Property name="Str.Error.30511" value="Error: An unexpected error occurred on the server. Please check your Internet connection and try again later." />
+
+
+    <Property name="Str.DiskSpace.Bytes" value="Bytes"/>
+    <Property name="Str.DiskSpace.Kb" value="KB"/>
+    <Property name="Str.DiskSpace.MB" value="MB"/>
+    <Property name="Str.DiskSpace.GB" value="GB"/>
+    <Property name="Str.DiskSpace.TB" value="TB"/>
+    <Property name="Str.DiskSpace.RequiredString" value="%s von %s auf Laufwerk %s benötigt"/>
+    <Property name="Str.UpgradeProgressText" value="Anwendungen werden entfernt: "/>
+
+    <Property name="Str.Feature.Filters.GhostscriptGPL" value="GPL Ghostscript"/>
+    <Property name="Str.Feature.Filters.GhostscriptGPL.Installed.Text" value="&lt;b&gt;GPL Ghostscript (bereits installiert)&lt;/b&gt;"/>
+
+    <Property name="Str.PrerequisiteReboot.Prompt" value="Sie müssen Ihr System neu starten, um die Installation fortzusetzen.\n\nKlicken sie auf 'Ja', um sofort einen Neustart durchführen zu lassen, oder auf 'Nein', wenn Sie später manuell einen Neustart durchführen möchten."/>
+    
+
+    <Property name="Str.Required.Dlg.InstallComplete" value="Setup abgeschlossen"/>
+
+    <Property name="Setup_Billboard_1.png" value="Katarzyna Kobylkiewicz"/>
+    <Property name="Setup_Billboard_10.png" value="Владимр Соломатин"/>
+    <Property name="Setup_Billboard_11.png" value="Fabio  Selani - www.fabiosellani.blogspot.com"/>
+    <Property name="Setup_Billboard_12.png" value="Роман Полищук"/>
+    <Property name="Setup_Billboard_13.png" value="André Luiz dos Santo  - www.logomarca3d.com"/>
+    <Property name="Setup_Billboard_14.png" value="John Fernandez"/>
+    <Property name="Setup_Billboard_15.png" value="Riteshsingh Seeboruth"/>
+    <Property name="Setup_Billboard_16.png" value="Francisco Javier Hurtado Zarate"/>   
+    <Property name="Setup_Billboard_17.png" value="Muaviath Ali - www.muart-a.com"/>
+    <Property name="Setup_Billboard_18.png" value="Federico Nicolas Arroyuelo"/>   
+    <Property name="Setup_Billboard_19.png" value="Franziskus Pfleghart"/>
+    <Property name="Setup_Billboard_2.png" value="Rodolfo Biglie - www.creatorica.com"/>
+    <Property name="Setup_Billboard_20.png" value="Kanimozhi S N - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_21.png" value="Dhananjay Garg - www.dhananjaydgarg.blogspot.com"/>
+    <Property name="Setup_Billboard_22.png" value="Jaime Andres Grimaldos Pimiento - www.graficon.com"/>
+    <Property name="Setup_Billboard_23.png" value="Prem Kumar V - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_24.png" value="Tania Macias"/>
+    <Property name="Setup_Billboard_25.png" value="Deborah McIntyre"/>
+    <Property name="Setup_Billboard_26.png" value="Ramm ND"/>
+    <Property name="Setup_Billboard_27.png" value="Fayiza Kulsoom - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_28.png" value="Leva Griskaite"/>
+    <Property name="Setup_Billboard_29.png" value="Yogita  Butala"/>
+    <Property name="Setup_Billboard_3.png" value="Nanda Dixit"/>
+    <Property name="Setup_Billboard_30.png" value="Giulia Marchetti Hennings"/>
+    <Property name="Setup_Billboard_31.png" value="Adnan Nan - www.anabawang.blogspot.com"/>
+    <Property name="Setup_Billboard_32.png" value="Dmitri Demidenko"/>
+    <Property name="Setup_Billboard_33.png" value="Firman Hatibu"/>
+    <Property name="Setup_Billboard_34.png" value="Jairo Cataia"/>
+    <Property name="Setup_Billboard_35.png" value="Suhasini R - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_36.png" value="Алексей Оглушевич"/>
+    <Property name="Setup_Billboard_37.png" value="Дамир Галлямов"/>     
+    <Property name="Setup_Billboard_38.png" value="Michal Milkowski - www.tonic-art.com"/>
+    <Property name="Setup_Billboard_39.png" value="Pumesh Kumar"/>
+    <Property name="Setup_Billboard_4.png" value="Anastasios Pappas"/>   
+    <Property name="Setup_Billboard_40.png" value="Mariusz Grzyb"/> 
+    <Property name="Setup_Billboard_41.png" value="Marcin Chamala"/>
+    <Property name="Setup_Billboard_42.png" value="Panagiotis Intakidis"/>
+    <Property name="Setup_Billboard_43.png" value="Hao Lun Jhang"/>
+    <Property name="Setup_Billboard_44.png" value="Hiroshi Kurozumi - www.ne.jp/asahi/h-kurozumi/cdr/"/>
+    <Property name="Setup_Billboard_45.png" value="Adhi Noegroho"/>
+    <Property name="Setup_Billboard_46.png" value="Gentil  Jimenez - www.akermos.com"/>
+    <Property name="Setup_Billboard_47.png" value="Bennes Patio - www.ben2ty.co.nr"/>
+    <Property name="Setup_Billboard_48.png" value="Елена Олина"/>
+    <Property name="Setup_Billboard_49.png" value="Olga Pavlova - www.pavlova.us"/>
+    <Property name="Setup_Billboard_5.png" value="Divya  Priya  - www.arenaannanagar.com"/>
+    <Property name="Setup_Billboard_50.png" value="Tatiana Prokofieva"/>
+    <Property name="Setup_Billboard_6.png" value="Artsiom Aleksandrovich"/> 
+    <Property name="Setup_Billboard_7.png" value="Aditya Sawant"/>
+    <Property name="Setup_Billboard_8.png" value="Time Garvanliev"/> 
+    <Property name="Setup_Billboard_9.png" value="Noel Patrick Nesaraj Daniel"/>
+    
+    <Property name="Str.OutOfDiskSpace.Warning" value="Für die Installation ist nicht genügend Speicherplatz verfügbar." lang="German"/>
+
+  </Properties>
+</ICA>

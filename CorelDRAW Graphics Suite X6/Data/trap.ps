@@ -1,0 +1,7 @@
+%----------------------------------------------------------------------------
+%	Level3 In-RIP Trapping
+1 dict/wCorelTrapDict exch def wCorelTrapDict begin/CorelSetTrapParams{
+/Trapping/ProcSet resourcestatus{pop pop/Trapping/ProcSet findresource begin
+settrapparams end}{pop}ifelse}bind def/CorelSetTrapZone{/Trapping/ProcSet
+resourcestatus{pop pop/Trapping/ProcSet findresource begin settrapzone end}{
+newpath}ifelse}bind def end

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='Windows-1251' ?>
+
+<WebWorksHelpIX version="3.0">
+ <i t="OLE">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916537" />
+ </i>
+ <i t="анимаци&#1103;">
+  <j l="CorelDRAW_Recording_an_animation.html#wp916733" />
+ </i>
+ <i t="буфер обмена">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916537" />
+  <j l="CorelDRAW_Capturing_an_image.html#wp916551" />
+ </i>
+ <i t="выбор элементов окна">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916417" />
+ </i>
+ <i t="глубина цвета">
+  <j l="CorelDRAW_Setting_image_properties.html#wp916311" />
+  <i t="указание">
+   <j l="CorelDRAW_Setting_image_properties.html#wp916327" />
+  </i>
+ </i>
+ <i t="запись анимации">
+  <j l="CorelDRAW_Recording_an_animation.html#wp916733" />
+ </i>
+ <i t="захват">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916618" />
+  <j l="CorelDRAW_Capturing_an_image.html#wp916640" />
+  <i t="определенное окно">
+   <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916403" />
+  </i>
+  <i t="пользовательска&#1103; область">
+   <j l="CorelDRAW_Capturing_an_image.html#wp916640" />
+  </i>
+ </i>
+ <i t="захват курсора">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916245" />
+ </i>
+ <i t="захват окна приложени&#1103;">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916403" />
+ </i>
+ <i t="значок захвата">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916201" />
+ </i>
+ <i t="изображени&#1103;">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916665" />
+ </i>
+ <i t="изображени&#1103; в приложение">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916618" />
+ </i>
+ <i t="к файлам">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916591" />
+ </i>
+ <i t="курсор">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916201" />
+ </i>
+ <i t="масштабирование изображений">
+  <j l="CorelDRAW_Setting_image_properties.html#wp916376" />
+ </i>
+ <i t="область захвата">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916467" />
+ </i>
+ <i t="область свободной формы">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916467" />
+ </i>
+ <i t="окно">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916403" />
+  <i t="выбор">
+   <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916417" />
+  </i>
+ </i>
+ <i t="окно анимации">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916417" />
+ </i>
+ <i t="окно клиента">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916417" />
+ </i>
+ <i t="окно с прокруткой">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916417" />
+ </i>
+ <i t="параметры диалогового окна">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916285" />
+ </i>
+ <i t="параметры захвата">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916445" />
+ </i>
+ <i t="параметры захвата меню">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916445" />
+ </i>
+ <i t="период задержки">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916231" />
+  <i t="настройка">
+   <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916231" />
+  </i>
+ </i>
+ <i t="полный экран">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916417" />
+ </i>
+ <i t="пользовательска&#1103; область">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916640" />
+ </i>
+ <i t="пр&#1103;моугольна&#1103; область">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916467" />
+ </i>
+ <i t="принтер">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916537" />
+ </i>
+ <i t="путь к файлу">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916591" />
+ </i>
+ <i t="р&#1103;д изображений">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916665" />
+  <i t="захват">
+   <j l="CorelDRAW_Capturing_an_image.html#wp916665" />
+  </i>
+ </i>
+ <i t="размер изображени&#1103;">
+  <j l="CorelDRAW_Setting_image_properties.html#wp916356" />
+  <i t="указание">
+   <j l="CorelDRAW_Setting_image_properties.html#wp916356" />
+  </i>
+ </i>
+ <i t="разрешение">
+  <j l="CorelDRAW_Setting_image_properties.html#wp916344" />
+ </i>
+ <i t="разрешение изображени&#1103;">
+  <j l="CorelDRAW_Setting_image_properties.html#wp916311" />
+  <i t="указание">
+   <j l="CorelDRAW_Setting_image_properties.html#wp916344" />
+  </i>
+ </i>
+ <i t="сведени&#1103; о захвате">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916201" />
+ </i>
+ <i t="свойства изображени&#1103;">
+  <j l="CorelDRAW_Setting_image_properties.html#wp916311" />
+ </i>
+ <i t="скрытие значка">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916261" />
+ </i>
+ <i t="сочетани&#1103; клавиш">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916201" />
+ </i>
+ <i t="текущее окно">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916417" />
+ </i>
+ <i t="текущий курсор">
+  <j l="CorelDRAW_Preparing_to_capture_an_image.html#wp916245" />
+ </i>
+ <i t="текущий объект">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916417" />
+ </i>
+ <i t="файл">
+  <j l="CorelDRAW_Capturing_an_image.html#wp916537" />
+ </i>
+ <i t="часть окна">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916403" />
+ </i>
+ <i t="элементы дл&#1103; захвата">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916403" />
+ </i>
+ <i t="эллиптическа&#1103; область">
+  <j l="CorelDRAW_Specifying_the_window_elements_to_capture.html#wp916467" />
+ </i>
+</WebWorksHelpIX>

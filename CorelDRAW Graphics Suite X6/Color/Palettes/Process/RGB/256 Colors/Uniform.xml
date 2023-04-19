@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<palette resid="0012e15c-5d51-444b-a3b9-29280ad53c49" guid="2a244ca9-5e50-4397-82ae-ffec76a0d91d">
+<colors>
+<page>
+<color resid="fbeda834-e9e1-4099-a7c9-c0d8347bbb9f" cs="RGB" tints="0,0,0"></color>
+<color resid="3d307c22-23e3-44e6-80ad-65d69a3799e5" cs="RGB" tints="0.1,0.1,0.1"></color>
+<color resid="35909375-385b-4228-81e4-a2c3a6982328" cs="RGB" tints="0.2,0.2,0.2"></color>
+<color resid="99ad72ed-6c61-4bb8-abd9-ed46c3fddc9a" cs="RGB" tints="0.3,0.3,0.3"></color>
+<color resid="1bf246cd-24fd-49f9-a48a-00c926b3a8f7" cs="RGB" tints="0.4,0.4,0.4"></color>
+<color resid="8317186f-9bfc-4ef6-8a63-6105b7c88fb3" cs="RGB" tints="0.5,0.5,0.5"></color>
+<color resid="d10c5773-f340-402d-b3ab-0452ca44a3c7" cs="RGB" tints="0.6,0.6,0.6"></color>
+<color resid="3fc4f718-515b-450d-b594-bea87cbf9798" cs="RGB" tints="0.7,0.7,0.7"></color>
+<color resid="fa7b8173-3bcc-42ac-b877-bacb338c589b" cs="RGB" tints="0.8,0.8,0.8"></color>
+<color resid="4b5f8eae-3dfc-4583-a566-f69aa0dde0e4" cs="RGB" tints="0.9,0.9,0.9"></color>
+<color resid="3f6252bf-3135-47eb-b3ef-d9c08996af26" cs="RGB" tints="1,1,1"></color>
+<color resid="3ea2d068-0756-4b0a-9246-f97a82be283e" cs="RGB" tints="0,0,1"></color>
+<color name="100%B 20%G" cs="RGB" tints="0,0.2,1"></color>
+<color name="100%B 40%G" cs="RGB" tints="0,0.4,1"></color>
+<color name="100%B 60%G" cs="RGB" tints="0,0.6,1"></color>
+<color name="100%B 80%G" cs="RGB" tints="0,0.8,1"></color>
+<color resid="9eb845ea-917b-4453-b80d-e321323809c9" cs="RGB" tints="0,1,1"></color>
+<color name="100%G 80%B" cs="RGB" tints="0,1,0.8"></color>
+<color name="100%G 60%B" cs="RGB" tints="0,1,0.6"></color>
+<color name="100%G 40%B" cs="RGB" tints="0,1,0.4"></color>
+<color name="100%G 20%B" cs="RGB" tints="0,1,0.2"></color>
+<color resid="52ddf292-be82-4766-ad30-52a1cf1a4ca4" cs="RGB" tints="0,1,0"></color>
+<color name="100%G 20%R" cs="RGB" tints="0.2,1,0"></color>
+<color name="100%G 40%R" cs="RGB" tints="0.4,1,0"></color>
+<color name="100%G 60%R" cs="RGB" tints="0.6,1,0"></color>
+<color name="100%G 80%R" cs="RGB" tints="0.8,1,0"></color>
+<color resid="8c1fa200-e746-4742-bfb2-87876c29800c" cs="RGB" tints="1,1,0"></color>
+<color name="100%R 80%G" cs="RGB" tints="1,0.8,0"></color>
+<color name="100%R 60%G" cs="RGB" tints="1,0.6,0"></color>
+<color name="100%R 40%G" cs="RGB" tints="1,0.4,0"></color>
+<color name="100%R 20%G" cs="RGB" tints="1,0.2,0"></color>
+<color resid="9ff81497-d016-4055-9921-2dde45b8c01d" cs="RGB" tints="1,0,0"></color>
+<color name="100%R 20%B" cs="RGB" tints="1,0,0.2"></color>
+<color name="100%R 40%B" cs="RGB" tints="1,0,0.4"></color>
+<color name="100%R 60%B" cs="RGB" tints="1,0,0.6"></color>
+<color name="100%R 80%B" cs="RGB" tints="1,0,0.8"></color>
+<color resid="6891ae84-0611-4f2e-b5b5-05600a7a9773" cs="RGB" tints="1,0,1"></color>
+<color name="R51G0B102" cs="RGB" tints="0.2,0,0.4"></color>
+<color name="R51G51B102" cs="RGB" tints="0.2,0.2,0.4"></color>
+<color name="R51G102B102" cs="RGB" tints="0.2,0.4,0.4"></color>
+<color name="R51G153B102" cs="RGB" tints="0.2,0.6,0.4"></color>
+<color name="R51G204B102" cs="RGB" tints="0.2,0.8,0.4"></color>
+<color name="R51G255B102" cs="RGB" tints="0.2,1,0.4"></color>
+<color name="R153G204B102" cs="RGB" tints="0.6,0.8,0.4"></color>
+<color name="R153G153B102" cs="RGB" tints="0.6,0.6,0.4"></color>
+<color name="R153G102B102" cs="RGB" tints="0.6,0.4,0.4"></color>
+<color name="R153G51B102" cs="RGB" tints="0.6,0.2,0.4"></color>
+<color name="R153G0B102" cs="RGB" tints="0.6,0,0.4"></color>
+<color name="R0G0B0" cs="RGB" tints="0,0,0"></color>
+<color name="R0G0B51" cs="RGB" tints="0,0,0.2"></color>
+<color name="R0G0B102" cs="RGB" tints="0,0,0.4"></color>
+<color name="R0G0B153" cs="RGB" tints="0,0,0.6"></color>
+<color name="R0G0B204" cs="RGB" tints="0,0,0.8"></color>
+<color name="R0G0B255" cs="RGB" tints="0,0,1"></color>
+<color name="R0G51B0" cs="RGB" tints="0,0.2,0"></color>
+<color name="R0G51B51" cs="RGB" tints="0,0.2,0.2"></color>
+<color name="R0G51B102" cs="RGB" tints="0,0.2,0.4"></color>
+<color name="R0G51B153" cs="RGB" tints="0,0.2,0.6"></color>
+<color name="R0G51B204" cs="RGB" tints="0,0.2,0.8"></color>
+<color name="R0G51B255" cs="RGB" tints="0,0.2,1"></color>
+<color name="R0G102B0" cs="RGB" tints="0,0.4,0"></color>
+<color name="R0G102B51" cs="RGB" tints="0,0.4,0.2"></color>
+<color name="R0G102B102" cs="RGB" tints="0,0.4,0.4"></color>
+<color name="R0G102B153" cs="RGB" tints="0,0.4,0.6"></color>
+<color name="R0G102B204" cs="RGB" tints="0,0.4,0.8"></color>
+<color name="R0G102B255" cs="RGB" tints="0,0.4,1"></color>
+<color name="R0G153B0" cs="RGB" tints="0,0.6,0"></color>
+<color name="R0G153B51" cs="RGB" tints="0,0.6,0.2"></color>
+<color name="R0G153B102" cs="RGB" tints="0,0.6,0.4"></color>
+<color name="R0G153B153" cs="RGB" tints="0,0.6,0.6"></color>
+<color name="R0G153B204" cs="RGB" tints="0,0.6,0.8"></color>
+<color name="R0G153B255" cs="RGB" tints="0,0.6,1"></color>
+<color name="R0G204B0" cs="RGB" tints="0,0.8,0"></color>
+<color name="R0G204B51" cs="RGB" tints="0,0.8,0.2"></color>
+<color name="R0G204B102" cs="RGB" tints="0,0.8,0.4"></color>
+<color name="R0G204B153" cs="RGB" tints="0,0.8,0.6"></color>
+<color name="R0G204B204" cs="RGB" tints="0,0.8,0.8"></color>
+<color name="R0G204B255" cs="RGB" tints="0,0.8,1"></color>
+<color name="R0G255B0" cs="RGB" tints="0,1,0"></color>
+<color name="R0G255B51" cs="RGB" tints="0,1,0.2"></color>
+<color name="R0G255B102" cs="RGB" tints="0,1,0.4"></color>
+<color name="R0G255B153" cs="RGB" tints="0,1,0.6"></color>
+<color name="R0G255B204" cs="RGB" tints="0,1,0.8"></color>
+<color name="R0G255B255" cs="RGB" tints="0,1,1"></color>
+<color name="R51G0B0" cs="RGB" tints="0.2,0,0"></color>
+<color name="R51G0B51" cs="RGB" tints="0.2,0,0.2"></color>
+<color name="R51G0B153" cs="RGB" tints="0.2,0,0.6"></color>
+<color name="R51G0B204" cs="RGB" tints="0.2,0,0.8"></color>
+<color name="R51G0B255" cs="RGB" tints="0.2,0,1"></color>
+<color name="R51G51B0" cs="RGB" tints="0.2,0.2,0"></color>
+<color name="R51G51B51" cs="RGB" tints="0.2,0.2,0.2"></color>
+<color name="R51G51B153" cs="RGB" tints="0.2,0.2,0.6"></color>
+<color name="R51G51B204" cs="RGB" tints="0.2,0.2,0.8"></color>
+<color name="R51G51B255" cs="RGB" tints="0.2,0.2,1"></color>
+<color name="R51G102B0" cs="RGB" tints="0.2,0.4,0"></color>
+<color name="R51G102B51" cs="RGB" tints="0.2,0.4,0.2"></color>
+<color name="R51G102B153" cs="RGB" tints="0.2,0.4,0.6"></color>
+<color name="R51G102B204" cs="RGB" tints="0.2,0.4,0.8"></color>
+<color name="R51G102B255" cs="RGB" tints="0.2,0.4,1"></color>
+<color name="R51G153B0" cs="RGB" tints="0.2,0.6,0"></color>
+<color name="R51G153B51" cs="RGB" tints="0.2,0.6,0.2"></color>
+<color name="R51G153B153" cs="RGB" tints="0.2,0.6,0.6"></color>
+<color name="R51G153B204" cs="RGB" tints="0.2,0.6,0.8"></color>
+<color name="R51G153B255" cs="RGB" tints="0.2,0.6,1"></color>
+<color name="R51G204B0" cs="RGB" tints="0.2,0.8,0"></color>
+<color name="R51G204B51" cs="RGB" tints="0.2,0.8,0.2"></color>
+<color name="R51G204B153" cs="RGB" tints="0.2,0.8,0.6"></color>
+<color name="R51G204B204" cs="RGB" tints="0.2,0.8,0.8"></color>
+<color name="R51G204B255" cs="RGB" tints="0.2,0.8,1"></color>
+<color name="R51G255B0" cs="RGB" tints="0.2,1,0"></color>
+<color name="R51G255B51" cs="RGB" tints="0.2,1,0.2"></color>
+<color name="R51G255B153" cs="RGB" tints="0.2,1,0.6"></color>
+<color name="R51G255B204" cs="RGB" tints="0.2,1,0.8"></color>
+<color name="R51G255B255" cs="RGB" tints="0.2,1,1"></color>
+<color name="R102G0B0" cs="RGB" tints="0.4,0,0"></color>
+<color name="R102G0B51" cs="RGB" tints="0.4,0,0.2"></color>
+<color name="R102G0B102" cs="RGB" tints="0.4,0,0.4"></color>
+<color name="R102G0B153" cs="RGB" tints="0.4,0,0.6"></color>
+<color name="R102G0B204" cs="RGB" tints="0.4,0,0.8"></color>
+<color name="R102G0B255" cs="RGB" tints="0.4,0,1"></color>
+<color name="R102G51B0" cs="RGB" tints="0.4,0.2,0"></color>
+<color name="R102G51B51" cs="RGB" tints="0.4,0.2,0.2"></color>
+<color name="R102G51B102" cs="RGB" tints="0.4,0.2,0.4"></color>
+<color name="R102G51B153" cs="RGB" tints="0.4,0.2,0.6"></color>
+<color name="R102G51B204" cs="RGB" tints="0.4,0.2,0.8"></color>
+<color name="R102G51B255" cs="RGB" tints="0.4,0.2,1"></color>
+<color name="R102G102B0" cs="RGB" tints="0.4,0.4,0"></color>
+<color name="R102G102B51" cs="RGB" tints="0.4,0.4,0.2"></color>
+<color name="R102G102B102" cs="RGB" tints="0.4,0.4,0.4"></color>
+<color name="R102G102B153" cs="RGB" tints="0.4,0.4,0.6"></color>
+<color name="R102G102B204" cs="RGB" tints="0.4,0.4,0.8"></color>
+<color name="R102G102B255" cs="RGB" tints="0.4,0.4,1"></color>
+<color name="R102G153B0" cs="RGB" tints="0.4,0.6,0"></color>
+<color name="R102G153B51" cs="RGB" tints="0.4,0.6,0.2"></color>
+<color name="R102G153B102" cs="RGB" tints="0.4,0.6,0.4"></color>
+<color name="R102G153B153" cs="RGB" tints="0.4,0.6,0.6"></color>
+<color name="R102G153B204" cs="RGB" tints="0.4,0.6,0.8"></color>
+<color name="R102G153B255" cs="RGB" tints="0.4,0.6,1"></color>
+<color name="R102G204B0" cs="RGB" tints="0.4,0.8,0"></color>
+<color name="R102G204B51" cs="RGB" tints="0.4,0.8,0.2"></color>
+<color name="R102G204B102" cs="RGB" tints="0.4,0.8,0.4"></color>
+<color name="R102G204B153" cs="RGB" tints="0.4,0.8,0.6"></color>
+<color name="R102G204B204" cs="RGB" tints="0.4,0.8,0.8"></color>
+<color name="R102G204B255" cs="RGB" tints="0.4,0.8,1"></color>
+<color name="R102G255B0" cs="RGB" tints="0.4,1,0"></color>
+<color name="R102G255B51" cs="RGB" tints="0.4,1,0.2"></color>
+<color name="R102G255B102" cs="RGB" tints="0.4,1,0.4"></color>
+<color name="R102G255B153" cs="RGB" tints="0.4,1,0.6"></color>
+<color name="R102G255B204" cs="RGB" tints="0.4,1,0.8"></color>
+<color name="R102G255B255" cs="RGB" tints="0.4,1,1"></color>
+<color name="R153G0B0" cs="RGB" tints="0.6,0,0"></color>
+<color name="R153G0B51" cs="RGB" tints="0.6,0,0.2"></color>
+<color name="R153G0B153" cs="RGB" tints="0.6,0,0.6"></color>
+<color name="R153G0B204" cs="RGB" tints="0.6,0,0.8"></color>
+<color name="R153G0B255" cs="RGB" tints="0.6,0,1"></color>
+<color name="R153G51B0" cs="RGB" tints="0.6,0.2,0"></color>
+<color name="R153G51B51" cs="RGB" tints="0.6,0.2,0.2"></color>
+<color name="R153G51B153" cs="RGB" tints="0.6,0.2,0.6"></color>
+<color name="R153G51B204" cs="RGB" tints="0.6,0.2,0.8"></color>
+<color name="R153G51B255" cs="RGB" tints="0.6,0.2,1"></color>
+<color name="R153G102B0" cs="RGB" tints="0.6,0.4,0"></color>
+<color name="R153G102B51" cs="RGB" tints="0.6,0.4,0.2"></color>
+<color name="R153G102B153" cs="RGB" tints="0.6,0.4,0.6"></color>
+<color name="R153G102B204" cs="RGB" tints="0.6,0.4,0.8"></color>
+<color name="R153G102B255" cs="RGB" tints="0.6,0.4,1"></color>
+<color name="R153G153B0" cs="RGB" tints="0.6,0.6,0"></color>
+<color name="R153G153B51" cs="RGB" tints="0.6,0.6,0.2"></color>
+<color name="R153G153B153" cs="RGB" tints="0.6,0.6,0.6"></color>
+<color name="R153G153B204" cs="RGB" tints="0.6,0.6,0.8"></color>
+<color name="R153G153B255" cs="RGB" tints="0.6,0.6,1"></color>
+<color name="R153G204B0" cs="RGB" tints="0.6,0.8,0"></color>
+<color name="R153G204B51" cs="RGB" tints="0.6,0.8,0.2"></color>
+<color name="R153G204B153" cs="RGB" tints="0.6,0.8,0.6"></color>
+<color name="R153G204B204" cs="RGB" tints="0.6,0.8,0.8"></color>
+<color name="R153G204B255" cs="RGB" tints="0.6,0.8,1"></color>
+<color name="R153G255B0" cs="RGB" tints="0.6,1,0"></color>
+<color name="R153G255B51" cs="RGB" tints="0.6,1,0.2"></color>
+<color name="R153G255B102" cs="RGB" tints="0.6,1,0.4"></color>
+<color name="R153G255B153" cs="RGB" tints="0.6,1,0.6"></color>
+<color name="R153G255B204" cs="RGB" tints="0.6,1,0.8"></color>
+<color name="R153G255B255" cs="RGB" tints="0.6,1,1"></color>
+<color name="R204G0B0" cs="RGB" tints="0.8,0,0"></color>
+<color name="R204G0B51" cs="RGB" tints="0.8,0,0.2"></color>
+<color name="R204G0B102" cs="RGB" tints="0.8,0,0.4"></color>
+<color name="R204G0B153" cs="RGB" tints="0.8,0,0.6"></color>
+<color name="R204G0B204" cs="RGB" tints="0.8,0,0.8"></color>
+<color name="R204G0B255" cs="RGB" tints="0.8,0,1"></color>
+<color name="R204G51B0" cs="RGB" tints="0.8,0.2,0"></color>
+<color name="R204G51B51" cs="RGB" tints="0.8,0.2,0.2"></color>
+<color name="R204G51B102" cs="RGB" tints="0.8,0.2,0.4"></color>
+<color name="R204G51B153" cs="RGB" tints="0.8,0.2,0.6"></color>
+<color name="R204G51B204" cs="RGB" tints="0.8,0.2,0.8"></color>
+<color name="R204G51B255" cs="RGB" tints="0.8,0.2,1"></color>
+<color name="R204G102B0" cs="RGB" tints="0.8,0.4,0"></color>
+<color name="R204G102B51" cs="RGB" tints="0.8,0.4,0.2"></color>
+<color name="R204G102B102" cs="RGB" tints="0.8,0.4,0.4"></color>
+<color name="R204G102B153" cs="RGB" tints="0.8,0.4,0.6"></color>
+<color name="R204G102B204" cs="RGB" tints="0.8,0.4,0.8"></color>
+<color name="R204G102B255" cs="RGB" tints="0.8,0.4,1"></color>
+<color name="R204G153B0" cs="RGB" tints="0.8,0.6,0"></color>
+<color name="R204G153B51" cs="RGB" tints="0.8,0.6,0.2"></color>
+<color name="R204G153B102" cs="RGB" tints="0.8,0.6,0.4"></color>
+<color name="R204G153B153" cs="RGB" tints="0.8,0.6,0.6"></color>
+<color name="R204G153B204" cs="RGB" tints="0.8,0.6,0.8"></color>
+<color name="R204G153B255" cs="RGB" tints="0.8,0.6,1"></color>
+<color name="R204G204B0" cs="RGB" tints="0.8,0.8,0"></color>
+<color name="R204G204B51" cs="RGB" tints="0.8,0.8,0.2"></color>
+<color name="R204G204B102" cs="RGB" tints="0.8,0.8,0.4"></color>
+<color name="R204G204B153" cs="RGB" tints="0.8,0.8,0.6"></color>
+<color name="R204G204B204" cs="RGB" tints="0.8,0.8,0.8"></color>
+<color name="R204G204B255" cs="RGB" tints="0.8,0.8,1"></color>
+<color name="R204G255B0" cs="RGB" tints="0.8,1,0"></color>
+<color name="R204G255B51" cs="RGB" tints="0.8,1,0.2"></color>
+<color name="R204G255B102" cs="RGB" tints="0.8,1,0.4"></color>
+<color name="R204G255B153" cs="RGB" tints="0.8,1,0.6"></color>
+<color name="R204G255B204" cs="RGB" tints="0.8,1,0.8"></color>
+<color name="R204G255B255" cs="RGB" tints="0.8,1,1"></color>
+<color name="R255G0B0" cs="RGB" tints="1,0,0"></color>
+<color name="R255G0B51" cs="RGB" tints="1,0,0.2"></color>
+<color name="R255G0B102" cs="RGB" tints="1,0,0.4"></color>
+<color name="R255G0B153" cs="RGB" tints="1,0,0.6"></color>
+<color name="R255G0B204" cs="RGB" tints="1,0,0.8"></color>
+<color name="R255G0B255" cs="RGB" tints="1,0,1"></color>
+<color name="R255G51B0" cs="RGB" tints="1,0.2,0"></color>
+<color name="R255G51B51" cs="RGB" tints="1,0.2,0.2"></color>
+<color name="R255G51B102" cs="RGB" tints="1,0.2,0.4"></color>
+<color name="R255G51B153" cs="RGB" tints="1,0.2,0.6"></color>
+<color name="R255G51B204" cs="RGB" tints="1,0.2,0.8"></color>
+<color name="R255G51B255" cs="RGB" tints="1,0.2,1"></color>
+<color name="R255G102B0" cs="RGB" tints="1,0.4,0"></color>
+<color name="R255G102B51" cs="RGB" tints="1,0.4,0.2"></color>
+<color name="R255G102B102" cs="RGB" tints="1,0.4,0.4"></color>
+<color name="R255G102B153" cs="RGB" tints="1,0.4,0.6"></color>
+<color name="R255G102B204" cs="RGB" tints="1,0.4,0.8"></color>
+<color name="R255G102B255" cs="RGB" tints="1,0.4,1"></color>
+<color name="R255G153B0" cs="RGB" tints="1,0.6,0"></color>
+<color name="R255G153B51" cs="RGB" tints="1,0.6,0.2"></color>
+<color name="R255G153B102" cs="RGB" tints="1,0.6,0.4"></color>
+<color name="R255G153B153" cs="RGB" tints="1,0.6,0.6"></color>
+<color name="R255G153B204" cs="RGB" tints="1,0.6,0.8"></color>
+<color name="R255G153B255" cs="RGB" tints="1,0.6,1"></color>
+<color name="R255G204B0" cs="RGB" tints="1,0.8,0"></color>
+<color name="R255G204B51" cs="RGB" tints="1,0.8,0.2"></color>
+<color name="R255G204B102" cs="RGB" tints="1,0.8,0.4"></color>
+<color name="R255G204B153" cs="RGB" tints="1,0.8,0.6"></color>
+<color name="R255G204B204" cs="RGB" tints="1,0.8,0.8"></color>
+<color name="R255G204B255" cs="RGB" tints="1,0.8,1"></color>
+<color name="R255G255B0" cs="RGB" tints="1,1,0"></color>
+<color name="R255G255B51" cs="RGB" tints="1,1,0.2"></color>
+<color name="R255G255B102" cs="RGB" tints="1,1,0.4"></color>
+<color name="R255G255B153" cs="RGB" tints="1,1,0.6"></color>
+<color name="R255G255B204" cs="RGB" tints="1,1,0.8"></color>
+<color name="R255G255B255" cs="RGB" tints="1,1,1"></color>
+</page>
+</colors>
+<localization>
+<resource id="3f6252bf-3135-47eb-b3ef-d9c08996af26">
+<EN>White</EN>
+<BR>Branco</BR>
+<CS>白</CS>
+<CT>白色</CT>
+<CZ>Bílá</CZ>
+<DE>Weiß</DE>
+<ES>Blanco</ES>
+<FR>Blanc</FR>
+<IT>Bianco</IT>
+<JP>ホワイト</JP>
+<KR>흰색</KR>
+<MA>Fehér</MA>
+<NL>Wit</NL>
+<PL>Biały</PL>
+<RU>Белый</RU>
+<SU>Valkoinen</SU>
+<SV>Vitt</SV>
+<TR>Beyaz</TR>
+</resource>
+<resource id="fa7b8173-3bcc-42ac-b877-bacb338c589b">
+<EN>20% Black</EN>
+<BR>20% Preto</BR>
+<CS>20% 黑</CS>
+<CT>20% 黑色</CT>
+<CZ>20% černá</CZ>
+<DE>20% Schwarz</DE>
+<ES>20% Negro</ES>
+<FR>20% Noir</FR>
+<IT>20% Nero</IT>
+<JP>20% ブラック</JP>
+<KR>20% 검정</KR>
+<MA>20%-os fekete</MA>
+<NL>20% Zwart</NL>
+<PL>20% Czarny</PL>
+<RU>20% Черный</RU>
+<SU>20% Musta</SU>
+<SV>20% Svart</SV>
+<TR>%20 Siyah</TR>
+</resource>
+<resource id="9eb845ea-917b-4453-b80d-e321323809c9">
+<EN>Cyan</EN>
+<BR>Ciano</BR>
+<CS>青</CS>
+<CT>青藍色</CT>
+<CZ>Azurová</CZ>
+<ES>Cian</ES>
+<IT>Ciano</IT>
+<JP>シアン</JP>
+<KR>청록</KR>
+<MA>cián</MA>
+<NL>Cyaan</NL>
+<PL>Niebieskozielony</PL>
+<RU>Голубой</RU>
+<SU>Syaani</SU>
+</resource>
+<resource id="99ad72ed-6c61-4bb8-abd9-ed46c3fddc9a">
+<EN>70% Black</EN>
+<BR>70% Preto</BR>
+<CS>70% 黑</CS>
+<CT>70% 黑色</CT>
+<CZ>70% černá</CZ>
+<DE>70% Schwarz</DE>
+<ES>70% Negro</ES>
+<FR>70% Noir</FR>
+<IT>70% Nero</IT>
+<JP>70% ブラック</JP>
+<KR>70% 검정</KR>
+<MA>70%-os fekete</MA>
+<NL>70% Zwart</NL>
+<PL>70% Czarny</PL>
+<RU>70% Черный</RU>
+<SU>70% Musta</SU>
+<SV>70% Svart</SV>
+<TR>%70 Siyah</TR>
+</resource>
+<resource id="3fc4f718-515b-450d-b594-bea87cbf9798">
+<EN>30% Black</EN>
+<BR>30% Preto</BR>
+<CS>30% 黑</CS>
+<CT>30% 黑色</CT>
+<CZ>30% černá</CZ>
+<DE>30% Schwarz</DE>
+<ES>30% Negro</ES>
+<FR>30% Noir</FR>
+<IT>30% Nero</IT>
+<JP>30% ブラック</JP>
+<KR>30% 검정</KR>
+<MA>30%-os fekete</MA>
+<NL>30% Zwart</NL>
+<PL>30% Czarny</PL>
+<RU>30% Черный</RU>
+<SU>30% Musta</SU>
+<SV>30% Svart</SV>
+<TR>%30 Siyah</TR>
+</resource>
+<resource id="4b5f8eae-3dfc-4583-a566-f69aa0dde0e4">
+<EN>10% Black</EN>
+<BR>10% Preto</BR>
+<CS>10% 黑</CS>
+<CT>10% 黑色</CT>
+<CZ>10% černá</CZ>
+<DE>10% Schwarz</DE>
+<ES>10% Negro</ES>
+<FR>10% Noir</FR>
+<IT>10% Nero</IT>
+<JP>10% ブラック</JP>
+<KR>10% 검정</KR>
+<MA>10%-os fekete</MA>
+<NL>10% Zwart</NL>
+<PL>10% Czarny</PL>
+<RU>10% Черный</RU>
+<SU>10% Musta</SU>
+<SV>10% Svart</SV>
+<TR>%10 Siyah</TR>
+</resource>
+<resource id="d10c5773-f340-402d-b3ab-0452ca44a3c7">
+<EN>40% Black</EN>
+<BR>40% Preto</BR>
+<CS>40% 黑</CS>
+<CT>40% 黑色</CT>
+<CZ>40% černá</CZ>
+<DE>40% Schwarz</DE>
+<ES>40% Negro</ES>
+<FR>40% Noir</FR>
+<IT>40% Nero</IT>
+<JP>40% ブラック</JP>
+<KR>40% 검정</KR>
+<MA>40%-os fekete</MA>
+<NL>40% Zwart</NL>
+<PL>40% Czarny</PL>
+<RU>40% Черный</RU>
+<SU>40% Musta</SU>
+<SV>40% Svart</SV>
+<TR>%40 Siyah</TR>
+</resource>
+<resource id="9ff81497-d016-4055-9921-2dde45b8c01d">
+<EN>Red</EN>
+<BR>Vermehlo</BR>
+<CS>红</CS>
+<CT>紅色</CT>
+<CZ>Červená</CZ>
+<DE>Rot</DE>
+<ES>Rojo</ES>
+<FR>Rouge</FR>
+<IT>Rosso</IT>
+<JP>レッド</JP>
+<KR>빨강</KR>
+<MA>vörös</MA>
+<NL>Rood</NL>
+<PL>Czerwony</PL>
+<RU>Красный</RU>
+<SU>Punainen</SU>
+<SV>Rött</SV>
+<TR>Kırmızı</TR>
+</resource>
+<resource id="fbeda834-e9e1-4099-a7c9-c0d8347bbb9f">
+<EN>Black</EN>
+<BR>Preto</BR>
+<CS>黑</CS>
+<CT>黑色</CT>
+<CZ>Černá</CZ>
+<DE>Schwarz</DE>
+<ES>Negro</ES>
+<FR>Noir</FR>
+<IT>Nero</IT>
+<JP>ブラック</JP>
+<KR>검정</KR>
+<MA>Fekete</MA>
+<NL>Zwart</NL>
+<PL>Czarny</PL>
+<RU>Черный</RU>
+<SU>Musta</SU>
+<SV>Svart</SV>
+<TR>Siyah</TR>
+</resource>
+<resource id="52ddf292-be82-4766-ad30-52a1cf1a4ca4">
+<EN>Green</EN>
+<BR>Verde</BR>
+<CS>绿</CS>
+<CT>綠色</CT>
+<CZ>Zelená</CZ>
+<DE>Grün</DE>
+<ES>Verde</ES>
+<FR>Vert</FR>
+<IT>Verde</IT>
+<JP>グリーン</JP>
+<KR>녹색</KR>
+<MA>zöld</MA>
+<NL>Groen</NL>
+<PL>Zielony</PL>
+<RU>Зеленый</RU>
+<SU>Vihreä</SU>
+<SV>Grönt</SV>
+<TR>Yeşil</TR>
+</resource>
+<resource id="35909375-385b-4228-81e4-a2c3a6982328">
+<EN>80% Black</EN>
+<BR>80% Preto</BR>
+<CS>80% 黑</CS>
+<CT>80% 黑色</CT>
+<CZ>80% černá</CZ>
+<DE>80% Schwarz</DE>
+<ES>80% Negro</ES>
+<FR>80% Noir</FR>
+<IT>80% Nero</IT>
+<JP>80% ブラック</JP>
+<KR>80% 검정</KR>
+<MA>80%-os fekete</MA>
+<NL>80% Zwart</NL>
+<PL>80% Czarny</PL>
+<RU>80% Черный</RU>
+<SU>80% Musta</SU>
+<SV>80% Svart</SV>
+<TR>%80 Siyah</TR>
+</resource>
+<resource id="1bf246cd-24fd-49f9-a48a-00c926b3a8f7">
+<EN>60% Black</EN>
+<BR>60% Preto</BR>
+<CS>60% 黑</CS>
+<CT>60% 黑色</CT>
+<CZ>60% černá</CZ>
+<DE>60% Schwarz</DE>
+<ES>60% Negro</ES>
+<FR>60% Noir</FR>
+<IT>60% Nero</IT>
+<JP>60% ブラック</JP>
+<KR>60% 검정</KR>
+<MA>60%-os fekete</MA>
+<NL>60% Zwart</NL>
+<PL>60% Czarny</PL>
+<RU>60% Черный</RU>
+<SU>60% Musta</SU>
+<SV>60% Svart</SV>
+<TR>%60 Siyah</TR>
+</resource>
+<resource id="3ea2d068-0756-4b0a-9246-f97a82be283e">
+<EN>Blue</EN>
+<BR>Azul</BR>
+<CS>蓝</CS>
+<CT>藍色</CT>
+<CZ>Modrá</CZ>
+<DE>Blau</DE>
+<ES>Azul</ES>
+<FR>Bleu</FR>
+<IT>Blu</IT>
+<JP>ブルー</JP>
+<KR>파랑</KR>
+<MA>kék</MA>
+<NL>Blauw</NL>
+<PL>Niebieski</PL>
+<RU>Синий</RU>
+<SU>Sininen</SU>
+<SV>Blått</SV>
+<TR>Mavi</TR>
+</resource>
+<resource id="6891ae84-0611-4f2e-b5b5-05600a7a9773">
+<EN>Magenta</EN>
+<CS>洋红</CS>
+<CT>紫紅色</CT>
+<CZ>Purpurová</CZ>
+<JP>マゼンタ</JP>
+<KR>자홍</KR>
+<MA>bíbor</MA>
+<PL>Purpurowy</PL>
+<RU>Пурпурный</RU>
+</resource>
+<resource id="0012e15c-5d51-444b-a3b9-29280ad53c49">
+<EN>Uniform Colors</EN>
+<BR>Cores Uniformes</BR>
+<CS>标准色</CS>
+<CZ>Jednotné barvy</CZ>
+<DE>Standardfarben</DE>
+<ES>Colores uniformes</ES>
+<FR>Couleurs uniformes</FR>
+<IT>Colori Uniformi</IT>
+<JP>標準</JP>
+<MA>Egységes színek</MA>
+<NL>Uniforme kleuren</NL>
+<PL>Kolory standardowe</PL>
+<RU>Однородные цвета</RU>
+<SU>Yhtenäinen</SU>
+<SV>Rena färger</SV>
+<TR>Sabit Renkleri</TR>
+</resource>
+<resource id="8c1fa200-e746-4742-bfb2-87876c29800c">
+<EN>Yellow</EN>
+<BR>Amarelo</BR>
+<CS>黄</CS>
+<CT>黃色</CT>
+<CZ>Žlutá</CZ>
+<DE>Gelb</DE>
+<ES>Amarillo</ES>
+<FR>Jaune</FR>
+<IT>Giallo</IT>
+<JP>イエロー</JP>
+<KR>노란</KR>
+<MA>sárga</MA>
+<NL>Ged</NL>
+<PL>Żółty</PL>
+<RU>Желтый</RU>
+<SU>Keltainen</SU>
+<SV>Gult</SV>
+<TR>Sarı</TR>
+</resource>
+<resource id="8317186f-9bfc-4ef6-8a63-6105b7c88fb3">
+<EN>50% Black</EN>
+<BR>50% Preto</BR>
+<CS>50% 黑</CS>
+<CT>50% 黑色</CT>
+<CZ>50% černá</CZ>
+<DE>50% Schwarz</DE>
+<ES>50% Negro</ES>
+<FR>50% Noir</FR>
+<IT>50% Nero</IT>
+<JP>50% ブラック</JP>
+<KR>50% 검정</KR>
+<MA>50%-os fekete</MA>
+<NL>50% Zwart</NL>
+<PL>50% Czarny</PL>
+<RU>50% Черный</RU>
+<SU>50% Musta</SU>
+<SV>50% Svart</SV>
+<TR>%50 Siyah</TR>
+</resource>
+<resource id="3d307c22-23e3-44e6-80ad-65d69a3799e5">
+<EN>90% Black</EN>
+<BR>90% Preto</BR>
+<CS>90% 黑</CS>
+<CT>90% 黑色</CT>
+<CZ>90% černá</CZ>
+<DE>90% Schwarz</DE>
+<ES>90% Negro</ES>
+<FR>90% Noir</FR>
+<IT>90% Nero</IT>
+<JP>90% ブラック</JP>
+<KR>90% 검정</KR>
+<MA>90%-os fekete</MA>
+<NL>90% Zwart</NL>
+<PL>90% Czarny</PL>
+<RU>90% Черный</RU>
+<SU>90% Musta</SU>
+<SV>90% Svart</SV>
+<TR>%90 Siyah</TR>
+</resource>
+</localization>
+</palette>
+

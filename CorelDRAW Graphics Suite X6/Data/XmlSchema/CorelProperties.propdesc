@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+	This propdesc file contains the descriptions of CGS file custom properties.
+
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://schemas.microsoft.com/windows/2006/propertydescription"
+        schemaVersion="1.0">
+  <propertyDescriptionList publisher="Corel" product="CGS">
+		<!-- Corel.PropGroup.* -->
+		<propertyDescription name="Corel.PropGroup.GraphicObjects" formatID="{01C02975-0DB2-4DFE-80A1-324591D2ECBC}" propID="100">
+			<description>Graphic objects</description>
+			<typeInfo			type="Null"
+										isGroup="true"/>
+			<labelInfo		label="Graphic objects"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.PropGroup.Color" formatID="{2e04e82d-46a7-a480-404a-f66c3a0ae501}" propID="100">
+			<description>Color</description>
+			<typeInfo			type="Null"
+										isGroup="true"/>
+			<labelInfo		label="Color"/>
+		</propertyDescription>
+
+		<!-- Corel.Document.* -->
+    <propertyDescription name="Corel.Document.FontList" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="100">
+      <description>List of fonts used in a document</description>
+			<searchInfo		inInvertedIndex="true" 
+										isColumn="true" 
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="String" 
+										multipleValues="true" 
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+      <labelInfo		label="Fonts used"/>
+    </propertyDescription>
+
+		<propertyDescription name="Corel.Document.PageSizeName" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="101">
+			<description>Paper type name of the document page</description>
+			<searchInfo		inInvertedIndex="true"
+										isColumn="true"
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="String"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Paper size"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.PageOrientation" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="102">
+			<description>Document page orientation</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="UInt32"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="Paper orientation"/>
+			<displayInfo	displayType="Enumerated" >
+				<editControl control="DropList"/>
+				<enumeratedList>
+					<enum value="1" text="Portrait" />
+					<enum value="2" text="Landscape" />
+				</enumeratedList>
+			</displayInfo>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.ExternalBitmaps" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="103">
+			<description>List of externally linked bitmaps</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="External bitmaps"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.PageNames" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="104">
+			<description>List of page names</description>
+			<searchInfo		inInvertedIndex="true"
+										isColumn="true"
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Page names"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.LayerNames" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="105">
+			<description>List of layer names</description>
+			<searchInfo		inInvertedIndex="true"
+										isColumn="true"
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Layer names"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.ObjectNames" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="106">
+			<description>List of object names</description>
+			<searchInfo		inInvertedIndex="true"
+										isColumn="true"
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Object names"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.FontsEmbedded" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="107">
+			<description>Specifies whether fonts are embedded into the file</description>
+			<searchInfo		inInvertedIndex="false"/>
+			<typeInfo			type="Boolean"
+										multipleValues="false"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Fonts embedded"/>
+			<displayInfo	displayType="Boolean" >
+				<booleanFormat formatAs="YesNo" />
+			</displayInfo>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.ObjectCount" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="108">
+			<description>Number of objects in the document</description>
+			<searchInfo		inInvertedIndex="false"/>
+			<typeInfo			type="Int32"
+										multipleValues="false"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="Object count"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.Colors" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="109">
+			<description>List of color types used in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Colors"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.ObjectTypes" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="110">
+			<description>List of object types used in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Objects"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.Fills" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="111">
+			<description>List of fill types used in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Fills"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.Outlines" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="112">
+			<description>List of outline types used in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Outlines"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.Effects" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="113">
+			<description>List of effect types used in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Effects"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.Palettes" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="114">
+			<description>List of color palettes used in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Color palettes"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.Styles" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="115">
+			<description>List of styles used in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Styles"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.Languages" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="116">
+			<description>List of languages used in the document text</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Languages"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.SpotColors" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="117">
+			<description>List of spot colors used in the document text</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"/>
+			<typeInfo			type="String"
+										multipleValues="true"
+										isInnate="true"
+										aggregationType="Union"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Spot colors"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.RgbProfile" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="118">
+			<description>The RGB profile embedded in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"/>
+			<typeInfo			type="String"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="RGB Profile"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.CmykProfile" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="119">
+			<description>The CMYK profile embedded in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"/>
+			<typeInfo			type="String"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="CMYK Profile"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.GrayscaleProfile" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="120">
+			<description>The Grayscale profile embedded in the document</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"/>
+			<typeInfo			type="String"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Grayscale Profile"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.ColorMode" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="121">
+			<description>The document primary color mode</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="UInt32"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="Primary color mode"/>
+			<displayInfo	displayType="Enumerated" >
+				<editControl control="DropList"/>
+				<enumeratedList>
+					<enum value="0" text= "RGB" />
+					<enum value="1" text= "CMYK" />
+					<enum value="2" text= "Grayscale" />
+				</enumeratedList>
+			</displayInfo>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Document.RenderingIntent" formatID="{046359F1-7266-402E-B1BA-5558AFD576CD}" propID="122">
+			<description>The document rendering intent</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="UInt32"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="Rendering intent"/>
+			<displayInfo	displayType="Enumerated" >
+				<editControl control="DropList"/>
+				<enumeratedList>
+					<enum value="0" text= "Perceptual" />
+					<enum value="1" text= "Relative Colorimetric" />
+					<enum value="2" text= "Saturation" />
+					<enum value="3" text= "Absolute Colorimetric" />
+				</enumeratedList>
+			</displayInfo>
+		</propertyDescription>
+		
+		<!-- Corel.File.* -->
+
+		<propertyDescription name="Corel.File.BitmapCompression" formatID="{2B51404E-62C1-46B6-A319-90B63412D0EE}" propID="100">
+			<description>Specifies whether bitmaps are compressed in the file</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false" />
+			<typeInfo			type="Boolean"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="Bitmap compression"/>
+			<displayInfo	displayType="Boolean" >
+				<booleanFormat formatAs="OnOff" />
+			</displayInfo>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.File.GraphicCompression" formatID="{2B51404E-62C1-46B6-A319-90B63412D0EE}" propID="101">
+			<description>Specifies whether vectors are compressed in the file</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false" />
+			<typeInfo			type="Boolean"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="Graphic compression"/>
+			<displayInfo	displayType="Boolean" >
+				<booleanFormat formatAs="OnOff" />
+			</displayInfo>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.File.CompressionRatio" formatID="{2B51404E-62C1-46B6-A319-90B63412D0EE}" propID="102">
+			<description>Average data compression ratio</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="false" />
+			<typeInfo			type="String"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="Compression ratio"/>
+		</propertyDescription>
+
+		
+		<propertyDescription name="Corel.ImageFile.ColorMode" formatID="{060C0F4F-0B9C-442a-BB9F-D84DB3AFCE17}" propID="100">
+			<description>Image color mode</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"
+										columnIndexType="OnDisk"/>
+			<typeInfo			type="UInt32"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="false"/>
+			<labelInfo		label="Color mode"/>
+			<displayInfo	displayType="Enumerated" >
+				<editControl control="DropList"/>
+				<enumeratedList>
+					<enum value="0" text= "Unknown" />
+					<enum value="1" text= "RGB (24 bit)" />
+					<enum value="2" text= "CMY (24 bit)" />
+					<enum value="3" text= "CMYK (32 bit)" />
+					<enum value="4" text= "HSB" />
+					<enum value="5" text= "Grayscale (8 bit)" />
+					<enum value="6" text= "Black and White" />
+					<enum value="7" text= "HLS" />
+					<enum value="8" text= "Paletted (8 bit)" />
+					<enum value="9" text= "Paletted (4 bit)" />
+					<enum value="10" text= "Paletted" />
+					<enum value="11" text= "LAB" />
+					<enum value="12" text= "RGB (48 bit)" />
+					<enum value="13" text= "CMYK (64 bit)" />
+					<enum value="14" text= "Grayscale (16 bit)" />
+					<enum value="15" text= "RGB (96 bit)" />
+					<enum value="16" text= "Duotone" />
+					<enum value="17" text= "OpenGL" />
+					<enum value="18" text= "DeviceN" />
+					<enum value="19" text= "Spot color" />
+				</enumeratedList>
+			</displayInfo>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.ImageFile.ColorProfile" formatID="{060C0F4F-0B9C-442a-BB9F-D84DB3AFCE17}" propID="101">
+			<description>The color profile embedded with the image</description>
+			<searchInfo		inInvertedIndex="false"
+										isColumn="true"/>
+			<typeInfo			type="String"
+										multipleValues="false"
+										isInnate="true"
+										isViewable="true"
+										isQueryable="true"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label="Color Profile"/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Template.Sided" formatID="{3964030c-8e1b-43a3-4f9d-1730878f9375}" propID="100">
+			<description>Sided (bi-fold, tri-fold, etc.).</description>
+			<searchInfo		inInvertedIndex="true"/>
+			<typeInfo			type="String"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label=""/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Template.Folds" formatID="{3964030c-8e1b-43a3-4f9d-1730878f9375}" propID="101">
+			<description>Number of folds.</description>
+			<searchInfo		inInvertedIndex="true"/>
+			<typeInfo			type="String"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label=""/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Template.Type" formatID="{3964030c-8e1b-43a3-4f9d-1730878f9375}" propID="102">
+			<description>Type (banner, poster, etc.).</description>
+			<searchInfo		inInvertedIndex="true"/>
+			<typeInfo			type="String"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label=""/>
+		</propertyDescription>
+
+		<propertyDescription name="Corel.Template.Industry" formatID="{3964030c-8e1b-43a3-4f9d-1730878f9375}" propID="103">
+			<description>Industry (clothing, sign making, etc).</description>
+			<searchInfo		inInvertedIndex="true"/>
+			<typeInfo			type="String"
+										includeInFullTextQuery="true"/>
+			<labelInfo		label=""/>
+		</propertyDescription>
+
+	</propertyDescriptionList>
+</schema>

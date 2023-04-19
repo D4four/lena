@@ -1,0 +1,129 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:ICA="ICA">
+	<head>
+		<meta name="vs_showGrid" content="True" />
+		<title>Setup Wizard</title>
+		<LINK href="../../_XX/Required/Style.css" type="text/css" rel="STYLESHEET" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1" />
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+		<meta name="ICADlg" 
+		      content="text/html" 
+		      id="ICADlg" 
+		      ICA:DlgHW="550,480" 
+		      ICA:DlgTitle="Setup.exe /? - command line help" 
+		      ICA:PromptForCancel="no" />
+		
+		<style type="text/css">          	    .HelpTable 		    { 		        border-top-style: none; 	            border-right-style: none; 	            border-left-style: none; 	            border-bottom-style: none; 		    } 		                 .HelpItem             { 	            vertical-align: top; 	            font-size: 14px; 	            font-family: 'Segoe UI' , Tahoma; 	            border-bottom: gray 1px solid; 	            margin-top: 10px; 	            margin-bottom: 10px; 	            padding-top: 5; 	            padding-bottom: 5;             } 		</style>
+		
+	</head>
+	
+	<body>
+	
+	<div id="idContent"
+	     class="Panel"
+	     style="overflow: auto;
+	            padding: 5 5 5 5;
+	            border: double 3px silver;
+	            background-color: white;
+	            width: 450px;
+	            height: 440px; 
+	            text-align: left;">
+
+
+        <table id="idContentTable" cellspacing="0">
+        
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    Bu, Setup.exe ile kullanılan genel komut satırlarına yönelik hızlı başvuru kılavuzudur.<br /><br /> Setup.exe /Seçenek &lt;Gerekli Parametre&gt; [İsteğe Bağlı Parametre] <br /><br /> <u>Yükleme Seçenekleri:</u>
+                </td>
+            </tr>
+                        
+            <tr> <!-- /a admin -->
+                <td class="HelpItem" style="width: 55px;">/a</td>
+                <td class="HelpItem">
+                    Sunucu görüntüsü oluşturmak istediğinizi belirtir.  Yönetim yüklemesi - Ağda bir ürün yükler <br /><br /> Setup.exe /a
+                </td>
+            </tr>
+            
+            <tr> <!-- /x uninstall -->
+                <td class="HelpItem" style="width: 55px;">/x <br /> /uninstall</td>
+                <td class="HelpItem">
+                    Yazılımı kaldırmak istediğinizi belirtir.  Yönetim yüklemesi - Ağda bir ürün yükler <br /><br /> Setup.exe /x
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Görüntüleme Seçenekleri:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/q[n|b|r|f]</td>
+                <td class="HelpItem">
+                    Yükleme kullanıcı arabiriminin hangi ölçüde görüntüleneceğini belirler. <br /> n - UI Yok<br /> b - Temel UI<br /> r - Azaltılmış UI<br /> f - Tam UI (varsayılan)<br /><br /> Setup.exe /q
+        		</td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/quiet</td>
+                <td class="HelpItem">
+                    Sessiz mod, kullanıcı etkileşimi yok. /qn ile aynı
+        		</td>
+            </tr>
+            
+            <tr> <!-- /q silent -->
+                <td class="HelpItem" style="width: 55px;">/passive</td>
+                <td class="HelpItem">
+                    Katılımsız mod - yalnızca ilerleme çubuğu. /qb ile aynı
+        		</td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Günlüğe Kaydetme Seçenekleri:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /l log -->
+                <td class="HelpItem" style="width: 55px;">/l[i|w|e|a|r|u|c|m|o|p|v|x|*]</td>
+                <td class="HelpItem">
+                    Yükleme hakkındaki genel bilgileri bir günlük dosyasına kaydeder. Hiçbir yol ve dosya adı belirtmezseniz, günlük dosyası geçerli kullanıcının geçici klasöründe oluşturulur. <br /><br /> i - Durum mesajları <br /> w - Önemli olmayan uyarılar <br /> e - Tüm hata iletileri <br /> a - Eylemlerin başlatılması <br /> r - Eyleme özgü kayıtlar <br /> u - Kullanıcı istekleri <br /> c - Başlangıç UI parametreleri <br /> m - Bellek yetersiz veya önemli çıkış bilgisi <br /> o - Yetersiz disk alanı iletileri <br /> p - Terminal özellikleri <br /> v - Ayrıntılı çıkış <br /> x - Ek hata ayıklama bilgileri <br /> * - v ve x seçenekleri hariç bilgilerin tümünü günlüğe kaydet <br /><br /> Varsayılan: /lvoicewarmup<br /><br /> Setup.exe /l"C:\Install.log"
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Onarım Seçenekleri:</u>
+                </td>
+            </tr>
+            
+            <tr> <!-- /a admin -->
+                <td class="HelpItem" style="width: 55px;">/f[p|e|c|m|s|o|d|a|u]</td>
+                <td class="HelpItem">
+                Bir ürünü onarır.<br /> p - sadece dosya eksikse<br /> o - dosya eksikse veya eski bir sürüm yüklüyse (varsayılan)<br /> e - dosya eksikse veya eşdeğer ya da daha eski bir sürüm yüklüyse<br /> d - dosya eksikse veya farklı bir sürüm yüklüyse<br /> c - dosya eksikse veya sağlama toplamı hesaplanan değerle eşleşmiyorsa<br /> a - tüm dosyaların yeniden yüklenmesini zorlar<br /> u - tüm gerekli kullanıcıya özel kayıt girdileri (varsayılan)<br /> m - tüm gerekli bilgisayara özel kayıt girdileri (varsayılan)<br /> s - var olan kısayolların tümü (varsayılan)<br /> <br /><br /> Varsayılan: /foums<br /><br /> Setup.exe /f
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="HelpItem" colspan="2">
+                    <br /><br /> <u>Genel Özellikleri Ayarlama:</u><br /><br /> [PROPERTY=ÖzellikDeğeri]
+                </td>
+            </tr>
+        
+        </table> <!-- table id="idContentTable" -->
+
+    </div> <!-- id="idContent" -->
+
+	<div class="DlgBlock"
+	     style="text-align: right;
+	            width: 450px;
+	            top: 470px;">
+	            
+	    <button onclick="window.external.EndModalLoop(0);" ID="idOk" accesskey="O"><u>T</u>amam</button>
+	    
+    </div>
+		
+	</body>
+</html>

@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<palette resid="2c782565-9247-41f0-b8ba-2501e865ac47" guid="aa77b926-fc94-46fd-a5ce-77a874351cd0">
+<colors>
+<page>
+<color name="100%  Black" cs="Gray" tints="0"></color>
+<color name="99%  Black" cs="Gray" tints="0.01"></color>
+<color name="98%  Black" cs="Gray" tints="0.02"></color>
+<color name="97%  Black" cs="Gray" tints="0.03"></color>
+<color name="96%  Black" cs="Gray" tints="0.04"></color>
+<color name="95%  Black" cs="Gray" tints="0.05"></color>
+<color name="94%  Black" cs="Gray" tints="0.06"></color>
+<color name="93%  Black" cs="Gray" tints="0.07"></color>
+<color name="92%  Black" cs="Gray" tints="0.08"></color>
+<color name="91%  Black" cs="Gray" tints="0.09"></color>
+<color name="90%  Black" cs="Gray" tints="0.10"></color>
+<color name="89%  Black" cs="Gray" tints="0.11"></color>
+<color name="88%  Black" cs="Gray" tints="0.12"></color>
+<color name="87%  Black" cs="Gray" tints="0.13"></color>
+<color name="86%  Black" cs="Gray" tints="0.14"></color>
+<color name="85%  Black" cs="Gray" tints="0.15"></color>
+<color name="84%  Black" cs="Gray" tints="0.16"></color>
+<color name="83%  Black" cs="Gray" tints="0.17"></color>
+<color name="82%  Black" cs="Gray" tints="0.18"></color>
+<color name="81%  Black" cs="Gray" tints="0.19"></color>
+<color name="80%  Black" cs="Gray" tints="0.20"></color>
+<color name="79%  Black" cs="Gray" tints="0.21"></color>
+<color name="78%  Black" cs="Gray" tints="0.22"></color>
+<color name="77%  Black" cs="Gray" tints="0.23"></color>
+<color name="76%  Black" cs="Gray" tints="0.24"></color>
+<color name="75%  Black" cs="Gray" tints="0.25"></color>
+<color name="74%  Black" cs="Gray" tints="0.26"></color>
+<color name="73%  Black" cs="Gray" tints="0.27"></color>
+<color name="72%  Black" cs="Gray" tints="0.28"></color>
+<color name="71%  Black" cs="Gray" tints="0.29"></color>
+<color name="70%  Black" cs="Gray" tints="0.30"></color>
+<color name="69%  Black" cs="Gray" tints="0.31"></color>
+<color name="68%  Black" cs="Gray" tints="0.32"></color>
+<color name="67%  Black" cs="Gray" tints="0.33"></color>
+<color name="66%  Black" cs="Gray" tints="0.34"></color>
+<color name="65%  Black" cs="Gray" tints="0.35"></color>
+<color name="64%  Black" cs="Gray" tints="0.36"></color>
+<color name="63%  Black" cs="Gray" tints="0.37"></color>
+<color name="62%  Black" cs="Gray" tints="0.38"></color>
+<color name="61%  Black" cs="Gray" tints="0.39"></color>
+<color name="60%  Black" cs="Gray" tints="0.40"></color>
+<color name="59%  Black" cs="Gray" tints="0.41"></color>
+<color name="58%  Black" cs="Gray" tints="0.42"></color>
+<color name="57%  Black" cs="Gray" tints="0.43"></color>
+<color name="56%  Black" cs="Gray" tints="0.44"></color>
+<color name="55%  Black" cs="Gray" tints="0.45"></color>
+<color name="54%  Black" cs="Gray" tints="0.46"></color>
+<color name="53%  Black" cs="Gray" tints="0.47"></color>
+<color name="52%  Black" cs="Gray" tints="0.48"></color>
+<color name="51%  Black" cs="Gray" tints="0.49"></color>
+<color name="50%  Black" cs="Gray" tints="0.50"></color>
+<color name="49%  Black" cs="Gray" tints="0.51"></color>
+<color name="48%  Black" cs="Gray" tints="0.52"></color>
+<color name="47%  Black" cs="Gray" tints="0.53"></color>
+<color name="46%  Black" cs="Gray" tints="0.54"></color>
+<color name="45%  Black" cs="Gray" tints="0.55"></color>
+<color name="44%  Black" cs="Gray" tints="0.56"></color>
+<color name="43%  Black" cs="Gray" tints="0.57"></color>
+<color name="42%  Black" cs="Gray" tints="0.58"></color>
+<color name="41%  Black" cs="Gray" tints="0.59"></color>
+<color name="40%  Black" cs="Gray" tints="0.60"></color>
+<color name="39%  Black" cs="Gray" tints="0.61"></color>
+<color name="38%  Black" cs="Gray" tints="0.62"></color>
+<color name="37%  Black" cs="Gray" tints="0.63"></color>
+<color name="36%  Black" cs="Gray" tints="0.64"></color>
+<color name="35%  Black" cs="Gray" tints="0.65"></color>
+<color name="34%  Black" cs="Gray" tints="0.66"></color>
+<color name="33%  Black" cs="Gray" tints="0.67"></color>
+<color name="32%  Black" cs="Gray" tints="0.68"></color>
+<color name="31%  Black" cs="Gray" tints="0.69"></color>
+<color name="30%  Black" cs="Gray" tints="0.70"></color>
+<color name="29%  Black" cs="Gray" tints="0.71"></color>
+<color name="28%  Black" cs="Gray" tints="0.72"></color>
+<color name="27%  Black" cs="Gray" tints="0.73"></color>
+<color name="26%  Black" cs="Gray" tints="0.74"></color>
+<color name="25%  Black" cs="Gray" tints="0.75"></color>
+<color name="24%  Black" cs="Gray" tints="0.76"></color>
+<color name="23%  Black" cs="Gray" tints="0.77"></color>
+<color name="22%  Black" cs="Gray" tints="0.78"></color>
+<color name="21%  Black" cs="Gray" tints="0.79"></color>
+<color name="20%  Black" cs="Gray" tints="0.80"></color>
+<color name="19%  Black" cs="Gray" tints="0.81"></color>
+<color name="18%  Black" cs="Gray" tints="0.82"></color>
+<color name="17%  Black" cs="Gray" tints="0.83"></color>
+<color name="16%  Black" cs="Gray" tints="0.84"></color>
+<color name="15%  Black" cs="Gray" tints="0.85"></color>
+<color name="14%  Black" cs="Gray" tints="0.86"></color>
+<color name="13%  Black" cs="Gray" tints="0.87"></color>
+<color name="12%  Black" cs="Gray" tints="0.88"></color>
+<color name="11%  Black" cs="Gray" tints="0.89"></color>
+<color name="10%  Black" cs="Gray" tints="0.90"></color>
+<color name="9%  Black" cs="Gray" tints="0.91"></color>
+<color name="8%  Black" cs="Gray" tints="0.92"></color>
+<color name="7%  Black" cs="Gray" tints="0.93"></color>
+<color name="6%  Black" cs="Gray" tints="0.94"></color>
+<color name="5%  Black" cs="Gray" tints="0.95"></color>
+<color name="4%  Black" cs="Gray" tints="0.96"></color>
+<color name="3%  Black" cs="Gray" tints="0.97"></color>
+<color name="2%  Black" cs="Gray" tints="0.98"></color>
+<color name="1%  Black" cs="Gray" tints="0.99"></color>
+<color name="0%  Black" cs="Gray" tints="1"></color>
+</page>
+</colors>
+<localization>
+<resource id="2c782565-9247-41f0-b8ba-2501e865ac47">
+<EN>Percent Gray</EN>
+<BR>Porcentagem de cinza</BR>
+<CS>灰度百分比</CS>
+<CT>灰階百分比</CT>
+<CZ>Procenta šedé</CZ>
+<DE>Prozent Grau</DE>
+<ES>Porcentaje de gris</ES>
+<FR>Poucentage de noir</FR>
+<IT>Percentuale di grigio</IT>
+<JP>グレー(パーセント)</JP>
+<KR>회색의 퍼센트</KR>
+<MA>Százalékos szürke</MA>
+<NL>Grijspercentage</NL>
+<PL>Procentowa wartość szarości</PL>
+<RU>Процент серого</RU>
+<SU>Prosenttia harmaata</SU>
+<SV>Procent gråton</SV>
+<TR>Yüzdelerle Gri</TR>
+</resource>
+</localization>
+</palette>
+

@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='Windows-1251' ?>
+
+<WebWorksHelpIX version="3.0">
+ <i t="Corel CONNECT">
+  <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612652" />
+  <i t="добавление местоположений в область «Избранное»">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612729" />
+  </i>
+  <i t="изменение размеров областей">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612713" />
+  </i>
+  <i t="отображение и скрытие областей">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612721" />
+  </i>
+  <i t="удаление местоположений из области «Избранное»">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612742" />
+  </i>
+ </i>
+ <i t="библиотеки компонентов">
+  <i t="доступ">
+   <j l="CorelDRAW_Accessing_content.html#wp612812" />
+  </i>
+  <i t="на диске CD или DVD">
+   <j l="CorelDRAW_Accessing_content.html#wp612789" />
+  </i>
+  <i t="предыдущих версий">
+   <j l="CorelDRAW_Accessing_content.html#wp612797" />
+  </i>
+ </i>
+ <i t="веб-страницы">
+  <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612958" />
+ </i>
+ <i t="загрузка">
+  <i t="лотки">
+   <j l="CorelDRAW_Managing_content.html#wp611955" />
+  </i>
+ </i>
+ <i t="заливки узором">
+  <i t="установка">
+   <j l="CorelDRAW_Installing_pattern_fills_fonts.html#wp613168" />
+  </i>
+ </i>
+ <i t="замена">
+  <i t="изображени&#1103;-заготовки">
+   <j l="CorelDRAW_Using_content.html#wp613123" />
+  </i>
+ </i>
+ <i t="запуск">
+  <i t="Corel CONNECT">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612698" />
+  </i>
+ </i>
+ <i t="изображени&#1103;-заготовки">
+  <j l="CorelDRAW_Using_content.html#wp613052" />
+  <i t="проверка и замена">
+   <j l="CorelDRAW_Using_content.html#wp613123" />
+  </i>
+  <i t="просмотр списка">
+   <j l="CorelDRAW_Using_content.html#wp613147" />
+  </i>
+ </i>
+ <i t="интернет-контент">
+  <j l="CorelDRAW_Accessing_content.html#wp612752" />
+  <i t="доступ">
+   <j l="CorelDRAW_Accessing_content.html#wp612812" />
+  </i>
+  <i t="отключение доступа">
+   <j l="CorelDRAW_Accessing_content.html#wp611885" />
+  </i>
+ </i>
+ <i t="картинки">
+  <i t="обзор">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612850" />
+  </i>
+  <i t="поиск">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612850" />
+  </i>
+ </i>
+ <i t="контент">
+  <i t="вставка">
+   <j l="CorelDRAW_Using_content.html#wp613092" />
+  </i>
+  <i t="использование">
+   <j l="CorelDRAW_Using_content.html#wp613052" />
+  </i>
+  <i t="обзор">
+   <j l="CorelDRAW_Finding_and_managing_content.html#wp612550" />
+  </i>
+  <i t="открытие">
+   <j l="CorelDRAW_Using_content.html#wp613076" />
+  </i>
+  <i t="поиск">
+   <j l="CorelDRAW_Finding_and_managing_content.html#wp612550" />
+  </i>
+  <i t="укладка">
+   <j l="CorelDRAW_Using_content.html#wp611801" />
+  </i>
+  <i t="управление">
+   <j l="CorelDRAW_Managing_content.html#wp613201" />
+  </i>
+  <i t="хранение">
+   <j l="CorelDRAW_Finding_and_managing_content.html#wp612550" />
+  </i>
+ </i>
+ <i t="лотки">
+  <i t="выбор">
+   <j l="CorelDRAW_Managing_content.html#wp611913" />
+  </i>
+  <i t="загрузка">
+   <j l="CorelDRAW_Managing_content.html#wp611955" />
+  </i>
+  <i t="закрытие">
+   <j l="CorelDRAW_Managing_content.html#wp611945" />
+  </i>
+  <i t="навигаци&#1103;">
+   <j l="CorelDRAW_Managing_content.html#wp611965" />
+  </i>
+  <i t="открытие">
+   <j l="CorelDRAW_Managing_content.html#wp611933" />
+  </i>
+  <i t="переименование">
+   <j l="CorelDRAW_Managing_content.html#wp611923" />
+  </i>
+  <i t="создание">
+   <j l="CorelDRAW_Managing_content.html#wp613260" />
+  </i>
+  <i t="сохранение">
+   <j l="CorelDRAW_Managing_content.html#wp613274" />
+  </i>
+  <i t="удаление">
+   <j l="CorelDRAW_Managing_content.html#wp611975" />
+  </i>
+ </i>
+ <i t="обзор контента">
+  <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612850" />
+ </i>
+ <i t="Окно настройки «Лоток»">
+  <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612652" />
+  <i t="добавление контента в">
+   <j l="CorelDRAW_Managing_content.html#wp613227" />
+  </i>
+  <i t="удаление контента из">
+   <j l="CorelDRAW_Managing_content.html#wp613253" />
+  </i>
+ </i>
+ <i t="Окно настройки «Соединение с Connect»">
+  <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612652" />
+  <i t="добавление местоположений в область «Избранное»">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612729" />
+  </i>
+  <i t="изменение размеров областей">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612713" />
+  </i>
+  <i t="отображение и скрытие областей">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612721" />
+  </i>
+  <i t="удаление местоположений из области «Избранное»">
+   <j l="CorelDRAW_Exploring_Corel_CONNECT.html#wp612742" />
+  </i>
+ </i>
+ <i t="открытие">
+  <i t="контент">
+   <j l="CorelDRAW_Using_content.html#wp613076" />
+  </i>
+ </i>
+ <i t="поиск">
+  <i t="дл&#1103; содержимого">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612850" />
+  </i>
+ </i>
+ <i t="поиск изображений">
+  <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612958" />
+ </i>
+ <i t="поиск изображений на веб-странице">
+  <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612958" />
+ </i>
+ <i t="поиск контента">
+  <i t="повышение точности">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp611635" />
+  </i>
+ </i>
+ <i t="результаты поиска контента">
+  <i t="ограничение и расширение">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612964" />
+  </i>
+  <i t="отображение и скрытие">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp611615" />
+  </i>
+  <i t="параметры">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp611625" />
+  </i>
+ </i>
+ <i t="список изображений-заготовок">
+  <j l="CorelDRAW_Using_content.html#wp613147" />
+ </i>
+ <i t="укладка">
+  <i t="контент">
+   <j l="CorelDRAW_Using_content.html#wp611801" />
+  </i>
+ </i>
+ <i t="установка">
+  <i t="заливки узором">
+   <j l="CorelDRAW_Installing_pattern_fills_fonts.html#wp613168" />
+  </i>
+ </i>
+ <i t="фотографии">
+  <i t="обзор">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612850" />
+  </i>
+  <i t="поиск">
+   <j l="CorelDRAW_Browsing_and_searching_for_content.html#wp612850" />
+  </i>
+ </i>
+ <i t="шрифты">
+  <i t="установка">
+   <j l="CorelDRAW_Installing_pattern_fills_fonts.html#wp613168" />
+  </i>
+ </i>
+</WebWorksHelpIX>
